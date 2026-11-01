@@ -1,0 +1,491 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:21
+msgid "Video Editing Basics"
+msgstr "वीडियो संपादन के मूल बातें"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:23
+msgid ""
+"You do not need to be a trained videographer to understand how to create "
+"videos well. Simple editing can keep your viewers engaged longer, and add a "
+"professional feel, even if you are not a professional video editor."
+msgstr ""
+"वीडियो बनाने के लिए प्रशिक्षित वीडियोग्राफर होने की आवश्यकता नहीं है। सरल "
+"संपादन आपके दर्शकों को अधिक समय तक जोड़े रख सकता है, और एक पेशेवर अनुभव जोड़"
+" सकता है, भले ही आप पेशेवर वीडियो संपादक न हों।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:27
+msgid ""
+"Basically, video editing is taking footage, cutting it up, removing the "
+"pieces you do not want, and keeping the bits you do. Back in the old days, "
+"editing was slicing reels of film and piecing it together. Thankfully "
+"software makes the whole process much more manageable."
+msgstr ""
+"मूल रूप से, वीडियो संपादन में फुटेज लेना, उसे काटना, अनचाहे हिस्से हटाना, और"
+" जो हिस्से चाहिए उन्हें रखना शामिल है। पुराने समय में, संपादन फिल्म की रील्स"
+" को काटकर जोड़ने जैसा था। सौभाग्य से, सॉफ़्टवेयर इस पूरी प्रक्रिया को बहुत "
+"अधिक प्रबंधनीय बनाता है।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:32
+msgid "There are three main jobs of video editing:"
+msgstr "वीडियो संपादन के तीन मुख्य कार्य हैं:"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:34
+msgid "Remove mistakes or unwanted sections"
+msgstr "गलतियाँ या अनचाहे हिस्से हटाएं"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:35
+msgid "Keep the video moving at an engaging pace"
+msgstr "वीडियो को आकर्षक गति से चलाएं"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:36
+msgid "Insert supporting footage, audio, or titles"
+msgstr "सहायक फुटेज, ऑडियो, या शीर्षक डालें"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:38
+msgid "Use these three points as a checklist as you edit."
+msgstr "संपादन करते समय इन तीन बिंदुओं का उपयोग चेकलिस्ट के रूप में करें।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:41
+msgid "Computer"
+msgstr "कंप्यूटर"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:42
+msgid ""
+"Video editing does not require an expensive machine, especially if you are a"
+" beginner. However, it would be best if you had a more recent monitor and "
+"graphics card. If you have an older computer, check your system "
+"specifications against OpenShot's :ref:`min_system_req_ref` to make sure it "
+"works for video editing. Unfortunately, many older computers are not fast "
+"enough for video editing, and you should upgrade your whole system, if "
+"possible."
+msgstr ""
+"वीडियो संपादन के लिए महंगा मशीन जरूरी नहीं है, खासकर यदि आप शुरुआत कर रहे "
+"हैं। हालांकि, आपके पास एक नया मॉनिटर और ग्राफिक्स कार्ड होना बेहतर होगा। यदि"
+" आपका कंप्यूटर पुराना है, तो OpenShot के :ref:`min_system_req_ref` के अनुसार"
+" अपनी सिस्टम विनिर्देश जांचें ताकि यह सुनिश्चित हो सके कि यह वीडियो संपादन "
+"के लिए उपयुक्त है। दुर्भाग्य से, कई पुराने कंप्यूटर वीडियो संपादन के लिए "
+"पर्याप्त तेज़ नहीं होते, और यदि संभव हो तो आपको पूरा सिस्टम अपग्रेड करना "
+"चाहिए।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:50
+msgid "Accessories"
+msgstr "सामान"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:51
+msgid ""
+"Before beginning a video project, ensure there is enough storage space on "
+"your computer to save all the necessary clips. For example, one hour of "
+"1080i video, such as from a mini-DV camcorder, takes up nearly 11 GB of "
+"storage. If your computer's internal storage device cannot store all the "
+"clips, the solution is to buy an external drive."
+msgstr ""
+"वीडियो प्रोजेक्ट शुरू करने से पहले, सुनिश्चित करें कि आपके कंप्यूटर में सभी "
+"आवश्यक क्लिप्स को सहेजने के लिए पर्याप्त स्टोरेज स्पेस हो। उदाहरण के लिए, एक"
+" घंटे का 1080i वीडियो, जैसे कि मिनी-DV कैमकॉर्डर से, लगभग 11 GB स्टोरेज लेता"
+" है। यदि आपके कंप्यूटर का आंतरिक स्टोरेज सभी क्लिप्स को स्टोर नहीं कर सकता, "
+"तो समाधान एक बाहरी ड्राइव खरीदना है।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:57
+msgid ""
+"It would help if you had several cables, usually Firewire or USB, to connect"
+" your computer, external hard drive, and a camera. Different computers and "
+"cameras accept other connectors, so check your manuals before buying "
+"anything."
+msgstr ""
+"आपके पास कई केबल्स होने चाहिए, आमतौर पर Firewire या USB, जो आपके कंप्यूटर, "
+"बाहरी हार्ड ड्राइव, और कैमरा को जोड़ने के लिए आवश्यक हैं। विभिन्न कंप्यूटर "
+"और कैमरे अलग-अलग कनेक्टर्स स्वीकार करते हैं, इसलिए कुछ भी खरीदने से पहले "
+"अपने मैनुअल जांचें।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:63
+msgid "Practical Tips"
+msgstr "व्यावहारिक सुझाव"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:64
+msgid ""
+"Becoming a great video editor isn’t effortless, but with practice and "
+"patience, you’ll be editing like a professional in no time. Here are a few "
+"of the essential tips and techniques you need to know to become a skilled "
+"video editor."
+msgstr ""
+"एक महान वीडियो संपादक बनना आसान नहीं है, लेकिन अभ्यास और धैर्य के साथ, आप "
+"जल्द ही पेशेवर की तरह संपादन करने लगेंगे। यहाँ कुछ आवश्यक सुझाव और तकनीकें "
+"हैं जिन्हें जानना आपके लिए फायदेमंद होगा।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:69
+msgid "Pick the Right Computer"
+msgstr "सही कंप्यूटर चुनें"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:70
+msgid ""
+"While having a great computer won’t necessarily make you a great video "
+"editor, a faster computer will allow you to focus more of your time on the "
+"story you’re trying to tell rather than your computer rendering. Everyone "
+"has their own opinions about what computer is best for editing, but it all "
+"depends on your own preferences."
+msgstr ""
+"एक अच्छा कंप्यूटर होना जरूरी नहीं कि आपको महान वीडियो संपादक बनाए, लेकिन "
+"तेज़ कंप्यूटर आपको कंप्यूटर रेंडरिंग की बजाय अपनी कहानी पर अधिक ध्यान "
+"केंद्रित करने देगा। हर किसी की अपनी राय होती है कि संपादन के लिए कौन सा "
+"कंप्यूटर सबसे अच्छा है, लेकिन यह आपकी अपनी प्राथमिकताओं पर निर्भर करता है।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:77
+msgid "Keep Shooting"
+msgstr "शूटिंग जारी रखें"
+
+#: ../getting_started.rst:78
+msgid ""
+"Record more video and audio than you think you will need for your project. "
+"Include video that enhances the scene, sets a mood, or tells a story. You "
+"can use the extra video for smooth transitions in your project. If your "
+"project requires voice overs, narration, screen capture, or webcam footage, "
+"you can use :guilabel:`View->Recording View` to open OpenShot's recording "
+"tools. For more details, including microphone, system audio, screen, and "
+"webcam options, see :ref:`recording_ref`. For more specialized capture "
+"workflows, you can still record with an external application and import the "
+"finished media into OpenShot."
+msgstr ""
+"अपने प्रोजेक्ट के लिए जितनी आवश्यकता हो उससे अधिक वीडियो और ऑडियो रिकॉर्ड "
+"करें। ऐसे वीडियो शामिल करें जो दृश्य को बेहतर बनाएं, माहौल सेट करें, या "
+"कहानी बताएं। आप अपने प्रोजेक्ट में सुचारू संक्रमण के लिए अतिरिक्त वीडियो का "
+"उपयोग कर सकते हैं। यदि आपके प्रोजेक्ट में वॉइस ओवर, वर्णन, स्क्रीन कैप्चर, "
+"या वेबकैम फुटेज की आवश्यकता है, तो आप OpenShot के रिकॉर्डिंग टूल खोलने के "
+"लिए :guilabel:`View->Recording View` का उपयोग कर सकते हैं। माइक्रोफोन, "
+"सिस्टम ऑडियो, स्क्रीन, और वेबकैम विकल्पों सहित अधिक विवरण के लिए, "
+":ref:`recording_ref` देखें। अधिक विशेष कैप्चर वर्कफ़्लो के लिए, आप बाहरी "
+"एप्लिकेशन के साथ रिकॉर्ड कर सकते हैं और तैयार मीडिया को OpenShot में आयात कर"
+" सकते हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:88
+msgid "Organize Your Project Files"
+msgstr "अपने प्रोजेक्ट फाइल्स व्यवस्थित करें"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:89
+msgid ""
+"Composition is the key to success, whether you are running Linux, on a Mac, "
+"or a Windows machine. Be sure to label video files, audio files, and even "
+"still images clearly and keep all your clips on the same device and in the "
+"same folder for easy access. OpenShot tries to keep up with your clips, but "
+"if you move them after your project is saved, you could lose your entire "
+"project. Organizing before you begin editing can be very advantageous."
+msgstr ""
+"संगठन सफलता की कुंजी है, चाहे आप Linux, Mac, या Windows मशीन पर काम कर रहे "
+"हों। वीडियो फाइल्स, ऑडियो फाइल्स, और स्थिर छवियों को स्पष्ट रूप से लेबल करें"
+" और सभी क्लिप्स को एक ही डिवाइस और एक ही फोल्डर में रखें ताकि आसानी से "
+"पहुंचा जा सके। OpenShot आपके क्लिप्स के साथ तालमेल बनाए रखने की कोशिश करता "
+"है, लेकिन यदि आप प्रोजेक्ट सेव करने के बाद उन्हें स्थानांतरित करते हैं, तो "
+"आपका पूरा प्रोजेक्ट खो सकता है। संपादन शुरू करने से पहले व्यवस्थित करना बहुत"
+" लाभकारी हो सकता है।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:98
+msgid "Watch Everything"
+msgstr "सब कुछ देखें"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:99
+msgid ""
+"Watching everything is the first step in the editing process. Writer and "
+"filmmaker David Andrew Stoler says there is gold in the most unlikely of "
+"places: \"Some of the most beautiful expressions you're going to get from "
+"the actors are after the cut.\""
+msgstr ""
+"सब कुछ देखना संपादन प्रक्रिया का पहला कदम है। लेखक और फिल्म निर्माता डेविड "
+"एंड्रयू स्टोलर कहते हैं कि सबसे अप्रत्याशित जगहों में भी सोना होता है: "
+"\"अभिनेताओं से मिलने वाले सबसे सुंदर भाव कट के बाद होते हैं।\""
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:105
+msgid "Edit for a Story"
+msgstr "कहानी के लिए संपादित करें"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:106
+msgid ""
+"Remember that as you edit, you are telling a story. Editing is so much more "
+"than merely cutting footage and adding effects. It is an opportunity to take"
+" your audience on a journey. Whether you are editing a complex narrative "
+"film or only putting together a personal video, you tell a more in-depth "
+"story."
+msgstr ""
+"ध्यान रखें कि आप संपादन करते समय एक कहानी बता रहे हैं। संपादन केवल फुटेज "
+"काटने और प्रभाव जोड़ने से कहीं अधिक है। यह आपके दर्शकों को एक यात्रा पर ले "
+"जाने का अवसर है। चाहे आप एक जटिल कथा फिल्म संपादित कर रहे हों या केवल एक "
+"व्यक्तिगत वीडियो बना रहे हों, आप एक गहरी कहानी बताते हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:113
+msgid "Keyboard Shortcuts"
+msgstr "कीबोर्ड शॉर्टकट्स"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:114
+msgid ""
+"One of the easiest ways to tell the difference between and professional "
+"video editor and a novice is to simply look at how much they use the "
+"keyboard. Editors that have been in the business for some time know that a "
+"few seconds saved add up over the length of the project."
+msgstr ""
+"एक पेशेवर वीडियो संपादक और नौसिखिए के बीच अंतर बताने के सबसे आसान तरीकों में"
+" से एक यह देखना है कि वे कीबोर्ड का कितना उपयोग करते हैं। जो संपादक कुछ समय "
+"से इस व्यवसाय में हैं, वे जानते हैं कि कुछ सेकंड की बचत पूरे प्रोजेक्ट के "
+"दौरान बहुत मायने रखती है।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:120
+msgid "Learn the Lingo"
+msgstr "शब्दावली सीखें"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:121
+msgid ""
+"Video editing is not just a hobby or a profession; it is an industry. And "
+"just like any industry, there is a ton of jargon to learn. Practically "
+"speaking, you do not need to know all the terms on the :ref:`glossary_ref` "
+"to become a better video editor, but a fundamental knowledge of the terms "
+"may help you communicate better with other video editors or clients."
+msgstr ""
+"वीडियो संपादन केवल एक शौक या पेशा नहीं है; यह एक उद्योग है। और किसी भी "
+"उद्योग की तरह, इसे सीखने के लिए बहुत सारी शब्दावली होती है। व्यावहारिक रूप "
+"से, बेहतर वीडियो संपादक बनने के लिए आपको :ref:`glossary_ref` में सभी शब्दों "
+"को जानने की आवश्यकता नहीं है, लेकिन इन शब्दों का मूल ज्ञान आपको अन्य वीडियो "
+"संपादकों या क्लाइंट्स के साथ बेहतर संवाद करने में मदद कर सकता है।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:129
+msgid "Assemble, Then Make a Rough Cut"
+msgstr "संग्रह करें, फिर एक मोटा कट बनाएं"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:130
+msgid ""
+"Drag and drop all your video footage into a timeline and make sure your "
+"frame size and frame rates are consistent. Begin a new timeline and drag-"
+"and-drop the best clips into what becomes your assembly cut. Remember to "
+"save your work frequently, and notate the date and time of each version."
+msgstr ""
+"अपना सारा वीडियो फुटेज एक टाइमलाइन में ड्रैग और ड्रॉप करें और सुनिश्चित करें"
+" कि आपका फ्रेम साइज और फ्रेम रेट्स सुसंगत हों। एक नई टाइमलाइन शुरू करें और "
+"सर्वश्रेष्ठ क्लिप्स को ड्रैग-एंड-ड्रॉप करके अपनी असेंबली कट बनाएं। अपने काम "
+"को बार-बार सहेजना न भूलें, और प्रत्येक संस्करण की तारीख और समय नोट करें।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:136
+msgid "Refine Your Video"
+msgstr "अपने वीडियो को परिष्कृत करें"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:137
+msgid ""
+"In this phase, your rough cut begins to resemble a cohesive project. Adjust "
+"the sound and color, make sure the dialog is audible, and add music, titles,"
+" or graphics in this phase. Color correction is the process of setting your "
+"footage to a color baseline. No matter how great your subject looks on set, "
+"you will almost always need to do some basic post-processing for a "
+"consistent video."
+msgstr ""
+"इस चरण में, आपका रफ कट एक सुसंगत प्रोजेक्ट जैसा दिखने लगता है। ध्वनि और रंग "
+"को समायोजित करें, सुनिश्चित करें कि संवाद सुनाई दे, और इस चरण में संगीत, "
+"शीर्षक, या ग्राफिक्स जोड़ें। कलर करेक्शन वह प्रक्रिया है जिसमें आपके फुटेज "
+"को एक रंग आधार रेखा पर सेट किया जाता है। चाहे आपका विषय सेट पर कितना भी "
+"अच्छा दिखे, एक सुसंगत वीडियो के लिए आपको लगभग हमेशा कुछ बुनियादी "
+"पोस्ट-प्रोसेसिंग करनी होगी।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:145
+msgid "Refine Some More"
+msgstr "थोड़ा और परिष्कृत करें"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:146
+msgid ""
+"A slow scene can set the mood and add tension or it can bore an audience. A "
+"fast scene can add adrenaline to your audience’s systems or it can give them"
+" headaches. Some editors cut their projects several different ways before "
+"they find the right pace. Do not let cutting your project several times "
+"discourage you."
+msgstr ""
+"एक धीमा दृश्य मूड सेट कर सकता है और तनाव जोड़ सकता है या दर्शकों को उबाऊ लग "
+"सकता है। एक तेज़ दृश्य आपके दर्शकों के सिस्टम में एड्रेनालाईन जोड़ सकता है "
+"या उन्हें सिरदर्द दे सकता है। कुछ संपादक अपने प्रोजेक्ट्स को कई अलग-अलग "
+"तरीकों से काटते हैं जब तक कि वे सही गति नहीं पाते। अपने प्रोजेक्ट को कई बार "
+"काटने से निराश न हों।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:153
+msgid "Exporting"
+msgstr "निर्यात करना"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:154
+msgid ""
+"People view most of their projects on phones, tablets, or computers, so it "
+"is essential to know how to export for the web. The goal when exporting a "
+"video for the web is to create the highest quality possible with the "
+"smallest file size. Four main factors determine the file size of your "
+"finished video:"
+msgstr ""
+"लोग अपने अधिकांश प्रोजेक्ट्स को फोन, टैबलेट, या कंप्यूटर पर देखते हैं, इसलिए"
+" वेब के लिए निर्यात करना जानना आवश्यक है। वेब के लिए वीडियो निर्यात करते समय"
+" लक्ष्य सबसे छोटे फ़ाइल आकार के साथ उच्चतम गुणवत्ता बनाना होता है। आपके "
+"तैयार वीडियो के फ़ाइल आकार को चार मुख्य कारक निर्धारित करते हैं:"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:160
+msgid "Codec"
+msgstr "कोडेक"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:161
+msgid ""
+"A codec determines the type of file format (MP4, AVI, MOV). The more "
+"compression performed by the codec, the smaller your video’s size. Videos "
+"that are smaller in file size tend to be lower in visual quality."
+msgstr ""
+"कोडेक फ़ाइल प्रारूप (MP4, AVI, MOV) के प्रकार को निर्धारित करता है। कोडेक "
+"द्वारा जितनी अधिक संपीड़न की जाती है, आपका वीडियो उतना ही छोटा होता है। छोटे"
+" फ़ाइल आकार वाले वीडियो की दृश्य गुणवत्ता आमतौर पर कम होती है।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:166
+msgid "Resolution"
+msgstr "रिज़ॉल्यूशन"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:167
+msgid ""
+"Resolution refers to the number of horizontal and vertical pixels (dots on "
+"display) your video contains. For example, a 4K UHD (2160P) video has four "
+"times the resolution of FHD (1080P) video. A higher resolution means more "
+"information to store so that you will have larger file sizes."
+msgstr ""
+"रिज़ॉल्यूशन से तात्पर्य आपके वीडियो में क्षैतिज और ऊर्ध्वाधर पिक्सेल "
+"(डिस्प्ले पर डॉट्स) की संख्या से है। उदाहरण के लिए, 4K UHD (2160P) वीडियो "
+"में FHD (1080P) वीडियो की तुलना में चार गुना अधिक रिज़ॉल्यूशन होता है। उच्च "
+"रिज़ॉल्यूशन का मतलब अधिक जानकारी संग्रहित करना होता है, जिससे फ़ाइल का आकार "
+"बड़ा होता है।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:173
+msgid "Bit Rate"
+msgstr "बिट रेट"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:174
+msgid ""
+"The Bit Rate is the measure of the speed of data processing of your video. A"
+" higher bit rate means higher-quality video and larger files. OpenShot "
+"allows you to manually set the Bit Rate / Quality in the Advanced tab of the"
+" Export Video window."
+msgstr ""
+"बिट रेट आपके वीडियो के डेटा प्रसंस्करण की गति का माप है। उच्च बिट रेट का "
+"मतलब उच्च गुणवत्ता वाला वीडियो और बड़ी फ़ाइलें होती हैं। OpenShot आपको "
+"Export Video विंडो के Advanced टैब में बिट रेट / गुणवत्ता मैन्युअली सेट करने"
+" की अनुमति देता है।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:180
+msgid "Frame Rate"
+msgstr "फ्रेम रेट"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:181
+msgid ""
+"The frequency (in Hz) at which consecutive images, called frames, appear on "
+"the display is the Frame Rate. Typically, you export your video in the film "
+"standard (24fps) or the TV broadcast standard of 30fps (or 25fps in PAL). "
+"While there is not much wiggle room here, you should note that if you decide"
+" to export your video in 48fps, 50fps, or 60fps, your file size doubles."
+msgstr ""
+"फ्रेम रेट वह आवृत्ति (Hz में) है जिस पर लगातार छवियां, जिन्हें फ्रेम कहा "
+"जाता है, डिस्प्ले पर दिखाई देती हैं। आमतौर पर, आप अपने वीडियो को फिल्म मानक "
+"(24fps) या टीवी प्रसारण मानक 30fps (या PAL में 25fps) में निर्यात करते हैं। "
+"यहाँ ज्यादा बदलाव की गुंजाइश नहीं होती, लेकिन ध्यान दें कि यदि आप 48fps, "
+"50fps, या 60fps में वीडियो निर्यात करते हैं, तो आपकी फ़ाइल का आकार दोगुना हो"
+" जाता है।"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:188
+msgid "Conclusion"
+msgstr "निष्कर्ष"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:189
+msgid ""
+"In conclusion, video editing is an accessible skill that can elevate your "
+"video content even if you're not a professional videographer. With the "
+"ability to trim, arrange, and enhance footage, you can create engaging "
+"videos that captivate your audience. Whether you're a beginner or on your "
+"way to becoming a skilled video editor, remember to focus on storytelling, "
+"efficient organization, and refining your project's details. From selecting "
+"the right computer to mastering keyboard shortcuts and understanding "
+"technical aspects like codecs and resolutions, your journey in video editing"
+" can lead to polished and impactful results. As you venture into the world "
+"of video editing, keep in mind that practice, patience, and a commitment to "
+"learning are key to achieving excellence in this creative endeavor."
+msgstr ""
+"निष्कर्षतः, वीडियो संपादन एक सुलभ कौशल है जो आपके वीडियो कंटेंट को बेहतर बना"
+" सकता है, भले ही आप पेशेवर वीडियोग्राफर न हों। फुटेज को ट्रिम, व्यवस्थित और "
+"सुधारने की क्षमता के साथ, आप ऐसे आकर्षक वीडियो बना सकते हैं जो आपके दर्शकों "
+"को मंत्रमुग्ध कर दें। चाहे आप शुरुआत कर रहे हों या कुशल वीडियो संपादक बनने "
+"की राह पर हों, कहानी कहने, कुशल संगठन, और अपने प्रोजेक्ट के विवरणों को "
+"परिष्कृत करने पर ध्यान दें। सही कंप्यूटर चुनने से लेकर कीबोर्ड शॉर्टकट्स में"
+" महारत हासिल करने और कोडेक्स व रिज़ॉल्यूशन जैसे तकनीकी पहलुओं को समझने तक, "
+"आपका वीडियो संपादन का सफर polished और प्रभावशाली परिणामों की ओर ले जा सकता "
+"है। वीडियो संपादन की दुनिया में कदम रखते समय, अभ्यास, धैर्य, और सीखने की "
+"प्रतिबद्धता इस रचनात्मक प्रयास में उत्कृष्टता प्राप्त करने की कुंजी हैं।"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Record more video and audio than you think you will need for your project. "
+#~ "Include video that enhances the scene, sets a mood, or tells a story. You "
+#~ "can use the extra video for smooth transitions in your project. If your "
+#~ "project requires voice overs or narration, we suggest using an external "
+#~ "application to record your microphone (since OpenShot does not include any "
+#~ "recording capabilities yet)."
+#~ msgstr ""
+#~ "अपने प्रोजेक्ट के लिए जितनी जरूरत समझते हैं उससे अधिक वीडियो और ऑडियो "
+#~ "रिकॉर्ड करें। ऐसे वीडियो शामिल करें जो दृश्य को बेहतर बनाएं, माहौल सेट करें,"
+#~ " या कहानी बताएं। आप अपने प्रोजेक्ट में स्मूथ ट्रांजिशन के लिए अतिरिक्त "
+#~ "वीडियो का उपयोग कर सकते हैं। यदि आपके प्रोजेक्ट में वॉइस ओवर या नैरेशन की "
+#~ "जरूरत है, तो हम सुझाव देते हैं कि माइक्रोफोन रिकॉर्ड करने के लिए बाहरी "
+#~ "एप्लिकेशन का उपयोग करें (क्योंकि OpenShot में अभी कोई रिकॉर्डिंग सुविधा नहीं"
+#~ " है)।"

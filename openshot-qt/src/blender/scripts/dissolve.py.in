@@ -1,0 +1,352 @@
+# OpenShot Video Editor is a program that creates, modifies, and edits video files.
+#   Copyright (C) 2009  Jonathan Thomas
+#
+# This file is part of OpenShot Video Editor (http://launchpad.net/openshot/).
+#
+# OpenShot Video Editor is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# OpenShot Video Editor is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with OpenShot Video Editor.  If not, see <http://www.gnu.org/licenses/>.
+
+
+# Import Blender's python API.  This only works when the script is being
+# run from the context of Blender.  Blender contains its own version of Python
+# with this library pre-installed.
+import bpy
+import json
+from math import pi
+
+
+def load_font(font_path):
+    """ Load a new TTF font into Blender, and return the font object """
+    # get the original list of fonts (before we add a new one)
+    original_fonts = bpy.data.fonts.keys()
+
+    # load new font
+    bpy.ops.font.open(filepath=font_path)
+
+    # get the new list of fonts (after we added a new one)
+    for font_name in bpy.data.fonts.keys():
+        if font_name not in original_fonts:
+            return bpy.data.fonts[font_name]
+
+    # no new font was added
+    return None
+
+def deselect():
+    bpy.ops.object.select_all(action='DESELECT')
+
+def select(obj):
+    deselect()
+    bpy.context.view_layer.objects.active = obj
+
+def acquireAndName(name):
+    obj = bpy.context.view_layer.objects.active
+    obj.name = name
+    return obj
+
+def createDissolveText(title, extrude, bevel_depth, spacemode, textsize, width, font, wind_field_strength, wind_field_noise, turbulence_field_strength, turbulence_field_size):
+    """ Create and animate the exploding text """
+
+    newText = title
+
+    # Function to delete an object if it exists
+    def delete_object(obj_name):
+        obj = bpy.data.objects.get(obj_name)
+        if obj:
+            bpy.context.view_layer.objects.active = obj
+            obj.select_set(True)
+            bpy.ops.object.delete(use_global=False)
+            bpy.ops.object.select_all(action='DESELECT')
+
+    # Create text
+    bpy.ops.object.text_add(align='WORLD', enter_editmode=False, location=(0, 0, 0), rotation=(0, 0, 0))
+    active_object_text = bpy.context.object
+
+    # Ensure the text object is selected and active
+    active_object_text.select_set(True)
+    bpy.context.view_layer.objects.active = active_object_text
+
+    # Delete previous objects
+    delete_object('TurbulenceField')
+    delete_object('Plane')
+    delete_object('WindField')
+
+    # Rename text object and ensure it is active
+    try:
+        active_object_text.name = 'Text'
+    except ReferenceError as e:
+        print(f"Error renaming object: {e}")
+
+    # Rotating text
+    active_object_text.rotation_euler = (pi / 2, 0.0, 0.0)  # x, y, z axis
+    active_object_text.location = (0, 0, 0)  # x, y, z location
+
+    # Changing text
+    active_object_text.data.body = newText
+
+    # Centering text
+    active_object_text.data.align_x = spacemode
+    # Extrude text
+    active_object_text.data.extrude = extrude
+    # Bevel text
+    active_object_text.data.bevel_depth = bevel_depth
+    active_object_text.data.bevel_resolution = 5
+
+    # Text size
+    active_object_text.data.size = textsize
+    active_object_text.location.z = -active_object_text.dimensions[1] / 3
+
+    # Convert to mesh to apply effect
+    bpy.ops.object.convert(target='MESH', keep_original=False)
+
+    # Apply dissolve material
+    material = bpy.data.materials.get('DissolveMaterial')
+    if material:
+        active_object_text.data.materials.append(material)
+
+    # Add remesh modifier to text
+    remesh_modifier = active_object_text.modifiers.new(name='Remesh', type='REMESH')
+    # Modify parameters
+    remesh_modifier.octree_depth = 9  # 10 best quality but vertices number too high
+    remesh_modifier.scale = 0.99
+    remesh_modifier.mode = 'SMOOTH'
+    remesh_modifier.use_remove_disconnected = False
+    # Apply this modifier
+    bpy.ops.object.modifier_apply(modifier="Remesh")
+
+    # Number of quads for particle system
+    nb_quads = len(active_object_text.data.polygons)
+
+    # Add particle system
+    bpy.ops.object.particle_system_add()
+    particle_system = active_object_text.particle_systems[-1].settings
+    # Particle parameters
+    particle_system.count = nb_quads
+    particle_system.frame_start = 10
+    particle_system.frame_end = 120
+    particle_system.lifetime = 110
+    particle_system.timestep = 0.1
+    particle_system.normal_factor = 0.0
+    particle_system.use_dynamic_rotation = True
+    particle_system.render_type = 'NONE'
+    particle_system.display_method = 'DOT'
+    particle_system.effector_weights.gravity = 0
+    particle_system.use_adaptive_subframes = True
+    particle_system.courant_target = 0.2
+
+    bpy.ops.object.select_all(action='DESELECT')
+
+    # Adding Wind force field on center and rotate it -90 on Y
+    bpy.ops.object.effector_add(type='WIND', align='WORLD', enter_editmode=False, location=(0, 0, 0), rotation=(0, -pi/2, 0))
+    active_object_wind_field = bpy.context.object
+    active_object_wind_field.name = 'WindField'
+    # Settings
+    wind_field = active_object_wind_field.field
+    wind_field.strength = wind_field_strength
+    wind_field.flow = 1.0
+    wind_field.noise = wind_field_noise
+    wind_field.seed = 27
+    wind_field.apply_to_location = True
+    wind_field.apply_to_rotation = True
+    wind_field.use_absorption = False
+
+    # Adding Turbulence Force Field
+    bpy.ops.object.effector_add(type='TURBULENCE', align='WORLD', enter_editmode=False, location=(0, 0, 0), rotation=(0, 0, 0))
+    active_object_turbulence_field = bpy.context.object
+    active_object_turbulence_field.name = 'TurbulenceField'
+    # Settings
+    turbulence_field = active_object_turbulence_field.field
+    turbulence_field.strength = turbulence_field_strength
+    turbulence_field.size = turbulence_field_size
+    turbulence_field.flow = 0.5
+    turbulence_field.seed = 23
+    turbulence_field.apply_to_location = True
+    turbulence_field.apply_to_rotation = True
+    turbulence_field.use_absorption = False
+
+    bpy.ops.object.select_all(action='DESELECT')
+
+    # Create plane for controlling action of particle system (based on time)
+    bpy.ops.mesh.primitive_plane_add(align='WORLD', enter_editmode=False, location=(0, 0, 0), rotation=(pi/2, 0, 0))
+    active_object_plane = bpy.context.object
+    active_object_plane.name = 'Plane'
+    # Change dimensions
+    active_object_plane.dimensions = (active_object_text.dimensions[0] * 1.2, active_object_text.dimensions[1] * 1.2, 0)
+    # Keep in depsgraph but avoid rendering
+    active_object_plane.display_type = 'WIRE'
+    if hasattr(active_object_plane, "cycles_visibility"):
+        vis = active_object_plane.cycles_visibility
+        vis.camera = False
+        vis.diffuse = False
+        vis.glossy = False
+        vis.transmission = False
+        vis.scatter = False
+        vis.shadow = False
+
+    bpy.ops.object.select_all(action='DESELECT')
+
+    # Selecting Text
+    bpy.context.view_layer.objects.active = active_object_text
+    active_object_text.select_set(True)
+
+    # Adding wipe texture to text
+    sTex = bpy.data.textures.new('Wipe', type='BLEND')
+    sTex.use_color_ramp = True
+
+    tex_slot = particle_system.texture_slots.add()
+    tex_slot.texture = sTex
+    tex_slot.texture_coords = 'OBJECT'
+    tex_slot.object = active_object_plane
+    tex_slot.use_map_time = True
+
+    active_object_text.data.update()
+
+    bpy.ops.object.modifier_add(type='EXPLODE')
+    bpy.ops.mesh.uv_texture_add()  # name UVMap by default
+
+    material_slot = active_object_text.data.materials[0].node_tree.nodes.get('Texture')
+    if material_slot:
+        material_slot.texture_coords = 'UV'
+        material_slot.uv_layer = 'UVMap'
+        material_slot.use_map_alpha = True
+        material_slot.alpha_factor = 1.0
+
+    explode_modifier = active_object_text.modifiers['Explode']
+    explode_modifier.particle_uv = 'UVMap'
+    active_object_text.data.update()
+
+    bpy.ops.object.select_all(action='DESELECT')
+
+    # Selecting Text
+    bpy.context.view_layer.objects.active = active_object_text
+    active_object_text.select_set(True)
+
+    tex_slot.texture_coords = 'OBJECT'
+    tex_slot.object = active_object_plane
+
+    tex_slot.use_map_time = False
+    tex_slot.use_map_time = True
+    active_object_text.particle_systems['ParticleSystem'].settings.lifetime = 80
+
+    active_object_text.data.update()
+
+
+
+# Debug Info:
+# ./blender -b test.blend -P demo.py
+# -b = background mode
+# -P = run a Python script within the context of the project file
+
+# Init all of the variables needed by this script.  Because Blender executes
+# this script, OpenShot will inject a dictionary of the required parameters
+# before this script is executed.
+params = {
+    'title': 'Oh Yeah! OpenShot!',
+    'extrude': 0.05,
+    'bevel_depth': 0.01,
+    'spacemode': 'CENTER',
+    'text_size': 1,
+    'width': 1.0,
+    'fontname': 'Bfont',
+
+    'color': [0.8, 0.8, 0.8],
+    'alpha': 1.0,
+    'alpha_mode': 1,
+
+    'output_path': '/tmp/',
+    'fps': 24,
+    'quality': 90,
+    'file_format': 'PNG',
+    'color_mode': 'RGBA',
+    'horizon_color': [0, 0, 0],
+    'resolution_x': 1920,
+    'resolution_y': 1080,
+    'resolution_percentage': 100,
+    'start_frame': 1,
+    'end_frame': 210,
+    'animation': True,
+    'length_multiplier': 1,
+    'diffuse_color': [0.57, 0.57, 0.57, 1.0],
+}
+
+# INJECT_PARAMS_HERE
+
+# The remainder of this script will modify the current Blender .blend project
+# file, and adjust the settings.  The .blend file is specified in the XML file
+# that defines this template in OpenShot.
+# ----------------------------------------------------------------------------
+
+# Process parameters supplied as JSON serialization
+try:
+    injected_params = json.loads(params_json)
+    params.update(injected_params)
+except NameError:
+    pass
+
+# Get font object
+font = None
+if params["fontname"] != "Bfont":
+    # Add font so it's available to Blender
+    font = load_font(params["fontname"])
+else:
+    # Get default font
+    font = bpy.data.fonts["Bfont"]
+
+# Create dissolve text changes (slow)
+createDissolveText(
+    params["title"], params["extrude"], params["bevel_depth"],
+    params["spacemode"], params["text_size"], params["width"], font,
+    params["wind_field_strength"], params["wind_field_noise"],
+    params["turbulence_field_strength"], params["turbulence_field_size"]
+)
+
+# Change the material settings (color, alpha, etc...)
+dissolve_keyframes = [(params["start_frame"], params["diffuse_color"])]
+keyframe_principled(
+    "DissolveMaterial",
+    base_keyframes=dissolve_keyframes,
+    emission_keyframes=dissolve_keyframes,
+    emission_strength=(1.0, [f for f, _ in dissolve_keyframes]),
+    viewport_color=params["diffuse_color"])
+
+# Set the render options.  It is important that these are set
+# to the same values as the current OpenShot project.  These
+# params are automatically set by OpenShot
+render = bpy.context.scene.render
+render.filepath = params["output_path"]
+render.fps = params["fps"]
+if "fps_base" in params:
+    render.fps_base = params["fps_base"]
+render.image_settings.file_format = params["file_format"]
+render.image_settings.color_mode = params["color_mode"]
+render.film_transparent = params["alpha_mode"]
+bpy.data.worlds['World'].color = params["horizon_color"]
+render.resolution_x = params["resolution_x"]
+render.resolution_y = params["resolution_y"]
+render.resolution_percentage = params["resolution_percentage"]
+
+# Unbake particle cache
+bpy.ops.ptcache.free_bake_all()
+
+# Animation Speed (use Blender's time remapping to slow or speed up animation)
+length_multiplier = round(params["length_multiplier"])  # time remapping multiplier
+new_length = params["end_frame"] * length_multiplier  # new length (in frames)
+render.frame_map_old = 1
+render.frame_map_new = length_multiplier
+
+# Set render length/position
+bpy.context.scene.frame_start = params["start_frame"]
+bpy.context.scene.frame_end = new_length
+
+if "preview_frame" not in params:
+    # bake dynamics : take time but needed before rendering animation
+    bpy.ops.ptcache.bake_all()

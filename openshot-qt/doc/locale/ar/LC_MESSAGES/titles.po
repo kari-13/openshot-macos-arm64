@@ -1,0 +1,1098 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:23
+msgid "Text & Titles"
+msgstr "النصوص والعناوين"
+
+#: ../titles.rst:25
+msgid ""
+"Adding text overlays, lower thirds, and titles is an important aspect of "
+"video editing, and OpenShot comes with an easy-to-use Title Editor. Use the "
+"Title menu (located in the main menu of OpenShot) to launch the Title "
+"Editor. You can also use the keyboard shortcut :kbd:`Ctrl+T`."
+msgstr ""
+"إضافة تراكبات نصية، وأشرطة سفلية، وعناوين هو جانب مهم من تحرير الفيديو، "
+"ويأتي OpenShot مع محرر عناوين سهل الاستخدام. استخدم قائمة العنوان (الموجودة "
+"في القائمة الرئيسية لـ OpenShot) لفتح محرر العناوين. يمكنك أيضًا استخدام "
+"اختصار لوحة المفاتيح :kbd:`Ctrl+T`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:29
+msgid ""
+"Titles are simply vector image files with transparent backgrounds "
+"(``*.svg``). OpenShot comes with many easy-to-use templates, but you can "
+"also create your own or import new templates into OpenShot. These templates "
+"allow you to quickly change the text, font, size, color, and background "
+"color. You can also launch an advanced, external SVG editor for further "
+"customizations (if needed). Once the title is added to your project, drag "
+"and drop the title on a Track above a video clip. The transparent background"
+" will allow the video below to appear behind the text."
+msgstr ""
+"العناوين هي ببساطة ملفات صور متجهة بخلفيات شفافة (``*.svg``). يأتي OpenShot "
+"مع العديد من القوالب سهلة الاستخدام، ولكن يمكنك أيضًا إنشاء قوالبك الخاصة أو"
+" استيراد قوالب جديدة إلى OpenShot. تتيح لك هذه القوالب تغيير النص، الخط، "
+"الحجم، اللون، ولون الخلفية بسرعة. يمكنك أيضًا فتح محرر SVG خارجي متقدم لمزيد"
+" من التخصيصات (إذا لزم الأمر). بمجرد إضافة العنوان إلى مشروعك، اسحب وأفلت "
+"العنوان على مسار فوق مقطع الفيديو. ستسمح الخلفية الشفافة بظهور الفيديو أسفل "
+"النص."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:36
+msgid "Overview"
+msgstr "نظرة عامة"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:185
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:185
+msgid "Name"
+msgstr "الاسم"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:63 ../titles.rst:185 ../titles.rst:204
+msgid "Description"
+msgstr "الوصف"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46 ../titles.rst:187
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46 ../titles.rst:187
+msgid "Choose a Template"
+msgstr "اختر قالبًا"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46
+msgid "Choose from any available vector title template"
+msgstr "اختر من أي قالب عنوان متجه متاح"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "Preview Title"
+msgstr "معاينة العنوان"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "Preview your title as you make changes"
+msgstr "عاين عنوانك أثناء إجراء التغييرات"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48 ../titles.rst:189
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48 ../titles.rst:189
+msgid "Title Properties"
+msgstr "خصائص العنوان"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48
+msgid ""
+"Change the text, font, size, colors, or edit in an advanced, external SVG "
+"image editor (such as Inkscape)"
+msgstr ""
+"غيّر النص، الخط، الحجم، الألوان، أو حرر في محرر صور SVG خارجي متقدم (مثل "
+"Inkscape)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49 ../titles.rst:190
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49
+msgid "Save"
+msgstr "حفظ"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49
+msgid "Save and add the title to your project"
+msgstr "احفظ وأضف العنوان إلى مشروعك"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:53
+msgid "Title Templates"
+msgstr "قوالب العناوين"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:55
+msgid ""
+"OpenShot includes a variety of vector title templates that can be used to "
+"enhance your video projects. Below is a table listing the available titles "
+"and their descriptions:"
+msgstr ""
+"يحتوي OpenShot على مجموعة متنوعة من قوالب العناوين المتجهة التي يمكن "
+"استخدامها لتحسين مشاريع الفيديو الخاصة بك. أدناه جدول يسرد العناوين المتاحة "
+"ووصفها:"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:62
+msgid "Title Name"
+msgstr "اسم العنوان"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:64
+msgid "Bar 1"
+msgstr "شريط 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:65
+msgid "A simple bar with text centered."
+msgstr "شريط بسيط مع نص في الوسط."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:66
+msgid "Bar 2"
+msgstr "شريط 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:67
+msgid "A simple bar, centered, with 2 lines of text."
+msgstr "شريط بسيط، في الوسط، مع سطرين من النص."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:68
+msgid "Bar 3"
+msgstr "شريط 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:69
+msgid "Another variation of a simple bar with text, for lower 3rds."
+msgstr "تنويع آخر لشريط بسيط مع نص، للأجزاء السفلية الثلاثة."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:70
+msgid "Box"
+msgstr "صندوق"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:71
+#, fuzzy
+msgid "A simple boxed title layout for centered text."
+msgstr "شريط بسيط مع نص في الوسط."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:72
+msgid "Bubbles 1"
+msgstr "فقاعات 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:73
+msgid "A title with bubble graphics for a playful look."
+msgstr "عنوان مع رسومات فقاعات لمظهر مرح."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:74
+msgid "Bubbles 2"
+msgstr "فقاعات 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:75
+msgid "A different bubble design for a fun and creative title."
+msgstr "تصميم فقاعات مختلف لعنوان ممتع ومبدع."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:76
+msgid "Camera Border"
+msgstr "إطار الكاميرا"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:77
+msgid "A border that mimics a camera viewfinder with centered text."
+msgstr "إطار يحاكي محدد رؤية الكاميرا مع نص في الوسط."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:78
+msgid "Cloud 1"
+msgstr "سحابة 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:79
+msgid "A title with a playful cloud graphic and text."
+msgstr "عنوان مع رسومات سحابة مرحة ونص."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:80
+msgid "Cloud 2"
+msgstr "سحابة 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:81
+msgid "Another playful cloud design with 3 clouds and text."
+msgstr "تصميم سحابة مرحة آخر مع 3 سحب ونص."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:82
+msgid "Creative Commons 1"
+msgstr "كرييتف كومونز 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:83
+msgid "Contains text and icons for Creative Commons attribution."
+msgstr "يحتوي على نص وأيقونات لنسبة كرييتف كومونز."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:84
+msgid "Creative Commons 2"
+msgstr "كرييتف كومونز 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:85
+msgid ""
+"Another Creative Commons design with different styling plus website text."
+msgstr "تصميم كرييتف كومونز آخر مع تنسيق مختلف بالإضافة إلى نص الموقع."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:86
+msgid "Film Rating 1"
+msgstr "تصنيف الفيلم 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:87
+msgid "Displays a film rating for all audiences."
+msgstr "يعرض تصنيف فيلم لجميع الجماهير."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:88
+msgid "Film Rating 2"
+msgstr "تصنيف الفيلم 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:89
+msgid "Displays a film rating of \"R\" restricted."
+msgstr "يعرض تصنيف فيلم \"R\" مقيد."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:90
+msgid "Film Rating 3"
+msgstr "تصنيف الفيلم 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:91
+msgid "Displays a film rating of \"G\" for general audiences."
+msgstr "يعرض تصنيف فيلم \"G\" للجماهير العامة."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:92
+msgid "Film Rating 4"
+msgstr "تصنيف الفيلم 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:93
+msgid "Displays a film rating of \"PG-13\", parents strongly cautioned."
+msgstr "يعرض تصنيف فيلم \"PG-13\"، ينصح بشدة بمراقبة الوالدين."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:94
+#, fuzzy
+msgid "Flare"
+msgstr "وهج"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:95
+#, fuzzy
+msgid "A title with a bright flare effect for a cinematic look."
+msgstr "عنوان مع تأثيرات الدخان لمظهر درامي."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:96
+msgid "Flames"
+msgstr "لهب"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:97
+msgid "A title with flame graphics for a fiery effect."
+msgstr "عنوان مع رسومات لهب لتأثير ناري."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:98
+msgid "Footer 1"
+msgstr "تذييل 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:99
+msgid "A footer bar for lower thirds (left aligned)."
+msgstr "شريط تذييل للأجزاء السفلية الثلاثة (محاذاة لليسار)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:100
+msgid "Footer 2"
+msgstr "تذييل 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:101
+msgid "A footer bar for lower thirds (center aligned)."
+msgstr "شريط تذييل للأجزاء السفلية الثلاثة (محاذاة للوسط)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:102
+msgid "Footer 3"
+msgstr "تذييل 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:103
+msgid "A footer bar for lower thirds (right aligned)."
+msgstr "شريط تذييل للأجزاء السفلية الثلاثة (محاذاة لليمين)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:104
+msgid "Gold 1"
+msgstr "ذهبي 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:105
+msgid "A title with a gold color scheme, centered with one line of text."
+msgstr "عنوان مع نظام ألوان ذهبي، في الوسط مع سطر واحد من النص."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:106
+msgid "Gold 2"
+msgstr "ذهبي 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:107
+msgid "Another gold-themed title, centered with two lines of text."
+msgstr "عنوان آخر بموضوع ذهبي، في الوسط مع سطرين من النص."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:108
+msgid "Gold Bottom"
+msgstr "ذهبي في الأسفل"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:109
+msgid "Gold title positioned at the bottom of the screen."
+msgstr "عنوان ذهبي موضوع في أسفل الشاشة."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:110
+msgid "Gold Top"
+msgstr "ذهبي في الأعلى"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:111
+msgid "Gold title positioned at the top of the screen."
+msgstr "عنوان ذهبي موضوع في أعلى الشاشة."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:112
+msgid "Gray Box 1"
+msgstr "مربع رمادي 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:113
+msgid ""
+"A simple gray box for highlighting text (one line of text, top-left "
+"aligned)."
+msgstr ""
+"مربع رمادي بسيط لتسليط الضوء على النص (سطر واحد من النص، محاذاة أعلى "
+"اليسار)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:114
+msgid "Gray Box 2"
+msgstr "مربع رمادي 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:115
+msgid ""
+"A simple gray box for highlighting text (two lins of text, top-left "
+"aligned)."
+msgstr ""
+"مربع رمادي بسيط لتسليط الضوء على النص (سطران من النص، محاذاة أعلى اليسار)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:116
+msgid "Gray Box 3"
+msgstr "مربع رمادي 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:117
+msgid ""
+"A simple gray box for highlighting text (one line of text, bottom-right "
+"aligned)."
+msgstr ""
+"مربع رمادي بسيط لتسليط الضوء على النص (سطر واحد من النص، محاذاة أسفل "
+"اليمين)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:118
+msgid "Gray Box 4"
+msgstr "مربع رمادي 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:119
+msgid ""
+"A simple gray box for highlighting text (two lines of text, bottom-right "
+"aligned)."
+msgstr ""
+"مربع رمادي بسيط لتسليط الضوء على النص (سطران من النص، محاذاة أسفل اليمين)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:120
+msgid "Header 1"
+msgstr "رأس 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:121
+msgid "A header bar for titles or section headers (top-left aligned)."
+msgstr "شريط رأس للعناوين أو رؤوس الأقسام (محاذاة أعلى اليسار)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:122
+msgid "Header 2"
+msgstr "رأس 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:123
+msgid "A header bar for titles or section headers (center aligned)."
+msgstr "شريط رأس للعناوين أو رؤوس الأقسام (محاذاة في الوسط)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:124
+msgid "Header 3"
+msgstr "رأس 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:125
+msgid "A header bar for titles or section headers (top-right aligned)."
+msgstr "شريط رأس للعناوين أو رؤوس الأقسام (محاذاة أعلى اليمين)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:126
+msgid "OpenShot"
+msgstr "OpenShot"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:127
+msgid "A title featuring OpenShot branding."
+msgstr "عنوان يتضمن علامة OpenShot التجارية."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:128
+msgid "Oval 1"
+msgstr "بيضاوي 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:129
+msgid "An oval shape for highlighting or decorative purposes, text centered."
+msgstr "شكل بيضاوي لتسليط الضوء أو لأغراض زخرفية، النص في الوسط."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:130
+msgid "Oval 2"
+msgstr "بيضاوي 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:131
+msgid "Another oval design with a different style, text centered."
+msgstr "تصميم بيضاوي آخر بأسلوب مختلف، النص في الوسط."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:132
+msgid "Oval 3"
+msgstr "بيضاوي 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:133
+msgid ""
+"Another oval design with two-lines of text, one at the top, one at the "
+"bottom."
+msgstr "تصميم بيضاوي آخر مع سطرين من النص، واحد في الأعلى وواحد في الأسفل."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:134
+msgid "Oval 4"
+msgstr "بيضاوي 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:135
+msgid "Yet another oval design, with text centered plus refection."
+msgstr "تصميم بيضاوي آخر، مع النص في الوسط بالإضافة إلى الانعكاس."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:136
+msgid "Post it"
+msgstr "ملاحظة لاصقة"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:137
+msgid "Mimics a sticky note for annotations or reminders."
+msgstr "يشبه الملاحظة اللاصقة للتعليقات أو التذكيرات."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:138
+msgid "Ribbon 1"
+msgstr "شريط 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:139
+msgid "A ribbon graphic with text."
+msgstr "رسم شريطي مع نص."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:140
+msgid "Ribbon 2"
+msgstr "شريط 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:141
+msgid "Another ribbon design with text."
+msgstr "تصميم شريط آخر مع نص."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:142
+msgid "Ribbon 3"
+msgstr "شريط 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:143
+msgid "A third variation of a ribbon design with text."
+msgstr "تنويع ثالث لتصميم شريط مع نص."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:144
+msgid "Smoke 1"
+msgstr "دخان 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:145
+msgid "A title with smoke effects for a dramatic look."
+msgstr "عنوان مع تأثيرات الدخان لمظهر درامي."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:146
+msgid "Smoke 2"
+msgstr "دخان 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:147
+msgid "Another smoke design with a different style."
+msgstr "تصميم دخان آخر بأسلوب مختلف."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:148
+msgid "Smoke 3"
+msgstr "دخان 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:149
+msgid "A third variation of smoke effects."
+msgstr "تنويع ثالث لتأثيرات الدخان."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:150
+msgid "Solid Color"
+msgstr "لون صلب"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:151
+msgid "A full-screen color background for various uses."
+msgstr "خلفية ملونة بملء الشاشة لاستخدامات متعددة."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:152
+msgid "Standard 1"
+msgstr "قياسي 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:153
+msgid "A standard title design for general purposes (two lines centered)."
+msgstr "تصميم عنوان قياسي للأغراض العامة (سطران في الوسط)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:154
+msgid "Standard 2"
+msgstr "قياسي 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:155
+msgid ""
+"Another standard title with a different style (one line of text plus "
+"reflection)."
+msgstr ""
+"عنوان قياسي آخر بأسلوب مختلف (سطر واحد من النص بالإضافة إلى الانعكاس)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:156
+msgid "Standard 3"
+msgstr "قياسي 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:157
+msgid "A third variation of a standard title (three lines of text)."
+msgstr "تنويع ثالث لعنوان قياسي (ثلاثة أسطر من النص)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:158
+msgid "Standard 4"
+msgstr "قياسي 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:159
+msgid "Yet another standard title design (four lines of text)."
+msgstr "تصميم عنوان قياسي آخر (أربعة أسطر من النص)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:160
+msgid "Sunset"
+msgstr "غروب الشمس"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:161
+msgid "A title with sunset gradient for a warm, end-of-day theme."
+msgstr "عنوان مع تدرج ألوان غروب الشمس لموضوع دافئ في نهاية اليوم."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:162
+msgid "TV Rating"
+msgstr "تصنيف التلفاز"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:163
+msgid ""
+"Displays TV ratings badge such as \"G\" and \"PG\" (for the corner of the "
+"screen)."
+msgstr "يعرض شارة تصنيف التلفاز مثل \"G\" و \"PG\" (لزواية الشاشة)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:167
+msgid "Custom Title Templates"
+msgstr "قوالب العناوين المخصصة"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:168
+msgid ""
+"OpenShot can use any vector SVG image file as a custom title template in the"
+" :guilabel:`Title Editor` dialog. Just add an SVG image file to your "
+"``~/.openshot_qt/title_templates/`` folder, and it will appear the next time"
+" you launch the :guilabel:`Title Editor` dialog. You can also right click on"
+" any SVG files in your **Project Files** panel, and choose **Edit Title** or"
+" **Duplicate Title**."
+msgstr ""
+"يمكن لـ OpenShot استخدام أي ملف صورة متجه SVG كقالب عنوان مخصص في مربع حوار "
+":guilabel:`محرر العناوين`. فقط أضف ملف صورة SVG إلى مجلد "
+"``~/.openshot_qt/title_templates/`` الخاص بك، وسيظهر في المرة التالية التي "
+"تفتح فيها مربع حوار :guilabel:`محرر العناوين`. يمكنك أيضًا النقر بزر الماوس "
+"الأيمن على أي ملفات SVG في لوحة **ملفات المشروع**، واختيار **تحرير العنوان**"
+" أو **تكرار العنوان**."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:172
+msgid ""
+"Note: These SVG templates are only used by the :guilabel:`Title Editor` "
+"dialog, and not :guilabel:`Animated Title` dialog."
+msgstr ""
+"ملاحظة: تُستخدم هذه القوالب SVG فقط في مربع حوار :guilabel:`محرر العناوين`، "
+"وليس في مربع حوار :guilabel:`العنوان المتحرك`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:177
+msgid "3D Animated Titles"
+msgstr "عناوين متحركة ثلاثية الأبعاد"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:178
+msgid ""
+"Adding a 3D animated title is just as easy, using our **Animated Title** "
+"dialog. Use the Title menu (located in the main menu of OpenShot) to launch "
+"the Animated Title editor. You can also use the keyboard shortcut "
+"**Ctrl+B**. Note: Blender must be installed and configured before this "
+"feature will work in OpenShot. See :ref:`blender_install_ref`."
+msgstr ""
+"إضافة عنوان متحرك ثلاثي الأبعاد سهلة أيضًا باستخدام مربع حوار **العنوان "
+"المتحرك**. استخدم قائمة العنوان (الموجودة في القائمة الرئيسية لـ OpenShot) "
+"لفتح محرر العنوان المتحرك. يمكنك أيضًا استخدام اختصار لوحة المفاتيح "
+"**Ctrl+B**. ملاحظة: يجب تثبيت Blender وتكوينه قبل أن تعمل هذه الميزة في "
+"OpenShot. انظر :ref:`blender_install_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:187
+msgid "Choose from any available 3D title templates"
+msgstr "اختر من أي قوالب عناوين ثلاثية الأبعاد متاحة"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:189
+msgid "Change the text, colors, and advanced properties"
+msgstr "غيّر النص والألوان والخصائص المتقدمة"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:190
+msgid "Render"
+msgstr "تصيير"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:190
+msgid "Render the 3D animation, and add it to your project"
+msgstr "قم بتصيير الرسوم المتحركة ثلاثية الأبعاد، وأضفها إلى مشروعك"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:194
+msgid "3D Animated Templates"
+msgstr "قوالب متحركة ثلاثية الأبعاد"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:196
+msgid ""
+"OpenShot includes a variety of 3D animated templates that can be used to add"
+" dynamic and engaging elements to your video projects. Below is a table "
+"listing the available templates and their descriptions:"
+msgstr ""
+"يتضمن OpenShot مجموعة متنوعة من القوالب المتحركة ثلاثية الأبعاد التي يمكن "
+"استخدامها لإضافة عناصر ديناميكية وجذابة إلى مشاريع الفيديو الخاصة بك. أدناه "
+"جدول يسرد القوالب المتاحة ووصفها:"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:203
+msgid "Template Name"
+msgstr "اسم القالب"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:205
+msgid "Blinds (Two Titles)"
+msgstr "ستائر (عنوانان)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:206
+msgid "An animation featuring a blinds effect."
+msgstr "رسوم متحركة تتميز بتأثير الستائر."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:207
+msgid "Blur"
+msgstr "تمويه"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:208
+msgid ""
+"A template that blurs text in and out, providing a smooth transition effect."
+msgstr "قالب يقوم بتمويه النص تدريجيًا، موفرًا تأثير انتقال سلس."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:209
+msgid "Color Tiles"
+msgstr "بلاط ملون"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:210
+msgid ""
+"An animation with changing colors, suitable for vibrant and dynamic titles."
+msgstr "رسوم متحركة بألوان متغيرة، مناسبة للعناوين الحيوية والديناميكية."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:211
+msgid "Dissolving Text"
+msgstr "نص يتلاشى"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:212
+msgid ""
+"A dissolve effect that turns any text into particles which get blown away by"
+" the wind."
+msgstr "تأثير تلاشي يحول أي نص إلى جزيئات تتطاير مع الريح."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:213
+msgid "World Map"
+msgstr "خريطة العالم"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:214
+msgid "A template featuring a rotating Earth between 2 locations."
+msgstr "قالب يعرض الأرض تدور بين موقعين."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:215
+msgid "Exploding Text"
+msgstr "نص متفجر"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:216
+msgid ""
+"An animation where the title explode into pieces, adding dramatic impact."
+msgstr "تحريك حيث ينفجر العنوان إلى قطع، مضيفًا تأثيرًا دراميًا."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:217
+msgid "Fly Towards Camera"
+msgstr "الطيران نحو الكاميرا"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:218
+msgid "A fly-by animation with a single title zooming past the screen."
+msgstr "تحريك مرور سريع مع عنوان واحد يقترب من الشاشة."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:219
+msgid "Fly Towards Camera (Two Titles)"
+msgstr "الطيران نحو الكاميرا (عنوانان)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:220
+msgid "Similar to Fly By 1, but with two titles flying by."
+msgstr "مماثل لـ Fly By 1، لكن مع عنوانين يمران."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:221
+msgid "Glare"
+msgstr "وهج"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:222
+msgid "An animation with a glare effect, adding a bright, reflective look."
+msgstr "تحريك مع تأثير وهج، يضيف مظهرًا ساطعًا وعاكسًا."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:223
+msgid "Glass Slider"
+msgstr "منزلق زجاجي"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:224
+msgid "A sliding glass effect, providing a modern and sleek transition."
+msgstr "تأثير انزلاق زجاجي، يوفر انتقالًا عصريًا وأنيقًا."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:225
+msgid "Lens Flare"
+msgstr "توهج العدسة"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:226
+msgid "An animation featuring a lens flare, adding a cinematic touch."
+msgstr "تحريك يتضمن توهج العدسة، يضيف لمسة سينمائية."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:227
+msgid "Magic Wand"
+msgstr "عصا سحرية"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:228
+msgid "A whimsical magic wand effect, ideal for magical or fantasy themes."
+msgstr "تأثير عصا سحرية خيالي، مثالي للمواضيع السحرية أو الخيالية."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:229
+msgid "Neon Curves"
+msgstr "منحنيات نيون"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:230
+msgid "An animation with neon curves, creating a futuristic and vibrant look."
+msgstr "تحريك مع منحنيات نيون، يخلق مظهرًا مستقبليًا وحيويًا."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:231
+msgid "Picture Frames (4 pictures)"
+msgstr "إطارات صور (4 صور)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:232
+msgid ""
+"A template featuring four picture frames, suitable for showcasing images or "
+"video clips."
+msgstr "قالب يحتوي على أربعة إطارات صور، مناسب لعرض الصور أو مقاطع الفيديو."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:233
+msgid "Rotate 360"
+msgstr "تدوير 360"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:234
+msgid "A 360-degree rotation effect, providing a dynamic title animation."
+msgstr "تأثير تدوير بزاوية 360 درجة، يوفر تحريك عنوان ديناميكي."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:235
+msgid "Slide Left to Right"
+msgstr "انزلاق من اليسار إلى اليمين"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:236
+msgid "A sliding effect where titles move from left to right."
+msgstr "تأثير انزلاق حيث تتحرك العناوين من اليسار إلى اليمين."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:237
+msgid "Snow"
+msgstr "ثلج"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:238
+msgid ""
+"An animation with falling snow particles, perfect for winter or holiday "
+"themes."
+msgstr "تحريك مع جزيئات ثلج متساقطة، مثالي لمواضيع الشتاء أو العطلات."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:239
+msgid "Space Movie Intro"
+msgstr "مقدمة فيلم فضائي"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:240
+msgid "A cinematic space-themed intro, ideal for epic or sci-fi projects."
+msgstr ""
+"مقدمة سينمائية بموضوع فضائي، مثالية للمشاريع الملحمية أو الخيال العلمي."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:241
+msgid "Wireframe Text"
+msgstr "نص الإطار السلكي"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:242
+msgid "An animation with wireframe text, adding a technical or digital look."
+msgstr "تحريك مع نص الإطار السلكي، يضيف مظهرًا تقنيًا أو رقميًا."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:243
+msgid "Zoom to Clapboard"
+msgstr "تكبير إلى لوحة التصوير"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:244
+msgid ""
+"A zoom title with a clapboard, perfect for film or video production themes."
+msgstr "عنوان تكبير مع لوحة تصوير، مثالي لمواضيع إنتاج الأفلام أو الفيديو."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:247
+msgid "Importing Text"
+msgstr "استيراد النص"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:249
+msgid ""
+"You can generate text & titles in many different programs, such as Blender, "
+"Inkscape, Krita, Gimp, etc... Before you can import text into OpenShot, you "
+"must first export the text from these programs into a compatible image "
+"format that contains a **transparent background** and **alpha** channel."
+msgstr ""
+"يمكنك إنشاء النصوص والعناوين في العديد من البرامج المختلفة، مثل Blender "
+"وInkscape وKrita وGimp وغيرها... قبل أن تتمكن من استيراد النص إلى OpenShot، "
+"يجب عليك أولاً تصدير النص من هذه البرامج إلى صيغة صورة متوافقة تحتوي على "
+"**خلفية شفافة** وقناة **ألفا**."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:253
+msgid ""
+"The ``SVG`` format is a great choice for vector graphics (curves, shapes, "
+"text effects and paths), however it is **not** always 100% compatible with "
+"OpenShot. Thus, we recommend using ``PNG`` format, which is a great web-"
+"based image format that can include a transparent background and alpha "
+"channel. A transparent background and alpha channel are needed for OpenShot "
+"to allow the text to not cover up videos and images on the timeline below "
+"them."
+msgstr ""
+"صيغة ``SVG`` خيار ممتاز للرسومات المتجهة (المنحنيات، الأشكال، تأثيرات النص "
+"والمسارات)، لكنها **ليست** دائمًا متوافقة بنسبة 100% مع OpenShot. لذلك، نوصي"
+" باستخدام صيغة ``PNG``، وهي صيغة صورة ممتازة على الويب يمكن أن تتضمن خلفية "
+"شفافة وقناة ألفا. الخلفية الشفافة وقناة الألفا ضرورية لـ OpenShot للسماح "
+"للنص بعدم تغطية الفيديوهات والصور على الجدول الزمني أسفلها."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:258
+msgid ""
+"For information on importing animated sequences into OpenShot, please see "
+":ref:`animation_image_seq_ref`."
+msgstr ""
+"لمعلومات حول استيراد التسلسلات المتحركة إلى OpenShot، يرجى الاطلاع على "
+":ref:`animation_image_seq_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:261
+msgid "Installing Inkscape"
+msgstr "تثبيت Inkscape"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:263
+msgid ""
+"The :guilabel:`Advanced Editor` feature in the :guilabel:`Title Editor` "
+"dialog requires the latest version of Inkscape "
+"(https://inkscape.org/release/) be installed and the OpenShot "
+"**Preferences** updated with the correct path to the Inkscape executable. "
+"See the :ref:`preferences_general_ref` tab in Preferences."
+msgstr ""
+"تتطلب ميزة :guilabel:`المحرر المتقدم` في مربع حوار :guilabel:`محرر العناوين`"
+" تثبيت أحدث إصدار من Inkscape (https://inkscape.org/release/) وتحديث "
+"**تفضيلات** OpenShot بمسار التشغيل الصحيح لبرنامج Inkscape. راجع علامة "
+"التبويب :ref:`preferences_general_ref` في التفضيلات."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:270
+msgid "Installing Blender"
+msgstr "تثبيت Blender"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:272
+msgid ""
+"The :guilabel:`Animated Title` feature in OpenShot requires the latest "
+"version of Blender (https://www.blender.org/download/) be installed and the "
+"OpenShot **Preferences** updated with the correct path to the Blender "
+"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE:"
+" The minimum supported version of Blender is 5.0+. Older versions of Blender"
+" are not compatible with OpenShot Video Editor."
+msgstr ""
+"تتطلب ميزة :guilabel:`العنوان المتحرك` في OpenShot تثبيت أحدث إصدار من "
+"Blender (https://www.blender.org/download/) وتحديث **تفضيلات** OpenShot "
+"بمسار التشغيل الصحيح لبرنامج Blender. راجع علامة التبويب "
+":ref:`preferences_general_ref` في التفضيلات. ملاحظة: الحد الأدنى للإصدار "
+"المدعوم من Blender هو 5.0+. الإصدارات الأقدم من Blender غير متوافقة مع "
+"OpenShot Video Editor."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:278
+msgid ""
+"For a detailed guide on how to install these dependencies, see `Blender & "
+"Inkscape Guide <https://github.com/OpenShot/openshot-qt/wiki/Blender-and-"
+"Inkscape-Guide>`_."
+msgstr ""
+"للحصول على دليل مفصل حول كيفية تثبيت هذه المتطلبات، راجع `دليل Blender و "
+"Inkscape <https://github.com/OpenShot/openshot-qt/wiki/Blender-and-Inkscape-"
+"Guide>`_."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Adding text and titles is an important aspect of video editing, and OpenShot"
+#~ " comes with an easy-to-use Title Editor. Use the Title menu (located in the "
+#~ "main menu of OpenShot) to launch the Title Editor. You can also use the "
+#~ "keyboard shortcut :kbd:`Ctrl+T`."
+#~ msgstr ""
+#~ "إضافة النصوص والعناوين هو جانب مهم من تحرير الفيديو، ويأتي OpenShot مع محرر "
+#~ "عناوين سهل الاستخدام. استخدم قائمة العنوان (الموجودة في القائمة الرئيسية لـ "
+#~ "OpenShot) لفتح محرر العناوين. يمكنك أيضًا استخدام اختصار لوحة المفاتيح "
+#~ ":kbd:`Ctrl+T`."

@@ -1,0 +1,447 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:23
+msgid "Playback"
+msgstr "Reprodukcija"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:24
+msgid ""
+"The preview window is where video & audio playback takes place in OpenShot "
+"Video Editor. The preview window utilizes real-time video rendering, "
+"caching, re-sampling, and image scaling. This is the primary area for "
+"watching back (and listening to) your edits, giving you the feedback needed "
+"to make adjustments. It is also one of the most costly operations to your "
+"CPU, and requires a modern computer and some reasonable assumptions and "
+"factors (listed below)."
+msgstr ""
+"Prozor za pregled je mjesto gdje se odvija reprodukcija video i audio zapisa "
+"u OpenShot Video Editoru. Prozor za pregled koristi renderiranje videa u "
+"stvarnom vremenu, keširanje, ponovni uzorak i skaliranje slike. Ovo je "
+"glavno područje za pregled vaših uređivanja, pružajući vam povratne "
+"informacije potrebne za prilagodbe. Također je jedna od najzahtjevnijih "
+"operacija za vaš CPU i zahtijeva moderan računar te neke razumne "
+"pretpostavke i faktore (navedene u nastavku)."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:30
+msgid "Real-Time Preview"
+msgstr "Pregled u stvarnom vremenu"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:31
+msgid ""
+"Many factors affect how smoothly the **real-time video preview** can "
+"playback on your computer. This requires a fast, modern multi-threaded CPU, "
+"lots of RAM (memory), and a modern GPU. We have listed many of the important "
+"factors below."
+msgstr ""
+"Mnogi faktori utječu na to koliko glatko se **pregled videa u stvarnom "
+"vremenu** može reproducirati na vašem računaru. To zahtijeva brz, moderan "
+"CPU s više jezgri, puno RAM-a (memorije) i modernu GPU. Navedeni su mnogi "
+"važni faktori u nastavku."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38
+msgid "Factor"
+msgstr "Faktor"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38 ../playback.rst:97
+msgid "Description"
+msgstr "Opis"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid "CPU"
+msgstr "CPU"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid ""
+"If your CPU is too slow or has too few cores, you will likely experience a "
+"slow, choppy preview. We recommend installing OpenShot on fairly modern "
+"computer. See :ref:`min_system_req_ref` for more details on the hardware "
+"requirements for OpenShot Video Editor."
+msgstr ""
+"Ako je vaš CPU prespor ili ima premalo jezgri, vjerojatno ćete doživjeti "
+"spori, trzavi pregled. Preporučujemo instalaciju OpenShota na prilično "
+"modernom računaru. Pogledajte :ref:`min_system_req_ref` za više detalja o "
+"hardverskim zahtjevima za OpenShot Video Editor."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid "Memory"
+msgstr "Memorija"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid ""
+"If your available RAM memory is too limited, you will likely see huge drops "
+"in real-time performance, and your entire system will lag. We recommend "
+"installing additional RAM in your computer, if possible. See :ref:"
+"`min_system_req_ref`."
+msgstr ""
+"Ako je dostupna RAM memorija previše ograničena, vjerojatno ćete primijetiti "
+"velike padove u performansama u stvarnom vremenu, a cijeli vaš sistem će "
+"zaostajati. Preporučujemo instalaciju dodatne RAM memorije u vaš računar, "
+"ako je moguće. Pogledajte :ref:`min_system_req_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid "Cache"
+msgstr "Keš"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid ""
+"Your cache settings in the OpenShot Preferences are very important for "
+"determining how many frames to processes in advance. A value too low or too "
+"high can cause lag during the real-time video preview. The cache is also "
+"related to the available RAM. The higher the cache values, the more RAM and "
+"CPU is needed. We recommend experimenting with the Cache Preferences in "
+"OpenShot if you are experiencing issues with smooth playback. This same "
+"caching system also prepares frames ahead of time during export, speeding up "
+"the final render. See :ref:`preferences_cache_ref`."
+msgstr ""
+"Postavke keša u OpenShot postavkama su vrlo važne za određivanje koliko se "
+"frejmova obrađuje unaprijed. Vrijednost koja je preniska ili previsoka može "
+"uzrokovati zastoj tijekom pregleda videa u stvarnom vremenu. Keš je također "
+"povezan s dostupnom RAM memorijom. Što su vrijednosti keša veće, potrebno je "
+"više RAM-a i CPU-a. Preporučujemo eksperimentiranje s postavkama keša u "
+"OpenShotu ako imate problema s glatkom reprodukcijom. Ovaj isti sistem "
+"keširanja također priprema frejmove unaprijed tijekom izvoza, ubrzavajući "
+"konačni render. Pogledajte :ref:`preferences_cache_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid "Preview Size"
+msgstr "Veličina pregleda"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid ""
+"The height x width of your preview dock (widget) is very important for "
+"smooth real-time previews. The larger the window size, the more pixels must "
+"be rendered per frame, and the more CPU and RAM are required. It is "
+"recommended to keep reducing the preview window size until you achieve "
+"smooth video playback. On a slower computer, the preview window size might "
+"need to be very small for real-time previews (i.e. 320 x 240)."
+msgstr ""
+"Visina x širina vašeg pregleda (widgeta) vrlo je važna za glatke preglede u "
+"stvarnom vremenu. Što je veličina prozora veća, to se više piksela mora "
+"renderirati po frejmu, a potrebni su i veći CPU i RAM resursi. Preporučuje "
+"se smanjivati veličinu prozora pregleda dok ne postignete glatku "
+"reprodukciju videa. Na sporijem računaru, veličina prozora pregleda može "
+"trebati biti vrlo mala za preglede u stvarnom vremenu (npr. 320 x 240)."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid "Profile"
+msgstr "Profil"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid ""
+"Your project profile determines which size (width x height) and frame rate "
+"(FPS) are used during both playback and exporting. For example, if you are "
+"using a FHD 1920x1080 sized profile, you can also choose a smaller profile "
+"with the same aspect ratio (``16x9`` in this example), to improve the "
+"preview speed on slower computers. See :ref:`profiles_ref` for more "
+"information on available profiles."
+msgstr ""
+"Profil vašeg projekta određuje koju veličinu (širina x visina) i broj "
+"frejmova u sekundi (FPS) koristite tijekom reprodukcije i izvoza. Na "
+"primjer, ako koristite FHD profil veličine 1920x1080, možete odabrati i "
+"manji profil s istim omjerom stranica (``16x9`` u ovom primjeru) kako biste "
+"poboljšali brzinu pregleda na sporijim računarima. Pogledajte :ref:"
+"`profiles_ref` za više informacija o dostupnim profilima."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid "FPS (Frame Rate)"
+msgstr "FPS (Broj frejmova u sekundi)"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid ""
+"The FPS of your project is also very important, and a large factor for "
+"smooth video playback. For example, a 60 FPS video must render twice the "
+"number of frames, compared to a 30 FPS video. If you are experiencing slow "
+"downs in real-time performance, it can be helpful to reduce your project's "
+"FPS to a lower value, such as 30 or 24."
+msgstr ""
+"FPS vašeg projekta također je vrlo važan i veliki faktor za glatku "
+"reprodukciju videa. Na primjer, video od 60 FPS mora renderirati dvostruko "
+"više frejmova u odnosu na video od 30 FPS. Ako imate usporenja u "
+"performansama u stvarnom vremenu, može biti korisno smanjiti FPS vašeg "
+"projekta na nižu vrijednost, poput 30 ili 24."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid "Matching Rates"
+msgstr "Usklađivanje brzina"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid ""
+"It is very important to match your source assets FPS and Sample Rate with "
+"your Project FPS and Project sample rate. If either rate does not match "
+"exactly, it requires lots of additional CPU and RAM for OpenShot to "
+"normalize the mismatching rates. This can lead to audio pops, mis-"
+"alignments, duplicate frames, and extra lag in the real-time video preview. "
+"You can right-click a file and choose :guilabel:`File Properties`, to "
+"inspect the source asset rates, and ensure they match your Project settings "
+"(shown at the top of OpenShot). See :ref:`file_properties_ref`."
+msgstr ""
+"Vrlo je važno uskladiti FPS i uzorkovanje izvornog materijala s FPS-om i "
+"uzorkovanjem vašeg projekta. Ako se bilo koja od brzina ne podudara točno, "
+"OpenShot će trebati dodatni CPU i RAM za normalizaciju neusklađenih brzina. "
+"To može dovesti do pucanja zvuka, neusklađenosti, dupliciranih frejmova i "
+"dodatnog zastoja u pregledu videa u stvarnom vremenu. Možete desnim klikom "
+"na datoteku odabrati :guilabel:`Svojstva datoteke` kako biste provjerili "
+"brzine izvornog materijala i osigurali da se podudaraju s postavkama vašeg "
+"projekta (prikazano na vrhu OpenShota). Pogledajte :ref:"
+"`file_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid "Source Assets"
+msgstr "Izvorni materijali"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid ""
+"For example, if you are editing 4K 60 FPS source assets, this is likely "
+"going to put a strain on your system. A common solution is using another "
+"tool (such as FFmpeg) to create a copy (or proxy) of all your source assets, "
+"at a lower resolution (and maybe even a lower FPS). It is recommended to "
+"keep these proxy video files in their own folder, separate from the original "
+"video files. Once you have completed your video editing with the proxy "
+"files, simply copy/paste your `*.osp` project file back into the original "
+"folder, and export the higher quality, original files."
+msgstr ""
+"Na primjer, ako uređujete 4K 60 FPS izvorne materijale, to će vjerojatno "
+"opteretiti vaš sistem. Uobičajeno rješenje je korištenje drugog alata (poput "
+"FFmpeg) za stvaranje kopije (ili proxyja) svih vaših izvora, u nižoj "
+"rezoluciji (a možda i nižem FPS-u). Preporučuje se držati ove proxy video "
+"datoteke u vlastitoj mapi, odvojeno od originalnih video datoteka. Nakon što "
+"završite uređivanje videa s proxy datotekama, jednostavno kopirajte/"
+"zalijepite vaš `*.osp` projektni fajl natrag u originalnu mapu i izvezite "
+"datoteke višeg kvaliteta, originalne datoteke."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77 ../playback.rst:101
+msgid "Audio Device"
+msgstr "Audio uređaj"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77
+msgid ""
+"If you are still having issues with audio lag or sync, please verify you are "
+"using the correct :guilabel:`Playback Audio Device` for playback (in the "
+"OpenShot Preferences). See :ref:`preferences_preview_ref`. Verify your "
+"default audio device (on your operating system) is using the same sample "
+"rate and all *Audio Enhancements* are disabled. On certain operating systems "
+"(such as Windows), mismatching sample rates or audio enhancements can cause "
+"severe audio / video sync problems. Lastly, try adjusting the :guilabel:"
+"`Playback Audio Buffer Size` (lower values will playback audio with less "
+"delay, higher values will playback audio with a larger delay). OpenShot "
+"defaults to a buffer size of 512, which is reasonable for most systems, "
+"however on some systems you might need to lower (or raise) this value for "
+"smooth and lag-free audio playback. Be sure to restart OpenShot after "
+"changing the audio playback settings."
+msgstr ""
+"Ako i dalje imate problema s kašnjenjem ili sinkronizacijom zvuka, "
+"provjerite koristite li ispravan :guilabel:`Playback Audio Device` za "
+"reprodukciju (u OpenShot postavkama). Pogledajte :ref:"
+"`preferences_preview_ref`. Provjerite koristi li vaš zadani audio uređaj (na "
+"operativnom sustavu) istu frekvenciju uzorkovanja i jesu li sve *Audio "
+"Enhancements* onemogućene. Na određenim operativnim sustavima (poput "
+"Windowsa), neusklađene frekvencije uzorkovanja ili audio poboljšanja mogu "
+"uzrokovati ozbiljne probleme sa sinkronizacijom zvuka i slike. Na kraju, "
+"pokušajte prilagoditi :guilabel:`Playback Audio Buffer Size` (niže "
+"vrijednosti reproducirat će zvuk s manjim kašnjenjem, više vrijednosti s "
+"većim kašnjenjem). OpenShot zadano koristi veličinu bafera od 512, što je "
+"razumno za većinu sustava, no na nekim sustavima možda ćete trebati smanjiti "
+"(ili povećati) ovu vrijednost za glatku i bezkašnjenja reprodukciju zvuka. "
+"Obavezno ponovno pokrenite OpenShot nakon promjene postavki reprodukcije "
+"zvuka."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:89
+msgid "Audio Troubleshooting"
+msgstr "Rješavanje problema sa zvukom"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:90
+msgid ""
+"If you are still experiencing audio related issues, and the above real-time "
+"playback factors did not resolve your issue, here are some additional "
+"troubleshooting steps you can take."
+msgstr ""
+"Ako i dalje imate problema sa zvukom, a gore navedeni faktori reprodukcije u "
+"stvarnom vremenu nisu riješili vaš problem, evo nekoliko dodatnih koraka za "
+"rješavanje problema koje možete poduzeti."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:97
+msgid "Step"
+msgstr "Korak"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid "Latest Daily Build"
+msgstr "Najnovija dnevna verzija"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid ""
+"Verify you are running the latest daily build of OpenShot: https://www."
+"openshot.org/download#daily"
+msgstr ""
+"Provjerite koristite li najnoviju dnevnu verziju OpenShota: https://www."
+"openshot.org/download#daily"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "Clean Install"
+msgstr "Čista instalacija"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "See :ref:`preferences_reset_ref` for a clean install"
+msgstr "Pogledajte :ref:`preferences_reset_ref` za čistu instalaciju"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:101
+msgid ""
+"Check that the Playback Audio Device is set correctly for your sound output "
+"under Preferences in the Preview tab. Restart OpenShot after changing the "
+"settings. You can also try a different audio device (USB, audio over HDMI "
+"from the video card, headphones, etc.) to rule out other audio issues. "
+"Disable `automatic sound suppression` for voice calls during microphone "
+"activity, and disable `Audio Enhancements` under the advanced settings tab "
+"of your audio device (not all audio devices have these settings). See :ref:"
+"`preferences_preview_ref`."
+msgstr ""
+"Provjerite je li Playback Audio Device ispravno postavljen za vaš zvučni "
+"izlaz u Postavkama pod karticom Pregled. Ponovno pokrenite OpenShot nakon "
+"promjene postavki. Također možete isprobati drugi audio uređaj (USB, zvuk "
+"preko HDMI-a s grafičke kartice, slušalice itd.) kako biste isključili druge "
+"audio probleme. Onemogućite `automatic sound suppression` za glasovne pozive "
+"tijekom aktivnosti mikrofona i onemogućite `Audio Enhancements` u naprednim "
+"postavkama vašeg audio uređaja (nisu svi audio uređaji imaju ove postavke). "
+"Pogledajte :ref:`preferences_preview_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid "Audio Buffer Size"
+msgstr "Veličina audio bafera"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid ""
+"The audio buffer size is the amount of audio samples which must first be "
+"buffered in OpenShot before audio playback can begin. If this value is too "
+"low, you might experience audio break-up / crackle / popping. If this value "
+"is too high, you might experience delays or lag before audio playback "
+"begins. OpenShot defaults this value to 512, which is a reasonable default "
+"for most systems, which should provide smooth audio playback with minimal "
+"noticeable lag or delay. However, on some systems this value might need to "
+"be adjusted up or down, for in-sync and lag-free audio playback. The range "
+"is 128 to 4096."
+msgstr ""
+"Veličina audio bafera je količina audio uzoraka koja se mora prvo pohraniti "
+"u OpenShot prije nego što reprodukcija zvuka može započeti. Ako je ova "
+"vrijednost preniska, možete iskusiti prekide, šumove ili pucanje zvuka. Ako "
+"je vrijednost previsoka, možete iskusiti kašnjenja ili zastajkivanja prije "
+"početka reprodukcije zvuka. OpenShot zadano postavlja ovu vrijednost na 512, "
+"što je razumna zadana vrijednost za većinu sustava i treba omogućiti glatku "
+"reprodukciju zvuka s minimalnim primjetnim kašnjenjem. Međutim, na nekim "
+"sustavima ovu vrijednost treba prilagoditi gore ili dolje za sinkroniziranu "
+"i bezkašnjenja reprodukciju zvuka. Raspon je od 128 do 4096."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid "Sample Rate"
+msgstr "Frekvencija uzorkovanja"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid ""
+"Ensure that the `Default Audio Sample Rate` and `Default Audio Channels` on "
+"the Preview tab of the Preferences window match your hardware. You can also "
+"check these settings in the operating system control panel (i.e. Windows "
+"Sound Control Panel). See :ref:`preferences_preview_ref`."
+msgstr ""
+"Provjerite da `Default Audio Sample Rate` i `Default Audio Channels` na "
+"kartici Pregled u prozoru Postavki odgovaraju vašem hardveru. Također možete "
+"provjeriti ove postavke u upravljačkoj ploči operativnog sustava (npr. "
+"Windows Sound Control Panel). Pogledajte :ref:`preferences_preview_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid "Volume"
+msgstr "Glasnoća"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid ""
+"Ensure that the volume does not exceed 100% on overlapping clips (such as an "
+"audio track combined with a video track). Lower the volume on individual "
+"clips if needed. See :ref:`clip_volume_mixing_ref`."
+msgstr ""
+"Provjerite da glasnoća ne prelazi 100% na preklapajućim isječcima (kao što "
+"je audio zapis kombiniran s video zapisom). Po potrebi smanjite glasnoću "
+"pojedinačnih isječaka. Pogledajte :ref:`clip_volume_mixing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid "Headphones"
+msgstr "Slušalice"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid ""
+"If you're using headphones, plug them in before starting OpenShot. Launching "
+"OpenShot with no speakers, headphones, or valid audio playback device can "
+"cause OpenShot to freeze during playback."
+msgstr ""
+"Ako koristite slušalice, priključite ih prije pokretanja OpenShota. "
+"Pokretanje OpenShota bez zvučnika, slušalica ili valjanog audio uređaja za "
+"reprodukciju može uzrokovati da se OpenShot zamrzne tijekom reprodukcije."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid "OS Updates"
+msgstr "Ažuriranja operativnog sustava"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid ""
+"Update your operating system and any pending security updates. Some audio "
+"issues, especially audio device specific issues, can be resolved with an "
+"operating system update."
+msgstr ""
+"Ažurirajte svoj operativni sustav i sva čekajuća sigurnosna ažuriranja. Neki "
+"problemi sa zvukom, posebno oni specifični za audio uređaje, mogu se "
+"riješiti ažuriranjem operativnog sustava."

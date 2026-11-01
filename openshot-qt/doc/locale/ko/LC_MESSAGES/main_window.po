@@ -1,0 +1,2092 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:21
+msgid "Main Window"
+msgstr "메인 창"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:23
+msgid ""
+"OpenShot Video Editor has one main window which contains most of the "
+"information, buttons, and menus needed to edit your video project."
+msgstr ""
+"OpenShot Video Editor는 비디오 프로젝트 편집에 필요한 대부분의 정보, 버튼 및 메뉴를 포함하는 하나의 메인 창을 가지고"
+" 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:27
+msgid "Overview"
+msgstr "개요"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:35 ../main_window.rst:80 ../main_window.rst:101
+msgid "#"
+msgstr "번호"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:35 ../main_window.rst:80
+msgid "Name"
+msgstr "이름"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:35 ../main_window.rst:80 ../main_window.rst:103
+#: ../main_window.rst:237 ../main_window.rst:367 ../main_window.rst:396
+msgid "Description"
+msgstr "설명"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:37 ../main_window.rst:82 ../main_window.rst:104
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:37
+msgid "Main Toolbar"
+msgstr "메인 도구 모음"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:37
+msgid "Contains buttons to open, save, and export your video project."
+msgstr "비디오 프로젝트를 열고, 저장하고, 내보내는 버튼을 포함합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:38 ../main_window.rst:83 ../main_window.rst:107
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:38
+msgid "Function Tabs"
+msgstr "기능 탭"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:38
+msgid "Switch between Project Files, Transitions, Effects, and Emojis."
+msgstr "프로젝트 파일, 전환, 효과 및 이모지 간에 전환합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:39 ../main_window.rst:84 ../main_window.rst:110
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:39 ../main_window.rst:411
+msgid "Project Files"
+msgstr "프로젝트 파일"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:39
+msgid ""
+"All audio, video, and image files that have been imported into your project."
+msgstr "프로젝트에 가져온 모든 오디오, 비디오 및 이미지 파일입니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:40 ../main_window.rst:113
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:40
+msgid "Preview Window"
+msgstr "미리보기 창"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:40
+msgid "This is the area that the video will playback on the screen."
+msgstr "비디오가 화면에 재생되는 영역입니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:41 ../main_window.rst:116
+msgid "5"
+msgstr "5"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:41 ../main_window.rst:90
+msgid "Timeline Toolbar"
+msgstr "타임라인 도구 모음"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:41
+msgid ""
+"This toolbar contains buttons used for snapping, inserting markers, slicing "
+"razor, jumping between markers, and centering the timeline on the playhead. "
+"See :ref:`timeline_toolbar_ref`."
+msgstr ""
+"이 도구 모음에는 스냅, 마커 삽입, 레이저 슬라이스, 마커 간 이동 및 재생 헤드에 타임라인 중앙 맞춤에 사용되는 버튼이 포함되어 "
+"있습니다. :ref:`timeline_toolbar_ref` 를 참조하세요."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:42 ../main_window.rst:119
+msgid "6"
+msgstr "6"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:42 ../main_window.rst:120
+msgid "Zoom Slider"
+msgstr "줌 슬라이더"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:42
+msgid ""
+"This slider will adjust the time-scale of your timeline. Drag the left or "
+"right edge to zoom in or out. Drag the blue area to scroll the timeline left"
+" or right. Clips and transitions are displayed as simple rectangles, to give"
+" you context for adjusting the zoom to specific clips."
+msgstr ""
+"이 슬라이더는 타임라인의 시간 축척을 조절합니다. 왼쪽 또는 오른쪽 가장자리를 드래그하여 확대하거나 축소하세요. 파란 영역을 드래그하여 "
+"타임라인을 좌우로 스크롤할 수 있습니다. 클립과 전환은 단순한 사각형으로 표시되어 특정 클립에 맞게 줌을 조절하는 데 도움을 줍니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:43 ../main_window.rst:122
+msgid "7"
+msgstr "7"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:43
+msgid "Play-head / Ruler"
+msgstr "재생 헤드 / 눈금자"
+
+#: ../main_window.rst:43
+msgid ""
+"The ruler shows the time-scale, and the line is the play-head. The play-head"
+" represents the current playback position. The current timecode can be "
+"clicked to enter an exact timecode. Hold :kbd:`Shift` key while dragging the"
+" playhead to snap to nearby clips."
+msgstr ""
+"눈금자는 시간 척도를 표시하며, 선은 재생 헤드를 나타냅니다. 재생 헤드는 현재 재생 위치를 나타냅니다. 현재 타임코드를 클릭하여 정확한"
+" 타임코드를 입력할 수 있습니다. 재생 헤드를 드래그할 때 :kbd:`Shift` 키를 누르고 있으면 인근 클립에 스냅됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:44
+msgid "8"
+msgstr "8"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:44
+msgid "Timeline"
+msgstr "타임라인"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:44
+msgid ""
+"The timeline visualizes your video project, and each clip and transition in "
+"your project. You can drag the mouse to select, move, or delete multiple "
+"items."
+msgstr ""
+"타임라인은 비디오 프로젝트와 프로젝트 내 각 클립 및 전환을 시각화합니다. 마우스를 드래그하여 여러 항목을 선택, 이동 또는 삭제할 수 "
+"있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:45
+msgid "9"
+msgstr "9"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:45
+msgid "Filter"
+msgstr "필터"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:45
+msgid ""
+"Filter the list of items shown (project files, transitions, effects, and "
+"emojis) by using these buttons and filter textbox. Enter a few letters of "
+"what you are looking for, and the results will be shown."
+msgstr ""
+"이 버튼과 필터 텍스트 상자를 사용하여 표시된 항목 목록(프로젝트 파일, 전환, 효과 및 이모지)을 필터링하세요. 찾고자 하는 내용의 몇"
+" 글자를 입력하면 결과가 표시됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:46
+msgid "10"
+msgstr "10"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:46
+msgid "Playback"
+msgstr "재생"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:46
+msgid ""
+"Left to Right: Jump to Start, Rewind, Play/Pause, Fast Forward, and Jump to "
+"End"
+msgstr "왼쪽에서 오른쪽: 시작으로 이동, 되감기, 재생/일시정지, 빨리감기, 끝으로 이동"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:47
+#, fuzzy
+msgid "11"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:47
+msgid "Track"
+msgstr "트랙"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:47
+msgid ""
+"Track area containing the track name, track menu, and per-track controls "
+"such as lock and keyframe panel icons."
+msgstr "트랙 이름, 트랙 메뉴, 잠금 및 키프레임 패널 아이콘과 같은 트랙별 컨트롤을 포함하는 트랙 영역입니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:50
+msgid ""
+"For step-by-step instructions on the basic usage of OpenShot, be sure to "
+"read the :ref:`quick_tutorial_ref`."
+msgstr "OpenShot 기본 사용법에 대한 단계별 지침은 :ref:`quick_tutorial_ref` 를 꼭 읽어보세요."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:54
+msgid "Built-in Tutorial"
+msgstr "내장 튜토리얼"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:55
+msgid ""
+"When you first launch OpenShot, you will be presented with a friendly built-"
+"in tutorial. It will demonstrate and explain the basics. Clicking "
+":guilabel:`Next` will jump to the next topic. You can always view this "
+"tutorial again from the :guilabel:`Help→Tutorial` menu."
+msgstr ""
+"OpenShot을 처음 실행하면 친절한 내장 튜토리얼이 제공됩니다. 기본 사항을 시연하고 설명합니다. :guilabel:` 다음` 을 "
+"클릭하면 다음 주제로 이동합니다. 언제든지 :guilabel:` 도움말→튜토리얼` 메뉴에서 이 튜토리얼을 다시 볼 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:63
+msgid "Tracks & Layers"
+msgstr "트랙 및 레이어"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:65
+msgid ""
+"OpenShot uses tracks to layer videos and images. The top most track is the "
+"top layer, and the bottom track is the bottom layer. If you are familiar "
+"with layers in a photo editing application, then you should be quite "
+"familiar with this concept. OpenShot will stack the layers and mix each one "
+"together, just like a photo editing application. You can have an unlimited "
+"number of tracks, but typically a simple video project will not need more "
+"than 5 tracks."
+msgstr ""
+"OpenShot은 비디오와 이미지를 레이어링하기 위해 트랙을 사용합니다. 가장 위의 트랙이 최상위 레이어이고, 가장 아래 트랙이 최하위 "
+"레이어입니다. 사진 편집 애플리케이션의 레이어에 익숙하다면 이 개념도 쉽게 이해할 수 있습니다. OpenShot은 레이어를 쌓아 올리고 "
+"각각을 혼합하여 사진 편집 애플리케이션처럼 작동합니다. 트랙 수에는 제한이 없지만, 일반적인 간단한 비디오 프로젝트는 보통 5개 이상의 "
+"트랙이 필요하지 않습니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:72
+msgid "For example, imagine a 3 track video project"
+msgstr "예를 들어, 3개의 트랙으로 구성된 비디오 프로젝트를 상상해 보세요"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:82
+msgid "Top Track"
+msgstr "최상위 트랙"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:82
+msgid ""
+"Clips on this track will always be on top and visible. Often watermarks and "
+"titles are placed on higher tracks."
+msgstr "이 트랙의 클립은 항상 최상위에 표시됩니다. 보통 워터마크와 제목이 상위 트랙에 배치됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:83
+msgid "Middle Track"
+msgstr "중간 트랙"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:83
+msgid ""
+"Clips in the middle (might or might not be visible, depending on what is "
+"above them)"
+msgstr "중간 트랙의 클립(위에 무엇이 있느냐에 따라 보일 수도 있고 보이지 않을 수도 있습니다)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:84
+msgid "Bottom Track"
+msgstr "최하위 트랙"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:84
+msgid ""
+"Clips on this track will always be on the bottom. Often audio clips are "
+"placed on lower tracks."
+msgstr "이 트랙의 클립은 항상 최하위에 위치합니다. 보통 오디오 클립이 하위 트랙에 배치됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:94
+msgid ""
+"For a beginner-friendly overview of timeline editing (selection, tracks, "
+"keyframes, and common workflows), see :ref:`timeline_ref`."
+msgstr ""
+"초보자 친화적인 타임라인 편집(선택, 트랙, 키프레임 및 일반적인 작업 흐름) 개요는 :ref:`timeline_ref` 를 참조하세요."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:102
+msgid "Control Group"
+msgstr "컨트롤 그룹"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:105 ../main_window.rst:144
+msgid "Add Track"
+msgstr "트랙 추가"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:106
+msgid ""
+"Add a new track to the timeline. New projects start with 5 tracks by "
+"default."
+msgstr "타임라인에 새 트랙을 추가합니다. 새 프로젝트는 기본적으로 5개의 트랙으로 시작합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:108
+msgid "Undo / Redo"
+msgstr "실행 취소 / 다시 실행"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:109
+msgid "Undo or redo your latest timeline edits."
+msgstr "최근 타임라인 편집을 실행 취소하거나 다시 실행합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:111
+msgid "Snap, Retime, Razor"
+msgstr "스냅, 리타임, 레이저"
+
+#: ../main_window.rst:112
+msgid ""
+"Snapping toggles magnetic alignment. Timing Tool enables retiming by "
+"dragging clip edges. The :ref:`razor_tool_ref` previews and cuts at the "
+"guide position; press :kbd:`Esc` to exit."
+msgstr ""
+"스내핑은 자석 정렬을 전환합니다. 타이밍 도구는 클립 가장자리를 드래그하여 재타이밍을 가능하게 합니다. "
+":ref:`razor_tool_ref` 는 가이드 위치에서 미리보기 및 자르기를 수행합니다; 종료하려면 :kbd:`Esc` 를 누르세요."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:114
+msgid "Add Marker, Next/Prev Marker"
+msgstr "마커 추가, 다음/이전 마커"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:115
+msgid ""
+"Add a marker at the playhead and jump to previous or next marker/clip "
+"boundaries."
+msgstr "플레이헤드에 마커를 추가하고 이전 또는 다음 마커/클립 경계로 이동합니다."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:117 ../main_window.rst:148
+msgid "Center on Playhead"
+msgstr "재생 헤드를 중심으로 보기"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:118
+msgid "Center the visible timeline area around the current playhead position."
+msgstr "현재 플레이헤드 위치를 중심으로 보이는 타임라인 영역을 가운데로 맞춥니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:121
+msgid ""
+"Control the visible timeline range. Drag handles to zoom in/out, drag center"
+" to pan, and double-click to fit timeline. You can also use "
+":kbd:`Ctrl+Scroll Wheel`, or on the QWidget timeline hold :kbd:`Ctrl` and "
+"drag with the middle mouse button for smooth zooming."
+msgstr ""
+"보이는 타임라인 범위를 제어합니다. 핸들을 드래그하여 확대/축소하고, 중앙을 드래그하여 이동하며, 더블 클릭하여 타임라인에 맞춥니다. "
+"또한 :kbd:`Ctrl+스크롤 휠`을 사용하거나 QWidget 타임라인에서 :kbd:`Ctrl` 키를 누른 상태로 가운데 마우스 버튼을"
+" 드래그하여 부드럽게 확대/축소할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:123
+msgid "Track toggles (Lock, Keyframe Panel)"
+msgstr "트랙 토글(잠금, 키프레임 패널)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:124
+msgid "Per-track controls such as lock and keyframe panel visibility."
+msgstr "잠금 및 키프레임 패널 표시와 같은 트랙별 컨트롤입니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:129
+msgid "Keyboard Shortcuts"
+msgstr "키보드 단축키"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:130
+msgid ""
+"Here is a list of the default keyboard shortcuts supported by OpenShot. You "
+"can configure these shortcuts in the Preferences window, which is opened by "
+"selecting :guilabel:`Edit→Preferences` from the OpenShot menu bar. (On "
+"macOS, choose :guilabel:`OpenShot Video Editor→Preferences`.) Learning a few"
+" of these shortcuts can save you a bunch of time!"
+msgstr ""
+"다음은 OpenShot에서 지원하는 기본 키보드 단축키 목록입니다. OpenShot 메뉴 바에서 :guilabel:` 편집→환경설정` 을"
+" 선택하여 환경설정 창에서 단축키를 설정할 수 있습니다. (macOS에서는 :guilabel:`OpenShot Video "
+"Editor→환경설정` 를 선택하세요.) 몇 가지 단축키를 익히면 많은 시간을 절약할 수 있습니다!"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Action"
+msgstr "동작"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Shortcut 1"
+msgstr "단축키 1"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Shortcut 2"
+msgstr "단축키 2"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Shortcut 3"
+msgstr "단축키 3"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:142 ../main_window.rst:294
+msgid "About OpenShot"
+msgstr "OpenShot 정보"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:142
+msgid ":kbd:`Ctrl+H`"
+msgstr "Ctrl+H"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:143
+msgid "Add Marker"
+msgstr "마커 추가"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:143
+msgid ":kbd:`M`"
+msgstr "M"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:144
+msgid ":kbd:`Ctrl+Y`"
+msgstr "Ctrl+Y"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:145
+msgid "Add to Timeline"
+msgstr "타임라인에 추가"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:145
+msgid ":kbd:`Ctrl+Alt+A`"
+msgstr "Ctrl+Alt+A"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:146
+msgid "Animated Title"
+msgstr "애니메이션 제목"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:146
+msgid ":kbd:`Ctrl+Shift+T`"
+msgstr "Ctrl+Shift+T"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:147
+msgid "Ask a Question..."
+msgstr "질문하기..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:147
+msgid ":kbd:`F4`"
+msgstr "F4"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:148
+msgid ":kbd:`Shift+C`"
+msgstr "Shift+C"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:148
+msgid ":kbd:`Alt+Up`"
+msgstr "Alt+위쪽 화살표"
+
+#: ../main_window.rst:149 ../main_window.rst:329
+msgid "Color View"
+msgstr "컬러 뷰"
+
+#: ../main_window.rst:149
+msgid ":kbd:`Alt+Shift+2`"
+msgstr ":kbd:`Alt+Shift+2`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:150
+msgid "Choose Profile"
+msgstr "프로필 선택"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:150
+msgid ":kbd:`Ctrl+Alt+P`"
+msgstr "Ctrl+Alt+P"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:151
+msgid "Clear All Cache"
+msgstr "모든 캐시 삭제"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:151
+msgid ":kbd:`Ctrl+Shift+ESC`"
+msgstr "Ctrl+Shift+ESC"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:152
+msgid "Clear History"
+msgstr "기록 삭제"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:152
+msgid ":kbd:`Ctrl+Shift+H`"
+msgstr "Ctrl+Shift+H"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:153
+msgid "Delete Optimized Videos"
+msgstr "최적화된 비디오 삭제"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:153
+msgid ":kbd:`Ctrl+Shift+O`"
+msgstr ":kbd:`Ctrl+Shift+O`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:154
+msgid "Clear Waveform Display Data"
+msgstr "파형 표시 데이터 삭제"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:154
+msgid ":kbd:`Ctrl+Shift+W`"
+msgstr "Ctrl+Shift+W"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:155
+msgid "Copy"
+msgstr "복사"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:155
+msgid ":kbd:`Ctrl+C`"
+msgstr "Ctrl+C"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:156
+msgid "Cut"
+msgstr "잘라내기"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:156
+msgid ":kbd:`Ctrl+X`"
+msgstr "Ctrl+X"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:157
+msgid "Delete Item"
+msgstr "항목 삭제"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:157
+msgid ":kbd:`Delete`"
+msgstr "Delete"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:157
+msgid ":kbd:`Backspace`"
+msgstr "Backspace"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:158
+msgid "Delete Item (Ripple)"
+msgstr "항목 삭제 (리플)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:158
+msgid ":kbd:`Shift+Delete`"
+msgstr "Shift+Delete"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:159
+msgid "Details View"
+msgstr "상세 보기"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:159
+msgid ":kbd:`Ctrl+Page Up`"
+msgstr "Ctrl+Page Up"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:160
+msgid "Donate"
+msgstr "기부"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:160
+msgid ":kbd:`F7`"
+msgstr "F7"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:161
+msgid "Duplicate"
+msgstr "복제"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:161
+msgid ":kbd:`Ctrl+Shift+/`"
+msgstr "Ctrl+Shift+/"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:162
+msgid "Edit Title"
+msgstr "제목 편집"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:162
+msgid ":kbd:`Alt+T`"
+msgstr "Alt+T"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:163
+msgid "Export Selected Files"
+msgstr "선택한 파일 내보내기"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:163
+msgid ":kbd:`Ctrl+Shift+E`"
+msgstr "Ctrl+Shift+E"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:164
+msgid "Export Video / Media"
+msgstr "비디오/미디어 내보내기"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:164
+msgid ":kbd:`Ctrl+E`"
+msgstr "Ctrl+E"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:164
+msgid ":kbd:`Ctrl+M`"
+msgstr "Ctrl+M"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:165
+msgid "Fast Forward"
+msgstr "빨리 감기"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:165
+msgid ":kbd:`L`"
+msgstr "L"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:166
+msgid "File Properties"
+msgstr "파일 속성"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:166
+msgid ":kbd:`Alt+I`"
+msgstr "Alt+I"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:166
+msgid ":kbd:`Ctrl+Double Click`"
+msgstr "Ctrl+더블 클릭"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:167
+msgid "Fullscreen"
+msgstr "전체 화면"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:167
+msgid ":kbd:`F11`"
+msgstr "F11"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:168
+msgid "Import Files..."
+msgstr "파일 가져오기..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:168
+msgid ":kbd:`Ctrl+I`"
+msgstr "Ctrl+I"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:169
+msgid "Insert Keyframe"
+msgstr "키프레임 삽입"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:169
+msgid ":kbd:`Alt+Shift+K`"
+msgstr "Alt+Shift+K"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:170
+msgid "Join our Community..."
+msgstr "커뮤니티에 참여하세요..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:170
+msgid ":kbd:`F5`"
+msgstr ":kbd:`F5`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:171
+msgid "Jump To End"
+msgstr "끝으로 이동"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:171
+msgid ":kbd:`End`"
+msgstr ":kbd:`End`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:172
+msgid "Jump To Start"
+msgstr "처음으로 이동"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:172
+msgid ":kbd:`Home`"
+msgstr ":kbd:`Home`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:173
+msgid "Launch Tutorial"
+msgstr "튜토리얼 시작"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:173
+msgid ":kbd:`F2`"
+msgstr ":kbd:`F2`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:174
+msgid "New Project"
+msgstr "새 프로젝트"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:174
+msgid ":kbd:`Ctrl+N`"
+msgstr ":kbd:`Ctrl+N`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:175
+msgid "Next Frame"
+msgstr "다음 프레임"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:175
+msgid ":kbd:`Right`"
+msgstr ":kbd:`Right`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:175
+msgid ":kbd:`.`"
+msgstr ":kbd:`.`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:176
+msgid "Next Marker"
+msgstr "다음 마커"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:176
+msgid ":kbd:`Shift+M`"
+msgstr ":kbd:`Shift+M`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:176
+msgid ":kbd:`Alt+Right`"
+msgstr ":kbd:`Alt+Right`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:177
+msgid "Nudge left (1 Frame)"
+msgstr "왼쪽으로 이동 (1 프레임)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:177
+msgid ":kbd:`Ctrl+Left`"
+msgstr ":kbd:`Ctrl+Left`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:178
+msgid "Nudge left (5 Frames)"
+msgstr "왼쪽으로 이동 (5 프레임)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:178
+msgid ":kbd:`Shift+Ctrl+Left`"
+msgstr ":kbd:`Shift+Ctrl+Left`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:179
+msgid "Nudge right (1 Frame)"
+msgstr "오른쪽으로 이동 (1 프레임)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:179
+msgid ":kbd:`Ctrl+Right`"
+msgstr ":kbd:`Ctrl+Right`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:180
+msgid "Nudge right (5 Frames)"
+msgstr "오른쪽으로 이동 (5 프레임)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:180
+msgid ":kbd:`Shift+Ctrl+Right`"
+msgstr ":kbd:`Shift+Ctrl+Right`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:181
+msgid "Open Help Contents"
+msgstr "도움말 열기"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:181
+msgid ":kbd:`F1`"
+msgstr ":kbd:`F1`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:182
+msgid "Open Project..."
+msgstr "프로젝트 열기..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:182
+msgid ":kbd:`Ctrl+O`"
+msgstr ":kbd:`Ctrl+O`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:183
+msgid "Paste"
+msgstr "붙여넣기"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:183
+msgid ":kbd:`Ctrl+V`"
+msgstr ":kbd:`Ctrl+V`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid "Play/Pause Toggle"
+msgstr "재생/일시정지 전환"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid ":kbd:`Space`"
+msgstr ":kbd:`Space`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid ":kbd:`Up`"
+msgstr ":kbd:`Up`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid ":kbd:`Down`"
+msgstr ":kbd:`Down`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:185
+msgid "Preferences"
+msgstr "환경설정"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:185
+msgid ":kbd:`Ctrl+P`"
+msgstr ":kbd:`Ctrl+P`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:186
+msgid "Preview File"
+msgstr "파일 미리보기"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:186
+msgid ":kbd:`Alt+P`"
+msgstr ":kbd:`Alt+P`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:186 ../main_window.rst:223
+msgid ":kbd:`Double Click`"
+msgstr ":kbd:` 더블 클릭`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:187
+msgid "Previous Frame"
+msgstr "이전 프레임"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:187
+msgid ":kbd:`Left`"
+msgstr ":kbd:`Left`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:187
+msgid ":kbd:`,`"
+msgstr ":kbd:`,`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:188
+msgid "Previous Marker"
+msgstr "이전 마커"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:188
+msgid ":kbd:`Ctrl+Shift+M`"
+msgstr ":kbd:`Ctrl+Shift+M`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:188
+msgid ":kbd:`Alt+Left`"
+msgstr ":kbd:`Alt+Left`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:189 ../main_window.rst:413
+msgid "Properties"
+msgstr "속성"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:189
+msgid ":kbd:`U`"
+msgstr ":kbd:`U`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:190
+msgid "Quit"
+msgstr "종료"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:190
+msgid ":kbd:`Ctrl+Q`"
+msgstr ":kbd:`Ctrl+Q`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid "Razor Toggle"
+msgstr "레이저 토글"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid ":kbd:`C`"
+msgstr ":kbd:`C`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid ":kbd:`B`"
+msgstr ":kbd:`B`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid ":kbd:`R`"
+msgstr ":kbd:`R`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:192
+msgid "Redo"
+msgstr "다시 실행"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:192
+msgid ":kbd:`Ctrl+Shift+Z`"
+msgstr ":kbd:`Ctrl+Shift+Z`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:193
+msgid "Report a Bug..."
+msgstr "버그 신고..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:193
+msgid ":kbd:`F3`"
+msgstr ":kbd:`F3`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:194
+msgid "Rewind"
+msgstr "되감기"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:194
+msgid ":kbd:`J`"
+msgstr ":kbd:`J`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:195 ../main_window.rst:196
+msgid "Save Current Frame"
+msgstr "현재 프레임 저장"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:195 ../main_window.rst:196
+msgid ":kbd:`Ctrl+Shift+Y`"
+msgstr ":kbd:`Ctrl+Shift+Y`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:197
+msgid "Save Project"
+msgstr "프로젝트 저장"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:197
+msgid ":kbd:`Ctrl+S`"
+msgstr ":kbd:`Ctrl+S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:198
+msgid "Save Project As..."
+msgstr "다른 이름으로 프로젝트 저장..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:198
+msgid ":kbd:`Ctrl+Shift+S`"
+msgstr ":kbd:`Ctrl+Shift+S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:199
+msgid "Select All"
+msgstr "모두 선택"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:199
+msgid ":kbd:`Ctrl+A`"
+msgstr ":kbd:`Ctrl+A`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:200
+msgid "Select Item (Ripple)"
+msgstr "항목 선택 (리플)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:200
+msgid ":kbd:`Alt+A`"
+msgstr ":kbd:`Alt+A`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:200
+msgid ":kbd:`Alt+Click`"
+msgstr ":kbd:`Alt+클릭`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:201
+msgid "Select None"
+msgstr "선택 해제"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:201
+msgid ":kbd:`Ctrl+Shift+A`"
+msgstr ":kbd:`Ctrl+Shift+A`"
+
+#: ../main_window.rst:202
+msgid "Share Feedback..."
+msgstr "피드백 공유..."
+
+#: ../main_window.rst:202
+msgid ":kbd:`F8`"
+msgstr ":kbd:`F8`"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:203 ../main_window.rst:322
+msgid "Simple View"
+msgstr "간단 보기"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:203
+msgid ":kbd:`Alt+Shift+0`"
+msgstr ":kbd:`Alt+Shift+0`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:204
+msgid "Slice All: Keep Both Sides"
+msgstr "전체 자르기: 양쪽 유지"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:204
+msgid ":kbd:`Ctrl+Shift+K`"
+msgstr ":kbd:`Ctrl+Shift+K`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:205
+msgid "Slice All: Keep Left Side"
+msgstr "전체 자르기: 왼쪽 유지"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:205
+msgid ":kbd:`Ctrl+Shift+J`"
+msgstr ":kbd:`Ctrl+Shift+J`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:206
+msgid "Slice All: Keep Right Side"
+msgstr "전체 자르기: 오른쪽 유지"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:206
+msgid ":kbd:`Ctrl+Shift+L`"
+msgstr ":kbd:`Ctrl+Shift+L`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:207
+msgid "Slice Selected: Keep Both Sides"
+msgstr "선택 자르기: 양쪽 유지"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:207
+msgid ":kbd:`Ctrl+K`"
+msgstr ":kbd:`Ctrl+K`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:208
+msgid "Slice Selected: Keep Left Side"
+msgstr "선택 자르기: 왼쪽 유지"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:208
+msgid ":kbd:`Ctrl+J`"
+msgstr ":kbd:`Ctrl+J`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:209
+msgid "Slice Selected: Keep Right Side"
+msgstr "선택 자르기: 오른쪽 유지"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:209
+msgid ":kbd:`Ctrl+L`"
+msgstr ":kbd:`Ctrl+L`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:210
+msgid "Slice Selected: Keep Left (Ripple)"
+msgstr "선택 자르기: 왼쪽 유지 (리플)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:210
+msgid ":kbd:`W`"
+msgstr ":kbd:`W`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:211
+msgid "Slice Selected: Keep Right (Ripple)"
+msgstr "선택 자르기: 오른쪽 유지 (리플)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:211
+msgid ":kbd:`Q`"
+msgstr ":kbd:`Q`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:212
+msgid "Snapping Toggle"
+msgstr "스냅 토글"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:212
+msgid ":kbd:`S`"
+msgstr ":kbd:`S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:213
+msgid "Split File"
+msgstr "파일 분할"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:213
+msgid ":kbd:`Alt+S`"
+msgstr ":kbd:`Alt+S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:213
+msgid ":kbd:`Shift+Double Click`"
+msgstr ":kbd:`Shift+더블 클릭`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:214
+msgid "Thumbnail View"
+msgstr "썸네일 보기"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:214
+msgid ":kbd:`Ctrl+Page Down`"
+msgstr ":kbd:`Ctrl+Page Down`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:215
+msgid "Timing Toggle"
+msgstr "타이밍 전환"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:215
+msgid ":kbd:`T`"
+msgstr ":kbd:`T`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:216 ../main_window.rst:257
+msgid "Title"
+msgstr "제목"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:216
+msgid ":kbd:`Ctrl+T`"
+msgstr ":kbd:`Ctrl+T`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:217
+msgid "Translate this Application..."
+msgstr "이 응용 프로그램 번역하기..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:217
+msgid ":kbd:`F6`"
+msgstr ":kbd:`F6`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:218
+msgid "Undo"
+msgstr "실행 취소"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:218
+msgid ":kbd:`Ctrl+Z`"
+msgstr ":kbd:`Ctrl+Z`"
+
+#: ../main_window.rst:219
+msgid "Update Available"
+msgstr "업데이트 가능"
+
+#: ../main_window.rst:219
+msgid ":kbd:`F9`"
+msgstr ":kbd:`F9`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:220
+msgid "View Toolbar"
+msgstr "도구 모음 보기"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:220
+msgid ":kbd:`Ctrl+Shift+B`"
+msgstr ":kbd:`Ctrl+Shift+B`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:221
+msgid "Zoom In"
+msgstr "확대"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:221
+msgid ":kbd:`=`"
+msgstr ":kbd:`=`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:221
+msgid ":kbd:`Ctrl+=`"
+msgstr ":kbd:`Ctrl+=`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:222
+msgid "Zoom Out"
+msgstr "축소"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:222
+msgid ":kbd:`-`"
+msgstr ":kbd:`-`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:222
+msgid ":kbd:`Ctrl+-`"
+msgstr ":kbd:`Ctrl+-`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:223
+msgid "Zoom to Timeline"
+msgstr "타임라인에 맞게 확대"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:223
+msgid ":kbd:`\\\\`"
+msgstr ":kbd:`\\\\`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:223
+msgid ":kbd:`Shift+\\\\`"
+msgstr ":kbd:`Shift+\\\\`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:227
+msgid "Menu"
+msgstr "메뉴"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:228
+msgid ""
+"The following menu options are available on the main window on OpenShot. "
+"Most of these options can be accessed by the keyboard shortcuts mentioned "
+"above. On some Operating Systems (such as macOS) a few of these options are "
+"renamed and/or rearranged."
+msgstr ""
+"다음 메뉴 옵션들은 OpenShot 메인 창에서 사용할 수 있습니다. 대부분의 옵션은 위에 언급된 키보드 단축키로 접근할 수 있습니다. "
+"일부 운영 체제(예: macOS)에서는 몇몇 옵션이 이름이 변경되거나 재배치될 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:236
+msgid "Menu Name"
+msgstr "메뉴 이름"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:238
+msgid "File"
+msgstr "파일"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:240
+msgid ":guilabel:`New Project` Create a blank new project."
+msgstr ":guilabel:` 새 프로젝트` 빈 새 프로젝트를 만듭니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:241
+msgid ":guilabel:`Open Project` Open an existing project."
+msgstr ":guilabel:` 프로젝트 열기` 기존 프로젝트를 엽니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:242
+msgid ":guilabel:`Recent Projects` Access recently opened projects."
+msgstr ":guilabel:` 최근 프로젝트` 최근에 연 프로젝트에 접근합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:243
+msgid ""
+":guilabel:`Recovery` Restore a previously saved version of your current "
+"project."
+msgstr ":guilabel:` 복구` 현재 프로젝트의 이전 저장 버전을 복원합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:244
+msgid ":guilabel:`Save Project` Save the current project."
+msgstr ":guilabel:` 프로젝트 저장` 현재 프로젝트를 저장합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:245
+msgid ":guilabel:`Import Files` Import media files into the project."
+msgstr ":guilabel:` 파일 가져오기` 미디어 파일을 프로젝트로 가져옵니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:246
+msgid ""
+":guilabel:`Choose Profile` Select a project profile (*i.e. 1080p @ 30fps, "
+"720p @ 24fps, ...*)."
+msgstr ""
+":guilabel:` 프로필 선택` 프로젝트 프로필을 선택합니다 (*예: 1080p @ 30fps, 720p @ 24fps 등*)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:247
+msgid ""
+":guilabel:`Save Current Frame` Save the current preview video frame as an "
+"image (sometimes represented with a camera icon)."
+msgstr ""
+":guilabel:` 현재 프레임 저장` 현재 미리보기 비디오 프레임을 이미지로 저장합니다 (종종 카메라 아이콘으로 표시됨)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:248
+msgid ""
+":guilabel:`Import Project` Import another project into the current project "
+"(*Adobe and Final Cut Pro formats partially supported*)."
+msgstr ""
+":guilabel:` 프로젝트 가져오기` 다른 프로젝트를 현재 프로젝트로 가져옵니다 (*Adobe 및 Final Cut Pro 형식 일부"
+" 지원*)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:249
+msgid ""
+":guilabel:`Export Project` Export the current project to a specified format "
+"(*EDL, Adobe, and Final Cut Pro formats partially supported*)."
+msgstr ""
+":guilabel:` 프로젝트 내보내기` 현재 프로젝트를 지정된 형식으로 내보냅니다 (*EDL, Adobe 및 Final Cut Pro "
+"형식 일부 지원*)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:250
+msgid ":guilabel:`Quit` Exit the application."
+msgstr ":guilabel:` 종료` 응용 프로그램을 종료합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:251
+msgid "Edit"
+msgstr "편집"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:253
+msgid ":guilabel:`Undo` Undo the last action."
+msgstr ":guilabel:` 실행 취소` 마지막 작업을 실행 취소합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:254
+msgid ":guilabel:`Redo` Redo the last undone action."
+msgstr ":guilabel:` 다시 실행` 마지막에 실행 취소한 작업을 다시 실행합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:255
+msgid ""
+":guilabel:`Clear` Clear the current history or waveform cached data. This "
+"makes the `.osp project` file a much smaller file size."
+msgstr ""
+":guilabel:` 지우기` 현재 기록 또는 파형 캐시 데이터를 지웁니다. 이로 인해 `.osp 프로젝트` 파일 크기가 훨씬 "
+"작아집니다."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:256
+msgid ""
+":guilabel:`Preferences` Open the preferences dialog to customize settings."
+msgstr ":guilabel:`환경설정` 설정을 사용자 지정하기 위한 환경 설정 대화 상자를 엽니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:259
+msgid ""
+":guilabel:`Title` Add a SVG vector title to the project. See "
+":ref:`text_and_titles_ref`."
+msgstr ""
+":guilabel:` 제목` 프로젝트에 SVG 벡터 제목을 추가합니다. :ref:`text_and_titles_ref` 를 참조하세요."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:260
+msgid ""
+":guilabel:`Animated Title` Add an animated title to the project. See "
+":ref:`animated_titles_ref`."
+msgstr ""
+":guilabel:` 애니메이션 제목` 프로젝트에 애니메이션 제목을 추가합니다. :ref:`animated_titles_ref` 를 "
+"참조하세요."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:261
+msgid "View"
+msgstr "보기"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:263
+msgid ""
+":guilabel:`Simple View` and :guilabel:`Color View` switch or reset the main "
+"window layout."
+msgstr ":guilabel:`간단 보기` 와 :guilabel:`Color View` 는 메인 창 레이아웃을 전환하거나 재설정합니다."
+
+#: ../main_window.rst:264
+msgid ""
+":guilabel:`My Views` Save, load, update, and delete your own named layouts. "
+"See :ref:`my_views_ref`."
+msgstr ""
+":guilabel:`My Views` 는 사용자가 지정한 레이아웃을 저장, 불러오기, 업데이트 및 삭제할 수 있습니다. 자세한 내용은 "
+":ref:`my_views_ref` 를 참조하세요."
+
+#: ../main_window.rst:265
+msgid ":guilabel:`Docks` Show or hide various dockable panels."
+msgstr ":guilabel:`Docks` 는 다양한 도킹 가능한 패널을 표시하거나 숨깁니다."
+
+#: ../main_window.rst:266
+msgid ""
+":guilabel:`Scopes` Show or hide scope docks, or open all scopes at once."
+msgstr ":guilabel:`Scopes` 는 스코프 도크를 표시하거나 숨기거나, 모든 스코프를 한 번에 엽니다."
+
+#: ../main_window.rst:267
+msgid ""
+":guilabel:`Window` Show or hide the main window toolbar, or toggle "
+"fullscreen mode."
+msgstr ":guilabel:`Window` 는 메인 창 도구 모음을 표시하거나 숨기거나 전체 화면 모드를 전환합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:268
+msgid "Help"
+msgstr "도움말"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:270
+msgid ":guilabel:`Contents` Open the user guide online."
+msgstr ":guilabel:` 목차` 온라인 사용자 가이드를 엽니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:271
+msgid ":guilabel:`Tutorial` Access the built-in tutorial for new users."
+msgstr ":guilabel:` 튜토리얼` 신규 사용자를 위한 내장 튜토리얼에 접근합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:272
+msgid ":guilabel:`Report a Bug` Report a bug or issue."
+msgstr ":guilabel:` 버그 신고` 버그나 문제를 신고합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:273
+msgid ":guilabel:`Ask a Question` Ask a question about the software."
+msgstr ":guilabel:` 질문하기` 소프트웨어에 관한 질문을 합니다."
+
+#: ../main_window.rst:274
+msgid ""
+":guilabel:`Share Feedback` Open a survey about your experience with "
+"OpenShot."
+msgstr ":guilabel:`피드백 공유` OpenShot 사용 경험에 대한 설문조사를 엽니다."
+
+#: ../main_window.rst:275
+msgid ""
+":guilabel:`Update Available` Open the download page when a newer version is "
+"available."
+msgstr ":guilabel:`업데이트 가능` 새 버전이 있을 때 다운로드 페이지를 엽니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:276
+msgid ":guilabel:`Translate` Contribute to translations of the software."
+msgstr ":guilabel:` 번역` 소프트웨어 번역에 기여합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:277
+msgid ":guilabel:`Donate` Make a donation to support the project."
+msgstr ":guilabel:` 기부` 프로젝트 지원을 위한 기부를 합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:278
+msgid ""
+":guilabel:`About` View information about the software (version, "
+"contributors, translators, changelog, and supporters)."
+msgstr ":guilabel:` 정보` 소프트웨어 정보(버전, 기여자, 번역가, 변경 로그, 후원자)를 봅니다."
+
+#: ../main_window.rst:281
+msgid "Notifications"
+msgstr "알림"
+
+#: ../main_window.rst:283
+msgid ""
+"OpenShot may show a notice near the top of the window when a newer version "
+"is available. Choose :guilabel:`Upgrade` to open the download page, or close"
+" the notice to hide it for that version. You can still open the download "
+"page from :guilabel:`Help → Update Available` or press :kbd:`F9` when an "
+"update is available."
+msgstr ""
+"새 버전이 있을 때 OpenShot은 창 상단 근처에 알림을 표시할 수 있습니다. 다운로드 페이지를 열려면 "
+":guilabel:`업그레이드` 를 선택하거나, 해당 버전에 대한 알림을 숨기려면 닫으세요. 업데이트가 있을 때 "
+":guilabel:`도움말 → 업데이트 가능` 에서도 다운로드 페이지를 열거나 :kbd:`F9` 를 누를 수 있습니다."
+
+#: ../main_window.rst:288
+msgid ""
+"After you have spent some time editing, OpenShot may also invite you to "
+"share feedback. The survey is optional. You can open it from the notice or "
+"dismiss the invitation. At any time, choose :guilabel:`Help → Share "
+"Feedback` or press :kbd:`F8` to share your thoughts."
+msgstr ""
+"일정 시간 편집한 후 OpenShot이 피드백 공유를 요청할 수 있습니다. 설문조사는 선택 사항입니다. 알림에서 열거나 초대를 거절할 수"
+" 있습니다. 언제든지 :guilabel:`도움말 → 피드백 공유` 를 선택하거나 :kbd:`F8` 을 눌러 의견을 공유하세요."
+
+#: ../main_window.rst:295
+msgid ""
+"Use :guilabel:`Help→About OpenShot` to check your OpenShot version. Click "
+":guilabel:`Copy` next to the version number to copy a short version and "
+"system details report, including how OpenShot was installed. This is a "
+"useful way to share the information when reporting a bug or asking for help."
+msgstr ""
+":guilabel:`도움말→OpenShot 정보` 를 사용하여 OpenShot 버전을 확인하세요. 버전 번호 옆의 "
+":guilabel:`복사` 를 클릭하면 OpenShot 설치 방법을 포함한 간단한 버전 및 시스템 정보 보고서를 복사할 수 있습니다. "
+"버그를 보고하거나 도움을 요청할 때 유용한 정보 공유 방법입니다."
+
+#: ../main_window.rst:300
+msgid "Example output:"
+msgstr "예시 출력:"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:315
+msgid "Views"
+msgstr "보기"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:317
+msgid ""
+"The OpenShot main window is composed of multiple **docks**. These **docks** "
+"are arranged and snapped together into a grouping that we call a **View**. "
+"OpenShot includes :guilabel:`Simple View`, :guilabel:`Color View`, and "
+":guilabel:`My Views` (user-defined layouts)."
+msgstr ""
+"OpenShot 메인 창은 여러 개의 **도크**로 구성되어 있습니다. 이 **도크**들은 함께 배열되고 스냅되어 **뷰(View)** "
+"라는 그룹으로 구성됩니다. OpenShot에는 :guilabel:`간단 보기`, :guilabel:`Color View`, 그리고 "
+":guilabel:`My Views` (사용자 정의 레이아웃)가 포함되어 있습니다."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:323
+msgid ""
+"This is the **default** view, and is designed to be easy-to-use, especially "
+"for first-time users. It contains :guilabel:`Project Files` on the top left,"
+" :guilabel:`Preview Window` on the top right, and :guilabel:`Timeline` on "
+"the bottom. If you accidentally close or move a dock, you can quickly reset "
+"all the docks back to their default location using the "
+":guilabel:`View->Simple View` menu at the top of the screen."
+msgstr ""
+"이것은 **기본** 뷰이며, 특히 처음 사용하는 사용자를 위해 사용하기 쉽게 설계되었습니다. 왼쪽 상단에 "
+":guilabel:`Project Files`, 오른쪽 상단에 :guilabel:`Preview Window`, 하단에 "
+":guilabel:`Timeline` 이 포함되어 있습니다. 도크를 실수로 닫거나 이동했을 경우, 화면 상단의 "
+":guilabel:`View->간단 보기` 메뉴를 사용하여 모든 도크를 기본 위치로 빠르게 재설정할 수 있습니다."
+
+#: ../main_window.rst:330
+msgid ""
+"This view is focused on color correction and scopes. It enlarges the video "
+"preview, hides file-management docks, keeps the timeline and properties "
+"visible, places the :guilabel:`Color Wheels` dock on the right, and tabifies"
+" the :guilabel:`Luma Waveform` and :guilabel:`Histogram` docks together "
+"below it."
+msgstr ""
+"이 뷰는 색상 보정과 스코프에 중점을 둡니다. 비디오 미리보기를 확대하고, 파일 관리 도크를 숨기며, 타임라인과 속성은 표시된 상태로 "
+"유지합니다. :guilabel:`Color Wheels` 도크를 오른쪽에 배치하고, 그 아래에 :guilabel:`Luma "
+"Waveform` 과 :guilabel:`Histogram` 도크를 탭으로 묶습니다."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:335
+msgid "Recording View"
+msgstr "녹음/녹화 보기"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:336
+msgid ""
+"This view is focused on creating new recordings inside OpenShot. It shows "
+":guilabel:`Project Files`, :guilabel:`Video Preview`, :guilabel:`Timeline`, "
+"and the :guilabel:`Recording` dock. The :guilabel:`Properties` dock is "
+"grouped with :guilabel:`Project Files` as a tab, so you can show it from "
+":guilabel:`View->Docks->Properties` without disrupting the recording layout."
+msgstr ""
+"이 뷰는 OpenShot 내에서 새 녹화를 만드는 데 중점을 둡니다. :guilabel:`Project Files`, "
+":guilabel:`Video Preview`, :guilabel:`Timeline`, 그리고 :guilabel:`녹음/녹화` 도크를 "
+"표시합니다. :guilabel:`Properties` 도크는 :guilabel:`Project Files` 와 탭으로 그룹화되어 있어, "
+"녹화 레이아웃을 방해하지 않고 :guilabel:`View->Docks->Properties` 에서 표시할 수 있습니다."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:341
+msgid ""
+"The :guilabel:`Recording` dock can record microphone audio, screen capture, "
+"webcam video, or combinations of those sources. When screen and webcam are "
+"recorded together, OpenShot can place the webcam as a corner picture-in-"
+"picture clip. Those corner camera clips use normal clip properties after "
+"they are added to the timeline: :guilabel:`Gravity` chooses the corner, "
+":guilabel:`Scale X` and :guilabel:`Scale Y` set the corner size, "
+":guilabel:`Margin` creates the inset layout area that keeps the camera away "
+"from the screen edge, and :guilabel:`Corner Radius` rounds the camera clip "
+"without adding a separate Mask effect. See :ref:`clip_properties_ref` for "
+"details. See :ref:`recording_ref` for the complete recording workflow and "
+"all source options."
+msgstr ""
+":guilabel:`녹음/녹화` 도크는 마이크 오디오, 화면 캡처, 웹캠 비디오 또는 이들 소스의 조합을 녹화할 수 있습니다. 화면과 "
+"웹캠을 함께 녹화할 때, OpenShot은 웹캠을 코너의 PIP(그림 속 그림) 클립으로 배치할 수 있습니다. 이 코너 카메라 클립은 "
+"타임라인에 추가된 후 일반 클립 속성을 사용합니다: :guilabel:`Gravity` 는 코너를 선택하고, "
+":guilabel:`Scale X` 와 :guilabel:`Scale Y` 는 코너 크기를 설정하며, :guilabel:`Margin` "
+"은 카메라를 화면 가장자리에서 떨어뜨리는 삽입 레이아웃 영역을 만들고, :guilabel:`Corner Radius` 는 별도의 마스크 "
+"효과 없이 카메라 클립을 둥글게 만듭니다. 자세한 내용은 :ref:`clip_properties_ref` 를 참조하세요. 전체 녹화 "
+"워크플로우와 모든 소스 옵션은 :ref:`recording_ref` 를 참조하세요."
+
+#: ../main_window.rst:352
+msgid "My Views"
+msgstr "내 뷰"
+
+#: ../main_window.rst:353
+msgid ""
+"**My Views** lets you save any dock arrangement as a named layout and recall"
+" it instantly. This is ideal for workflows that require switching between "
+"different editing modes — for example, a detailed audio mix layout and a "
+"focused color grading layout — without manually repositioning docks each "
+"time."
+msgstr ""
+"**My Views** 는 도크 배열을 이름이 지정된 레이아웃으로 저장하고 즉시 불러올 수 있게 해줍니다. 이는 각기 다른 편집 모드 간"
+" 전환이 필요한 워크플로우에 이상적입니다 — 예를 들어, 상세한 오디오 믹스 레이아웃과 집중된 색상 보정 레이아웃을 매번 도크를 수동으로"
+" 재배치하지 않고 전환할 수 있습니다."
+
+#: ../main_window.rst:357
+msgid ""
+"Each saved view captures the position, size, and visibility of every dock, "
+"as well as the timeline height. Saved views are stored in your project "
+"settings and persist across sessions."
+msgstr ""
+"저장된 각 뷰는 모든 도크의 위치, 크기, 가시성뿐만 아니라 타임라인 높이도 저장합니다. 저장된 뷰는 프로젝트 설정에 저장되며 세션 간에"
+" 유지됩니다."
+
+#: ../main_window.rst:360
+msgid "**View → My Views** menu options:"
+msgstr "**View → My Views** 메뉴 옵션:"
+
+#: ../main_window.rst:366
+msgid "Menu Item"
+msgstr "메뉴 항목"
+
+#: ../main_window.rst:368
+msgid "List of user-defined views"
+msgstr "사용자 정의 뷰 목록"
+
+#: ../main_window.rst:369
+msgid ""
+"Click to restore that layout. The currently active view shows a checkmark."
+msgstr "클릭하여 해당 레이아웃을 복원합니다. 현재 활성화된 뷰에는 체크 표시가 있습니다."
+
+#: ../main_window.rst:370
+msgid "Update \"*[name]*\""
+msgstr "\"*[name]*\" 업데이트"
+
+#: ../main_window.rst:371
+msgid "Save your current dock arrangement over the active view, replacing it."
+msgstr "현재 도크 배열을 활성 뷰에 저장하여 덮어씁니다."
+
+#: ../main_window.rst:372
+msgid "Delete \"*[name]*\""
+msgstr "\"*[name]*\" 삭제"
+
+#: ../main_window.rst:373
+msgid "Remove the active view (asks for confirmation first)."
+msgstr "활성 뷰를 제거합니다 (먼저 확인을 요청합니다)."
+
+#: ../main_window.rst:374
+msgid "Save Current View As..."
+msgstr "현재 뷰를 다른 이름으로 저장..."
+
+#: ../main_window.rst:375
+msgid "Name and save your current dock arrangement as a new view."
+msgstr "현재 도크 배열에 이름을 지정하고 새 뷰로 저장합니다."
+
+#: ../main_window.rst:377
+msgid "**Typical workflow:**"
+msgstr "**일반적인 작업 흐름:**"
+
+#: ../main_window.rst:379
+msgid "Arrange your docks exactly how you like them."
+msgstr "도크를 원하는 대로 정확히 배치하세요."
+
+#: ../main_window.rst:380
+msgid ""
+"Open :guilabel:`View → My Views → Save Current View As...` and enter a name "
+"(e.g. *\"Audio Mix\"*)."
+msgstr ""
+":guilabel:`View → My Views → Save Current View As...` 를 열고 이름을 입력하세요 (예: "
+"*\"Audio Mix\"*)."
+
+#: ../main_window.rst:381
+msgid ""
+"Later, open :guilabel:`View → My Views` and click the view name to restore "
+"that layout instantly."
+msgstr "나중에 :guilabel:`View → My Views` 를 열고 뷰 이름을 클릭하여 해당 레이아웃을 즉시 복원하세요."
+
+#: ../main_window.rst:382
+msgid ""
+"If you adjust the layout and want to keep the changes, choose "
+":guilabel:`Update \"Audio Mix\"` to overwrite it."
+msgstr "레이아웃을 조정하고 변경 사항을 유지하려면 :guilabel:`Update \"Audio Mix\"` 를 선택하여 덮어쓰세요."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:385
+msgid "Docks"
+msgstr "도크"
+
+#: ../main_window.rst:386
+msgid ""
+"Each widget on the OpenShot main window is contained in a **dock**. These "
+"docks can be dragged and snapped around the main window, and even grouped "
+"together (into tabs). OpenShot will always save your main window dock layout"
+" when you exit the program. Re-launching OpenShot will restore your custom "
+"dock layout automatically. Scope docks are grouped under "
+":guilabel:`View->Scopes`."
+msgstr ""
+"OpenShot 메인 창의 각 위젯은 **도크** 안에 포함되어 있습니다. 이 도크들은 메인 창 주위로 드래그하고 스냅할 수 있으며, "
+"심지어 함께 그룹화(탭으로)할 수도 있습니다. OpenShot은 프로그램을 종료할 때 항상 메인 창 도크 레이아웃을 저장합니다. "
+"OpenShot을 다시 실행하면 사용자 지정 도크 레이아웃이 자동으로 복원됩니다. 스코프 도크는 "
+":guilabel:`View->Scopes` 아래에 그룹화되어 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:395
+msgid "Dock Name"
+msgstr "도크 이름"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:397
+msgid "Captions"
+msgstr "자막"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:398
+msgid ""
+"Manage and add captions or subtitles to your video project. Allows you to "
+"create, edit, and manage caption data. See :ref:`caption_effect_ref` effect."
+msgstr ""
+"비디오 프로젝트에 자막 또는 자막을 추가하고 관리합니다. 자막 데이터를 생성, 편집 및 관리할 수 있습니다. "
+":ref:`caption_effect_ref` 효과를 참조하세요."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:399
+msgid "Effects"
+msgstr "효과"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:400
+msgid ""
+"Browse and apply video and audio effects to your video clips. Includes "
+"filters, color adjustments, and special effects. See :ref:`effects_ref`."
+msgstr ""
+"비디오 클립에 비디오 및 오디오 효과를 찾아보고 적용합니다. 필터, 색상 조정 및 특수 효과가 포함되어 있습니다. "
+":ref:`effects_ref` 를 참조하세요."
+
+#: ../main_window.rst:401
+msgid "Color Wheels"
+msgstr "컬러 휠"
+
+#: ../main_window.rst:402
+msgid ""
+"Edit Color Grade wheel controls for global, shadows, midtones, and "
+"highlights from a dedicated right-side dock."
+msgstr "전용 오른쪽 도크에서 글로벌, 그림자, 중간 톤, 하이라이트에 대한 컬러 그레이드 휠 컨트롤을 편집합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:403
+msgid "Emojis"
+msgstr "이모지"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:404
+msgid ""
+"Add emoji graphics to your video project. Choose from a variety of emojis to"
+" enhance your video content."
+msgstr "비디오 프로젝트에 이모지 그래픽을 추가합니다. 다양한 이모지 중에서 선택하여 비디오 콘텐츠를 향상시킬 수 있습니다."
+
+#: ../main_window.rst:405
+msgid "Histogram"
+msgstr "히스토그램"
+
+#: ../main_window.rst:406
+msgid ""
+"Analyze the tonal and channel distribution of the current preview frame."
+msgstr "현재 미리보기 프레임의 톤 및 채널 분포를 분석합니다."
+
+#: ../main_window.rst:407
+msgid "Luma Waveform"
+msgstr "루마 웨이브폼"
+
+#: ../main_window.rst:408
+msgid "Analyze brightness distribution across the current preview frame."
+msgstr "현재 미리보기 프레임 전체의 밝기 분포를 분석합니다."
+
+#: ../main_window.rst:409
+msgid "Audio Levels"
+msgstr "오디오 레벨"
+
+#: ../main_window.rst:410
+msgid "Monitor audio level scope data for the current preview frame."
+msgstr "현재 미리보기 프레임의 오디오 레벨 스코프 데이터를 모니터링합니다."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:412
+msgid ""
+"View and manage all the media files imported into your project. Organize, "
+"filter, and tag video, audio, and image files. See :ref:`files_ref`."
+msgstr ""
+"프로젝트에 가져온 모든 미디어 파일을 보고 관리합니다. 비디오, 오디오 및 이미지 파일을 정리, 필터링 및 태그 지정할 수 있습니다. "
+":ref:`files_ref` 를 참조하세요."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:414
+msgid ""
+"View and edit the properties of a selected effect, transition, or clip. "
+"Adjust settings such as duration, size, position, etc... See "
+":ref:`clip_properties_ref`."
+msgstr ""
+"선택한 효과, 전환 또는 클립의 속성을 보고 편집합니다. 지속 시간, 크기, 위치 등의 설정을 조정할 수 있습니다. "
+":ref:`clip_properties_ref` 를 참조하세요."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:415
+msgid "Recording"
+msgstr "녹음/녹화"
+
+#: ../main_window.rst:416
+msgid ""
+"Record microphone audio, screen video, webcam video, or combined recordings."
+" See :ref:`recording_ref`."
+msgstr ""
+"마이크 오디오, 화면 비디오, 웹캠 비디오 또는 결합된 녹화를 기록합니다. 자세한 내용은 :ref:`recording_ref` 를 "
+"참조하세요."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:417
+msgid "Transitions"
+msgstr "전환"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:418
+msgid ""
+"Browse and apply transitions between video clips. Choose from a variety of "
+"transition wipes to create smooth changes between scenes. See "
+":ref:`transitions_ref`."
+msgstr ""
+"비디오 클립 간 전환을 찾아보고 적용합니다. 다양한 전환 와이프 중에서 선택하여 장면 간 부드러운 변화를 만듭니다. "
+":ref:`transitions_ref` 를 참조하세요."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:419
+msgid "Video Preview"
+msgstr "비디오 미리보기"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:420
+msgid ""
+"Preview the current state of your video project. Allows you to play back and"
+" review your edits in real-time. See :ref:`playback_ref`."
+msgstr ""
+"비디오 프로젝트의 현재 상태를 미리 봅니다. 실시간으로 편집 내용을 재생하고 검토할 수 있습니다. :ref:`playback_ref` 를"
+" 참조하세요."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:422
+msgid ""
+"If you have accidentally closed or moved a dock and can no longer find it, "
+"there are a couple easy solutions. First, you can use the "
+":guilabel:`View->Simple View` menu option at the top of the screen, to "
+"restore the view back to its default. Or you can use the "
+":guilabel:`View->Docks->...` menu to show or hide specific dock widgets on "
+"the main window."
+msgstr ""
+"실수로 도크를 닫거나 이동하여 더 이상 찾을 수 없는 경우, 몇 가지 간단한 해결책이 있습니다. 먼저 화면 상단의 "
+":guilabel:`View->간단 보기` 메뉴 옵션을 사용하여 보기를 기본값으로 복원할 수 있습니다. 또는 "
+":guilabel:`View->Docks->...` 메뉴를 사용하여 메인 창에서 특정 도크 위젯을 표시하거나 숨길 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Snapping toggles magnetic alignment. Timing Tool enables retiming by "
+#~ "dragging clip edges. Razor Tool cuts clips at the clicked position."
+#~ msgstr ""
+#~ "스냅은 자석 정렬을 전환합니다. 타이밍 도구는 클립 가장자리를 드래그하여 리타임을 가능하게 합니다. 레이저 도구는 클릭한 위치에서 클립을"
+#~ " 자릅니다."
+
+#~ msgid ""
+#~ "Use :guilabel:`Help→About OpenShot` to check your OpenShot version. Click "
+#~ ":guilabel:`Copy` next to the version number to copy a short version and "
+#~ "system details report, which is the preferred way to share this information "
+#~ "when reporting a bug or asking for help."
+#~ msgstr ""
+#~ ":guilabel:`Help→About OpenShot` 을 사용하여 OpenShot 버전을 확인하세요. 버전 번호 옆의 "
+#~ ":guilabel:`Copy` 를 클릭하면 간단한 버전 및 시스템 정보 보고서를 복사할 수 있으며, 버그 신고나 도움 요청 시 이 정보를"
+#~ " 공유하는 것이 권장됩니다."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The ruler shows the time-scale, and the red line is the play-head. The play-"
+#~ "head represents the current playback position. Hold :kbd:`Shift` key while "
+#~ "dragging the playhead to snap to nearby clips."
+#~ msgstr ""
+#~ "눈금자는 시간 축척을 표시하며, 빨간 선은 재생 헤드입니다. 재생 헤드는 현재 재생 위치를 나타냅니다. 재생 헤드를 드래그할 때 "
+#~ ":kbd:`Shift` 키를 누르면 인접한 클립에 스냅됩니다."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Freeze View"
+#~ msgstr "뷰 고정"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+F`"
+#~ msgstr "Ctrl+F"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Show All Docks"
+#~ msgstr "모든 도크 표시"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+Shift+D`"
+#~ msgstr ":kbd:`Ctrl+Shift+D`"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Un-Freeze View"
+#~ msgstr "보기 고정 해제"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+Shift+F`"
+#~ msgstr ":kbd:`Ctrl+Shift+F`"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":guilabel:`Toolbar` Show or hide the main window toolbar."
+#~ msgstr ":guilabel:` 도구 모음` 메인 창 도구 모음을 표시하거나 숨깁니다."
+
+# Translated with gpt-4.1-mini
+#~ msgid ":guilabel:`Fullscreen` Toggle fullscreen mode."
+#~ msgstr ":guilabel:` 전체 화면` 전체 화면 모드를 전환합니다."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Views` Switch or reset the main window layout (*Simple, Advanced,"
+#~ " Freeze, Show All*)."
+#~ msgstr ":guilabel:` 보기` 메인 창 레이아웃을 전환하거나 재설정합니다 (*간단, 고급, 고정, 모두 보기*)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Docks` Show or hide various dockable panels (*Captions, Effects, "
+#~ "Emojis, Project Files, Properties, Transitions, Video Preview*)."
+#~ msgstr ""
+#~ ":guilabel:` 도크` 다양한 도킹 가능한 패널을 표시하거나 숨깁니다 (*자막, 효과, 이모지, 프로젝트 파일, 속성, 전환, "
+#~ "비디오 미리보기*)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "This is the **default** view, and is designed to be easy-to-use, especially "
+#~ "for first-time users. It contains :guilabel:`Project Files` on the top left,"
+#~ " :guilabel:`Preview Window` on the top right, and :guilabel:`Timeline` on "
+#~ "the bottom. If you accidentally close or move a dock, you can quickly reset "
+#~ "all the docks back to their default location using the "
+#~ ":guilabel:`View->Views->Simple View` menu at the top of the screen."
+#~ msgstr ""
+#~ "이것은 ** 기본** 보기로, 특히 처음 사용하는 사용자를 위해 사용하기 쉽게 설계되었습니다. 왼쪽 상단에는 :guilabel:` "
+#~ "프로젝트 파일`, 오른쪽 상단에는 :guilabel:` 미리보기 창`, 하단에는 :guilabel:` 타임라인` 이 포함되어 있습니다. "
+#~ "도크를 실수로 닫거나 이동한 경우, 화면 상단의 :guilabel:` 보기->보기->간단한 보기` 메뉴를 사용하여 모든 도크를 기본 "
+#~ "위치로 빠르게 재설정할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Each widget on the OpenShot main window is contained in a **dock**. These "
+#~ "docks can be dragged and snapped around the main window, and even grouped "
+#~ "together (into tabs). OpenShot will always save your main window dock layout"
+#~ " when you exit the program. Re-launching OpenShot will restore your custom "
+#~ "dock layout automatically."
+#~ msgstr ""
+#~ "OpenShot 메인 창의 각 위젯은 ** 도크** 에 포함되어 있습니다. 이 도크들은 메인 창 주위로 드래그하여 고정할 수 있으며, "
+#~ "탭으로 그룹화할 수도 있습니다. OpenShot은 프로그램 종료 시 항상 메인 창 도크 레이아웃을 저장하며, 다시 실행하면 사용자 지정 "
+#~ "도크 레이아웃을 자동으로 복원합니다."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "If you have accidentally closed or moved a dock and can no longer find it, "
+#~ "there are a couple easy solutions. First, you can use the "
+#~ ":guilabel:`View->Views->Simple View` menu option at the top of the screen, "
+#~ "to restore the view back to its default. Or you can use the "
+#~ ":guilabel:`View->Views->Docks->...` menu to show or hide specific dock "
+#~ "widgets on the main window."
+#~ msgstr ""
+#~ "도크를 실수로 닫거나 이동하여 더 이상 찾을 수 없는 경우, 몇 가지 간단한 해결책이 있습니다. 먼저, 화면 상단의 :guilabel:`"
+#~ " 보기->보기->간단한 보기` 메뉴 옵션을 사용하여 보기를 기본값으로 복원할 수 있습니다. 또는 :guilabel:` "
+#~ "보기->보기->도크->...` 메뉴를 사용하여 메인 창에서 특정 도크 위젯을 표시하거나 숨길 수 있습니다."

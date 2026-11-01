@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE openshot-export-option>
+<export-option>
+	<type translatable="True">DVD</type>
+	<title translatable="True">DVD-NTSC</title>
+	<videoformat>dvd</videoformat>
+	<videocodec>mpeg2video</videocodec>
+	<audiocodec>ac3</audiocodec>
+	<audiochannels>2</audiochannels>
+	<audiochannellayout>3</audiochannellayout>
+	<videobitrate
+	 low="1 Mb/s"
+	 med="3 Mb/s"
+	 high="5 Mb/s"></videobitrate>
+	<audiobitrate
+	 low="128 kb/s"
+	 med="192 kb/s"
+	 high="256 kb/s"></audiobitrate>
+	<samplerate>48000</samplerate>
+	<projectprofile>NTSC SD Anamorphic 480i 29.97 fps</projectprofile>
+	<projectprofile>NTSC SD Widescreen Anamorphic 480i 29.97 fps</projectprofile>
+</export-option>

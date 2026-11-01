@@ -1,0 +1,442 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Main-window terminology review, 2026-09-26.
+#: ../timeline.rst:23
+msgid "Timeline"
+msgstr "شريط الوقت"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:25
+msgid ""
+"The timeline is where your video comes together. You arrange clips, trim "
+"them, layer visuals, and make timing decisions here. If you are new to "
+"editing, think of the timeline as a simple left-to-right story: earlier "
+"moments on the left, later moments on the right."
+msgstr ""
+"الجدول الزمني هو المكان الذي يتجمع فيه الفيديو الخاص بك. تقوم بترتيب "
+"المقاطع، وقصها، وتراكب الصور، واتخاذ قرارات التوقيت هنا. إذا كنت جديدًا على "
+"التحرير، فكر في الجدول الزمني كقصة بسيطة من اليسار إلى اليمين: اللحظات "
+"الأقدم على اليسار، واللحظات الأحدث على اليمين."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:32
+msgid ""
+"If you are just getting started, read :ref:`quick_tutorial_ref` first, then "
+"come back here for more detail. For a labeled breakdown of toolbar controls,"
+" see :ref:`timeline_toolbar_ref`."
+msgstr ""
+"إذا كنت قد بدأت للتو، اقرأ :ref:`quick_tutorial_ref` أولاً، ثم عد إلى هنا "
+"لمزيد من التفاصيل. للحصول على تفصيل معنونة لأدوات شريط الأدوات، انظر "
+":ref:`timeline_toolbar_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:37
+msgid "Timeline Basics"
+msgstr "أساسيات الجدول الزمني"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:39
+msgid "These terms are used often in this guide:"
+msgstr "تُستخدم هذه المصطلحات كثيرًا في هذا الدليل:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:45
+msgid "Term"
+msgstr "المصطلح"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:45
+msgid "Meaning"
+msgstr "المعنى"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:47
+msgid "Playhead"
+msgstr "مؤشر التشغيل"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:47
+msgid "The red line that shows your current time position."
+msgstr "الخط الأحمر الذي يُظهر موقع الوقت الحالي الخاص بك."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:48
+msgid "Track"
+msgstr "المسار"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:48
+msgid ""
+"A horizontal layer that holds clips (top tracks appear above lower tracks)."
+msgstr ""
+"طبقة أفقية تحتوي على المقاطع (تظهر المسارات العلوية فوق المسارات السفلية)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:49
+msgid "Clip"
+msgstr "مقطع"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:49
+msgid "A video, audio, or image item placed on a track."
+msgstr "عنصر فيديو أو صوت أو صورة موضوع على مسار."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:50
+msgid "Transition"
+msgstr "انتقال"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:50
+msgid "A blend between two overlapping clips."
+msgstr "مزج بين مقطعين متداخلين."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:51
+msgid "Marker"
+msgstr "علامة"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:51
+msgid "A saved point in time you can jump back to quickly."
+msgstr "نقطة محفوظة في الزمن يمكنك العودة إليها بسرعة."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:52
+msgid "Keyframe"
+msgstr "الإطار الرئيسي"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:52
+msgid "A saved value at a point in time (used for animation)."
+msgstr "قيمة محفوظة في نقطة زمنية (تُستخدم للرسوم المتحركة)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:55
+msgid "For a full glossary, see :ref:`glossary_ref`."
+msgstr "للحصول على مسرد كامل، انظر :ref:`glossary_ref`."
+
+#: ../timeline.rst:58
+msgid "Current Timecode"
+msgstr "الرمز الزمني الحالي"
+
+#: ../timeline.rst:60
+msgid ""
+"The current timecode appears at the left side of the timeline ruler and "
+"shows the playhead's exact position. Click the timecode, enter a new value, "
+"and press :kbd:`Enter` to move the playhead to that frame."
+msgstr ""
+"يظهر الرمز الزمني الحالي على الجانب الأيسر من مسطرة الجدول الزمني ويعرض "
+"الموقع الدقيق لرأس التشغيل. انقر على الرمز الزمني، أدخل قيمة جديدة، واضغط "
+":kbd:`Enter` لنقل رأس التشغيل إلى تلك الإطار."
+
+#: ../timeline.rst:64
+msgid ""
+"Clear the field or enter ``0`` to jump to the start of the timeline. Press "
+":kbd:`Up` or :kbd:`Down` to step the selected timecode segment; hold "
+":kbd:`Shift` to step by 10. When the frame segment is selected, hold "
+":kbd:`Ctrl` to step by one second. Press :kbd:`Esc` to cancel."
+msgstr ""
+"امسح الحقل أو أدخل ``0`` للقفز إلى بداية الجدول الزمني. اضغط :kbd:`Up` أو "
+":kbd:`Down` للتنقل في جزء الرمز الزمني المحدد؛ اضغط مع الاستمرار "
+":kbd:`Shift` للتنقل بمقدار 10. عند تحديد جزء الإطار، اضغط مع الاستمرار "
+":kbd:`Ctrl` للتنقل بمقدار ثانية واحدة. اضغط :kbd:`Esc` للإلغاء."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:70
+msgid "Common Timeline Tasks"
+msgstr "مهام الجدول الزمني الشائعة"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:72
+msgid "Most editing sessions follow a similar flow:"
+msgstr "تتبع معظم جلسات التحرير تدفقًا مشابهًا:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:74
+msgid "Add media to the project using :ref:`import_files_ref`."
+msgstr "أضف الوسائط إلى المشروع باستخدام :ref:`import_files_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:75
+msgid "Drag files from the project panel onto timeline tracks."
+msgstr "اسحب الملفات من لوحة المشروع إلى مسارات الجدول الزمني."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:76
+msgid "Trim clip edges to remove extra content."
+msgstr "اقص حواف المقطع لإزالة المحتوى الزائد."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:77
+msgid "Move clips into order and stack tracks to build your scene."
+msgstr "نقل المقاطع إلى الترتيب وتكديس المسارات لبناء المشهد الخاص بك."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:78
+msgid ""
+"Add transitions and effects where needed (:ref:`transitions_ref`, "
+":ref:`effects_ref`)."
+msgstr ""
+"أضف الانتقالات والتأثيرات حيثما دعت الحاجة (:ref:`transitions_ref`، "
+":ref:`effects_ref`)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:79
+msgid "Preview and adjust timing (:ref:`playback_ref`)."
+msgstr "عاين وعدل التوقيت (:ref:`playback_ref`)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:81
+msgid ""
+"Clip trimming, slicing, and clip context menu actions are covered in detail "
+"in :ref:`clips_ref`."
+msgstr ""
+"يتم تغطية قص المقاطع، والتقطيع، وإجراءات قائمة سياق المقطع بالتفصيل في "
+":ref:`clips_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:84
+msgid "Selecting Clips and Transitions"
+msgstr "تحديد المقاطع والانتقالات"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:86
+msgid "Selection is one of the most important timeline skills:"
+msgstr "التحديد هو أحد أهم مهارات الجدول الزمني:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:88
+msgid "Click an item to select it."
+msgstr "انقر على عنصر لتحديده."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:89
+msgid ":kbd:`Ctrl+Click` adds or removes items from selection."
+msgstr ":kbd:`Ctrl+Click` يضيف أو يزيل عناصر من التحديد."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:90
+msgid ""
+":kbd:`Shift+Click` selects a range between your anchor item and the clicked "
+"item."
+msgstr ""
+":kbd:`Shift+Click` يحدد نطاقًا بين العنصر المثبت والعنصر الذي تم النقر عليه."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:91
+msgid ":kbd:`Ctrl+Shift+Click` adds that range to your current selection."
+msgstr ":kbd:`Ctrl+Shift+Click` يضيف ذلك النطاق إلى التحديد الحالي."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:92
+msgid ""
+":kbd:`Alt+Click` ripple-selects from the clicked item to the end of the "
+"track."
+msgstr ""
+":kbd:`Alt+Click` يحدد بشكل متتابع من العنصر الذي تم النقر عليه إلى نهاية "
+"المسار."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:93
+msgid "Drag an empty-area selection box to select multiple items."
+msgstr "اسحب مربع تحديد في منطقة فارغة لتحديد عدة عناصر."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:95
+msgid "See :ref:`clips_ref` for the full list and examples."
+msgstr "انظر :ref:`clips_ref` للقائمة الكاملة والأمثلة."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:98
+msgid "Timeline Toolbar and Zoom"
+msgstr "شريط أدوات الجدول الزمني والتكبير"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:100
+msgid ""
+"The timeline toolbar helps with common navigation and editing actions "
+"(snapping, retime, razor, markers, centering, and zoom)."
+msgstr ""
+"يساعد شريط أدوات الجدول الزمني في إجراءات التنقل والتحرير الشائعة (الالتقاط،"
+" إعادة التوقيت، الشفرة، العلامات، التمركز، والتكبير)."
+
+#: ../timeline.rst:103
+msgid ""
+"The :ref:`razor_tool_ref` shows a cut guide and timecode over the target "
+"clip. While paused, hovering also previews the cut frame without moving the "
+"playhead. Click to cut, or press :kbd:`Esc` to leave Razor mode. The Razor "
+"guide respects the existing **Snapping** toggle and uses the same snap "
+"targets and tolerance as other timeline edits."
+msgstr ""
+"يعرض :ref:`razor_tool_ref` دليل القطع والرمز الزمني فوق المقطع المستهدف. "
+"أثناء التوقف المؤقت، يعرض التمرير أيضًا معاينة لإطار القطع دون تحريك رأس "
+"التشغيل. انقر للقطع، أو اضغط :kbd:`Esc` للخروج من وضع الشفرة. يحترم دليل "
+"الشفرة تبديل **التثبيت** الحالي ويستخدم نفس أهداف التثبيت والتحمل مثل "
+"تعديلات الجدول الزمني الأخرى."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:109
+msgid ""
+"Tip: If timeline editing feels crowded, zoom in with the timeline slider to "
+"make small clip adjustments easier."
+msgstr ""
+"نصيحة: إذا شعرت أن تحرير الجدول الزمني مزدحم، قم بالتكبير باستخدام شريط "
+"تمرير الجدول الزمني لتسهيل تعديل المقاطع الصغيرة."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:112
+msgid ""
+"You can also zoom the timeline with :kbd:`Ctrl+Scroll Wheel`. On the QWidget"
+" timeline, hold :kbd:`Ctrl` and drag with the middle mouse button for smooth"
+" zooming."
+msgstr ""
+"يمكنك أيضًا تكبير الجدول الزمني باستخدام :kbd:`Ctrl+Scroll Wheel`. في جدول "
+"QWidget الزمني، اضغط مع الاستمرار على :kbd:`Ctrl` واسحب بزر الفأرة الأوسط "
+"للتكبير السلس."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:117
+msgid "Tracks, Locking, and Inserting"
+msgstr "المسارات، القفل، والإدراج"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:119
+msgid "Tracks help organize your edit. A common setup is:"
+msgstr "تساعد المسارات في تنظيم تحريرك. الإعداد الشائع هو:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:121
+msgid "Top tracks: titles, overlays, logos, picture-in-picture"
+msgstr "المسارات العلوية: العناوين، التراكبات، الشعارات، صورة داخل صورة"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:122
+msgid "Middle tracks: main video content"
+msgstr "المسارات الوسطى: المحتوى الرئيسي للفيديو"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:123
+msgid "Lower tracks: music and sound effects"
+msgstr "المسارات السفلية: الموسيقى والمؤثرات الصوتية"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:125
+msgid ""
+"You can lock tracks to protect them from accidental edits and use "
+"insert/ripple editing when you need later clips to move automatically."
+msgstr ""
+"يمكنك قفل المسارات لحمايتها من التعديلات العرضية واستخدام التحرير "
+"بالإدراج/التتابع عندما تحتاج إلى تحريك المقاطع اللاحقة تلقائيًا."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:128
+msgid ""
+"For track layout basics, see :ref:`tracks_ref`. For detailed clip editing "
+"behavior, see :ref:`clips_cutting_slicing_ref`."
+msgstr ""
+"لأساسيات تخطيط المسارات، انظر :ref:`tracks_ref`. لسلوك تحرير المقاطع "
+"التفصيلي، انظر :ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:132
+msgid "Keyframes in the Timeline"
+msgstr "الإطارات الرئيسية في الجدول الزمني"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:134
+msgid ""
+"Keyframes let you change values over time, such as position, scale, "
+"rotation, opacity, and effect settings."
+msgstr ""
+"تتيح لك الإطارات الرئيسية تغيير القيم مع مرور الوقت، مثل الموضع، المقياس، "
+"الدوران، الشفافية، وإعدادات التأثير."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:137
+msgid ""
+"In the timeline keyframe panel, each row represents one animated property. "
+"You can:"
+msgstr ""
+"في لوحة الإطارات الرئيسية للجدول الزمني، تمثل كل صف خاصية متحركة واحدة. "
+"يمكنك:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:139
+msgid "Add a keyframe row for a property"
+msgstr "إضافة صف إطار رئيسي لخاصية"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:140
+msgid "Insert new keyframes along the row"
+msgstr "إدراج إطارات رئيسية جديدة على طول الصف"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:141
+msgid "Move keyframes to change timing"
+msgstr "نقل الإطارات الرئيسية لتغيير التوقيت"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:142
+msgid "Change interpolation to control motion style"
+msgstr "تغيير الاستيفاء للتحكم في نمط الحركة"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:144
+msgid ""
+"For keyframe concepts and animation examples, see :ref:`animation_ref`."
+msgstr ""
+"لمفاهيم الإطارات الرئيسية وأمثلة الرسوم المتحركة، انظر :ref:`animation_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:147
+msgid "Next Steps"
+msgstr "الخطوات التالية"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:149
+msgid ""
+"After you are comfortable with timeline basics, these sections are the best "
+"next reads:"
+msgstr ""
+"بعد أن تتقن أساسيات الجدول الزمني، هذه الأقسام هي أفضل ما يمكنك قراءته بعد "
+"ذلك:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:151
+msgid ":ref:`clips_ref` for trimming, slicing, and clip properties"
+msgstr ":ref:`clips_ref` للقص، والتقطيع، وخصائص المقاطع"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:152
+msgid ":ref:`effects_ref` for video/audio effects"
+msgstr ":ref:`effects_ref` لتأثيرات الفيديو/الصوت"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:153
+msgid ":ref:`animation_ref` for keyframe animation workflows"
+msgstr ":ref:`animation_ref` لتدفقات عمل الرسوم المتحركة بالإطارات الرئيسية"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:154
+msgid ":doc:`export` for creating your final video file"
+msgstr ":doc:`export` لإنشاء ملف الفيديو النهائي الخاص بك"

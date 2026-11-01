@@ -1,0 +1,363 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:22
+msgid "Installation"
+msgstr "安裝"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:24
+msgid ""
+"The latest official **stable** version of OpenShot Video Editor for Linux, "
+"Mac, Chrome OS, and Windows can be downloaded from the official download "
+"page at https://www.openshot.org/download/. You can find our latest "
+"**unstable** versions (i.e. daily builds) at "
+"https://www.openshot.org/download#daily (these versions are updated very "
+"frequently, and often contain many improvements not yet released in our "
+"stable build)."
+msgstr ""
+"OpenShot Video Editor 最新官方 **穩定** 版本適用於 Linux、Mac、Chrome OS 和 "
+"Windows，可從官方下載頁面 https://www.openshot.org/download/ 下載。您也可以在 "
+"https://www.openshot.org/download#daily 找到我們最新的 **不穩定** "
+"版本（即每日構建），這些版本更新頻繁，且通常包含尚未在穩定版本中發布的多項改進。"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:32
+msgid "Clean Install"
+msgstr "全新安裝"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:34
+msgid ""
+"If you are upgrading from a previous version of OpenShot or are experiencing"
+" a crash or error message after launching OpenShot, please see "
+":ref:`preferences_reset_ref` for instructions on clearing the previous "
+"``openshot.settings`` file (for a clean install with **default "
+"preferences**)."
+msgstr ""
+"如果您是從先前版本升級 OpenShot，或在啟動 OpenShot 後遇到崩潰或錯誤訊息，請參閱 "
+":ref:`preferences_reset_ref` 以獲取清除先前 ``openshot.settings`` 檔案的說明（用於全新安裝並恢復 "
+"**預設偏好設定** ）。"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:39
+msgid "Windows (Installer)"
+msgstr "Windows（安裝程式）"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:41
+msgid ""
+"Download the Windows installer from the `official download page "
+"<https://www.openshot.org/download/>`_ (the download page contains both "
+"64-bit and 32-bit versions), double click it, and follow the directions on "
+"screen. Once completed, OpenShot will be installed and available in your "
+"Start menu."
+msgstr ""
+"從 `官方下載頁面 <https://www.openshot.org/download/>`_ 下載 Windows 安裝程式（下載頁面包含 64 "
+"位元和 32 位元版本），雙擊執行並依照螢幕指示操作。完成後，OpenShot 將會安裝並出現在您的開始選單中。 `official download "
+"page <https://www.openshot.org/download/>`_"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:50
+msgid "Windows (Portable)"
+msgstr "Windows（免安裝版）"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:52
+msgid ""
+"If you need to install OpenShot on Windows without Administrator "
+"permissions, we also support a portable installation process. Download the "
+"Windows installer from the `official download page "
+"<https://www.openshot.org/download/>`_, open the command prompt, and type "
+"the following commands:"
+msgstr ""
+"如果您需要在 Windows 上無管理員權限安裝 OpenShot，我們也支援免安裝版本。請從 `官方下載頁面 "
+"<https://www.openshot.org/download/>`_ 下載 Windows 安裝程式，打開命令提示字元，並輸入以下指令： "
+"`official download page <https://www.openshot.org/download/>`_"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:67 ../installation.rst:185
+msgid "Mac"
+msgstr "Mac"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:69
+msgid ""
+"Download the DMG file from the `official download page "
+"<https://www.openshot.org/download/>`_, double click it, and then drag the "
+"OpenShot application icon into your **Applications** shortcut. This is very "
+"similar to how most Mac applications are installed. Now launch OpenShot from"
+" `Launchpad` or `Applications` in Finder."
+msgstr ""
+"從 `官方下載頁面 <https://www.openshot.org/download/>`_ 下載 DMG 檔案，雙擊開啟，然後將 OpenShot"
+" 應用程式圖示拖曳到 **應用程式** 快捷方式中。這與大多數 Mac 應用程式的安裝方式相似。接著，您可以從 `Launchpad` 或 Finder"
+" 的 ` 應用程式` 中啟動 OpenShot。 `official download page "
+"<https://www.openshot.org/download/>`_"
+
+#: ../installation.rst:74
+msgid ""
+"The current Mac download is built for Intel Macs. On an Apple Silicon Mac, "
+"you can run this Intel version using Rosetta. A native Apple Silicon version"
+" is not currently available."
+msgstr ""
+"目前的 Mac 下載版本是為 Intel Mac 建置。在 Apple Silicon Mac 上，您可以使用 Rosetta 執行此 Intel "
+"版本。目前尚無原生 Apple Silicon 版本可用。"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:81
+msgid "Linux (AppImage)"
+msgstr "Linux（AppImage）"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:83
+msgid ""
+"Most Linux distributions have a version of OpenShot in their software "
+"repositories, which can be installed using your package manager / software "
+"store. However, these packaged versions are often very outdated (be sure to "
+"check the version number: :guilabel:`Help→About OpenShot`). For this reason,"
+" we recommend installing an AppImage from the `official download page "
+"<https://www.openshot.org/download/>`_."
+msgstr ""
+"大多數 Linux 發行版的軟體倉庫中都有 OpenShot "
+"版本，可透過套件管理器或軟體商店安裝。但這些封裝版本通常非常過時（請務必檢查版本號：:guilabel:`說明→關於 OpenShot` "
+"）。因此，我們建議從 ` 官方下載頁面 <https://www.openshot.org/download/>`_ 安裝 AppImage。 "
+"`official download page <https://www.openshot.org/download/>`_"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:89
+msgid ""
+"Once downloaded, right click on the AppImage, choose Properties, and mark "
+"the file as **Executable**. Finally, double click the AppImage to launch "
+"OpenShot. If double clicking does not launch OpenShot, you can also right "
+"click on the AppImage, and choose `Execute` or `Run`. For a detailed guide "
+"on installing our AppImage and creating a launcher for it, see our `AppImage"
+" Installation Guide <https://github.com/OpenShot/openshot-qt/wiki/AppImage-"
+"Installation>`_."
+msgstr ""
+"下載後，右鍵點擊 AppImage，選擇「屬性」，並將檔案標記為 **可執行** 。最後，雙擊 AppImage 以啟動 "
+"OpenShot。如果雙擊無法啟動，您也可以右鍵點擊 AppImage，選擇「執行」或「執行檔」。有關安裝 AppImage "
+"及建立啟動器的詳細指南，請參閱我們的 `AppImage 安裝指南 <https://github.com/OpenShot/openshot-"
+"qt/wiki/AppImage-Installation>`_ 。 `AppImage Installation Guide "
+"<https://github.com/OpenShot/openshot-qt/wiki/AppImage-Installation>`_"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:98
+msgid "Unable to Launch AppImage?"
+msgstr "無法啟動 AppImage？"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:99
+msgid ""
+"Please verify that the ``libfuse2`` library is installed, which is required "
+"to mount and read an AppImage. On newer versions of Ubuntu (i.e. 22.04+), "
+"``libfuse2`` is not installed by default. You can install it with the "
+"following command:"
+msgstr ""
+"請確認已安裝 ``libfuse2`` 函式庫，此函式庫是掛載和讀取 AppImage 所必需的。在較新版本的 Ubuntu（例如 22.04 "
+"以上）中，預設未安裝 ``libfuse2`` 。您可以使用以下指令安裝："
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:108
+msgid "Install AppImage Launcher"
+msgstr "安裝 AppImage 啟動器"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:109
+msgid ""
+"If you plan on using OpenShot often, you will probably want an integrated "
+"launcher for our AppImage. We recommend using AppImageLauncher, which is the"
+" officially supported way to launch (and manage) AppImage files on your "
+"Linux desktop. If you are on a Debian-based distro (Ubuntu, Mint, etc...), "
+"there is an official AppImageLauncher PPA:"
+msgstr ""
+"如果您經常使用 OpenShot，可能會想要一個整合的 AppImage 啟動器。我們推薦使用 AppImageLauncher，這是官方支援的在 "
+"Linux 桌面啟動（及管理）AppImage 檔案的方式。如果您使用基於 Debian 的發行版（如 Ubuntu、Mint 等），有官方的 "
+"AppImageLauncher PPA："
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:121
+msgid "Linux (PPA)"
+msgstr "Linux（PPA）"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:123
+msgid ""
+"For Debian-based Linux distributions (Ubuntu, Mint, etc...), we also have a "
+"PPA (Personal Package Archive), which adds our official OpenShot software "
+"repository to your package manager, making it possible to install our latest"
+" version, without relying on our AppImages."
+msgstr ""
+"對於基於 Debian 的 Linux 發行版（Ubuntu、Mint 等），我們也提供 PPA（個人套件檔案庫），可將我們的官方 OpenShot "
+"軟體倉庫加入您的套件管理器，讓您能安裝最新版本，而不必依賴 AppImage。"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:128
+msgid "Stable PPA (Contains only official releases)"
+msgstr "穩定版 PPA（僅包含官方釋出版本）"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:137
+msgid "Daily PPA (Highly experimental and unstable, for testers)"
+msgstr "每日版 PPA（高度實驗性且不穩定，供測試者使用）"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:146
+msgid "Chrome OS (Chromebook)"
+msgstr "Chrome OS（Chromebook）"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:148
+msgid ""
+"Chrome OS supports Linux apps, but this feature is off by default. You can "
+"turn it on in *Settings*. Once Linux is enabled, you can install and run "
+"OpenShot Linux AppImages on any *x86-based* Chromebook. The command below "
+"will download our AppImage and configure your system to run OpenShot "
+"successfully."
+msgstr ""
+"Chrome OS 支援 Linux 應用程式，但此功能預設為關閉。您可以在 *設定* 中啟用。啟用 Linux 後，您可以在任何 *x86 架構* 的"
+" Chromebook 上安裝並執行 OpenShot Linux AppImage。以下指令將下載我們的 AppImage 並配置系統以成功執行 "
+"OpenShot。"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:153
+msgid "Navigate to *chrome://os-settings/crostini* (Copy/Paste)"
+msgstr "前往 *chrome://os-settings/crostini* （複製/貼上）"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:154
+msgid "Under \"Linux (Beta)\" select \"Turn On\". Default values are fine."
+msgstr "在「Linux (Beta)」下選擇「開啟」。預設值即可。"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:156
+msgid ""
+"When the Terminal appears (i.e. black window), Copy/Paste the following "
+"command:"
+msgstr "當終端機視窗（即黑色視窗）出現時，複製/貼上以下指令："
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:156
+msgid ""
+"``bash <(wget -O - http://openshot.org/files/chromeos/install-stable.sh)``"
+msgstr ""
+"``bash <(wget -O - http://openshot.org/files/chromeos/install-stable.sh)``"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:159
+msgid "Previous Versions"
+msgstr "舊版本"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:161
+msgid ""
+"To download old versions of OpenShot Video Editor, you can visit "
+"https://github.com/OpenShot/openshot-qt/tags. Click on the version number "
+"you need, and scroll to the bottom, under the release notes. You will find "
+"download links for each operating system. Download the appropriate version "
+"for your computer, and follow the installation instructions above."
+msgstr ""
+"要下載 OpenShot Video Editor 的舊版本，您可以造訪 https://github.com/OpenShot/openshot-"
+"qt/tags。點選所需的版本號，並捲動至底部的發行說明下方。您會找到各作業系統的下載連結。下載適合您電腦的版本，並依照上述安裝說明操作。"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:166
+msgid ""
+"NOTE: Projects (\\*.osp) made with newer versions of OpenShot Video Editor "
+"might not support older versions."
+msgstr "注意：使用較新版 OpenShot Video Editor 製作的專案（\\*.osp）可能無法在舊版本中開啟。"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:169
+msgid "Uninstall"
+msgstr "解除安裝"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:171
+msgid ""
+"To fully uninstall OpenShot from your system, you must **manually delete** "
+"the ``.openshot_qt`` folder: ``~/.openshot_qt/`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\``, which contains all settings and "
+"files used by OpenShot. Be sure to **backup** any recovery files of your "
+"existing projects first (\\*.osp files). Please see "
+":ref:`preferences_reset_ref` for instructions on clearing the previous "
+"``openshot.settings`` file (for a clean install with **default "
+"preferences**)."
+msgstr ""
+"要完全從系統中解除安裝 OpenShot，您必須**手動刪除**``.openshot_qt`` 資料夾：``~/.openshot_qt/`` 或 "
+"``C:\\Users\\USERNAME\\.openshot_qt\\`` ，該資料夾包含 OpenShot 使用的所有設定和檔案。請務必先** "
+"備份**現有專案的任何復原檔案（\\*.osp 檔）。請參閱 :ref:`preferences_reset_ref` 以取得清除先前 "
+"``openshot.settings`` 檔案（以進行**預設偏好設定** 的全新安裝）的說明。"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:178
+msgid "Windows"
+msgstr "Windows"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:180
+msgid "Open **Control Panel** from the Start menu"
+msgstr "從開始選單開啟**控制台**"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:181
+msgid "Click on **Programs and Features**"
+msgstr "點選**程式和功能**"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:182
+msgid "Select OpenShot Video Editor, then click **Uninstall**"
+msgstr "選擇 OpenShot Video Editor，然後點擊**解除安裝**"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:187
+msgid "Open **Finder** and go to **Applications**"
+msgstr "開啟**Finder** 並前往**應用程式**"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:188
+msgid "Drag the OpenShot Video Editor icon to the **Trash** in the Dock"
+msgstr "將 OpenShot Video Editor 圖示拖曳到 Dock 中的**垃圾桶**"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:189
+msgid "Right-click **Trash** and choose **Empty Trash**"
+msgstr "右鍵點擊**垃圾桶** 並選擇**清空垃圾桶**"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:192
+msgid "Ubuntu (Linux)"
+msgstr "Ubuntu（Linux）"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:194
+msgid "Open up **Files**"
+msgstr "開啟**檔案**"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:195
+msgid "Locate the ``*.AppImage`` and delete the file"
+msgstr "找到 ``*.AppImage`` 檔案並刪除"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:196
+msgid ""
+"OR click Activities, Right-click on OpenShot Video Editor icon, and choose "
+"**Remove AppImage from System**"
+msgstr "或點擊活動，右鍵點擊 OpenShot Video Editor 圖示，選擇**從系統移除 AppImage**"

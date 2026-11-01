@@ -1,0 +1,44 @@
+{% extends "!layout.html" %}
+{% set css_files = css_files + ["_static/tablefix.css"] %}
+{%- block extrahead %}
+  {{ super() }}
+  {%- if ga4_measurement_id %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga4_measurement_id|e }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ ga4_measurement_id|e }}');
+  </script>
+  {%- endif %}
+{%- endblock %}
+{%- block footer %}
+  <script src="https://cdn.openshot.org/static/vendor/iframeSizer/iframeResizer.contentWindow.min.js"></script>
+  <script>
+    $( document ).ready(function() {
+        <!-- Adds target=_blank to external links -->
+        $('a[href^="http://"], a[href^="https://"]').not('a[class*=internal]').attr('target', '_blank');
+    });
+
+    // *** iFrame resize & scrolling support ***
+    // Send the current page href to the parent site (if found)
+    // Give up after 5 tries (for example, if viewing these pages
+    // by themselves, with no parent openshot.org iFrame
+    let messageAttempts = 0;
+    function trySendMessage(){
+        messageAttempts++;
+        if ('parentIFrame' in window) {
+            const href = window.location.href;
+            const type = "document-loaded";
+            window.parentIFrame.sendMessage({href, type});
+        } else {
+            // If not, try again in one second
+            if (messageAttempts < 5) {
+                setTimeout(trySendMessage, 250);
+            }
+      }
+    }
+    trySendMessage();
+
+  </script>
+{% endblock %}

@@ -1,0 +1,302 @@
+/**
+ * @file
+ * @brief SWIG configuration for libopenshot (to generate Python SWIG bindings)
+ * @author Jonathan Thomas <jonathan@openshot.org>
+ *
+ * @section LICENSE
+*/
+// Copyright (c) 2008-2019 OpenShot Studios, LLC
+//
+// SPDX-License-Identifier: LGPL-3.0-or-later
+
+%module("threads"=1) openshot
+
+/* Suppress warnings about ignored operator= */
+%warnfilter(362);
+
+/* JUCE thread internals are implementation details, not binding API */
+%ignore juce::Thread;
+namespace juce {
+    class Thread {};
+}
+
+/* Ruby bindings intentionally expose the primary OpenShot base class only */
+%warnfilter(802) openshot::Clip;
+%warnfilter(802) openshot::Timeline;
+
+/* Ruby bindings do not expose Profile comparison operators */
+%warnfilter(503) operator<;
+%warnfilter(503) operator>;
+%warnfilter(503) operator==;
+
+/* Don't generate multiple wrappers for functions with default args */
+%feature("compactdefaultargs", "1");
+
+/* Enable inline documentation */
+%feature("autodoc", "1");
+
+/* Include various SWIG helpers */
+%include "typemaps.i"
+%include "std_string.i"
+%include "std_list.i"
+%include "std_vector.i"
+%include "std_map.i"
+%include <stdint.i>
+%apply uint64_t { uintptr_t };
+
+// Ignore QWidget overloads (Qt types are not wrapped in Ruby bindings)
+%ignore openshot::QtPlayer::SetQWidget(QWidget *);
+
+/* Unhandled STL Exception Handling */
+%include <std_except.i>
+
+/* Include shared pointer code */
+%include <std_shared_ptr.i>
+
+/* Mark these classes as shared_ptr classes */
+#ifdef USE_IMAGEMAGICK
+	%shared_ptr(Magick::Image)
+#endif
+%shared_ptr(juce::AudioBuffer<float>)
+%shared_ptr(openshot::Frame)
+
+%newobject openshot::Clip::CreateReader;
+
+/* Instantiate the required template specializations */
+%template() std::map<std::string, int>;
+%template() std::pair<int, int>;
+%template() std::vector<int>;
+%template() std::vector<float>;
+%template() std::pair<double, double>;
+%template() std::pair<float, float>;
+%template() std::pair<std::string, std::string>;
+%template() std::vector<std::pair<std::string, std::string>>;
+%template() std::vector<std::vector<float>>;
+
+%inline %{
+typedef struct OpenShotByteBuffer {
+    const unsigned char* data;
+    int size;
+} OpenShotByteBuffer;
+%}
+
+%typemap(out) OpenShotByteBuffer {
+    if ($1.data && $1.size > 0) {
+        $result = rb_str_new(reinterpret_cast<const char*>($1.data), $1.size);
+    } else {
+        $result = Qnil;
+    }
+}
+
+%{
+/* Ruby and FFmpeg define competing RSHIFT macros,
+ * so we move Ruby's out of the way for now. We'll
+ * restore it after dealing with FFmpeg's
+ */
+#ifdef RSHIFT
+  #define RB_RSHIFT(a, b) RSHIFT(a, b)
+  #undef RSHIFT
+#endif
+#include "OpenShotVersion.h"
+#include "ReaderBase.h"
+#include "WriterBase.h"
+#include "AudioDevices.h"
+#include "AudioWaveformer.h"
+#include "CacheBase.h"
+#include "CacheDisk.h"
+#include "CacheMemory.h"
+#include "ChannelLayouts.h"
+#include "ChunkReader.h"
+#include "ChunkWriter.h"
+#include "ClipBase.h"
+#include "Clip.h"
+#include "Coordinate.h"
+#include "Color.h"
+#include "DummyReader.h"
+#include "EffectBase.h"
+#include "Effects.h"
+#include "EffectInfo.h"
+#include "Enums.h"
+#include "Exceptions.h"
+#include "FFmpegReader.h"
+#include "FFmpegWriter.h"
+#include "Fraction.h"
+#include "Frame.h"
+#include "FrameMapper.h"
+#include "PlayerBase.h"
+#include "Point.h"
+#include "Profiles.h"
+#include "QtHtmlReader.h"
+#include "QtImageReader.h"
+#include "QtPlayer.h"
+#include "QtTextReader.h"
+#include "KeyFrame.h"
+#include "RendererBase.h"
+#include "Settings.h"
+#include "TimelineBase.h"
+#include "Timeline.h"
+#include "Qt/VideoCacheThread.h"
+#include "Logger.h"
+
+/* Move FFmpeg's RSHIFT to FF_RSHIFT, if present */
+#ifdef RSHIFT
+  #define FF_RSHIFT(a, b) RSHIFT(a, b)
+  #undef RSHIFT
+#endif
+/* And restore Ruby's RSHIFT, if we captured it */
+#ifdef RB_RSHIFT
+  #define RSHIFT(a, b) RB_RSHIFT(a, b)
+#endif
+%}
+
+// Prevent SWIG from ever generating a wrapper for juce::Thread’s constructor (or run())
+%ignore juce::Thread::Thread;
+
+#ifdef USE_IMAGEMAGICK
+	%{
+		#include "ImageReader.h"
+		#include "ImageWriter.h"
+		#include "TextReader.h"
+	%}
+#endif
+
+/* Wrap std templates (list, vector, etc...) */
+%template(ClipList) std::list<openshot::Clip *>;
+%template(EffectBaseList) std::list<openshot::EffectBase *>;
+%template(CoordinateVector) std::vector<openshot::Coordinate>;
+%template(PointsVector) std::vector<openshot::Point>;
+%template(FieldVector) std::vector<openshot::Field>;
+%template(MappedFrameVector) std::vector<openshot::MappedFrame>;
+%template(MetadataMap) std::map<std::string, std::string>;
+
+/* Deprecated */
+%template(AudioDeviceInfoVector) std::vector<openshot::AudioDeviceInfo>;
+
+%extend openshot::Frame {
+    OpenShotByteBuffer GetPixelsBytes() {
+        OpenShotByteBuffer out = {NULL, 0};
+        std::shared_ptr<QImage> img = $self->GetImage();
+        if (!img) return out;
+
+        const int size = img->bytesPerLine() * img->height();
+
+        const unsigned char* p = $self->GetPixels();
+        if (!p || size <= 0) return out;
+
+        out.data = p;
+        out.size = size;
+        return out;
+    }
+
+    OpenShotByteBuffer GetPixelsRowBytes(int row) {
+        OpenShotByteBuffer out = {NULL, 0};
+        std::shared_ptr<QImage> img = $self->GetImage();
+        if (!img) return out;
+
+        if (row < 0 || row >= img->height()) {
+            rb_raise(rb_eIndexError, "row out of range");
+        }
+
+        const unsigned char* p = $self->GetPixels(row);
+        if (!p) return out;
+
+        out.data = p;
+        out.size = img->bytesPerLine();
+        return out;
+    }
+
+    int GetBytesPerLine() {
+        std::shared_ptr<QImage> img = $self->GetImage();
+        return img ? img->bytesPerLine() : 0;
+    }
+}
+
+%include "OpenShotVersion.h"
+%include "ReaderBase.h"
+%include "WriterBase.h"
+%include "AudioDevices.h"
+%include "AudioWaveformer.h"
+%include "CacheBase.h"
+%include "CacheDisk.h"
+%include "CacheMemory.h"
+%include "ChannelLayouts.h"
+%include "ChunkReader.h"
+%include "ChunkWriter.h"
+%include "ClipBase.h"
+%include "Clip.h"
+%include "Coordinate.h"
+%include "Color.h"
+%include "DummyReader.h"
+%include "EffectBase.h"
+%include "Effects.h"
+%include "EffectInfo.h"
+%include "Enums.h"
+%include "Exceptions.h"
+
+/* Ruby and FFmpeg define competing RSHIFT macros,
+ * so we move Ruby's out of the way for now. We'll
+ * restore it after dealing with FFmpeg's
+ */
+#ifdef RSHIFT
+  #define RB_RSHIFT(a, b) RSHIFT(a, b)
+  #undef RSHIFT
+#endif
+
+%include "FFmpegReader.h"
+%include "FFmpegWriter.h"
+
+/* Move FFmpeg's RSHIFT to FF_RSHIFT, if present */
+#ifdef RSHIFT
+  #define FF_RSHIFT(a, b) RSHIFT(a, b)
+  #undef RSHIFT
+#endif
+/* And restore Ruby's RSHIFT, if we captured it */
+#ifdef RB_RSHIFT
+  #define RSHIFT(a, b) RB_RSHIFT(a, b)
+#endif
+
+%include "Fraction.h"
+%include "Frame.h"
+%include "FrameMapper.h"
+%include "PlayerBase.h"
+%include "Point.h"
+%include "Profiles.h"
+%include "QtHtmlReader.h"
+%include "QtImageReader.h"
+%include "QtPlayer.h"
+%include "QtTextReader.h"
+%include "KeyFrame.h"
+%include "AnimatedCurve.h"
+%include "RendererBase.h"
+%include "Settings.h"
+%include "TimelineBase.h"
+%include "Qt/VideoCacheThread.h"
+%include "Timeline.h"
+%include "Logger.h"
+
+#ifdef USE_IMAGEMAGICK
+	%include "ImageReader.h"
+	%include "ImageWriter.h"
+	%include "TextReader.h"
+#endif
+
+/* Effects */
+%include "effects/Bars.h"
+%include "effects/Blur.h"
+%include "effects/Brightness.h"
+%include "effects/Caption.h"
+%include "effects/ChromaKey.h"
+%include "effects/ColorShift.h"
+%include "effects/Crop.h"
+%include "effects/Deinterlace.h"
+%include "effects/FilmGrain.h"
+%include "effects/Hue.h"
+%include "effects/LensFlare.h"
+%include "effects/Mask.h"
+%include "effects/Negate.h"
+%include "effects/Pixelate.h"
+%include "effects/Saturation.h"
+%include "effects/Shift.h"
+%include "effects/Timer.h"
+%include "effects/DenoiseImage.h"
+%include "effects/Wave.h"

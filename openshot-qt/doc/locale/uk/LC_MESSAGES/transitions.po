@@ -1,0 +1,680 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:23
+msgid "Transitions"
+msgstr "Переходи"
+
+#: ../transitions.rst:25
+msgid ""
+"A transition is used to gradually fade (also called a **cross dissolve** or "
+"**crossfade**) or wipe between two clip images. In OpenShot, transitions are"
+" represented by blue, rounded rectangles on the timeline. They are "
+"automatically created when you overlap two clips, and can be added manually "
+"by dragging one onto the timeline from the **Transitions** panel. A "
+"transition must be placed on top of a clip (overlapping it), with the most "
+"common location being the beginning or end of a clip."
+msgstr ""
+"Переход використовується для поступового згасання (також званого "
+"**перехресним розчиненням** або **перехресним затуханням**) або витирального"
+" ефекту між двома зображеннями кліпів. В OpenShot переходи представлені "
+"синіми, заокругленими прямокутниками на часовій шкалі. Вони створюються "
+"автоматично, коли ви накладаєте два кліпи, і можуть бути додані вручну, "
+"перетягуючи їх на часову шкалу з панелі **Transitions**. Переходи повинні "
+"розміщуватися поверх кліпу (накладаючись на нього), найпоширенішим місцем є "
+"початок або кінець кліпу."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:31
+msgid ""
+"NOTE: Transitions **do not** affect **audio**, so if you are intending to "
+"fade in/out the audio volume of a clip, you must adjust the ``volume`` clip "
+"property. See :ref:`clip_properties_ref`"
+msgstr ""
+"ПРИМІТКА: Переходи **не** впливають на **аудіо**, тому якщо ви хочете "
+"поступово збільшити або зменшити гучність аудіо кліпу, потрібно "
+"відрегулювати властивість ``volume`` кліпу. Див. :ref:`clip_properties_ref`"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:35
+msgid "Overview"
+msgstr "Огляд"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:40
+msgid "#"
+msgstr "№"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:40
+msgid "Name"
+msgstr "Назва"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:40 ../transitions.rst:105
+msgid "Description"
+msgstr "Опис"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:42
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:42
+msgid "Clip 1"
+msgstr "Кліп 1"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:42
+msgid "A video clip"
+msgstr "Відеокліп"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:43
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:43
+msgid "Transition"
+msgstr "Перехід"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:43
+msgid ""
+"A gradual fade transition between the 2 clip images, created automatically "
+"by overlapping the clips (does not affect the audio)"
+msgstr ""
+"Поступовий перехід затемнення між двома зображеннями кліпів, створений "
+"автоматично при накладанні кліпів (не впливає на аудіо)"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:44
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:44
+msgid "Clip 2"
+msgstr "Кліп 2"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:44
+msgid "An image clip"
+msgstr "Зображення кліпу"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:48
+msgid "Direction"
+msgstr "Напрямок"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:49
+msgid ""
+"Transitions adjust the alpha/transparency of the overlapping clip image "
+"(i.e. the clip under the transition), and can either fade from opaque to "
+"transparent, or transparent to opaque (does not affect the audio). Right "
+"click and choose :guilabel:`Reverse Transition` to change the direction of "
+"the fade. You can also manually adjust the **Brightness** curve, animating "
+"the visual fade in any way you wish."
+msgstr ""
+"Переходи регулюють альфа-прозорість накладеного зображення кліпу (тобто "
+"кліпу під переходом) і можуть поступово змінювати прозорість від непрозорого"
+" до прозорого або навпаки (не впливає на аудіо). Клацніть правою кнопкою "
+"миші та виберіть :guilabel:`Reverse Transition`, щоб змінити напрямок "
+"затемнення. Ви також можете вручну налаштувати криву **Яскравості**, "
+"анімуючи візуальне затемнення будь-яким бажаним способом."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:56
+msgid "Transparency"
+msgstr "Прозорість"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:57
+msgid ""
+"If transitions are used on images or videos that contain transparency (*i.e."
+" alpha channel*) this will result in the original clip disappearing abruptly"
+" (or popping out of existence), since OpenShot's transition system expects "
+"the 2nd clip to fully cover up the first clip. For example, if the 2nd clip "
+"does not fully cover the first clip, a transition might not be the best tool"
+" to use. Instead, you should consider adjusting the ``alpha`` property of "
+"the first clip to make it fade out where needed, see "
+":ref:`clip_properties_ref` or :ref:`clip_presets_ref`. Alternatively, you "
+"can combine a transition and ``alpha`` fade when using transparent clips to "
+"more smoothly fade between then."
+msgstr ""
+"Якщо переходи використовуються для зображень або відео з прозорістю (*тобто "
+"альфа-каналом*), це призведе до раптового зникнення оригінального кліпу (або"
+" «вискакування» з існування), оскільки система переходів OpenShot очікує, що"
+" другий кліп повністю покриває перший. Наприклад, якщо другий кліп не "
+"повністю покриває перший, перехід може бути не найкращим інструментом. "
+"Натомість слід розглянути можливість регулювання властивості ``alpha`` "
+"першого кліпу, щоб зробити його поступове зникнення там, де потрібно, див. "
+":ref:`clip_properties_ref` або :ref:`clip_presets_ref`. Альтернативно, можна"
+" поєднати перехід і поступове зникнення ``alpha`` при використанні прозорих "
+"кліпів для більш плавного переходу."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:65
+msgid "Cutting & Slicing"
+msgstr "Різання та нарізка"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:66
+msgid ""
+"OpenShot has many easy ways to adjust the start and end trim positions of a "
+"transition (otherwise known as cutting or trimming). The most common method "
+"is simply grabbing the left (or right) edge of the transition and dragging. "
+"For a complete guide to slicing and all available keyboard shortcuts, see "
+"the :ref:`clips_cutting_slicing_ref` and :ref:`keyboard_shortcut_ref` "
+"sections."
+msgstr ""
+"В OpenShot є багато простих способів налаштувати початкові та кінцеві "
+"позиції обрізки переходу (також відомі як різання або обрізка). "
+"Найпоширеніший метод — просто захопити лівий (або правий) край переходу та "
+"перетягнути. Для повного керівництва з нарізки та всіх доступних гарячих "
+"клавіш див. розділи :ref:`clips_cutting_slicing_ref` та "
+":ref:`keyboard_shortcut_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:71
+msgid "Mask"
+msgstr "Маска"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:72
+msgid ""
+"In video editing, masks are powerful tools that allow you to selectively "
+"display specific areas of a video clip. Similar to masking in image editing,"
+" video masks define a region where changes will be applied while leaving "
+"other parts of the video unaffected."
+msgstr ""
+"У відеомонтажі маски — це потужні інструменти, які дозволяють вибірково "
+"відображати певні області відеокліпу. Подібно до маскування в обробці "
+"зображень, відеомаски визначають область, де будуть застосовані зміни, "
+"залишаючи інші частини відео незмінними."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:76
+msgid ""
+"A mask can be thought of as a shape or path that outlines the area you want "
+"to target. Commonly used shapes include rectangles, circles, and freeform "
+"paths. The masked area is referred to as the \"masked region.\""
+msgstr ""
+"Маску можна уявити як форму або контур, що окреслює область, яку ви хочете "
+"виділити. Найпоширеніші форми — прямокутники, кола та довільні контури. "
+"Область, що маскується, називається «маскованою областю»."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:79
+msgid ""
+"Masks can be animated, allowing you to change the shape or position over "
+"time. This enables dynamic effects like revealing hidden elements or "
+"transitioning between different visual states. In OpenShot, you can convert "
+"a transition to a mask, by customizing the :guilabel:`Brightness` key-frame "
+"curve. Keeping a static (unchanging) value of brightness, will maintain a "
+"fixed mask location. Combine this with custom transition images, or even "
+"custom image sequences, to create animated, complex masks."
+msgstr ""
+"Маски можна анімувати, дозволяючи змінювати форму або положення з часом. Це "
+"дає змогу створювати динамічні ефекти, такі як відкриття прихованих "
+"елементів або перехід між різними візуальними станами. В OpenShot ви можете "
+"перетворити перехід на маску, налаштувавши криву ключового кадру "
+":guilabel:`Brightness`. Збереження статичного (незмінного) значення "
+"яскравості утримає фіксоване розташування маски. Поєднуйте це з "
+"користувацькими зображеннями переходів або навіть послідовностями зображень,"
+" щоб створювати анімовані, складні маски."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:86
+msgid "Custom Transition"
+msgstr "Користувацький перехід"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:87
+msgid ""
+"Any greyscale image can be used as a transition (or mask), by adding it to "
+"your ``~/.openshot_qt/transitions/`` folder. Just be sure to name your file "
+"something that is easily recognizable, and restart OpenShot. Your custom "
+"transition/mask will now show up in the list of transitions."
+msgstr ""
+"Будь-яке зображення в градаціях сірого можна використовувати як перехід (або"
+" маску), додавши його до папки ``~/.openshot_qt/transitions/``. Просто "
+"переконайтеся, що файл має зрозумілу назву, і перезапустіть OpenShot. Ваш "
+"користувацький перехід/маска з’явиться у списку переходів."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:92
+msgid "Transition Properties"
+msgstr "Властивості переходу"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:93
+msgid ""
+"Below is a list of transition properties which can be edited, and in most "
+"cases, animated over time. To view a transition's properties, right click "
+"and choose :guilabel:`Properties`. The property editor will appear, where "
+"you can change these properties. NOTE: Pay close attention to where the "
+"play-head (i.e. red playback line) is. Key frames are automatically created "
+"at the current playback position, to help create animations."
+msgstr ""
+"Нижче наведено список властивостей переходу, які можна редагувати, а в "
+"більшості випадків — анімувати з часом. Щоб переглянути властивості "
+"переходу, клацніть правою кнопкою миші та виберіть :guilabel:`Properties`. "
+"З’явиться редактор властивостей, де ви зможете змінити ці параметри. "
+"ПРИМІТКА: Уважно стежте за положенням індикатора відтворення (червона лінія "
+"відтворення). Ключові кадри автоматично створюються в поточній позиції "
+"відтворення для допомоги в створенні анімацій."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:98
+msgid ""
+"NOTE: Transitions do not affect audio, so if you are intending to fade "
+"in/out the audio volume of a clip, you must adjust the ``volume`` clip "
+"property. See :ref:`clip_properties_ref`."
+msgstr ""
+"ПРИМІТКА: Переходи не впливають на аудіо, тому якщо ви хочете поступово "
+"збільшити або зменшити гучність аудіо кліпу, потрібно відрегулювати "
+"властивість ``volume`` кліпу. Див. :ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:105
+msgid "Transition Property Name"
+msgstr "Назва властивості переходу"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:105
+msgid "Type"
+msgstr "Тип"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:107
+msgid "Brightness"
+msgstr "Яскравість"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:107 ../transitions.rst:108
+msgid "Key-frame"
+msgstr "Ключовий кадр"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:107
+msgid ""
+"Curve representing the brightness of the transition image, which affects the"
+" fade/wipe (-1 to 1)"
+msgstr ""
+"Крива, що представляє яскравість зображення переходу, яка впливає на "
+"затемнення/витиральність (-1 до 1)"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:108
+msgid "Contrast"
+msgstr "Контрастність"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:108
+msgid ""
+"Curve representing the contrast of the transition image, which affects the "
+"softness/hardness of the fade/wipe (0 to 20)"
+msgstr ""
+"Крива, що представляє контрастність зображення переходу, яка впливає на "
+"м’якість/жорсткість затемнення/витиральності (0 до 20)"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:109 ../transitions.rst:124
+msgid "Duration"
+msgstr "Тривалість"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:117
+#: ../transitions.rst:119
+msgid "Float"
+msgstr "Число з плаваючою комою"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:109
+msgid "The length of the transition (in seconds). Read-only property."
+msgstr "Тривалість переходу (у секундах). Властивість лише для читання."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:110 ../transitions.rst:132
+msgid "End"
+msgstr "Кінець"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:110
+msgid "The end trimming position of the transition (in seconds)."
+msgstr "Позиція обрізки кінця переходу (у секундах)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:111 ../transitions.rst:140
+msgid "ID"
+msgstr "Ідентифікатор"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:111 ../transitions.rst:116
+msgid "String"
+msgstr "Рядок"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:111
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"transition. Read-only property."
+msgstr ""
+"Випадково згенерований GUID (глобально унікальний ідентифікатор), "
+"призначений кожному переходу. Властивість лише для читання."
+
+#: ../transitions.rst:112
+msgid "Mask: Invert"
+msgstr "Маска: Інвертувати"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:112 ../transitions.rst:113 ../transitions.rst:118
+msgid "Bool"
+msgstr "Булевий тип"
+
+#: ../transitions.rst:112
+msgid ""
+"Invert the mask source so light areas become dark and dark areas become "
+"light."
+msgstr ""
+"Інвертувати джерело маски, щоб світлі області ставали темними, а темні — "
+"світлими."
+
+#: ../transitions.rst:113
+msgid "Mask: Loop"
+msgstr "Маска: Цикл"
+
+#: ../transitions.rst:113
+msgid ""
+"Loop an animated mask source when the transition is longer than the source."
+msgstr "Зациклювати анімоване джерело маски, коли перехід довший за джерело."
+
+#: ../transitions.rst:114
+msgid "Mask: Source"
+msgstr "Маска: Джерело"
+
+#: ../transitions.rst:114
+msgid "Reader"
+msgstr "Читач"
+
+#: ../transitions.rst:114
+msgid ""
+"The image, image sequence, or video used as the transition's grayscale mask "
+"source."
+msgstr ""
+"Зображення, послідовність зображень або відео, що використовується як "
+"джерело градаційної маски переходу."
+
+#: ../transitions.rst:115
+msgid "Mask: Time Mode"
+msgstr "Маска: Режим часу"
+
+#: ../transitions.rst:115
+msgid "Enum"
+msgstr "Перелік"
+
+#: ../transitions.rst:115
+msgid "Controls how OpenShot maps transition time to an animated mask source."
+msgstr ""
+"Керує тим, як OpenShot відображає час переходу на анімоване джерело маски."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:116
+msgid "Parent"
+msgstr "Батьківський елемент"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:116
+msgid ""
+"The parent object to this transition, which makes many of these keyframe "
+"values initialize to the parent value."
+msgstr ""
+"Батьківський об’єкт цього переходу, через який багато значень ключових "
+"кадрів ініціалізуються значенням батька."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:117
+msgid "Position"
+msgstr "Позиція"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:117
+msgid "The position of the transition on the timeline (in seconds)."
+msgstr "Позиція переходу на часовій шкалі (у секундах)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:118
+msgid "Replace Image"
+msgstr "Замінити зображення"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:118
+msgid ""
+"For debugging a problem, this property displays the transition image "
+"(instead of becoming a transparency)."
+msgstr ""
+"Для налагодження проблеми ця властивість відображає зображення переходу "
+"(замість прозорості)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:119
+msgid "Start"
+msgstr "Початок"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:119
+msgid "The start trimming position of the transition (in seconds)."
+msgstr "Позиція обрізки початку переходу (у секундах)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:120 ../transitions.rst:158
+msgid "Track"
+msgstr "Трек"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:120
+msgid "Int"
+msgstr "Ціле число"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:120
+msgid ""
+"The layer which holds the transition (higher tracks are rendered on top of "
+"lower tracks)."
+msgstr ""
+"Шар, на якому розміщено перехід (вищі треки відображаються поверх нижчих)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:125
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the transition in seconds. This is a Read-only property. This is calculated "
+"by: End - Start. To modify duration, you must edit the :guilabel:`Start` "
+"and/or :guilabel:`End` transition properties."
+msgstr ""
+"Властивість :guilabel:`Duration` — це число з плаваючою комою, що вказує "
+"тривалість переходу в секундах. Це властивість лише для читання. "
+"Обчислюється як: Кінець - Початок. Щоб змінити тривалість, потрібно "
+"редагувати властивості переходу :guilabel:`Start` та/або :guilabel:`End`."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:128
+msgid ""
+"**Usage Example:** Inspect the duration of a transition to ensure it fits a "
+"specific time slot in the project."
+msgstr ""
+"**Приклад використання:** Перевірте тривалість переходу, щоб переконатися, "
+"що він підходить для певного часового проміжку в проєкті."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:129
+msgid ""
+"**Tip:** Consider using the \"Duration\" property for transitions that need "
+"to match specific time intervals, such as dialogue or scenes."
+msgstr ""
+"**Порада:** Розгляньте можливість використання властивості \"Duration\" для "
+"переходів, які мають відповідати певним часовим інтервалам, наприклад, "
+"діалогам або сценам."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:133
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"transition in seconds, allowing you to control how much of the transition is"
+" visible in the timeline. Changing this property will impact the "
+":guilabel:`Duration` transition property."
+msgstr ""
+"Властивість :guilabel:`End` визначає точку обрізки в кінці переходу в "
+"секундах, що дозволяє контролювати, скільки переходу видно на часовій шкалі."
+" Зміна цієї властивості вплине на властивість переходу :guilabel:`Duration`."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:136
+msgid ""
+"**Usage Example:** Trimming the end of a transition to align with another "
+"clip or trimming off unwanted sections of the transition."
+msgstr ""
+"**Приклад використання:** Обрізання кінця переходу для вирівнювання з іншим "
+"кліпом або видалення небажаних частин переходу."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:137
+msgid ""
+"**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
+"the visible portion of the transition."
+msgstr ""
+"**Порада:** Поєднуйте властивості \"Start\" і \"End\" для точного контролю "
+"видимої частини переходу."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:141
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique"
+" Identifier) assigned to each transition, ensuring its uniqueness. This is a"
+" Read-only property, and assigned by OpenShot when a transition is created."
+msgstr ""
+"Властивість :guilabel:`ID` містить випадково згенерований GUID (глобально "
+"унікальний ідентифікатор), призначений кожному переходу, що гарантує його "
+"унікальність. Це властивість лише для читання, призначена OpenShot під час "
+"створення переходу."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:144
+msgid ""
+"**Usage Example:** Referencing specific transitions within custom scripts or"
+" automation tasks."
+msgstr ""
+"**Приклад використання:** Посилання на конкретні переходи у власних скриптах"
+" або автоматизованих завданнях."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:145
+msgid ""
+"**Tip:** While typically managed behind the scenes, understanding transition"
+" IDs can aid in advanced project customization."
+msgstr ""
+"**Порада:** Хоча зазвичай керування відбувається у фоновому режимі, "
+"розуміння ідентифікаторів переходів може допомогти у розширеному "
+"налаштуванні проєкту."
+
+#: ../transitions.rst:148
+msgid "Mask Properties"
+msgstr "Властивості маски"
+
+#: ../transitions.rst:149
+msgid ""
+"The :guilabel:`Mask: Source`, :guilabel:`Mask: Time Mode`, :guilabel:`Mask: "
+"Loop`, and :guilabel:`Mask: Invert` properties control the grayscale mask "
+"used by a transition. Static masks use a single image. Animated masks can "
+"use video or image sequences, with time mapping and looping options "
+"determining which source frame is used at each point in the transition."
+msgstr ""
+"Властивості :guilabel:`Mask: Source`, :guilabel:`Mask: Time Mode`, "
+":guilabel:`Mask: Loop` та :guilabel:`Mask: Invert` керують градаційною "
+"маскою, що використовується в переході. Статичні маски використовують одне "
+"зображення. Анімовані маски можуть використовувати відео або послідовності "
+"зображень, при цьому параметри відображення часу та циклу визначають, який "
+"кадр джерела використовується в кожен момент переходу."
+
+#: ../transitions.rst:154
+msgid ""
+"**Usage Example:** Use :guilabel:`Mask: Invert` when the visible and hidden "
+"areas of a custom mask are reversed."
+msgstr ""
+"**Приклад використання:** Використовуйте :guilabel:`Mask: Invert`, коли "
+"видимі та приховані області користувацької маски поміняні місцями."
+
+#: ../transitions.rst:155
+msgid ""
+"**Tip:** When using an animated mask, trim the mask source carefully before "
+"enabling loop behavior."
+msgstr ""
+"**Порада:** При використанні анімованої маски ретельно обрізайте джерело "
+"маски перед увімкненням циклу."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:159
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the transition is placed. Transitions on higher tracks are rendered above "
+"those on lower tracks."
+msgstr ""
+"Властивість :guilabel:`Track` — це ціле число, що вказує шар, на якому "
+"розміщено перехід. Переходи на вищих треках відображаються поверх тих, що на"
+" нижчих."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:162
+msgid ""
+"**Usage Example:** Arranging transitions in different layers for creating "
+"visual depth and complexity."
+msgstr ""
+"**Приклад використання:** Розміщення переходів на різних шарах для створення"
+" візуальної глибини та складності."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:163
+msgid ""
+"**Tip:** Use higher tracks for elements that need to appear above others, "
+"like text overlays or graphics."
+msgstr ""
+"**Порада:** Використовуйте вищі треки для елементів, які мають з’являтися "
+"поверх інших, наприклад, текстові накладки або графіку."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "A transition is used to gradually fade (or wipe) between two clip images. In"
+#~ " OpenShot, transitions are represented by blue, rounded rectangles on the "
+#~ "timeline. They are automatically created when you overlap two clips, and can"
+#~ " be added manually by dragging one onto the timeline from the "
+#~ "**Transitions** panel. A transition must be placed on top of a clip "
+#~ "(overlapping it), with the most common location being the beginning or end "
+#~ "of a clip."
+#~ msgstr ""
+#~ "Переход використовується для поступового затемнення (або стирання) між двома"
+#~ " зображеннями кліпів. В OpenShot переходи представлені синіми заокругленими "
+#~ "прямокутниками на часовій шкалі. Вони створюються автоматично при накладанні"
+#~ " двох кліпів і можуть бути додані вручну, перетягуючи їх на часову шкалу з "
+#~ "панелі **Переходи**. Перехід повинен бути розміщений поверх кліпу "
+#~ "(накладаючись на нього), найчастіше на початку або в кінці кліпу."

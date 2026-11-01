@@ -1,0 +1,1129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:23
+msgid "Text & Titles"
+msgstr "Teksti & Otsikot"
+
+#: ../titles.rst:25
+msgid ""
+"Adding text overlays, lower thirds, and titles is an important aspect of "
+"video editing, and OpenShot comes with an easy-to-use Title Editor. Use the "
+"Title menu (located in the main menu of OpenShot) to launch the Title "
+"Editor. You can also use the keyboard shortcut :kbd:`Ctrl+T`."
+msgstr ""
+"Tekstikerrosten, alaotsikoiden ja otsikoiden lisääminen on tärkeä osa "
+"videoeditointia, ja OpenShot sisältää helppokäyttöisen otsikkotyökalun. "
+"Käytä Otsikko-valikkoa (sijaitsee OpenShotin päävalikossa) käynnistääksesi "
+"otsikkotyökalun. Voit myös käyttää pikanäppäintä :kbd:`Ctrl+T`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:29
+msgid ""
+"Titles are simply vector image files with transparent backgrounds "
+"(``*.svg``). OpenShot comes with many easy-to-use templates, but you can "
+"also create your own or import new templates into OpenShot. These templates "
+"allow you to quickly change the text, font, size, color, and background "
+"color. You can also launch an advanced, external SVG editor for further "
+"customizations (if needed). Once the title is added to your project, drag "
+"and drop the title on a Track above a video clip. The transparent background"
+" will allow the video below to appear behind the text."
+msgstr ""
+"Otsikot ovat yksinkertaisesti vektorigrafiikkatiedostoja, joissa on "
+"läpinäkyvä tausta (``*.svg``). OpenShot sisältää monia helppokäyttöisiä "
+"malleja, mutta voit myös luoda omia tai tuoda uusia malleja OpenShotiin. "
+"Näillä malleilla voit nopeasti muuttaa tekstiä, fonttia, kokoa, väriä ja "
+"taustaväriä. Voit myös avata kehittyneen ulkoisen SVG-editorin "
+"lisämuokkauksia varten. Kun otsikko on lisätty projektiisi, vedä ja pudota "
+"se raidalle videoleikkeen yläpuolelle. Läpinäkyvä tausta sallii videon näkyä"
+" tekstin takana."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:36
+msgid "Overview"
+msgstr "Yleiskatsaus"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:185
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:185
+msgid "Name"
+msgstr "Nimi"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:63 ../titles.rst:185 ../titles.rst:204
+msgid "Description"
+msgstr "Kuvaus"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46 ../titles.rst:187
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46 ../titles.rst:187
+msgid "Choose a Template"
+msgstr "Valitse malli"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46
+msgid "Choose from any available vector title template"
+msgstr "Valitse käytettävissä olevista vektoripohjaisista otsikkomalleista"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "Preview Title"
+msgstr "Esikatsele otsikkoa"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "Preview your title as you make changes"
+msgstr "Esikatsele otsikkoa muokatessasi sitä"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48 ../titles.rst:189
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48 ../titles.rst:189
+msgid "Title Properties"
+msgstr "Otsikon ominaisuudet"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48
+msgid ""
+"Change the text, font, size, colors, or edit in an advanced, external SVG "
+"image editor (such as Inkscape)"
+msgstr ""
+"Muuta tekstiä, fonttia, kokoa, värejä tai muokkaa kehittyneessä ulkoisessa "
+"SVG-kuvankäsittelyohjelmassa (kuten Inkscape)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49 ../titles.rst:190
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49
+msgid "Save"
+msgstr "Tallenna"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49
+msgid "Save and add the title to your project"
+msgstr "Tallenna ja lisää otsikko projektiisi"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:53
+msgid "Title Templates"
+msgstr "Otsikkopohjat"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:55
+msgid ""
+"OpenShot includes a variety of vector title templates that can be used to "
+"enhance your video projects. Below is a table listing the available titles "
+"and their descriptions:"
+msgstr ""
+"OpenShot sisältää erilaisia vektoripohjaisia otsikkopohjia, joita voit "
+"käyttää videoidesi parantamiseen. Alla on taulukko, jossa on lueteltu "
+"saatavilla olevat otsikot ja niiden kuvaukset:"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:62
+msgid "Title Name"
+msgstr "Otsikon nimi"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:64
+msgid "Bar 1"
+msgstr "Palkki 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:65
+msgid "A simple bar with text centered."
+msgstr "Yksinkertainen palkki, jossa teksti on keskitetty."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:66
+msgid "Bar 2"
+msgstr "Palkki 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:67
+msgid "A simple bar, centered, with 2 lines of text."
+msgstr "Yksinkertainen palkki, keskitetty, jossa on kaksi tekstiriviä."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:68
+msgid "Bar 3"
+msgstr "Palkki 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:69
+msgid "Another variation of a simple bar with text, for lower 3rds."
+msgstr ""
+"Toinen versio yksinkertaisesta palkista tekstillä, käytettäväksi "
+"alalaidassa."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:70
+msgid "Box"
+msgstr "Laatikko"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:71
+#, fuzzy
+msgid "A simple boxed title layout for centered text."
+msgstr "Yksinkertainen palkki, jossa teksti on keskitetty."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:72
+msgid "Bubbles 1"
+msgstr "Kuplat 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:73
+msgid "A title with bubble graphics for a playful look."
+msgstr "Otsikko, jossa on kuplagrafiikkaa leikkisän ilmeen luomiseksi."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:74
+msgid "Bubbles 2"
+msgstr "Kuplat 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:75
+msgid "A different bubble design for a fun and creative title."
+msgstr "Eri kuplamalli hauskaa ja luovaa otsikkoa varten."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:76
+msgid "Camera Border"
+msgstr "Kameran kehys"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:77
+msgid "A border that mimics a camera viewfinder with centered text."
+msgstr "Kehys, joka jäljittelee kameran etsintä keskitetyn tekstin kanssa."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:78
+msgid "Cloud 1"
+msgstr "Pilvi 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:79
+msgid "A title with a playful cloud graphic and text."
+msgstr "Otsikko, jossa on leikkisä pilvikuva ja teksti."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:80
+msgid "Cloud 2"
+msgstr "Pilvi 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:81
+msgid "Another playful cloud design with 3 clouds and text."
+msgstr "Toinen leikkisä pilvimalli, jossa on kolme pilveä ja tekstiä."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:82
+msgid "Creative Commons 1"
+msgstr "Creative Commons 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:83
+msgid "Contains text and icons for Creative Commons attribution."
+msgstr ""
+"Sisältää tekstiä ja kuvakkeita Creative Commons -tekijänoikeusmerkintää "
+"varten."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:84
+msgid "Creative Commons 2"
+msgstr "Creative Commons 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:85
+msgid ""
+"Another Creative Commons design with different styling plus website text."
+msgstr ""
+"Toinen Creative Commons -malli erilaisella tyylillä ja "
+"verkkosivustotekstillä."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:86
+msgid "Film Rating 1"
+msgstr "Elokuvaluokitus 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:87
+msgid "Displays a film rating for all audiences."
+msgstr "Näyttää elokuvaluokituksen kaikille yleisöille."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:88
+msgid "Film Rating 2"
+msgstr "Elokuvaluokitus 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:89
+msgid "Displays a film rating of \"R\" restricted."
+msgstr "Näyttää elokuvaluokituksen \"R\" (rajoitettu)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:90
+msgid "Film Rating 3"
+msgstr "Elokuvaluokitus 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:91
+msgid "Displays a film rating of \"G\" for general audiences."
+msgstr "Näyttää elokuvaluokituksen \"G\" (yleisölle sopiva)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:92
+msgid "Film Rating 4"
+msgstr "Elokuvaluokitus 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:93
+msgid "Displays a film rating of \"PG-13\", parents strongly cautioned."
+msgstr "Näyttää elokuvaluokituksen \"PG-13\", vanhempien tulee olla varovaisia."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:94
+#, fuzzy
+msgid "Flare"
+msgstr "Heijastus"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:95
+#, fuzzy
+msgid "A title with a bright flare effect for a cinematic look."
+msgstr "Otsikko savuefekteillä dramaattista ilmettä varten."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:96
+msgid "Flames"
+msgstr "Liekit"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:97
+msgid "A title with flame graphics for a fiery effect."
+msgstr "Otsikko, jossa on liekkigrafiikkaa tulisen vaikutelman luomiseksi."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:98
+msgid "Footer 1"
+msgstr "Alatunniste 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:99
+msgid "A footer bar for lower thirds (left aligned)."
+msgstr "Alatunniste palkki alalaidassa (vasemmalle tasattu)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:100
+msgid "Footer 2"
+msgstr "Alatunniste 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:101
+msgid "A footer bar for lower thirds (center aligned)."
+msgstr "Alatunniste palkki alalaidassa (keskitetty)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:102
+msgid "Footer 3"
+msgstr "Alatunniste 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:103
+msgid "A footer bar for lower thirds (right aligned)."
+msgstr "Alatunniste palkki alalaidassa (oikealle tasattu)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:104
+msgid "Gold 1"
+msgstr "Kulta 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:105
+msgid "A title with a gold color scheme, centered with one line of text."
+msgstr "Otsikko kultaisella värimaailmalla, keskitetty yhdellä tekstirivillä."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:106
+msgid "Gold 2"
+msgstr "Kulta 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:107
+msgid "Another gold-themed title, centered with two lines of text."
+msgstr "Toinen kultateemainen otsikko, keskitetty kahdella tekstirivillä."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:108
+msgid "Gold Bottom"
+msgstr "Kulta Alhaalla"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:109
+msgid "Gold title positioned at the bottom of the screen."
+msgstr "Kultainen otsikko sijoitettuna näytön alareunaan."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:110
+msgid "Gold Top"
+msgstr "Kulta Ylhäällä"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:111
+msgid "Gold title positioned at the top of the screen."
+msgstr "Kultainen otsikko sijoitettuna näytön yläreunaan."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:112
+msgid "Gray Box 1"
+msgstr "Harmaa laatikko 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:113
+msgid ""
+"A simple gray box for highlighting text (one line of text, top-left "
+"aligned)."
+msgstr ""
+"Yksinkertainen harmaa laatikko tekstin korostamiseen (yksi tekstirivi, vasen"
+" yläkulma)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:114
+msgid "Gray Box 2"
+msgstr "Harmaa laatikko 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:115
+msgid ""
+"A simple gray box for highlighting text (two lins of text, top-left "
+"aligned)."
+msgstr ""
+"Yksinkertainen harmaa laatikko tekstin korostamiseen (kaksi tekstiriviä, "
+"vasen yläkulma)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:116
+msgid "Gray Box 3"
+msgstr "Harmaa laatikko 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:117
+msgid ""
+"A simple gray box for highlighting text (one line of text, bottom-right "
+"aligned)."
+msgstr ""
+"Yksinkertainen harmaa laatikko tekstin korostamiseen (yksi tekstirivi, "
+"oikeassa alakulmassa)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:118
+msgid "Gray Box 4"
+msgstr "Harmaa laatikko 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:119
+msgid ""
+"A simple gray box for highlighting text (two lines of text, bottom-right "
+"aligned)."
+msgstr ""
+"Yksinkertainen harmaa laatikko tekstin korostamiseen (kaksi tekstiriviä, "
+"oikeassa alakulmassa)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:120
+msgid "Header 1"
+msgstr "Otsikko 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:121
+msgid "A header bar for titles or section headers (top-left aligned)."
+msgstr "Otsikkopalkki otsikoille tai osioiden otsikoille (vasen yläkulma)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:122
+msgid "Header 2"
+msgstr "Otsikko 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:123
+msgid "A header bar for titles or section headers (center aligned)."
+msgstr "Otsikkopalkki otsikoille tai osioiden otsikoille (keskitetty)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:124
+msgid "Header 3"
+msgstr "Otsikko 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:125
+msgid "A header bar for titles or section headers (top-right aligned)."
+msgstr "Otsikkopalkki otsikoille tai osioiden otsikoille (oikea yläkulma)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:126
+msgid "OpenShot"
+msgstr "OpenShot"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:127
+msgid "A title featuring OpenShot branding."
+msgstr "Otsikko, jossa on OpenShot-brändäys."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:128
+msgid "Oval 1"
+msgstr "Soikio 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:129
+msgid "An oval shape for highlighting or decorative purposes, text centered."
+msgstr "Soikion muotoinen korostus- tai koriste-elementti, teksti keskitetty."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:130
+msgid "Oval 2"
+msgstr "Soikio 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:131
+msgid "Another oval design with a different style, text centered."
+msgstr "Toinen soikion muotoinen malli eri tyylillä, teksti keskitetty."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:132
+msgid "Oval 3"
+msgstr "Soikio 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:133
+msgid ""
+"Another oval design with two-lines of text, one at the top, one at the "
+"bottom."
+msgstr ""
+"Toinen soikion muotoinen malli, jossa kaksi tekstiriviä, yksi ylhäällä ja "
+"yksi alhaalla."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:134
+msgid "Oval 4"
+msgstr "Soikio 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:135
+msgid "Yet another oval design, with text centered plus refection."
+msgstr ""
+"Vielä yksi soikion muotoinen malli, teksti keskitetty ja heijastus mukana."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:136
+msgid "Post it"
+msgstr "Post-it"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:137
+msgid "Mimics a sticky note for annotations or reminders."
+msgstr "Jäljittelee muistilappua merkintöjä tai muistutuksia varten."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:138
+msgid "Ribbon 1"
+msgstr "Nauha 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:139
+msgid "A ribbon graphic with text."
+msgstr "Nauhakuva, jossa on tekstiä."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:140
+msgid "Ribbon 2"
+msgstr "Nauha 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:141
+msgid "Another ribbon design with text."
+msgstr "Toinen nauhamalli, jossa on tekstiä."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:142
+msgid "Ribbon 3"
+msgstr "Nauha 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:143
+msgid "A third variation of a ribbon design with text."
+msgstr "Kolmas nauhamallin variaatio, jossa on tekstiä."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:144
+msgid "Smoke 1"
+msgstr "Savu 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:145
+msgid "A title with smoke effects for a dramatic look."
+msgstr "Otsikko savuefekteillä dramaattista ilmettä varten."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:146
+msgid "Smoke 2"
+msgstr "Savu 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:147
+msgid "Another smoke design with a different style."
+msgstr "Toinen savumalli eri tyylillä."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:148
+msgid "Smoke 3"
+msgstr "Savu 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:149
+msgid "A third variation of smoke effects."
+msgstr "Kolmas savuefektien variaatio."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:150
+msgid "Solid Color"
+msgstr "Yhtenäinen väri"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:151
+msgid "A full-screen color background for various uses."
+msgstr "Koko näytön värillinen tausta erilaisiin käyttötarkoituksiin."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:152
+msgid "Standard 1"
+msgstr "Vakio 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:153
+msgid "A standard title design for general purposes (two lines centered)."
+msgstr "Vakiootsikkosuunnittelu yleiskäyttöön (kaksi keskitettyä riviä)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:154
+msgid "Standard 2"
+msgstr "Vakio 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:155
+msgid ""
+"Another standard title with a different style (one line of text plus "
+"reflection)."
+msgstr "Toinen vakiootsikko eri tyylillä (yksi tekstirivi ja heijastus)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:156
+msgid "Standard 3"
+msgstr "Vakio 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:157
+msgid "A third variation of a standard title (three lines of text)."
+msgstr "Kolmas vakiootsikon variaatio (kolme tekstiriviä)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:158
+msgid "Standard 4"
+msgstr "Vakio 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:159
+msgid "Yet another standard title design (four lines of text)."
+msgstr "Vielä yksi vakiootsikkosuunnittelu (neljä tekstiriviä)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:160
+msgid "Sunset"
+msgstr "Auringonlasku"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:161
+msgid "A title with sunset gradient for a warm, end-of-day theme."
+msgstr ""
+"Otsikko auringonlaskun liukuvärillä lämpimään, päivän päättymisen teemaan."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:162
+msgid "TV Rating"
+msgstr "TV-luokitus"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:163
+msgid ""
+"Displays TV ratings badge such as \"G\" and \"PG\" (for the corner of the "
+"screen)."
+msgstr "Näyttää TV-luokituksen tunnuksen, kuten \"G\" ja \"PG\" (näytön kulmassa)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:167
+msgid "Custom Title Templates"
+msgstr "Mukautetut otsikkopohjat"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:168
+msgid ""
+"OpenShot can use any vector SVG image file as a custom title template in the"
+" :guilabel:`Title Editor` dialog. Just add an SVG image file to your "
+"``~/.openshot_qt/title_templates/`` folder, and it will appear the next time"
+" you launch the :guilabel:`Title Editor` dialog. You can also right click on"
+" any SVG files in your **Project Files** panel, and choose **Edit Title** or"
+" **Duplicate Title**."
+msgstr ""
+"OpenShot voi käyttää mitä tahansa vektori-SVG-kuvatiedostoa mukautettuna "
+"otsikkopohjana :guilabel:`Title Editor` -valintaikkunassa. Lisää vain SVG-"
+"kuvatiedosto kansioon ``~/.openshot_qt/title_templates/``, niin se näkyy "
+"seuraavan kerran, kun avaat :guilabel:`Title Editor` -valintaikkunan. Voit "
+"myös napsauttaa hiiren oikealla mitä tahansa SVG-tiedostoa "
+"**Projektitiedostot**-paneelissa ja valita **Muokkaa otsikkoa** tai **Kopioi"
+" otsikko**."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:172
+msgid ""
+"Note: These SVG templates are only used by the :guilabel:`Title Editor` "
+"dialog, and not :guilabel:`Animated Title` dialog."
+msgstr ""
+"Huomautus: Näitä SVG-pohjia käyttää vain :guilabel:`Title Editor` "
+"-valintaikkuna, ei :guilabel:`Animated Title` -valintaikkuna."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:177
+msgid "3D Animated Titles"
+msgstr "3D-animoidut otsikot"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:178
+msgid ""
+"Adding a 3D animated title is just as easy, using our **Animated Title** "
+"dialog. Use the Title menu (located in the main menu of OpenShot) to launch "
+"the Animated Title editor. You can also use the keyboard shortcut "
+"**Ctrl+B**. Note: Blender must be installed and configured before this "
+"feature will work in OpenShot. See :ref:`blender_install_ref`."
+msgstr ""
+"3D-animoidun otsikon lisääminen on yhtä helppoa käyttämällä **Animated "
+"Title** -valintaikkunaa. Käytä Otsikko-valikkoa (OpenShotin päävalikossa) "
+"avataksesi Animated Title -editorin. Voit myös käyttää pikanäppäintä "
+"**Ctrl+B**. Huom: Blender on asennettava ja konfiguroitava ennen kuin tämä "
+"ominaisuus toimii OpenShotissa. Katso :ref:`blender_install_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:187
+msgid "Choose from any available 3D title templates"
+msgstr "Valitse mistä tahansa saatavilla olevista 3D-otsikkopohjista"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:189
+msgid "Change the text, colors, and advanced properties"
+msgstr "Muuta tekstiä, värejä ja edistyneitä ominaisuuksia"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:190
+msgid "Render"
+msgstr "Renderöi"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:190
+msgid "Render the 3D animation, and add it to your project"
+msgstr "Renderöi 3D-animaatio ja lisää se projektiisi"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:194
+msgid "3D Animated Templates"
+msgstr "3D-animoidut pohjat"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:196
+msgid ""
+"OpenShot includes a variety of 3D animated templates that can be used to add"
+" dynamic and engaging elements to your video projects. Below is a table "
+"listing the available templates and their descriptions:"
+msgstr ""
+"OpenShot sisältää erilaisia 3D-animoituja pohjia, joita voi käyttää "
+"dynaamisten ja kiinnostavien elementtien lisäämiseen videoihisi. Alla on "
+"taulukko, jossa on saatavilla olevat pohjat ja niiden kuvaukset:"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:203
+msgid "Template Name"
+msgstr "Pohjan nimi"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:205
+msgid "Blinds (Two Titles)"
+msgstr "Sälekaihtimet (kaksi otsikkoa)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:206
+msgid "An animation featuring a blinds effect."
+msgstr "Animaatio, jossa on sälekaihtimien efekti."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:207
+msgid "Blur"
+msgstr "Sumentuma"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:208
+msgid ""
+"A template that blurs text in and out, providing a smooth transition effect."
+msgstr ""
+"Pohja, joka summentaa tekstiä sisään ja ulos, tarjoten sujuvan "
+"siirtymäefektin."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:209
+msgid "Color Tiles"
+msgstr "Värilaatat"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:210
+msgid ""
+"An animation with changing colors, suitable for vibrant and dynamic titles."
+msgstr ""
+"Animaatio, jossa värit vaihtuvat, sopii eloisille ja dynaamisille "
+"otsikoille."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:211
+msgid "Dissolving Text"
+msgstr "Hajoava teksti"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:212
+msgid ""
+"A dissolve effect that turns any text into particles which get blown away by"
+" the wind."
+msgstr ""
+"Hajoamistehoste, joka muuttaa tekstin hiukkasiksi, jotka tuuli puhaltaa "
+"pois."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:213
+msgid "World Map"
+msgstr "Maailmankartta"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:214
+msgid "A template featuring a rotating Earth between 2 locations."
+msgstr "Pohja, jossa pyörii maapallo kahden sijainnin välillä."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:215
+msgid "Exploding Text"
+msgstr "Räjähtävä teksti"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:216
+msgid ""
+"An animation where the title explode into pieces, adding dramatic impact."
+msgstr ""
+"Animaatio, jossa otsikko räjähtää paloiksi, lisäten dramaattista vaikutusta."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:217
+msgid "Fly Towards Camera"
+msgstr "Lennä kohti kameraa"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:218
+msgid "A fly-by animation with a single title zooming past the screen."
+msgstr "Lennä ohi -animaatio, jossa yksittäinen otsikko zoomaa ruudun ohi."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:219
+msgid "Fly Towards Camera (Two Titles)"
+msgstr "Lennä kohti kameraa (kaksi otsikkoa)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:220
+msgid "Similar to Fly By 1, but with two titles flying by."
+msgstr "Samankaltainen kuin Fly By 1, mutta kaksi otsikkoa lentää ohi."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:221
+msgid "Glare"
+msgstr "Heijastus"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:222
+msgid "An animation with a glare effect, adding a bright, reflective look."
+msgstr ""
+"Animaatio, jossa on heijastusefekti, lisäten kirkkaan ja heijastavan ilmeen."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:223
+msgid "Glass Slider"
+msgstr "Lasiliukusäädin"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:224
+msgid "A sliding glass effect, providing a modern and sleek transition."
+msgstr "Liukuva lasiefekti, joka tarjoaa modernin ja tyylikkään siirtymän."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:225
+msgid "Lens Flare"
+msgstr "Linssihehku"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:226
+msgid "An animation featuring a lens flare, adding a cinematic touch."
+msgstr "Animaatio, jossa on linssihehku, lisäten elokuvamaista tunnelmaa."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:227
+msgid "Magic Wand"
+msgstr "Taikasauva"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:228
+msgid "A whimsical magic wand effect, ideal for magical or fantasy themes."
+msgstr ""
+"Leikkisä taikasauvaefekti, ihanteellinen maagisiin tai fantasia-aiheisiin."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:229
+msgid "Neon Curves"
+msgstr "Neonkaaret"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:230
+msgid "An animation with neon curves, creating a futuristic and vibrant look."
+msgstr "Animaatio neonkaarilla, luoden futuristisen ja elävän ilmeen."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:231
+msgid "Picture Frames (4 pictures)"
+msgstr "Kehykset (4 kuvaa)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:232
+msgid ""
+"A template featuring four picture frames, suitable for showcasing images or "
+"video clips."
+msgstr ""
+"Malli, jossa on neljä kuvakehystä, sopii kuvien tai videoleikkeiden "
+"esittelyyn."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:233
+msgid "Rotate 360"
+msgstr "Kierrä 360"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:234
+msgid "A 360-degree rotation effect, providing a dynamic title animation."
+msgstr "360 asteen kiertoefekti, joka tarjoaa dynaamisen otsikkoanimaation."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:235
+msgid "Slide Left to Right"
+msgstr "Liuku vasemmalta oikealle"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:236
+msgid "A sliding effect where titles move from left to right."
+msgstr "Liukuva efekti, jossa otsikot liikkuvat vasemmalta oikealle."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:237
+msgid "Snow"
+msgstr "Lumi"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:238
+msgid ""
+"An animation with falling snow particles, perfect for winter or holiday "
+"themes."
+msgstr ""
+"Animaatio putoavista lumihiutaleista, täydellinen talvi- tai juhlateemoihin."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:239
+msgid "Space Movie Intro"
+msgstr "Avaruuselokuvan intro"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:240
+msgid "A cinematic space-themed intro, ideal for epic or sci-fi projects."
+msgstr ""
+"Elokuvamainen avaruusteemainen intro, ihanteellinen eeppisiin tai scifi-"
+"projekteihin."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:241
+msgid "Wireframe Text"
+msgstr "Verkkokehysteksti"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:242
+msgid "An animation with wireframe text, adding a technical or digital look."
+msgstr ""
+"Animaatio verkkokehystekstillä, lisäten teknisen tai digitaalisen ilmeen."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:243
+msgid "Zoom to Clapboard"
+msgstr "Zoomaa klappilautaan"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:244
+msgid ""
+"A zoom title with a clapboard, perfect for film or video production themes."
+msgstr ""
+"Zoom-otsikko klappilaudalla, täydellinen elokuva- tai "
+"videotuotantoteemoihin."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:247
+msgid "Importing Text"
+msgstr "Tekstin tuonti"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:249
+msgid ""
+"You can generate text & titles in many different programs, such as Blender, "
+"Inkscape, Krita, Gimp, etc... Before you can import text into OpenShot, you "
+"must first export the text from these programs into a compatible image "
+"format that contains a **transparent background** and **alpha** channel."
+msgstr ""
+"Voit luoda tekstiä ja otsikoita monilla eri ohjelmilla, kuten Blender, "
+"Inkscape, Krita, Gimp jne. Ennen kuin voit tuoda tekstiä OpenShotiin, sinun "
+"on ensin vietävä teksti näistä ohjelmista yhteensopivaan kuvaformaattiin, "
+"joka sisältää **läpinäkyvän taustan** ja **alfakanavan**."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:253
+msgid ""
+"The ``SVG`` format is a great choice for vector graphics (curves, shapes, "
+"text effects and paths), however it is **not** always 100% compatible with "
+"OpenShot. Thus, we recommend using ``PNG`` format, which is a great web-"
+"based image format that can include a transparent background and alpha "
+"channel. A transparent background and alpha channel are needed for OpenShot "
+"to allow the text to not cover up videos and images on the timeline below "
+"them."
+msgstr ""
+"``SVG``-formaatti on erinomainen valinta vektorigrafiikkaan (käyrät, muodot,"
+" tekstiefektit ja polut), mutta se ei ole aina 100 % yhteensopiva OpenShotin"
+" kanssa. Siksi suosittelemme käyttämään ``PNG``-formaattia, joka on "
+"erinomainen verkkopohjainen kuvaformaatti, joka voi sisältää läpinäkyvän "
+"taustan ja alfakanavan. Läpinäkyvä tausta ja alfakanava ovat tarpeen, jotta "
+"OpenShot sallii tekstin olla peittämättä aikajanalla olevia videoita ja "
+"kuvia."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:258
+msgid ""
+"For information on importing animated sequences into OpenShot, please see "
+":ref:`animation_image_seq_ref`."
+msgstr ""
+"Lisätietoja animoitujen sekvenssien tuonnista OpenShotiin löydät kohdasta "
+":ref:`animation_image_seq_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:261
+msgid "Installing Inkscape"
+msgstr "Inkscapen asennus"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:263
+msgid ""
+"The :guilabel:`Advanced Editor` feature in the :guilabel:`Title Editor` "
+"dialog requires the latest version of Inkscape "
+"(https://inkscape.org/release/) be installed and the OpenShot "
+"**Preferences** updated with the correct path to the Inkscape executable. "
+"See the :ref:`preferences_general_ref` tab in Preferences."
+msgstr ""
+":guilabel:`Title Editor`-valintaikkunan :guilabel:`Advanced Editor` "
+"-ominaisuus vaatii uusimman Inkscape-version (https://inkscape.org/release/)"
+" asentamisen ja OpenShotin **Asetuksista** polun päivittämisen Inkscape-"
+"suoritustiedostoon. Katso :ref:`preferences_general_ref` -välilehti "
+"Asetuksista."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:270
+msgid "Installing Blender"
+msgstr "Blenderin asennus"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:272
+msgid ""
+"The :guilabel:`Animated Title` feature in OpenShot requires the latest "
+"version of Blender (https://www.blender.org/download/) be installed and the "
+"OpenShot **Preferences** updated with the correct path to the Blender "
+"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE:"
+" The minimum supported version of Blender is 5.0+. Older versions of Blender"
+" are not compatible with OpenShot Video Editor."
+msgstr ""
+"OpenShotin :guilabel:`Animated Title` -ominaisuus vaatii uusimman Blender-"
+"version (https://www.blender.org/download/) asentamisen ja OpenShotin "
+"**Asetuksista** polun päivittämisen Blenderin suoritustiedostoon. Katso "
+":ref:`preferences_general_ref` -välilehti Asetuksista. HUOM: "
+"Vähimmäistukiversio Blenderistä on 5.0+. Vanhemmat Blender-versiot eivät ole"
+" yhteensopivia OpenShot Video Editorin kanssa."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:278
+msgid ""
+"For a detailed guide on how to install these dependencies, see `Blender & "
+"Inkscape Guide <https://github.com/OpenShot/openshot-qt/wiki/Blender-and-"
+"Inkscape-Guide>`_."
+msgstr ""
+"Yksityiskohtaisen asennusoppaan näiden riippuvuuksien asentamiseen löydät "
+"osoitteesta `Blender & Inkscape Guide <https://github.com/OpenShot/openshot-"
+"qt/wiki/Blender-and-Inkscape-Guide>`_."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Adding text and titles is an important aspect of video editing, and OpenShot"
+#~ " comes with an easy-to-use Title Editor. Use the Title menu (located in the "
+#~ "main menu of OpenShot) to launch the Title Editor. You can also use the "
+#~ "keyboard shortcut :kbd:`Ctrl+T`."
+#~ msgstr ""
+#~ "Tekstin ja otsikoiden lisääminen on tärkeä osa videoeditointia, ja OpenShot "
+#~ "sisältää helppokäyttöisen otsikkotyökalun. Käynnistä otsikkotyökalu Otsikko-"
+#~ "valikosta (päävalikossa). Voit myös käyttää pikanäppäintä :kbd:`Ctrl+T`."

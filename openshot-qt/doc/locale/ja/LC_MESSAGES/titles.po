@@ -1,0 +1,1071 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:23
+msgid "Text & Titles"
+msgstr "テキストとタイトル"
+
+#: ../titles.rst:25
+msgid ""
+"Adding text overlays, lower thirds, and titles is an important aspect of "
+"video editing, and OpenShot comes with an easy-to-use Title Editor. Use the "
+"Title menu (located in the main menu of OpenShot) to launch the Title "
+"Editor. You can also use the keyboard shortcut :kbd:`Ctrl+T`."
+msgstr ""
+"テキストオーバーレイ、ローワーサード、タイトルの追加はビデオ編集の重要な要素であり、OpenShot "
+"には使いやすいタイトルエディターが付属しています。タイトルメニュー（OpenShot "
+"のメインメニューにあります）を使ってタイトルエディターを起動してください。また、キーボードショートカット :kbd:`Ctrl+T` も使用できます。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:29
+msgid ""
+"Titles are simply vector image files with transparent backgrounds "
+"(``*.svg``). OpenShot comes with many easy-to-use templates, but you can "
+"also create your own or import new templates into OpenShot. These templates "
+"allow you to quickly change the text, font, size, color, and background "
+"color. You can also launch an advanced, external SVG editor for further "
+"customizations (if needed). Once the title is added to your project, drag "
+"and drop the title on a Track above a video clip. The transparent background"
+" will allow the video below to appear behind the text."
+msgstr ""
+"タイトルは透明な背景を持つベクター画像ファイル（``*.svg`` "
+"）です。OpenShotには多くの使いやすいテンプレートが付属していますが、自分で作成したり新しいテンプレートをOpenShotにインポートすることもできます。これらのテンプレートを使うと、テキスト、フォント、サイズ、色、背景色を素早く変更できます。必要に応じて、高度な外部SVGエディターを起動してさらにカスタマイズすることも可能です。タイトルをプロジェクトに追加したら、ビデオクリップの上のトラックにドラッグ＆ドロップしてください。透明な背景により、テキストの背後にビデオが表示されます。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:36
+msgid "Overview"
+msgstr "概要"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:185
+msgid "#"
+msgstr "＃"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:185
+msgid "Name"
+msgstr "名前"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:63 ../titles.rst:185 ../titles.rst:204
+msgid "Description"
+msgstr "説明"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46 ../titles.rst:187
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46 ../titles.rst:187
+msgid "Choose a Template"
+msgstr "テンプレートを選択"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46
+msgid "Choose from any available vector title template"
+msgstr "利用可能なベクタータイトルテンプレートから選択"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "Preview Title"
+msgstr "タイトルをプレビュー"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "Preview your title as you make changes"
+msgstr "変更を加えながらタイトルをプレビュー"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48 ../titles.rst:189
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48 ../titles.rst:189
+msgid "Title Properties"
+msgstr "タイトルのプロパティ"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48
+msgid ""
+"Change the text, font, size, colors, or edit in an advanced, external SVG "
+"image editor (such as Inkscape)"
+msgstr "テキスト、フォント、サイズ、色を変更するか、高度な外部SVG画像エディター（Inkscapeなど）で編集"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49 ../titles.rst:190
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49
+msgid "Save"
+msgstr "保存"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49
+msgid "Save and add the title to your project"
+msgstr "保存してタイトルをプロジェクトに追加"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:53
+msgid "Title Templates"
+msgstr "タイトルテンプレート"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:55
+msgid ""
+"OpenShot includes a variety of vector title templates that can be used to "
+"enhance your video projects. Below is a table listing the available titles "
+"and their descriptions:"
+msgstr ""
+"OpenShotには、ビデオプロジェクトを強化するために使用できるさまざまなベクタータイトルテンプレートが含まれています。以下は利用可能なタイトルとその説明の一覧表です："
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:62
+msgid "Title Name"
+msgstr "タイトル名"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:64
+msgid "Bar 1"
+msgstr "バー 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:65
+msgid "A simple bar with text centered."
+msgstr "中央にテキストが配置されたシンプルなバー。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:66
+msgid "Bar 2"
+msgstr "バー 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:67
+msgid "A simple bar, centered, with 2 lines of text."
+msgstr "中央に配置された2行のテキストを持つシンプルなバー。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:68
+msgid "Bar 3"
+msgstr "バー 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:69
+msgid "Another variation of a simple bar with text, for lower 3rds."
+msgstr "ローワーサード用のテキスト付きシンプルバーの別バリエーション。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:70
+msgid "Box"
+msgstr "ボックス"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:71
+#, fuzzy
+msgid "A simple boxed title layout for centered text."
+msgstr "中央にテキストが配置されたシンプルなバー。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:72
+msgid "Bubbles 1"
+msgstr "バブル 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:73
+msgid "A title with bubble graphics for a playful look."
+msgstr "遊び心のあるバブルグラフィック付きタイトル。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:74
+msgid "Bubbles 2"
+msgstr "バブル 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:75
+msgid "A different bubble design for a fun and creative title."
+msgstr "楽しくクリエイティブなタイトルのための別のバブルデザイン。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:76
+msgid "Camera Border"
+msgstr "カメラボーダー"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:77
+msgid "A border that mimics a camera viewfinder with centered text."
+msgstr "中央にテキストが配置されたカメラのファインダーを模した枠。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:78
+msgid "Cloud 1"
+msgstr "クラウド 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:79
+msgid "A title with a playful cloud graphic and text."
+msgstr "遊び心のあるクラウドグラフィックとテキストのタイトル。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:80
+msgid "Cloud 2"
+msgstr "クラウド 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:81
+msgid "Another playful cloud design with 3 clouds and text."
+msgstr "3つのクラウドとテキストを使った別の遊び心あるクラウドデザイン。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:82
+msgid "Creative Commons 1"
+msgstr "クリエイティブ・コモンズ 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:83
+msgid "Contains text and icons for Creative Commons attribution."
+msgstr "クリエイティブ・コモンズの帰属表示用テキストとアイコンを含む。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:84
+msgid "Creative Commons 2"
+msgstr "クリエイティブ・コモンズ 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:85
+msgid ""
+"Another Creative Commons design with different styling plus website text."
+msgstr "異なるスタイルとウェブサイトテキストを含む別のクリエイティブ・コモンズデザイン。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:86
+msgid "Film Rating 1"
+msgstr "映画レーティング 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:87
+msgid "Displays a film rating for all audiences."
+msgstr "すべての観客向けの映画レーティングを表示。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:88
+msgid "Film Rating 2"
+msgstr "映画レーティング 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:89
+msgid "Displays a film rating of \"R\" restricted."
+msgstr "「R」指定の映画レーティングを表示。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:90
+msgid "Film Rating 3"
+msgstr "映画レーティング 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:91
+msgid "Displays a film rating of \"G\" for general audiences."
+msgstr "一般向けの「G」指定映画レーティングを表示。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:92
+msgid "Film Rating 4"
+msgstr "映画レーティング 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:93
+msgid "Displays a film rating of \"PG-13\", parents strongly cautioned."
+msgstr "「PG-13」指定の映画レーティングを表示。保護者の強い注意が必要。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:94
+#, fuzzy
+msgid "Flare"
+msgstr "グレア"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:95
+#, fuzzy
+msgid "A title with a bright flare effect for a cinematic look."
+msgstr "ドラマチックな見た目のスモーク効果付きタイトル。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:96
+msgid "Flames"
+msgstr "炎"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:97
+msgid "A title with flame graphics for a fiery effect."
+msgstr "炎のグラフィックを使った燃えるような効果のタイトル。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:98
+msgid "Footer 1"
+msgstr "フッター 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:99
+msgid "A footer bar for lower thirds (left aligned)."
+msgstr "ローワーサード用のフッターバー（左揃え）。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:100
+msgid "Footer 2"
+msgstr "フッター 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:101
+msgid "A footer bar for lower thirds (center aligned)."
+msgstr "ローワーサード用のフッターバー（中央揃え）。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:102
+msgid "Footer 3"
+msgstr "フッター 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:103
+msgid "A footer bar for lower thirds (right aligned)."
+msgstr "ローワーサード用のフッターバー（右揃え）。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:104
+msgid "Gold 1"
+msgstr "ゴールド 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:105
+msgid "A title with a gold color scheme, centered with one line of text."
+msgstr "ゴールドのカラースキームで中央に1行のテキストがあるタイトル。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:106
+msgid "Gold 2"
+msgstr "ゴールド 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:107
+msgid "Another gold-themed title, centered with two lines of text."
+msgstr "ゴールドをテーマにした別のタイトルで、中央に2行のテキスト。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:108
+msgid "Gold Bottom"
+msgstr "ゴールドボトム"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:109
+msgid "Gold title positioned at the bottom of the screen."
+msgstr "画面下部に配置されたゴールドのタイトル。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:110
+msgid "Gold Top"
+msgstr "ゴールドトップ"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:111
+msgid "Gold title positioned at the top of the screen."
+msgstr "画面上部に配置されたゴールドのタイトル。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:112
+msgid "Gray Box 1"
+msgstr "グレーボックス 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:113
+msgid ""
+"A simple gray box for highlighting text (one line of text, top-left "
+"aligned)."
+msgstr "テキストを強調するためのシンプルなグレーボックス（1行テキスト、左上揃え）。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:114
+msgid "Gray Box 2"
+msgstr "グレーボックス 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:115
+msgid ""
+"A simple gray box for highlighting text (two lins of text, top-left "
+"aligned)."
+msgstr "テキストを強調するためのシンプルなグレーボックス（2行テキスト、左上揃え）。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:116
+msgid "Gray Box 3"
+msgstr "グレーボックス 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:117
+msgid ""
+"A simple gray box for highlighting text (one line of text, bottom-right "
+"aligned)."
+msgstr "テキストを強調表示するためのシンプルなグレーのボックス（一行のテキスト、右下揃え）。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:118
+msgid "Gray Box 4"
+msgstr "グレーボックス 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:119
+msgid ""
+"A simple gray box for highlighting text (two lines of text, bottom-right "
+"aligned)."
+msgstr "テキストを強調表示するためのシンプルなグレーのボックス（二行のテキスト、右下揃え）。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:120
+msgid "Header 1"
+msgstr "ヘッダー 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:121
+msgid "A header bar for titles or section headers (top-left aligned)."
+msgstr "タイトルやセクションヘッダー用のヘッダーバー（左上揃え）。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:122
+msgid "Header 2"
+msgstr "ヘッダー 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:123
+msgid "A header bar for titles or section headers (center aligned)."
+msgstr "タイトルやセクションヘッダー用のヘッダーバー（中央揃え）。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:124
+msgid "Header 3"
+msgstr "ヘッダー 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:125
+msgid "A header bar for titles or section headers (top-right aligned)."
+msgstr "タイトルやセクションヘッダー用のヘッダーバー（右上揃え）。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:126
+msgid "OpenShot"
+msgstr "OpenShot"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:127
+msgid "A title featuring OpenShot branding."
+msgstr "OpenShot ブランディングを特徴とするタイトルです。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:128
+msgid "Oval 1"
+msgstr "オーバル 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:129
+msgid "An oval shape for highlighting or decorative purposes, text centered."
+msgstr "強調表示や装飾用の楕円形、テキストは中央揃え。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:130
+msgid "Oval 2"
+msgstr "オーバル 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:131
+msgid "Another oval design with a different style, text centered."
+msgstr "別のスタイルの楕円形デザイン、テキストは中央揃え。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:132
+msgid "Oval 3"
+msgstr "オーバル 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:133
+msgid ""
+"Another oval design with two-lines of text, one at the top, one at the "
+"bottom."
+msgstr "上下に一行ずつテキストがある別の楕円形デザイン。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:134
+msgid "Oval 4"
+msgstr "オーバル 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:135
+msgid "Yet another oval design, with text centered plus refection."
+msgstr "テキストが中央揃えで反射効果のある別の楕円形デザイン。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:136
+msgid "Post it"
+msgstr "ポストイット"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:137
+msgid "Mimics a sticky note for annotations or reminders."
+msgstr "注釈やリマインダー用の付箋を模したデザイン。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:138
+msgid "Ribbon 1"
+msgstr "リボン 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:139
+msgid "A ribbon graphic with text."
+msgstr "テキスト付きのリボングラフィック。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:140
+msgid "Ribbon 2"
+msgstr "リボン 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:141
+msgid "Another ribbon design with text."
+msgstr "テキスト付きの別のリボンデザイン。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:142
+msgid "Ribbon 3"
+msgstr "リボン 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:143
+msgid "A third variation of a ribbon design with text."
+msgstr "テキスト付きリボンデザインの3番目のバリエーション。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:144
+msgid "Smoke 1"
+msgstr "スモーク 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:145
+msgid "A title with smoke effects for a dramatic look."
+msgstr "ドラマチックな見た目のスモーク効果付きタイトル。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:146
+msgid "Smoke 2"
+msgstr "スモーク 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:147
+msgid "Another smoke design with a different style."
+msgstr "別のスタイルのスモークデザイン。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:148
+msgid "Smoke 3"
+msgstr "スモーク 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:149
+msgid "A third variation of smoke effects."
+msgstr "スモーク効果の3番目のバリエーション。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:150
+msgid "Solid Color"
+msgstr "単色"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:151
+msgid "A full-screen color background for various uses."
+msgstr "さまざまな用途の全画面カラーバックグラウンド。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:152
+msgid "Standard 1"
+msgstr "スタンダード 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:153
+msgid "A standard title design for general purposes (two lines centered)."
+msgstr "一般用途向けの標準的なタイトルデザイン（中央揃えの2行）。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:154
+msgid "Standard 2"
+msgstr "スタンダード 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:155
+msgid ""
+"Another standard title with a different style (one line of text plus "
+"reflection)."
+msgstr "別のスタイルの標準タイトル（テキスト1行＋反射効果）。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:156
+msgid "Standard 3"
+msgstr "スタンダード 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:157
+msgid "A third variation of a standard title (three lines of text)."
+msgstr "標準タイトルの3番目のバリエーション（テキスト3行）。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:158
+msgid "Standard 4"
+msgstr "スタンダード 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:159
+msgid "Yet another standard title design (four lines of text)."
+msgstr "さらに別の標準タイトルデザイン（テキスト4行）。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:160
+msgid "Sunset"
+msgstr "サンセット"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:161
+msgid "A title with sunset gradient for a warm, end-of-day theme."
+msgstr "暖かく一日の終わりを感じさせるサンセットグラデーションのタイトル。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:162
+msgid "TV Rating"
+msgstr "テレビ番組のレーティング"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:163
+msgid ""
+"Displays TV ratings badge such as \"G\" and \"PG\" (for the corner of the "
+"screen)."
+msgstr "画面の隅に「G」や「PG」などのテレビ番組レーティングバッジを表示。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:167
+msgid "Custom Title Templates"
+msgstr "カスタムタイトルテンプレート"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:168
+msgid ""
+"OpenShot can use any vector SVG image file as a custom title template in the"
+" :guilabel:`Title Editor` dialog. Just add an SVG image file to your "
+"``~/.openshot_qt/title_templates/`` folder, and it will appear the next time"
+" you launch the :guilabel:`Title Editor` dialog. You can also right click on"
+" any SVG files in your **Project Files** panel, and choose **Edit Title** or"
+" **Duplicate Title**."
+msgstr ""
+"OpenShotは、:guilabel:`Title Editor` "
+"ダイアログで任意のベクターSVG画像ファイルをカスタムタイトルテンプレートとして使用できます。SVG画像ファイルを``~/.openshot_qt/title_templates/``"
+" フォルダーに追加すると、次回:guilabel:`Title Editor` ダイアログを起動したときに表示されます。また、**Project "
+"Files** パネル内の任意のSVGファイルを右クリックして、**Edit Title** または**Duplicate Title** "
+"を選択することもできます。"
+
+# Main-window terminology review, 2026-09-26.
+#: ../titles.rst:172
+msgid ""
+"Note: These SVG templates are only used by the :guilabel:`Title Editor` "
+"dialog, and not :guilabel:`Animated Title` dialog."
+msgstr ""
+"注意：これらのSVGテンプレートは:guilabel:`Title Editor` "
+"ダイアログでのみ使用され、:guilabel:`アニメーションタイトル` ダイアログでは使用されません。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:177
+msgid "3D Animated Titles"
+msgstr "3Dアニメーションタイトル"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:178
+msgid ""
+"Adding a 3D animated title is just as easy, using our **Animated Title** "
+"dialog. Use the Title menu (located in the main menu of OpenShot) to launch "
+"the Animated Title editor. You can also use the keyboard shortcut "
+"**Ctrl+B**. Note: Blender must be installed and configured before this "
+"feature will work in OpenShot. See :ref:`blender_install_ref`."
+msgstr ""
+"3Dアニメーションタイトルの追加も、**Animated Title** "
+"ダイアログを使えば簡単です。OpenShotのメインメニューにあるタイトルメニューからAnimated "
+"Titleエディターを起動できます。キーボードショートカット **Ctrl+B** "
+"も使用可能です。注意：この機能を使うにはBlenderがインストールされ、設定されている必要があります。詳細は "
+":ref:`blender_install_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:187
+msgid "Choose from any available 3D title templates"
+msgstr "利用可能な3Dタイトルテンプレートから選択"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:189
+msgid "Change the text, colors, and advanced properties"
+msgstr "テキスト、色、詳細設定を変更"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:190
+msgid "Render"
+msgstr "レンダー"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:190
+msgid "Render the 3D animation, and add it to your project"
+msgstr "3Dアニメーションをレンダーしてプロジェクトに追加"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:194
+msgid "3D Animated Templates"
+msgstr "3Dアニメーションテンプレート"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:196
+msgid ""
+"OpenShot includes a variety of 3D animated templates that can be used to add"
+" dynamic and engaging elements to your video projects. Below is a table "
+"listing the available templates and their descriptions:"
+msgstr ""
+"OpenShotには、動画プロジェクトに動的で魅力的な要素を追加できるさまざまな3Dアニメーションテンプレートが含まれています。以下は利用可能なテンプレートとその説明の一覧表です："
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:203
+msgid "Template Name"
+msgstr "テンプレート名"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:205
+msgid "Blinds (Two Titles)"
+msgstr "ブラインド（2つのタイトル）"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:206
+msgid "An animation featuring a blinds effect."
+msgstr "ブラインド効果を特徴とするアニメーション。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:207
+msgid "Blur"
+msgstr "ブラー"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:208
+msgid ""
+"A template that blurs text in and out, providing a smooth transition effect."
+msgstr "テキストをぼかして表示・非表示にする、滑らかなトランジション効果のテンプレート。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:209
+msgid "Color Tiles"
+msgstr "カラータイル"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:210
+msgid ""
+"An animation with changing colors, suitable for vibrant and dynamic titles."
+msgstr "色が変化するアニメーションで、鮮やかで動的なタイトルに適しています。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:211
+msgid "Dissolving Text"
+msgstr "溶解テキスト"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:212
+msgid ""
+"A dissolve effect that turns any text into particles which get blown away by"
+" the wind."
+msgstr "テキストを粒子に分解し、風で吹き飛ばす溶解効果。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:213
+msgid "World Map"
+msgstr "ワールドマップ"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:214
+msgid "A template featuring a rotating Earth between 2 locations."
+msgstr "2つの地点間で地球が回転するテンプレート。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:215
+msgid "Exploding Text"
+msgstr "爆発するテキスト"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:216
+msgid ""
+"An animation where the title explode into pieces, adding dramatic impact."
+msgstr "タイトルが破片に爆発するアニメーションで、劇的な効果を加えます。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:217
+msgid "Fly Towards Camera"
+msgstr "カメラに向かって飛ぶ"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:218
+msgid "A fly-by animation with a single title zooming past the screen."
+msgstr "画面を通り過ぎる単一のタイトルのフライバイアニメーション。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:219
+msgid "Fly Towards Camera (Two Titles)"
+msgstr "カメラに向かって飛ぶ（2つのタイトル）"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:220
+msgid "Similar to Fly By 1, but with two titles flying by."
+msgstr "Fly By 1に似ていますが、2つのタイトルが飛びます。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:221
+msgid "Glare"
+msgstr "グレア"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:222
+msgid "An animation with a glare effect, adding a bright, reflective look."
+msgstr "明るく反射する外観を加えるグレア効果のアニメーション。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:223
+msgid "Glass Slider"
+msgstr "ガラススライダー"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:224
+msgid "A sliding glass effect, providing a modern and sleek transition."
+msgstr "モダンで洗練されたトランジションを提供するスライドするガラス効果。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:225
+msgid "Lens Flare"
+msgstr "レンズフレア"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:226
+msgid "An animation featuring a lens flare, adding a cinematic touch."
+msgstr "映画的な効果を加えるレンズフレアを特徴としたアニメーション。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:227
+msgid "Magic Wand"
+msgstr "魔法の杖"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:228
+msgid "A whimsical magic wand effect, ideal for magical or fantasy themes."
+msgstr "魔法やファンタジーのテーマに最適な風変わりな魔法の杖効果。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:229
+msgid "Neon Curves"
+msgstr "ネオンクルーブ"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:230
+msgid "An animation with neon curves, creating a futuristic and vibrant look."
+msgstr "未来的で鮮やかな外観を作り出すネオンクルーブのアニメーション。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:231
+msgid "Picture Frames (4 pictures)"
+msgstr "写真フレーム（4枚の写真）"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:232
+msgid ""
+"A template featuring four picture frames, suitable for showcasing images or "
+"video clips."
+msgstr "画像やビデオクリップの表示に適した4つの写真フレームを特徴とするテンプレート。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:233
+msgid "Rotate 360"
+msgstr "360度回転"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:234
+msgid "A 360-degree rotation effect, providing a dynamic title animation."
+msgstr "動的なタイトルアニメーションを提供する360度回転効果。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:235
+msgid "Slide Left to Right"
+msgstr "左から右へのスライド"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:236
+msgid "A sliding effect where titles move from left to right."
+msgstr "タイトルが左から右に移動するスライド効果。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:237
+msgid "Snow"
+msgstr "雪"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:238
+msgid ""
+"An animation with falling snow particles, perfect for winter or holiday "
+"themes."
+msgstr "冬や休日のテーマに最適な降る雪の粒子のアニメーション。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:239
+msgid "Space Movie Intro"
+msgstr "宇宙映画のイントロ"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:240
+msgid "A cinematic space-themed intro, ideal for epic or sci-fi projects."
+msgstr "壮大なまたはSFプロジェクトに最適な映画的な宇宙テーマのイントロ。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:241
+msgid "Wireframe Text"
+msgstr "ワイヤーフレームテキスト"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:242
+msgid "An animation with wireframe text, adding a technical or digital look."
+msgstr "技術的またはデジタルな外観を加えるワイヤーフレームテキストのアニメーション。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:243
+msgid "Zoom to Clapboard"
+msgstr "クラップボードへのズーム"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:244
+msgid ""
+"A zoom title with a clapboard, perfect for film or video production themes."
+msgstr "映画やビデオ制作のテーマに最適なクラップボード付きのズームタイトル。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:247
+msgid "Importing Text"
+msgstr "テキストのインポート"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:249
+msgid ""
+"You can generate text & titles in many different programs, such as Blender, "
+"Inkscape, Krita, Gimp, etc... Before you can import text into OpenShot, you "
+"must first export the text from these programs into a compatible image "
+"format that contains a **transparent background** and **alpha** channel."
+msgstr ""
+"Blender、Inkscape、Krita、Gimpなど、多くのプログラムでテキストやタイトルを作成できます。OpenShotにテキストをインポートする前に、これらのプログラムから**透明な背景**"
+" と**アルファ** チャンネルを含む互換性のある画像形式でテキストをエクスポートする必要があります。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:253
+msgid ""
+"The ``SVG`` format is a great choice for vector graphics (curves, shapes, "
+"text effects and paths), however it is **not** always 100% compatible with "
+"OpenShot. Thus, we recommend using ``PNG`` format, which is a great web-"
+"based image format that can include a transparent background and alpha "
+"channel. A transparent background and alpha channel are needed for OpenShot "
+"to allow the text to not cover up videos and images on the timeline below "
+"them."
+msgstr ""
+"``SVG`` "
+"形式はベクターグラフィックス（曲線、形状、テキスト効果、パス）に最適ですが、OpenShotと100％互換性があるとは限りません。したがって、透明な背景とアルファチャンネルを含めることができる優れたウェブベースの画像形式である``PNG``"
+" "
+"形式の使用を推奨します。透明な背景とアルファチャンネルは、テキストが下のタイムライン上のビデオや画像を覆わないようにするためにOpenShotで必要です。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:258
+msgid ""
+"For information on importing animated sequences into OpenShot, please see "
+":ref:`animation_image_seq_ref`."
+msgstr ""
+"OpenShotへのアニメーションシーケンスのインポートに関する情報は、:ref:`animation_image_seq_ref` "
+"を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:261
+msgid "Installing Inkscape"
+msgstr "Inkscapeのインストール"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:263
+msgid ""
+"The :guilabel:`Advanced Editor` feature in the :guilabel:`Title Editor` "
+"dialog requires the latest version of Inkscape "
+"(https://inkscape.org/release/) be installed and the OpenShot "
+"**Preferences** updated with the correct path to the Inkscape executable. "
+"See the :ref:`preferences_general_ref` tab in Preferences."
+msgstr ""
+":guilabel:`Title Editor` ダイアログの :guilabel:`Advanced Editor` "
+"機能には、最新バージョンのInkscape (https://inkscape.org/release/) "
+"のインストールと、OpenShotの**設定** でInkscape実行ファイルへの正しいパスの更新が必要です。設定の "
+":ref:`preferences_general_ref` タブを参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:270
+msgid "Installing Blender"
+msgstr "Blenderのインストール"
+
+# Main-window terminology review, 2026-09-26.
+#: ../titles.rst:272
+msgid ""
+"The :guilabel:`Animated Title` feature in OpenShot requires the latest "
+"version of Blender (https://www.blender.org/download/) be installed and the "
+"OpenShot **Preferences** updated with the correct path to the Blender "
+"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE:"
+" The minimum supported version of Blender is 5.0+. Older versions of Blender"
+" are not compatible with OpenShot Video Editor."
+msgstr ""
+"OpenShotの :guilabel:`アニメーションタイトル` 機能には、最新バージョンのBlender "
+"(https://www.blender.org/download/) のインストールと、OpenShotの**設定** "
+"でBlender実行ファイルへの正しいパスの更新が必要です。設定の :ref:`preferences_general_ref` "
+"タブを参照してください。注意：Blenderの最低サポートバージョンは5.0以上です。古いバージョンのBlenderはOpenShot Video "
+"Editorと互換性がありません。"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:278
+msgid ""
+"For a detailed guide on how to install these dependencies, see `Blender & "
+"Inkscape Guide <https://github.com/OpenShot/openshot-qt/wiki/Blender-and-"
+"Inkscape-Guide>`_."
+msgstr ""
+"これらの依存関係のインストール方法の詳細なガイドについては、`Blender & Inkscape Guide "
+"<https://github.com/OpenShot/openshot-qt/wiki/Blender-and-Inkscape-Guide>`_ "
+"を参照してください。"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Adding text and titles is an important aspect of video editing, and OpenShot"
+#~ " comes with an easy-to-use Title Editor. Use the Title menu (located in the "
+#~ "main menu of OpenShot) to launch the Title Editor. You can also use the "
+#~ "keyboard shortcut :kbd:`Ctrl+T`."
+#~ msgstr ""
+#~ "テキストとタイトルの追加はビデオ編集の重要な要素であり、OpenShotには使いやすいタイトルエディターが付属しています。タイトルエディターを起動するには、OpenShotのメインメニューにあるタイトルメニューを使用してください。キーボードショートカット"
+#~ " :kbd:`Ctrl+T` も使用できます。"

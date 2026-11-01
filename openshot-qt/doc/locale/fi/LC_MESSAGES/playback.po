@@ -1,0 +1,450 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:23
+msgid "Playback"
+msgstr "Toisto"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:24
+msgid ""
+"The preview window is where video & audio playback takes place in OpenShot "
+"Video Editor. The preview window utilizes real-time video rendering, "
+"caching, re-sampling, and image scaling. This is the primary area for "
+"watching back (and listening to) your edits, giving you the feedback needed "
+"to make adjustments. It is also one of the most costly operations to your "
+"CPU, and requires a modern computer and some reasonable assumptions and "
+"factors (listed below)."
+msgstr ""
+"Esikatseluikkunassa toistetaan video- ja äänisisältöä OpenShot Video "
+"Editorissa. Esikatseluikkuna hyödyntää reaaliaikaista videon renderöintiä, "
+"välimuistia, uudelleennäytteenottoa ja kuvan skaalausta. Tämä on "
+"ensisijainen alue muokkaustesi katseluun ja kuunteluun, tarjoten palautteen "
+"tarvittaviin säätöihin. Se on myös yksi CPU:lle raskaimmista toiminnoista, "
+"ja vaatii modernin tietokoneen sekä joitakin kohtuullisia oletuksia ja "
+"tekijöitä (lueteltu alla)."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:30
+msgid "Real-Time Preview"
+msgstr "Reaaliaikainen esikatselu"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:31
+msgid ""
+"Many factors affect how smoothly the **real-time video preview** can "
+"playback on your computer. This requires a fast, modern multi-threaded CPU, "
+"lots of RAM (memory), and a modern GPU. We have listed many of the important "
+"factors below."
+msgstr ""
+"Monet tekijät vaikuttavat siihen, kuinka sujuvasti **reaaliaikainen videon "
+"esikatselu** toimii tietokoneellasi. Tämä vaatii nopean, modernin "
+"moniytimisen CPU:n, runsaasti RAM-muistia ja modernin GPU:n. Olemme "
+"listanneet monia tärkeitä tekijöitä alla."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38
+msgid "Factor"
+msgstr "Tekijä"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38 ../playback.rst:97
+msgid "Description"
+msgstr "Kuvaus"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid "CPU"
+msgstr "CPU"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid ""
+"If your CPU is too slow or has too few cores, you will likely experience a "
+"slow, choppy preview. We recommend installing OpenShot on fairly modern "
+"computer. See :ref:`min_system_req_ref` for more details on the hardware "
+"requirements for OpenShot Video Editor."
+msgstr ""
+"Jos CPU:si on liian hidas tai siinä on liian vähän ytimiä, esikatselu "
+"todennäköisesti hidastelee ja pätkii. Suosittelemme asentamaan OpenShotin "
+"melko moderniin tietokoneeseen. Katso :ref:`min_system_req_ref` lisätietoja "
+"OpenShot Video Editorin laitteistovaatimuksista."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid "Memory"
+msgstr "Muisti"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid ""
+"If your available RAM memory is too limited, you will likely see huge drops "
+"in real-time performance, and your entire system will lag. We recommend "
+"installing additional RAM in your computer, if possible. See :ref:"
+"`min_system_req_ref`."
+msgstr ""
+"Jos käytettävissä oleva RAM-muisti on liian rajallinen, reaaliaikainen "
+"suorituskyky heikkenee huomattavasti ja koko järjestelmäsi hidastelee. "
+"Suosittelemme lisäämään RAM-muistia tietokoneeseesi, jos mahdollista. Katso :"
+"ref:`min_system_req_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid "Cache"
+msgstr "Välimuisti"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid ""
+"Your cache settings in the OpenShot Preferences are very important for "
+"determining how many frames to processes in advance. A value too low or too "
+"high can cause lag during the real-time video preview. The cache is also "
+"related to the available RAM. The higher the cache values, the more RAM and "
+"CPU is needed. We recommend experimenting with the Cache Preferences in "
+"OpenShot if you are experiencing issues with smooth playback. This same "
+"caching system also prepares frames ahead of time during export, speeding up "
+"the final render. See :ref:`preferences_cache_ref`."
+msgstr ""
+"Välimuistiasetuksesi OpenShotin asetuksissa ovat erittäin tärkeitä sen "
+"määrittämiseksi, kuinka monta ruutua käsitellään etukäteen. Liian matala tai "
+"liian korkea arvo voi aiheuttaa viivettä reaaliaikaisessa videon "
+"esikatselussa. Välimuisti liittyy myös käytettävissä olevaan RAM-muistiin. "
+"Mitä korkeammat välimuistiarvot ovat, sitä enemmän RAM-muistia ja CPU:ta "
+"tarvitaan. Suosittelemme kokeilemaan välimuistiasetuksia OpenShotissa, jos "
+"sinulla on ongelmia sujuvan toiston kanssa. Sama välimuistijärjestelmä "
+"valmistaa ruutuja etukäteen myös vientiä varten, nopeuttaen lopullista "
+"renderöintiä. Katso :ref:`preferences_cache_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid "Preview Size"
+msgstr "Esikatselun koko"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid ""
+"The height x width of your preview dock (widget) is very important for "
+"smooth real-time previews. The larger the window size, the more pixels must "
+"be rendered per frame, and the more CPU and RAM are required. It is "
+"recommended to keep reducing the preview window size until you achieve "
+"smooth video playback. On a slower computer, the preview window size might "
+"need to be very small for real-time previews (i.e. 320 x 240)."
+msgstr ""
+"Esikatselupaneelin (widgetin) korkeus x leveys on erittäin tärkeä sujuvalle "
+"reaaliaikaiselle esikatselulle. Mitä suurempi ikkunan koko on, sitä enemmän "
+"pikseleitä on renderöitävä per ruutu, ja sitä enemmän CPU:ta ja RAM-muistia "
+"tarvitaan. Suositellaan pienentämään esikatseluikkunan kokoa, kunnes "
+"saavutat sujuvan videon toiston. Hitaammassa tietokoneessa esikatseluikkunan "
+"koko voi joutua olemaan hyvin pieni reaaliaikaista esikatselua varten (esim. "
+"320 x 240)."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid "Profile"
+msgstr "Profiili"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid ""
+"Your project profile determines which size (width x height) and frame rate "
+"(FPS) are used during both playback and exporting. For example, if you are "
+"using a FHD 1920x1080 sized profile, you can also choose a smaller profile "
+"with the same aspect ratio (``16x9`` in this example), to improve the "
+"preview speed on slower computers. See :ref:`profiles_ref` for more "
+"information on available profiles."
+msgstr ""
+"Projektisi profiili määrittää, mitä kokoa (leveys x korkeus) ja "
+"kuvataajuutta (FPS) käytetään sekä toistossa että viennissä. Esimerkiksi, "
+"jos käytät FHD 1920x1080 -kokoista profiilia, voit myös valita pienemmän "
+"profiilin samalla kuvasuhteella (tässä esimerkissä ``16x9``) parantaaksesi "
+"esikatselun nopeutta hitaammilla tietokoneilla. Katso :ref:`profiles_ref` "
+"lisätietoja saatavilla olevista profiileista."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid "FPS (Frame Rate)"
+msgstr "FPS (kuvataajuus)"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid ""
+"The FPS of your project is also very important, and a large factor for "
+"smooth video playback. For example, a 60 FPS video must render twice the "
+"number of frames, compared to a 30 FPS video. If you are experiencing slow "
+"downs in real-time performance, it can be helpful to reduce your project's "
+"FPS to a lower value, such as 30 or 24."
+msgstr ""
+"Projektisi FPS on myös erittäin tärkeä ja merkittävä tekijä sujuvalle videon "
+"toistolle. Esimerkiksi 60 FPS -video vaatii kahdenkertaisen määrän ruutuja "
+"renderöitäväksi verrattuna 30 FPS -videoon. Jos reaaliaikainen suorituskyky "
+"hidastelee, voi olla hyödyllistä alentaa projektisi FPS-arvoa, esimerkiksi "
+"arvoon 30 tai 24."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid "Matching Rates"
+msgstr "Sopivat taajuudet"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid ""
+"It is very important to match your source assets FPS and Sample Rate with "
+"your Project FPS and Project sample rate. If either rate does not match "
+"exactly, it requires lots of additional CPU and RAM for OpenShot to "
+"normalize the mismatching rates. This can lead to audio pops, mis-"
+"alignments, duplicate frames, and extra lag in the real-time video preview. "
+"You can right-click a file and choose :guilabel:`File Properties`, to "
+"inspect the source asset rates, and ensure they match your Project settings "
+"(shown at the top of OpenShot). See :ref:`file_properties_ref`."
+msgstr ""
+"On erittäin tärkeää, että lähdetiedostojen FPS ja näytetaajuus vastaavat "
+"projektisi FPS:ää ja näytetaajuutta. Jos jompikumpi taajuus ei täsmää "
+"tarkasti, OpenShot tarvitsee paljon lisä-CPU:ta ja RAM-muistia tasaamaan "
+"eroja. Tämä voi aiheuttaa äänen napsahduksia, kohdistusvirheitä, "
+"kaksoisruutuja ja ylimääräistä viivettä reaaliaikaisessa videon "
+"esikatselussa. Voit napsauttaa tiedostoa hiiren oikealla ja valita :guilabel:"
+"`Tiedoston ominaisuudet` tarkistaaksesi lähdetiedoston taajuudet ja "
+"varmistaaksesi, että ne vastaavat projektisi asetuksia (näkyy OpenShotin "
+"yläosassa). Katso :ref:`file_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid "Source Assets"
+msgstr "Lähdetiedostot"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid ""
+"For example, if you are editing 4K 60 FPS source assets, this is likely "
+"going to put a strain on your system. A common solution is using another "
+"tool (such as FFmpeg) to create a copy (or proxy) of all your source assets, "
+"at a lower resolution (and maybe even a lower FPS). It is recommended to "
+"keep these proxy video files in their own folder, separate from the original "
+"video files. Once you have completed your video editing with the proxy "
+"files, simply copy/paste your `*.osp` project file back into the original "
+"folder, and export the higher quality, original files."
+msgstr ""
+"Esimerkiksi, jos muokkaat 4K 60 FPS -lähdetiedostoja, tämä todennäköisesti "
+"kuormittaa järjestelmääsi. Yleinen ratkaisu on käyttää toista työkalua "
+"(kuten FFmpeg) luodaksesi kopion (tai proxy-tiedoston) kaikista "
+"lähdetiedostoistasi alemmalla resoluutiolla (ja ehkä myös alemmalla FPS:"
+"llä). Suositellaan pitämään nämä proxy-videotiedostot omassa kansiossaan, "
+"erillään alkuperäisistä videotiedostoista. Kun olet valmis muokkaamaan "
+"videoasi proxy-tiedostojen kanssa, kopioi ja liitä `*.osp`-"
+"projektitiedostosi takaisin alkuperäiseen kansioon ja vie korkealaatuiset "
+"alkuperäiset tiedostot."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77 ../playback.rst:101
+msgid "Audio Device"
+msgstr "Äänilaite"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77
+msgid ""
+"If you are still having issues with audio lag or sync, please verify you are "
+"using the correct :guilabel:`Playback Audio Device` for playback (in the "
+"OpenShot Preferences). See :ref:`preferences_preview_ref`. Verify your "
+"default audio device (on your operating system) is using the same sample "
+"rate and all *Audio Enhancements* are disabled. On certain operating systems "
+"(such as Windows), mismatching sample rates or audio enhancements can cause "
+"severe audio / video sync problems. Lastly, try adjusting the :guilabel:"
+"`Playback Audio Buffer Size` (lower values will playback audio with less "
+"delay, higher values will playback audio with a larger delay). OpenShot "
+"defaults to a buffer size of 512, which is reasonable for most systems, "
+"however on some systems you might need to lower (or raise) this value for "
+"smooth and lag-free audio playback. Be sure to restart OpenShot after "
+"changing the audio playback settings."
+msgstr ""
+"Jos sinulla on edelleen ongelmia äänen viiveen tai synkronoinnin kanssa, "
+"varmista, että käytät oikeaa :guilabel:`Toiston äänilaite` -asetusta "
+"toistossa (OpenShotin asetuksissa). Katso :ref:`preferences_preview_ref`. "
+"Varmista, että oletusäänilaite (käyttöjärjestelmässäsi) käyttää samaa "
+"näytetaajuutta ja että kaikki *Äänitehosteet* ovat pois päältä. Joillakin "
+"käyttöjärjestelmillä (kuten Windows) näytetaajuuden tai äänitehosteiden "
+"epäsuhta voi aiheuttaa vakavia äänen ja kuvan synkronointiongelmia. Lopuksi "
+"kokeile säätää :guilabel:`Toiston äänipuskurin koko` -asetusta (pienemmät "
+"arvot toistavat äänen vähemmällä viiveellä, suuremmat arvot suuremmalla "
+"viiveellä). OpenShotin oletuspuskuri on 512, mikä on useimmille "
+"järjestelmille sopiva, mutta joissakin järjestelmissä tätä arvoa voi joutua "
+"alentamaan tai nostamaan sujuvan ja viiveettömän äänen toiston "
+"varmistamiseksi. Muista käynnistää OpenShot uudelleen äänentoistoasetuksia "
+"muuttaessasi."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:89
+msgid "Audio Troubleshooting"
+msgstr "Äänen vianmääritys"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:90
+msgid ""
+"If you are still experiencing audio related issues, and the above real-time "
+"playback factors did not resolve your issue, here are some additional "
+"troubleshooting steps you can take."
+msgstr ""
+"Jos sinulla on edelleen ääneen liittyviä ongelmia, eikä yllä mainitut "
+"reaaliaikaisen toiston tekijät ratkaisseet ongelmaasi, tässä on joitakin "
+"lisävianmääritysvaiheita, joita voit kokeilla."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:97
+msgid "Step"
+msgstr "Vaihe"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid "Latest Daily Build"
+msgstr "Uusin päivittäinen versio"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid ""
+"Verify you are running the latest daily build of OpenShot: https://www."
+"openshot.org/download#daily"
+msgstr ""
+"Varmista, että käytössäsi on uusin OpenShotin päivittäinen versio: https://"
+"www.openshot.org/download#daily"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "Clean Install"
+msgstr "Puhdas asennus"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "See :ref:`preferences_reset_ref` for a clean install"
+msgstr "Katso :ref:`preferences_reset_ref` puhdasta asennusta varten"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:101
+msgid ""
+"Check that the Playback Audio Device is set correctly for your sound output "
+"under Preferences in the Preview tab. Restart OpenShot after changing the "
+"settings. You can also try a different audio device (USB, audio over HDMI "
+"from the video card, headphones, etc.) to rule out other audio issues. "
+"Disable `automatic sound suppression` for voice calls during microphone "
+"activity, and disable `Audio Enhancements` under the advanced settings tab "
+"of your audio device (not all audio devices have these settings). See :ref:"
+"`preferences_preview_ref`."
+msgstr ""
+"Tarkista, että Toiston äänilaite on asetettu oikein äänilähdöllesi "
+"Asetuksissa Esikatselu-välilehdellä. Käynnistä OpenShot uudelleen asetusten "
+"muuttamisen jälkeen. Voit myös kokeilla eri äänilaitetta (USB, ääni HDMI:n "
+"kautta näytönohjaimesta, kuulokkeet jne.) poissulkeaksesi muita "
+"ääniongelmia. Poista käytöstä `automaattinen äänien vaimennus` puheluiden "
+"aikana mikrofonin käytön aikana, ja poista käytöstä `Äänitehosteet` "
+"äänilaitteesi lisäasetuksista (kaikissa äänilaitteissa ei ole näitä "
+"asetuksia). Katso :ref:`preferences_preview_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid "Audio Buffer Size"
+msgstr "Äänipuskurin koko"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid ""
+"The audio buffer size is the amount of audio samples which must first be "
+"buffered in OpenShot before audio playback can begin. If this value is too "
+"low, you might experience audio break-up / crackle / popping. If this value "
+"is too high, you might experience delays or lag before audio playback "
+"begins. OpenShot defaults this value to 512, which is a reasonable default "
+"for most systems, which should provide smooth audio playback with minimal "
+"noticeable lag or delay. However, on some systems this value might need to "
+"be adjusted up or down, for in-sync and lag-free audio playback. The range "
+"is 128 to 4096."
+msgstr ""
+"Äänipuskurin koko on ääninäytteiden määrä, joka täytyy ensin tallentaa "
+"OpenShotissa ennen äänen toiston aloittamista. Jos arvo on liian pieni, "
+"saatat kokea äänen pätkimistä, rahinaa tai poksahduksia. Jos arvo on liian "
+"suuri, äänen toistossa voi esiintyä viivettä tai viivästystä ennen toiston "
+"alkamista. OpenShotin oletusarvo on 512, mikä on useimmille järjestelmille "
+"sopiva ja tarjoaa sujuvan äänen toiston vähäisellä viiveellä. Joissakin "
+"järjestelmissä tätä arvoa voi kuitenkin joutua säätämään ylös- tai alaspäin "
+"synkronoidun ja viiveettömän äänen toiston varmistamiseksi. Arvojen "
+"vaihteluväli on 128–4096."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid "Sample Rate"
+msgstr "Näytetaajuus"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid ""
+"Ensure that the `Default Audio Sample Rate` and `Default Audio Channels` on "
+"the Preview tab of the Preferences window match your hardware. You can also "
+"check these settings in the operating system control panel (i.e. Windows "
+"Sound Control Panel). See :ref:`preferences_preview_ref`."
+msgstr ""
+"Varmista, että `Oletusääninäytetaajuus` ja `Oletusäänikanavat` Asetusten "
+"Esikatselu-välilehdellä vastaavat laitteistoasi. Voit myös tarkistaa nämä "
+"asetukset käyttöjärjestelmän ohjauspaneelista (esim. Windowsin "
+"ääniohjauspaneeli). Katso :ref:`preferences_preview_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid "Volume"
+msgstr "Äänenvoimakkuus"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid ""
+"Ensure that the volume does not exceed 100% on overlapping clips (such as an "
+"audio track combined with a video track). Lower the volume on individual "
+"clips if needed. See :ref:`clip_volume_mixing_ref`."
+msgstr ""
+"Varmista, että äänenvoimakkuus ei ylitä 100 % päällekkäisissä leikkeissä "
+"(kuten ääniraidalla yhdistettynä videoraidan kanssa). Alenna yksittäisten "
+"leikkeiden äänenvoimakkuutta tarvittaessa. Katso :ref:"
+"`clip_volume_mixing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid "Headphones"
+msgstr "Kuulokkeet"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid ""
+"If you're using headphones, plug them in before starting OpenShot. Launching "
+"OpenShot with no speakers, headphones, or valid audio playback device can "
+"cause OpenShot to freeze during playback."
+msgstr ""
+"Jos käytät kuulokkeita, kytke ne ennen OpenShotin käynnistämistä. OpenShotin "
+"käynnistäminen ilman kaiuttimia, kuulokkeita tai kelvollista "
+"äänentoistolaitetta voi aiheuttaa OpenShotin jumiutumisen toiston aikana."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid "OS Updates"
+msgstr "Käyttöjärjestelmän päivitykset"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid ""
+"Update your operating system and any pending security updates. Some audio "
+"issues, especially audio device specific issues, can be resolved with an "
+"operating system update."
+msgstr ""
+"Päivitä käyttöjärjestelmäsi ja kaikki odottavat tietoturvapäivitykset. "
+"Jotkin ääniin liittyvät ongelmat, erityisesti äänilaitteisiin liittyvät, "
+"voidaan ratkaista käyttöjärjestelmän päivityksellä."

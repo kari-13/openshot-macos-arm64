@@ -1,0 +1,1205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:23
+msgid "Preferences"
+msgstr "環境設定"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:25
+msgid ""
+"The Preferences window contains many important settings and configuration "
+"options for OpenShot. They can be found in the top menu under "
+":guilabel:`Edit→Preferences`. Many settings will require OpenShot to be "
+"restarted after your changes are applied."
+msgstr ""
+"環境設定ウィンドウには、OpenShotの重要な設定や構成オプションが多数含まれています。これらは上部メニューの :guilabel:`編集→環境設定`"
+" からアクセスできます。多くの設定は変更後にOpenShotの再起動が必要です。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:29
+msgid ""
+"NOTE: Some features such as `Animated Titles` and `external SVG editing` "
+"require setting the paths for **Blender** and **Inkscape** under the General"
+" tab. And if you notice audio playback issues, such as audio drift, you may "
+"need to adjust the audio settings under the Preview tab."
+msgstr ""
+"注意：`アニメーションタイトル` や ` 外部SVG編集` などの機能を使用するには、一般タブで **Blender** と **Inkscape** "
+"のパスを設定する必要があります。また、音声のずれなどの再生問題がある場合は、プレビュ―タブで音声設定を調整してください。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:36
+msgid "General"
+msgstr "一般"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:40
+msgid ""
+"The General tab of the Preferences window allows you to modify the settings "
+"that apply to OpenShot as a whole."
+msgstr "環境設定ウィンドウの一般タブでは、OpenShot全体に適用される設定を変更できます。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:46 ../preferences.rst:109 ../preferences.rst:132
+#: ../preferences.rst:157 ../preferences.rst:204 ../preferences.rst:234
+#: ../preferences.rst:290 ../preferences.rst:329
+msgid "Setting"
+msgstr "設定"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:47 ../preferences.rst:50 ../preferences.rst:109
+#: ../preferences.rst:132 ../preferences.rst:134 ../preferences.rst:157
+#: ../preferences.rst:330
+msgid "Default"
+msgstr "デフォルト"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:48 ../preferences.rst:109 ../preferences.rst:132
+#: ../preferences.rst:204 ../preferences.rst:235 ../preferences.rst:290
+#: ../preferences.rst:310 ../preferences.rst:331
+msgid "Description"
+msgstr "説明"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:49
+msgid "Language"
+msgstr "言語"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:51
+msgid "Choose your preferred language for OpenShot menus and windows"
+msgstr "OpenShotのメニューとウィンドウの表示言語を選択してください"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:52
+msgid "Default Theme"
+msgstr "デフォルトテーマ"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:53
+msgid "Cosmic Dusk"
+msgstr "コズミックダスク"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:54
+#, fuzzy
+msgid "Choose your theme for OpenShot"
+msgstr "OpenShotのテーマを、ライト、ダーク、またはなしから選択してください"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:55
+msgid "User Interface Scale"
+msgstr "ユーザーインターフェースのスケール"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:56
+msgid "100%"
+msgstr "100%"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:57
+msgid ""
+"Choose a preset UI scaling factor for larger or smaller interface elements"
+msgstr "インターフェース要素を大きくまたは小さくするためのプリセットUIスケーリング係数を選択してください"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:58
+#, fuzzy
+msgid "Default Profile"
+msgstr "デフォルトビデオプロファイル"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:59
+#, fuzzy
+msgid "HD 720p 30 fps"
+msgstr "HD 720P 30 fps"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:60
+#, fuzzy
+msgid "Select the default profile for new projects and exports"
+msgstr "プレビューおよびエクスポートのデフォルト用プロファイルを選択"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:61
+msgid "Blender Command (path)"
+msgstr "Blenderコマンド（パス）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:62
+msgid "blender"
+msgstr "Blender"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:63
+msgid "The path to the binary for Blender (version 5.0+)"
+msgstr "Blenderのバイナリへのパス（バージョン5.0以上）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:64
+msgid "Advanced Title Editor (path)"
+msgstr "高度なタイトルエディター（パス）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:65
+msgid "inkscape"
+msgstr "Inkscape"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:66
+msgid "The path to the binary for Inkscape"
+msgstr "Inkscapeのバイナリへのパス"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:69
+msgid "Themes"
+msgstr "テーマ"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:70
+msgid ""
+"OpenShot comes with 3 standard themes, which change the look and feel of the"
+" program."
+msgstr "OpenShotには3つの標準テーマがあり、プログラムの外観と操作感を変更します。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:72
+#, fuzzy
+msgid ""
+"**Cosmic Dusk:** [Default Theme] A bluish theme with a more modern UI "
+"design, enhancing the visual aesthetics of the editor. This theme features "
+"shades of blue and purple, giving the interface a contemporary and dynamic "
+"feel. It combines modern aesthetics with functionality, offering a fresh and"
+" visually appealing workspace for video editing."
+msgstr ""
+"**Cosmic Dusk:** "
+"青みがかったテーマで、よりモダンなUIデザインを採用し、エディターの視覚的美しさを高めます。青と紫の色調を特徴とし、インターフェースに現代的でダイナミックな印象を与えます。モダンな美学と機能性を兼ね備え、動画編集に新鮮で魅力的な作業空間を提供します。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:73
+msgid ""
+"**Humanity Dark:** A dark theme with dark gray tones, providing a modern and"
+" sleek look. This theme is designed for users who prefer working in low-"
+"light conditions or who enjoy a more subdued and professional appearance. "
+"The dark gray background reduces glare and eye strain, making it suitable "
+"for extended editing sessions."
+msgstr ""
+"**Humanity Dark:** "
+"暗いグレーのトーンを持つダークテーマで、モダンで洗練された外観を提供します。このテーマは、低照度環境で作業することを好むユーザーや、より落ち着いたプロフェッショナルな外観を楽しむユーザー向けに設計されています。暗いグレーの背景はまぶしさや目の疲れを軽減し、長時間の編集セッションに適しています。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:74
+msgid ""
+"**Retro:** A light theme that offers a classic and clean appearance. This "
+"theme uses light gray and white tones, making it ideal for users who prefer "
+"a bright and high-contrast interface. It provides a traditional look that is"
+" easy on the eyes, especially in well-lit environments."
+msgstr ""
+"**Retro:** "
+"クラシックで清潔感のあるライトテーマです。薄いグレーと白のトーンを使用しており、明るく高コントラストなインターフェースを好むユーザーに最適です。特に明るい環境で目に優しい伝統的な外観を提供します。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:79
+msgid "Restoring Defaults"
+msgstr "デフォルトの復元"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:80
+msgid ""
+"In OpenShot, each preferences category (or tab) in the Preferences window "
+"has a **Restore Defaults** button that allows you to easily reset the values"
+" for that specific category. This feature is particularly useful if you want"
+" to reset only certain parts of your preferences, like keyboard shortcuts, "
+"without affecting the rest of your custom settings."
+msgstr ""
+"OpenShotの環境設定ウィンドウでは、各カテゴリ（またはタブ）に特定のカテゴリの値を簡単にリセットできる **デフォルトに戻す** "
+"ボタンがあります。この機能は、キーボードショートカットなど特定の設定だけをリセットしたい場合に便利で、他のカスタム設定には影響しません。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:84
+msgid ""
+"**Where to Find the Restore Defaults Button:** Each category or tab in the "
+"Preferences window has a **Restore Defaults** button located in the bottom "
+"left corner of the screen. The name of the button updates based on the "
+"category you’re viewing. For example, if you're in the \"Keyboard\" tab, the"
+" button will say **Restore Defaults: Keyboard**."
+msgstr ""
+"**デフォルトに戻すボタンの場所:** 環境設定ウィンドウの各カテゴリまたはタブには、画面左下に **デフォルトに戻す** "
+"ボタンがあります。表示中のカテゴリに応じてボタン名が変わります。例えば「キーボード」タブでは、ボタンは **デフォルトに戻す：キーボード** "
+"と表示されます。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:89
+msgid ""
+"**How It Works:** Only the settings in the currently selected category will "
+"be restored to their default values. This selective restoration makes it "
+"easy to reset certain preferences without affecting others."
+msgstr ""
+"**動作方法:** "
+"現在選択されているカテゴリの設定のみがデフォルト値に戻されます。この選択的な復元により、他の設定に影響を与えずに特定の環境設定をリセットできます。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:93
+msgid ""
+"**Tip for Beginners:** - If you're not sure about a change you've made in a "
+"particular category, don’t hesitate to use the **Restore Defaults** button. "
+"It’s a simple way to undo changes and get back to the default settings for "
+"that specific category without affecting your overall setup."
+msgstr ""
+"**初心者向けのヒント:** 特定のカテゴリで行った変更に自信がない場合は、遠慮なく **デフォルトに戻す** "
+"ボタンを使ってください。全体の設定に影響を与えず、そのカテゴリの設定を簡単に元に戻せます。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:99
+msgid "Timeline"
+msgstr "タイムライン"
+
+#: ../preferences.rst:103
+msgid ""
+"The Timeline tab controls default timeline behavior and clip/transition "
+"insertion defaults."
+msgstr "タイムラインタブは、デフォルトのタイムライン動作とクリップ／トランジション挿入のデフォルト設定を制御します。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:111
+msgid "Thumbnail Style"
+msgstr "サムネイルスタイル"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:111
+msgid "Entire Clip"
+msgstr "クリップ全体"
+
+#: ../preferences.rst:111
+msgid "Thumbnail density for the timeline"
+msgstr "タイムラインのサムネイル密度"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:112
+msgid "Image Length (seconds)"
+msgstr "画像の表示時間（秒）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:112 ../preferences.rst:113
+msgid "10.00"
+msgstr "10.00"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:112
+msgid "Default duration for still images added to the timeline"
+msgstr "タイムラインに追加された静止画像のデフォルトの長さ"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:113
+#, fuzzy
+msgid "Transition Length (seconds)"
+msgstr "画像の表示時間（秒）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:113
+msgid "Default duration for newly added transitions"
+msgstr "新しく追加されたトランジションのデフォルトの長さ"
+
+#: ../preferences.rst:114
+msgid "Waveform Samples (per second)"
+msgstr "波形サンプル（毎秒）"
+
+#: ../preferences.rst:114
+msgid "200"
+msgstr "200"
+
+#: ../preferences.rst:114
+msgid "Detail stored for new peak/RMS timeline waveforms (20–400)"
+msgstr "新しいピーク／RMSタイムライン波形に保存される詳細（20～400）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:115
+msgid "Auto-Transition (overlap clips)"
+msgstr "自動トランジション（クリップの重なり）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:115 ../preferences.rst:159 ../preferences.rst:342
+#: ../preferences.rst:348
+msgid "Enabled"
+msgstr "有効"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:115
+msgid "Automatically create transitions when clips overlap"
+msgstr "クリップが重なったときに自動的にトランジションを作成する"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:121
+msgid "Preview"
+msgstr "プレビュー"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:125
+msgid ""
+"The Preview tab of the Preferences window controls real-time preview audio "
+"behavior, including device selection, sample rate, channels, buffering, "
+"playback volume, and optimized preview behavior."
+msgstr ""
+"環境設定ウィンドウのプレビュ―タブでは、デバイス選択、サンプルレート、チャンネル、バッファリング、再生音量、最適化されたプレビュー動作など、リアルタイムプレビューのオーディオ動作を制御します。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:134
+msgid "Playback Audio Device"
+msgstr "再生オーディオデバイス"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:134
+msgid "Audio output device used during preview playback"
+msgstr "プレビュー再生時に使用されるオーディオ出力デバイス"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:135
+msgid "Default Audio Sample Rate"
+msgstr "デフォルトオーディオサンプルレート"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:135
+#, fuzzy
+msgid "48000"
+msgstr "44100"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:135
+#, fuzzy
+msgid "Default preview sample rate"
+msgstr "デフォルトオーディオサンプルレート"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:136
+msgid "Default Audio Channels"
+msgstr "デフォルトオーディオチャンネル"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:136
+msgid "Stereo (2 Channel)"
+msgstr "ステレオ（2チャンネル）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:136
+msgid "Default preview channel layout"
+msgstr "デフォルトのプレビューチャンネルレイアウト"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:137
+msgid "Playback Audio Buffer Size"
+msgstr "再生オーディオバッファサイズ"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:137
+msgid "512"
+msgstr "512"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:137
+msgid "Audio samples buffered before playback begins (128 to 4096)"
+msgstr "再生開始前にバッファリングされるオーディオサンプル数（128～4096）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:138
+msgid "Volume"
+msgstr "音量"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:138
+msgid "75"
+msgstr "75"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:138
+msgid "Preview playback volume percentage"
+msgstr "プレビュー再生音量のパーセンテージ"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:139
+msgid "Concurrent Optimize Jobs"
+msgstr "同時最適化ジョブ数"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:139
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:139
+msgid "Number of video files OpenShot can optimize at the same time"
+msgstr "OpenShotが同時に最適化できるビデオファイルの数"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:140
+msgid "Optimized Preview Resolution"
+msgstr "最適化プレビュー解像度"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:140
+msgid "1280x720"
+msgstr "1280x720"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:140
+msgid "Maximum resolution used when creating optimized preview files"
+msgstr "最適化プレビューファイル作成時に使用される最大解像度"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:141
+msgid "Thumbnail Preload Rate / second"
+msgstr "サムネイル事前読み込みレート／秒"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:141
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:141
+msgid ""
+"How many thumbnail preview frames per second are pre-generated while "
+"optimizing video"
+msgstr "ビデオ最適化中に1秒あたりに事前生成されるサムネイルプレビューフレーム数"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:145
+msgid "Autosave"
+msgstr "自動保存"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:149
+msgid ""
+"Autosave is a feature in OpenShot which automatically saves the current "
+"changes to your project after a specific number of minutes, helping to "
+"reduce the risk or impact of data loss in case of a crash, freeze or user "
+"error."
+msgstr ""
+"自動保存はOpenShotの機能で、特定の分数ごとにプロジェクトの現在の変更を自動的に保存し、クラッシュ、フリーズ、ユーザーエラーによるデータ損失のリスクや影響を軽減します。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:159
+msgid "Enable Autosave"
+msgstr "自動保存を有効にする"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:160
+msgid "Autosave Interval (minutes)"
+msgstr "自動保存間隔（分）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:160
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:161
+msgid "History Limit (# of undo/redo)"
+msgstr "履歴制限（元に戻す/やり直しの回数）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:161
+msgid "15"
+msgstr "15"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:162
+msgid "Recovery Limit (# of project copies)"
+msgstr "復元制限（プロジェクトコピーの数）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:162
+msgid "30"
+msgstr "30"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:166
+msgid "Recovery"
+msgstr "復元"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:168
+msgid ""
+"**Before each save**, a compressed ``*.zip`` copy of the current project is "
+"saved in the recovery folder, to further reduce the risk of data loss. The "
+"recovery folder is located at ``~/.openshot_qt/recovery/`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\recovery``."
+msgstr ""
+"**保存の前に** 、現在のプロジェクトの圧縮された ``*.zip`` "
+"コピーが復元フォルダに保存され、データ損失のリスクをさらに軽減します。復元フォルダは ``~/.openshot_qt/recovery/`` または "
+"``C:\\Users\\USERNAME\\.openshot_qt\\recovery`` にあります。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:172
+msgid ""
+"To recover a corrupt or broken ``*.osp`` project file, use the "
+":guilabel:`File->Recovery` menu on the main window after opening your "
+"project. If available, a list of matching project versions from the recovery"
+" folder are listed in chronological order (most recent one at the top). This"
+" will automatically rename your current project file to ``{project-"
+"name}-{time}-backup.osp``, and replace it with the recovery project file. "
+"You can repeat this process until you find the correct recovery project. "
+"NOTE: If for some unexpected reason the recovery process fails, you can "
+"always rename the \"-backup.osp\" file to the original project file name to "
+"restore it."
+msgstr ""
+"破損した ``*.osp`` プロジェクトファイルを復元するには、プロジェクトを開いた後、メインウィンドウの :guilabel:` ファイル->復元`"
+" "
+"メニューを使用します。利用可能な場合、復元フォルダから一致するプロジェクトバージョンのリストが年代順（最新が上）に表示されます。これにより、現在のプロジェクトファイルは自動的に"
+" ``{project-name}-{time}-backup.osp`` "
+"に名前が変更され、復元プロジェクトファイルに置き換えられます。正しい復元プロジェクトが見つかるまでこの操作を繰り返せます。注：予期せぬ理由で復元プロセスが失敗した場合でも、「-backup.osp」ファイルの名前を元のプロジェクトファイル名に変更して復元できます。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:180
+msgid ""
+"To **manually** recover a corrupt or broken ``*.osp`` project file, please "
+"find the most recent copy in the recovery folder, and copy/paste the file "
+"into your original project folder location (i.e. the folder that contains "
+"your broken project). If the recovery file has been zipped (``*.zip``), you "
+"must first extract the ``*.osp``, and then copy it into your project folder."
+" Recovery files are named ``{time}-{project-name}``. You can also use the "
+"**Date Modified** on the file to select the version you are interested in "
+"recovering."
+msgstr ""
+"破損した ``*.osp`` プロジェクトファイルを**手動で** "
+"復元するには、復元フォルダ内の最新のコピーを見つけて、元のプロジェクトフォルダ（破損したプロジェクトがあるフォルダ）にコピー＆ペーストしてください。復元ファイルが圧縮されている場合（``*.zip``"
+" ）、まず ``*.osp`` を解凍してからプロジェクトフォルダにコピーしてください。復元ファイルは ``{time}-{project-"
+"name}`` という名前です。ファイルの**更新日時** を使って復元したいバージョンを選択することもできます。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:190
+msgid "Cache"
+msgstr "キャッシュ"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:194
+msgid ""
+"Cache settings can be adjusted to make real-time playback faster or less CPU"
+" intensive. The cache is used to store image and audio data for each frame "
+"of video requested. The more frames that are cached, the smoother the real-"
+"time playback will be. However, the more that needs to be cached requires "
+"more CPU to generate the cache. There is a balance, and the default settings"
+" provide a generally sane set of cache values, which should allow most "
+"computers to playback video and audio smoothly. See :ref:`playback_ref`."
+msgstr ""
+"キャッシュ設定は、リアルタイム再生を高速化したりCPU負荷を軽減したりするために調整できます。キャッシュは、要求された各ビデオフレームの画像および音声データを保存するために使用されます。キャッシュされるフレーム数が多いほど、リアルタイム再生は滑らかになります。ただし、キャッシュするフレームが多いほど、キャッシュ生成により多くのCPUが必要です。バランスが重要で、デフォルト設定は一般的に適切なキャッシュ値を提供し、ほとんどのコンピュータで動画と音声のスムーズな再生を可能にします。詳細は"
+" :ref:`playback_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:206
+msgid "Cache Mode"
+msgstr "キャッシュモード"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:206
+msgid ""
+"Choose between Memory or Disk caching (memory caching is preferred). Disk "
+"caching writes image data to the hard disk for later retrieving, and works "
+"best with an SSD."
+msgstr ""
+"メモリキャッシュまたはディスクキャッシュを選択します（メモリキャッシュが推奨されます）。ディスクキャッシュは画像データをハードディスクに書き込み、後で取得します。SSDでの使用が最適です。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:207
+msgid "Cache Limit (MB)"
+msgstr "キャッシュ制限（MB）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:207
+msgid ""
+"How many MB are set aside for cache related data. Larger numbers are not "
+"always better, since it takes more CPU to generate more frames to fill the "
+"cache."
+msgstr ""
+"キャッシュ関連データに割り当てるMB数。大きい数値が必ずしも良いわけではなく、キャッシュを埋めるためにより多くのフレームを生成するにはより多くのCPUが必要です。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:208
+msgid "Image Format (Disk Only)"
+msgstr "画像フォーマット（ディスクのみ）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:208
+msgid "Image format to store disk cache image data"
+msgstr "ディスクキャッシュの画像データを保存する画像フォーマット"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:209
+msgid "Scale Factor (Disk Only)"
+msgstr "スケールファクター（ディスクのみ）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:209
+msgid ""
+"Percentage (0.1 to 1.0) to reduce the size of disk based image files stored "
+"in the disk cache. Smaller numbers make writing and reading cached image "
+"files faster."
+msgstr ""
+"ディスクキャッシュに保存されるディスクベースの画像ファイルのサイズを縮小する割合（0.1から1.0）。小さい数値はキャッシュ画像ファイルの読み書きを高速化します。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:210
+msgid "Image Quality (Disk Only)"
+msgstr "画像品質（ディスクのみ）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:210
+msgid ""
+"Quality of the image files used in disk cache. The higher compression can "
+"cause more slowness, but results in smaller file sizes."
+msgstr "ディスクキャッシュで使用される画像ファイルの品質。圧縮率が高いと遅延が増えることがありますが、ファイルサイズは小さくなります。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:211
+msgid "Cache Pre-roll: Min Frames:"
+msgstr "キャッシュプレロール：最小フレーム数："
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:211
+msgid ""
+"Minimum # of frames that must be cached before playback begins. The larger "
+"the #, the larger the wait before playback begins."
+msgstr "再生開始前にキャッシュされる必要がある最小フレーム数。数値が大きいほど再生開始までの待ち時間が長くなります。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:212
+msgid "Cache Pre-roll: Max Frames:"
+msgstr "キャッシュプレロール：最大フレーム数："
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:212
+msgid ""
+"Maximum # of frames that can be cached during playback (in front of the "
+"playhead). The larger the #, the more CPU is required to cache ahead - vs "
+"display the already cached frames."
+msgstr ""
+"再生中にキャッシュできる最大フレーム数（プレイヘッドの前方）。数が大きいほど、キャッシュのためにより多くのCPUが必要になります（すでにキャッシュされたフレームの表示に対して）。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:213
+msgid "Cache Ahead (Percent):"
+msgstr "先読みキャッシュ（パーセント）："
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:213
+msgid ""
+"Between 0.0 and 1.0. This represents how much % we cache ahead of the "
+"playhead. For example, 0.5 would cache 50% behind and 50% ahead of the "
+"playhead. 0.8 would cache 20% behind and 80% ahead of the playhead."
+msgstr ""
+"0.0から1.0の間の値です。これはプレイヘッドの前方にどれだけの割合でキャッシュするかを示します。例えば、0.5はプレイヘッドの後方50％と前方50％をキャッシュし、0.8は後方20％と前方80％をキャッシュします。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:214
+msgid "Cache Max Frames:"
+msgstr "キャッシュ最大フレーム数："
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:214
+#, fuzzy
+msgid ""
+"This is an override on the total allowed frames that can be cached by our "
+"caching thread. It defaults to 900 frames, but even if you give a huge "
+"amount of RAM to OpenShot's cache size, this will override the max # of "
+"frames cached. The reason is... sometimes when the preview window is very "
+"small, and the cache size is set very high, OpenShot might calculate that we"
+" can cache 30,000 frames, or something silly which will take a huge amount "
+"of CPU, lagging the system. This setting is designed to clamp the upper "
+"limit of the cache to something reasonable... even on systems that give "
+"OpenShot huge amounts of RAM to work with."
+msgstr ""
+"これはキャッシュスレッドがキャッシュできる総フレーム数の上限を上書きする設定です。デフォルトは600フレームですが、たとえOpenShotのキャッシュサイズに大量のRAMを割り当てても、この設定が最大キャッシュフレーム数を制限します。理由は、プレビューウィンドウが非常に小さく、キャッシュサイズが非常に大きく設定されている場合、OpenShotが3万フレームなど非常識な数をキャッシュしようと計算し、多大なCPU負荷でシステムが遅延することがあるためです。この設定は、OpenShotに大量のRAMが割り当てられているシステムでも、キャッシュの上限を合理的な範囲に抑えるためのものです。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:217
+msgid ""
+"OpenShot's default cache settings now target a balanced preview experience: "
+"roughly **50% behind / 50% ahead** of the playhead, **768 MB** cache memory,"
+" and **900** max frames. In practice, this improves scrubbing and seek "
+"behavior while reducing stale preview frames on slower systems."
+msgstr ""
+"OpenShot のデフォルトキャッシュ設定は、バランスの取れたプレビュー体験を目指しています：再生位置の約 **50% 後方 / 50% "
+"前方**、**768 MB** のキャッシュメモリ、最大 **900** "
+"フレーム。実際には、スクラブやシークの動作が改善され、低速システムでの古いプレビューフレームの減少に寄与します。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:223
+msgid "Performance"
+msgstr "パフォーマンス"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:226
+msgid ""
+"Please keep in mind that GPU hardware acceleration is experimental at the "
+"moment. OpenShot supports both decoding and encoding acceleration. For more "
+"information take a look at our `Github HW-ACCEL Doc "
+"<https://github.com/OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_. "
+"NOTE: On systems with older graphics cards, hardware acceleration may not "
+"always be faster than CPU encoding."
+msgstr ""
+"GPUハードウェアアクセラレーションは現在実験的な機能であることにご注意ください。OpenShotはデコードとエンコードの両方のアクセラレーションをサポートしています。詳細は`Github"
+" HW-ACCEL Doc <https://github.com/OpenShot/libopenshot/blob/develop/doc/HW-"
+"ACCEL.md>`_ "
+"をご覧ください。注：古いグラフィックカードを搭載したシステムでは、ハードウェアアクセラレーションが必ずしもCPUエンコードより高速とは限りません。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:236
+msgid "Hardware Decoder Mode"
+msgstr "ハードウェアデコーダーモード"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:237
+msgid ""
+"Select the hardware decoding backend to use. Use :guilabel:`Test` to verify "
+"the selected decoder mode."
+msgstr ""
+"使用するハードウェアデコーディングバックエンドを選択します。選択したデコーダーモードを確認するには :guilabel:`Test` "
+"を使用してください。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:238
+msgid "Hardware Decoder Graphics Card"
+msgstr "ハードウェアデコーダー用グラフィックカード"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:239
+msgid "Choose which GPU device is used for hardware decoding."
+msgstr "ハードウェアデコーディングに使用するGPUデバイスを選択します。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:240
+msgid "Hardware Encoder Graphics Card"
+msgstr "ハードウェアエンコーダー用グラフィックカード"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:241
+msgid "Choose which GPU device is used for hardware encoding."
+msgstr "ハードウェアエンコーディングに使用するGPUデバイスを選択します。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:242
+msgid "OMP Threads"
+msgstr "OMPスレッド数"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:243
+msgid ""
+"Number of OpenMP worker threads used by performance-sensitive processing."
+msgstr "パフォーマンスに敏感な処理で使用されるOpenMPワーカースレッドの数。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:244
+msgid "FFmpeg Threads"
+msgstr "FFmpegスレッド数"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:245
+msgid "Number of FFmpeg threads used for decoding/encoding."
+msgstr "デコード／エンコードに使用されるFFmpegスレッドの数。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:246
+msgid "Hardware Decoder Max Width (0 = Default)"
+msgstr "ハードウェアデコーダー最大幅（0 = デフォルト）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:247
+msgid ""
+"Optional maximum width for hardware decoding. Use ``0`` for no explicit "
+"limit."
+msgstr "ハードウェアデコーディングの最大幅（任意）。明示的な制限なしは ``0`` を使用します。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:248
+msgid "Hardware Decoder Max Height (0 = Default)"
+msgstr "ハードウェアデコーダー最大高さ（0 = デフォルト）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:249
+msgid ""
+"Optional maximum height for hardware decoding. Use ``0`` for no explicit "
+"limit."
+msgstr "ハードウェアデコーディングの最大高さ（任意）。明示的な制限なしは ``0`` を使用します。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:250
+msgid "Use Blender GPU rendering for Animated Titles"
+msgstr "アニメーションタイトルにBlenderのGPUレンダリングを使用する"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:251
+msgid "Enable GPU rendering for Blender-based animated titles."
+msgstr "BlenderベースのアニメーションタイトルにGPUレンダリングを有効にする。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:256
+msgid "Keyboard"
+msgstr "キーボード"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:259
+msgid ""
+"This section allows you to view and customize hotkeys for various actions in"
+" the application. Here, you can assign and manage multiple shortcuts for the"
+" same action and restore default shortcuts if needed."
+msgstr ""
+"このセクションでは、アプリケーションのさまざまな操作のホットキーを表示およびカスタマイズできます。同じ操作に複数のショートカットを割り当てて管理したり、必要に応じてデフォルトのショートカットに戻したりできます。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:262
+msgid ""
+"**Assign Multiple Shortcuts**: You can assign multiple keyboard shortcuts to"
+" the same action by separating them with a pipe (``|``) delimiter. This "
+"flexibility allows you to configure as many shortcuts as you need for each "
+"action."
+msgstr ""
+"**複数ショートカットの割り当て** ：パイプ（``|`` "
+"）区切りで同じ操作に複数のキーボードショートカットを割り当てることができます。この柔軟性により、各操作に必要なだけ多くのショートカットを設定できます。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:265
+msgid ""
+"**Immediate Application**: No restart is required after adjusting keyboard "
+"shortcuts. Changes are applied immediately, so you can start using your "
+"updated shortcuts right away."
+msgstr ""
+"**即時適用** ：キーボードショートカットの調整後に再起動は不要です。変更は即座に適用されるため、すぐに更新されたショートカットを使用できます。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:268
+msgid ""
+"**Restore Default Shortcuts**: If needed, you can reset all keyboard "
+"shortcuts to their default settings by clicking on the :guilabel:`Restore "
+"Defaults: Keyboard` button located in the bottom-left corner of the "
+"Preferences screen."
+msgstr ""
+"**デフォルトショートカットの復元** ：必要に応じて、設定画面左下の:guilabel:`Restore Defaults: Keyboard` "
+"ボタンをクリックして、すべてのキーボードショートカットをデフォルト設定にリセットできます。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:271
+msgid ""
+"**Unique Shortcuts**: Each keyboard shortcut must be unique. If there are "
+"any duplicate shortcuts, they will be highlighted in **red** and will not "
+"function until the conflict is resolved."
+msgstr ""
+"**一意のショートカット** ：各キーボードショートカットは一意でなければなりません。重複するショートカットがある場合は**赤色** "
+"で強調表示され、競合が解決されるまで機能しません。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:275
+msgid ""
+"For more detailed information on how to use and customize keyboard "
+"shortcuts, see :ref:`keyboard_shortcut_ref`."
+msgstr ""
+"キーボードショートカットの使用方法とカスタマイズの詳細については、:ref:`keyboard_shortcut_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:278
+msgid "Location"
+msgstr "場所"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:282
+msgid ""
+"Default file path locations for saving/opening projects, importing files, "
+"and exporting videos can be configured here. This can save you time by "
+"defaulting the open/save file dialogs to the most appropriate starting "
+"folder (options described below)."
+msgstr ""
+"プロジェクトの保存/開く、ファイルのインポート、動画のエクスポート時のデフォルトファイルパスをここで設定できます。これにより、開く/保存ダイアログの開始フォルダを最適な場所に設定して時間を節約できます（以下のオプションを参照）。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:292
+msgid "File Import"
+msgstr "ファイルのインポート"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:292
+msgid "Default folder to choose when importing a file"
+msgstr "ファイルをインポートする際のデフォルトフォルダ"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:293
+msgid "Save or Open Project"
+msgstr "プロジェクトの保存または開く"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:293
+msgid "Default folder to choose when saving or opening a project file"
+msgstr "プロジェクトファイルを保存または開く際のデフォルトフォルダ"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:294
+msgid "Video Export"
+msgstr "動画のエクスポート"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:294
+msgid "Default folder to choose when exporting a video"
+msgstr "動画をエクスポートする際のデフォルトフォルダ"
+
+#: ../preferences.rst:295
+msgid "Unsaved Project Assets Folder"
+msgstr "未保存プロジェクトのアセットフォルダー"
+
+#: ../preferences.rst:295
+msgid "Folder for assets created before a project is saved (restart required)"
+msgstr "プロジェクトが保存される前に作成されたアセットのフォルダー（再起動が必要）"
+
+#: ../preferences.rst:298
+msgid ""
+"On Linux, the unsaved assets folder defaults to ``~/Videos/.openshot-tmp`` "
+"when ``~/Videos`` exists and the hidden child folder is writable. Otherwise,"
+" OpenShot uses ``~/.openshot_qt``, which is also the default on other "
+"platforms. You can choose a different folder in Preferences. Saving a "
+"project relocates its assets into the project's ``<project>_assets`` folder;"
+" subsequent titles and animations use that folder. These assets can include "
+"media needed by an unsaved project or crash recovery, so do not delete the "
+"folder as ordinary disposable cache data."
+msgstr ""
+"Linuxでは、``~/Videos`` が存在し、その隠し子フォルダーに書き込み可能な場合、未保存アセットフォルダーはデフォルトで "
+"``~/Videos/.openshot-tmp`` になります。そうでない場合、OpenShotは ``~/.openshot_qt`` "
+"を使用します。これは他のプラットフォームでもデフォルトです。設定で別のフォルダーを選択できます。プロジェクトを保存すると、そのアセットはプロジェクトの "
+"``<project>_assets`` "
+"フォルダーに移動され、その後のタイトルやアニメーションはそのフォルダーを使用します。これらのアセットには未保存プロジェクトやクラッシュ回復に必要なメディアが含まれることがあるため、通常の使い捨てキャッシュデータとしてフォルダーを削除しないでください。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:310
+msgid "Values"
+msgstr "値"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:312
+msgid "**Recent Folder**"
+msgstr "**最近使用したフォルダ**"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:312
+msgid ""
+"The last folder used for this same operation. Project folders, Import "
+"folders, and Export folders are tracked separately."
+msgstr "同じ操作で最後に使用したフォルダ。プロジェクトフォルダ、インポートフォルダ、エクスポートフォルダは別々に管理されます。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:313
+msgid "**Project Folder**"
+msgstr "**プロジェクトフォルダ**"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:313
+msgid ""
+"The current project folder (or the user's home folder, if the project is not"
+" yet saved)"
+msgstr "現在のプロジェクトフォルダ（プロジェクトがまだ保存されていない場合はユーザーのホームフォルダ）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:319
+msgid "Advanced"
+msgstr "詳細設定"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:323
+msgid "The Advanced tab includes ComfyUI integration and debugging options."
+msgstr "詳細設定タブにはComfyUI統合とデバッグオプションが含まれています。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:332
+msgid "Comfy UI URL"
+msgstr "Comfy UI URL"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:333
+msgid "``http://127.0.0.1:8188``"
+msgstr "``http://127.0.0.1:8188``"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:334
+msgid "URL of your local or remote ComfyUI server"
+msgstr "ローカルまたはリモートのComfyUIサーバーのURL"
+
+#: ../preferences.rst:335
+msgid "User Interface Debug Logging"
+msgstr "ユーザーインターフェースのデバッグログ"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:336 ../preferences.rst:339 ../preferences.rst:345
+#, fuzzy
+msgid "Disabled"
+msgstr "有効"
+
+#: ../preferences.rst:337
+msgid ""
+"Record interface and project details in ``openshot-qt.log``. The matching "
+"``--debug-ui`` (or ``--debug``) argument enables these details for one "
+"launch, including terminal output. See :ref:`logging_ref`."
+msgstr ""
+"インターフェースとプロジェクトの詳細を ``openshot-qt.log`` に記録します。対応する ``--debug-ui``（または "
+"``--debug``）引数は、ターミナル出力を含む1回の起動でこれらの詳細を有効にします。詳細は :ref:`logging_ref` "
+"を参照してください。"
+
+#: ../preferences.rst:338
+msgid "Video & Audio Engine Debug Logging"
+msgstr "ビデオ＆オーディオエンジンのデバッグログ"
+
+#: ../preferences.rst:340
+msgid ""
+"Record video and audio processing details in ``libopenshot.log``. The "
+"matching ``--debug-engine`` argument enables these details for one launch, "
+"including terminal output. Logs can grow quickly; turn off when finished. "
+"See :ref:`logging_ref`."
+msgstr ""
+"ビデオおよびオーディオ処理の詳細を ``libopenshot.log`` に記録します。対応する ``--debug-engine`` "
+"引数は、ターミナル出力を含む1回の起動でこれらの詳細を有効にします。ログは急速に大きくなる可能性があるため、終了後はオフにしてください。詳細は "
+":ref:`logging_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:341
+msgid "Send Anonymous Metrics and Errors"
+msgstr "匿名のメトリクスとエラーを送信する"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:343
+msgid "Send anonymous telemetry and error reports"
+msgstr "匿名のテレメトリとエラー報告を送信する"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:344
+msgid "Show Playback Performance (FPS)"
+msgstr "再生パフォーマンス（FPS）を表示する"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:346
+msgid "Display live FPS in preview playback"
+msgstr "プレビュー再生中にリアルタイムFPSを表示する"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:347
+msgid "Show Export Dialog when Finished"
+msgstr "エクスポート完了時にダイアログを表示"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:349
+msgid "Display the Export Video window when export completes"
+msgstr "エクスポート完了時にエクスポートビデオウィンドウを表示する"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:351
+msgid ""
+"The ComfyUI **Check** button updates an inline status icon: green checkmark "
+"for success, red icon for failure. If OpenShot cannot reach this server, AI "
+"context menu options are hidden. See :ref:`ai_ref` for setup details, "
+"requirements, and workflow options."
+msgstr ""
+"ComfyUI の **Check** "
+"ボタンはインラインのステータスアイコンを更新します：成功時は緑のチェックマーク、失敗時は赤いアイコン。OpenShot "
+"がこのサーバーに接続できない場合、AIコンテキストメニューのオプションは非表示になります。セットアップの詳細、要件、ワークフローオプションについては "
+":ref:`ai_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:358
+msgid "Reset (Default Values)"
+msgstr "リセット（デフォルト値）"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:360
+msgid ""
+"To reset **all** preferences to their default values, please delete the "
+"``openshot.settings`` file and re-launch OpenShot. The settings file can be "
+"located at this path: ``~/.openshot_qt/openshot.settings`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\openshot.settings``. When OpenShot is "
+"re-launched, it will create the missing ``openshot.settings`` file with "
+"default values."
+msgstr ""
+"**すべて** の設定をデフォルト値にリセットするには、``openshot.settings`` "
+"ファイルを削除してOpenShotを再起動してください。設定ファイルは``~/.openshot_qt/openshot.settings`` "
+"または``C:\\Users\\USERNAME\\.openshot_qt\\openshot.settings`` "
+"にあります。OpenShotを再起動すると、欠落している``openshot.settings`` ファイルがデフォルト値で作成されます。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:365
+msgid ""
+"Optionally, you can delete the entire ``.openshot_qt/`` folder and re-launch"
+" OpenShot. However, please make a **backup** of any customized folders: "
+"**emojis, presets, profiles, recovery, title_templates, transitions, or "
+"yolo**. For example, your ``/recovery/`` sub-folder contains backup copies "
+"of all your existing projects (``*.osp`` files)."
+msgstr ""
+"必要に応じて、``.openshot_qt/`` "
+"フォルダ全体を削除してOpenShotを再起動することもできます。ただし、**emojis、presets、profiles、recovery、title_templates、transitions、または"
+" yolo** などのカスタマイズしたフォルダは**バックアップ** を取ってください。例えば、``/recovery/`` "
+"サブフォルダには既存のすべてのプロジェクト（``*.osp`` ファイル）のバックアップコピーが含まれています。"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:370
+msgid ""
+"Deleting the ``.openshot_qt/`` folder is the quickest method to restore "
+"OpenShot preferences and settings to their Default values (i.e. also called "
+"a `clean install`). When OpenShot is re-launched, it will create any missing"
+" folders (i.e. ``.openshot_qt/``) and settings files. See our `step-by-step "
+"guide <https://github.com/OpenShot/openshot-qt/wiki/Clean-Installation-of-"
+"OpenShot>`_ for more information about **clean installs** of OpenShot."
+msgstr ""
+"「.openshot_qt/」フォルダーを削除することは、OpenShotの設定とプリファレンスをデフォルト値に戻す最も迅速な方法です（いわゆる「クリーンインストール」とも呼ばれます）。OpenShotを再起動すると、欠落しているフォルダー（例：「.openshot_qt/」）や設定ファイルが作成されます。OpenShotの**クリーンインストール**"
+" に関する詳細は、`ステップバイステップガイド <https://github.com/OpenShot/openshot-qt/wiki/Clean-"
+"Installation-of-OpenShot>`_ をご覧ください。 `step-by-step guide "
+"<https://github.com/OpenShot/openshot-qt/wiki/Clean-Installation-of-"
+"OpenShot>`_"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Debug Mode (Port)"
+#~ msgstr "デバッグモード（ポート）"
+
+# Translated with gpt-4.1-mini
+#~ msgid "5556"
+#~ msgstr "5556"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Port used by debug logging features"
+#~ msgstr "デバッグログ機能で使用されるポート"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Debug Mode (Verbose)"
+#~ msgstr "デバッグモード（詳細）"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Enable verbose debugging output"
+#~ msgstr "詳細なデバッグ出力を有効にする"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The Timeline tab controls default timeline behavior, clip/transition "
+#~ "insertion defaults, and whether to use the new timeline backend or the "
+#~ "legacy web-based timeline."
+#~ msgstr ""
+#~ "タイムラインタブは、デフォルトのタイムライン動作、クリップ/トランジション挿入のデフォルト設定、新しいタイムラインバックエンドまたは従来のウェブベースのタイムラインを使用するかどうかを制御します。"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Thumbnail density for the new timeline backend"
+#~ msgstr "新しいタイムラインバックエンドのサムネイル密度"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Enable Legacy Timeline (web-based)"
+#~ msgstr "従来のタイムライン（ウェブベース）を有効にする"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Use the legacy web timeline (WebEngine/WebKit auto-select)"
+#~ msgstr "従来のウェブタイムラインを使用する（WebEngine/WebKit自動選択）"

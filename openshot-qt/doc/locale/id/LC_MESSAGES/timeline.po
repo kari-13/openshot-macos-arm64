@@ -1,0 +1,450 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:23
+msgid "Timeline"
+msgstr "Garis Waktu"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:25
+msgid ""
+"The timeline is where your video comes together. You arrange clips, trim "
+"them, layer visuals, and make timing decisions here. If you are new to "
+"editing, think of the timeline as a simple left-to-right story: earlier "
+"moments on the left, later moments on the right."
+msgstr ""
+"Garis waktu adalah tempat video Anda disusun. Anda mengatur klip, "
+"memotongnya, menumpuk visual, dan membuat keputusan waktu di sini. Jika Anda"
+" baru dalam pengeditan, anggap garis waktu sebagai cerita sederhana dari "
+"kiri ke kanan: momen awal di kiri, momen berikutnya di kanan."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:32
+msgid ""
+"If you are just getting started, read :ref:`quick_tutorial_ref` first, then "
+"come back here for more detail. For a labeled breakdown of toolbar controls,"
+" see :ref:`timeline_toolbar_ref`."
+msgstr ""
+"Jika Anda baru memulai, baca :ref:`quick_tutorial_ref` terlebih dahulu, lalu"
+" kembali ke sini untuk detail lebih lanjut. Untuk rincian kontrol toolbar "
+"yang diberi label, lihat :ref:`timeline_toolbar_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:37
+msgid "Timeline Basics"
+msgstr "Dasar-dasar Garis Waktu"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:39
+msgid "These terms are used often in this guide:"
+msgstr "Istilah-istilah ini sering digunakan dalam panduan ini:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:45
+msgid "Term"
+msgstr "Istilah"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:45
+msgid "Meaning"
+msgstr "Arti"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:47
+msgid "Playhead"
+msgstr "Penunjuk Waktu"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:47
+msgid "The red line that shows your current time position."
+msgstr "Garis merah yang menunjukkan posisi waktu Anda saat ini."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:48
+msgid "Track"
+msgstr "Lacak"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:48
+msgid ""
+"A horizontal layer that holds clips (top tracks appear above lower tracks)."
+msgstr ""
+"Lapisan horizontal yang menampung klip (lacak atas muncul di atas lacak "
+"bawah)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:49
+msgid "Clip"
+msgstr "Klip"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:49
+msgid "A video, audio, or image item placed on a track."
+msgstr "Item video, audio, atau gambar yang ditempatkan pada lacak."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:50
+msgid "Transition"
+msgstr "Transisi"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:50
+msgid "A blend between two overlapping clips."
+msgstr "Perpaduan antara dua klip yang saling tumpang tindih."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:51
+msgid "Marker"
+msgstr "Penanda"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:51
+msgid "A saved point in time you can jump back to quickly."
+msgstr ""
+"Titik waktu yang disimpan yang dapat Anda lompat kembali dengan cepat."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:52
+msgid "Keyframe"
+msgstr "Keyframe"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:52
+msgid "A saved value at a point in time (used for animation)."
+msgstr ""
+"Nilai yang disimpan pada titik waktu tertentu (digunakan untuk animasi)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:55
+msgid "For a full glossary, see :ref:`glossary_ref`."
+msgstr "Untuk glosarium lengkap, lihat :ref:`glossary_ref`."
+
+#: ../timeline.rst:58
+msgid "Current Timecode"
+msgstr "Timecode Saat Ini"
+
+#: ../timeline.rst:60
+msgid ""
+"The current timecode appears at the left side of the timeline ruler and "
+"shows the playhead's exact position. Click the timecode, enter a new value, "
+"and press :kbd:`Enter` to move the playhead to that frame."
+msgstr ""
+"Timecode saat ini muncul di sisi kiri penggaris timeline dan menunjukkan "
+"posisi tepat playhead. Klik timecode, masukkan nilai baru, dan tekan "
+":kbd:`Enter` untuk memindahkan playhead ke frame tersebut."
+
+#: ../timeline.rst:64
+msgid ""
+"Clear the field or enter ``0`` to jump to the start of the timeline. Press "
+":kbd:`Up` or :kbd:`Down` to step the selected timecode segment; hold "
+":kbd:`Shift` to step by 10. When the frame segment is selected, hold "
+":kbd:`Ctrl` to step by one second. Press :kbd:`Esc` to cancel."
+msgstr ""
+"Bersihkan kolom atau masukkan ``0`` untuk lompat ke awal timeline. Tekan "
+":kbd:`Up` atau :kbd:`Down` untuk melangkah segmen timecode yang dipilih; "
+"tahan :kbd:`Shift` untuk melangkah 10. Saat segmen frame dipilih, tahan "
+":kbd:`Ctrl` untuk melangkah satu detik. Tekan :kbd:`Esc` untuk membatalkan."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:70
+msgid "Common Timeline Tasks"
+msgstr "Tugas Umum Garis Waktu"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:72
+msgid "Most editing sessions follow a similar flow:"
+msgstr "Sebagian besar sesi pengeditan mengikuti alur yang serupa:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:74
+msgid "Add media to the project using :ref:`import_files_ref`."
+msgstr "Tambahkan media ke proyek menggunakan :ref:`import_files_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:75
+msgid "Drag files from the project panel onto timeline tracks."
+msgstr "Seret file dari panel proyek ke lacak garis waktu."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:76
+msgid "Trim clip edges to remove extra content."
+msgstr "Potong tepi klip untuk menghapus konten ekstra."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:77
+msgid "Move clips into order and stack tracks to build your scene."
+msgstr ""
+"Pindahkan klip ke urutan dan tumpuk lacak untuk membangun adegan Anda."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:78
+msgid ""
+"Add transitions and effects where needed (:ref:`transitions_ref`, "
+":ref:`effects_ref`)."
+msgstr ""
+"Tambahkan transisi dan efek sesuai kebutuhan (:ref:`transitions_ref`, "
+":ref:`effects_ref`)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:79
+msgid "Preview and adjust timing (:ref:`playback_ref`)."
+msgstr "Pratinjau dan sesuaikan waktu (:ref:`playback_ref`)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:81
+msgid ""
+"Clip trimming, slicing, and clip context menu actions are covered in detail "
+"in :ref:`clips_ref`."
+msgstr ""
+"Pemotongan klip, pemisahan, dan tindakan menu konteks klip dibahas secara "
+"rinci di :ref:`clips_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:84
+msgid "Selecting Clips and Transitions"
+msgstr "Memilih Klip dan Transisi"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:86
+msgid "Selection is one of the most important timeline skills:"
+msgstr ""
+"Pemilihan adalah salah satu keterampilan garis waktu yang paling penting:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:88
+msgid "Click an item to select it."
+msgstr "Klik sebuah item untuk memilihnya."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:89
+msgid ":kbd:`Ctrl+Click` adds or removes items from selection."
+msgstr ":kbd:`Ctrl+Klik` menambah atau menghapus item dari pilihan."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:90
+msgid ""
+":kbd:`Shift+Click` selects a range between your anchor item and the clicked "
+"item."
+msgstr ""
+":kbd:`Shift+Klik` memilih rentang antara item jangkar Anda dan item yang "
+"diklik."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:91
+msgid ":kbd:`Ctrl+Shift+Click` adds that range to your current selection."
+msgstr ""
+":kbd:`Ctrl+Shift+Klik` menambahkan rentang itu ke pilihan Anda saat ini."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:92
+msgid ""
+":kbd:`Alt+Click` ripple-selects from the clicked item to the end of the "
+"track."
+msgstr ""
+":kbd:`Alt+Klik` memilih beruntun dari item yang diklik hingga akhir lacak."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:93
+msgid "Drag an empty-area selection box to select multiple items."
+msgstr "Seret kotak seleksi area kosong untuk memilih beberapa item."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:95
+msgid "See :ref:`clips_ref` for the full list and examples."
+msgstr "Lihat :ref:`clips_ref` untuk daftar lengkap dan contoh."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:98
+msgid "Timeline Toolbar and Zoom"
+msgstr "Toolbar Garis Waktu dan Zoom"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:100
+msgid ""
+"The timeline toolbar helps with common navigation and editing actions "
+"(snapping, retime, razor, markers, centering, and zoom)."
+msgstr ""
+"Toolbar garis waktu membantu dengan navigasi dan tindakan pengeditan umum "
+"(penempelan, pengaturan ulang waktu, pisau cukur, penanda, pemusatan, dan "
+"zoom)."
+
+#: ../timeline.rst:103
+msgid ""
+"The :ref:`razor_tool_ref` shows a cut guide and timecode over the target "
+"clip. While paused, hovering also previews the cut frame without moving the "
+"playhead. Click to cut, or press :kbd:`Esc` to leave Razor mode. The Razor "
+"guide respects the existing **Snapping** toggle and uses the same snap "
+"targets and tolerance as other timeline edits."
+msgstr ""
+"Alat :ref:`razor_tool_ref` menampilkan panduan potong dan timecode di atas "
+"klip target. Saat dijeda, mengarahkan kursor juga menampilkan pratinjau "
+"frame potong tanpa memindahkan playhead. Klik untuk memotong, atau tekan "
+":kbd:`Esc` untuk keluar dari mode Razor. Panduan Razor menghormati toggle "
+"**Snapping** yang ada dan menggunakan target snap serta toleransi yang sama "
+"seperti pengeditan timeline lainnya."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:109
+msgid ""
+"Tip: If timeline editing feels crowded, zoom in with the timeline slider to "
+"make small clip adjustments easier."
+msgstr ""
+"Tips: Jika pengeditan garis waktu terasa padat, perbesar dengan penggeser "
+"garis waktu untuk memudahkan penyesuaian klip kecil."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:112
+msgid ""
+"You can also zoom the timeline with :kbd:`Ctrl+Scroll Wheel`. On the QWidget"
+" timeline, hold :kbd:`Ctrl` and drag with the middle mouse button for smooth"
+" zooming."
+msgstr ""
+"Anda juga dapat memperbesar timeline dengan :kbd:`Ctrl+Scroll Wheel`. Pada "
+"timeline QWidget, tahan :kbd:`Ctrl` dan seret dengan tombol tengah mouse "
+"untuk memperbesar dengan halus."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:117
+msgid "Tracks, Locking, and Inserting"
+msgstr "Lacak, Penguncian, dan Penyisipan"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:119
+msgid "Tracks help organize your edit. A common setup is:"
+msgstr "Lacak membantu mengatur pengeditan Anda. Pengaturan umum adalah:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:121
+msgid "Top tracks: titles, overlays, logos, picture-in-picture"
+msgstr "Lacak atas: judul, lapisan, logo, gambar-dalam-gambar"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:122
+msgid "Middle tracks: main video content"
+msgstr "Lacak tengah: konten video utama"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:123
+msgid "Lower tracks: music and sound effects"
+msgstr "Lacak bawah: musik dan efek suara"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:125
+msgid ""
+"You can lock tracks to protect them from accidental edits and use "
+"insert/ripple editing when you need later clips to move automatically."
+msgstr ""
+"Anda dapat mengunci lacak untuk melindunginya dari pengeditan tidak sengaja "
+"dan menggunakan penyisipan/pengeditan beruntun saat Anda perlu klip "
+"berikutnya bergerak otomatis."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:128
+msgid ""
+"For track layout basics, see :ref:`tracks_ref`. For detailed clip editing "
+"behavior, see :ref:`clips_cutting_slicing_ref`."
+msgstr ""
+"Untuk dasar tata letak lacak, lihat :ref:`tracks_ref`. Untuk perilaku "
+"pengeditan klip secara rinci, lihat :ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:132
+msgid "Keyframes in the Timeline"
+msgstr "Keyframe di Garis Waktu"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:134
+msgid ""
+"Keyframes let you change values over time, such as position, scale, "
+"rotation, opacity, and effect settings."
+msgstr ""
+"Keyframe memungkinkan Anda mengubah nilai seiring waktu, seperti posisi, "
+"skala, rotasi, opasitas, dan pengaturan efek."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:137
+msgid ""
+"In the timeline keyframe panel, each row represents one animated property. "
+"You can:"
+msgstr ""
+"Di panel keyframe garis waktu, setiap baris mewakili satu properti animasi. "
+"Anda dapat:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:139
+msgid "Add a keyframe row for a property"
+msgstr "Menambahkan baris keyframe untuk sebuah properti"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:140
+msgid "Insert new keyframes along the row"
+msgstr "Menyisipkan keyframe baru sepanjang baris"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:141
+msgid "Move keyframes to change timing"
+msgstr "Memindahkan keyframe untuk mengubah waktu"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:142
+msgid "Change interpolation to control motion style"
+msgstr "Mengubah interpolasi untuk mengontrol gaya gerak"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:144
+msgid ""
+"For keyframe concepts and animation examples, see :ref:`animation_ref`."
+msgstr "Untuk konsep keyframe dan contoh animasi, lihat :ref:`animation_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:147
+msgid "Next Steps"
+msgstr "Langkah Selanjutnya"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:149
+msgid ""
+"After you are comfortable with timeline basics, these sections are the best "
+"next reads:"
+msgstr ""
+"Setelah Anda nyaman dengan dasar-dasar garis waktu, bagian-bagian ini adalah"
+" bacaan terbaik berikutnya:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:151
+msgid ":ref:`clips_ref` for trimming, slicing, and clip properties"
+msgstr ":ref:`clips_ref` untuk pemotongan, pemisahan, dan properti klip"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:152
+msgid ":ref:`effects_ref` for video/audio effects"
+msgstr ":ref:`effects_ref` untuk efek video/audio"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:153
+msgid ":ref:`animation_ref` for keyframe animation workflows"
+msgstr ":ref:`animation_ref` untuk alur kerja animasi keyframe"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:154
+msgid ":doc:`export` for creating your final video file"
+msgstr ":doc:`export` untuk membuat file video akhir Anda"

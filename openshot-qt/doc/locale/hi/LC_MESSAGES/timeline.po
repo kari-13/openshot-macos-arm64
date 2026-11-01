@@ -1,0 +1,450 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:23
+msgid "Timeline"
+msgstr "टाइमलाइन"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:25
+msgid ""
+"The timeline is where your video comes together. You arrange clips, trim "
+"them, layer visuals, and make timing decisions here. If you are new to "
+"editing, think of the timeline as a simple left-to-right story: earlier "
+"moments on the left, later moments on the right."
+msgstr ""
+"टाइमलाइन वह जगह है जहाँ आपका वीडियो एक साथ आता है। आप क्लिप्स को व्यवस्थित "
+"करते हैं, उन्हें ट्रिम करते हैं, विज़ुअल्स को परतों में लगाते हैं, और यहाँ "
+"समय निर्धारण करते हैं। यदि आप संपादन में नए हैं, तो टाइमलाइन को एक सरल बाएं "
+"से दाएं कहानी के रूप में सोचें: पहले क्षण बाईं ओर, बाद के क्षण दाईं ओर।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:32
+msgid ""
+"If you are just getting started, read :ref:`quick_tutorial_ref` first, then "
+"come back here for more detail. For a labeled breakdown of toolbar controls,"
+" see :ref:`timeline_toolbar_ref`."
+msgstr ""
+"यदि आप अभी शुरुआत कर रहे हैं, तो पहले :ref:`quick_tutorial_ref` पढ़ें, फिर "
+"अधिक विवरण के लिए यहाँ वापस आएं। टूलबार नियंत्रणों के लेबल वाले विवरण के "
+"लिए, देखें :ref:`timeline_toolbar_ref`।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:37
+msgid "Timeline Basics"
+msgstr "टाइमलाइन मूल बातें"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:39
+msgid "These terms are used often in this guide:"
+msgstr "इन शब्दों का इस गाइड में अक्सर उपयोग होता है:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:45
+msgid "Term"
+msgstr "शब्द"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:45
+msgid "Meaning"
+msgstr "अर्थ"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:47
+msgid "Playhead"
+msgstr "प्लेहेड"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:47
+msgid "The red line that shows your current time position."
+msgstr "लाल रेखा जो आपके वर्तमान समय स्थिति को दिखाती है।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:48
+msgid "Track"
+msgstr "ट्रैक"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:48
+msgid ""
+"A horizontal layer that holds clips (top tracks appear above lower tracks)."
+msgstr ""
+"एक क्षैतिज परत जो क्लिप्स को रखती है (ऊपरी ट्रैक निचले ट्रैक के ऊपर दिखाई "
+"देते हैं)।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:49
+msgid "Clip"
+msgstr "क्लिप"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:49
+msgid "A video, audio, or image item placed on a track."
+msgstr "ट्रैक पर रखा गया वीडियो, ऑडियो, या छवि आइटम।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:50
+msgid "Transition"
+msgstr "ट्रांज़िशन"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:50
+msgid "A blend between two overlapping clips."
+msgstr "दो ओवरलैपिंग क्लिप्स के बीच मिश्रण।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:51
+msgid "Marker"
+msgstr "मार्कर"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:51
+msgid "A saved point in time you can jump back to quickly."
+msgstr "समय में एक सहेजा गया बिंदु जहाँ आप जल्दी से वापस जा सकते हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:52
+msgid "Keyframe"
+msgstr "कीफ्रेम"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:52
+msgid "A saved value at a point in time (used for animation)."
+msgstr "समय के एक बिंदु पर सहेजा गया मान (एनिमेशन के लिए उपयोग किया जाता है)।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:55
+msgid "For a full glossary, see :ref:`glossary_ref`."
+msgstr "पूर्ण शब्दावली के लिए देखें :ref:`glossary_ref`।"
+
+#: ../timeline.rst:58
+msgid "Current Timecode"
+msgstr "वर्तमान टाइमकोड"
+
+#: ../timeline.rst:60
+msgid ""
+"The current timecode appears at the left side of the timeline ruler and "
+"shows the playhead's exact position. Click the timecode, enter a new value, "
+"and press :kbd:`Enter` to move the playhead to that frame."
+msgstr ""
+"वर्तमान टाइमकोड टाइमलाइन रूलर के बाएँ तरफ दिखाई देता है और प्लेहेड की सटीक "
+"स्थिति दिखाता है। टाइमकोड पर क्लिक करें, एक नया मान दर्ज करें, और उस फ्रेम "
+"पर प्लेहेड को ले जाने के लिए :kbd:`Enter` दबाएं।"
+
+#: ../timeline.rst:64
+msgid ""
+"Clear the field or enter ``0`` to jump to the start of the timeline. Press "
+":kbd:`Up` or :kbd:`Down` to step the selected timecode segment; hold "
+":kbd:`Shift` to step by 10. When the frame segment is selected, hold "
+":kbd:`Ctrl` to step by one second. Press :kbd:`Esc` to cancel."
+msgstr ""
+"फ़ील्ड को साफ़ करें या टाइमलाइन की शुरुआत पर जाने के लिए ``0`` दर्ज करें। "
+"चयनित टाइमकोड सेगमेंट को बढ़ाने के लिए :kbd:`Up` या :kbd:`Down` दबाएं; 10 "
+"कदम बढ़ाने के लिए :kbd:`Shift` दबाए रखें। जब फ्रेम सेगमेंट चयनित हो, तो एक "
+"सेकंड बढ़ाने के लिए :kbd:`Ctrl` दबाए रखें। रद्द करने के लिए :kbd:`Esc` "
+"दबाएं।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:70
+msgid "Common Timeline Tasks"
+msgstr "सामान्य टाइमलाइन कार्य"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:72
+msgid "Most editing sessions follow a similar flow:"
+msgstr "अधिकांश संपादन सत्र एक समान प्रवाह का पालन करते हैं:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:74
+msgid "Add media to the project using :ref:`import_files_ref`."
+msgstr ""
+"प्रोजेक्ट में मीडिया जोड़ने के लिए :ref:`import_files_ref` का उपयोग करें।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:75
+msgid "Drag files from the project panel onto timeline tracks."
+msgstr "प्रोजेक्ट पैनल से फाइलों को टाइमलाइन ट्रैक्स पर खींचें।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:76
+msgid "Trim clip edges to remove extra content."
+msgstr "अतिरिक्त सामग्री हटाने के लिए क्लिप के किनारों को ट्रिम करें।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:77
+msgid "Move clips into order and stack tracks to build your scene."
+msgstr ""
+"क्लिप्स को क्रम में रखें और अपने दृश्य को बनाने के लिए ट्रैक्स को स्टैक "
+"करें।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:78
+msgid ""
+"Add transitions and effects where needed (:ref:`transitions_ref`, "
+":ref:`effects_ref`)."
+msgstr ""
+"जहाँ आवश्यक हो ट्रांज़िशन और इफेक्ट्स जोड़ें (:ref:`transitions_ref`, "
+":ref:`effects_ref`)।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:79
+msgid "Preview and adjust timing (:ref:`playback_ref`)."
+msgstr "पूर्वावलोकन करें और समय समायोजित करें (:ref:`playback_ref`)।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:81
+msgid ""
+"Clip trimming, slicing, and clip context menu actions are covered in detail "
+"in :ref:`clips_ref`."
+msgstr ""
+"क्लिप ट्रिमिंग, स्लाइसिंग, और क्लिप संदर्भ मेनू क्रियाएं विस्तार से "
+":ref:`clips_ref` में कवर की गई हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:84
+msgid "Selecting Clips and Transitions"
+msgstr "क्लिप्स और ट्रांज़िशन का चयन"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:86
+msgid "Selection is one of the most important timeline skills:"
+msgstr "चयन टाइमलाइन कौशलों में से एक सबसे महत्वपूर्ण है:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:88
+msgid "Click an item to select it."
+msgstr "किसी आइटम को चुनने के लिए उस पर क्लिक करें।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:89
+msgid ":kbd:`Ctrl+Click` adds or removes items from selection."
+msgstr ":kbd:`Ctrl+Click` चयन से आइटम जोड़ता या हटाता है।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:90
+msgid ""
+":kbd:`Shift+Click` selects a range between your anchor item and the clicked "
+"item."
+msgstr ""
+":kbd:`Shift+Click` आपके एंकर आइटम और क्लिक किए गए आइटम के बीच एक रेंज का चयन"
+" करता है।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:91
+msgid ":kbd:`Ctrl+Shift+Click` adds that range to your current selection."
+msgstr ":kbd:`Ctrl+Shift+Click` उस रेंज को आपके वर्तमान चयन में जोड़ता है।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:92
+msgid ""
+":kbd:`Alt+Click` ripple-selects from the clicked item to the end of the "
+"track."
+msgstr ""
+":kbd:`Alt+Click` क्लिक किए गए आइटम से ट्रैक के अंत तक रिपल-सेलेक्ट करता है।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:93
+msgid "Drag an empty-area selection box to select multiple items."
+msgstr "कई आइटम चुनने के लिए खाली क्षेत्र में चयन बॉक्स खींचें।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:95
+msgid "See :ref:`clips_ref` for the full list and examples."
+msgstr "पूर्ण सूची और उदाहरणों के लिए देखें :ref:`clips_ref`।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:98
+msgid "Timeline Toolbar and Zoom"
+msgstr "टाइमलाइन टूलबार और ज़ूम"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:100
+msgid ""
+"The timeline toolbar helps with common navigation and editing actions "
+"(snapping, retime, razor, markers, centering, and zoom)."
+msgstr ""
+"टाइमलाइन टूलबार सामान्य नेविगेशन और संपादन क्रियाओं (स्नैपिंग, रीटाइम, "
+"रेज़र, मार्कर, केंद्रित करना, और ज़ूम) में मदद करता है।"
+
+#: ../timeline.rst:103
+msgid ""
+"The :ref:`razor_tool_ref` shows a cut guide and timecode over the target "
+"clip. While paused, hovering also previews the cut frame without moving the "
+"playhead. Click to cut, or press :kbd:`Esc` to leave Razor mode. The Razor "
+"guide respects the existing **Snapping** toggle and uses the same snap "
+"targets and tolerance as other timeline edits."
+msgstr ""
+":ref:`razor_tool_ref` लक्ष्य क्लिप पर एक कट गाइड और टाइमकोड दिखाता है। जब "
+"वीडियो रुका होता है, तो होवर करने पर प्लेहेड को हिलाए बिना कट फ्रेम का "
+"पूर्वावलोकन भी होता है। कट करने के लिए क्लिक करें, या रेज़र मोड छोड़ने के "
+"लिए :kbd:`Esc` दबाएं। रेज़र गाइड मौजूदा **Snapping** टॉगल का सम्मान करता है "
+"और अन्य टाइमलाइन संपादनों के समान स्नैप लक्ष्य और सहिष्णुता का उपयोग करता "
+"है।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:109
+msgid ""
+"Tip: If timeline editing feels crowded, zoom in with the timeline slider to "
+"make small clip adjustments easier."
+msgstr ""
+"टिप: यदि टाइमलाइन संपादन भीड़भाड़ महसूस हो, तो छोटे क्लिप समायोजन को आसान "
+"बनाने के लिए टाइमलाइन स्लाइडर से ज़ूम इन करें।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:112
+msgid ""
+"You can also zoom the timeline with :kbd:`Ctrl+Scroll Wheel`. On the QWidget"
+" timeline, hold :kbd:`Ctrl` and drag with the middle mouse button for smooth"
+" zooming."
+msgstr ""
+"आप :kbd:`Ctrl+Scroll Wheel` के साथ टाइमलाइन को ज़ूम भी कर सकते हैं। QWidget "
+"टाइमलाइन पर, :kbd:`Ctrl` दबाए रखें और मध्यम माउस बटन के साथ खींचें ताकि "
+"स्मूथ ज़ूमिंग हो सके।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:117
+msgid "Tracks, Locking, and Inserting"
+msgstr "ट्रैक्स, लॉकिंग, और इन्सर्टिंग"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:119
+msgid "Tracks help organize your edit. A common setup is:"
+msgstr ""
+"ट्रैक्स आपके संपादन को व्यवस्थित करने में मदद करते हैं। एक सामान्य सेटअप है:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:121
+msgid "Top tracks: titles, overlays, logos, picture-in-picture"
+msgstr "ऊपरी ट्रैक्स: शीर्षक, ओवरले, लोगो, पिक्चर-इन-पिक्चर"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:122
+msgid "Middle tracks: main video content"
+msgstr "मध्य ट्रैक्स: मुख्य वीडियो सामग्री"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:123
+msgid "Lower tracks: music and sound effects"
+msgstr "निचले ट्रैक्स: संगीत और ध्वनि प्रभाव"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:125
+msgid ""
+"You can lock tracks to protect them from accidental edits and use "
+"insert/ripple editing when you need later clips to move automatically."
+msgstr ""
+"आप ट्रैक्स को लॉक कर सकते हैं ताकि वे आकस्मिक संपादनों से सुरक्षित रहें और "
+"जब आपको बाद के क्लिप्स को स्वचालित रूप से स्थानांतरित करने की आवश्यकता हो तो"
+" इन्सर्ट/रिपल संपादन का उपयोग करें।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:128
+msgid ""
+"For track layout basics, see :ref:`tracks_ref`. For detailed clip editing "
+"behavior, see :ref:`clips_cutting_slicing_ref`."
+msgstr ""
+"ट्रैक लेआउट की मूल बातें देखने के लिए देखें :ref:`tracks_ref`। विस्तृत क्लिप"
+" संपादन व्यवहार के लिए देखें :ref:`clips_cutting_slicing_ref`।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:132
+msgid "Keyframes in the Timeline"
+msgstr "टाइमलाइन में कीफ्रेम्स"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:134
+msgid ""
+"Keyframes let you change values over time, such as position, scale, "
+"rotation, opacity, and effect settings."
+msgstr ""
+"कीफ्रेम्स आपको समय के साथ मान बदलने देते हैं, जैसे स्थिति, स्केल, घुमाव, "
+"अपारदर्शिता, और प्रभाव सेटिंग्स।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:137
+msgid ""
+"In the timeline keyframe panel, each row represents one animated property. "
+"You can:"
+msgstr ""
+"टाइमलाइन कीफ्रेम पैनल में, प्रत्येक पंक्ति एक एनिमेटेड संपत्ति का "
+"प्रतिनिधित्व करती है। आप कर सकते हैं:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:139
+msgid "Add a keyframe row for a property"
+msgstr "किसी संपत्ति के लिए कीफ्रेम पंक्ति जोड़ें"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:140
+msgid "Insert new keyframes along the row"
+msgstr "पंक्ति के साथ नए कीफ्रेम्स डालें"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:141
+msgid "Move keyframes to change timing"
+msgstr "समय बदलने के लिए कीफ्रेम्स को स्थानांतरित करें"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:142
+msgid "Change interpolation to control motion style"
+msgstr "गति शैली नियंत्रित करने के लिए इंटरपोलेशन बदलें"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:144
+msgid ""
+"For keyframe concepts and animation examples, see :ref:`animation_ref`."
+msgstr ""
+"कीफ्रेम अवधारणाओं और एनिमेशन उदाहरणों के लिए देखें :ref:`animation_ref`।"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:147
+msgid "Next Steps"
+msgstr "अगले कदम"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:149
+msgid ""
+"After you are comfortable with timeline basics, these sections are the best "
+"next reads:"
+msgstr ""
+"टाइमलाइन की मूल बातें समझने के बाद, ये अनुभाग अगली पढ़ाई के लिए सबसे अच्छे "
+"हैं:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:151
+msgid ":ref:`clips_ref` for trimming, slicing, and clip properties"
+msgstr ":ref:`clips_ref` ट्रिमिंग, स्लाइसिंग, और क्लिप गुणों के लिए"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:152
+msgid ":ref:`effects_ref` for video/audio effects"
+msgstr ":ref:`effects_ref` वीडियो/ऑडियो प्रभावों के लिए"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:153
+msgid ":ref:`animation_ref` for keyframe animation workflows"
+msgstr ":ref:`animation_ref` कीफ्रेम एनिमेशन वर्कफ़्लोज़ के लिए"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:154
+msgid ":doc:`export` for creating your final video file"
+msgstr ":doc:`export` आपके अंतिम वीडियो फ़ाइल बनाने के लिए"

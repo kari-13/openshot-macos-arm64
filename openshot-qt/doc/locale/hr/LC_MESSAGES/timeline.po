@@ -1,0 +1,452 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:23
+msgid "Timeline"
+msgstr "Vremenska Crta"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:25
+msgid ""
+"The timeline is where your video comes together. You arrange clips, trim "
+"them, layer visuals, and make timing decisions here. If you are new to "
+"editing, think of the timeline as a simple left-to-right story: earlier "
+"moments on the left, later moments on the right."
+msgstr ""
+"Vremenska crta je mjesto gdje se vaš video sastavlja. Ovdje raspoređujete "
+"isječke, skraćujete ih, slagate vizuale u slojeve i donosite odluke o "
+"vremenu. Ako ste novi u uređivanju, zamislite vremensku crtu kao jednostavnu"
+" priču s lijeva na desno: raniji trenuci s lijeve strane, kasniji trenuci s "
+"desne strane."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:32
+msgid ""
+"If you are just getting started, read :ref:`quick_tutorial_ref` first, then "
+"come back here for more detail. For a labeled breakdown of toolbar controls,"
+" see :ref:`timeline_toolbar_ref`."
+msgstr ""
+"Ako tek počinjete, prvo pročitajte :ref:`quick_tutorial_ref`, a zatim se "
+"vratite ovdje za više detalja. Za označeni pregled kontrola alatne trake, "
+"pogledajte :ref:`timeline_toolbar_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:37
+msgid "Timeline Basics"
+msgstr "Osnove vremenske crte"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:39
+msgid "These terms are used often in this guide:"
+msgstr "Ovi se pojmovi često koriste u ovom vodiču:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:45
+msgid "Term"
+msgstr "Pojam"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:45
+msgid "Meaning"
+msgstr "Značenje"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:47
+msgid "Playhead"
+msgstr "Pokretač reprodukcije"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:47
+msgid "The red line that shows your current time position."
+msgstr "Crvena linija koja pokazuje vašu trenutnu vremensku poziciju."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:48
+msgid "Track"
+msgstr "Staza"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:48
+msgid ""
+"A horizontal layer that holds clips (top tracks appear above lower tracks)."
+msgstr ""
+"Horizontalni sloj koji drži isječke (gornje staze pojavljuju se iznad donjih"
+" staza)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:49
+msgid "Clip"
+msgstr "Isječak"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:49
+msgid "A video, audio, or image item placed on a track."
+msgstr "Video, audio ili slikovni element postavljen na stazu."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:50
+msgid "Transition"
+msgstr "Prijelaz"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:50
+msgid "A blend between two overlapping clips."
+msgstr "Miješanje između dva preklapajuća isječka."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:51
+msgid "Marker"
+msgstr "Oznaka"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:51
+msgid "A saved point in time you can jump back to quickly."
+msgstr "Spremljena vremenska točka na koju se možete brzo vratiti."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:52
+msgid "Keyframe"
+msgstr "Ključni kadar"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:52
+msgid "A saved value at a point in time (used for animation)."
+msgstr "Spremljena vrijednost u određenom trenutku (koristi se za animaciju)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:55
+msgid "For a full glossary, see :ref:`glossary_ref`."
+msgstr "Za potpuni rječnik, pogledajte :ref:`glossary_ref`."
+
+#: ../timeline.rst:58
+msgid "Current Timecode"
+msgstr "Trenutni vremenski kod"
+
+#: ../timeline.rst:60
+msgid ""
+"The current timecode appears at the left side of the timeline ruler and "
+"shows the playhead's exact position. Click the timecode, enter a new value, "
+"and press :kbd:`Enter` to move the playhead to that frame."
+msgstr ""
+"Trenutni vremenski kod pojavljuje se na lijevoj strani linijara vremenske "
+"trake i prikazuje točnu poziciju pokazivača reprodukcije. Kliknite na "
+"vremenski kod, unesite novu vrijednost i pritisnite :kbd:`Enter` da biste "
+"pomaknuli pokazivač na taj kadar."
+
+#: ../timeline.rst:64
+msgid ""
+"Clear the field or enter ``0`` to jump to the start of the timeline. Press "
+":kbd:`Up` or :kbd:`Down` to step the selected timecode segment; hold "
+":kbd:`Shift` to step by 10. When the frame segment is selected, hold "
+":kbd:`Ctrl` to step by one second. Press :kbd:`Esc` to cancel."
+msgstr ""
+"Očistite polje ili unesite ``0`` za skok na početak vremenske trake. "
+"Pritisnite :kbd:`Up` ili :kbd:`Down` za pomicanje odabranog segmenta "
+"vremenskog koda; držite :kbd:`Shift` za pomicanje po 10. Kada je odabran "
+"segment kadra, držite :kbd:`Ctrl` za pomicanje za jednu sekundu. Pritisnite "
+":kbd:`Esc` za otkazivanje."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:70
+msgid "Common Timeline Tasks"
+msgstr "Uobičajeni zadaci na vremenskoj crti"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:72
+msgid "Most editing sessions follow a similar flow:"
+msgstr "Većina uređivačkih sesija slijedi sličan tijek:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:74
+msgid "Add media to the project using :ref:`import_files_ref`."
+msgstr "Dodajte medije u projekt koristeći :ref:`import_files_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:75
+msgid "Drag files from the project panel onto timeline tracks."
+msgstr "Povucite datoteke iz panela projekta na staze vremenske crte."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:76
+msgid "Trim clip edges to remove extra content."
+msgstr "Skraćujte rubove isječaka kako biste uklonili dodatni sadržaj."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:77
+msgid "Move clips into order and stack tracks to build your scene."
+msgstr ""
+"Pomaknite isječke u redoslijed i složite staze kako biste izgradili svoju "
+"scenu."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:78
+msgid ""
+"Add transitions and effects where needed (:ref:`transitions_ref`, "
+":ref:`effects_ref`)."
+msgstr ""
+"Dodajte prijelaze i efekte gdje je potrebno (:ref:`transitions_ref`, "
+":ref:`effects_ref`)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:79
+msgid "Preview and adjust timing (:ref:`playback_ref`)."
+msgstr "Pregledajte i prilagodite vrijeme (:ref:`playback_ref`)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:81
+msgid ""
+"Clip trimming, slicing, and clip context menu actions are covered in detail "
+"in :ref:`clips_ref`."
+msgstr ""
+"Skraćivanje, rezanje isječaka i radnje iz kontekstnog izbornika isječaka "
+"detaljno su obrađene u :ref:`clips_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:84
+msgid "Selecting Clips and Transitions"
+msgstr "Odabir isječaka i prijelaza"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:86
+msgid "Selection is one of the most important timeline skills:"
+msgstr "Odabir je jedna od najvažnijih vještina na vremenskoj crti:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:88
+msgid "Click an item to select it."
+msgstr "Kliknite stavku da je odaberete."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:89
+msgid ":kbd:`Ctrl+Click` adds or removes items from selection."
+msgstr ":kbd:`Ctrl+Klik` dodaje ili uklanja stavke iz odabira."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:90
+msgid ""
+":kbd:`Shift+Click` selects a range between your anchor item and the clicked "
+"item."
+msgstr ""
+":kbd:`Shift+Klik` odabire raspon između vaše sidrene stavke i kliknute "
+"stavke."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:91
+msgid ":kbd:`Ctrl+Shift+Click` adds that range to your current selection."
+msgstr ":kbd:`Ctrl+Shift+Klik` dodaje taj raspon vašem trenutnom odabiru."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:92
+msgid ""
+":kbd:`Alt+Click` ripple-selects from the clicked item to the end of the "
+"track."
+msgstr ":kbd:`Alt+Klik` odabire valovito od kliknute stavke do kraja staze."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:93
+msgid "Drag an empty-area selection box to select multiple items."
+msgstr ""
+"Povucite okvir za odabir praznog područja da biste odabrali više stavki."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:95
+msgid "See :ref:`clips_ref` for the full list and examples."
+msgstr "Pogledajte :ref:`clips_ref` za potpuni popis i primjere."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:98
+msgid "Timeline Toolbar and Zoom"
+msgstr "Alatna traka vremenske crte i zumiranje"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:100
+msgid ""
+"The timeline toolbar helps with common navigation and editing actions "
+"(snapping, retime, razor, markers, centering, and zoom)."
+msgstr ""
+"Alatna traka vremenske crte pomaže kod uobičajenih navigacijskih i "
+"uređivačkih radnji (prianjanje, promjena vremena, britva, oznake, "
+"centriranje i zumiranje)."
+
+#: ../timeline.rst:103
+msgid ""
+"The :ref:`razor_tool_ref` shows a cut guide and timecode over the target "
+"clip. While paused, hovering also previews the cut frame without moving the "
+"playhead. Click to cut, or press :kbd:`Esc` to leave Razor mode. The Razor "
+"guide respects the existing **Snapping** toggle and uses the same snap "
+"targets and tolerance as other timeline edits."
+msgstr ""
+":ref:`razor_tool_ref` prikazuje vodič za rezanje i vremenski kod preko "
+"ciljanog isječka. Dok je pauzirano, zadržavanje pokazivača također prikazuje"
+" pregled okvira reza bez pomicanja pokazivača reprodukcije. Kliknite za "
+"rezanje ili pritisnite :kbd:`Esc` za izlazak iz načina rada Razor. Vodič "
+"Razor poštuje postojeći prekidač **Snapping** i koristi iste ciljeve i "
+"toleranciju za poravnavanje kao i ostale izmjene vremenske linije."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:109
+msgid ""
+"Tip: If timeline editing feels crowded, zoom in with the timeline slider to "
+"make small clip adjustments easier."
+msgstr ""
+"Savjet: Ako uređivanje vremenske crte djeluje zbijeno, povećajte zum pomoću "
+"klizača vremenske crte kako biste olakšali male prilagodbe isječaka."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:112
+msgid ""
+"You can also zoom the timeline with :kbd:`Ctrl+Scroll Wheel`. On the QWidget"
+" timeline, hold :kbd:`Ctrl` and drag with the middle mouse button for smooth"
+" zooming."
+msgstr ""
+"Također možete zumirati vremensku crtu pomoću :kbd:`Ctrl+Scroll Wheel`. Na "
+"QWidget vremenskoj crti, držite :kbd:`Ctrl` i povucite srednjim gumbom miša "
+"za glatko zumiranje."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:117
+msgid "Tracks, Locking, and Inserting"
+msgstr "Staze, zaključavanje i umetanje"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:119
+msgid "Tracks help organize your edit. A common setup is:"
+msgstr "Staze pomažu organizirati vaš uređivački rad. Uobičajena postavka je:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:121
+msgid "Top tracks: titles, overlays, logos, picture-in-picture"
+msgstr "Gornje staze: naslovi, slojevi, logotipi, slika u slici"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:122
+msgid "Middle tracks: main video content"
+msgstr "Srednje staze: glavni video sadržaj"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:123
+msgid "Lower tracks: music and sound effects"
+msgstr "Donje staze: glazba i zvučni efekti"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:125
+msgid ""
+"You can lock tracks to protect them from accidental edits and use "
+"insert/ripple editing when you need later clips to move automatically."
+msgstr ""
+"Možete zaključati staze kako biste ih zaštitili od slučajnih izmjena i "
+"koristiti umetanje/valovito uređivanje kada želite da se kasniji isječci "
+"automatski pomaknu."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:128
+msgid ""
+"For track layout basics, see :ref:`tracks_ref`. For detailed clip editing "
+"behavior, see :ref:`clips_cutting_slicing_ref`."
+msgstr ""
+"Za osnove rasporeda staza pogledajte :ref:`tracks_ref`. Za detaljno "
+"ponašanje uređivanja isječaka pogledajte :ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:132
+msgid "Keyframes in the Timeline"
+msgstr "Ključni kadrovi na vremenskoj crti"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:134
+msgid ""
+"Keyframes let you change values over time, such as position, scale, "
+"rotation, opacity, and effect settings."
+msgstr ""
+"Ključni kadrovi omogućuju vam promjenu vrijednosti tijekom vremena, poput "
+"položaja, veličine, rotacije, neprozirnosti i postavki efekata."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:137
+msgid ""
+"In the timeline keyframe panel, each row represents one animated property. "
+"You can:"
+msgstr ""
+"U panelu ključnih kadrova vremenske crte, svaki redak predstavlja jedno "
+"animirano svojstvo. Možete:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:139
+msgid "Add a keyframe row for a property"
+msgstr "Dodati redak ključnih kadrova za svojstvo"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:140
+msgid "Insert new keyframes along the row"
+msgstr "Umetnuti nove ključne kadrove duž retka"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:141
+msgid "Move keyframes to change timing"
+msgstr "Pomaknuti ključne kadrove za promjenu vremena"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:142
+msgid "Change interpolation to control motion style"
+msgstr "Promijeniti interpolaciju za kontrolu stila pokreta"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:144
+msgid ""
+"For keyframe concepts and animation examples, see :ref:`animation_ref`."
+msgstr ""
+"Za koncepte ključnih kadrova i primjere animacije pogledajte "
+":ref:`animation_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:147
+msgid "Next Steps"
+msgstr "Sljedeći koraci"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:149
+msgid ""
+"After you are comfortable with timeline basics, these sections are the best "
+"next reads:"
+msgstr ""
+"Nakon što savladate osnove vremenske crte, ovi odjeljci su najbolji sljedeći"
+" koraci za čitanje:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:151
+msgid ":ref:`clips_ref` for trimming, slicing, and clip properties"
+msgstr ":ref:`clips_ref` za skraćivanje, rezanje i svojstva isječaka"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:152
+msgid ":ref:`effects_ref` for video/audio effects"
+msgstr ":ref:`effects_ref` za video/audio efekte"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:153
+msgid ":ref:`animation_ref` for keyframe animation workflows"
+msgstr ":ref:`animation_ref` za tijekove rada animacije ključnih kadrova"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:154
+msgid ":doc:`export` for creating your final video file"
+msgstr ":doc:`export` za stvaranje vaše konačne video datoteke"

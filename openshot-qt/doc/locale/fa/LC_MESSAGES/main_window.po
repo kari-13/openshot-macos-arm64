@@ -1,0 +1,2190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:21
+msgid "Main Window"
+msgstr "پنجره اصلی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:23
+msgid ""
+"OpenShot Video Editor has one main window which contains most of the "
+"information, buttons, and menus needed to edit your video project."
+msgstr ""
+"OpenShot Video Editor یک پنجره اصلی دارد که بیشتر اطلاعات، دکمه‌ها و منوهای "
+"مورد نیاز برای ویرایش پروژه ویدیویی شما را در بر می‌گیرد."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:27
+msgid "Overview"
+msgstr "نمای کلی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:35 ../main_window.rst:80 ../main_window.rst:101
+msgid "#"
+msgstr "شماره"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:35 ../main_window.rst:80
+msgid "Name"
+msgstr "نام"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:35 ../main_window.rst:80 ../main_window.rst:103
+#: ../main_window.rst:237 ../main_window.rst:367 ../main_window.rst:396
+msgid "Description"
+msgstr "توضیحات"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:37 ../main_window.rst:82 ../main_window.rst:104
+msgid "1"
+msgstr "۱"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:37
+msgid "Main Toolbar"
+msgstr "نوار ابزار اصلی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:37
+msgid "Contains buttons to open, save, and export your video project."
+msgstr ""
+"شامل دکمه‌هایی برای باز کردن، ذخیره و صادر کردن پروژه ویدیویی شما است."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:38 ../main_window.rst:83 ../main_window.rst:107
+msgid "2"
+msgstr "۲"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:38
+msgid "Function Tabs"
+msgstr "زبانه‌های عملکرد"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:38
+msgid "Switch between Project Files, Transitions, Effects, and Emojis."
+msgstr "بین فایل‌های پروژه، انتقال‌ها، افکت‌ها و ایموجی‌ها جابجا شوید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:39 ../main_window.rst:84 ../main_window.rst:110
+msgid "3"
+msgstr "۳"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:39 ../main_window.rst:411
+msgid "Project Files"
+msgstr "فایل‌های پروژه"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:39
+msgid ""
+"All audio, video, and image files that have been imported into your project."
+msgstr "تمام فایل‌های صوتی، ویدیویی و تصویری که به پروژه شما وارد شده‌اند."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:40 ../main_window.rst:113
+msgid "4"
+msgstr "۴"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:40
+msgid "Preview Window"
+msgstr "پنجره پیش‌نمایش"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:40
+msgid "This is the area that the video will playback on the screen."
+msgstr "این ناحیه‌ای است که ویدیو روی صفحه نمایش پخش می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:41 ../main_window.rst:116
+msgid "5"
+msgstr "۵"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:41 ../main_window.rst:90
+msgid "Timeline Toolbar"
+msgstr "نوار ابزار جدول زمانی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:41
+msgid ""
+"This toolbar contains buttons used for snapping, inserting markers, slicing "
+"razor, jumping between markers, and centering the timeline on the playhead. "
+"See :ref:`timeline_toolbar_ref`."
+msgstr ""
+"این نوار ابزار شامل دکمه‌هایی برای چسباندن، درج نشانگرها، برش با تیغ، "
+"جابجایی بین نشانگرها و مرکز کردن جدول زمانی روی سر پخش است. مراجعه کنید به "
+":ref:`timeline_toolbar_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:42 ../main_window.rst:119
+msgid "6"
+msgstr "۶"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:42 ../main_window.rst:120
+msgid "Zoom Slider"
+msgstr "لغزنده بزرگنمایی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:42
+msgid ""
+"This slider will adjust the time-scale of your timeline. Drag the left or "
+"right edge to zoom in or out. Drag the blue area to scroll the timeline left"
+" or right. Clips and transitions are displayed as simple rectangles, to give"
+" you context for adjusting the zoom to specific clips."
+msgstr ""
+"این لغزنده مقیاس زمانی جدول زمانی شما را تنظیم می‌کند. لبه چپ یا راست را "
+"بکشید تا بزرگنمایی یا کوچک‌نمایی کنید. ناحیه آبی را بکشید تا جدول زمانی به "
+"چپ یا راست پیمایش کند. کلیپ‌ها و انتقال‌ها به صورت مستطیل‌های ساده نمایش "
+"داده می‌شوند تا زمینه‌ای برای تنظیم بزرگنمایی روی کلیپ‌های خاص فراهم شود."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:43 ../main_window.rst:122
+msgid "7"
+msgstr "۷"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:43
+msgid "Play-head / Ruler"
+msgstr "سر پخش / خط‌کش"
+
+#: ../main_window.rst:43
+msgid ""
+"The ruler shows the time-scale, and the line is the play-head. The play-head"
+" represents the current playback position. The current timecode can be "
+"clicked to enter an exact timecode. Hold :kbd:`Shift` key while dragging the"
+" playhead to snap to nearby clips."
+msgstr ""
+"خط‌کش مقیاس زمان را نشان می‌دهد و خط، سر پخش است. سر پخش موقعیت فعلی پخش را "
+"نشان می‌دهد. می‌توانید روی کد زمانی فعلی کلیک کنید تا کد زمانی دقیق وارد "
+"شود. هنگام کشیدن سر پخش، کلید :kbd:`Shift` را نگه دارید تا به کلیپ‌های نزدیک"
+" بچسبد."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:44
+msgid "8"
+msgstr "۸"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:44
+msgid "Timeline"
+msgstr "خط زمان"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:44
+msgid ""
+"The timeline visualizes your video project, and each clip and transition in "
+"your project. You can drag the mouse to select, move, or delete multiple "
+"items."
+msgstr ""
+"جدول زمانی پروژه ویدیویی شما و هر کلیپ و انتقال در پروژه را به صورت تصویری "
+"نمایش می‌دهد. می‌توانید با کشیدن ماوس چندین مورد را انتخاب، جابجا یا حذف "
+"کنید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:45
+msgid "9"
+msgstr "۹"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:45
+msgid "Filter"
+msgstr "فیلتر"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:45
+msgid ""
+"Filter the list of items shown (project files, transitions, effects, and "
+"emojis) by using these buttons and filter textbox. Enter a few letters of "
+"what you are looking for, and the results will be shown."
+msgstr ""
+"با استفاده از این دکمه‌ها و کادر فیلتر، فهرست موارد نمایش داده شده (فایل‌های"
+" پروژه، انتقال‌ها، افکت‌ها و ایموجی‌ها) را فیلتر کنید. چند حرف از آنچه "
+"می‌خواهید را وارد کنید تا نتایج نمایش داده شوند."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:46
+msgid "10"
+msgstr "۱۰"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:46
+msgid "Playback"
+msgstr "پخش"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:46
+msgid ""
+"Left to Right: Jump to Start, Rewind, Play/Pause, Fast Forward, and Jump to "
+"End"
+msgstr ""
+"از چپ به راست: رفتن به ابتدا، عقب‌گرد، پخش/توقف، جلو بردن سریع، و رفتن به "
+"انتها"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:47
+#, fuzzy
+msgid "11"
+msgstr "۱"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:47
+msgid "Track"
+msgstr "ردیف"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:47
+msgid ""
+"Track area containing the track name, track menu, and per-track controls "
+"such as lock and keyframe panel icons."
+msgstr ""
+"ناحیه ردیف که شامل نام ردیف، منوی ردیف و کنترل‌های هر ردیف مانند قفل و "
+"آیکون‌های پنل کلید فریم است."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:50
+msgid ""
+"For step-by-step instructions on the basic usage of OpenShot, be sure to "
+"read the :ref:`quick_tutorial_ref`."
+msgstr ""
+"برای دستورالعمل‌های گام به گام در مورد استفاده پایه از OpenShot، حتماً "
+":ref:`quick_tutorial_ref` را مطالعه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:54
+msgid "Built-in Tutorial"
+msgstr "آموزش داخلی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:55
+msgid ""
+"When you first launch OpenShot, you will be presented with a friendly built-"
+"in tutorial. It will demonstrate and explain the basics. Clicking "
+":guilabel:`Next` will jump to the next topic. You can always view this "
+"tutorial again from the :guilabel:`Help→Tutorial` menu."
+msgstr ""
+"وقتی OpenShot را برای اولین بار اجرا می‌کنید، یک آموزش داخلی دوستانه به شما "
+"نمایش داده می‌شود. این آموزش اصول پایه را نشان داده و توضیح می‌دهد. با کلیک "
+"روی :guilabel:`Next` به موضوع بعدی می‌روید. همیشه می‌توانید این آموزش را از "
+"منوی :guilabel:`Help→Tutorial` دوباره مشاهده کنید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:63
+msgid "Tracks & Layers"
+msgstr "ردیف‌ها و لایه‌ها"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:65
+msgid ""
+"OpenShot uses tracks to layer videos and images. The top most track is the "
+"top layer, and the bottom track is the bottom layer. If you are familiar "
+"with layers in a photo editing application, then you should be quite "
+"familiar with this concept. OpenShot will stack the layers and mix each one "
+"together, just like a photo editing application. You can have an unlimited "
+"number of tracks, but typically a simple video project will not need more "
+"than 5 tracks."
+msgstr ""
+"OpenShot از ردیف‌ها برای لایه‌بندی ویدیوها و تصاویر استفاده می‌کند. بالاترین"
+" ردیف، بالاترین لایه است و پایین‌ترین ردیف، پایین‌ترین لایه. اگر با لایه‌ها "
+"در برنامه‌های ویرایش عکس آشنا هستید، این مفهوم برای شما آشنا خواهد بود. "
+"OpenShot لایه‌ها را روی هم قرار داده و هر کدام را مانند برنامه ویرایش عکس با"
+" هم ترکیب می‌کند. می‌توانید تعداد نامحدودی ردیف داشته باشید، اما معمولاً "
+"پروژه ویدیویی ساده به بیش از ۵ ردیف نیاز ندارد."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:72
+msgid "For example, imagine a 3 track video project"
+msgstr "برای مثال، یک پروژه ویدیویی با ۳ ردیف را تصور کنید"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:82
+msgid "Top Track"
+msgstr "ردیف بالا"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:82
+msgid ""
+"Clips on this track will always be on top and visible. Often watermarks and "
+"titles are placed on higher tracks."
+msgstr ""
+"کلیپ‌های این ردیف همیشه در بالا و قابل مشاهده خواهند بود. معمولاً "
+"واترمارک‌ها و عناوین روی ردیف‌های بالاتر قرار می‌گیرند."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:83
+msgid "Middle Track"
+msgstr "ردیف میانی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:83
+msgid ""
+"Clips in the middle (might or might not be visible, depending on what is "
+"above them)"
+msgstr ""
+"کلیپ‌های میانی (ممکن است بسته به آنچه بالای آن‌هاست، قابل مشاهده باشند یا "
+"نباشند)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:84
+msgid "Bottom Track"
+msgstr "ردیف پایین"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:84
+msgid ""
+"Clips on this track will always be on the bottom. Often audio clips are "
+"placed on lower tracks."
+msgstr ""
+"کلیپ‌های این ردیف همیشه در پایین قرار دارند. معمولاً کلیپ‌های صوتی روی "
+"ردیف‌های پایین‌تر قرار می‌گیرند."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:94
+msgid ""
+"For a beginner-friendly overview of timeline editing (selection, tracks, "
+"keyframes, and common workflows), see :ref:`timeline_ref`."
+msgstr ""
+"برای مرور آسان و مقدماتی ویرایش جدول زمانی (انتخاب، ردیف‌ها، کلید فریم‌ها و "
+"جریان‌های کاری رایج)، به :ref:`timeline_ref` مراجعه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:102
+msgid "Control Group"
+msgstr "گروه کنترل"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:105 ../main_window.rst:144
+msgid "Add Track"
+msgstr "افزودن ردیف"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:106
+msgid ""
+"Add a new track to the timeline. New projects start with 5 tracks by "
+"default."
+msgstr ""
+"یک ردیف جدید به جدول زمانی اضافه کنید. پروژه‌های جدید به طور پیش‌فرض با ۵ "
+"ردیف شروع می‌شوند."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:108
+msgid "Undo / Redo"
+msgstr "واگردانی / انجام دوباره"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:109
+msgid "Undo or redo your latest timeline edits."
+msgstr "آخرین ویرایش‌های جدول زمانی خود را واگردانی یا دوباره انجام دهید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:111
+msgid "Snap, Retime, Razor"
+msgstr "چسباندن، تغییر زمان، تیغ"
+
+#: ../main_window.rst:112
+msgid ""
+"Snapping toggles magnetic alignment. Timing Tool enables retiming by "
+"dragging clip edges. The :ref:`razor_tool_ref` previews and cuts at the "
+"guide position; press :kbd:`Esc` to exit."
+msgstr ""
+"قفل کردن به هم‌چسبیدن مغناطیسی را فعال یا غیرفعال می‌کند. ابزار زمان‌بندی "
+"امکان تغییر زمان‌بندی با کشیدن لبه‌های کلیپ را فراهم می‌کند. "
+":ref:`razor_tool_ref` پیش‌نمایش و برش در موقعیت راهنما را انجام می‌دهد؛ برای"
+" خروج کلید :kbd:`Esc` را فشار دهید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:114
+msgid "Add Marker, Next/Prev Marker"
+msgstr "افزودن نشانگر، نشانگر بعدی/قبلی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:115
+msgid ""
+"Add a marker at the playhead and jump to previous or next marker/clip "
+"boundaries."
+msgstr ""
+"یک نشانگر در محل پخش اضافه کنید و به نشانگر یا مرز کلیپ قبلی یا بعدی بروید."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:117 ../main_window.rst:148
+msgid "Center on Playhead"
+msgstr "مرکز کردن روی نشانگر پخش"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:118
+msgid "Center the visible timeline area around the current playhead position."
+msgstr "ناحیه قابل مشاهده جدول زمانی را حول موقعیت فعلی پخش متمرکز کنید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:121
+msgid ""
+"Control the visible timeline range. Drag handles to zoom in/out, drag center"
+" to pan, and double-click to fit timeline. You can also use "
+":kbd:`Ctrl+Scroll Wheel`, or on the QWidget timeline hold :kbd:`Ctrl` and "
+"drag with the middle mouse button for smooth zooming."
+msgstr ""
+"محدوده قابل مشاهده جدول زمانی را کنترل کنید. برای بزرگ‌نمایی/کوچک‌نمایی "
+"دسته‌ها را بکشید، مرکز را برای جابجایی بکشید و برای تطبیق جدول زمانی دوبار "
+"کلیک کنید. همچنین می‌توانید از :kbd:`Ctrl+Scroll Wheel` استفاده کنید، یا در "
+"جدول زمانی QWidget کلید :kbd:`Ctrl` را نگه داشته و با دکمه وسط ماوس برای "
+"بزرگ‌نمایی نرم بکشید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:123
+msgid "Track toggles (Lock, Keyframe Panel)"
+msgstr "تغییر وضعیت ردیف‌ها (قفل، پنل کلید فریم)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:124
+msgid "Per-track controls such as lock and keyframe panel visibility."
+msgstr "کنترل‌های هر ردیف مانند قفل و نمایش پنل کلید فریم."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:129
+msgid "Keyboard Shortcuts"
+msgstr "میانبرهای صفحه‌کلید"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:130
+msgid ""
+"Here is a list of the default keyboard shortcuts supported by OpenShot. You "
+"can configure these shortcuts in the Preferences window, which is opened by "
+"selecting :guilabel:`Edit→Preferences` from the OpenShot menu bar. (On "
+"macOS, choose :guilabel:`OpenShot Video Editor→Preferences`.) Learning a few"
+" of these shortcuts can save you a bunch of time!"
+msgstr ""
+"در اینجا فهرستی از میانبرهای پیش‌فرض صفحه‌کلید که توسط OpenShot پشتیبانی "
+"می‌شوند آمده است. می‌توانید این میانبرها را در پنجره تنظیمات که با انتخاب "
+":guilabel:`Edit→Preferences` از نوار منوی OpenShot باز می‌شود، تنظیم کنید. "
+"(در macOS، :guilabel:`OpenShot Video Editor→Preferences` را انتخاب کنید.) "
+"یادگیری چند میانبر از این‌ها می‌تواند زمان زیادی برای شما صرفه‌جویی کند!"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Action"
+msgstr "عمل"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Shortcut 1"
+msgstr "میانبر ۱"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Shortcut 2"
+msgstr "میانبر ۲"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Shortcut 3"
+msgstr "میانبر ۳"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:142 ../main_window.rst:294
+msgid "About OpenShot"
+msgstr "درباره OpenShot"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:142
+msgid ":kbd:`Ctrl+H`"
+msgstr ":kbd:`Ctrl+H`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:143
+msgid "Add Marker"
+msgstr "افزودن نشانگر"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:143
+msgid ":kbd:`M`"
+msgstr ":kbd:`M`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:144
+msgid ":kbd:`Ctrl+Y`"
+msgstr ":kbd:`Ctrl+Y`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:145
+msgid "Add to Timeline"
+msgstr "افزودن به تایم‌لاین"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:145
+msgid ":kbd:`Ctrl+Alt+A`"
+msgstr ":kbd:`Ctrl+Alt+A`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:146
+msgid "Animated Title"
+msgstr "عنوان متحرک"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:146
+msgid ":kbd:`Ctrl+Shift+T`"
+msgstr ":kbd:`Ctrl+Shift+T`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:147
+msgid "Ask a Question..."
+msgstr "پرسیدن سوال..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:147
+msgid ":kbd:`F4`"
+msgstr ":kbd:`F4`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:148
+msgid ":kbd:`Shift+C`"
+msgstr ":kbd:`Shift+C`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:148
+msgid ":kbd:`Alt+Up`"
+msgstr ":kbd:`Alt+Up`"
+
+#: ../main_window.rst:149 ../main_window.rst:329
+msgid "Color View"
+msgstr "نمای رنگ"
+
+#: ../main_window.rst:149
+msgid ":kbd:`Alt+Shift+2`"
+msgstr ":kbd:`Alt+Shift+2`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:150
+msgid "Choose Profile"
+msgstr "انتخاب پروفایل"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:150
+msgid ":kbd:`Ctrl+Alt+P`"
+msgstr ":kbd:`Ctrl+Alt+P`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:151
+msgid "Clear All Cache"
+msgstr "پاک کردن تمام کش"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:151
+msgid ":kbd:`Ctrl+Shift+ESC`"
+msgstr ":kbd:`Ctrl+Shift+ESC`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:152
+msgid "Clear History"
+msgstr "پاک کردن تاریخچه"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:152
+msgid ":kbd:`Ctrl+Shift+H`"
+msgstr ":kbd:`Ctrl+Shift+H`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:153
+msgid "Delete Optimized Videos"
+msgstr "حذف ویدیوهای بهینه‌شده"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:153
+msgid ":kbd:`Ctrl+Shift+O`"
+msgstr ":kbd:`Ctrl+Shift+O`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:154
+msgid "Clear Waveform Display Data"
+msgstr "پاک کردن داده‌های نمایش موج"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:154
+msgid ":kbd:`Ctrl+Shift+W`"
+msgstr ":kbd:`Ctrl+Shift+W`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:155
+msgid "Copy"
+msgstr "کپی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:155
+msgid ":kbd:`Ctrl+C`"
+msgstr ":kbd:`Ctrl+C`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:156
+msgid "Cut"
+msgstr "برش"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:156
+msgid ":kbd:`Ctrl+X`"
+msgstr ":kbd:`Ctrl+X`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:157
+msgid "Delete Item"
+msgstr "حذف مورد"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:157
+msgid ":kbd:`Delete`"
+msgstr ":kbd:`Delete`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:157
+msgid ":kbd:`Backspace`"
+msgstr ":kbd:`Backspace`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:158
+msgid "Delete Item (Ripple)"
+msgstr "حذف مورد (ریپل)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:158
+msgid ":kbd:`Shift+Delete`"
+msgstr ":kbd:`Shift+Delete`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:159
+msgid "Details View"
+msgstr "نمای جزئیات"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:159
+msgid ":kbd:`Ctrl+Page Up`"
+msgstr ":kbd:`Ctrl+Page Up`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:160
+msgid "Donate"
+msgstr "اهدا"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:160
+msgid ":kbd:`F7`"
+msgstr ":kbd:`F7`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:161
+msgid "Duplicate"
+msgstr "تکثیر"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:161
+msgid ":kbd:`Ctrl+Shift+/`"
+msgstr ":kbd:`Ctrl+Shift+/`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:162
+msgid "Edit Title"
+msgstr "ویرایش عنوان"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:162
+msgid ":kbd:`Alt+T`"
+msgstr ":kbd:`Alt+T`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:163
+msgid "Export Selected Files"
+msgstr "صادرات فایل‌های انتخاب شده"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:163
+msgid ":kbd:`Ctrl+Shift+E`"
+msgstr ":kbd:`Ctrl+Shift+E`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:164
+msgid "Export Video / Media"
+msgstr "صادرات ویدئو / رسانه"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:164
+msgid ":kbd:`Ctrl+E`"
+msgstr ":kbd:`Ctrl+E`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:164
+msgid ":kbd:`Ctrl+M`"
+msgstr ":kbd:`Ctrl+M`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:165
+msgid "Fast Forward"
+msgstr "پخش سریع"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:165
+msgid ":kbd:`L`"
+msgstr ":kbd:`L`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:166
+msgid "File Properties"
+msgstr "ویژگی‌های فایل"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:166
+msgid ":kbd:`Alt+I`"
+msgstr ":kbd:`Alt+I`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:166
+msgid ":kbd:`Ctrl+Double Click`"
+msgstr ":kbd:`Ctrl+Double Click`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:167
+msgid "Fullscreen"
+msgstr "تمام صفحه"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:167
+msgid ":kbd:`F11`"
+msgstr ":kbd:`F11`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:168
+msgid "Import Files..."
+msgstr "وارد کردن فایل‌ها..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:168
+msgid ":kbd:`Ctrl+I`"
+msgstr ":kbd:`Ctrl+I`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:169
+msgid "Insert Keyframe"
+msgstr "درج کی‌فریم"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:169
+msgid ":kbd:`Alt+Shift+K`"
+msgstr ":kbd:`Alt+Shift+K`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:170
+msgid "Join our Community..."
+msgstr "به جامعه ما بپیوندید..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:170
+msgid ":kbd:`F5`"
+msgstr ":kbd:`F5`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:171
+msgid "Jump To End"
+msgstr "رفتن به انتها"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:171
+msgid ":kbd:`End`"
+msgstr ":kbd:`End`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:172
+msgid "Jump To Start"
+msgstr "رفتن به ابتدا"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:172
+msgid ":kbd:`Home`"
+msgstr ":kbd:`Home`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:173
+msgid "Launch Tutorial"
+msgstr "شروع آموزش"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:173
+msgid ":kbd:`F2`"
+msgstr ":kbd:`F2`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:174
+msgid "New Project"
+msgstr "پروژه جدید"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:174
+msgid ":kbd:`Ctrl+N`"
+msgstr ":kbd:`Ctrl+N`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:175
+msgid "Next Frame"
+msgstr "فریم بعدی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:175
+msgid ":kbd:`Right`"
+msgstr ":kbd:`Right`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:175
+msgid ":kbd:`.`"
+msgstr ":kbd:`.`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:176
+msgid "Next Marker"
+msgstr "نشانگر بعدی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:176
+msgid ":kbd:`Shift+M`"
+msgstr ":kbd:`Shift+M`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:176
+msgid ":kbd:`Alt+Right`"
+msgstr ":kbd:`Alt+Right`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:177
+msgid "Nudge left (1 Frame)"
+msgstr "حرکت به چپ (1 فریم)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:177
+msgid ":kbd:`Ctrl+Left`"
+msgstr ":kbd:`Ctrl+Left`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:178
+msgid "Nudge left (5 Frames)"
+msgstr "حرکت به چپ (5 فریم)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:178
+msgid ":kbd:`Shift+Ctrl+Left`"
+msgstr ":kbd:`Shift+Ctrl+Left`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:179
+msgid "Nudge right (1 Frame)"
+msgstr "حرکت به راست (1 فریم)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:179
+msgid ":kbd:`Ctrl+Right`"
+msgstr ":kbd:`Ctrl+Right`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:180
+msgid "Nudge right (5 Frames)"
+msgstr "حرکت به راست (5 فریم)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:180
+msgid ":kbd:`Shift+Ctrl+Right`"
+msgstr ":kbd:`Shift+Ctrl+Right`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:181
+msgid "Open Help Contents"
+msgstr "باز کردن محتوای راهنما"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:181
+msgid ":kbd:`F1`"
+msgstr ":kbd:`F1`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:182
+msgid "Open Project..."
+msgstr "باز کردن پروژه..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:182
+msgid ":kbd:`Ctrl+O`"
+msgstr ":kbd:`Ctrl+O`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:183
+msgid "Paste"
+msgstr "چسباندن"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:183
+msgid ":kbd:`Ctrl+V`"
+msgstr ":kbd:`Ctrl+V`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid "Play/Pause Toggle"
+msgstr "تغییر پخش/توقف"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid ":kbd:`Space`"
+msgstr ":kbd:`Space`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid ":kbd:`Up`"
+msgstr ":kbd:`Up`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid ":kbd:`Down`"
+msgstr ":kbd:`Down`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:185
+msgid "Preferences"
+msgstr "تنظیمات"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:185
+msgid ":kbd:`Ctrl+P`"
+msgstr ":kbd:`Ctrl+P`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:186
+msgid "Preview File"
+msgstr "پیش‌نمایش فایل"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:186
+msgid ":kbd:`Alt+P`"
+msgstr ":kbd:`Alt+P`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:186 ../main_window.rst:223
+msgid ":kbd:`Double Click`"
+msgstr ":kbd:`Double Click`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:187
+msgid "Previous Frame"
+msgstr "فریم قبلی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:187
+msgid ":kbd:`Left`"
+msgstr ":kbd:`Left`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:187
+msgid ":kbd:`,`"
+msgstr ":kbd:`,`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:188
+msgid "Previous Marker"
+msgstr "نشانگر قبلی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:188
+msgid ":kbd:`Ctrl+Shift+M`"
+msgstr ":kbd:`Ctrl+Shift+M`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:188
+msgid ":kbd:`Alt+Left`"
+msgstr ":kbd:`Alt+Left`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:189 ../main_window.rst:413
+msgid "Properties"
+msgstr "ویژگی‌ها"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:189
+msgid ":kbd:`U`"
+msgstr ":kbd:`U`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:190
+msgid "Quit"
+msgstr "خروج"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:190
+msgid ":kbd:`Ctrl+Q`"
+msgstr ":kbd:`Ctrl+Q`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid "Razor Toggle"
+msgstr "تغییر ابزار تیغ"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid ":kbd:`C`"
+msgstr ":kbd:`C`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid ":kbd:`B`"
+msgstr ":kbd:`B`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid ":kbd:`R`"
+msgstr ":kbd:`R`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:192
+msgid "Redo"
+msgstr "انجام دوباره"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:192
+msgid ":kbd:`Ctrl+Shift+Z`"
+msgstr ":kbd:`Ctrl+Shift+Z`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:193
+msgid "Report a Bug..."
+msgstr "گزارش خطا..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:193
+msgid ":kbd:`F3`"
+msgstr ":kbd:`F3`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:194
+msgid "Rewind"
+msgstr "برگشت"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:194
+msgid ":kbd:`J`"
+msgstr ":kbd:`J`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:195 ../main_window.rst:196
+msgid "Save Current Frame"
+msgstr "ذخیره فریم فعلی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:195 ../main_window.rst:196
+msgid ":kbd:`Ctrl+Shift+Y`"
+msgstr ":kbd:`Ctrl+Shift+Y`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:197
+msgid "Save Project"
+msgstr "ذخیره پروژه"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:197
+msgid ":kbd:`Ctrl+S`"
+msgstr ":kbd:`Ctrl+S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:198
+msgid "Save Project As..."
+msgstr "ذخیره پروژه به عنوان..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:198
+msgid ":kbd:`Ctrl+Shift+S`"
+msgstr ":kbd:`Ctrl+Shift+S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:199
+msgid "Select All"
+msgstr "انتخاب همه"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:199
+msgid ":kbd:`Ctrl+A`"
+msgstr ":kbd:`Ctrl+A`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:200
+msgid "Select Item (Ripple)"
+msgstr "انتخاب آیتم (ریپل)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:200
+msgid ":kbd:`Alt+A`"
+msgstr ":kbd:`Alt+A`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:200
+msgid ":kbd:`Alt+Click`"
+msgstr ":kbd:`Alt+Click`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:201
+msgid "Select None"
+msgstr "هیچ‌کدام را انتخاب نکن"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:201
+msgid ":kbd:`Ctrl+Shift+A`"
+msgstr ":kbd:`Ctrl+Shift+A`"
+
+#: ../main_window.rst:202
+msgid "Share Feedback..."
+msgstr "اشتراک‌گذاری بازخورد..."
+
+#: ../main_window.rst:202
+msgid ":kbd:`F8`"
+msgstr ":kbd:`F8`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:203 ../main_window.rst:322
+msgid "Simple View"
+msgstr "نمای ساده"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:203
+msgid ":kbd:`Alt+Shift+0`"
+msgstr ":kbd:`Alt+Shift+0`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:204
+msgid "Slice All: Keep Both Sides"
+msgstr "برش همه: نگه داشتن هر دو طرف"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:204
+msgid ":kbd:`Ctrl+Shift+K`"
+msgstr ":kbd:`Ctrl+Shift+K`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:205
+msgid "Slice All: Keep Left Side"
+msgstr "برش همه: نگه داشتن سمت چپ"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:205
+msgid ":kbd:`Ctrl+Shift+J`"
+msgstr ":kbd:`Ctrl+Shift+J`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:206
+msgid "Slice All: Keep Right Side"
+msgstr "برش همه: نگه داشتن سمت راست"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:206
+msgid ":kbd:`Ctrl+Shift+L`"
+msgstr ":kbd:`Ctrl+Shift+L`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:207
+msgid "Slice Selected: Keep Both Sides"
+msgstr "برش انتخاب شده: نگه داشتن هر دو طرف"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:207
+msgid ":kbd:`Ctrl+K`"
+msgstr ":kbd:`Ctrl+K`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:208
+msgid "Slice Selected: Keep Left Side"
+msgstr "برش انتخاب شده: نگه داشتن سمت چپ"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:208
+msgid ":kbd:`Ctrl+J`"
+msgstr ":kbd:`Ctrl+J`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:209
+msgid "Slice Selected: Keep Right Side"
+msgstr "برش انتخاب شده: نگه داشتن سمت راست"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:209
+msgid ":kbd:`Ctrl+L`"
+msgstr ":kbd:`Ctrl+L`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:210
+msgid "Slice Selected: Keep Left (Ripple)"
+msgstr "برش انتخاب شده: نگه داشتن سمت چپ (ریپل)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:210
+msgid ":kbd:`W`"
+msgstr ":kbd:`W`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:211
+msgid "Slice Selected: Keep Right (Ripple)"
+msgstr "برش انتخاب شده: نگه داشتن سمت راست (ریپل)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:211
+msgid ":kbd:`Q`"
+msgstr ":kbd:`Q`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:212
+msgid "Snapping Toggle"
+msgstr "تغییر حالت چسبندگی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:212
+msgid ":kbd:`S`"
+msgstr ":kbd:`S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:213
+msgid "Split File"
+msgstr "تقسیم فایل"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:213
+msgid ":kbd:`Alt+S`"
+msgstr ":kbd:`Alt+S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:213
+msgid ":kbd:`Shift+Double Click`"
+msgstr ":kbd:`Shift+Double Click`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:214
+msgid "Thumbnail View"
+msgstr "نمای بندانگشتی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:214
+msgid ":kbd:`Ctrl+Page Down`"
+msgstr ":kbd:`Ctrl+Page Down`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:215
+msgid "Timing Toggle"
+msgstr "تغییر زمان‌بندی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:215
+msgid ":kbd:`T`"
+msgstr ":kbd:`T`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:216 ../main_window.rst:257
+msgid "Title"
+msgstr "عنوان"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:216
+msgid ":kbd:`Ctrl+T`"
+msgstr ":kbd:`Ctrl+T`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:217
+msgid "Translate this Application..."
+msgstr "ترجمه این برنامه..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:217
+msgid ":kbd:`F6`"
+msgstr ":kbd:`F6`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:218
+msgid "Undo"
+msgstr "واگرد"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:218
+msgid ":kbd:`Ctrl+Z`"
+msgstr ":kbd:`Ctrl+Z`"
+
+#: ../main_window.rst:219
+msgid "Update Available"
+msgstr "به‌روزرسانی موجود است"
+
+#: ../main_window.rst:219
+msgid ":kbd:`F9`"
+msgstr ":kbd:`F9`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:220
+msgid "View Toolbar"
+msgstr "نمایش نوار ابزار"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:220
+msgid ":kbd:`Ctrl+Shift+B`"
+msgstr ":kbd:`Ctrl+Shift+B`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:221
+msgid "Zoom In"
+msgstr "بزرگ‌نمایی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:221
+msgid ":kbd:`=`"
+msgstr ":kbd:`=`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:221
+msgid ":kbd:`Ctrl+=`"
+msgstr ":kbd:`Ctrl+=`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:222
+msgid "Zoom Out"
+msgstr "کوچک‌نمایی"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:222
+msgid ":kbd:`-`"
+msgstr ":kbd:`-`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:222
+msgid ":kbd:`Ctrl+-`"
+msgstr ":kbd:`Ctrl+-`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:223
+msgid "Zoom to Timeline"
+msgstr "نمایش کل تایم‌لاین"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:223
+msgid ":kbd:`\\\\`"
+msgstr ":kbd:`\\\\`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:223
+msgid ":kbd:`Shift+\\\\`"
+msgstr ":kbd:`Shift+\\\\`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:227
+msgid "Menu"
+msgstr "منو"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:228
+msgid ""
+"The following menu options are available on the main window on OpenShot. "
+"Most of these options can be accessed by the keyboard shortcuts mentioned "
+"above. On some Operating Systems (such as macOS) a few of these options are "
+"renamed and/or rearranged."
+msgstr ""
+"گزینه‌های منوی زیر در پنجره اصلی OpenShot در دسترس هستند. بیشتر این گزینه‌ها"
+" را می‌توان با کلیدهای میانبر ذکر شده در بالا فعال کرد. در برخی "
+"سیستم‌عامل‌ها (مانند macOS) برخی از این گزینه‌ها تغییر نام داده شده و/یا "
+"جابجا شده‌اند."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:236
+msgid "Menu Name"
+msgstr "نام منو"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:238
+msgid "File"
+msgstr "فایل"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:240
+msgid ":guilabel:`New Project` Create a blank new project."
+msgstr ":guilabel:`پروژه جدید` ایجاد یک پروژه خالی جدید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:241
+msgid ":guilabel:`Open Project` Open an existing project."
+msgstr ":guilabel:`بازکردن پروژه` بازکردن یک پروژه موجود."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:242
+msgid ":guilabel:`Recent Projects` Access recently opened projects."
+msgstr ":guilabel:`پروژه‌های اخیر` دسترسی به پروژه‌های اخیراً باز شده."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:243
+msgid ""
+":guilabel:`Recovery` Restore a previously saved version of your current "
+"project."
+msgstr ":guilabel:`بازیابی` بازگردانی نسخه‌ای ذخیره شده قبلی از پروژه جاری."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:244
+msgid ":guilabel:`Save Project` Save the current project."
+msgstr ":guilabel:`ذخیره پروژه` ذخیره پروژه جاری."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:245
+msgid ":guilabel:`Import Files` Import media files into the project."
+msgstr ":guilabel:`وارد کردن فایل‌ها` وارد کردن فایل‌های رسانه‌ای به پروژه."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:246
+msgid ""
+":guilabel:`Choose Profile` Select a project profile (*i.e. 1080p @ 30fps, "
+"720p @ 24fps, ...*)."
+msgstr ""
+":guilabel:`انتخاب پروفایل` انتخاب پروفایل پروژه (مثلاً 1080p @ 30fps، 720p @"
+" 24fps، ...)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:247
+msgid ""
+":guilabel:`Save Current Frame` Save the current preview video frame as an "
+"image (sometimes represented with a camera icon)."
+msgstr ""
+":guilabel:`ذخیره فریم جاری` ذخیره فریم ویدیوی پیش‌نمایش فعلی به صورت تصویر "
+"(گاهی با آیکون دوربین نمایش داده می‌شود)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:248
+msgid ""
+":guilabel:`Import Project` Import another project into the current project "
+"(*Adobe and Final Cut Pro formats partially supported*)."
+msgstr ""
+":guilabel:`وارد کردن پروژه` وارد کردن پروژه‌ای دیگر به پروژه جاری (فرمت‌های "
+"Adobe و Final Cut Pro تا حدی پشتیبانی می‌شوند)."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:249
+msgid ""
+":guilabel:`Export Project` Export the current project to a specified format "
+"(*EDL, Adobe, and Final Cut Pro formats partially supported*)."
+msgstr ""
+":guilabel:`برون‌ریزی پروژه` صادر کردن پروژه جاری به فرمت مشخص شده (فرمت‌های "
+"EDL، Adobe و Final Cut Pro تا حدی پشتیبانی می‌شوند)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:250
+msgid ":guilabel:`Quit` Exit the application."
+msgstr ":guilabel:`خروج` خروج از برنامه."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:251
+msgid "Edit"
+msgstr "ویرایش"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:253
+msgid ":guilabel:`Undo` Undo the last action."
+msgstr ":guilabel:`واگرد` بازگرداندن آخرین عملیات."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:254
+msgid ":guilabel:`Redo` Redo the last undone action."
+msgstr ":guilabel:`ازنو` انجام دوباره آخرین عملیات واگرد شده."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:255
+msgid ""
+":guilabel:`Clear` Clear the current history or waveform cached data. This "
+"makes the `.osp project` file a much smaller file size."
+msgstr ""
+":guilabel:`پاک کردن` پاک کردن تاریخچه فعلی یا داده‌های کش شده موج‌نما. این "
+"باعث کاهش حجم فایل پروژه `.osp` می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:256
+msgid ""
+":guilabel:`Preferences` Open the preferences dialog to customize settings."
+msgstr ":guilabel:`تنظیمات` باز کردن پنجره تنظیمات برای سفارشی‌سازی."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:259
+msgid ""
+":guilabel:`Title` Add a SVG vector title to the project. See "
+":ref:`text_and_titles_ref`."
+msgstr ""
+":guilabel:`عنوان` افزودن عنوان برداری SVG به پروژه. مراجعه کنید به "
+":ref:`text_and_titles_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:260
+msgid ""
+":guilabel:`Animated Title` Add an animated title to the project. See "
+":ref:`animated_titles_ref`."
+msgstr ""
+":guilabel:`عنوان متحرک` افزودن عنوان متحرک به پروژه. مراجعه کنید به "
+":ref:`animated_titles_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:261
+msgid "View"
+msgstr "نما"
+
+#: ../main_window.rst:263
+msgid ""
+":guilabel:`Simple View` and :guilabel:`Color View` switch or reset the main "
+"window layout."
+msgstr ""
+":guilabel:`نمای ساده` و :guilabel:`نمای رنگ` طرح‌بندی پنجره اصلی را تغییر یا"
+" بازنشانی می‌کنند."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:264
+msgid ""
+":guilabel:`My Views` Save, load, update, and delete your own named layouts. "
+"See :ref:`my_views_ref`."
+msgstr ""
+":guilabel:`نماهای من` طرح‌بندی‌های نام‌گذاری شده خود را ذخیره، بارگذاری، "
+"به‌روزرسانی و حذف کنید. به :ref:`my_views_ref` مراجعه کنید."
+
+#: ../main_window.rst:265
+msgid ":guilabel:`Docks` Show or hide various dockable panels."
+msgstr ":guilabel:`پنل‌ها` نمایش یا پنهان کردن پنل‌های قابل اتصال مختلف."
+
+#: ../main_window.rst:266
+msgid ""
+":guilabel:`Scopes` Show or hide scope docks, or open all scopes at once."
+msgstr ""
+":guilabel:`محدوده‌ها` نمایش یا پنهان کردن پنل‌های محدوده، یا باز کردن همه "
+"محدوده‌ها به‌طور همزمان."
+
+#: ../main_window.rst:267
+msgid ""
+":guilabel:`Window` Show or hide the main window toolbar, or toggle "
+"fullscreen mode."
+msgstr ""
+":guilabel:`پنجره` نمایش یا پنهان کردن نوار ابزار پنجره اصلی، یا تغییر حالت "
+"تمام‌صفحه."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:268
+msgid "Help"
+msgstr "راهنما"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:270
+msgid ":guilabel:`Contents` Open the user guide online."
+msgstr ":guilabel:`محتوا` باز کردن راهنمای کاربر به صورت آنلاین."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:271
+msgid ":guilabel:`Tutorial` Access the built-in tutorial for new users."
+msgstr ":guilabel:`آموزش` دسترسی به آموزش داخلی برای کاربران جدید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:272
+msgid ":guilabel:`Report a Bug` Report a bug or issue."
+msgstr ":guilabel:`گزارش اشکال` گزارش یک اشکال یا مشکل."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:273
+msgid ":guilabel:`Ask a Question` Ask a question about the software."
+msgstr ":guilabel:`پرسش` پرسیدن سوال درباره نرم‌افزار."
+
+#: ../main_window.rst:274
+msgid ""
+":guilabel:`Share Feedback` Open a survey about your experience with "
+"OpenShot."
+msgstr ""
+":guilabel:`اشتراک‌گذاری بازخورد` یک نظرسنجی درباره تجربه شما با OpenShot باز"
+" کنید."
+
+#: ../main_window.rst:275
+msgid ""
+":guilabel:`Update Available` Open the download page when a newer version is "
+"available."
+msgstr ""
+":guilabel:`به‌روزرسانی موجود است` صفحه دانلود را زمانی که نسخه جدیدتری موجود"
+" است باز کنید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:276
+msgid ":guilabel:`Translate` Contribute to translations of the software."
+msgstr ":guilabel:`ترجمه` مشارکت در ترجمه‌های نرم‌افزار."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:277
+msgid ":guilabel:`Donate` Make a donation to support the project."
+msgstr ":guilabel:`اهدا` اهدای کمک مالی برای حمایت از پروژه."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:278
+msgid ""
+":guilabel:`About` View information about the software (version, "
+"contributors, translators, changelog, and supporters)."
+msgstr ""
+":guilabel:`درباره` مشاهده اطلاعات درباره نرم‌افزار (نسخه، مشارکت‌کنندگان، "
+"مترجمان، تغییرات و حامیان)."
+
+#: ../main_window.rst:281
+msgid "Notifications"
+msgstr "اطلاعیه‌ها"
+
+#: ../main_window.rst:283
+msgid ""
+"OpenShot may show a notice near the top of the window when a newer version "
+"is available. Choose :guilabel:`Upgrade` to open the download page, or close"
+" the notice to hide it for that version. You can still open the download "
+"page from :guilabel:`Help → Update Available` or press :kbd:`F9` when an "
+"update is available."
+msgstr ""
+"OpenShot ممکن است هنگام وجود نسخه جدیدتر، اطلاعیه‌ای در بالای پنجره نمایش "
+"دهد. برای باز کردن صفحه دانلود، گزینه :guilabel:`Upgrade` را انتخاب کنید یا "
+"برای پنهان کردن اطلاعیه برای آن نسخه، آن را ببندید. همچنین می‌توانید صفحه "
+"دانلود را از :guilabel:`Help → Update Available` باز کنید یا هنگام وجود "
+"به‌روزرسانی، کلید :kbd:`F9` را فشار دهید."
+
+#: ../main_window.rst:288
+msgid ""
+"After you have spent some time editing, OpenShot may also invite you to "
+"share feedback. The survey is optional. You can open it from the notice or "
+"dismiss the invitation. At any time, choose :guilabel:`Help → Share "
+"Feedback` or press :kbd:`F8` to share your thoughts."
+msgstr ""
+"پس از صرف مدتی برای ویرایش، OpenShot ممکن است از شما دعوت کند تا بازخورد خود"
+" را به اشتراک بگذارید. این نظرسنجی اختیاری است. می‌توانید آن را از اطلاعیه "
+"باز کنید یا دعوت را رد کنید. در هر زمان، گزینه :guilabel:`Help → Share "
+"Feedback` را انتخاب کنید یا کلید :kbd:`F8` را فشار دهید تا نظرات خود را به "
+"اشتراک بگذارید."
+
+#: ../main_window.rst:295
+msgid ""
+"Use :guilabel:`Help→About OpenShot` to check your OpenShot version. Click "
+":guilabel:`Copy` next to the version number to copy a short version and "
+"system details report, including how OpenShot was installed. This is a "
+"useful way to share the information when reporting a bug or asking for help."
+msgstr ""
+"از :guilabel:`Help→About OpenShot` برای بررسی نسخه OpenShot خود استفاده "
+"کنید. روی :guilabel:`Copy` کنار شماره نسخه کلیک کنید تا نسخه کوتاه و گزارش "
+"جزئیات سیستم، از جمله نحوه نصب OpenShot را کپی کنید. این روش مفیدی برای به "
+"اشتراک گذاشتن اطلاعات هنگام گزارش خطا یا درخواست کمک است."
+
+#: ../main_window.rst:300
+msgid "Example output:"
+msgstr "خروجی نمونه:"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:315
+msgid "Views"
+msgstr "نماها"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:317
+msgid ""
+"The OpenShot main window is composed of multiple **docks**. These **docks** "
+"are arranged and snapped together into a grouping that we call a **View**. "
+"OpenShot includes :guilabel:`Simple View`, :guilabel:`Color View`, and "
+":guilabel:`My Views` (user-defined layouts)."
+msgstr ""
+"پنجره اصلی OpenShot از چندین **پنل** تشکیل شده است. این **پنل‌ها** به "
+"گونه‌ای مرتب و چسبیده شده‌اند که ما آن را یک **نمای** می‌نامیم. OpenShot "
+"شامل :guilabel:`نمای ساده`، :guilabel:`نمای رنگ` و :guilabel:`نماهای من` "
+"(طرح‌بندی‌های تعریف‌شده توسط کاربر) است."
+
+#: ../main_window.rst:323
+msgid ""
+"This is the **default** view, and is designed to be easy-to-use, especially "
+"for first-time users. It contains :guilabel:`Project Files` on the top left,"
+" :guilabel:`Preview Window` on the top right, and :guilabel:`Timeline` on "
+"the bottom. If you accidentally close or move a dock, you can quickly reset "
+"all the docks back to their default location using the "
+":guilabel:`View->Simple View` menu at the top of the screen."
+msgstr ""
+"این نمای **پیش‌فرض** است و برای استفاده آسان، به‌ویژه برای کاربران تازه‌کار "
+"طراحی شده است. شامل :guilabel:`فایل‌های پروژه` در بالا سمت چپ، "
+":guilabel:`پنجره پیش‌نمایش` در بالا سمت راست و :guilabel:`خط زمان` در پایین "
+"است. اگر به‌طور تصادفی یک پنل را ببندید یا جابجا کنید، می‌توانید با استفاده "
+"از منوی :guilabel:`نمای→نمای ساده` در بالای صفحه، همه پنل‌ها را سریع به مکان"
+" پیش‌فرض بازنشانی کنید."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:330
+msgid ""
+"This view is focused on color correction and scopes. It enlarges the video "
+"preview, hides file-management docks, keeps the timeline and properties "
+"visible, places the :guilabel:`Color Wheels` dock on the right, and tabifies"
+" the :guilabel:`Luma Waveform` and :guilabel:`Histogram` docks together "
+"below it."
+msgstr ""
+"این نما بر تصحیح رنگ و محدوده‌ها تمرکز دارد. پیش‌نمایش ویدیو را بزرگ می‌کند،"
+" پنل‌های مدیریت فایل را پنهان می‌کند، خط زمان و ویژگی‌ها را قابل مشاهده نگه "
+"می‌دارد، پنل :guilabel:`چرخ‌های رنگ` را در سمت راست قرار می‌دهد و پنل‌های "
+":guilabel:`شکل موج لوما` و :guilabel:`هیستوگرام` را به صورت تب کنار هم در "
+"زیر آن قرار می‌دهد."
+
+#: ../main_window.rst:335
+msgid "Recording View"
+msgstr "نمای ضبط"
+
+#: ../main_window.rst:336
+msgid ""
+"This view is focused on creating new recordings inside OpenShot. It shows "
+":guilabel:`Project Files`, :guilabel:`Video Preview`, :guilabel:`Timeline`, "
+"and the :guilabel:`Recording` dock. The :guilabel:`Properties` dock is "
+"grouped with :guilabel:`Project Files` as a tab, so you can show it from "
+":guilabel:`View->Docks->Properties` without disrupting the recording layout."
+msgstr ""
+"این نما بر ایجاد ضبط‌های جدید در OpenShot تمرکز دارد. شامل "
+":guilabel:`فایل‌های پروژه`، :guilabel:`پیش‌نمایش ویدیو`، :guilabel:`خط زمان`"
+" و پنل :guilabel:`ضبط` است. پنل :guilabel:`ویژگی‌ها` به صورت تب با "
+":guilabel:`فایل‌های پروژه` گروه‌بندی شده است، بنابراین می‌توانید آن را از "
+":guilabel:`نمای→پنل‌ها→ویژگی‌ها` بدون ایجاد اختلال در طرح ضبط نمایش دهید."
+
+#: ../main_window.rst:341
+msgid ""
+"The :guilabel:`Recording` dock can record microphone audio, screen capture, "
+"webcam video, or combinations of those sources. When screen and webcam are "
+"recorded together, OpenShot can place the webcam as a corner picture-in-"
+"picture clip. Those corner camera clips use normal clip properties after "
+"they are added to the timeline: :guilabel:`Gravity` chooses the corner, "
+":guilabel:`Scale X` and :guilabel:`Scale Y` set the corner size, "
+":guilabel:`Margin` creates the inset layout area that keeps the camera away "
+"from the screen edge, and :guilabel:`Corner Radius` rounds the camera clip "
+"without adding a separate Mask effect. See :ref:`clip_properties_ref` for "
+"details. See :ref:`recording_ref` for the complete recording workflow and "
+"all source options."
+msgstr ""
+"پنل :guilabel:`ضبط` می‌تواند صدای میکروفون، ضبط صفحه، ویدیو وب‌کم یا ترکیبی "
+"از این منابع را ضبط کند. وقتی صفحه و وب‌کم همزمان ضبط می‌شوند، OpenShot "
+"می‌تواند وب‌کم را به صورت کلیپ تصویر در تصویر در گوشه قرار دهد. این کلیپ‌های"
+" دوربین گوشه‌ای پس از اضافه شدن به خط زمان از ویژگی‌های معمول کلیپ استفاده "
+"می‌کنند: :guilabel:`گرانش` گوشه را انتخاب می‌کند، :guilabel:`مقیاس X` و "
+":guilabel:`مقیاس Y` اندازه گوشه را تنظیم می‌کنند، :guilabel:`حاشیه` ناحیه "
+"داخلی را ایجاد می‌کند که دوربین را از لبه صفحه دور نگه می‌دارد، و "
+":guilabel:`شعاع گوشه` کلیپ دوربین را بدون افزودن افکت ماسک جداگانه گرد "
+"می‌کند. برای جزئیات به :ref:`clip_properties_ref` مراجعه کنید. برای روند "
+"کامل ضبط و همه گزینه‌های منبع به :ref:`recording_ref` مراجعه کنید."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:352
+msgid "My Views"
+msgstr "نماهای من"
+
+#: ../main_window.rst:353
+msgid ""
+"**My Views** lets you save any dock arrangement as a named layout and recall"
+" it instantly. This is ideal for workflows that require switching between "
+"different editing modes — for example, a detailed audio mix layout and a "
+"focused color grading layout — without manually repositioning docks each "
+"time."
+msgstr ""
+"**نمای من** به شما امکان می‌دهد هر چیدمان پنل را به عنوان یک طرح‌بندی "
+"نام‌گذاری شده ذخیره کرده و فوراً آن را بازیابی کنید. این برای جریان‌های کاری"
+" که نیاز به جابجایی بین حالت‌های مختلف ویرایش دارند ایده‌آل است — برای مثال،"
+" یک طرح‌بندی دقیق میکس صدا و یک طرح‌بندی متمرکز بر درجه‌بندی رنگ — بدون نیاز"
+" به جابجایی دستی پنل‌ها هر بار."
+
+#: ../main_window.rst:357
+msgid ""
+"Each saved view captures the position, size, and visibility of every dock, "
+"as well as the timeline height. Saved views are stored in your project "
+"settings and persist across sessions."
+msgstr ""
+"هر نمای ذخیره‌شده موقعیت، اندازه و قابلیت مشاهده هر پنل را به همراه ارتفاع "
+"خط زمان ثبت می‌کند. نماهای ذخیره‌شده در تنظیمات پروژه شما ذخیره شده و بین "
+"جلسات حفظ می‌شوند."
+
+#: ../main_window.rst:360
+msgid "**View → My Views** menu options:"
+msgstr "گزینه‌های منوی **نمای → نمای من**:"
+
+#: ../main_window.rst:366
+msgid "Menu Item"
+msgstr "گزینه منو"
+
+#: ../main_window.rst:368
+msgid "List of user-defined views"
+msgstr "فهرست نماهای تعریف‌شده توسط کاربر"
+
+#: ../main_window.rst:369
+msgid ""
+"Click to restore that layout. The currently active view shows a checkmark."
+msgstr ""
+"برای بازیابی آن طرح‌بندی کلیک کنید. نمای فعال فعلی یک علامت تیک نشان می‌دهد."
+
+#: ../main_window.rst:370
+msgid "Update \"*[name]*\""
+msgstr "به‌روزرسانی «*[name]*»"
+
+#: ../main_window.rst:371
+msgid "Save your current dock arrangement over the active view, replacing it."
+msgstr "چیدمان پنل فعلی خود را روی نمای فعال ذخیره کنید و آن را جایگزین کنید."
+
+#: ../main_window.rst:372
+msgid "Delete \"*[name]*\""
+msgstr "حذف «*[name]*»"
+
+#: ../main_window.rst:373
+msgid "Remove the active view (asks for confirmation first)."
+msgstr "نمای فعال را حذف کنید (ابتدا درخواست تأیید می‌کند)."
+
+#: ../main_window.rst:374
+msgid "Save Current View As..."
+msgstr "ذخیره نمای فعلی به عنوان..."
+
+#: ../main_window.rst:375
+msgid "Name and save your current dock arrangement as a new view."
+msgstr ""
+"چیدمان پنل فعلی خود را نام‌گذاری کرده و به عنوان نمای جدید ذخیره کنید."
+
+#: ../main_window.rst:377
+msgid "**Typical workflow:**"
+msgstr "**روند کاری معمول:**"
+
+#: ../main_window.rst:379
+msgid "Arrange your docks exactly how you like them."
+msgstr "پنل‌های خود را دقیقاً همان‌طور که می‌خواهید مرتب کنید."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:380
+msgid ""
+"Open :guilabel:`View → My Views → Save Current View As...` and enter a name "
+"(e.g. *\"Audio Mix\"*)."
+msgstr ""
+"منوی :guilabel:`نمای → نماهای من → ذخیره نمای فعلی به عنوان...` را باز کنید "
+"و یک نام وارد کنید (مثلاً *«میکس صدا»*)."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:381
+msgid ""
+"Later, open :guilabel:`View → My Views` and click the view name to restore "
+"that layout instantly."
+msgstr ""
+"بعداً، منوی :guilabel:`نمای → نماهای من` را باز کنید و روی نام نما کلیک کنید"
+" تا آن طرح‌بندی فوراً بازیابی شود."
+
+#: ../main_window.rst:382
+msgid ""
+"If you adjust the layout and want to keep the changes, choose "
+":guilabel:`Update \"Audio Mix\"` to overwrite it."
+msgstr ""
+"اگر طرح‌بندی را تنظیم کردید و می‌خواهید تغییرات را حفظ کنید، گزینه "
+":guilabel:`به‌روزرسانی «میکس صدا»` را انتخاب کنید تا آن را بازنویسی کنید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:385
+msgid "Docks"
+msgstr "داک‌ها"
+
+#: ../main_window.rst:386
+msgid ""
+"Each widget on the OpenShot main window is contained in a **dock**. These "
+"docks can be dragged and snapped around the main window, and even grouped "
+"together (into tabs). OpenShot will always save your main window dock layout"
+" when you exit the program. Re-launching OpenShot will restore your custom "
+"dock layout automatically. Scope docks are grouped under "
+":guilabel:`View->Scopes`."
+msgstr ""
+"هر ویجت در پنجره اصلی OpenShot در یک **داک** قرار دارد. این داک‌ها را "
+"می‌توان کشید و در اطراف پنجره اصلی چسباند و حتی با هم گروه‌بندی کرد (به صورت"
+" تب‌ها). OpenShot همیشه چیدمان داک‌های پنجره اصلی شما را هنگام خروج از "
+"برنامه ذخیره می‌کند. بازراه‌اندازی OpenShot به طور خودکار چیدمان سفارشی داک "
+"شما را بازیابی می‌کند. داک‌های Scope زیر :guilabel:`View->Scopes` گروه‌بندی "
+"شده‌اند."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:395
+msgid "Dock Name"
+msgstr "نام داک"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:397
+msgid "Captions"
+msgstr "زیرنویس‌ها"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:398
+msgid ""
+"Manage and add captions or subtitles to your video project. Allows you to "
+"create, edit, and manage caption data. See :ref:`caption_effect_ref` effect."
+msgstr ""
+"مدیریت و افزودن زیرنویس یا کپشن به پروژه ویدیویی شما. امکان ایجاد، ویرایش و "
+"مدیریت داده‌های کپشن را فراهم می‌کند. به افکت :ref:`caption_effect_ref` "
+"مراجعه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:399
+msgid "Effects"
+msgstr "افکت‌ها"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:400
+msgid ""
+"Browse and apply video and audio effects to your video clips. Includes "
+"filters, color adjustments, and special effects. See :ref:`effects_ref`."
+msgstr ""
+"مرور و اعمال افکت‌های ویدئویی و صوتی روی کلیپ‌های ویدیویی شما. شامل فیلترها،"
+" تنظیمات رنگ و افکت‌های ویژه است. به :ref:`effects_ref` مراجعه کنید."
+
+#: ../main_window.rst:401
+msgid "Color Wheels"
+msgstr "چرخ‌های رنگ"
+
+#: ../main_window.rst:402
+msgid ""
+"Edit Color Grade wheel controls for global, shadows, midtones, and "
+"highlights from a dedicated right-side dock."
+msgstr ""
+"کنترل‌های چرخ درجه‌بندی رنگ برای کلی، سایه‌ها، تون‌های میانی و هایلایت‌ها را"
+" از یک داک اختصاصی در سمت راست ویرایش کنید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:403
+msgid "Emojis"
+msgstr "ایموجی‌ها"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:404
+msgid ""
+"Add emoji graphics to your video project. Choose from a variety of emojis to"
+" enhance your video content."
+msgstr ""
+"افزودن تصاویر ایموجی به پروژه ویدیویی شما. از میان انواع ایموجی‌ها برای "
+"بهبود محتوای ویدیویی خود انتخاب کنید."
+
+#: ../main_window.rst:405
+msgid "Histogram"
+msgstr "هیستوگرام"
+
+#: ../main_window.rst:406
+msgid ""
+"Analyze the tonal and channel distribution of the current preview frame."
+msgstr "توزیع تونال و کانال فریم پیش‌نمایش فعلی را تحلیل کنید."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:407
+msgid "Luma Waveform"
+msgstr "شکل موج لوما"
+
+#: ../main_window.rst:408
+msgid "Analyze brightness distribution across the current preview frame."
+msgstr "توزیع روشنایی در سراسر فریم پیش‌نمایش فعلی را تحلیل کنید."
+
+#: ../main_window.rst:409
+msgid "Audio Levels"
+msgstr "سطح‌های صوتی"
+
+#: ../main_window.rst:410
+msgid "Monitor audio level scope data for the current preview frame."
+msgstr "داده‌های محدوده سطح صوتی فریم پیش‌نمایش فعلی را نظارت کنید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:412
+msgid ""
+"View and manage all the media files imported into your project. Organize, "
+"filter, and tag video, audio, and image files. See :ref:`files_ref`."
+msgstr ""
+"مشاهده و مدیریت همه فایل‌های رسانه‌ای وارد شده به پروژه شما. سازماندهی، "
+"فیلتر و برچسب‌گذاری فایل‌های ویدئو، صدا و تصویر. به :ref:`files_ref` مراجعه "
+"کنید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:414
+msgid ""
+"View and edit the properties of a selected effect, transition, or clip. "
+"Adjust settings such as duration, size, position, etc... See "
+":ref:`clip_properties_ref`."
+msgstr ""
+"مشاهده و ویرایش ویژگی‌های یک افکت، انتقال یا کلیپ انتخاب شده. تنظیم "
+"پارامترهایی مانند مدت زمان، اندازه، موقعیت و غیره... به "
+":ref:`clip_properties_ref` مراجعه کنید."
+
+#: ../main_window.rst:415
+msgid "Recording"
+msgstr "ضبط"
+
+#: ../main_window.rst:416
+msgid ""
+"Record microphone audio, screen video, webcam video, or combined recordings."
+" See :ref:`recording_ref`."
+msgstr ""
+"صدای میکروفون، ویدئوی صفحه، ویدئوی وب‌کم یا ضبط‌های ترکیبی را ضبط کنید. به "
+":ref:`recording_ref` مراجعه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:417
+msgid "Transitions"
+msgstr "انتقالات"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:418
+msgid ""
+"Browse and apply transitions between video clips. Choose from a variety of "
+"transition wipes to create smooth changes between scenes. See "
+":ref:`transitions_ref`."
+msgstr ""
+"مرور و اعمال انتقال‌ها بین کلیپ‌های ویدیویی. از میان انواع انتقال‌های "
+"پاک‌کننده برای ایجاد تغییرات نرم بین صحنه‌ها انتخاب کنید. به "
+":ref:`transitions_ref` مراجعه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:419
+msgid "Video Preview"
+msgstr "پیش‌نمایش ویدئو"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:420
+msgid ""
+"Preview the current state of your video project. Allows you to play back and"
+" review your edits in real-time. See :ref:`playback_ref`."
+msgstr ""
+"پیش‌نمایش وضعیت فعلی پروژه ویدیویی شما. امکان پخش و بازبینی ویرایش‌ها به "
+"صورت زنده را فراهم می‌کند. به :ref:`playback_ref` مراجعه کنید."
+
+#: ../main_window.rst:422
+msgid ""
+"If you have accidentally closed or moved a dock and can no longer find it, "
+"there are a couple easy solutions. First, you can use the "
+":guilabel:`View->Simple View` menu option at the top of the screen, to "
+"restore the view back to its default. Or you can use the "
+":guilabel:`View->Docks->...` menu to show or hide specific dock widgets on "
+"the main window."
+msgstr ""
+"اگر به طور تصادفی یک داک را بسته یا جابجا کرده‌اید و دیگر نمی‌توانید آن را "
+"پیدا کنید، چند راه حل ساده وجود دارد. اول، می‌توانید از گزینه منوی "
+":guilabel:`View->Simple View` در بالای صفحه استفاده کنید تا نما به حالت "
+"پیش‌فرض بازگردد. یا می‌توانید از منوی :guilabel:`View->Docks->...` برای "
+"نمایش یا پنهان کردن ویجت‌های داک خاص در پنجره اصلی استفاده کنید."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Snapping toggles magnetic alignment. Timing Tool enables retiming by "
+#~ "dragging clip edges. Razor Tool cuts clips at the clicked position."
+#~ msgstr ""
+#~ "چسباندن، تراز مغناطیسی را فعال یا غیرفعال می‌کند. ابزار زمان‌بندی امکان "
+#~ "تغییر زمان با کشیدن لبه‌های کلیپ را فراهم می‌کند. ابزار تیغ کلیپ‌ها را در "
+#~ "موقعیت کلیک شده برش می‌دهد."
+
+#~ msgid ""
+#~ "Use :guilabel:`Help→About OpenShot` to check your OpenShot version. Click "
+#~ ":guilabel:`Copy` next to the version number to copy a short version and "
+#~ "system details report, which is the preferred way to share this information "
+#~ "when reporting a bug or asking for help."
+#~ msgstr ""
+#~ "برای بررسی نسخه OpenShot خود از :guilabel:`راهنما→درباره OpenShot` استفاده "
+#~ "کنید. روی :guilabel:`کپی` کنار شماره نسخه کلیک کنید تا نسخه کوتاه و گزارش "
+#~ "جزئیات سیستم کپی شود، که روش ترجیحی برای به اشتراک گذاشتن این اطلاعات هنگام "
+#~ "گزارش اشکال یا درخواست کمک است."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The ruler shows the time-scale, and the red line is the play-head. The play-"
+#~ "head represents the current playback position. Hold :kbd:`Shift` key while "
+#~ "dragging the playhead to snap to nearby clips."
+#~ msgstr ""
+#~ "خط‌کش مقیاس زمانی را نشان می‌دهد و خط قرمز سر پخش است. سر پخش موقعیت فعلی "
+#~ "پخش را نشان می‌دهد. هنگام کشیدن سر پخش، کلید :kbd:`Shift` را نگه دارید تا به"
+#~ " کلیپ‌های نزدیک بچسبد."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Freeze View"
+#~ msgstr "ثابت کردن نما"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+F`"
+#~ msgstr ":kbd:`Ctrl+F`"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Show All Docks"
+#~ msgstr "نمایش همه پنل‌ها"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+Shift+D`"
+#~ msgstr ":kbd:`Ctrl+Shift+D`"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Un-Freeze View"
+#~ msgstr "بازکردن قفل نما"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+Shift+F`"
+#~ msgstr ":kbd:`Ctrl+Shift+F`"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":guilabel:`Toolbar` Show or hide the main window toolbar."
+#~ msgstr ":guilabel:`نوار ابزار` نمایش یا مخفی کردن نوار ابزار پنجره اصلی."
+
+# Translated with gpt-4.1-mini
+#~ msgid ":guilabel:`Fullscreen` Toggle fullscreen mode."
+#~ msgstr ":guilabel:`تمام صفحه` تغییر حالت تمام صفحه."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Views` Switch or reset the main window layout (*Simple, Advanced,"
+#~ " Freeze, Show All*)."
+#~ msgstr ""
+#~ ":guilabel:`نماها` تغییر یا بازنشانی چیدمان پنجره اصلی (ساده، پیشرفته، قفل، "
+#~ "نمایش همه)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Docks` Show or hide various dockable panels (*Captions, Effects, "
+#~ "Emojis, Project Files, Properties, Transitions, Video Preview*)."
+#~ msgstr ""
+#~ ":guilabel:`پنل‌ها` نمایش یا مخفی کردن پنل‌های قابل اتصال مختلف (زیرنویس‌ها، "
+#~ "افکت‌ها، ایموجی‌ها، فایل‌های پروژه، ویژگی‌ها، انتقال‌ها، پیش‌نمایش ویدیو)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "This is the **default** view, and is designed to be easy-to-use, especially "
+#~ "for first-time users. It contains :guilabel:`Project Files` on the top left,"
+#~ " :guilabel:`Preview Window` on the top right, and :guilabel:`Timeline` on "
+#~ "the bottom. If you accidentally close or move a dock, you can quickly reset "
+#~ "all the docks back to their default location using the "
+#~ ":guilabel:`View->Views->Simple View` menu at the top of the screen."
+#~ msgstr ""
+#~ "این نمای **پیش‌فرض** است و به گونه‌ای طراحی شده که به‌ویژه برای کاربران "
+#~ "تازه‌کار آسان باشد. این نما شامل :guilabel:`فایل‌های پروژه` در بالا سمت چپ، "
+#~ ":guilabel:`پنجره پیش‌نمایش` در بالا سمت راست و :guilabel:`خط زمان` در پایین "
+#~ "است. اگر به‌طور تصادفی یک داک را ببندید یا جابه‌جا کنید، می‌توانید به سرعت "
+#~ "همه داک‌ها را به مکان پیش‌فرض خود با استفاده از منوی "
+#~ ":guilabel:`View->Views->Simple View` در بالای صفحه بازنشانی کنید."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Each widget on the OpenShot main window is contained in a **dock**. These "
+#~ "docks can be dragged and snapped around the main window, and even grouped "
+#~ "together (into tabs). OpenShot will always save your main window dock layout"
+#~ " when you exit the program. Re-launching OpenShot will restore your custom "
+#~ "dock layout automatically."
+#~ msgstr ""
+#~ "هر ویجت در پنجره اصلی OpenShot در یک **داک** قرار دارد. این داک‌ها را "
+#~ "می‌توان کشید و در اطراف پنجره اصلی چسباند و حتی با هم گروه‌بندی کرد (به صورت"
+#~ " تب‌ها). OpenShot همیشه چیدمان داک‌های پنجره اصلی شما را هنگام خروج از "
+#~ "برنامه ذخیره می‌کند. بازراه‌اندازی OpenShot به‌طور خودکار چیدمان سفارشی "
+#~ "داک‌های شما را بازیابی می‌کند."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "If you have accidentally closed or moved a dock and can no longer find it, "
+#~ "there are a couple easy solutions. First, you can use the "
+#~ ":guilabel:`View->Views->Simple View` menu option at the top of the screen, "
+#~ "to restore the view back to its default. Or you can use the "
+#~ ":guilabel:`View->Views->Docks->...` menu to show or hide specific dock "
+#~ "widgets on the main window."
+#~ msgstr ""
+#~ "اگر به‌طور تصادفی یک داک را بسته یا جابه‌جا کرده‌اید و دیگر نمی‌توانید آن را"
+#~ " پیدا کنید، چند راه حل ساده وجود دارد. ابتدا می‌توانید از گزینه منوی "
+#~ ":guilabel:`View->Views->Simple View` در بالای صفحه استفاده کنید تا نما را به"
+#~ " حالت پیش‌فرض بازگردانید. یا می‌توانید از منوی "
+#~ ":guilabel:`View->Views->Docks->...` برای نمایش یا پنهان کردن ویجت‌های داک "
+#~ "خاص در پنجره اصلی استفاده کنید."

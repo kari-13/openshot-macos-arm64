@@ -1,0 +1,407 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:22
+msgid "Installation"
+msgstr "Instalare"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:24
+msgid ""
+"The latest official **stable** version of OpenShot Video Editor for Linux, "
+"Mac, Chrome OS, and Windows can be downloaded from the official download "
+"page at https://www.openshot.org/download/. You can find our latest "
+"**unstable** versions (i.e. daily builds) at "
+"https://www.openshot.org/download#daily (these versions are updated very "
+"frequently, and often contain many improvements not yet released in our "
+"stable build)."
+msgstr ""
+"Ultima versiune oficială **stabilă** a OpenShot Video Editor pentru Linux, "
+"Mac, Chrome OS și Windows poate fi descărcată de pe pagina oficială de "
+"descărcare la https://www.openshot.org/download/. Puteți găsi cele mai "
+"recente versiuni **instabile** (adică build-uri zilnice) la "
+"https://www.openshot.org/download#daily (aceste versiuni sunt actualizate "
+"foarte frecvent și conțin adesea multe îmbunătățiri care nu au fost încă "
+"lansate în versiunea noastră stabilă)."
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:32
+msgid "Clean Install"
+msgstr "Instalare Curată"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:34
+msgid ""
+"If you are upgrading from a previous version of OpenShot or are experiencing"
+" a crash or error message after launching OpenShot, please see "
+":ref:`preferences_reset_ref` for instructions on clearing the previous "
+"``openshot.settings`` file (for a clean install with **default "
+"preferences**)."
+msgstr ""
+"Dacă faceți upgrade de la o versiune anterioară a OpenShot sau întâmpinați o"
+" eroare sau un mesaj de blocare după lansarea OpenShot, vă rugăm să "
+"consultați :ref:`preferences_reset_ref` pentru instrucțiuni privind "
+"ștergerea fișierului anterior ``openshot.settings`` (pentru o instalare "
+"curată cu **preferințe implicite**)."
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:39
+msgid "Windows (Installer)"
+msgstr "Windows (Program de instalare)"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:41
+msgid ""
+"Download the Windows installer from the `official download page "
+"<https://www.openshot.org/download/>`_ (the download page contains both "
+"64-bit and 32-bit versions), double click it, and follow the directions on "
+"screen. Once completed, OpenShot will be installed and available in your "
+"Start menu."
+msgstr ""
+"Descărcați programul de instalare pentru Windows de pe `pagina oficială de "
+"descărcare <https://www.openshot.org/download/>`_ (pagina de descărcare "
+"conține versiuni pe 64 și 32 de biți), faceți dublu clic pe el și urmați "
+"instrucțiunile de pe ecran. Odată finalizat, OpenShot va fi instalat și "
+"disponibil în meniul Start."
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:50
+msgid "Windows (Portable)"
+msgstr "Windows (Portabil)"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:52
+msgid ""
+"If you need to install OpenShot on Windows without Administrator "
+"permissions, we also support a portable installation process. Download the "
+"Windows installer from the `official download page "
+"<https://www.openshot.org/download/>`_, open the command prompt, and type "
+"the following commands:"
+msgstr ""
+"Dacă trebuie să instalați OpenShot pe Windows fără permisiuni de "
+"Administrator, suportăm și un proces de instalare portabil. Descărcați "
+"programul de instalare pentru Windows de pe `pagina oficială de descărcare "
+"<https://www.openshot.org/download/>`_, deschideți promptul de comandă și "
+"tastați următoarele comenzi:"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:67 ../installation.rst:185
+msgid "Mac"
+msgstr "Mac"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:69
+msgid ""
+"Download the DMG file from the `official download page "
+"<https://www.openshot.org/download/>`_, double click it, and then drag the "
+"OpenShot application icon into your **Applications** shortcut. This is very "
+"similar to how most Mac applications are installed. Now launch OpenShot from"
+" `Launchpad` or `Applications` in Finder."
+msgstr ""
+"Descărcați fișierul DMG de pe `pagina oficială de descărcare "
+"<https://www.openshot.org/download/>`_, faceți dublu clic pe el, apoi "
+"trageți pictograma aplicației OpenShot în scurtătura **Applications**. Acest"
+" proces este foarte similar cu modul în care sunt instalate majoritatea "
+"aplicațiilor Mac. Acum lansați OpenShot din `Launchpad` sau `Applications` "
+"în Finder."
+
+#: ../installation.rst:74
+msgid ""
+"The current Mac download is built for Intel Macs. On an Apple Silicon Mac, "
+"you can run this Intel version using Rosetta. A native Apple Silicon version"
+" is not currently available."
+msgstr ""
+"Descărcarea curentă pentru Mac este construită pentru Mac-urile Intel. Pe un"
+" Mac cu Apple Silicon, puteți rula această versiune Intel folosind Rosetta. "
+"O versiune nativă pentru Apple Silicon nu este disponibilă în prezent."
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:81
+msgid "Linux (AppImage)"
+msgstr "Linux (AppImage)"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:83
+msgid ""
+"Most Linux distributions have a version of OpenShot in their software "
+"repositories, which can be installed using your package manager / software "
+"store. However, these packaged versions are often very outdated (be sure to "
+"check the version number: :guilabel:`Help→About OpenShot`). For this reason,"
+" we recommend installing an AppImage from the `official download page "
+"<https://www.openshot.org/download/>`_."
+msgstr ""
+"Majoritatea distribuțiilor Linux au o versiune de OpenShot în depozitele lor"
+" software, care poate fi instalată folosind managerul de pachete sau "
+"magazinul de aplicații. Totuși, aceste versiuni ambalate sunt adesea foarte "
+"învechite (asigurați-vă că verificați numărul versiunii: "
+":guilabel:`Help→About OpenShot`). Din acest motiv, recomandăm instalarea "
+"unui AppImage de pe `pagina oficială de descărcare "
+"<https://www.openshot.org/download/>`_."
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:89
+msgid ""
+"Once downloaded, right click on the AppImage, choose Properties, and mark "
+"the file as **Executable**. Finally, double click the AppImage to launch "
+"OpenShot. If double clicking does not launch OpenShot, you can also right "
+"click on the AppImage, and choose `Execute` or `Run`. For a detailed guide "
+"on installing our AppImage and creating a launcher for it, see our `AppImage"
+" Installation Guide <https://github.com/OpenShot/openshot-qt/wiki/AppImage-"
+"Installation>`_."
+msgstr ""
+"După descărcare, faceți clic dreapta pe AppImage, alegeți Proprietăți și "
+"marcați fișierul ca **Executabil**. În final, faceți dublu clic pe AppImage "
+"pentru a lansa OpenShot. Dacă dublu clic nu lansează OpenShot, puteți face "
+"clic dreapta pe AppImage și alegeți `Execute` sau `Run`. Pentru un ghid "
+"detaliat despre instalarea AppImage-ului nostru și crearea unui lansator "
+"pentru acesta, consultați `Ghidul de instalare AppImage "
+"<https://github.com/OpenShot/openshot-qt/wiki/AppImage-Installation>`_."
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:98
+msgid "Unable to Launch AppImage?"
+msgstr "Nu se poate lansa AppImage?"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:99
+msgid ""
+"Please verify that the ``libfuse2`` library is installed, which is required "
+"to mount and read an AppImage. On newer versions of Ubuntu (i.e. 22.04+), "
+"``libfuse2`` is not installed by default. You can install it with the "
+"following command:"
+msgstr ""
+"Vă rugăm să verificați dacă biblioteca ``libfuse2`` este instalată, aceasta "
+"fiind necesară pentru a monta și citi un AppImage. Pe versiunile mai noi de "
+"Ubuntu (de ex. 22.04+), ``libfuse2`` nu este instalată implicit. O puteți "
+"instala cu următoarea comandă:"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:108
+msgid "Install AppImage Launcher"
+msgstr "Instalează AppImage Launcher"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:109
+msgid ""
+"If you plan on using OpenShot often, you will probably want an integrated "
+"launcher for our AppImage. We recommend using AppImageLauncher, which is the"
+" officially supported way to launch (and manage) AppImage files on your "
+"Linux desktop. If you are on a Debian-based distro (Ubuntu, Mint, etc...), "
+"there is an official AppImageLauncher PPA:"
+msgstr ""
+"Dacă intenționați să folosiți frecvent OpenShot, probabil veți dori un "
+"lansator integrat pentru AppImage-ul nostru. Recomandăm utilizarea "
+"AppImageLauncher, care este metoda oficial susținută pentru a lansa (și "
+"gestiona) fișiere AppImage pe desktopul Linux. Dacă folosiți o distribuție "
+"bazată pe Debian (Ubuntu, Mint etc.), există un PPA oficial pentru "
+"AppImageLauncher:"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:121
+msgid "Linux (PPA)"
+msgstr "Linux (PPA)"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:123
+msgid ""
+"For Debian-based Linux distributions (Ubuntu, Mint, etc...), we also have a "
+"PPA (Personal Package Archive), which adds our official OpenShot software "
+"repository to your package manager, making it possible to install our latest"
+" version, without relying on our AppImages."
+msgstr ""
+"Pentru distribuțiile Linux bazate pe Debian (Ubuntu, Mint etc.), avem și un "
+"PPA (Personal Package Archive), care adaugă depozitul oficial de software "
+"OpenShot în managerul dumneavoastră de pachete, făcând posibilă instalarea "
+"celei mai recente versiuni, fără a depinde de AppImage-urile noastre."
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:128
+msgid "Stable PPA (Contains only official releases)"
+msgstr "PPA Stabil (Conține doar versiuni oficiale)"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:137
+msgid "Daily PPA (Highly experimental and unstable, for testers)"
+msgstr "PPA Zilnic (Foarte experimental și instabil, pentru testeri)"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:146
+msgid "Chrome OS (Chromebook)"
+msgstr "Chrome OS (Chromebook)"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:148
+msgid ""
+"Chrome OS supports Linux apps, but this feature is off by default. You can "
+"turn it on in *Settings*. Once Linux is enabled, you can install and run "
+"OpenShot Linux AppImages on any *x86-based* Chromebook. The command below "
+"will download our AppImage and configure your system to run OpenShot "
+"successfully."
+msgstr ""
+"Chrome OS suportă aplicații Linux, dar această funcție este dezactivată "
+"implicit. O puteți activa în *Setări*. Odată ce Linux este activat, puteți "
+"instala și rula AppImage-urile OpenShot Linux pe orice Chromebook *bazat pe "
+"x86*. Comanda de mai jos va descărca AppImage-ul nostru și va configura "
+"sistemul pentru a rula OpenShot cu succes."
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:153
+msgid "Navigate to *chrome://os-settings/crostini* (Copy/Paste)"
+msgstr "Navigați la *chrome://os-settings/crostini* (Copiați/Lipiți)"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:154
+msgid "Under \"Linux (Beta)\" select \"Turn On\". Default values are fine."
+msgstr ""
+"Sub \"Linux (Beta)\" selectați \"Pornește\". Valorile implicite sunt "
+"potrivite."
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:156
+msgid ""
+"When the Terminal appears (i.e. black window), Copy/Paste the following "
+"command:"
+msgstr ""
+"Când apare Terminalul (fereastră neagră), copiați/lipiți următoarea comandă:"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:156
+msgid ""
+"``bash <(wget -O - http://openshot.org/files/chromeos/install-stable.sh)``"
+msgstr ""
+"``bash <(wget -O - http://openshot.org/files/chromeos/install-stable.sh)``"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:159
+msgid "Previous Versions"
+msgstr "Versiuni Anterioare"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:161
+msgid ""
+"To download old versions of OpenShot Video Editor, you can visit "
+"https://github.com/OpenShot/openshot-qt/tags. Click on the version number "
+"you need, and scroll to the bottom, under the release notes. You will find "
+"download links for each operating system. Download the appropriate version "
+"for your computer, and follow the installation instructions above."
+msgstr ""
+"Pentru a descărca versiuni vechi ale OpenShot Video Editor, puteți vizita "
+"https://github.com/OpenShot/openshot-qt/tags. Faceți clic pe numărul "
+"versiunii de care aveți nevoie și derulați până jos, sub notele de lansare. "
+"Veți găsi linkuri de descărcare pentru fiecare sistem de operare. Descărcați"
+" versiunea potrivită pentru calculatorul dumneavoastră și urmați "
+"instrucțiunile de instalare de mai sus."
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:166
+msgid ""
+"NOTE: Projects (\\*.osp) made with newer versions of OpenShot Video Editor "
+"might not support older versions."
+msgstr ""
+"NOTĂ: Proiectele (\\*.osp) create cu versiuni mai noi ale OpenShot Video "
+"Editor s-ar putea să nu fie compatibile cu versiunile mai vechi."
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:169
+msgid "Uninstall"
+msgstr "Dezinstalare"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:171
+msgid ""
+"To fully uninstall OpenShot from your system, you must **manually delete** "
+"the ``.openshot_qt`` folder: ``~/.openshot_qt/`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\``, which contains all settings and "
+"files used by OpenShot. Be sure to **backup** any recovery files of your "
+"existing projects first (\\*.osp files). Please see "
+":ref:`preferences_reset_ref` for instructions on clearing the previous "
+"``openshot.settings`` file (for a clean install with **default "
+"preferences**)."
+msgstr ""
+"Pentru a dezinstala complet OpenShot de pe sistemul dumneavoastră, trebuie "
+"să **ștergeți manual** folderul ``.openshot_qt``: ``~/.openshot_qt/`` sau "
+"``C:\\Users\\USERNAME\\.openshot_qt\\``, care conține toate setările și "
+"fișierele folosite de OpenShot. Asigurați-vă că faceți **backup** pentru "
+"orice fișiere de recuperare ale proiectelor existente (fișiere \\*.osp). Vă "
+"rugăm să consultați :ref:`preferences_reset_ref` pentru instrucțiuni despre "
+"cum să ștergeți fișierul anterior ``openshot.settings`` (pentru o instalare "
+"curată cu **preferințe implicite**)."
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:178
+msgid "Windows"
+msgstr "Windows"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:180
+msgid "Open **Control Panel** from the Start menu"
+msgstr "Deschideți **Panoul de control** din meniul Start"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:181
+msgid "Click on **Programs and Features**"
+msgstr "Faceți clic pe **Programe și caracteristici**"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:182
+msgid "Select OpenShot Video Editor, then click **Uninstall**"
+msgstr "Selectați OpenShot Video Editor, apoi faceți clic pe **Dezinstalare**"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:187
+msgid "Open **Finder** and go to **Applications**"
+msgstr "Deschideți **Finder** și accesați **Aplicații**"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:188
+msgid "Drag the OpenShot Video Editor icon to the **Trash** in the Dock"
+msgstr ""
+"Trageți pictograma OpenShot Video Editor în **Coșul de gunoi** din Dock"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:189
+msgid "Right-click **Trash** and choose **Empty Trash**"
+msgstr ""
+"Faceți clic dreapta pe **Coșul de gunoi** și alegeți **Golește coșul de "
+"gunoi**"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:192
+msgid "Ubuntu (Linux)"
+msgstr "Ubuntu (Linux)"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:194
+msgid "Open up **Files**"
+msgstr "Deschideți **Fișiere**"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:195
+msgid "Locate the ``*.AppImage`` and delete the file"
+msgstr "Găsiți fișierul ``*.AppImage`` și ștergeți-l"
+
+# Translated with gpt-4.1-mini
+#: ../installation.rst:196
+msgid ""
+"OR click Activities, Right-click on OpenShot Video Editor icon, and choose "
+"**Remove AppImage from System**"
+msgstr ""
+"SAU faceți clic pe Activități, faceți clic dreapta pe pictograma OpenShot "
+"Video Editor și alegeți **Elimină AppImage din sistem**"

@@ -1,0 +1,5078 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:23
+msgid "Clips"
+msgstr "Klip"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:25
+msgid ""
+"In OpenShot, when you add project files (videos, images, and audio) to the "
+"timeline, they appear as **clips** represented by rounded rectangles. These "
+"clips come with different properties that influence how they're rendered and"
+" composited. These properties include the clip's :guilabel:`position`, "
+":guilabel:`layer`, :guilabel:`scale`, :guilabel:`location`, "
+":guilabel:`rotation`, :guilabel:`alpha`, and :guilabel:`composite (blend "
+"mode)`."
+msgstr ""
+"Di OpenShot, saat Anda menambahkan file proyek (video, gambar, dan audio) ke"
+" timeline, mereka muncul sebagai **klip** yang diwakili oleh persegi panjang"
+" dengan sudut membulat. Klip ini memiliki berbagai properti yang memengaruhi"
+" cara mereka dirender dan dikompositkan. Properti ini termasuk "
+":guilabel:`posisi`, :guilabel:`lapisan`, :guilabel:`skala`, "
+":guilabel:`lokasi`, :guilabel:`rotasi`, :guilabel:`alpha`, dan "
+":guilabel:`komposit (mode campuran)` klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:30
+msgid ""
+"You can examine a clip's properties by either right-clicking and selecting "
+":guilabel:`Properties` or by double-clicking the clip. The properties are "
+"listed alphabetically in the Property dock, and you can use the filter "
+"options at the top to find specific properties. See "
+":ref:`clip_properties_ref` for a list of all clip properties."
+msgstr ""
+"Anda dapat memeriksa properti klip dengan mengklik kanan dan memilih "
+":guilabel:`Properti` atau dengan mengklik dua kali klip tersebut. Properti "
+"ditampilkan secara alfabetis di dock Properti, dan Anda dapat menggunakan "
+"opsi filter di bagian atas untuk menemukan properti tertentu. Lihat "
+":ref:`clip_properties_ref` untuk daftar semua properti klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:34
+msgid "To **make adjustments** to a property:"
+msgstr "Untuk **melakukan penyesuaian** pada sebuah properti:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:36
+msgid "For **rough** changes, you can drag the slider."
+msgstr "Untuk perubahan **kasar**, Anda dapat menyeret penggeser."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:37
+msgid ""
+"For **precise** adjustments, double-click the property to enter exact "
+"values."
+msgstr ""
+"Untuk penyesuaian **tepat**, klik dua kali properti untuk memasukkan nilai "
+"yang tepat."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:38
+msgid ""
+"If the property involves **non-numerical choices**, right-click or double-"
+"click for options."
+msgstr ""
+"Jika properti melibatkan pilihan **non-numerik**, klik kanan atau klik dua "
+"kali untuk opsi."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:40
+msgid ""
+"Clip properties play a vital role in the :ref:`animation_ref` system. "
+"Whenever you modify a clip property, a ``key-frame`` is automatically "
+"created at the current playhead position. If you want a property change to "
+"apply throughout the entire clip, ensure the playhead is positioned at or "
+"before the clip's start, before making adjustments. You can easily find a "
+"clip's start by using the :guilabel:`next/previous marker` feature on the "
+"Timeline toolbar."
+msgstr ""
+"Properti klip memainkan peran penting dalam sistem :ref:`animation_ref`. "
+"Setiap kali Anda mengubah properti klip, sebuah ``key-frame`` secara "
+"otomatis dibuat pada posisi playhead saat ini. Jika Anda ingin perubahan "
+"properti berlaku sepanjang klip, pastikan playhead berada di atau sebelum "
+"awal klip sebelum melakukan penyesuaian. Anda dapat dengan mudah menemukan "
+"awal klip dengan menggunakan fitur :guilabel:`penanda berikutnya/sebelumnya`"
+" pada toolbar Timeline."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51
+msgid "Name"
+msgstr "Nama"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51 ../clips.rst:76 ../clips.rst:189 ../clips.rst:228
+#: ../clips.rst:701
+msgid "Description"
+msgstr "Deskripsi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "Clip 1"
+msgstr "Klip 1"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "A video clip"
+msgstr "Sebuah klip video"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid "Transition"
+msgstr "Transisi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid ""
+"A gradual fade transition between the 2 clip images (does not affect the "
+"audio)"
+msgstr ""
+"Transisi pudar bertahap antara 2 gambar klip (tidak memengaruhi audio)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "Clip 2"
+msgstr "Klip 2"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "An image clip"
+msgstr "Sebuah klip gambar"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:61
+msgid "Trimming & Slicing"
+msgstr "Memangkas & Memotong"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:62
+msgid ""
+"OpenShot provides multiple ways to adjust the start and end trim positions "
+"of a clip (also known as trimming). The most common method is to click and "
+"drag the left or right edge of a clip. Trimming can be used to remove "
+"unwanted sections from the beginning or ending of a clip."
+msgstr ""
+"OpenShot menyediakan berbagai cara untuk menyesuaikan posisi pemangkasan "
+"awal dan akhir sebuah klip (juga dikenal sebagai memangkas). Metode yang "
+"paling umum adalah mengklik dan menyeret tepi kiri atau kanan klip. "
+"Memangkas dapat digunakan untuk menghapus bagian yang tidak diinginkan dari "
+"awal atau akhir klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:66
+msgid ""
+"To **slice** a clip into smaller sections, OpenShot offers several options, "
+"including dividing or slicing a clip at the play-head (*vertical playback "
+"line*) position. Trimming and slicing clips are powerful tools that allow "
+"users to rearrange sections of video and remove unwanted parts."
+msgstr ""
+"Untuk **memotong** klip menjadi bagian yang lebih kecil, OpenShot menawarkan"
+" beberapa opsi, termasuk membagi atau memotong klip pada posisi play-head "
+"(*garis pemutaran vertikal*). Memangkas dan memotong klip adalah alat yang "
+"kuat yang memungkinkan pengguna mengatur ulang bagian video dan menghapus "
+"bagian yang tidak diinginkan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:70
+msgid ""
+"Here is a list of all methods for cutting and/or trimming clips in OpenShot:"
+msgstr ""
+"Berikut adalah daftar semua metode untuk memotong dan/atau memangkas klip di"
+" OpenShot:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:76
+msgid "Trim & Slice Method"
+msgstr "Metode Memangkas & Memotong"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:78
+msgid "**Resizing Edge**"
+msgstr "**Mengubah Ukuran Tepi**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:78
+msgid ""
+"Mouse over the edge of a clip and resize it by dragging **left** or "
+"**right**. The left edge of a clip can not be resized smaller than 0.0 "
+"(*i.e. the first frame of the file*). The right edge of a clip can not be "
+"resized larger than the duration of a file (*i.e. the last frame of a "
+"file*)."
+msgstr ""
+"Arahkan mouse ke tepi klip dan ubah ukurannya dengan menyeret ke **kiri** "
+"atau **kanan**. Tepi kiri klip tidak dapat diubah ukurannya menjadi lebih "
+"kecil dari 0.0 (*yaitu frame pertama dari file*). Tepi kanan klip tidak "
+"dapat diubah ukurannya menjadi lebih besar dari durasi file (*yaitu frame "
+"terakhir dari file*)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:79
+msgid "**Slice All**"
+msgstr "**Potong Semua**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:79
+msgid ""
+"When the play-head overlaps multiple clips, right-click the play-head and "
+"choose :guilabel:`Slice All`. This will cut/slice all intersecting clips on "
+"all tracks. You can also use the keyboard shortcuts :kbd:`Ctrl+Shift+K` to "
+"keep both sides, :kbd:`Ctrl+Shift+J` to keep the left side, or "
+":kbd:`Ctrl+Shift+L` to keep the right side of the clips."
+msgstr ""
+"Saat play-head tumpang tindih dengan beberapa klip, klik kanan pada play-"
+"head dan pilih :guilabel:`Potong Semua`. Ini akan memotong semua klip yang "
+"berpotongan di semua trek. Anda juga dapat menggunakan pintasan keyboard "
+":kbd:`Ctrl+Shift+K` untuk menyimpan kedua sisi, :kbd:`Ctrl+Shift+J` untuk "
+"menyimpan sisi kiri, atau :kbd:`Ctrl+Shift+L` untuk menyimpan sisi kanan "
+"klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:83
+msgid "**Slice Selected**"
+msgstr "**Potong yang Dipilih**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:83
+msgid ""
+"When the play-head overlaps a clip, right-click the clip and choose "
+":guilabel:`Slice`. This provides options to keep the left side, the right "
+"side, or both sides of the clip. Alternatively, use :kbd:`Ctrl+K` to keep "
+"both sides, :kbd:`Ctrl+J` to keep the left side, or :kbd:`Ctrl+L` to keep "
+"the right side."
+msgstr ""
+"Saat play-head tumpang tindih dengan sebuah klip, klik kanan pada klip dan "
+"pilih :guilabel:`Potong`. Ini menyediakan opsi untuk menyimpan sisi kiri, "
+"sisi kanan, atau kedua sisi klip. Alternatifnya, gunakan :kbd:`Ctrl+K` untuk"
+" menyimpan kedua sisi, :kbd:`Ctrl+J` untuk menyimpan sisi kiri, atau "
+":kbd:`Ctrl+L` untuk menyimpan sisi kanan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:86
+msgid "**Slice Selected (Ripple)**"
+msgstr "**Potong yang Dipilih (Ripple)**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:86
+msgid ""
+"Slice the selected clip(s) at the play-head position, keeping either the "
+"left side (shortcut: :kbd:`W`) or the right side (shortcut: :kbd:`Q`), while"
+" rippling the gap removal across the current track."
+msgstr ""
+"Potong klip yang dipilih pada posisi play-head, menyimpan sisi kiri "
+"(pintasan: :kbd:`W`) atau sisi kanan (pintasan: :kbd:`Q`), sambil menggeser "
+"penghapusan celah di seluruh trek saat ini."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:88
+msgid "**Razor Tool**"
+msgstr "**Alat Pisau Cukur**"
+
+#: ../clips.rst:88
+msgid ""
+"The :guilabel:`razor tool` from the **Timeline Toolbar** cuts a clip at the "
+"position where it is clicked. See :ref:`razor_tool_ref` for cut guides and "
+"frame previews. Use :kbd:`SHIFT` to slice and keep the left side, or "
+":kbd:`CTRL` to keep the right side."
+msgstr ""
+"Alat :guilabel:`razor` dari **Timeline Toolbar** memotong klip pada posisi "
+"saat diklik. Lihat :ref:`razor_tool_ref` untuk panduan potong dan pratinjau "
+"frame. Gunakan :kbd:`SHIFT` untuk memotong dan menyimpan sisi kiri, atau "
+":kbd:`CTRL` untuk menyimpan sisi kanan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:90
+msgid "**Split File Dialog**"
+msgstr "**Dialog Pisah File**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:90
+msgid ""
+"Right-click on a file and choose :guilabel:`Split File`. This opens a dialog"
+" that allows you to create multiple clips from a single video file."
+msgstr ""
+"Klik kanan pada sebuah file dan pilih :guilabel:`Pisah File`. Ini membuka "
+"dialog yang memungkinkan Anda membuat beberapa klip dari satu file video."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:94
+msgid ""
+"Keep in mind that the above cutting methods also have "
+":ref:`keyboard_shortcut_ref`, to save even more time."
+msgstr ""
+"Ingatlah bahwa metode pemotongan di atas juga memiliki "
+":ref:`keyboard_shortcut_ref`, untuk menghemat lebih banyak waktu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:96
+msgid ""
+"If multiple selected clips and/or transitions share the same left edge or "
+"right edge, you can drag that shared edge once to trim them together."
+msgstr ""
+"Jika beberapa klip dan/atau transisi yang dipilih memiliki tepi kiri atau "
+"tepi kanan yang sama, Anda dapat menyeret tepi bersama itu sekali untuk "
+"memotongnya bersama-sama."
+
+#: ../clips.rst:102
+msgid "Razor Tool"
+msgstr "Alat Razor"
+
+#: ../clips.rst:104
+msgid ""
+"Use the **Razor Tool** to preview a cut and split a clip or transition "
+"directly on the timeline. Each click affects only the item under the "
+"pointer."
+msgstr ""
+"Gunakan **Alat Razor** untuk melihat pratinjau potongan dan membagi klip "
+"atau transisi langsung di timeline. Setiap klik hanya memengaruhi item di "
+"bawah penunjuk."
+
+#: ../clips.rst:107
+msgid "Enable :guilabel:`Razor Tool` in the **Timeline Toolbar**."
+msgstr "Aktifkan :guilabel:`Alat Razor` di **Timeline Toolbar**."
+
+#: ../clips.rst:108
+msgid ""
+"Move over the clip you want to cut. A vertical dashed guide marks the exact "
+"frame boundary, with a timecode and the action that clicking will perform."
+msgstr ""
+"Gerakkan kursor di atas klip yang ingin Anda potong. Panduan garis putus-"
+"putus vertikal menandai batas frame yang tepat, dengan timecode dan aksi "
+"yang akan dilakukan saat diklik."
+
+#: ../clips.rst:110
+msgid ""
+"While playback is paused, **Video Preview** shows the source frame of the "
+"hovered clip, including its time mapping. Higher tracks cannot obscure this "
+"preview. The playhead stays in place, and the guide's timecode is timeline "
+"time."
+msgstr ""
+"Saat pemutaran dijeda, **Pratinjau Video** menampilkan frame sumber dari "
+"klip yang diarahkan, termasuk pemetaan waktunya. Trek yang lebih tinggi "
+"tidak dapat menutupi pratinjau ini. Playhead tetap di tempat, dan timecode "
+"panduan adalah waktu timeline."
+
+#: ../clips.rst:113
+msgid "Click to split. Razor stays enabled so you can make more cuts."
+msgstr ""
+"Klik untuk membagi. Razor tetap aktif sehingga Anda dapat membuat lebih "
+"banyak potongan."
+
+#: ../clips.rst:114
+msgid ""
+"Press :kbd:`Esc`, or toggle the toolbar button again, to return to normal "
+"editing."
+msgstr ""
+"Tekan :kbd:`Esc`, atau alihkan tombol toolbar lagi, untuk kembali ke "
+"pengeditan normal."
+
+#: ../clips.rst:116
+msgid ""
+"Moving away from the clip or leaving Razor mode restores the preview at the "
+"playhead. Hovering during playback does not interrupt playback. Like edge "
+"trimming, Razor previews the individual source rather than the composed "
+"timeline. Hovering a transition previews its mask source."
+msgstr ""
+"Menjauh dari klip atau keluar dari mode Razor mengembalikan pratinjau di "
+"playhead. Mengarahkan kursor saat pemutaran tidak menghentikan pemutaran. "
+"Seperti pemangkasan tepi, Razor menampilkan pratinjau sumber individual "
+"daripada timeline yang disusun. Mengarahkan kursor pada transisi menampilkan"
+" pratinjau sumber maskernya."
+
+#: ../clips.rst:121
+msgid "Razor actions"
+msgstr "Aksi Razor"
+
+#: ../clips.rst:125
+msgid "Action"
+msgstr "Aksi"
+
+#: ../clips.rst:126
+msgid "Result"
+msgstr "Hasil"
+
+#: ../clips.rst:127
+msgid "Click"
+msgstr "Klik"
+
+#: ../clips.rst:128
+msgid ""
+"Split at the guide and keep both sides. The previewed frame starts the right"
+" side."
+msgstr ""
+"Bagi di panduan dan simpan kedua sisi. Frame yang dipratinjau memulai sisi "
+"kanan."
+
+#: ../clips.rst:129
+msgid ":kbd:`Shift+Click`"
+msgstr ":kbd:`Shift+Click`"
+
+#: ../clips.rst:130
+msgid ""
+"Keep the left side of the guide. The right side is shaded to show what will "
+"be removed."
+msgstr ""
+"Simpan sisi kiri panduan. Sisi kanan diberi bayangan untuk menunjukkan "
+"bagian yang akan dihapus."
+
+#: ../clips.rst:131
+msgid ":kbd:`Ctrl+Click`"
+msgstr ":kbd:`Ctrl+Click`"
+
+#: ../clips.rst:132
+msgid ""
+"Keep the right side. The left side is shaded to show what will be removed."
+msgstr ""
+"Simpan sisi kanan. Sisi kiri diberi bayangan untuk menunjukkan bagian yang "
+"akan dihapus."
+
+#: ../clips.rst:133
+msgid ":kbd:`Alt+Shift+Click`"
+msgstr ":kbd:`Alt+Shift+Click`"
+
+#: ../clips.rst:134
+msgid ""
+"Keep the left side and close the gap, shifting later items on the same track"
+" left."
+msgstr ""
+"Simpan sisi kiri dan tutup celah, menggeser item berikutnya di trek yang "
+"sama ke kiri."
+
+#: ../clips.rst:135
+msgid ":kbd:`Alt+Ctrl+Click`"
+msgstr ":kbd:`Alt+Ctrl+Click`"
+
+#: ../clips.rst:136
+msgid ""
+"Keep the right side and close the gap, shifting later items on the same "
+"track left."
+msgstr ""
+"Simpan sisi kanan dan tutup celah, menggeser item berikutnya di trek yang "
+"sama ke kiri."
+
+#: ../clips.rst:137
+msgid ":kbd:`W` / :kbd:`Q` while hovering"
+msgstr ":kbd:`W` / :kbd:`Q` saat mengarahkan kursor"
+
+#: ../clips.rst:138
+msgid ""
+"Use the existing ripple-slice shortcuts at the pointer: keep left (:kbd:`W`)"
+" or right (:kbd:`Q`) and close the gap. Customized bindings work too."
+msgstr ""
+"Gunakan pintasan ripple-slice yang ada di penunjuk: simpan kiri (:kbd:`W`) "
+"atau kanan (:kbd:`Q`) dan tutup celah. Pengikatan khusus juga berfungsi."
+
+#: ../clips.rst:141
+msgid ""
+"Holding :kbd:`Alt` with :kbd:`Shift` or :kbd:`Ctrl` adds **Close gap** to "
+"the hint. The red shading shows the portion being removed. These operations "
+"reuse **Slice Selected (Ripple)**; they move later clips and transitions on "
+"the same track, not on other tracks. Outside Razor hover, the ripple "
+"shortcuts retain their normal selected-item/playhead behavior. A locked or "
+"invalid Razor target does not fall back to cutting a different selected "
+"clip."
+msgstr ""
+"Menahan :kbd:`Alt` bersama :kbd:`Shift` atau :kbd:`Ctrl` menambahkan **Tutup"
+" celah** ke petunjuk. Bayangan merah menunjukkan bagian yang dihapus. "
+"Operasi ini menggunakan kembali **Slice Selected (Ripple)**; mereka "
+"memindahkan klip dan transisi berikutnya di trek yang sama, bukan di trek "
+"lain. Di luar hover Razor, pintasan ripple mempertahankan perilaku normal "
+"item terpilih/playhead. Target Razor yang terkunci atau tidak valid tidak "
+"beralih ke memotong klip terpilih lain."
+
+#: ../clips.rst:148
+msgid ""
+"Cuts align to project frames. With **Snapping** enabled, the Razor guide "
+"uses the same snap targets and distance tolerance as other timeline edits: "
+"clip and transition edges, markers, the playhead, and the hovered clip's "
+"keyframe targets. The hovered item's own endpoints are excluded. Preview, "
+"mouse cuts, and ripple shortcuts all use the guide's snapped boundary. "
+"Toggle the timeline's existing **Snapping** button to cut freely between "
+"these targets."
+msgstr ""
+"Potongan sejajar dengan frame proyek. Dengan **Snapping** diaktifkan, "
+"panduan Razor menggunakan target snap dan toleransi jarak yang sama seperti "
+"pengeditan timeline lainnya: tepi klip dan transisi, penanda, playhead, dan "
+"target keyframe klip yang diarahkan. Titik akhir item yang diarahkan sendiri"
+" dikecualikan. Pratinjau, potongan mouse, dan pintasan ripple semuanya "
+"menggunakan batas snap panduan. Alihkan tombol **Snapping** timeline yang "
+"ada untuk memotong bebas di antara target ini."
+
+#: ../clips.rst:155
+msgid ""
+"Without snapping to a target, :kbd:`Shift+Click` includes the frame under "
+"the pointer in the left side, placing the guide at the following frame "
+"boundary. When snapped, the snapped boundary takes priority for all cut "
+"modes."
+msgstr ""
+"Tanpa snap ke target, :kbd:`Shift+Click` menyertakan frame di bawah penunjuk"
+" di sisi kiri, menempatkan panduan pada batas frame berikutnya. Saat "
+"tersnap, batas snap memiliki prioritas untuk semua mode potong."
+
+#: ../clips.rst:159
+msgid ""
+"Locked tracks, empty space, and boundaries that would leave an empty side do"
+" not show a valid cut guide. Zoom in for finer frame selection, and use "
+"**Undo** to reverse a cut."
+msgstr ""
+"Trek terkunci, ruang kosong, dan batas yang akan meninggalkan sisi kosong "
+"tidak menampilkan panduan potong yang valid. Perbesar untuk seleksi frame "
+"yang lebih halus, dan gunakan **Undo** untuk membatalkan potongan."
+
+#: ../clips.rst:163
+msgid ""
+"To cut several clips at the playhead instead, use **Slice Selected** or "
+"**Slice All**, described above."
+msgstr ""
+"Untuk memotong beberapa klip di playhead, gunakan **Slice Selected** atau "
+"**Slice All**, seperti yang dijelaskan di atas."
+
+#: ../clips.rst:167
+msgid "Clip controls while zoomed in"
+msgstr "Kontrol klip saat diperbesar"
+
+#: ../clips.rst:169
+msgid ""
+"When a clip's start scrolls off screen, its title, effect badges, and menu "
+"stay near the left side of the visible timeline. Click an effect badge to "
+"access that effect, or use the title's dropdown to open the clip menu. The "
+"controls stay within the visible portion of their clip and shorten as space "
+"runs out."
+msgstr ""
+"Saat awal klip bergulir keluar layar, judul, lencana efek, dan menu tetap di"
+" dekat sisi kiri timeline yang terlihat. Klik lencana efek untuk mengakses "
+"efek tersebut, atau gunakan dropdown judul untuk membuka menu klip. Kontrol "
+"tetap dalam bagian klip yang terlihat dan memendek saat ruang habis."
+
+#: ../clips.rst:174
+msgid ""
+"Only these controls follow the viewport. The clip's outline, thumbnails, "
+"waveform, and trim handles remain at their actual timeline positions. A "
+"small inset separates the pinned controls from the viewport edge."
+msgstr ""
+"Hanya kontrol ini yang mengikuti viewport. Garis besar klip, thumbnail, "
+"gelombang suara, dan pegangan trim tetap pada posisi timeline sebenarnya. "
+"Sebuah inset kecil memisahkan kontrol yang dipasang dari tepi viewport."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:179
+msgid "Selections"
+msgstr "Seleksi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:180
+msgid ""
+"Selecting clips and transitions on the timeline is an essential part of "
+"editing in OpenShot. Multiple selection methods are available to streamline "
+"your workflow, enabling efficient editing of clips and transitions."
+msgstr ""
+"Memilih klip dan transisi di timeline adalah bagian penting dari pengeditan "
+"di OpenShot. Berbagai metode seleksi tersedia untuk memperlancar alur kerja "
+"Anda, memungkinkan pengeditan klip dan transisi yang efisien."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:183
+msgid "Here is a list of all methods for selecting clips in OpenShot:"
+msgstr "Berikut adalah daftar semua metode untuk memilih klip di OpenShot:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:189
+msgid "Selection Method"
+msgstr "Metode Seleksi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:191
+msgid "**Box Selection**"
+msgstr "**Seleksi Kotak**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:191
+msgid ""
+"Click and drag a selection box around clips or transitions to select "
+"multiple items at once. Hold down :kbd:`Ctrl` to add to your current "
+"selection."
+msgstr ""
+"Klik dan seret kotak seleksi di sekitar klip atau transisi untuk memilih "
+"beberapa item sekaligus. Tahan :kbd:`Ctrl` untuk menambahkan ke seleksi saat"
+" ini."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:192
+msgid "**Click Selection**"
+msgstr "**Seleksi Klik**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:192
+msgid ""
+"Click on a clip or transition to select it. This will deselect all other "
+"items unless you hold down :kbd:`Ctrl`."
+msgstr ""
+"Klik pada klip atau transisi untuk memilihnya. Ini akan membatalkan pilihan "
+"semua item lain kecuali Anda menahan :kbd:`Ctrl`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:193
+msgid "**Add to Selection**"
+msgstr "**Tambahkan ke Seleksi**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:193
+msgid ""
+"Hold down :kbd:`Ctrl` while clicking to add or remove clips from the current"
+" selection, allowing you to select non-adjacent clips."
+msgstr ""
+"Tahan :kbd:`Ctrl` saat mengklik untuk menambah atau menghapus klip dari "
+"seleksi saat ini, memungkinkan Anda memilih klip yang tidak bersebelahan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:194
+msgid "**Range Selection**"
+msgstr "**Seleksi Rentang**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:194
+msgid ""
+"Hold down :kbd:`Shift` while clicking to select a range of clips/transitions"
+" from the previous selection to the new selection. This supports ranges that"
+" span multiple tracks as well."
+msgstr ""
+"Tahan :kbd:`Shift` saat mengklik untuk memilih rentang klip/transisi dari "
+"seleksi sebelumnya ke seleksi baru. Ini juga mendukung rentang yang "
+"melintasi beberapa trek."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:195
+msgid "**Ripple Selection**"
+msgstr "**Seleksi Ripple**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:195
+msgid ""
+"Hold down :kbd:`Alt` while clicking to ripple select all clips/transitions "
+"from your selection to the end of the track. This always adds to your "
+"current selection, even if :kbd:`Ctrl` is not pressed."
+msgstr ""
+"Tahan :kbd:`Alt` saat mengklik untuk memilih ripple semua klip/transisi dari"
+" seleksi Anda hingga akhir trek. Ini selalu menambahkan ke seleksi saat ini,"
+" bahkan jika :kbd:`Ctrl` tidak ditekan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:196
+msgid "**Clear Selection**"
+msgstr "**Bersihkan Seleksi**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:196
+msgid ""
+"Click anywhere on the timeline or on a new clip/transition to reset the "
+"current selection, unless :kbd:`Ctrl` is pressed."
+msgstr ""
+"Klik di mana saja pada timeline atau pada klip/transisi baru untuk mengatur "
+"ulang seleksi saat ini, kecuali :kbd:`Ctrl` ditekan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:197
+msgid "**Select All**"
+msgstr "**Pilih Semua**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:197
+msgid ""
+"Press :kbd:`Ctrl+A` to select all clips and transitions on the timeline."
+msgstr ""
+"Tekan :kbd:`Ctrl+A` untuk memilih semua klip dan transisi di timeline."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:198
+msgid "**Select None**"
+msgstr "**Batalkan Semua Pilihan**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:198
+msgid ""
+"Press :kbd:`Ctrl+Shift+A` to deselect all clips and transitions on the "
+"timeline."
+msgstr ""
+"Tekan :kbd:`Ctrl+Shift+A` untuk membatalkan pilihan semua klip dan transisi "
+"di timeline."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:201
+msgid ""
+"Mastering these selection techniques will streamline your editing process, "
+"especially when dealing with complex projects. For more advanced tips on "
+"selection and editing, refer to the :ref:`clips_cutting_slicing_ref` "
+"section."
+msgstr ""
+"Menguasai teknik seleksi ini akan memperlancar proses pengeditan Anda, "
+"terutama saat menangani proyek yang kompleks. Untuk tips lebih lanjut "
+"tentang seleksi dan pengeditan, lihat bagian "
+":ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:207
+msgid "Context Menu"
+msgstr "Menu Konteks"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:208
+msgid ""
+"OpenShot has tons of great preset animations and clip properties, such as "
+"fading, sliding, zooming, reversing time, adjusting volume, etc... These "
+"presets can be accessed by right-clicking on a clip, revealing the context "
+"menu. A preset sets one (or more) clip properties for the user without "
+"needing to manually set the key-frame clip properties. See "
+":ref:`clip_properties_ref`."
+msgstr ""
+"OpenShot memiliki banyak animasi preset dan properti klip yang hebat, "
+"seperti fading, sliding, zooming, membalik waktu, mengatur volume, dll... "
+"Preset ini dapat diakses dengan klik kanan pada klip, menampilkan menu "
+"konteks. Sebuah preset mengatur satu (atau lebih) properti klip untuk "
+"pengguna tanpa perlu mengatur properti key-frame secara manual. Lihat "
+":ref:`clip_properties_ref`."
+
+#: ../clips.rst:213
+msgid ""
+"Some presets allow the user to target either the start, end, or entire clip,"
+" and most presets allow the user to reset a specific clip property. For "
+"example, when using the :guilabel:`Audio → Volume` presets, the user has the"
+" following menu options:"
+msgstr ""
+"Beberapa preset memungkinkan pengguna untuk menargetkan awal, akhir, atau "
+"seluruh klip, dan sebagian besar preset memungkinkan pengguna untuk mengatur"
+" ulang properti klip tertentu. Misalnya, saat menggunakan preset "
+":guilabel:`Audio → Volume`, pengguna memiliki opsi menu berikut:"
+
+#: ../clips.rst:217
+msgid "**Reset Volume** — resets the volume to the original level."
+msgstr "**Atur Ulang Volume** — mengatur ulang volume ke tingkat asli."
+
+#: ../clips.rst:218
+msgid ""
+"**Start of Clip** — the volume change applies at the beginning of the clip."
+msgstr "**Awal Klip** — perubahan volume diterapkan di awal klip."
+
+#: ../clips.rst:219
+msgid "**End of Clip** — the volume change applies at the end of the clip."
+msgstr "**Akhir Klip** — perubahan volume diterapkan di akhir klip."
+
+#: ../clips.rst:220
+msgid "**Entire Clip** — the volume change applies to the entire clip."
+msgstr "**Seluruh Klip** — perubahan volume diterapkan ke seluruh klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:228
+msgid "Preset Name"
+msgstr "Nama Preset"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:230 ../clips.rst:618
+msgid "Copy / Cut / Paste"
+msgstr "Salin / Potong / Tempel"
+
+#: ../clips.rst:230
+msgid ""
+"Copy selected clip data, cut selected clips, or paste copied clip data. Copy"
+" supports full clips, effects, and keyframe groups."
+msgstr ""
+"Salin data klip yang dipilih, potong klip yang dipilih, atau tempel data "
+"klip yang disalin. Salin mendukung klip penuh, efek, dan grup keyframe."
+
+#: ../clips.rst:231
+msgid "Align"
+msgstr "Ratakan"
+
+#: ../clips.rst:231
+msgid ""
+"Align the left or right edge of multiple selected clips and transitions "
+"(only shown when multiple clips are selected)."
+msgstr ""
+"Ratakan tepi kiri atau kanan dari beberapa klip dan transisi yang dipilih "
+"(hanya ditampilkan saat beberapa klip dipilih)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:232 ../clips.rst:244
+msgid "Fade"
+msgstr "Fade"
+
+#: ../clips.rst:232
+msgid ""
+"Fade the clip in or out — automatically fades video (alpha) and/or audio "
+"(volume) based on what the clip contains."
+msgstr ""
+"Lunturkan klip masuk atau keluar — secara otomatis melunturkan video (alpha)"
+" dan/atau audio (volume) berdasarkan isi klip."
+
+#: ../clips.rst:233 ../clips.rst:261
+msgid "Motion"
+msgstr "Gerakan"
+
+#: ../clips.rst:233
+msgid ""
+"Add animated motion to a clip: slide in/out, bounce, blur, wipe/focus-wipe, "
+"zoom, emphasis effects at the playhead, camera movements, and scrolling "
+"credits. Only shown for visual clips."
+msgstr ""
+"Tambahkan gerakan animasi ke klip: geser masuk/keluar, pantulan, blur, "
+"sapuan/sapuan fokus, zoom, efek penekanan di playhead, gerakan kamera, dan "
+"kredit bergulir. Hanya ditampilkan untuk klip visual."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:234 ../clips.rst:496
+msgid "Transform"
+msgstr "Transformasi"
+
+#: ../clips.rst:234
+msgid ""
+"Apply geometric presets to a clip: rotate/flip, crop, or snap to a corner "
+"layout. Also provides a **No Transform** reset. Only shown for visual clips."
+msgstr ""
+"Terapkan preset geometris ke klip: putar/balik, potong, atau tempel ke tata "
+"letak sudut. Juga menyediakan reset **Tanpa Transformasi**. Hanya "
+"ditampilkan untuk klip visual."
+
+#: ../clips.rst:235 ../clips.rst:397
+msgid "Look"
+msgstr "Tampilan"
+
+#: ../clips.rst:235
+msgid ""
+"Apply visual style presets: color grades, film grain, analog tape, sharpen, "
+"blur, shadow, and glow effects. Includes **Adjust Colors** (Color Wheels "
+"editor) and **Analyze Colors** (video scopes). Only shown for visual clips."
+msgstr ""
+"Terapkan preset gaya visual: gradasi warna, butiran film, pita analog, "
+"tajamkan, blur, bayangan, dan efek cahaya. Termasuk **Sesuaikan Warna** "
+"(editor Roda Warna) dan **Analisis Warna** (skop video). Hanya ditampilkan "
+"untuk klip visual."
+
+#: ../clips.rst:236 ../clips.rst:328
+msgid "Speed"
+msgstr "Kecepatan"
+
+#: ../clips.rst:236
+msgid ""
+"Reverse, repeat, speed up, or slow down video. Includes Freeze and Freeze & "
+"Zoom options."
+msgstr ""
+"Balik, ulangi, percepat, atau perlambat video. Termasuk opsi Bekukan dan "
+"Bekukan & Zoom."
+
+#: ../clips.rst:237 ../clips.rst:444
+msgid "Audio"
+msgstr "Audio"
+
+#: ../clips.rst:237
+msgid ""
+"Control audio properties: adjust volume levels, fade volume in/out, separate"
+" audio channels, show/hide the timeline waveform, or open the Audio Levels "
+"scope."
+msgstr ""
+"Kontrol properti audio: sesuaikan tingkat volume, lunturkan volume "
+"masuk/keluar, pisahkan saluran audio, tampilkan/sembunyikan gelombang waktu,"
+" atau buka skop Tingkat Audio."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:238 ../clips.rst:471
+msgid "Slice"
+msgstr "Potong"
+
+#: ../clips.rst:238
+msgid ""
+"Cut the clip at the play-head position, with options to keep either side, "
+"both sides, or ripple-delete one side. Only shown when the playhead overlaps"
+" the clip."
+msgstr ""
+"Potong klip pada posisi playhead, dengan opsi untuk menyimpan salah satu "
+"sisi, kedua sisi, atau hapus bergelombang satu sisi. Hanya ditampilkan saat "
+"playhead tumpang tindih dengan klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:239 ../clips.rst:610
+msgid "Properties"
+msgstr "Properti"
+
+#: ../clips.rst:239
+msgid "Show the properties panel for a clip."
+msgstr "Tampilkan panel properti untuk sebuah klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:240 ../clips.rst:642
+msgid "Remove Clip"
+msgstr "Hapus Klip"
+
+#: ../clips.rst:240
+msgid "Remove a clip from the timeline."
+msgstr "Hapus klip dari timeline."
+
+#: ../clips.rst:245
+msgid ""
+"The :guilabel:`Fade` preset creates a smooth fade-in or fade-out on the "
+"selected clip. It automatically fades **video** (alpha/opacity) and/or "
+"**audio** (volume) depending on what the clip contains — a video clip gets "
+"both, an audio-only clip gets only a volume fade, and an image clip gets "
+"only an alpha fade."
+msgstr ""
+"Preset :guilabel:`Fade` membuat luntur masuk atau keluar yang halus pada "
+"klip yang dipilih. Ini secara otomatis melunturkan **video** (alpha/opacity)"
+" dan/atau **audio** (volume) tergantung pada isi klip — klip video "
+"mendapatkan keduanya, klip hanya audio hanya mendapatkan luntur volume, dan "
+"klip gambar hanya mendapatkan luntur alpha."
+
+#: ../clips.rst:249
+msgid ":guilabel:`No Fade` — removes all fade keyframes."
+msgstr ":guilabel:`Tanpa Luntur` — menghapus semua keyframe luntur."
+
+#: ../clips.rst:250
+msgid ""
+":guilabel:`Fade In` → :guilabel:`Fast` / :guilabel:`Slow` — fades from "
+"transparent/silent at the start of the clip."
+msgstr ""
+":guilabel:`Luntur Masuk` → :guilabel:`Cepat` / :guilabel:`Lambat` — luntur "
+"dari transparan/senyap di awal klip."
+
+#: ../clips.rst:251
+msgid ""
+":guilabel:`Fade Out` → :guilabel:`Fast` / :guilabel:`Slow` — fades to "
+"transparent/silent at the end of the clip."
+msgstr ""
+":guilabel:`Luntur Keluar` → :guilabel:`Cepat` / :guilabel:`Lambat` — luntur "
+"ke transparan/senyap di akhir klip."
+
+#: ../clips.rst:252
+msgid ""
+":guilabel:`Fade In and Out` → :guilabel:`Fast` / :guilabel:`Slow` — applies "
+"both a fade-in at the start and a fade-out at the end."
+msgstr ""
+":guilabel:`Luntur Masuk dan Keluar` → :guilabel:`Cepat` / :guilabel:`Lambat`"
+" — menerapkan luntur masuk di awal dan luntur keluar di akhir."
+
+#: ../clips.rst:254
+msgid ""
+"Fast fades span approximately 1 second; Slow fades span approximately 3 "
+"seconds. See :ref:`clip_alpha_ref` and :ref:`clip_volume_ref` key-frames."
+msgstr ""
+"Luntur cepat berlangsung sekitar 1 detik; luntur lambat berlangsung sekitar "
+"3 detik. Lihat :ref:`clip_alpha_ref` dan :ref:`clip_volume_ref` keyframe."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:257
+msgid ""
+"**Usage Example:** Applying a fade-out to a video clip to gently conclude a "
+"scene."
+msgstr ""
+"**Contoh Penggunaan:** Menerapkan efek fade-out pada klip video untuk "
+"mengakhiri adegan dengan lembut."
+
+#: ../clips.rst:258
+msgid ""
+"**Tip:** Fade and Volume fade are independent — use :guilabel:`Fade` for a "
+"combined video+audio fade, or use :guilabel:`Audio → Volume` to fade only "
+"the audio."
+msgstr ""
+"**Tips:** Luntur dan luntur volume adalah independen — gunakan "
+":guilabel:`Fade` untuk luntur gabungan video+audio, atau gunakan "
+":guilabel:`Audio → Volume` untuk hanya melunturkan audio."
+
+#: ../clips.rst:262
+msgid ""
+"The :guilabel:`Motion` menu adds animated movement to visual clips using "
+"keyframe presets. It is organized into several submenus. See "
+":ref:`clip_location_x_ref` and :ref:`clip_scale_x_ref` key-frames."
+msgstr ""
+"Menu :guilabel:`Motion` menambahkan gerakan animasi ke klip visual "
+"menggunakan preset keyframe. Menu ini diatur dalam beberapa submenu. Lihat "
+":ref:`clip_location_x_ref` dan :ref:`clip_scale_x_ref` keyframe."
+
+#: ../clips.rst:265
+msgid ":guilabel:`No Motion` — removes all motion keyframes from the clip."
+msgstr ""
+":guilabel:`Tanpa Gerakan` — menghapus semua keyframe gerakan dari klip."
+
+#: ../clips.rst:266
+msgid ":guilabel:`In` — entrance animations applied at the start of the clip:"
+msgstr ":guilabel:`Masuk` — animasi masuk diterapkan di awal klip:"
+
+#: ../clips.rst:268
+msgid ""
+"**Back In** (From Bottom / Left / Right / Top) — clip overshoots and springs"
+" back into position."
+msgstr ""
+"**Kembali Masuk** (Dari Bawah / Kiri / Kanan / Atas) — klip melewati posisi "
+"dan memantul kembali ke posisi."
+
+#: ../clips.rst:269
+msgid "**Blur In** — clip fades in from a motion blur."
+msgstr "**Blur Masuk** — klip memudar masuk dari blur gerakan."
+
+#: ../clips.rst:270
+msgid ""
+"**Bounce In** (Center / From Bottom / Left / Right / Top) — clip bounces as "
+"it enters."
+msgstr ""
+"**Pantulan Masuk** (Tengah / Dari Bawah / Kiri / Kanan / Atas) — klip "
+"memantul saat masuk."
+
+#: ../clips.rst:271
+msgid ""
+"**Focus Wipe In** (Circle Expand / Circle Shrink / From Bottom / Left / "
+"Right / Top) — clip is revealed by a wipe while sharpening from blur into "
+"focus."
+msgstr ""
+"**Sapuan Fokus Masuk** (Perluasan Lingkaran / Penyusutan Lingkaran / Dari "
+"Bawah / Kiri / Kanan / Atas) — klip ditampilkan dengan sapuan sambil "
+"mempertajam dari blur ke fokus."
+
+#: ../clips.rst:272
+msgid "**Pop In** — clip scales up quickly from nothing."
+msgstr "**Muncul Cepat** — klip membesar dengan cepat dari ketiadaan."
+
+#: ../clips.rst:273
+msgid ""
+"**Slide In** (From Bottom / Left / Right / Top) — clip slides onto the "
+"screen."
+msgstr ""
+"**Geser Masuk** (Dari Bawah / Kiri / Kanan / Atas) — klip meluncur ke layar."
+
+#: ../clips.rst:274
+msgid "**Spiral In** — clip rotates in while scaling up."
+msgstr "**Spiral Masuk** — klip berputar masuk sambil membesar."
+
+#: ../clips.rst:275
+msgid ""
+"**Wipe In** (Circle Expand / Circle Shrink / From Bottom / Left / Right / "
+"Top) — clip is revealed by a wipe."
+msgstr ""
+"**Sapuan Masuk** (Perluasan Lingkaran / Penyusutan Lingkaran / Dari Bawah / "
+"Kiri / Kanan / Atas) — klip ditampilkan dengan sapuan."
+
+#: ../clips.rst:277
+msgid ""
+":guilabel:`Out` — exit animations applied at the end of the clip (mirrors "
+"the In options: Back Out, Blur Out, Bounce Out, Focus Wipe Out, Pop Out, "
+"Slide Out, Spiral Out, Wipe Out)."
+msgstr ""
+":guilabel:`Keluar` — animasi keluar diterapkan di akhir klip (mencerminkan "
+"opsi Masuk: Kembali Keluar, Blur Keluar, Pantulan Keluar, Sapuan Fokus "
+"Keluar, Muncul Keluar, Geser Keluar, Spiral Keluar, Sapuan Keluar)."
+
+#: ../clips.rst:279
+msgid ""
+":guilabel:`Emphasis` — short attention-grabbing animations **inserted at the"
+" current playhead position** (not applied across the whole clip). Useful for"
+" mid-clip highlights: **Bounce**, **Flash**, **Heartbeat**, **Jello**, "
+"**Pulse**, **Rubber Band**, **Shake X**, **Shake Y**, **Swing**, **Tada**, "
+"**Wobble**."
+msgstr ""
+":guilabel:`Penekanan` — animasi singkat yang menarik perhatian **disisipkan "
+"pada posisi playhead saat ini** (tidak diterapkan di seluruh klip). Berguna "
+"untuk sorotan tengah klip: **Bounce**, **Flash**, **Heartbeat**, **Jello**, "
+"**Pulse**, **Rubber Band**, **Shake X**, **Shake Y**, **Swing**, **Tada**, "
+"**Wobble**."
+
+#: ../clips.rst:281
+msgid ""
+":guilabel:`Camera` — simulates camera movement on the clip by animating "
+"scale and position:"
+msgstr ""
+":guilabel:`Kamera` — mensimulasikan gerakan kamera pada klip dengan "
+"menganimasikan skala dan posisi:"
+
+#: ../clips.rst:283
+msgid "**Zoom** → In / Out — a simple push-in or pull-out."
+msgstr ""
+"**Zoom** → Masuk / Keluar — dorongan masuk atau tarikan keluar yang "
+"sederhana."
+
+#: ../clips.rst:284
+msgid ""
+"**Pan** → Auto Direction / Left to Right / Right to Left / Top to Bottom / "
+"Bottom to Top — a lateral camera pan. *Auto Direction* picks the best "
+"direction based on the clip's aspect ratio."
+msgstr ""
+"**Pan** → Arah Otomatis / Kiri ke Kanan / Kanan ke Kiri / Atas ke Bawah / "
+"Bawah ke Atas — pan kamera lateral. *Arah Otomatis* memilih arah terbaik "
+"berdasarkan rasio aspek klip."
+
+#: ../clips.rst:285
+msgid ""
+"**Zoom & Pan** → In or Out, with directional variants — combines a zoom with"
+" a pan (Ken Burns style). *Auto Direction* picks the best direction based on"
+" the clip's aspect ratio."
+msgstr ""
+"**Zoom & Pan** → Masuk atau Keluar, dengan varian arah — menggabungkan zoom "
+"dengan pan (gaya Ken Burns). *Arah Otomatis* memilih arah terbaik "
+"berdasarkan rasio aspek klip."
+
+#: ../clips.rst:287
+msgid ""
+":guilabel:`Credits` — scrolling credit animations: **Scroll Up** and "
+"**Scroll Down**."
+msgstr ""
+":guilabel:`Kredit` — animasi kredit bergulir: **Gulir ke Atas** dan **Gulir "
+"ke Bawah**."
+
+#: ../clips.rst:289
+msgid ""
+"**Tip:** Emphasis presets are placed at the current playhead position, so "
+"position the playhead over the moment you want to highlight before applying "
+"one."
+msgstr ""
+"**Tips:** Preset penekanan ditempatkan pada posisi playhead saat ini, jadi "
+"posisikan playhead pada momen yang ingin Anda sorot sebelum menerapkannya."
+
+#: ../clips.rst:290
+msgid ""
+"**Tip:** Camera presets use *Auto Direction* by default, which picks the "
+"optimal pan direction for wide or tall media to avoid black bars."
+msgstr ""
+"**Tips:** Preset kamera menggunakan *Arah Otomatis* secara default, yang "
+"memilih arah pan optimal untuk media lebar atau tinggi agar menghindari "
+"garis hitam."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:295
+msgid "Rotate"
+msgstr "Putar"
+
+#: ../clips.rst:296
+msgid ""
+"The :guilabel:`Transform → Rotate` submenu introduces easy rotation and "
+"flipping of clips. It enables orientation adjustment by rotating and "
+"flipping a clip for creative visual transformations. See "
+":ref:`clip_rotation_ref` key-frame."
+msgstr ""
+"Submenu :guilabel:`Transformasi → Putar` memperkenalkan rotasi dan "
+"pembalikan klip yang mudah. Ini memungkinkan penyesuaian orientasi dengan "
+"memutar dan membalik klip untuk transformasi visual kreatif. Lihat "
+":ref:`clip_rotation_ref` key-frame."
+
+#: ../clips.rst:300
+msgid ":guilabel:`No Rotation` — removes any rotation keyframes."
+msgstr ":guilabel:`Tanpa Rotasi` — menghapus semua keyframe rotasi."
+
+#: ../clips.rst:301
+msgid ":guilabel:`Rotate 90 (Right)` — rotates the clip 90 degrees clockwise."
+msgstr ""
+":guilabel:`Putar 90 (Kanan)` — memutar klip 90 derajat searah jarum jam."
+
+#: ../clips.rst:302
+msgid ""
+":guilabel:`Rotate 90 (Left)` — rotates the clip 90 degrees counterclockwise."
+msgstr ""
+":guilabel:`Putar 90 (Kiri)` — memutar klip 90 derajat berlawanan arah jarum "
+"jam."
+
+#: ../clips.rst:303
+msgid ":guilabel:`Rotate 180 (Flip)` — flips the clip upside down."
+msgstr ":guilabel:`Putar 180 (Balik)` — membalik klip terbalik."
+
+#: ../clips.rst:305
+msgid ""
+"**Usage Example:** Rotating a photo or video by 90 degrees (a portrait video"
+" to a landscape)."
+msgstr ""
+"**Contoh Penggunaan:** Memutar foto atau video sebesar 90 derajat (video "
+"potret menjadi lanskap)."
+
+#: ../clips.rst:306
+msgid ""
+"**Usage Example:** If your video is upside down, rotate it by 180 degrees to"
+" correct the orientation."
+msgstr ""
+"**Contoh Penggunaan:** Jika video Anda terbalik, putar 180 derajat untuk "
+"memperbaiki orientasi."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:311
+msgid "Layout"
+msgstr "Tata Letak"
+
+#: ../clips.rst:312
+msgid ""
+"The :guilabel:`Transform → Layout` submenu adjusts the size of a clip and "
+"snaps it to a chosen corner of the screen, useful for picture-in-picture or "
+"watermark effects. See :ref:`clip_location_x_ref`, :ref:`clip_scale_x_ref`, "
+":guilabel:`Margin`, and :guilabel:`Corner Radius` key-frames."
+msgstr ""
+"Submenu :guilabel:`Transformasi → Tata Letak` menyesuaikan ukuran klip dan "
+"menempelkannya ke sudut layar yang dipilih, berguna untuk efek picture-in-"
+"picture atau watermark. Lihat :ref:`clip_location_x_ref`, "
+":ref:`clip_scale_x_ref`, :guilabel:`Margin`, dan :guilabel:`Radius Sudut` "
+"key-frame."
+
+#: ../clips.rst:317
+msgid ":guilabel:`Reset Layout` — removes any layout keyframes."
+msgstr ""
+":guilabel:`Atur Ulang Tata Letak` — menghapus semua keyframe tata letak."
+
+#: ../clips.rst:318
+msgid ""
+":guilabel:`1/4 Size` — positions the clip at 1/4 of the screen in the "
+"Center, Top Left, Top Right, Bottom Left, or Bottom Right corner."
+msgstr ""
+":guilabel:`Ukuran 1/4` — menempatkan klip pada 1/4 layar di tengah, kiri "
+"atas, kanan atas, kiri bawah, atau kanan bawah."
+
+#: ../clips.rst:319
+msgid ""
+":guilabel:`Show All (Maintain Ratio)` — fits the entire clip frame within "
+"the screen while preserving its aspect ratio."
+msgstr ""
+":guilabel:`Tampilkan Semua (Pertahankan Rasio)` — menyesuaikan seluruh "
+"bingkai klip dalam layar sambil mempertahankan rasio aspeknya."
+
+#: ../clips.rst:320
+msgid ""
+":guilabel:`Show All (Distort)` — stretches the entire clip frame to fill the"
+" screen, ignoring aspect ratio."
+msgstr ""
+":guilabel:`Tampilkan Semua (Distorsi)` — meregangkan seluruh bingkai klip "
+"untuk mengisi layar, mengabaikan rasio aspek."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:322
+msgid ""
+"**Usage Example:** Placing a logo in the corner of a video using the layout "
+"preset."
+msgstr ""
+"**Contoh Penggunaan:** Menempatkan logo di sudut video menggunakan preset "
+"layout."
+
+#: ../clips.rst:323
+msgid ""
+"**Tip:** Use :guilabel:`Margin` to create an inset layout area for a clip, "
+"and :guilabel:`Corner Radius` to round picture-in-picture camera clips "
+"without adding a Mask effect."
+msgstr ""
+"**Tips:** Gunakan :guilabel:`Margin` untuk membuat area tata letak inset "
+"untuk klip, dan :guilabel:`Radius Sudut` untuk membulatkan klip kamera "
+"picture-in-picture tanpa menambahkan efek Mask."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:325
+msgid ""
+"**Tip:** Combine with animation presets for dynamic transitions involving "
+"resizing and repositioning."
+msgstr ""
+"**Tips:** Gabungkan dengan preset animasi untuk transisi dinamis yang "
+"melibatkan pengubahan ukuran dan pemindahan posisi."
+
+#: ../clips.rst:329
+msgid ""
+"The :guilabel:`Speed` menu manipulates clip playback speed, allowing for "
+"reverse playback, time-lapse, slow-motion, freezes, and looping effects. See"
+" :ref:`clip_time_ref` key-frame."
+msgstr ""
+"Menu :guilabel:`Kecepatan` mengatur kecepatan pemutaran klip, memungkinkan "
+"pemutaran mundur, time-lapse, gerak lambat, pembekuan, dan efek pengulangan."
+" Lihat :ref:`clip_time_ref` key-frame."
+
+#: ../clips.rst:332
+msgid ":guilabel:`Reset Speed` — restores the clip to normal 1× speed."
+msgstr ""
+":guilabel:`Atur Ulang Kecepatan` — mengembalikan klip ke kecepatan normal "
+"1×."
+
+#: ../clips.rst:333
+msgid ":guilabel:`Reverse` — plays the clip backwards at normal speed."
+msgstr ":guilabel:`Mundur` — memutar klip mundur dengan kecepatan normal."
+
+#: ../clips.rst:334
+msgid ""
+":guilabel:`Speed Up` → Forward / Backward → 2×, 4×, 8×, 16× — speeds up "
+"playback in either direction."
+msgstr ""
+":guilabel:`Percepat` → Maju / Mundur → 2×, 4×, 8×, 16× — mempercepat "
+"pemutaran ke arah mana pun."
+
+#: ../clips.rst:335
+msgid ""
+":guilabel:`Slow Down` → Forward / Backward → 1/2×, 1/4×, 1/8×, 1/16× — slows"
+" down playback in either direction."
+msgstr ""
+":guilabel:`Perlambat` → Maju / Mundur → 1/2×, 1/4×, 1/8×, 1/16× — "
+"memperlambat pemutaran ke arah mana pun."
+
+#: ../clips.rst:336
+msgid ":guilabel:`Repeat` — see below."
+msgstr ":guilabel:`Ulang` — lihat di bawah."
+
+#: ../clips.rst:337
+msgid ""
+":guilabel:`Freeze` — freezes on the frame at the current playhead position "
+"for 2, 4, 6, 8, 10, 20, or 30 seconds."
+msgstr ""
+":guilabel:`Bekukan` — membekukan pada bingkai di posisi playhead saat ini "
+"selama 2, 4, 6, 8, 10, 20, atau 30 detik."
+
+#: ../clips.rst:338
+msgid ""
+":guilabel:`Freeze && Zoom` — freezes and simultaneously zooms in on that "
+"frozen frame."
+msgstr ""
+":guilabel:`Bekukan & Zoom` — membekukan dan sekaligus memperbesar bingkai "
+"yang dibekukan itu."
+
+#: ../clips.rst:340
+msgid ""
+"**Slow motion** — :guilabel:`Slow Down → 1/2×` or :guilabel:`1/4×` for "
+"dreamy or dramatic footage."
+msgstr ""
+"**Gerak lambat** — :guilabel:`Perlambat → 1/2×` atau :guilabel:`1/4×` untuk "
+"rekaman yang dreamy atau dramatis."
+
+#: ../clips.rst:341
+msgid ""
+"**Time-lapse** — :guilabel:`Speed Up → 8×` or :guilabel:`16×` to compress "
+"hours into seconds."
+msgstr ""
+"**Time-lapse** — :guilabel:`Percepat → 8×` atau :guilabel:`16×` untuk "
+"memadatkan jam menjadi detik."
+
+# Main-window terminology review, 2026-09-26.
+#: ../clips.rst:342
+msgid ""
+"**Speed ramp** — use the :guilabel:`Timing` tool to drag clip edges and "
+"create a natural-feeling speed change; OpenShot scales all keyframes "
+"automatically."
+msgstr ""
+"**Perubahan kecepatan bertahap** — gunakan alat :guilabel:`Pengaturan "
+"Kecepatan` untuk menyeret tepi klip dan membuat perubahan kecepatan yang "
+"terasa alami; OpenShot secara otomatis mengatur skala semua keyframe."
+
+#: ../clips.rst:343
+msgid ""
+"**Tip:** Combine :guilabel:`Freeze` with :guilabel:`Speed Up` for an impact-"
+"freeze-then-fast-forward effect."
+msgstr ""
+"**Tips:** Gabungkan :guilabel:`Bekukan` dengan :guilabel:`Percepat` untuk "
+"efek hentakan-beku-lalu-maju cepat."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:348
+msgid "Repeat"
+msgstr "Ulangi"
+
+#: ../clips.rst:349
+msgid ""
+"Use :guilabel:`Speed → Repeat` to play a clip multiple times, without "
+"building the time curve by hand. OpenShot writes the needed :guilabel:`Time`"
+" keyframes for you (you can edit them later)."
+msgstr ""
+"Gunakan :guilabel:`Kecepatan → Ulang` untuk memutar klip beberapa kali, "
+"tanpa membuat kurva waktu secara manual. OpenShot menulis keyframe "
+":guilabel:`Waktu` yang diperlukan untuk Anda (Anda dapat mengeditnya nanti)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:352
+msgid "**Menu path**"
+msgstr "**Jalur menu**"
+
+#: ../clips.rst:354
+msgid ""
+":guilabel:`Speed → Repeat → Loop → Forward` – plays left to right, then "
+"starts again from the beginning"
+msgstr ""
+":guilabel:`Kecepatan → Ulang → Loop → Maju` – memutar dari kiri ke kanan, "
+"lalu mulai lagi dari awal"
+
+#: ../clips.rst:355
+msgid ""
+":guilabel:`Speed → Repeat → Loop → Reverse` – plays right to left, then "
+"starts again from the end"
+msgstr ""
+":guilabel:`Kecepatan → Ulang → Loop → Mundur` – memutar dari kanan ke kiri, "
+"lalu mulai lagi dari akhir"
+
+#: ../clips.rst:356
+msgid ""
+":guilabel:`Speed → Repeat → Ping-Pong → Forward` – forward, then backward, "
+"then forward…"
+msgstr ""
+":guilabel:`Kecepatan → Ulang → Ping-Pong → Maju` – maju, lalu mundur, lalu "
+"maju…"
+
+#: ../clips.rst:357
+msgid ""
+":guilabel:`Speed → Repeat → Ping-Pong → Reverse` – backward, then forward, "
+"then backward…"
+msgstr ""
+":guilabel:`Kecepatan → Ulang → Ping-Pong → Balik` – mundur, lalu maju, lalu "
+"mundur…"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:358
+msgid ":guilabel:`Custom…` – opens a dialog for extra options (see below)"
+msgstr ""
+":guilabel:`Custom…` – membuka dialog untuk opsi tambahan (lihat di bawah)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:360
+msgid ""
+"Counts are **finite** (2x, 3x, 4x, 5x, 8x, 10x, or a custom number). "
+"Example: “Forward then Back and stop” = :guilabel:`Ping-Pong → Forward → "
+"2x`."
+msgstr ""
+"Jumlahnya **terbatas** (2x, 3x, 4x, 5x, 8x, 10x, atau angka khusus). Contoh:"
+" “Maju lalu mundur dan berhenti” = :guilabel:`Ping-Pong → Forward → 2x`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:363
+msgid "**What gets repeated**"
+msgstr "**Apa yang diulang**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:365
+msgid "Repeat always acts on the **currently trimmed** in/out of the clip."
+msgstr ""
+"Ulangi selalu berlaku pada bagian masuk/keluar klip yang **sedang "
+"dipangkas**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:366
+msgid ""
+"The :guilabel:`Time` curve is stamped as a simple shape: - Loop Forward = "
+"rising saw - Loop Reverse = falling saw - Ping-Pong = triangle (direction "
+"flips each pass)"
+msgstr ""
+"Kurva :guilabel:`Time` ditandai dengan bentuk sederhana: - Loop Forward = "
+"gergaji naik - Loop Reverse = gergaji turun - Ping-Pong = segitiga (arah "
+"berubah setiap putaran)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:370
+msgid ""
+"To avoid a double frame at the seam, the last frame of each pass is not "
+"duplicated."
+msgstr ""
+"Untuk menghindari frame ganda di sambungan, frame terakhir setiap putaran "
+"tidak digandakan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:372
+msgid "**Keyframes during Repeat**"
+msgstr "**Keyframe selama Pengulangan**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:374
+msgid ""
+"When you use Repeat, OpenShot will also **repeat other keyframes** found "
+"inside the trimmed section (location, scale, effects, etc.) into each pass "
+"so your animations stay in sync."
+msgstr ""
+"Saat menggunakan Ulangi, OpenShot juga akan **mengulang keyframe lain** yang"
+" ditemukan di bagian yang dipangkas (lokasi, skala, efek, dll.) ke setiap "
+"putaran agar animasi tetap sinkron."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:375
+msgid "Repeated keyframes keep their relative timing inside each pass."
+msgstr ""
+"Keyframe yang diulang mempertahankan waktu relatifnya di setiap putaran."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:377
+msgid "**Custom Repeat** (dialog options)"
+msgstr "**Ulangi Kustom** (opsi dialog)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:379
+msgid ":guilabel:`Pattern:` Loop | Ping-Pong"
+msgstr ":guilabel:`Pola:` Loop | Ping-Pong"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:380
+msgid ":guilabel:`Direction:` Forward | Reverse"
+msgstr ":guilabel:`Arah:` Maju | Mundur"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:381
+msgid ""
+":guilabel:`Passes:` integer (2 or more). This is the number of times it will"
+" play."
+msgstr ""
+":guilabel:`Putaran:` bilangan bulat (2 atau lebih). Ini adalah jumlah kali "
+"pemutaran."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:382
+msgid ""
+":guilabel:`Delay:` number + units [frames | ms | sec]. This is an optional "
+"delay between each repeated pass."
+msgstr ""
+":guilabel:`Tunda:` angka + satuan [frame | ms | detik]. Ini adalah jeda "
+"opsional antara setiap putaran pengulangan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:383
+msgid ""
+":guilabel:`Speed Ramp (%):` % speed change per pass (optional). Positive "
+"speeds up each pass; negative slows down each pass."
+msgstr ""
+":guilabel:`Perubahan Kecepatan (%):` % perubahan kecepatan per putaran "
+"(opsional). Positif mempercepat setiap putaran; negatif memperlambat setiap "
+"putaran."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:385
+msgid "**Reset**"
+msgstr "**Atur Ulang**"
+
+#: ../clips.rst:387
+msgid ""
+":guilabel:`Speed → Reset Speed` completely removes any Time curve (including"
+" Repeat) and restores the clip to its original playback, **without deleting "
+"your original non-Time keyframes**."
+msgstr ""
+":guilabel:`Kecepatan → Atur Ulang Kecepatan` sepenuhnya menghapus kurva "
+"Waktu apa pun (termasuk Ulang) dan mengembalikan klip ke pemutaran aslinya, "
+"**tanpa menghapus keyframe non-Waktu asli Anda**."
+
+# Main-window terminology review, 2026-09-26.
+#: ../clips.rst:391
+msgid "Timing Tool"
+msgstr "Alat Pengaturan Kecepatan"
+
+# Main-window terminology review, 2026-09-26.
+#: ../clips.rst:392
+msgid ""
+"Another way to change a clip's speed is with the :guilabel:`Timing` tool on "
+"the timeline toolbar. Enable the clock icon and drag a clip's edges. "
+"Lengthening the clip slows playback, while shotening it speeds the clip up. "
+"All keyframes on the clip and its effects are scaled so their relative "
+"positions remain intact."
+msgstr ""
+"Cara lain untuk mengubah kecepatan klip adalah dengan alat "
+":guilabel:`Pengaturan Kecepatan` pada toolbar timeline. Aktifkan ikon jam "
+"dan seret tepi klip. Memperpanjang klip memperlambat pemutaran, sementara "
+"mempersingkatnya mempercepat klip. Semua keyframe pada klip dan efeknya "
+"diskalakan sehingga posisi relatifnya tetap utuh."
+
+#: ../clips.rst:398
+msgid ""
+"The :guilabel:`Look` menu applies one-click visual style presets to clips. "
+"All presets work by adding or updating effects on the clip — you can inspect"
+" or animate them further in the Properties dock. The menu is organized into "
+"four submenus plus two direct actions at the bottom."
+msgstr ""
+"Menu :guilabel:`Tampilan` menerapkan preset gaya visual satu klik ke klip. "
+"Semua preset bekerja dengan menambahkan atau memperbarui efek pada klip — "
+"Anda dapat memeriksa atau menganimasikannya lebih lanjut di dock Properti. "
+"Menu ini diatur menjadi empat submenu plus dua aksi langsung di bagian "
+"bawah."
+
+#: ../clips.rst:402
+msgid ""
+":guilabel:`Reset Look` — removes all Look-managed effects (Color Grade, Film"
+" Grain, Analog Tape, Sharpen, Blur, Shadow, Glow) from the selected clips in"
+" a single step."
+msgstr ""
+":guilabel:`Atur Ulang Tampilan` — menghapus semua efek yang dikelola "
+"Tampilan (Pewarnaan Warna, Butiran Film, Pita Analog, Penajaman, Blur, "
+"Bayangan, Cahaya) dari klip yang dipilih dalam satu langkah."
+
+#: ../clips.rst:405
+msgid ""
+"**Color** — applies a :guilabel:`Color Grade` effect with one of four quick "
+"presets:"
+msgstr ""
+"**Warna** — menerapkan efek :guilabel:`Pewarnaan Warna` dengan salah satu "
+"dari empat preset cepat:"
+
+#: ../clips.rst:407
+msgid ""
+"**Auto Contrast** — boosts contrast by lifting shadows and pulling "
+"highlights."
+msgstr ""
+"**Kontras Otomatis** — meningkatkan kontras dengan mencerahkan bayangan dan "
+"menarik sorotan."
+
+#: ../clips.rst:408
+msgid "**Lift Shadows** — brightens the dark areas of the image."
+msgstr "**Terang Bayangan** — mencerahkan area gelap gambar."
+
+#: ../clips.rst:409
+msgid "**Warm Up** — shifts the color balance toward warm orange/amber tones."
+msgstr ""
+"**Hangatkan** — menggeser keseimbangan warna ke nada oranye/amber yang "
+"hangat."
+
+#: ../clips.rst:410
+msgid "**Boost Color** — increases color saturation."
+msgstr "**Tingkatkan Warna** — meningkatkan saturasi warna."
+
+#: ../clips.rst:412
+msgid "**Film** — cinematic film simulation:"
+msgstr "**Film** — simulasi film sinematik:"
+
+#: ../clips.rst:414
+msgid ""
+":guilabel:`Film Grain` → **No Film Grain**, then: **35mm Fine**, **35mm "
+"Classic**, **35mm Gritty**, **16mm Classic**, **Super 8**, **High ISO** — "
+"adds photographic grain at various strengths and sizes."
+msgstr ""
+":guilabel:`Butiran Film` → **Tanpa Butiran Film**, lalu: **35mm Halus**, "
+"**35mm Klasik**, **35mm Kasar**, **16mm Klasik**, **Super 8**, **ISO "
+"Tinggi** — menambahkan butiran fotografi dengan berbagai kekuatan dan "
+"ukuran."
+
+#: ../clips.rst:416
+msgid ""
+":guilabel:`Analog Tape` → **No Analog Tape**, then: **Subtle**, **VHS**, "
+"**Heavy** — adds tape noise and color degradation for a retro video look."
+msgstr ""
+":guilabel:`Pita Analog` → **Tanpa Pita Analog**, lalu: **Halus**, **VHS**, "
+"**Berat** — menambahkan noise pita dan degradasi warna untuk tampilan video "
+"retro."
+
+#: ../clips.rst:419
+msgid "**Focus** — sharpness adjustments:"
+msgstr "**Fokus** — penyesuaian ketajaman:"
+
+#: ../clips.rst:421
+msgid ""
+":guilabel:`Sharpen` → **No Sharpen**, then: **Subtle**, **Medium**, "
+"**Strong** — sharpens fine detail."
+msgstr ""
+":guilabel:`Penajaman` → **Tanpa Penajaman**, lalu: **Halus**, **Sedang**, "
+"**Kuat** — menajamkan detail halus."
+
+#: ../clips.rst:422
+msgid ""
+":guilabel:`Blur` → **No Blur**, then: **Soft Focus**, **Medium**, **Heavy** "
+"— softens the image."
+msgstr ""
+":guilabel:`Blur` → **Tanpa Blur**, lalu: **Fokus Lembut**, **Sedang**, "
+"**Berat** — melembutkan gambar."
+
+#: ../clips.rst:424
+msgid "**Lighting** — light and shadow overlays:"
+msgstr "**Pencahayaan** — lapisan cahaya dan bayangan:"
+
+#: ../clips.rst:426
+msgid ""
+":guilabel:`Shadow` → **No Shadow**, then: **Subtle**, **Soft**, **Strong**, "
+"**Long** — casts a drop shadow across the clip."
+msgstr ""
+":guilabel:`Bayangan` → **Tanpa Bayangan**, lalu: **Halus**, **Lembut**, "
+"**Kuat**, **Panjang** — memberikan bayangan jatuh di seluruh klip."
+
+#: ../clips.rst:428
+msgid ""
+":guilabel:`Glow` → **No Glow**, then: **Soft White**, **Warm**, **Neon**, "
+"**Inner Glow** — adds a soft halo or glow effect."
+msgstr ""
+":guilabel:`Cahaya` → **Tanpa Cahaya**, lalu: **Putih Lembut**, **Hangat**, "
+"**Neon**, **Cahaya Dalam** — menambahkan efek halo atau cahaya lembut."
+
+#: ../clips.rst:431
+msgid "At the bottom of the Look menu:"
+msgstr "Di bagian bawah menu Tampilan:"
+
+#: ../clips.rst:433
+msgid ""
+":guilabel:`Adjust Colors` — opens the :guilabel:`Color Wheels` dock for full"
+" manual color grading with lift/gamma/gain wheels, curves, and an "
+"Amount/Luma blend slider."
+msgstr ""
+":guilabel:`Sesuaikan Warna` — membuka dock :guilabel:`Roda Warna` untuk "
+"pewarnaan manual penuh dengan roda lift/gamma/gain, kurva, dan penggeser "
+"campuran Jumlah/Luma."
+
+#: ../clips.rst:435
+msgid ""
+":guilabel:`Analyze Colors` — opens the :guilabel:`Luma Waveform` and "
+":guilabel:`Histogram` video scopes on the right side of the window, tabified"
+" together."
+msgstr ""
+":guilabel:`Analisis Warna` — membuka scope video :guilabel:`Gelombang Luma` "
+"dan :guilabel:`Histogram` di sisi kanan jendela, digabungkan dalam tab."
+
+#: ../clips.rst:438
+msgid ""
+"**Tip:** Each Look submenu has a \"No …\" option at the top to remove just "
+"that single effect without affecting the others."
+msgstr ""
+"**Tips:** Setiap submenu Tampilan memiliki opsi \"Tanpa …\" di atas untuk "
+"menghapus hanya efek tersebut tanpa memengaruhi yang lain."
+
+#: ../clips.rst:440
+msgid ""
+"**Tip:** After applying a Look preset, double-click the effect badge on the "
+"clip (or use Properties) to fine-tune every parameter or animate it over "
+"time."
+msgstr ""
+"**Tips:** Setelah menerapkan preset Tampilan, klik dua kali lencana efek "
+"pada klip (atau gunakan Properti) untuk menyempurnakan setiap parameter atau"
+" menganimasikannya seiring waktu."
+
+#: ../clips.rst:445
+msgid ""
+"The :guilabel:`Audio` menu groups all audio-related clip actions in one "
+"place."
+msgstr ""
+"Menu :guilabel:`Audio` mengelompokkan semua aksi klip terkait audio dalam "
+"satu tempat."
+
+#: ../clips.rst:447
+msgid ""
+"**Volume** — controls the clip's audio level. See :ref:`clip_volume_ref` "
+"key-frame."
+msgstr ""
+"**Volume** — mengontrol tingkat audio klip. Lihat :ref:`clip_volume_ref` "
+"keyframe."
+
+#: ../clips.rst:449
+msgid ""
+":guilabel:`Reset Volume` — removes all volume keyframes, returning to full "
+"(1×) volume."
+msgstr ""
+":guilabel:`Atur Ulang Volume` — menghapus semua keyframe volume, kembali ke "
+"volume penuh (1×)."
+
+#: ../clips.rst:450
+msgid ""
+":guilabel:`Level` — sets a fixed volume percentage (0 % to 130 %) for the "
+"entire clip."
+msgstr ""
+":guilabel:`Level` — mengatur persentase volume tetap (0 % hingga 130 %) "
+"untuk seluruh klip."
+
+#: ../clips.rst:451
+msgid ""
+":guilabel:`Fade In` → :guilabel:`Fast` / :guilabel:`Slow` — fades volume "
+"from silence at the start of the clip."
+msgstr ""
+":guilabel:`Fade In` → :guilabel:`Cepat` / :guilabel:`Lambat` — memudar "
+"volume dari keheningan di awal klip."
+
+#: ../clips.rst:452
+msgid ""
+":guilabel:`Fade Out` → :guilabel:`Fast` / :guilabel:`Slow` — fades volume to"
+" silence at the end of the clip."
+msgstr ""
+":guilabel:`Fade Out` → :guilabel:`Cepat` / :guilabel:`Lambat` — memudar "
+"volume ke keheningan di akhir klip."
+
+#: ../clips.rst:453
+msgid ""
+":guilabel:`Fade In and Out` → :guilabel:`Fast` / :guilabel:`Slow` — applies "
+"both a volume fade-in and fade-out."
+msgstr ""
+":guilabel:`Fade In dan Out` → :guilabel:`Cepat` / :guilabel:`Lambat` — "
+"menerapkan fade-in dan fade-out volume."
+
+#: ../clips.rst:455
+msgid "**Separate** — splits the audio track out of a clip:"
+msgstr "**Pisahkan** — memisahkan trek audio dari klip:"
+
+#: ../clips.rst:457
+msgid ""
+":guilabel:`Single Clip (all channels)` — creates one detached audio clip on "
+"a layer below the original."
+msgstr ""
+":guilabel:`Klip Tunggal (semua saluran)` — membuat satu klip audio terpisah "
+"pada lapisan di bawah klip asli."
+
+#: ../clips.rst:458
+msgid ""
+":guilabel:`Multiple Clips (each channel)` — creates separate detached audio "
+"clips, one per audio channel, on multiple layers below the original."
+msgstr ""
+":guilabel:`Beberapa Klip (setiap saluran)` — membuat klip audio terpisah "
+"untuk setiap saluran audio, pada beberapa lapisan di bawah klip asli."
+
+#: ../clips.rst:460
+msgid ""
+"**Show Waveform / Hide Waveform** — toggles the audio waveform visualization"
+" on the timeline for audio-only clips. Only shown for clips that do not have"
+" a video track."
+msgstr ""
+"**Tampilkan Gelombang / Sembunyikan Gelombang** — mengalihkan visualisasi "
+"gelombang audio di timeline untuk klip audio saja. Hanya ditampilkan untuk "
+"klip yang tidak memiliki trek video."
+
+#: ../clips.rst:463
+msgid ""
+"**Analyze Levels** — opens the :guilabel:`Audio Levels` scope dock. If other"
+" scope docks are already open, OpenShot tabifies :guilabel:`Audio Levels` "
+"with them."
+msgstr ""
+"**Analisis Level** — membuka dock scope :guilabel:`Level Audio`. Jika dock "
+"scope lain sudah terbuka, OpenShot menggabungkan :guilabel:`Level Audio` ke "
+"dalam tab bersama mereka."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:466
+msgid ""
+"**Usage Example:** Applying a gradual volume fade-out to transition between "
+"scenes."
+msgstr ""
+"**Contoh Penggunaan:** Menerapkan fade-out volume secara bertahap untuk "
+"transisi antar adegan."
+
+#: ../clips.rst:467
+msgid ""
+"**Usage Example:** Extracting background music from a video clip for "
+"independent volume control."
+msgstr ""
+"**Contoh Penggunaan:** Mengekstrak musik latar dari klip video untuk kontrol"
+" volume independen."
+
+#: ../clips.rst:468
+msgid ""
+"**Tip:** Use :guilabel:`Audio → Volume → Fade In/Out` for audio-only fades. "
+"Use the top-level :guilabel:`Fade` menu for a combined video+audio fade."
+msgstr ""
+"**Tips:** Gunakan :guilabel:`Audio → Volume → Fade In/Out` untuk fade audio "
+"saja. Gunakan menu :guilabel:`Fade` tingkat atas untuk fade gabungan "
+"video+audio."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:472
+msgid ""
+"The :guilabel:`Slice` tool lets you cut a clip at the position of the play-"
+"head (*the vertical line that shows your current position in the timeline*)."
+" This will split the clip into two separate parts at the exact point where "
+"the play-head is."
+msgstr ""
+"Alat :guilabel:`Slice` memungkinkan Anda memotong klip pada posisi play-head"
+" (*garis vertikal yang menunjukkan posisi Anda saat ini di timeline*). Ini "
+"akan membagi klip menjadi dua bagian terpisah tepat di titik di mana play-"
+"head berada."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:475
+msgid ""
+"Slicing is a key feature for making precise edits and rearranging sections "
+"of your video. You can slice a clip and choose to keep one side or both, and"
+" with the ripple option, you can automatically shift other clips on the same"
+" track to fill any gaps caused by the cut."
+msgstr ""
+"Slicing adalah fitur utama untuk membuat suntingan presisi dan mengatur "
+"ulang bagian video Anda. Anda dapat memotong klip dan memilih untuk "
+"menyimpan satu sisi atau keduanya, dan dengan opsi ripple, Anda dapat secara"
+" otomatis menggeser klip lain pada trek yang sama untuk mengisi celah yang "
+"disebabkan oleh pemotongan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:479
+msgid "**Slicing Options:**"
+msgstr "**Opsi Pemotongan:**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:481
+msgid ""
+"**Keep Both Sides**: This option splits the clip into two parts, keeping "
+"everything on both sides of the play-head. It’s useful when you want to "
+"break a clip into sections but don’t want to remove anything."
+msgstr ""
+"**Simpan Kedua Sisi**: Opsi ini membagi klip menjadi dua bagian, menyimpan "
+"semuanya di kedua sisi play-head. Berguna saat Anda ingin memecah klip "
+"menjadi bagian-bagian tanpa menghapus apapun."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:482
+msgid ""
+"**Keep Left Side**: This option cuts the clip and removes the part to the "
+"right of the play-head, keeping only the part before the play-head. Use this"
+" to get rid of the portion of the clip that comes after the current point."
+msgstr ""
+"**Simpan Sisi Kiri**: Opsi ini memotong klip dan menghapus bagian di sebelah"
+" kanan play-head, hanya menyimpan bagian sebelum play-head. Gunakan ini "
+"untuk menghilangkan bagian klip setelah titik saat ini."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:483
+msgid ""
+"**Keep Right Side**: This option cuts the clip and removes the part to the "
+"left of the play-head, keeping only the part after the play-head. It’s handy"
+" for trimming away the beginning of a clip and keeping the rest."
+msgstr ""
+"**Simpan Sisi Kanan**: Opsi ini memotong klip dan menghapus bagian di "
+"sebelah kiri play-head, hanya menyimpan bagian setelah play-head. Berguna "
+"untuk memangkas awal klip dan menyimpan sisanya."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:484
+msgid ""
+"**Ripple Slicing**: Ripple slicing not only cuts the clip but also moves any"
+" clips and transitions that follow to close the gap. This way, your timeline"
+" stays continuous without empty spaces after a cut, saving you the trouble "
+"of manually adjusting the clips that come after."
+msgstr ""
+"**Ripple Slicing**: Ripple slicing tidak hanya memotong klip tetapi juga "
+"menggeser klip dan transisi yang mengikuti untuk menutup celah. Dengan cara "
+"ini, timeline Anda tetap berkelanjutan tanpa ruang kosong setelah "
+"pemotongan, menghemat waktu Anda dari penyesuaian manual klip berikutnya."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:486 ../clips.rst:660
+msgid "**Tips for Beginners:**"
+msgstr "**Tips untuk Pemula:**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:488
+msgid ""
+"**Example**: If there’s a part of a clip you don’t want (like the end of a "
+"scene), use **Keep Left Side** or **Keep Right Side** to remove it. If you "
+"want to split a scene into multiple smaller sections to rearrange, use "
+"**Keep Both Sides**."
+msgstr ""
+"**Contoh**: Jika ada bagian klip yang tidak Anda inginkan (seperti akhir "
+"adegan), gunakan **Simpan Sisi Kiri** atau **Simpan Sisi Kanan** untuk "
+"menghapusnya. Jika Anda ingin membagi adegan menjadi beberapa bagian kecil "
+"untuk diatur ulang, gunakan **Simpan Kedua Sisi**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:489
+msgid ""
+"**Quick Tip**: Slicing can also be used to break a long clip into smaller "
+"parts, making it easier to manage and edit each section separately."
+msgstr ""
+"**Tips Cepat**: Slicing juga dapat digunakan untuk memecah klip panjang "
+"menjadi bagian-bagian kecil, memudahkan pengelolaan dan penyuntingan setiap "
+"bagian secara terpisah."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:491
+msgid ""
+"For a complete guide to slicing and all available keyboard shortcuts, see "
+"the :ref:`clips_cutting_slicing_ref` section."
+msgstr ""
+"Untuk panduan lengkap tentang slicing dan semua pintasan keyboard yang "
+"tersedia, lihat bagian :ref:`clips_cutting_slicing_ref`."
+
+#: ../clips.rst:497
+msgid ""
+"The :guilabel:`Transform` context menu provides geometric preset actions for"
+" visual clips:"
+msgstr ""
+"Menu konteks :guilabel:`Transform` menyediakan aksi preset geometris untuk "
+"klip visual:"
+
+#: ../clips.rst:499
+msgid ""
+":guilabel:`No Transform` — removes all Rotate, Layout, and crop presets from"
+" the selected clips in one step."
+msgstr ""
+":guilabel:`Tanpa Transformasi` — menghapus semua preset Putar, Tata Letak, "
+"dan potong dari klip yang dipilih dalam satu langkah."
+
+#: ../clips.rst:500
+msgid ""
+":guilabel:`Rotate` — rotate or flip the clip. See the :ref:`Rotate "
+"<clip_presets_rotate_ref>` section above."
+msgstr ""
+":guilabel:`Putar` — putar atau balik klip. Lihat bagian :ref:`Putar "
+"<clip_presets_rotate_ref>` di atas."
+
+#: ../clips.rst:501
+msgid ""
+":guilabel:`Crop` — add or remove a crop effect. See the :ref:`Crop "
+"<clip_presets_crop_ref>` section below."
+msgstr ""
+":guilabel:`Potong` — tambahkan atau hapus efek potong. Lihat bagian "
+":ref:`Potong <clip_presets_crop_ref>` di bawah."
+
+#: ../clips.rst:502
+msgid ""
+":guilabel:`Layout` — resize and snap the clip to a corner or fit position. "
+"See the :ref:`Layout <clip_presets_layout_ref>` section above."
+msgstr ""
+":guilabel:`Tata Letak` — ubah ukuran dan tempelkan klip ke sudut atau posisi"
+" yang sesuai. Lihat bagian :ref:`Tata Letak <clip_presets_layout_ref>` di "
+"atas."
+
+#: ../clips.rst:507
+msgid "Transform Tool"
+msgstr "Alat Transformasi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:508
+msgid ""
+"The **Transform Tool** lets you quickly adjust a clip directly in the "
+"preview window, instead of changing location, scale, rotation, shear, and "
+"rotation origin values one property at a time. OpenShot shows the Transform "
+"Tool automatically whenever you select a clip on the timeline, with blue "
+"lines and handles drawn around the selected clip. You can also select "
+"multiple clips at once with :kbd:`Ctrl` or :kbd:`Shift`; in that case, the "
+"preview shows one set of handles around the full selection, and any move, "
+"scale, or rotation is applied to all selected clips together."
+msgstr ""
+"**Alat Transformasi** memungkinkan Anda menyesuaikan klip dengan cepat "
+"langsung di jendela pratinjau, tanpa harus mengubah lokasi, skala, rotasi, "
+"shear, dan nilai asal rotasi satu per satu. OpenShot secara otomatis "
+"menampilkan Alat Transformasi setiap kali Anda memilih klip di timeline, "
+"dengan garis dan pegangan berwarna biru yang digambar di sekitar klip yang "
+"dipilih. Anda juga dapat memilih beberapa klip sekaligus dengan :kbd:`Ctrl` "
+"atau :kbd:`Shift`; dalam kasus tersebut, pratinjau menampilkan satu set "
+"pegangan di sekitar seluruh pilihan, dan setiap gerakan, skala, atau rotasi "
+"diterapkan ke semua klip yang dipilih bersama-sama."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:517
+msgid "Dragging the blue squares will adjust the **scale** of the image."
+msgstr "Menggeser kotak biru akan menyesuaikan **skala** gambar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:518
+msgid "Dragging the center will move the **location** of the image."
+msgstr "Menggeser bagian tengah akan memindahkan **lokasi** gambar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:519
+msgid ""
+"Dragging the mouse on the outside of the blue lines will **rotate** the "
+"image."
+msgstr "Menggeser mouse di luar garis biru akan **memutar** gambar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:520
+msgid ""
+"Hold :kbd:`Ctrl` or :kbd:`Shift` while rotating to snap to 15-degree "
+"increments."
+msgstr ""
+"Tahan :kbd:`Ctrl` atau :kbd:`Shift` saat memutar untuk menempel pada "
+"kenaikan 15 derajat."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:521
+msgid ""
+"Dragging along the blue lines will **shear** the image in that direction."
+msgstr ""
+"Menggeser sepanjang garis biru akan **membengkokkan (shear)** gambar ke arah"
+" tersebut."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:522
+msgid ""
+"Dragging the circle in the middle will move the **origin point** that "
+"controls the center of **rotation**."
+msgstr ""
+"Menggeser lingkaran di tengah akan memindahkan **titik asal** yang "
+"mengontrol pusat **rotasi**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:524
+msgid ""
+"Note: Pay close attention to the play-head position (red playback line). Key"
+" frames are automatically created at the current playback position, to help "
+"quickly create animations. If you want to transform a clip with **no "
+"animation**, be sure the playhead is positioned before (to the left) of your"
+" clip. You can also manually adjust these same clip properties in the "
+"property editor, see :ref:`clip_properties_ref`."
+msgstr ""
+"Catatan: Perhatikan posisi play-head (garis pemutaran merah). Keyframe "
+"dibuat secara otomatis pada posisi pemutaran saat ini, untuk membantu "
+"membuat animasi dengan cepat. Jika Anda ingin mentransformasi klip tanpa "
+"animasi, pastikan playhead berada sebelum (di kiri) klip Anda. Anda juga "
+"dapat menyesuaikan properti klip yang sama secara manual di editor properti,"
+" lihat :ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:531
+#, fuzzy
+msgid ""
+"**Usage Example:** Use the transform handles to resize and reposition a clip"
+" for a picture-in-picture effect."
+msgstr ""
+"**Contoh Penggunaan:** Menggunakan mode transformasi untuk mengubah ukuran "
+"dan memposisikan ulang klip untuk efek picture-in-picture."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:532
+#, fuzzy
+msgid "**Tip:** Use these handles to precisely control a clip's appearance."
+msgstr ""
+"**Tip:** Gunakan preset ini untuk mengontrol tampilan klip secara tepat."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:537
+msgid "Crop"
+msgstr "Potong"
+
+#: ../clips.rst:538
+msgid ""
+"The :guilabel:`Transform → Crop` submenu adds a crop effect to the selected "
+"clip and displays interactive crop handles in the video preview. The submenu"
+" offers:"
+msgstr ""
+"Submenu :guilabel:`Transformasi → Potong` menambahkan efek potong ke klip "
+"yang dipilih dan menampilkan pegangan potong interaktif di pratinjau video. "
+"Submenu ini menawarkan:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:541
+msgid ":guilabel:`No Crop` – remove any existing crop effect."
+msgstr ":guilabel:`Tanpa Potong` – hapus efek potong yang ada."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:542
+msgid ""
+":guilabel:`Crop (No Resize)` – trim the clip without scaling the remaining "
+"area."
+msgstr ""
+":guilabel:`Potong (Tanpa Ubah Ukuran)` – potong klip tanpa mengubah skala "
+"area yang tersisa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:543
+msgid ""
+":guilabel:`Crop (Resize)` – trim the clip and scale the cropped region to "
+"fill the frame."
+msgstr ""
+":guilabel:`Potong (Ubah Ukuran)` – potong klip dan ubah skala area yang "
+"dipotong untuk mengisi bingkai."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:545
+msgid ""
+"Drag the blue handles to adjust the crop boundaries, move the cropped area "
+"around, or move the center handle to reposition the image inside the cropped"
+" area."
+msgstr ""
+"Seret pegangan biru untuk menyesuaikan batas potong, pindahkan area yang "
+"dipotong, atau geser pegangan tengah untuk memposisikan ulang gambar di "
+"dalam area potong."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:549 ../clips.rst:734 ../clips.rst:1067
+msgid "Waveform"
+msgstr "Gelombang"
+
+#: ../clips.rst:550
+msgid ""
+"The :guilabel:`Audio → Show Waveform` / :guilabel:`Hide Waveform` action "
+"toggles whether an audio-only clip shows its waveform visualization on the "
+"timeline instead of the default thumbnail. This option only appears for "
+"clips that have no video track."
+msgstr ""
+"Aksi :guilabel:`Audio → Tampilkan Gelombang` / :guilabel:`Sembunyikan "
+"Gelombang` mengalihkan apakah klip audio saja menampilkan visualisasi "
+"gelombang pada timeline alih-alih thumbnail default. Opsi ini hanya muncul "
+"untuk klip yang tidak memiliki trek video."
+
+#: ../clips.rst:554
+msgid ""
+"**Usage Example:** Displaying the audio waveform for precise audio editing "
+"and alignment."
+msgstr ""
+"**Contoh Penggunaan:** Menampilkan gelombang audio untuk pengeditan dan "
+"penyelarasan audio yang tepat."
+
+#: ../clips.rst:555
+msgid ""
+"**Tip:** Use this to visually spot loud or quiet sections in a music clip "
+"without opening the audio scopes."
+msgstr ""
+"**Tips:** Gunakan ini untuk secara visual menemukan bagian keras atau pelan "
+"dalam klip musik tanpa membuka scope audio."
+
+#: ../clips.rst:557
+msgid "**How timeline waveforms are scaled**"
+msgstr "**Cara skala gelombang timeline**"
+
+#: ../clips.rst:559
+msgid ""
+"Timeline waveforms are an editing aid: they help you find speech, beats, "
+"silence, and transients, and compare the approximate levels of different "
+"clips. New waveform data preserves the source's **absolute peak level**. "
+"OpenShot does not enlarge every quiet file until its highest peak fills the "
+"clip, so a quiet recording remains visibly quieter than a loud recording."
+msgstr ""
+"Gelombang timeline adalah alat bantu pengeditan: mereka membantu Anda "
+"menemukan ucapan, ketukan, keheningan, dan transien, serta membandingkan "
+"tingkat perkiraan dari berbagai klip. Data gelombang baru mempertahankan "
+"**tingkat puncak absolut** sumber. OpenShot tidak memperbesar setiap file "
+"yang sunyi sampai puncak tertingginya memenuhi klip, sehingga rekaman yang "
+"sunyi tetap terlihat lebih pelan daripada rekaman yang keras."
+
+#: ../clips.rst:564
+msgid ""
+"Pure linear amplitude is accurate but makes ordinary speech difficult to "
+"see. OpenShot therefore applies a fixed, gentle square-root display curve. "
+"This expands useful detail while preserving the order of levels: a louder "
+"source always appears taller than a quieter source. The curve changes only "
+"the drawing; it does not alter, normalize, or process the recorded audio."
+msgstr ""
+"Amplitudo linier murni akurat tetapi membuat ucapan biasa sulit dilihat. "
+"Oleh karena itu, OpenShot menerapkan kurva tampilan akar kuadrat yang tetap "
+"dan lembut. Ini memperluas detail yang berguna sambil mempertahankan urutan "
+"tingkat: sumber yang lebih keras selalu tampak lebih tinggi daripada sumber "
+"yang lebih pelan. Kurva hanya mengubah gambar; tidak mengubah, menormalkan, "
+"atau memproses audio yang direkam."
+
+#: ../clips.rst:569
+msgid "Approximate waveform height for new clips"
+msgstr "Perkiraan tinggi gelombang untuk klip baru"
+
+#: ../clips.rst:573
+msgid "Peak Level"
+msgstr "Tingkat Puncak"
+
+#: ../clips.rst:573
+msgid "Display Height"
+msgstr "Tinggi Tampilan"
+
+#: ../clips.rst:573
+msgid "What It Often Looks Like"
+msgstr "Seperti Apa Biasanya Terlihat"
+
+#: ../clips.rst:575
+msgid "``0 dBFS``"
+msgstr "``0 dBFS``"
+
+#: ../clips.rst:575
+msgid "100%"
+msgstr "100%"
+
+#: ../clips.rst:575
+msgid "Full-scale peak; check for possible clipping."
+msgstr "Puncak skala penuh; periksa kemungkinan kliping."
+
+#: ../clips.rst:576
+msgid "``-6 dBFS``"
+msgstr "``-6 dBFS``"
+
+#: ../clips.rst:576
+msgid "71%"
+msgstr "71%"
+
+#: ../clips.rst:576
+msgid "Strong transient or loud program audio."
+msgstr "Transien kuat atau audio program keras."
+
+#: ../clips.rst:577
+msgid "``-12 dBFS``"
+msgstr "``-12 dBFS``"
+
+#: ../clips.rst:577
+msgid "50%"
+msgstr "50%"
+
+#: ../clips.rst:577
+msgid "Healthy speech or other prominent audio."
+msgstr "Ucapan sehat atau audio menonjol lainnya."
+
+#: ../clips.rst:578
+msgid "``-20 dBFS``"
+msgstr "``-20 dBFS``"
+
+#: ../clips.rst:578
+msgid "32%"
+msgstr "32%"
+
+#: ../clips.rst:578
+msgid "Moderate speech or background program audio."
+msgstr "Ucapan sedang atau audio latar program."
+
+#: ../clips.rst:579
+msgid "``-40 dBFS``"
+msgstr "``-40 dBFS``"
+
+#: ../clips.rst:579
+msgid "10%"
+msgstr "10%"
+
+#: ../clips.rst:579
+msgid "Quiet room tone or microphone noise floor."
+msgstr "Nada ruangan sunyi atau lantai kebisingan mikrofon."
+
+#: ../clips.rst:580
+msgid "``-60 dBFS``"
+msgstr "``-60 dBFS``"
+
+#: ../clips.rst:580
+msgid "3%"
+msgstr "3%"
+
+#: ../clips.rst:580
+msgid "Very quiet detail near the center line."
+msgstr "Detail sangat sunyi dekat garis tengah."
+
+#: ../clips.rst:583
+msgid ""
+"OpenShot samples both **peak** and **RMS** envelopes at regular time "
+"intervals. The lighter outer envelope shows brief peaks and transients; the "
+"solid inner envelope shows sustained RMS energy. Both follow the clip's "
+"Volume and Time curves and use the same fixed display curve. A subtle center"
+" line keeps silent passages identifiable without making them look louder "
+"than they are."
+msgstr ""
+"OpenShot mengambil sampel amplop **puncak** dan **RMS** pada interval waktu "
+"reguler. Amplop luar yang lebih terang menunjukkan puncak dan transien "
+"singkat; amplop dalam yang padat menunjukkan energi RMS yang berkelanjutan. "
+"Keduanya mengikuti kurva Volume dan Waktu klip dan menggunakan kurva "
+"tampilan tetap yang sama. Garis tengah halus menjaga bagian sunyi tetap "
+"dapat dikenali tanpa membuatnya terlihat lebih keras dari sebenarnya."
+
+# Main-window terminology review, 2026-09-26.
+#: ../clips.rst:588
+msgid ""
+"New waveforms use 200 samples per second by default, providing several "
+"measurements within a typical video frame. Change this density with "
+":guilabel:`Edit → Preferences → Timeline → Waveform Samples (per second)`. "
+"Higher values show more detail when zoomed in but increase project data size"
+" and analysis time. The painter reduces dense data to the visible timeline "
+"pixels, and its rendered-waveform cache keeps normal scrolling and "
+"repainting inexpensive. Live microphone previews use the selected density "
+"and the same peak/RMS display as completed recordings."
+msgstr ""
+"Gelombang baru menggunakan 200 sampel per detik secara default, menyediakan "
+"beberapa pengukuran dalam satu frame video tipikal. Ubah kepadatan ini "
+"dengan :guilabel:`Edit → Preferensi → Garis Waktu → Sampel Gelombang (per "
+"detik)`. Nilai yang lebih tinggi menunjukkan lebih banyak detail saat "
+"diperbesar tetapi meningkatkan ukuran data proyek dan waktu analisis. "
+"Pelukis mengurangi data padat menjadi piksel timeline yang terlihat, dan "
+"cache gelombang yang dirender menjaga pengguliran dan pengecatan ulang "
+"normal tetap murah. Pratinjau mikrofon langsung menggunakan kepadatan yang "
+"dipilih dan tampilan puncak/RMS yang sama seperti rekaman selesai."
+
+#: ../clips.rst:594
+msgid ""
+"Projects saved by older OpenShot versions can contain independently peak-"
+"normalized waveform data. These waveforms have no format marker, so OpenShot"
+" deliberately displays them with the original legacy scaling. They remain "
+"familiar instead of becoming unexpectedly thin. Older waveform data without "
+"a stored density defaults to its original 20 samples per second, and data "
+"without an RMS envelope remains a single solid waveform. A project may "
+"safely contain legacy and new waveforms together."
+msgstr ""
+"Proyek yang disimpan oleh versi OpenShot yang lebih lama dapat berisi data "
+"gelombang yang dinormalisasi puncaknya secara independen. Gelombang ini "
+"tidak memiliki penanda format, jadi OpenShot sengaja menampilkannya dengan "
+"skala warisan asli. Mereka tetap familiar daripada menjadi sangat tipis "
+"secara tak terduga. Data gelombang lama tanpa kepadatan yang disimpan "
+"menggunakan default 20 sampel per detik asli, dan data tanpa amplop RMS "
+"tetap menjadi satu gelombang padat. Sebuah proyek dapat dengan aman berisi "
+"gelombang warisan dan baru bersama-sama."
+
+#: ../clips.rst:600
+msgid ""
+"To regenerate cached waveform data using the current method, choose "
+":guilabel:`Edit → Clear → Waveform Display Data`, then show the waveform "
+"again. This affects only cached display data and does not modify the media "
+"file or its audio."
+msgstr ""
+"Untuk menghasilkan ulang data gelombang yang di-cache menggunakan metode "
+"saat ini, pilih :guilabel:`Edit → Bersihkan → Data Tampilan Gelombang`, lalu"
+" tampilkan gelombang lagi. Ini hanya mempengaruhi data tampilan yang di-"
+"cache dan tidak mengubah file media atau audionya."
+
+#: ../clips.rst:605
+msgid ""
+"The peak envelope identifies transient level and possible clipping; RMS "
+"summarizes sustained energy but is not a loudness-standard measurement. Use "
+"the :guilabel:`Audio Levels` scope and your ears when mixing. See "
+":ref:`playback_ref` for audio troubleshooting."
+msgstr ""
+"Amplop puncak mengidentifikasi tingkat transien dan kemungkinan kliping; RMS"
+" merangkum energi berkelanjutan tetapi bukan pengukuran standar kekerasan "
+"suara. Gunakan scope :guilabel:`Level Audio` dan telinga Anda saat "
+"mencampur. Lihat :ref:`playback_ref` untuk pemecahan masalah audio."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:611
+msgid ""
+"The :guilabel:`Properties` preset opens the properties panel for a clip, "
+"allowing quick access for adjustments to clip properties, such as location, "
+"scale, rotation, etc... See :ref:`clip_properties_ref`."
+msgstr ""
+"Preset :guilabel:`Properti` membuka panel properti untuk klip, memungkinkan "
+"akses cepat untuk penyesuaian properti klip, seperti lokasi, skala, rotasi, "
+"dll... Lihat :ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:614
+msgid ""
+"**Usage Example:** Adjusting clip properties like opacity, volume, or "
+"position."
+msgstr ""
+"**Contoh Penggunaan:** Menyesuaikan properti klip seperti opasitas, volume, "
+"atau posisi."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:615
+msgid ""
+"**Tip:** Apply this preset to streamline adjustments to all clip properties "
+"in a single dock."
+msgstr ""
+"**Tip:** Terapkan preset ini untuk mempermudah penyesuaian semua properti "
+"klip dalam satu dock."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:619
+msgid ""
+"The :guilabel:`Copy / Paste` preset allows copying and pasting keyframes, "
+"effects, or duplicating an entire clip along with its keyframes. Paste will "
+"create a new clip at the position of your mouse. If you select 1 or more "
+"clips before pasting, you can paste \"over\" those clips with your current "
+"clip."
+msgstr ""
+"Preset :guilabel:`Salin / Tempel` memungkinkan menyalin dan menempel "
+"keyframe, efek, atau menggandakan seluruh klip beserta keyframenya. Tempel "
+"akan membuat klip baru di posisi kursor mouse Anda. Jika Anda memilih satu "
+"atau lebih klip sebelum menempel, Anda dapat menempel \"di atas\" klip-klip "
+"tersebut dengan klip Anda saat ini."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:623
+msgid ""
+"**Usage Example:** Duplicating a clip with intricate animations for reuse in"
+" different parts of the project."
+msgstr ""
+"**Contoh Penggunaan:** Menggandakan klip dengan animasi rumit untuk "
+"digunakan kembali di bagian proyek yang berbeda."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:624
+msgid ""
+"**Tip:** Use this preset to replicate animations or effects across multiple "
+"clips."
+msgstr ""
+"**Tip:** Gunakan preset ini untuk menyalin animasi atau efek ke beberapa "
+"klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:625
+msgid ""
+"**Tip:** Selecting multiple clips before pasting, sets keyframes and/or "
+"effects for all clips."
+msgstr ""
+"**Tip:** Memilih beberapa klip sebelum menempel akan mengatur keyframe "
+"dan/atau efek untuk semua klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:626
+msgid ""
+"**Tip:** You can copy a single effect, and paste it to multiple selected "
+"clips."
+msgstr ""
+"**Tip:** Anda dapat menyalin satu efek, dan menempelkannya ke beberapa klip "
+"yang dipilih."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:629
+msgid "Remove Gaps"
+msgstr "Hapus Celah"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:630
+msgid ""
+"The :guilabel:`Remove Gap` and :guilabel:`Remove All Gaps` options help you "
+"quickly eliminate gaps between clips on the timeline by rippling (i.e., "
+"shifting) subsequent clips to close the gap. These options can be accessed "
+"via the context menu and are only available when gaps are detected."
+msgstr ""
+"Opsi :guilabel:`Hapus Celah` dan :guilabel:`Hapus Semua Celah` membantu Anda"
+" menghilangkan celah antara klip di timeline dengan cara menggeser klip-klip"
+" berikutnya untuk menutup celah. Opsi ini dapat diakses melalui menu konteks"
+" dan hanya tersedia saat celah terdeteksi."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:633
+msgid ""
+"**Remove Gap:** - This option deletes a specific gap between two clips on "
+"the timeline. Right-click on the gap between clips to access the "
+":guilabel:`Remove Gap` option. - Usage: Use this option to quickly eliminate"
+" a specific gap caused by trimming or using the razor tool."
+msgstr ""
+"**Hapus Celah:** - Opsi ini menghapus celah tertentu antara dua klip di "
+"timeline. Klik kanan pada celah antara klip untuk mengakses opsi "
+":guilabel:`Hapus Celah`. - Penggunaan: Gunakan opsi ini untuk cepat "
+"menghilangkan celah tertentu yang disebabkan oleh pemotongan atau penggunaan"
+" alat pisau."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:637
+msgid ""
+"**Remove All Gaps:** - This option removes all gaps between clips on the "
+"timeline for the entire track. Right-click on the track name to access the "
+":guilabel:`Remove All Gaps` option. - Usage: Ideal for tracks that contain "
+"back-to-back clips, such as a photo slideshow, where no gaps are desired."
+msgstr ""
+"**Hapus Semua Celah:** - Opsi ini menghapus semua celah antara klip di "
+"timeline untuk seluruh trek. Klik kanan pada nama trek untuk mengakses opsi "
+":guilabel:`Hapus Semua Celah`. - Penggunaan: Ideal untuk trek yang berisi "
+"klip berurutan, seperti slideshow foto, di mana tidak diinginkan celah."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:643
+msgid ""
+"The :guilabel:`Remove Clip` option lets you delete a clip from the timeline."
+" Removing clips is an essential part of organizing your project and getting "
+"rid of unwanted sections. Removing a clip can also impact the surrounding "
+"clips. If you want to clean up the gap that remains after deleting a clip, "
+"you have a few options to automatically adjust your timeline."
+msgstr ""
+"Opsi :guilabel:`Hapus Klip` memungkinkan Anda menghapus klip dari timeline. "
+"Menghapus klip adalah bagian penting dalam mengatur proyek dan menghilangkan"
+" bagian yang tidak diinginkan. Menghapus klip juga dapat memengaruhi klip di"
+" sekitarnya. Jika Anda ingin membersihkan celah yang tersisa setelah "
+"menghapus klip, ada beberapa opsi untuk menyesuaikan timeline secara "
+"otomatis."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:647
+msgid ""
+"**How to Remove a Clip:** To delete a clip, simply select it and press "
+":kbd:`Delete` on your keyboard, or right-click the clip and choose "
+":guilabel:`Remove Clip` from the context menu. You can also select multiple "
+"clips at once by holding down the :kbd:`Ctrl` key and clicking on additional"
+" clips, then remove them all at once."
+msgstr ""
+"**Cara Menghapus Klip:** Untuk menghapus klip, cukup pilih dan tekan "
+":kbd:`Delete` pada keyboard Anda, atau klik kanan klip dan pilih "
+":guilabel:`Hapus Klip` dari menu konteks. Anda juga dapat memilih beberapa "
+"klip sekaligus dengan menahan tombol :kbd:`Ctrl` dan mengklik klip tambahan,"
+" lalu menghapus semuanya sekaligus."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:651
+msgid ""
+"**Ripple Delete:** If you want to delete a clip and automatically remove the"
+" empty space (gap) it leaves behind, use the **Ripple Delete** feature by "
+"pressing :kbd:`Shift+Delete`. This will shift all the remaining clips and "
+"transitions on the track to the left, filling in the gap and keeping your "
+"timeline smooth and continuous."
+msgstr ""
+"**Hapus Bergelombang:** Jika Anda ingin menghapus klip dan secara otomatis "
+"menghilangkan ruang kosong (celah) yang ditinggalkannya, gunakan fitur "
+"**Hapus Bergelombang** dengan menekan :kbd:`Shift+Delete`. Ini akan "
+"menggeser semua klip dan transisi yang tersisa di trek ke kiri, menutup "
+"celah dan menjaga timeline Anda tetap mulus dan berkelanjutan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:656
+msgid ""
+"**Remove Gap:** After deleting a clip, if you have gaps left in your "
+"timeline that you want to remove, simply right-click in the empty space and "
+"choose :guilabel:`Remove Gap`. This action will shift all clips and "
+"transitions to the left, closing the gap and maintaining the flow of your "
+"video."
+msgstr ""
+"**Hapus Celah:** Setelah menghapus klip, jika masih ada celah di timeline "
+"yang ingin Anda hilangkan, cukup klik kanan di ruang kosong dan pilih "
+":guilabel:`Hapus Celah`. Tindakan ini akan menggeser semua klip dan transisi"
+" ke kiri, menutup celah dan menjaga alur video Anda."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:662
+msgid ""
+"**Example**: If you have a clip that’s no longer needed, such as an intro "
+"you’ve decided not to use, you can quickly select it and either delete it or"
+" use **Ripple Delete** to remove it and shift everything left to close the "
+"gap."
+msgstr ""
+"**Contoh**: Jika Anda memiliki klip yang tidak lagi diperlukan, seperti "
+"intro yang Anda putuskan untuk tidak digunakan, Anda dapat dengan cepat "
+"memilihnya dan menghapusnya atau menggunakan **Hapus Bergelombang** untuk "
+"menghapusnya dan menggeser semuanya ke kiri untuk menutup celah."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:664
+msgid ""
+"For more advanced editing options and shortcuts, refer to the "
+":ref:`clips_cutting_slicing_ref` section."
+msgstr ""
+"Untuk opsi pengeditan dan pintasan yang lebih lanjut, lihat bagian "
+":ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:667
+msgid "Effects"
+msgstr "Efek"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:668
+msgid ""
+"In addition to the many clip properties which can be animated and adjusted, "
+"you can also drop an effect directly onto a clip from the effects dock. Each"
+" effect is represented by a small colored letter icon. Clicking the effect "
+"icon will populate the properties of that effect, and allow you to edit (and"
+" animate) them. For the full list of effects, see :ref:`effects_ref`."
+msgstr ""
+"Selain banyak properti klip yang dapat dianimasikan dan disesuaikan, Anda "
+"juga dapat menjatuhkan efek langsung ke klip dari dock efek. Setiap efek "
+"diwakili oleh ikon huruf kecil berwarna. Mengklik ikon efek akan menampilkan"
+" properti efek tersebut, dan memungkinkan Anda untuk mengedit (dan "
+"menganimasikannya). Untuk daftar lengkap efek, lihat :ref:`effects_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:678
+msgid "Clip Properties"
+msgstr "Properti Klip"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:679
+msgid ""
+"Below is a list of clip properties which can be edited, and in most cases, "
+"animated over time. To view a clip's properties, right click and choose "
+":guilabel:`Properties`. The property editor will appear, where you can "
+"change these properties. You can select multiple clips, transitions or "
+"effects at once. The dropdown at the top of the dock shows entries for each "
+"item plus an entry such as ``2 Selections``. Pick that entry to edit all "
+"selected items together, only properties they share will be visible. If a "
+"field is blank, the values differ between items, but you can still change it"
+" or insert a keyframe for all of them."
+msgstr ""
+"Di bawah ini adalah daftar properti klip yang dapat diedit, dan dalam banyak"
+" kasus, dianimasikan seiring waktu. Untuk melihat properti klip, klik kanan "
+"dan pilih :guilabel:`Properties`. Editor properti akan muncul, di mana Anda "
+"dapat mengubah properti tersebut. Anda dapat memilih beberapa klip, "
+"transisi, atau efek sekaligus. Dropdown di bagian atas dock menampilkan "
+"entri untuk setiap item plus entri seperti ``2 Selections``. Pilih entri "
+"tersebut untuk mengedit semua item yang dipilih bersama-sama, hanya properti"
+" yang mereka miliki bersama yang akan terlihat. Jika sebuah bidang kosong, "
+"nilainya berbeda antar item, tetapi Anda masih dapat mengubahnya atau "
+"memasukkan keyframe untuk semuanya."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:687
+msgid ""
+"Note: Pay close attention to where the play-head (i.e. red playback line) "
+"is. Key frames are automatically created at the current playback position, "
+"to help quickly create animations."
+msgstr ""
+"Catatan: Perhatikan dengan seksama posisi play-head (yaitu garis pemutaran "
+"merah). Keyframe secara otomatis dibuat pada posisi pemutaran saat ini, "
+"untuk membantu membuat animasi dengan cepat."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:690
+msgid ""
+"When animating clip properties, you can fade a clip from opaque to "
+"transparent with ``alpha``, slide a clip around the screen with "
+"``location_x`` and ``location_y``, scale a clip smaller or larger with the "
+"``scale_x`` and ``scale_y``, fade the volume of a clip quieter or louder "
+"with ``volume``, and much more. If you want to set a single, static clip "
+"property with **no animation**, be sure the playhead is positioned at the "
+"start of your clip (to the left) when adjusting the property value."
+msgstr ""
+"Saat menganimasikan properti klip, Anda dapat memudar klip dari buram ke "
+"transparan dengan ``alpha``, menggeser klip di sekitar layar dengan "
+"``location_x`` dan ``location_y``, mengubah skala klip menjadi lebih kecil "
+"atau lebih besar dengan ``scale_x`` dan ``scale_y``, memudar volume klip "
+"menjadi lebih pelan atau lebih keras dengan ``volume``, dan banyak lagi. "
+"Jika Anda ingin mengatur satu properti klip statis tanpa animasi, pastikan "
+"playhead berada di awal klip Anda (di sebelah kiri) saat menyesuaikan nilai "
+"properti."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:695
+msgid "See the table below for a full list of clip properties."
+msgstr "Lihat tabel di bawah untuk daftar lengkap properti klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:701
+msgid "Clip Property Name"
+msgstr "Nama Properti Klip"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:701
+msgid "Type"
+msgstr "Tipe"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:703 ../clips.rst:784
+msgid "Alpha"
+msgstr "Alpha"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:703 ../clips.rst:704 ../clips.rst:705 ../clips.rst:707
+#: ../clips.rst:715 ../clips.rst:716 ../clips.rst:717 ../clips.rst:718
+#: ../clips.rst:719 ../clips.rst:722 ../clips.rst:724 ../clips.rst:725
+#: ../clips.rst:726 ../clips.rst:727 ../clips.rst:729 ../clips.rst:731
+#: ../clips.rst:733
+msgid "Key-Frame"
+msgstr "Keyframe"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:703
+msgid ""
+"Curve representing the alpha for fading the image and adding transparency (1"
+" to 0)"
+msgstr ""
+"Kurva yang mewakili alpha untuk memudar gambar dan menambahkan transparansi "
+"(1 sampai 0)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:704 ../clips.rst:801
+msgid "Channel Filter"
+msgstr "Filter Saluran"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:704
+msgid ""
+"A number representing an audio channel to filter (clears all other channels)"
+msgstr ""
+"Angka yang mewakili saluran audio untuk difilter (menghapus semua saluran "
+"lain)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:705 ../clips.rst:809
+msgid "Channel Mapping"
+msgstr "Pemetaan Saluran"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:705
+msgid ""
+"A number representing an audio channel to output (only works when filtering "
+"a channel)"
+msgstr ""
+"Angka yang mewakili saluran audio untuk output (hanya berfungsi saat "
+"memfilter saluran)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:706 ../clips.rst:741
+msgid "Composite (Blend Mode)"
+msgstr "Komposit (Mode Campuran)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:706 ../clips.rst:709 ../clips.rst:710 ../clips.rst:712
+#: ../clips.rst:713 ../clips.rst:723 ../clips.rst:732 ../clips.rst:735
+msgid "Enum"
+msgstr "Enum"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:706
+msgid ""
+"The blend mode used to composite this clip into lower layers. Default is "
+"**Normal**. See :ref:`clip_composite_ref`."
+msgstr ""
+"Mode campuran yang digunakan untuk menggabungkan klip ini ke lapisan bawah. "
+"Default adalah **Normal**. Lihat :ref:`clip_composite_ref`."
+
+#: ../clips.rst:707 ../clips.rst:792
+msgid "Corner Radius"
+msgstr "Radius Sudut"
+
+#: ../clips.rst:707
+msgid ""
+"Curve representing the radius used to round the clip's corners (0 to 0.5)"
+msgstr ""
+"Kurva yang mewakili radius yang digunakan untuk membulatkan sudut klip (0 "
+"sampai 0,5)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:708 ../clips.rst:824
+msgid "Duration"
+msgstr "Durasi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:708 ../clips.rst:711 ../clips.rst:721 ../clips.rst:728
+msgid "Float"
+msgstr "Float"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:708
+msgid ""
+"The length of the clip (in seconds). Read-only property. This is calculated "
+"by: End - Start."
+msgstr ""
+"Panjang klip (dalam detik). Properti hanya-baca. Ini dihitung dengan: Akhir "
+"- Awal."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:709 ../clips.rst:857
+msgid "Enable Audio"
+msgstr "Aktifkan Audio"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:709
+msgid ""
+"An optional override to determine if this clip has audio (-1=undefined, "
+"0=no, 1=yes)"
+msgstr ""
+"Override opsional untuk menentukan apakah klip ini memiliki audio (-1=tidak "
+"terdefinisi, 0=tidak, 1=ya)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:710 ../clips.rst:865
+msgid "Enable Video"
+msgstr "Aktifkan Video"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:710
+msgid ""
+"An optional override to determine if this clip has video (-1=undefined, "
+"0=no, 1=yes)"
+msgstr ""
+"Override opsional untuk menentukan apakah klip ini memiliki video (-1=tidak "
+"terdefinisi, 0=tidak, 1=ya)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:711 ../clips.rst:832
+msgid "End"
+msgstr "Akhir"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:711
+msgid "The end trimming position of the clip (in seconds)"
+msgstr "Posisi pemangkasan akhir klip (dalam detik)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:712 ../clips.rst:817
+msgid "Frame Number"
+msgstr "Nomor Frame"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:712
+msgid "The format to display the frame number (if any)"
+msgstr "Format untuk menampilkan nomor frame (jika ada)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:713 ../clips.rst:840
+msgid "Gravity"
+msgstr "Gravitasi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:713
+msgid ""
+"The gravity of a clip determines where it snaps to its parent (details "
+"below)"
+msgstr ""
+"Gravitasi klip menentukan di mana klip menempel pada induknya (detail di "
+"bawah)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:714 ../clips.rst:873
+msgid "ID"
+msgstr "ID"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:714 ../clips.rst:720
+msgid "String"
+msgstr "String"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:714
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"clip. Read-only property."
+msgstr ""
+"GUID yang dihasilkan secara acak (pengidentifikasi unik global) yang "
+"diberikan ke setiap klip. Properti hanya-baca."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:715
+msgid "Location X"
+msgstr "Lokasi X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:715
+msgid ""
+"Curve representing the relative X position in percent based on the gravity "
+"(-1 to 1)"
+msgstr ""
+"Kurva yang mewakili posisi relatif X dalam persen berdasarkan gravitasi (-1 "
+"sampai 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:716
+msgid "Location Y"
+msgstr "Lokasi Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:716
+msgid ""
+"Curve representing the relative Y position in percent based on the gravity "
+"(-1 to 1)"
+msgstr ""
+"Kurva yang mewakili posisi relatif Y dalam persen berdasarkan gravitasi (-1 "
+"sampai 1)"
+
+#: ../clips.rst:717 ../clips.rst:899
+msgid "Margin"
+msgstr "Margin"
+
+#: ../clips.rst:717
+msgid "Curve representing edge spacing for gravity-aligned clips (0 to 0.5)"
+msgstr ""
+"Kurva yang mewakili jarak tepi untuk klip yang disejajarkan dengan gravitasi"
+" (0 sampai 0,5)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:718
+msgid "Origin X"
+msgstr "Asal X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:718
+msgid ""
+"Curve representing the rotation origin point, X position in percent (-1 to "
+"1)"
+msgstr ""
+"Kurva yang mewakili titik asal rotasi, posisi X dalam persen (-1 sampai 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:719
+msgid "Origin Y"
+msgstr "Asal Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:719
+msgid ""
+"Curve representing the rotation origin point, Y position in percent (-1 to "
+"1)"
+msgstr ""
+"Kurva yang mewakili titik asal rotasi, posisi Y dalam persen (-1 hingga 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:720
+msgid "Parent"
+msgstr "Induk"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:720
+msgid ""
+"The parent object to this clip, which makes many of these keyframe values "
+"initialize to the parent value"
+msgstr ""
+"Objek induk dari klip ini, yang membuat banyak nilai keyframe ini "
+"diinisialisasi ke nilai induk"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:721 ../clips.rst:956
+msgid "Position"
+msgstr "Posisi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:721
+msgid ""
+"The position of the clip on the timeline (in seconds, 0.0 is the beginning "
+"of the timeline)"
+msgstr "Posisi klip pada timeline (dalam detik, 0.0 adalah awal timeline)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:722 ../clips.rst:965
+msgid "Rotation"
+msgstr "Rotasi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:722
+msgid "Curve representing the rotation (0 to 360)"
+msgstr "Kurva yang mewakili rotasi (0 hingga 360)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:723 ../clips.rst:981
+msgid "Scale"
+msgstr "Skala"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:723
+msgid ""
+"The scale determines how a clip should be resized to fit its parent (details"
+" below)"
+msgstr ""
+"Skala menentukan bagaimana klip harus diubah ukurannya agar sesuai dengan "
+"induknya (rincian di bawah)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:724
+msgid "Scale X"
+msgstr "Skala X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:724
+msgid "Curve representing the horizontal scaling in percent (0 to 1)"
+msgstr "Kurva yang mewakili skala horizontal dalam persen (0 hingga 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:725
+msgid "Scale Y"
+msgstr "Skala Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:725
+msgid "Curve representing the vertical scaling in percent (0 to 1)"
+msgstr "Kurva yang mewakili skala vertikal dalam persen (0 hingga 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:726
+msgid "Shear X"
+msgstr "Shear X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:726
+msgid "Curve representing X shear angle in degrees (-45.0=left, 45.0=right)"
+msgstr ""
+"Kurva yang mewakili sudut shear X dalam derajat (-45,0=kiri, 45,0=kanan)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:727
+msgid "Shear Y"
+msgstr "Shear Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:727
+msgid "Curve representing Y shear angle in degrees (-45.0=down, 45.0=up)"
+msgstr ""
+"Kurva yang mewakili sudut shear Y dalam derajat (-45,0=bawah, 45,0=atas)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:728 ../clips.rst:1015
+msgid "Start"
+msgstr "Mulai"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:728
+msgid "The start trimming position of the clip (in seconds)"
+msgstr "Posisi pemotongan awal klip (dalam detik)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:729 ../clips.rst:1025
+msgid "Time"
+msgstr "Waktu"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:729
+msgid ""
+"Curve representing the frames over time to play (used for speed and "
+"direction of video)"
+msgstr ""
+"Kurva yang mewakili frame yang diputar seiring waktu (digunakan untuk "
+"kecepatan dan arah video)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:730 ../clips.rst:881
+msgid "Track"
+msgstr "Track"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:730
+msgid "Int"
+msgstr "Int"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:730
+msgid ""
+"The layer which holds the clip (higher tracks are rendered on top of lower "
+"tracks)"
+msgstr ""
+"Lapisan yang memegang klip (track yang lebih tinggi dirender di atas track "
+"yang lebih rendah)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:731 ../clips.rst:1051
+msgid "Volume"
+msgstr "Volume"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:731
+msgid ""
+"Curve representing the volume for fading audio quieter/louder, mute, or "
+"adjusting levels (0 to 1)"
+msgstr ""
+"Kurva yang mewakili volume untuk memudar audio menjadi lebih pelan/keras, "
+"bisu, atau mengatur level (0 hingga 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:732 ../clips.rst:917
+msgid "Volume Mixing"
+msgstr "Pencampuran Volume"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:732
+msgid ""
+"The volume mixing choices control how volume is adjusted before mixing "
+"(None=don't adjust volume of this clip, Reduce=lower the volume to 80%, "
+"Average=divide volume based on # of concurrent clips, details below)"
+msgstr ""
+"Pilihan pencampuran volume mengontrol bagaimana volume disesuaikan sebelum "
+"pencampuran (None=tidak mengubah volume klip ini, Reduce=menurunkan volume "
+"menjadi 80%, Average=membagi volume berdasarkan jumlah klip yang berjalan "
+"bersamaan, detail di bawah)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:733 ../clips.rst:1060
+msgid "Wave Color"
+msgstr "Warna Gelombang"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:733
+msgid "Curve representing the color of the audio waveform"
+msgstr "Kurva yang mewakili warna gelombang audio"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:734
+msgid "Bool"
+msgstr "Bool"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:734
+msgid "Should a waveform be used instead of the clip's image"
+msgstr "Apakah gelombang harus digunakan menggantikan gambar klip"
+
+#: ../clips.rst:735 ../clips.rst:1074
+msgid "Waveform Mode"
+msgstr "Mode Gelombang"
+
+#: ../clips.rst:735
+msgid ""
+"The visualization style used when displaying the clip as an audio waveform"
+msgstr ""
+"Gaya visualisasi yang digunakan saat menampilkan klip sebagai gelombang "
+"audio"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:742
+msgid ""
+"The :guilabel:`Composite (Blend Mode)` property controls **how the pixels of"
+" this clip mix with the clips on lower tracks**. If you are new to this, "
+"start with **Normal**. Switch modes when you want a quick creative change "
+"without adding an effect."
+msgstr ""
+"Properti :guilabel:`Composite (Blend Mode)` mengontrol **bagaimana piksel "
+"klip ini bercampur dengan klip pada track yang lebih rendah**. Jika Anda "
+"baru mengenal ini, mulailah dengan **Normal**. Ganti mode saat Anda ingin "
+"perubahan kreatif cepat tanpa menambahkan efek."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:745
+msgid "**Beginner tips**"
+msgstr "**Tips Pemula**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:747
+msgid ""
+"Want to **brighten** light effects, flares, or smoke over a dark scene? Try "
+"**Screen** or **Add**."
+msgstr ""
+"Ingin **mencerahkan** efek cahaya, flare, atau asap di atas adegan gelap? "
+"Coba **Screen** atau **Add**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:748
+msgid ""
+"Want to **darken** or place a texture over footage (paper grain, grids, "
+"shadows)? Try **Multiply** or **Color Burn**."
+msgstr ""
+"Ingin **menggelapkan** atau menempatkan tekstur di atas rekaman (butiran "
+"kertas, kisi, bayangan)? Coba **Multiply** atau **Color Burn**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:749
+msgid ""
+"Want **more contrast** without crushing blacks and whites too much? Try "
+"**Overlay** or **Soft Light**."
+msgstr ""
+"Ingin **kontras lebih** tanpa merusak hitam dan putih terlalu banyak? Coba "
+"**Overlay** atau **Soft Light**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:750
+msgid ""
+"Want a **creative/inverted look** or to line things up? Try **Difference** "
+"or **Exclusion**."
+msgstr ""
+"Ingin tampilan **kreatif/terbalik** atau menyelaraskan sesuatu? Coba "
+"**Difference** atau **Exclusion**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:752
+msgid "**Common modes (recommended)**"
+msgstr "**Mode umum (direkomendasikan)**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:758
+msgid "Mode"
+msgstr "Mode"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:758
+msgid "What it does"
+msgstr "Fungsinya"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:760
+msgid "Normal"
+msgstr "Normal"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:760
+msgid "Standard alpha compositing. Respects transparency from the clip."
+msgstr "Komposit alfa standar. Menghormati transparansi dari klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:761
+msgid "Darken"
+msgstr "Gelapkan"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:761
+msgid "Chooses the darker pixel from the two layers, per channel."
+msgstr "Memilih piksel yang lebih gelap dari dua lapisan, per saluran."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:762
+msgid "Multiply"
+msgstr "Multiply"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:762
+msgid "Multiplies colors. Darkens and helps textures sit on top of footage."
+msgstr ""
+"Mengalikan warna. Menggelapkan dan membantu tekstur berada di atas rekaman."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:763
+msgid "Color Burn"
+msgstr "Color Burn"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:763
+msgid "Pushes shadows darker and boosts contrast; can clip to black."
+msgstr ""
+"Membuat bayangan lebih gelap dan meningkatkan kontras; dapat memotong ke "
+"hitam."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:764
+msgid "Lighten"
+msgstr "Terang"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:764
+msgid "Chooses the lighter pixel from the two layers, per channel."
+msgstr "Memilih piksel yang lebih terang dari dua lapisan, per saluran."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:765
+msgid "Screen"
+msgstr "Screen"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:765
+msgid "The opposite of Multiply. Brightens; great for light, glow, fire, fog."
+msgstr ""
+"Kebalikan dari Multiply. Mencerahkan; bagus untuk cahaya, cahaya lembut, "
+"api, kabut."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:766
+msgid "Color Dodge"
+msgstr "Color Dodge"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:766
+msgid "Brightens highlights strongly; can blow out to white."
+msgstr "Mencerahkan sorotan dengan kuat; dapat membuat putih berlebihan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:767
+msgid "Add"
+msgstr "Add"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:767
+msgid ""
+"Adds pixel values. Strong brightening; clips at white. Also called *Linear "
+"Dodge (Add)*."
+msgstr ""
+"Menambahkan nilai piksel. Pencerahan kuat; memotong pada putih. Juga disebut"
+" *Linear Dodge (Add)*."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:768
+msgid "Overlay"
+msgstr "Overlay"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:768
+msgid ""
+"Mix of Multiply and Screen using the lower layer to decide. Adds punchy "
+"contrast."
+msgstr ""
+"Campuran Multiply dan Screen menggunakan lapisan bawah untuk menentukan. "
+"Menambahkan kontras tajam."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:769
+msgid "Soft Light"
+msgstr "Soft Light"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:769
+msgid "Gentle contrast curve; softer than Overlay."
+msgstr "Kurva kontras lembut; lebih halus dari Overlay."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:770
+msgid "Hard Light"
+msgstr "Hard Light"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:770
+msgid "Stronger, edgy contrast using the upper layer to drive the change."
+msgstr ""
+"Kontras lebih kuat dan tajam menggunakan lapisan atas untuk menggerakkan "
+"perubahan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:771
+msgid "Difference"
+msgstr "Difference"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:771
+msgid ""
+"Absolute difference between layers. Creates inverted/psychedelic colors; "
+"useful for alignment."
+msgstr ""
+"Perbedaan absolut antara lapisan. Membuat warna terbalik/psikedelik; berguna"
+" untuk penyelarasan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:772
+msgid "Exclusion"
+msgstr "Exclusion"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:772
+msgid "Softer version of Difference with less contrast."
+msgstr "Versi Difference yang lebih lembut dengan kontras lebih rendah."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:775
+msgid "**Notes**"
+msgstr "**Catatan**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:777
+msgid ""
+"Blend modes affect **color**, while alpha (the :guilabel:`Alpha` property) "
+"affects **transparency**. You can use both."
+msgstr ""
+"Mode blend memengaruhi **warna**, sedangkan alfa (properti "
+":guilabel:`Alpha`) memengaruhi **transparansi**. Anda dapat menggunakan "
+"keduanya."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:778
+msgid ""
+"Some modes can create very bright or very dark results. If needed, lower the"
+" :guilabel:`Alpha` property to soften."
+msgstr ""
+"Beberapa mode dapat menghasilkan hasil yang sangat terang atau sangat gelap."
+" Jika perlu, turunkan properti :guilabel:`Alpha` untuk melembutkan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:779
+msgid ""
+"The exact look of Multiply/Screen/Overlay family is best when project colors"
+" are in a linear color space."
+msgstr ""
+"Tampilan tepat dari keluarga Multiply/Screen/Overlay terbaik saat warna "
+"proyek berada dalam ruang warna linier."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:785
+msgid ""
+"The :guilabel:`Alpha` property is a key-frame curve that represents the "
+"alpha value, determining fading and transparency of the image in the clip. "
+"The curve ranges from 1 (fully opaque) to 0 (completely transparent)."
+msgstr ""
+"Properti :guilabel:`Alpha` adalah kurva key-frame yang mewakili nilai alpha,"
+" menentukan efek memudar dan transparansi gambar dalam klip. Kurva ini "
+"berkisar dari 1 (sepenuhnya buram) hingga 0 (sepenuhnya transparan)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:788
+msgid ""
+"**Usage Example:** Applying a gradual fade-in or fade-out effect to smoothly"
+" transition clips."
+msgstr ""
+"**Contoh Penggunaan:** Menerapkan efek memudar masuk atau keluar secara "
+"bertahap untuk transisi klip yang halus."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:789
+msgid ""
+"**Tip:** Use keyframes to create complex fading patterns, such as fading in "
+"and then fading out for a ghostly effect."
+msgstr ""
+"**Tips:** Gunakan keyframe untuk membuat pola memudar yang kompleks, seperti"
+" memudar masuk lalu memudar keluar untuk efek seperti hantu."
+
+#: ../clips.rst:793
+msgid ""
+"The :guilabel:`Corner Radius` property is a key-frame curve that rounds the "
+"visible corners of a clip. The curve ranges from 0 (square corners) to 0.5 "
+"(maximum rounding, based on the clip's shortest side)."
+msgstr ""
+"Properti :guilabel:`Corner Radius` adalah kurva key-frame yang membulatkan "
+"sudut yang terlihat dari sebuah klip. Kurva ini berkisar dari 0 (sudut "
+"persegi) hingga 0,5 (pembulatan maksimum, berdasarkan sisi terpendek klip)."
+
+#: ../clips.rst:796
+msgid ""
+"**Usage Example:** Rounding the corners of a picture-in-picture camera "
+"recording without adding a separate mask effect."
+msgstr ""
+"**Contoh Penggunaan:** Membulatkan sudut rekaman kamera picture-in-picture "
+"tanpa menambahkan efek masker terpisah."
+
+#: ../clips.rst:797
+msgid ""
+"**Usage Example:** In :guilabel:`Recording View`, corner webcam clips use "
+"this property for the :guilabel:`Corners` setting."
+msgstr ""
+"**Contoh Penggunaan:** Dalam :guilabel:`Recording View`, klip webcam sudut "
+"menggunakan properti ini untuk pengaturan :guilabel:`Corners`."
+
+#: ../clips.rst:798
+msgid ""
+"**Tip:** Use 0 for normal full-frame video, a small value for rounded "
+"rectangles, or 0.5 for a pill or oval-like shape."
+msgstr ""
+"**Tips:** Gunakan 0 untuk video full-frame normal, nilai kecil untuk persegi"
+" panjang membulat, atau 0,5 untuk bentuk pil atau oval."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:802
+msgid ""
+"The :guilabel:`Channel Filter` property is a key-frame curve used for audio "
+"manipulation. It specifies a single audio channel to be filtered while "
+"clearing all other channels."
+msgstr ""
+"Properti :guilabel:`Channel Filter` adalah kurva key-frame yang digunakan "
+"untuk manipulasi audio. Ini menentukan satu saluran audio yang akan difilter"
+" sementara semua saluran lain dibersihkan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:805
+msgid ""
+"**Usage Example:** Isolating and enhancing specific audio elements, like "
+"isolating vocals from a song."
+msgstr ""
+"**Contoh Penggunaan:** Mengisolasi dan meningkatkan elemen audio tertentu, "
+"seperti mengisolasi vokal dari sebuah lagu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:806
+msgid ""
+"**Tip:** Combine with the \"Channel Mapping\" property to route the filtered"
+" channel to a specific audio output."
+msgstr ""
+"**Tips:** Gabungkan dengan properti \"Channel Mapping\" untuk mengarahkan "
+"saluran yang difilter ke output audio tertentu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:810
+msgid ""
+"The :guilabel:`Channel Mapping` property is a key-frame curve that defines "
+"the output audio channel for the clip. This property works in conjunction "
+"with the \"Channel Filter\" property and specifies which channel is retained"
+" in the output."
+msgstr ""
+"Properti :guilabel:`Channel Mapping` adalah kurva key-frame yang menentukan "
+"saluran audio output untuk klip. Properti ini bekerja bersama dengan "
+"properti \"Channel Filter\" dan menentukan saluran mana yang dipertahankan "
+"dalam output."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:813
+msgid ""
+"**Usage Example:** Keeping the filtered channel's audio while discarding "
+"others for an unconventional audio mix."
+msgstr ""
+"**Contoh Penggunaan:** Menjaga audio dari saluran yang difilter sambil "
+"membuang saluran lain untuk campuran audio yang tidak konvensional."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:814
+msgid ""
+"**Tip:** Experiment with mapping different channels to create unique audio "
+"effects, like panning sounds between speakers."
+msgstr ""
+"**Tips:** Bereksperimen dengan pemetaan saluran yang berbeda untuk "
+"menciptakan efek audio unik, seperti memindahkan suara antar speaker."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:818
+msgid ""
+"The :guilabel:`Frame Number` property specifies the format in which the "
+"frame numbers are displayed within the clip, if applicable."
+msgstr ""
+"Properti :guilabel:`Frame Number` menentukan format tampilan nomor frame "
+"dalam klip, jika berlaku."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:820
+msgid ""
+"**Usage Example:** Displaying frame numbers in the top left corner of the "
+"clip, as either absolute frame number or relative to the start of the clip."
+msgstr ""
+"**Contoh Penggunaan:** Menampilkan nomor frame di sudut kiri atas klip, baik"
+" sebagai nomor frame absolut atau relatif terhadap awal klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:821
+msgid ""
+"**Tip:** This can help with identifying precise frame numbers or "
+"troubleshooting a problem."
+msgstr ""
+"**Tips:** Ini dapat membantu mengidentifikasi nomor frame yang tepat atau "
+"memecahkan masalah."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:825
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the clip in seconds. This is a Read-only property. This is calculated by: "
+"End - Start. To modify duration, you must edit the :guilabel:`Start` and/or "
+":guilabel:`End` clip properties."
+msgstr ""
+"Properti :guilabel:`Duration` adalah nilai float yang menunjukkan durasi "
+"klip dalam detik. Ini adalah properti hanya-baca. Durasi dihitung dengan: "
+"Akhir - Awal. Untuk mengubah durasi, Anda harus mengedit properti klip "
+":guilabel:`Start` dan/atau :guilabel:`End`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:828
+msgid ""
+"**Usage Example:** Inspect the duration of a clip to ensure it fits a "
+"specific time slot in the project."
+msgstr ""
+"**Contoh Penggunaan:** Memeriksa durasi klip untuk memastikan sesuai dengan "
+"slot waktu tertentu dalam proyek."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:829
+msgid ""
+"**Tip:** Consider using the \"Duration\" property for clips that need to "
+"match specific time intervals, such as dialogue or scenes."
+msgstr ""
+"**Tips:** Pertimbangkan menggunakan properti \"Duration\" untuk klip yang "
+"perlu sesuai dengan interval waktu tertentu, seperti dialog atau adegan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:833
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"clip in seconds, allowing you to control how much of the clip is visible in "
+"the timeline. Changing this property will impact the :guilabel:`Duration` "
+"clip property."
+msgstr ""
+"Properti :guilabel:`End` menentukan titik pemotongan di akhir klip dalam "
+"detik, memungkinkan Anda mengontrol seberapa banyak klip yang terlihat di "
+"timeline. Mengubah properti ini akan memengaruhi properti klip "
+":guilabel:`Duration`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:836
+msgid ""
+"**Usage Example:** Trimming the end of a clip to align with another clip or "
+"trimming off unwanted sections of the clip."
+msgstr ""
+"**Contoh Penggunaan:** Memotong bagian akhir klip agar sejajar dengan klip "
+"lain atau memotong bagian yang tidak diinginkan dari klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:837
+msgid ""
+"**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
+"the visible portion of the clip."
+msgstr ""
+"**Tips:** Gabungkan properti \"Start\" dan \"End\" untuk mengontrol dengan "
+"tepat bagian klip yang terlihat."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:841
+msgid ""
+"The :guilabel:`Gravity` clip property sets the initial display position "
+"coordinate (X,Y) for the clip, after it has been scaled (see "
+":ref:`clip_scale_ref`). This affects where the clip picture is initially "
+"displayed on the screen, for example ``Top Left`` or ``Bottom Right``. The "
+"default gravity option is ``Center``, which displays the picture in the very"
+" center of the screen. The gravity options are:"
+msgstr ""
+"Properti klip :guilabel:`Gravity` mengatur koordinat posisi tampilan awal "
+"(X,Y) untuk klip, setelah diskalakan (lihat :ref:`clip_scale_ref`). Ini "
+"memengaruhi di mana gambar klip ditampilkan awalnya di layar, misalnya ``Top"
+" Left`` atau ``Bottom Right``. Opsi gravity default adalah ``Center``, yang "
+"menampilkan gambar tepat di tengah layar. Opsi gravity adalah:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:846
+msgid ""
+"**Top Left** – The top and left edges of the clip align with the top and "
+"left edges of the screen"
+msgstr ""
+"**Top Left** – Tepi atas dan kiri klip sejajar dengan tepi atas dan kiri "
+"layar"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:847
+msgid ""
+"**Top Center** – The top edge of the clip aligns with the top edge of the "
+"screen; the clip is horizontally centered on the screen."
+msgstr ""
+"**Top Center** – Tepi atas klip sejajar dengan tepi atas layar; klip "
+"diposisikan di tengah secara horizontal pada layar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:848
+msgid ""
+"**Top Right** – The top and right edges of the clip align with the top and "
+"right edges of the screen"
+msgstr ""
+"**Top Right** – Tepi atas dan kanan klip sejajar dengan tepi atas dan kanan "
+"layar"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:849
+msgid ""
+"**Left** – The left edge of the clip aligns with the left edge of the "
+"screen; the clip is vertically centered on the screen."
+msgstr ""
+"**Left** – Tepi kiri klip sejajar dengan tepi kiri layar; klip diposisikan "
+"di tengah secara vertikal pada layar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:850
+msgid ""
+"**Center** (default) – The clip is centered horizontally and vertically on "
+"the screen."
+msgstr ""
+"**Center** (default) – Klip diposisikan di tengah secara horizontal dan "
+"vertikal pada layar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:851
+msgid ""
+"**Right** – The right edge of the clip aligns with the right edge of the "
+"screen; the clip is vertically centered on the screen."
+msgstr ""
+"**Right** – Tepi kanan klip sejajar dengan tepi kanan layar; klip "
+"diposisikan di tengah secara vertikal pada layar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:852
+msgid ""
+"**Bottom Left** – The bottom and left edges of the clip align with the "
+"bottom and left edges of the screen"
+msgstr ""
+"**Bottom Left** – Tepi bawah dan kiri klip sejajar dengan tepi bawah dan "
+"kiri layar"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:853
+msgid ""
+"**Bottom Center** – The bottom edge of the clip aligns with the bottom edge "
+"of the screen; the clip is horizontally centered on the screen."
+msgstr ""
+"**Bottom Center** – Tepi bawah klip sejajar dengan tepi bawah layar; klip "
+"diposisikan di tengah secara horizontal pada layar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:854
+msgid ""
+"**Bottom Right** – The bottom and right edges of the clip align with the "
+"bottom and right edges of the screen"
+msgstr ""
+"**Bottom Right** – Tepi bawah dan kanan klip sejajar dengan tepi bawah dan "
+"kanan layar"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:858
+msgid ""
+"The :guilabel:`Enable Audio` property is an enumeration that overrides the "
+"default audio setting for the clip. Possible values: -1 (undefined), 0 (no "
+"audio), 1 (audio enabled)."
+msgstr ""
+"Properti :guilabel:`Enable Audio` adalah enumerasi yang menggantikan "
+"pengaturan audio default untuk klip. Nilai yang mungkin: -1 (tidak "
+"terdefinisi), 0 (tanpa audio), 1 (audio diaktifkan)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:861
+msgid ""
+"**Usage Example:** Turning off unwanted audio for a clip, like ambient "
+"noise."
+msgstr ""
+"**Contoh Penggunaan:** Mematikan audio yang tidak diinginkan pada klip, "
+"seperti suara latar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:862
+msgid ""
+"**Tip:** Use this property to control audio playback for specific clips, "
+"especially clips which have no useful audio track."
+msgstr ""
+"**Tips:** Gunakan properti ini untuk mengontrol pemutaran audio pada klip "
+"tertentu, terutama klip yang tidak memiliki trek audio yang berguna."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:866
+msgid ""
+"The :guilabel:`Enable Video` property is an enumeration that overrides the "
+"default video setting for the clip. Possible values: -1 (undefined), 0 (no "
+"video), 1 (video enabled)."
+msgstr ""
+"Properti :guilabel:`Enable Video` adalah enumerasi yang menggantikan "
+"pengaturan video default untuk klip. Nilai yang mungkin: -1 (tidak "
+"terdefinisi), 0 (tanpa video), 1 (video diaktifkan)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:869
+msgid ""
+"**Usage Example:** Disabling the video of a clip while retaining its audio "
+"for creating audio-only sequences."
+msgstr ""
+"**Contoh Penggunaan:** Menonaktifkan video dari sebuah klip sambil "
+"mempertahankan audionya untuk membuat urutan hanya audio."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:870
+msgid ""
+"**Tip:** This property can be helpful when creating scenes with audio "
+"commentary or voiceovers."
+msgstr ""
+"**Tips:** Properti ini dapat membantu saat membuat adegan dengan komentar "
+"audio atau sulih suara."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:874
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique"
+" Identifier) assigned to each clip, ensuring its uniqueness. This is a Read-"
+"only property, and assigned by OpenShot when a clip is created."
+msgstr ""
+"Properti :guilabel:`ID` menyimpan GUID (Globally Unique Identifier) yang "
+"dihasilkan secara acak dan diberikan ke setiap klip, memastikan keunikannya."
+" Ini adalah properti hanya-baca, dan ditetapkan oleh OpenShot saat klip "
+"dibuat."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:877
+msgid ""
+"**Usage Example:** Referencing specific clips within custom scripts or "
+"automation tasks."
+msgstr ""
+"**Contoh Penggunaan:** Merujuk klip tertentu dalam skrip kustom atau tugas "
+"otomatisasi."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:878
+msgid ""
+"**Tip:** While typically managed behind the scenes, understanding clip IDs "
+"can aid in advanced project customization."
+msgstr ""
+"**Tips:** Meskipun biasanya dikelola di belakang layar, memahami ID klip "
+"dapat membantu dalam kustomisasi proyek tingkat lanjut."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:882
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the clip is placed. Clips on higher tracks are rendered above those on lower"
+" tracks."
+msgstr ""
+"Properti :guilabel:`Track` adalah bilangan bulat yang menunjukkan lapisan "
+"tempat klip ditempatkan. Klip pada track yang lebih tinggi dirender di atas "
+"yang pada track lebih rendah."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:885
+msgid ""
+"**Usage Example:** Arranging clips in different layers for creating visual "
+"depth and complexity."
+msgstr ""
+"**Contoh Penggunaan:** Menyusun klip di lapisan berbeda untuk menciptakan "
+"kedalaman dan kompleksitas visual."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:886
+msgid ""
+"**Tip:** Use higher tracks for elements that need to appear above others, "
+"like text overlays or graphics."
+msgstr ""
+"**Tips:** Gunakan track yang lebih tinggi untuk elemen yang perlu muncul di "
+"atas yang lain, seperti overlay teks atau grafik."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:891
+msgid "Location X and Location Y"
+msgstr "Lokasi X dan Lokasi Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:892
+msgid ""
+"The :guilabel:`Location X` and :guilabel:`Location Y` properties are key-"
+"frame curves that determine the relative position of the clip, expressed in "
+"percentages, based on the specified gravity. The range for these curves is "
+"-1 to 1. See :ref:`clip_transform_ref`."
+msgstr ""
+"Properti :guilabel:`Location X` dan :guilabel:`Location Y` adalah kurva "
+"keyframe yang menentukan posisi relatif klip, dinyatakan dalam persentase, "
+"berdasarkan gravitasi yang ditentukan. Rentang kurva ini adalah -1 sampai 1."
+" Lihat :ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:895
+msgid ""
+"**Usage Example:** Animating a clip's movement across the screen using key-"
+"frame curves for both X and Y locations."
+msgstr ""
+"**Contoh Penggunaan:** Menganimasikan pergerakan klip melintasi layar "
+"menggunakan kurva keyframe untuk lokasi X dan Y."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:896
+msgid ""
+"**Tip:** Combine with gravity settings to create dynamic animations that "
+"adhere to consistent alignment rules."
+msgstr ""
+"**Tips:** Gabungkan dengan pengaturan gravitasi untuk membuat animasi "
+"dinamis yang mengikuti aturan penyelarasan yang konsisten."
+
+#: ../clips.rst:900
+msgid ""
+"The :guilabel:`Margin` property is a key-frame curve that creates an inset "
+"layout area for a clip. The curve is measured as a percentage of the "
+"project's shortest side and ranges from 0 to 0.5. For example, in a "
+"1920x1080 project, a margin of 0.05 creates a 54-pixel inset on every side, "
+"and the clip is laid out inside the remaining rectangle."
+msgstr ""
+"Properti :guilabel:`Margin` adalah kurva key-frame yang membuat area tata "
+"letak inset untuk sebuah klip. Kurva ini diukur sebagai persentase dari sisi"
+" terpendek proyek dan berkisar dari 0 hingga 0,5. Misalnya, dalam proyek "
+"1920x1080, margin 0,05 membuat inset 54 piksel di setiap sisi, dan klip "
+"ditempatkan di dalam persegi panjang yang tersisa."
+
+#: ../clips.rst:904
+msgid ""
+"Margin is applied before the clip's scale and gravity are calculated. This "
+"means :guilabel:`Scale` modes such as ``Fit``, ``Crop``, and ``Stretch`` use"
+" the smaller inset area instead of the full project frame. It also means all"
+" :guilabel:`Gravity` options, including ``Center``, are resolved inside the "
+"inset area."
+msgstr ""
+"Margin diterapkan sebelum skala dan gravitasi klip dihitung. Ini berarti "
+"mode :guilabel:`Scale` seperti ``Fit``, ``Crop``, dan ``Stretch`` "
+"menggunakan area inset yang lebih kecil daripada frame proyek penuh. Ini "
+"juga berarti semua opsi :guilabel:`Gravity`, termasuk ``Center``, "
+"diselesaikan di dalam area inset."
+
+#: ../clips.rst:908
+msgid ""
+"**Usage Example:** Keeping a corner webcam clip slightly away from the "
+"screen edge during a screen recording."
+msgstr ""
+"**Contoh Penggunaan:** Menjaga klip webcam sudut sedikit menjauh dari tepi "
+"layar selama perekaman layar."
+
+#: ../clips.rst:909
+msgid ""
+"**Usage Example:** Adding a clean border around a full-frame image by using "
+"``Fit`` or ``Stretch`` with a small margin."
+msgstr ""
+"**Contoh Penggunaan:** Menambahkan batas bersih di sekitar gambar full-frame"
+" dengan menggunakan ``Fit`` atau ``Stretch`` dengan margin kecil."
+
+#: ../clips.rst:910
+msgid ""
+"**Usage Example:** Creating safe-area layouts, split-screen spacing, or "
+"picture-in-picture spacing without adding Crop or Mask effects."
+msgstr ""
+"**Contoh Penggunaan:** Membuat tata letak area aman, jarak layar terbagi, "
+"atau jarak picture-in-picture tanpa menambahkan efek Crop atau Mask."
+
+#: ../clips.rst:911
+msgid ""
+"**Usage Example:** In :guilabel:`Recording View`, screen-plus-camera "
+"recordings use this property to inset the corner webcam clip."
+msgstr ""
+"**Contoh Penggunaan:** Dalam :guilabel:`Recording View`, rekaman layar-plus-"
+"kamera menggunakan properti ini untuk menginset klip webcam sudut."
+
+#: ../clips.rst:912
+msgid ""
+"**Tip:** Use a small value such as 0.02 to 0.05 for normal edge spacing. "
+"Larger values intentionally shrink the available layout area."
+msgstr ""
+"**Tips:** Gunakan nilai kecil seperti 0,02 hingga 0,05 untuk jarak tepi "
+"normal. Nilai yang lebih besar sengaja memperkecil area tata letak yang "
+"tersedia."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:918
+msgid ""
+"The :guilabel:`Volume Mixing` property is an enumeration that controls how "
+"volume adjustments are applied before mixing audio. Options: None (no "
+"adjustment), Reduce (volume lowered to 80%), Average (volume divided based "
+"on the number of concurrent clips)."
+msgstr ""
+"Properti :guilabel:`Volume Mixing` adalah enumerasi yang mengontrol "
+"bagaimana penyesuaian volume diterapkan sebelum mencampur audio. Opsi: None "
+"(tanpa penyesuaian), Reduce (volume diturunkan menjadi 80%), Average (volume"
+" dibagi berdasarkan jumlah klip yang berjalan bersamaan)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:921
+msgid ""
+"**Usage Example:** Automatically lowering the volume of a clip to allow "
+"background music to stand out more prominently."
+msgstr ""
+"**Contoh Penggunaan:** Secara otomatis menurunkan volume klip agar musik "
+"latar lebih menonjol."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:922
+msgid ""
+"**Tip:** Experiment with volume mixing options to achieve balanced audio "
+"levels across different clips."
+msgstr ""
+"**Tips:** Cobalah opsi pencampuran volume untuk mencapai tingkat audio yang "
+"seimbang di berbagai klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:924
+msgid ""
+"Mixing audio involves adjusting volume levels so that **overlapping clips** "
+"do not become too loud (creating audio distortion and loss of audio "
+"clarity). If you combine particularly loud audio clips on multiple tracks, "
+"clipping (a staccato audio distortion) may occur. To avoid distortion, "
+"OpenShot might need to reduce the volume levels in overlapping clips. The "
+"following audio mixing methods are available:"
+msgstr ""
+"Mencampur audio melibatkan penyesuaian tingkat volume agar **klip yang "
+"tumpang tindih** tidak menjadi terlalu keras (menyebabkan distorsi audio dan"
+" hilangnya kejernihan audio). Jika Anda menggabungkan klip audio yang sangat"
+" keras pada beberapa track, clipping (distorsi audio staccato) mungkin "
+"terjadi. Untuk menghindari distorsi, OpenShot mungkin perlu mengurangi "
+"tingkat volume pada klip yang tumpang tindih. Metode pencampuran audio "
+"berikut tersedia:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:928
+msgid ""
+"**None** - Make no adjustments to volume data before mixing audio. "
+"Overlapping clips will combine audio at full volume, with no reduction."
+msgstr ""
+"**None** - Tidak melakukan penyesuaian pada data volume sebelum mencampur "
+"audio. Klip yang tumpang tindih akan menggabungkan audio dengan volume "
+"penuh, tanpa pengurangan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:929
+msgid ""
+"**Average** - Automatically divide the volume of each clip based on the # of"
+" overlapping clips. For example, 2 overlapping clips would each have 50% "
+"volume, 3 overlapping clips would each have 33% volume, etc..."
+msgstr ""
+"**Average** - Secara otomatis membagi volume setiap klip berdasarkan jumlah "
+"klip yang tumpang tindih. Misalnya, 2 klip yang tumpang tindih masing-masing"
+" memiliki volume 50%, 3 klip tumpang tindih masing-masing memiliki volume "
+"33%, dan seterusnya..."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:930
+msgid ""
+"**Reduce** - Automatically reduce overlapping clips volume by 20%, which "
+"reduces the likelihood of becoming too loud, but does not always prevent "
+"audio distortion. For example, if you have 10 loud clips overlapping, each "
+"with a 20% reduction in volume, it might still exceed the max allowable "
+"volume and exhibit audio distortion."
+msgstr ""
+"**Reduce** - Secara otomatis mengurangi volume klip yang tumpang tindih "
+"sebesar 20%, yang mengurangi kemungkinan menjadi terlalu keras, tetapi tidak"
+" selalu mencegah distorsi audio. Misalnya, jika Anda memiliki 10 klip keras "
+"yang tumpang tindih, masing-masing dengan pengurangan volume 20%, volume "
+"total mungkin masih melebihi batas maksimum dan menimbulkan distorsi audio."
+
+#: ../clips.rst:932
+msgid ""
+"For quickly adjusting the volume of a clip, you can use the :guilabel:`Audio"
+" → Volume` menu. See :ref:`clip_presets_ref`. For precise control over the "
+"volume of a clip, you can manually set the :guilabel:`Volume Key-frame`. See"
+" :ref:`clip_volume_ref`."
+msgstr ""
+"Untuk menyesuaikan volume klip dengan cepat, Anda dapat menggunakan menu "
+":guilabel:`Audio → Volume`. Lihat :ref:`clip_presets_ref`. Untuk kontrol "
+"yang tepat atas volume klip, Anda dapat mengatur secara manual "
+":guilabel:`Volume Key-frame`. Lihat :ref:`clip_volume_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:936
+msgid "Origin X and Origin Y"
+msgstr "Origin X dan Origin Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:937
+msgid ""
+"The :guilabel:`Origin X` and :guilabel:`Origin Y` properties are key-frame "
+"curves that define the rotation origin point's position in percentages. The "
+"range for these curves is -1 to 1. See :ref:`clip_transform_ref`."
+msgstr ""
+"Properti :guilabel:`Origin X` dan :guilabel:`Origin Y` adalah kurva keyframe"
+" yang menentukan posisi titik asal rotasi dalam persentase. Rentang kurva "
+"ini adalah -1 sampai 1. Lihat :ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:940
+msgid ""
+"**Usage Example:** Rotating a clip around a specific point, such as a "
+"character's pivot joint."
+msgstr ""
+"**Contoh Penggunaan:** Memutar klip di sekitar titik tertentu, seperti sendi"
+" pivot karakter."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:941
+msgid ""
+"**Tip:** Set the origin point to achieve controlled and natural-looking "
+"rotations during animations."
+msgstr ""
+"**Tips:** Atur titik asal untuk mencapai rotasi yang terkontrol dan tampak "
+"alami selama animasi."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:946
+msgid "Clip Parent"
+msgstr "Induk Klip"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:947
+msgid ""
+"The :guilabel:`Parent` property of a clip sets the initial keyframe values "
+"to the parent object. For example, if many clips all point to the same "
+"parent clip, they will inherit all their default properties, such as "
+"``location_x``, ``location_y``, ``scale_x``, ``scale_y``, etc... This can be"
+" very useful in certain circumstances, such as when you have many clips that"
+" need to move or scale together."
+msgstr ""
+"Properti :guilabel:`Parent` dari sebuah klip menetapkan nilai keyframe awal "
+"ke objek induk. Misalnya, jika banyak klip menunjuk ke klip induk yang sama,"
+" mereka akan mewarisi semua properti defaultnya, seperti ``location_x``, "
+"``location_y``, ``scale_x``, ``scale_y``, dll... Ini sangat berguna dalam "
+"situasi tertentu, seperti ketika Anda memiliki banyak klip yang perlu "
+"bergerak atau diskalakan bersama."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:951
+msgid ""
+"**Usage Example:** Creating complex animations by establishing a parent-"
+"child relationship between clips."
+msgstr ""
+"**Contoh Penggunaan:** Membuat animasi kompleks dengan membangun hubungan "
+"induk-anak antara klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:952
+msgid ""
+"**Tip:** Utilize this property to propagate changes from the parent clip to "
+"child clips for consistent animations."
+msgstr ""
+"**Tips:** Gunakan properti ini untuk menyebarkan perubahan dari klip induk "
+"ke klip anak agar animasi konsisten."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:953
+msgid ""
+"**Tip:** You can also set the ``parent`` attribute to a ``Tracker`` or "
+"``Object Detector`` tracked object, so the clip follows the location and "
+"scale of a tracked object. Also see :ref:`effect_parent_ref`."
+msgstr ""
+"**Tips:** Anda juga dapat mengatur atribut ``parent`` ke objek yang dilacak "
+"oleh ``Tracker`` atau ``Object Detector``, sehingga klip mengikuti lokasi "
+"dan skala objek yang dilacak. Lihat juga :ref:`effect_parent_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:957
+msgid ""
+"The :guilabel:`Position` property determines the clip's position on the "
+"timeline in seconds, with 0.0 indicating the beginning."
+msgstr ""
+"Properti :guilabel:`Position` menentukan posisi klip pada timeline dalam "
+"detik, dengan 0.0 menunjukkan awal."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:959
+msgid ""
+"**Usage Example:** Timing a clip's appearance to coincide with specific "
+"events in the project."
+msgstr ""
+"**Contoh Penggunaan:** Menyesuaikan kemunculan klip agar bertepatan dengan "
+"peristiwa tertentu dalam proyek."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:960
+msgid ""
+"**Tip:** Adjust the position to synchronize clips with audio cues or visual "
+"elements."
+msgstr ""
+"**Tips:** Sesuaikan posisi untuk menyinkronkan klip dengan isyarat audio "
+"atau elemen visual."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:966
+msgid ""
+"The :guilabel:`Rotation` property is a key-frame curve that controls the "
+"rotation angle of the clip, ranging from -360 to 360 degrees. You can rotate"
+" clockwise or counterclockwise. Quickly adjust the orientation angle of a "
+"clip (sideways, upside down, right side up, portrait, landscape), flip a "
+"clip, or animate the rotation.  See :ref:`clip_transform_ref`."
+msgstr ""
+"Properti :guilabel:`Rotasi` adalah kurva keyframe yang mengontrol sudut "
+"rotasi klip, berkisar dari -360 hingga 360 derajat. Anda dapat memutar "
+"searah jarum jam atau berlawanan arah jarum jam. Sesuaikan dengan cepat "
+"sudut orientasi klip (miring, terbalik, tegak, potret, lanskap), balik klip,"
+" atau animasikan rotasi. Lihat :ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:970
+msgid ""
+"**Usage Example:** Simulating a spinning effect by animating the rotation "
+"curve."
+msgstr ""
+"**Contoh Penggunaan:** Mensimulasikan efek berputar dengan menganimasikan "
+"kurva rotasi."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:971
+msgid ""
+"**Tip:** Use this property creatively for effects like rotating text or "
+"emulating camera movement."
+msgstr ""
+"**Tips:** Gunakan properti ini secara kreatif untuk efek seperti memutar "
+"teks atau meniru gerakan kamera."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:972
+msgid ""
+"**Tip:** In the preview transform tool, hold :kbd:`Ctrl` or :kbd:`Shift` "
+"while rotating to snap to 15-degree increments."
+msgstr ""
+"**Tips:** Di alat transformasi pratinjau, tahan :kbd:`Ctrl` atau "
+":kbd:`Shift` saat memutar untuk menempel pada kenaikan 15 derajat."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:973
+msgid ""
+"**Tip:** Experiment with rotating your video at different angles, not just "
+"90 or 180 degrees. Sometimes a slight tilt or a specific angle can add "
+"creative flair to your video, especially for artistic or storytelling "
+"purposes."
+msgstr ""
+"**Tips:** Cobalah memutar video Anda pada sudut yang berbeda, tidak hanya 90"
+" atau 180 derajat. Kadang-kadang kemiringan ringan atau sudut tertentu dapat"
+" menambah sentuhan kreatif pada video Anda, terutama untuk tujuan artistik "
+"atau bercerita."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:974
+msgid ""
+"**Tip:** After rotating your video, you might end up with black bars around "
+"the edges. Consider cropping and resizing the video to eliminate these bars "
+"and maintain a clean, polished look."
+msgstr ""
+"**Tips:** Setelah memutar video Anda, mungkin akan muncul garis hitam di "
+"sekitar tepi. Pertimbangkan untuk memotong dan mengubah ukuran video untuk "
+"menghilangkan garis tersebut dan menjaga tampilan yang bersih dan rapi."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:975
+msgid ""
+"**Tip:** If you're dealing with vertical videos that are meant to be watched"
+" on horizontal screens, rotate them by 90 degrees and then scale them up to "
+"fill the frame. This way, your vertical video will occupy more screen real "
+"estate."
+msgstr ""
+"**Tips:** Jika Anda menangani video vertikal yang dimaksudkan untuk ditonton"
+" di layar horizontal, putar video tersebut 90 derajat lalu perbesar agar "
+"mengisi bingkai. Dengan cara ini, video vertikal Anda akan mengisi lebih "
+"banyak ruang layar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:976
+msgid ""
+"**Tip:** If the horizon in your video appears slanted due to camera tilt, "
+"use rotation to level it. This is particularly important for landscape shots"
+" to maintain a professional and visually pleasing appearance."
+msgstr ""
+"**Tips:** Jika garis horizon dalam video Anda tampak miring karena "
+"kemiringan kamera, gunakan rotasi untuk meratakannya. Ini sangat penting "
+"untuk pengambilan gambar lanskap agar tampak profesional dan menarik secara "
+"visual."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:982
+msgid ""
+"The :guilabel:`Scale` property is the initial resizing or scaling method "
+"used to display the picture of a clip, which may be further adjusted by the "
+":guilabel:`Scale X` and :guilabel:`Scale Y` clip properties (see "
+":ref:`clip_scale_x_ref`). It is recommended to use assets with the same "
+"aspect ratio as your project profile, which allows many of these resizing "
+"methods to fully scale your clip up to the size of the screen, without "
+"adding any black bars on the edges. The scale methods are:"
+msgstr ""
+"Properti :guilabel:`Skala` adalah metode pengubahan ukuran awal yang "
+"digunakan untuk menampilkan gambar klip, yang dapat disesuaikan lebih lanjut"
+" oleh properti klip :guilabel:`Skala X` dan :guilabel:`Skala Y` (lihat "
+":ref:`clip_scale_x_ref`). Disarankan menggunakan aset dengan rasio aspek "
+"yang sama dengan profil proyek Anda, yang memungkinkan banyak metode "
+"pengubahan ukuran ini untuk memperbesar klip Anda hingga ukuran layar tanpa "
+"menambahkan garis hitam di tepi. Metode skala tersebut adalah:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:987
+msgid ""
+"**Best Fit** (default) – The clip is as large as possible without changing "
+"the aspect ratio. This might result in black bars on certain sides of the "
+"picture, if the aspect ratio does not exactly match your project size."
+msgstr ""
+"**Best Fit** (default) – Klip sebesar mungkin tanpa mengubah rasio aspek. "
+"Ini mungkin menghasilkan garis hitam di beberapa sisi gambar jika rasio "
+"aspek tidak persis sesuai dengan ukuran proyek Anda."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:988
+msgid ""
+"**Crop** – The aspect ratio of the clip is maintained while the clip is "
+"enlarged to fill the entire screen, even if that means some of it will be "
+"cropped. This prevents black bars around the picture, but if the aspect "
+"ratio of the clip does not match the project size, some of the picture will "
+"be cropped off."
+msgstr ""
+"**Crop** – Rasio aspek klip dipertahankan sementara klip diperbesar untuk "
+"mengisi seluruh layar, meskipun beberapa bagian akan terpotong. Ini mencegah"
+" garis hitam di sekitar gambar, tetapi jika rasio aspek klip tidak sesuai "
+"dengan ukuran proyek, beberapa bagian gambar akan terpotong."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:989
+msgid ""
+"**None** – The clip is displayed in its original size. This is not "
+"recommended, since the picture will not scale correctly if you change the "
+"project profile (or project size)."
+msgstr ""
+"**None** – Klip ditampilkan dalam ukuran aslinya. Ini tidak disarankan "
+"karena gambar tidak akan berubah ukuran dengan benar jika Anda mengubah "
+"profil proyek (atau ukuran proyek)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:990
+msgid ""
+"**Stretch** – The clip is stretched to fill the entire screen, changing the "
+"aspect ratio if necessary."
+msgstr ""
+"**Stretch** – Klip diregangkan untuk mengisi seluruh layar, mengubah rasio "
+"aspek jika diperlukan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:995
+msgid "Scale X and Scale Y"
+msgstr "Skala X dan Skala Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:996
+msgid ""
+"The :guilabel:`Scale X` and :guilabel:`Scale Y` properties are key-frame "
+"curves that represent horizontal and vertical scaling in percentages, "
+"respectively. The range for these curves is 0 to 1. See "
+":ref:`clip_transform_ref`. OpenShot limits the max scale values based on the"
+" file type and the project size, to prevent crashes and performance issues."
+msgstr ""
+"Properti :guilabel:`Skala X` dan :guilabel:`Skala Y` adalah kurva keyframe "
+"yang mewakili skala horizontal dan vertikal dalam persentase, masing-masing."
+" Rentang kurva ini adalah 0 hingga 1. Lihat :ref:`clip_transform_ref`. "
+"OpenShot membatasi nilai skala maksimum berdasarkan tipe file dan ukuran "
+"proyek, untuk mencegah kerusakan dan masalah performa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1000
+msgid ""
+"**Usage Example:** Creating a zoom-in effect by animating the Scale X and "
+"Scale Y curves simultaneously."
+msgstr ""
+"**Contoh Penggunaan:** Membuat efek zoom-in dengan menganimasikan kurva "
+"Skala X dan Skala Y secara bersamaan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1001
+msgid ""
+"**Tip:** Scale the image larger than the screen, only revealing a portion of"
+" the video. This is a simple way to crop a portion of the video."
+msgstr ""
+"**Tips:** Perbesar gambar lebih dari ukuran layar, hanya menampilkan "
+"sebagian video. Ini adalah cara sederhana untuk memotong sebagian video."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1002
+msgid ""
+"**Tip:** Scale the horizontal and vertical elements separately, to squash "
+"and stretch the image in fun ways."
+msgstr ""
+"**Tips:** Skala elemen horizontal dan vertikal secara terpisah, untuk "
+"memampatkan dan meregangkan gambar dengan cara yang menyenangkan."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1003
+msgid ""
+"**Tip:** Combine scaling with rotation and location properties for dynamic "
+"transformations."
+msgstr ""
+"**Tips:** Gabungkan skala dengan properti rotasi dan lokasi untuk "
+"transformasi dinamis."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1006
+msgid "Shear X and Shear Y"
+msgstr "Shear X dan Shear Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1007
+msgid ""
+"The :guilabel:`Shear X` and :guilabel:`Shear Y` properties are key-frame "
+"curves that represent X and Y shear angles in degrees, respectively. See "
+":ref:`clip_transform_ref`. OpenShot limits the max shear values based on the"
+" file type and the project size, to prevent crashes and performance issues."
+msgstr ""
+"Properti :guilabel:`Shear X` dan :guilabel:`Shear Y` adalah kurva keyframe "
+"yang mewakili sudut shear X dan Y dalam derajat, masing-masing. Lihat "
+":ref:`clip_transform_ref`. OpenShot membatasi nilai shear maksimum "
+"berdasarkan tipe file dan ukuran proyek, untuk mencegah kerusakan dan "
+"masalah performa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1011
+msgid ""
+"**Usage Example:** Adding a dynamic tilt effect to a clip by animating the "
+"shear angles."
+msgstr ""
+"**Contoh Penggunaan:** Menambahkan efek kemiringan dinamis pada klip dengan "
+"menganimasikan sudut shear."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1012
+msgid ""
+"**Tip:** Use shear properties for creating slanted or skewed animations."
+msgstr ""
+"**Tips:** Gunakan properti shear untuk membuat animasi miring atau condong."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1016
+msgid ""
+"The :guilabel:`Start` property defines the trimming point at the beginning "
+"of the clip in seconds. Changing this property will impact the "
+":guilabel:`Duration` clip property."
+msgstr ""
+"Properti :guilabel:`Mulai` menentukan titik pemotongan di awal klip dalam "
+"detik. Mengubah properti ini akan memengaruhi properti klip "
+":guilabel:`Durasi`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1019
+msgid ""
+"**Usage Example:** Removing the initial portion of a clip to focus on a "
+"specific scene or moment."
+msgstr ""
+"**Contoh Penggunaan:** Menghapus bagian awal klip untuk fokus pada adegan "
+"atau momen tertentu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1020
+msgid ""
+"**Tip:** Utilize the \"Start\" property in combination with the \"End\" "
+"property for precise clip trimming."
+msgstr ""
+"**Tips:** Gunakan properti \"Mulai\" bersama dengan properti \"Akhir\" untuk"
+" pemotongan klip yang tepat."
+
+# Main-window terminology review, 2026-09-26.
+#: ../clips.rst:1026
+msgid ""
+"The :guilabel:`Time` property is a key-frame curve that represents frames "
+"played over time, affecting the speed and direction of the video. You can "
+"use one of the available presets (normal, fast, slow, freeze, freeze & zoom,"
+" forward, backward), by right-clicking on a clip and choosing the "
+":guilabel:`Speed` menu. Many presets are available in this menu for "
+"reversing, speeding up, and slowing down a video clip, see "
+":ref:`clip_presets_ref`. The same adjustments can be made interactively with"
+" the :guilabel:`Timing` toolbar button by dragging a clip's edges; OpenShot "
+"adds the necessary time keyframes and scales all other keyframes "
+"automatically."
+msgstr ""
+"Properti :guilabel:`Time` adalah kurva key-frame yang mewakili frame yang "
+"diputar seiring waktu, memengaruhi kecepatan dan arah video. Anda dapat "
+"menggunakan salah satu preset yang tersedia (normal, cepat, lambat, beku, "
+"beku & zoom, maju, mundur), dengan mengklik kanan pada klip dan memilih menu"
+" :guilabel:`Speed`. Banyak preset tersedia di menu ini untuk membalik, "
+"mempercepat, dan memperlambat klip video, lihat :ref:`clip_presets_ref`. "
+"Penyesuaian yang sama dapat dilakukan secara interaktif dengan tombol "
+"toolbar :guilabel:`Pengaturan Kecepatan` dengan menyeret tepi klip; OpenShot"
+" menambahkan keyframe waktu yang diperlukan dan menskalakan semua keyframe "
+"lainnya secara otomatis."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1033
+msgid ""
+"Optionally, you can manually set key-frame values for the :guilabel:`Time` "
+"property. The value represents the `frame number` at the position of the "
+"key-frame. This can be tricky to determine and might require a calculator to"
+" find the needed values. For example, if the beginning of your Clip sets a "
+"time value of ``300`` (i.e. `frame 300`), and the end of your clip sets a "
+"time value of ``1`` (`frame 1`), OpenShot will play this clip backwards, "
+"starting at frame 300 and ending at frame 1, at the appropriate speed (based"
+" on where these key-frames are set on the timeline). NOTE: To determine the "
+"total number of frames in a clip, multiply the duration of the file with the"
+" FPS of the project (for example: ``47.0 sec clip duration X 24.0 Project "
+"FPS = 1128 total frames``)."
+msgstr ""
+"Opsional, Anda dapat mengatur nilai key-frame secara manual untuk properti "
+":guilabel:`Time`. Nilai tersebut mewakili `nomor frame` pada posisi key-"
+"frame. Ini bisa sulit ditentukan dan mungkin memerlukan kalkulator untuk "
+"menemukan nilai yang dibutuhkan. Misalnya, jika awal Klip Anda mengatur "
+"nilai waktu ``300`` (yaitu `frame 300`), dan akhir klip Anda mengatur nilai "
+"waktu ``1`` (`frame 1`), OpenShot akan memutar klip ini mundur, mulai dari "
+"frame 300 dan berakhir di frame 1, dengan kecepatan yang sesuai (berdasarkan"
+" posisi key-frame ini di timeline). CATATAN: Untuk menentukan jumlah total "
+"frame dalam klip, kalikan durasi file dengan FPS proyek (misalnya: ``durasi "
+"klip 47,0 detik X FPS Proyek 24,0 = 1128 total frame``)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1041
+msgid ""
+"This allows for some very complex scenarios, such as jump cutting inside a "
+"clip, reversing a portion of a clip, slowing down a portion of a clip, "
+"freezing on a frame, and much more. See :ref:`animation_ref` for more "
+"details on manual key-frame animations."
+msgstr ""
+"Ini memungkinkan beberapa skenario yang sangat kompleks, seperti jump "
+"cutting di dalam klip, membalik sebagian klip, memperlambat sebagian klip, "
+"membekukan pada sebuah frame, dan banyak lagi. Lihat :ref:`animation_ref` "
+"untuk detail lebih lanjut tentang animasi key-frame manual."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1045
+msgid ""
+"**Usage Example:** Creating a slow-motion or time-lapse effect by modifying "
+"the time curve."
+msgstr ""
+"**Contoh Penggunaan:** Membuat efek gerak lambat atau time-lapse dengan "
+"memodifikasi kurva waktu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1046
+msgid ""
+"**Tip:** Adjust the \"Time\" property to control video playback speed for "
+"dramatic visual impact."
+msgstr ""
+"**Tips:** Sesuaikan properti \"Time\" untuk mengontrol kecepatan pemutaran "
+"video demi dampak visual yang dramatis."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1052
+msgid ""
+"The :guilabel:`Volume` property is a key-frame curve that controls audio "
+"volume or level, ranging from 0 (mute) to 1 (full volume). For automatic "
+"adjustment of volume, see :ref:`clip_volume_mixing_ref`."
+msgstr ""
+"Properti :guilabel:`Volume` adalah kurva key-frame yang mengontrol volume "
+"atau level audio, berkisar dari 0 (diam) hingga 1 (volume penuh). Untuk "
+"penyesuaian volume otomatis, lihat :ref:`clip_volume_mixing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1055
+msgid ""
+"**Usage Example:** Gradually fading out background music as dialogue becomes"
+" more prominent, or increasing or lowering the volume of a clip."
+msgstr ""
+"**Contoh Penggunaan:** Secara bertahap memudarkan musik latar saat dialog "
+"menjadi lebih menonjol, atau menaikkan atau menurunkan volume klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1056
+msgid ""
+"**Tip:** Combine multiple volume key-frames for nuanced audio adjustments, "
+"such as ducking the level of the music when dialog is spoken."
+msgstr ""
+"**Tips:** Gabungkan beberapa key-frame volume untuk penyesuaian audio yang "
+"halus, seperti menurunkan level musik saat dialog diucapkan."
+
+#: ../clips.rst:1057
+msgid ""
+"**Tip:** For **quickly** adjusting the volume of a clip you can use the "
+":guilabel:`Audio → Volume` menu. See :ref:`clip_presets_ref`."
+msgstr ""
+"**Tips:** Untuk menyesuaikan volume klip dengan **cepat**, Anda dapat "
+"menggunakan menu :guilabel:`Audio → Volume`. Lihat :ref:`clip_presets_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1061
+msgid ""
+"The :guilabel:`Wave Color` property is a key-frame curve that represents the"
+" color of the audio waveform visualization."
+msgstr ""
+"Properti :guilabel:`Wave Color` adalah kurva key-frame yang mewakili warna "
+"visualisasi gelombang audio."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1063
+msgid ""
+"**Usage Example:** Matching the waveform color to the project's overall "
+"visual theme."
+msgstr ""
+"**Contoh Penggunaan:** Menyesuaikan warna gelombang dengan tema visual "
+"keseluruhan proyek."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1064
+msgid ""
+"**Tip:** Experiment with different colors to enhance the visual appeal of "
+"the waveform or animate the color over time."
+msgstr ""
+"**Tips:** Bereksperimen dengan warna berbeda untuk meningkatkan daya tarik "
+"visual gelombang atau menganimasikan warna seiring waktu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1068
+msgid ""
+"The :guilabel:`Waveform` property is a boolean that determines whether a "
+"waveform visualization is used instead of the clip's image."
+msgstr ""
+"Properti :guilabel:`Waveform` adalah boolean yang menentukan apakah "
+"visualisasi gelombang digunakan menggantikan gambar klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1070
+msgid ""
+"**Usage Example:** Displaying an audio waveform in place of the video for "
+"visually highlighting audio patterns."
+msgstr ""
+"**Contoh Penggunaan:** Menampilkan gelombang audio menggantikan video untuk "
+"menyoroti pola audio secara visual."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1071
+msgid ""
+"**Tip:** Use waveform visualization for emphasizing music beats or voice "
+"modulations."
+msgstr ""
+"**Tips:** Gunakan visualisasi gelombang untuk menekankan ketukan musik atau "
+"modulasi suara."
+
+#: ../clips.rst:1075
+msgid ""
+"The :guilabel:`Waveform Mode` property controls the visualization style used"
+" when :guilabel:`Waveform` is enabled. It uses the same choices as the "
+":guilabel:`Visualization` property on the :guilabel:`Audio Visualization` "
+"effect: Waveform, Filled Waveform, Bars, Radial, Radial Bars, Spectrum, "
+"Phase Scope, Particles, and VU Meter."
+msgstr ""
+"Properti :guilabel:`Waveform Mode` mengontrol gaya visualisasi yang "
+"digunakan saat :guilabel:`Waveform` diaktifkan. Ini menggunakan pilihan yang"
+" sama seperti properti :guilabel:`Visualization` pada efek :guilabel:`Audio "
+"Visualization`: Gelombang, Gelombang Terisi, Batang, Radial, Batang Radial, "
+"Spektrum, Phase Scope, Partikel, dan VU Meter."
+
+#: ../clips.rst:1079
+msgid ""
+"**Usage Example:** Switching an audio-only clip from a standard waveform to "
+"bars or a spectrum display."
+msgstr ""
+"**Contoh Penggunaan:** Mengubah klip audio saja dari gelombang standar ke "
+"tampilan batang atau spektrum."
+
+#: ../clips.rst:1080
+msgid ""
+"**Tip:** Use :guilabel:`Wave Color` with :guilabel:`Waveform Mode` to tune "
+"both the visualization style and color."
+msgstr ""
+"**Tips:** Gunakan :guilabel:`Wave Color` dengan :guilabel:`Waveform Mode` "
+"untuk mengatur gaya visualisasi dan warna."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1083
+msgid "More Information"
+msgstr "Informasi Lebih Lanjut"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1084
+msgid "For more info on key frames and animation, see :ref:`animation_ref`."
+msgstr ""
+"Untuk informasi lebih lanjut tentang key frame dan animasi, lihat "
+":ref:`animation_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`razor tool` from the **Timeline Toolbar** cuts a clip at the "
+#~ "position where it is clicked. Use :kbd:`SHIFT` to slice and keep the left "
+#~ "side, or :kbd:`CTRL` to keep the right side."
+#~ msgstr ""
+#~ "Alat :guilabel:`pisau cukur` dari **Toolbar Timeline** memotong klip pada "
+#~ "posisi saat diklik. Gunakan :kbd:`SHIFT` untuk memotong dan menyimpan sisi "
+#~ "kiri, atau :kbd:`CTRL` untuk menyimpan sisi kanan."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Some presets allow the user to target either the start, end, or entire clip,"
+#~ " and most presets allow the user to reset a specific clip property. For "
+#~ "example, when using the ``Volume`` preset, the user has the following menu "
+#~ "options:"
+#~ msgstr ""
+#~ "Beberapa preset memungkinkan pengguna menargetkan awal, akhir, atau seluruh "
+#~ "klip, dan sebagian besar preset memungkinkan pengguna mengatur ulang "
+#~ "properti klip tertentu. Misalnya, saat menggunakan preset ``Volume``, "
+#~ "pengguna memiliki opsi menu berikut:"
+
+# Translated with gpt-4.1-mini
+#~ msgid "**Reset** - This will reset the volume to the original level."
+#~ msgstr "**Reset** - Ini akan mengatur ulang volume ke tingkat asli."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Start of Clip** - Your volume level selection will apply at the Beginning "
+#~ "of the clip."
+#~ msgstr ""
+#~ "**Awal Klip** - Pilihan tingkat volume Anda akan diterapkan pada Awal klip."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**End of Clip** - Your volume level selection will apply to the End of the "
+#~ "clip."
+#~ msgstr ""
+#~ "**Akhir Klip** - Pilihan tingkat volume Anda akan diterapkan pada Akhir "
+#~ "klip."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Entire Clip** - Your volume level selection will apply to the Entire clip."
+#~ msgstr ""
+#~ "**Seluruh Klip** - Pilihan tingkat volume Anda akan diterapkan pada Seluruh "
+#~ "klip."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Fade the image in or out (often easier than using a transition)"
+#~ msgstr ""
+#~ "Fade gambar masuk atau keluar (seringkali lebih mudah daripada menggunakan "
+#~ "transisi)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Animate"
+#~ msgstr "Animasi"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Zoom and slide a clip"
+#~ msgstr "Perbesar dan geser sebuah klip"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Rotate or flip a clip"
+#~ msgstr "Putar atau balik sebuah klip"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Make a video smaller or larger, and snap to any corner"
+#~ msgstr ""
+#~ "Buat video lebih kecil atau lebih besar, dan tempelkan ke sudut mana pun"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Reverse, repeat, and speed up or slow down video"
+#~ msgstr "Balik, ulangi, dan percepat atau perlambat video"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Fade in or out the volume, reduce or increase the volume of a clip, or mute"
+#~ msgstr ""
+#~ "Fade masuk atau keluar volume, kurangi atau tingkatkan volume klip, atau "
+#~ "bisukan"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Separate Audio"
+#~ msgstr "Pisahkan Audio"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Separate the audio from a clip. This preset can either create a single "
+#~ "detached audio clip (positioned on a layer below the original clip), or "
+#~ "multiple detached audio clips (one per audio track, positioned on multiple "
+#~ "layers below the original clip)"
+#~ msgstr ""
+#~ "Pisahkan audio dari sebuah klip. Preset ini dapat membuat satu klip audio "
+#~ "terpisah (ditempatkan pada lapisan di bawah klip asli), atau beberapa klip "
+#~ "audio terpisah (satu per trek audio, ditempatkan pada beberapa lapisan di "
+#~ "bawah klip asli)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Cut the clip at the play-head position"
+#~ msgstr "Potong klip pada posisi play-head"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Display"
+#~ msgstr "Tampilan"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Show waveform or thumbnail for a clip"
+#~ msgstr "Tampilkan gelombang suara atau thumbnail untuk sebuah klip"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Show the properties panel for a clip"
+#~ msgstr "Tampilkan panel properti untuk sebuah klip"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Copy / Paste"
+#~ msgstr "Salin / Tempel"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Copy and paste key frames or duplicate an entire clip (with all key frames)"
+#~ msgstr ""
+#~ "Salin dan tempel key frame atau gandakan seluruh klip (dengan semua key "
+#~ "frame)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Remove a clip from the timeline"
+#~ msgstr "Hapus sebuah klip dari timeline"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Fade` preset enables smooth transitions by gradually "
+#~ "increasing or decreasing the clip's opacity. It creates a fade-in or fade-"
+#~ "out of the clip image, ideal for introducing or concluding clips. See "
+#~ ":ref:`clip_alpha_ref` key-frame."
+#~ msgstr ""
+#~ "Preset :guilabel:`Fade` memungkinkan transisi yang halus dengan secara "
+#~ "bertahap meningkatkan atau menurunkan opasitas klip. Ini menciptakan efek "
+#~ "fade-in atau fade-out pada gambar klip, ideal untuk memperkenalkan atau "
+#~ "mengakhiri klip. Lihat key-frame :ref:`clip_alpha_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Adjust the duration of the fade effect (slow or fast) to control "
+#~ "its timing and intensity."
+#~ msgstr ""
+#~ "**Tips:** Sesuaikan durasi efek fade (lambat atau cepat) untuk mengontrol "
+#~ "waktu dan intensitasnya."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Animate` preset adds dynamic motion to clips, combining "
+#~ "zooming and sliding animations. It animates a clip by zooming in or out "
+#~ "while sliding across the screen. It can **slide** in many specific "
+#~ "directions, or slide and zoom to a **random** location. See "
+#~ ":ref:`clip_location_x_ref` and :ref:`clip_scale_x_ref` key-frames."
+#~ msgstr ""
+#~ "Preset :guilabel:`Animate` menambahkan gerakan dinamis pada klip, "
+#~ "menggabungkan animasi zoom dan geser. Ini menganimasikan klip dengan "
+#~ "memperbesar atau memperkecil sambil bergeser melintasi layar. Dapat "
+#~ "**menggeser** ke banyak arah spesifik, atau menggeser dan memperbesar ke "
+#~ "lokasi **acak**. Lihat :ref:`clip_location_x_ref` dan "
+#~ ":ref:`clip_scale_x_ref` keyframe."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Using the animate preset to simulate a camera movement "
+#~ "across a landscape shot."
+#~ msgstr ""
+#~ "**Contoh Penggunaan:** Menggunakan preset animate untuk mensimulasikan "
+#~ "gerakan kamera melintasi pemandangan lanskap."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Experiment with different animation speeds and directions for "
+#~ "diverse visual effects."
+#~ msgstr ""
+#~ "**Tips:** Coba berbagai kecepatan dan arah animasi untuk efek visual yang "
+#~ "beragam."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Rotate` preset introduces easy rotation and flipping of "
+#~ "clips, enhancing their visual appeal. It enables orientation adjustment, by "
+#~ "rotating and flipping a clip for creative visual transformations. See "
+#~ ":ref:`clip_rotation_ref` key-frame."
+#~ msgstr ""
+#~ "Preset :guilabel:`Rotate` memperkenalkan rotasi dan pembalikan klip yang "
+#~ "mudah, meningkatkan daya tarik visualnya. Memungkinkan penyesuaian orientasi"
+#~ " dengan memutar dan membalik klip untuk transformasi visual kreatif. Lihat "
+#~ ":ref:`clip_rotation_ref` keyframe."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Rotating a photo or video by 90 degree (a portrait video "
+#~ "to a landscape)"
+#~ msgstr ""
+#~ "**Contoh Penggunaan:** Memutar foto atau video sebesar 90 derajat (video "
+#~ "potret menjadi lanskap)"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** If your video is oriented sideways (90 degrees), you can "
+#~ "rotate it clockwise or counterclockwise by 90 degrees to bring it to the "
+#~ "correct orientation. This can be useful when you accidentally recorded a "
+#~ "video in portrait mode when you intended it to be landscape."
+#~ msgstr ""
+#~ "**Contoh Penggunaan:** Jika video Anda terorientasi miring (90 derajat), "
+#~ "Anda dapat memutarnya searah atau berlawanan jarum jam sebesar 90 derajat "
+#~ "untuk mengembalikan orientasi yang benar. Ini berguna jika Anda secara tidak"
+#~ " sengaja merekam video dalam mode potret padahal seharusnya lanskap."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** If your video is upside down, you can rotate it by 180 "
+#~ "degrees to flip it to the correct orientation. This can happen if you "
+#~ "accidentally held your camera the wrong way while recording."
+#~ msgstr ""
+#~ "**Contoh Penggunaan:** Jika video Anda terbalik, Anda dapat memutarnya 180 "
+#~ "derajat untuk membalik ke orientasi yang benar. Ini bisa terjadi jika Anda "
+#~ "secara tidak sengaja memegang kamera terbalik saat merekam."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Layout` preset adjusts the size of a clip and snaps it to a "
+#~ "chosen corner of the screen. It resizes a clip and anchors it to a corner or"
+#~ " the center, useful for picture-in-picture or watermark effects. See "
+#~ ":ref:`clip_location_x_ref` and :ref:`clip_scale_x_ref` key-frames."
+#~ msgstr ""
+#~ "Preset :guilabel:`Layout` mengatur ukuran klip dan menempelkannya ke sudut "
+#~ "layar yang dipilih. Mengubah ukuran klip dan menempatkannya di sudut atau "
+#~ "tengah, berguna untuk efek picture-in-picture atau watermark. Lihat "
+#~ ":ref:`clip_location_x_ref` dan :ref:`clip_scale_x_ref` keyframe."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Time` preset manipulates clip playback speed, allowing for "
+#~ "reverse playback or time-lapse effects. It alters the speed and direction of"
+#~ " a clip's playback, enhancing visual storytelling. See :ref:`clip_time_ref` "
+#~ "key-frame."
+#~ msgstr ""
+#~ "Preset :guilabel:`Time` mengatur kecepatan pemutaran klip, memungkinkan "
+#~ "pemutaran mundur atau efek time-lapse. Mengubah kecepatan dan arah pemutaran"
+#~ " klip, meningkatkan penceritaan visual. Lihat :ref:`clip_time_ref` keyframe."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Creating a slow-motion effect to emphasize a specific "
+#~ "action."
+#~ msgstr ""
+#~ "**Contoh Penggunaan:** Membuat efek gerak lambat untuk menekankan aksi "
+#~ "tertentu."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Use time presets to creatively manipulate the pacing of your video."
+#~ msgstr ""
+#~ "**Tips:** Gunakan preset waktu untuk mengatur ritme video Anda secara "
+#~ "kreatif."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Use :guilabel:`Time → Repeat` to play a clip multiple times, without "
+#~ "building the time curve by hand. OpenShot writes the needed :guilabel:`Time`"
+#~ " keyframes for you (you can edit them later)."
+#~ msgstr ""
+#~ "Gunakan :guilabel:`Time → Repeat` untuk memutar klip beberapa kali, tanpa "
+#~ "membuat kurva waktu secara manual. OpenShot akan menulis keyframe "
+#~ ":guilabel:`Time` yang diperlukan untuk Anda (dapat diedit nanti)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Repeat → Loop → Forward` – plays left to right, then "
+#~ "starts again from the beginning"
+#~ msgstr ""
+#~ ":guilabel:`Time → Repeat → Loop → Forward` – memutar dari kiri ke kanan, "
+#~ "lalu mulai lagi dari awal"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Repeat → Loop → Reverse` – plays right to left, then "
+#~ "starts again from the end"
+#~ msgstr ""
+#~ ":guilabel:`Time → Repeat → Loop → Reverse` – memutar dari kanan ke kiri, "
+#~ "lalu mulai lagi dari akhir"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Repeat → Ping-Pong → Forward` – forward, then backward, "
+#~ "then forward…"
+#~ msgstr ""
+#~ ":guilabel:`Time → Repeat → Ping-Pong → Forward` – maju, lalu mundur, lalu "
+#~ "maju…"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Repeat → Ping-Pong → Reverse` – backward, then forward, "
+#~ "then backward…"
+#~ msgstr ""
+#~ ":guilabel:`Time → Repeat → Ping-Pong → Reverse` – mundur, lalu maju, lalu "
+#~ "mundur…"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Reset Time` completely removes any Time curve (including "
+#~ "Repeat) and restores the clip to its original playback, **without deleting "
+#~ "your original non-Time keyframes**."
+#~ msgstr ""
+#~ ":guilabel:`Time → Reset Time` menghapus sepenuhnya kurva Waktu (termasuk "
+#~ "Ulangi) dan mengembalikan klip ke pemutaran aslinya, **tanpa menghapus "
+#~ "keyframe asli yang bukan Waktu**."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "If you select multiple clips and/or transitions that share the same left "
+#~ "edge or right edge, you can retime that shared edge together in one drag."
+#~ msgstr ""
+#~ "Jika Anda memilih beberapa klip dan/atau transisi yang memiliki tepi kiri "
+#~ "atau tepi kanan yang sama, Anda dapat mengubah waktu tepi bersama itu "
+#~ "sekaligus dengan satu seretan."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Volume` preset controls audio properties, facilitating smooth"
+#~ " volume adjustments. It manages audio volume, including fading in/out, "
+#~ "reducing/increasing volume, or muting. See :ref:`clip_volume_ref` key-frame."
+#~ msgstr ""
+#~ "Preset :guilabel:`Volume` mengontrol properti audio, memudahkan penyesuaian "
+#~ "volume yang halus. Ini mengatur volume audio, termasuk fade in/out, "
+#~ "mengurangi/meningkatkan volume, atau membisukan. Lihat "
+#~ ":ref:`clip_volume_ref` key-frame."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Utilize volume presets for quickly lowering or raising volume "
+#~ "levels."
+#~ msgstr ""
+#~ "**Tips:** Gunakan preset volume untuk menurunkan atau menaikkan level volume"
+#~ " dengan cepat."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Separate Audio` preset splits the audio from a clip, creating"
+#~ " detached audio clips positioned below the original clip on the timeline. "
+#~ "This preset can either create a **single** detached audio clip (positioned "
+#~ "on a layer below the original clip) or **multiple** detached audio clips "
+#~ "(one per audio track, positioned on multiple layers below the original "
+#~ "clip)."
+#~ msgstr ""
+#~ "Preset :guilabel:`Separate Audio` memisahkan audio dari klip, membuat klip "
+#~ "audio terpisah yang ditempatkan di bawah klip asli pada timeline. Preset ini"
+#~ " dapat membuat satu klip audio terpisah (**single**) (ditempatkan pada "
+#~ "lapisan di bawah klip asli) atau beberapa klip audio terpisah (**multiple**)"
+#~ " (satu per trek audio, ditempatkan pada beberapa lapisan di bawah klip "
+#~ "asli)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Extracting background music from a video clip for "
+#~ "independent control."
+#~ msgstr ""
+#~ "**Contoh Penggunaan:** Mengekstrak musik latar dari klip video untuk kontrol"
+#~ " terpisah."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Use this preset to fine-tune audio elements separately from the "
+#~ "visual content."
+#~ msgstr ""
+#~ "**Tips:** Gunakan preset ini untuk menyetel elemen audio secara terpisah "
+#~ "dari konten visual."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Crop` preset adds a crop effect to the selected clip and "
+#~ "displays interactive crop handles in the video preview. The submenu offers:"
+#~ msgstr ""
+#~ "Preset :guilabel:`Potong` menambahkan efek potong pada klip yang dipilih dan"
+#~ " menampilkan pegangan potong interaktif di pratinjau video. Submenu "
+#~ "menawarkan:"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Display` preset toggles the display mode of a clip on the "
+#~ "timeline, showing either its waveform or thumbnail."
+#~ msgstr ""
+#~ "Preset :guilabel:`Tampilan` mengubah mode tampilan klip di timeline, "
+#~ "menampilkan gelombang suara atau thumbnail."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Displaying the audio waveform for precise audio editing."
+#~ msgstr ""
+#~ "**Contoh Penggunaan:** Menampilkan gelombang audio untuk pengeditan audio "
+#~ "yang presisi."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Use this preset to focus on specific aspects of a clip's audio "
+#~ "during editing."
+#~ msgstr ""
+#~ "**Tip:** Gunakan preset ini untuk memfokuskan pada aspek tertentu dari audio"
+#~ " klip saat mengedit."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "For quickly adjusting the volume of a clip, you can use the simple "
+#~ ":guilabel:`Volume Preset` menu. See :ref:`clip_presets_ref`. For precise "
+#~ "control over the volume of a clip, you can manually set the "
+#~ ":guilabel:`Volume Key-frame`. See :ref:`clip_volume_ref`."
+#~ msgstr ""
+#~ "Untuk menyesuaikan volume klip dengan cepat, Anda dapat menggunakan menu "
+#~ "sederhana :guilabel:`Volume Preset`. Lihat :ref:`clip_presets_ref`. Untuk "
+#~ "kontrol presisi atas volume klip, Anda dapat mengatur secara manual "
+#~ ":guilabel:`Volume Key-frame`. Lihat :ref:`clip_volume_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Time` property is a key-frame curve that represents frames "
+#~ "played over time, affecting the speed and direction of the video. You can "
+#~ "use one of the available presets (`normal, fast, slow, freeze, freeze & "
+#~ "zoom, forward, backward`), by right clicking on a Clip and choosing the "
+#~ ":guilabel:`Time` menu. Many presets are available in this menu for "
+#~ "reversing, speeding up, and slowing down a video clip, see "
+#~ ":ref:`clip_presets_ref`. The same adjustments can be made interactively with"
+#~ " the :guilabel:`Timing` toolbar button by dragging a clip's edges; OpenShot "
+#~ "adds the necessary time keyframes and scales all other keyframes "
+#~ "automatically."
+#~ msgstr ""
+#~ "Properti :guilabel:`Time` adalah kurva key-frame yang mewakili frame yang "
+#~ "diputar seiring waktu, memengaruhi kecepatan dan arah video. Anda dapat "
+#~ "menggunakan salah satu preset yang tersedia (`normal, cepat, lambat, beku, "
+#~ "beku & zoom, maju, mundur`), dengan mengklik kanan pada Klip dan memilih "
+#~ "menu :guilabel:`Time`. Banyak preset tersedia di menu ini untuk membalik, "
+#~ "mempercepat, dan memperlambat klip video, lihat :ref:`clip_presets_ref`. "
+#~ "Penyesuaian yang sama dapat dilakukan secara interaktif dengan tombol "
+#~ "toolbar :guilabel:`Timing` dengan menyeret tepi klip; OpenShot menambahkan "
+#~ "keyframe waktu yang diperlukan dan secara otomatis menskalakan semua "
+#~ "keyframe lainnya."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** For **quickly** adjusting the volume of a clip you can use the "
+#~ "simple :guilabel:`Volume Preset` menu. See :ref:`clip_presets_ref`."
+#~ msgstr ""
+#~ "**Tips:** Untuk menyesuaikan volume klip dengan cepat, Anda dapat "
+#~ "menggunakan menu sederhana :guilabel:`Volume Preset`. Lihat "
+#~ ":ref:`clip_presets_ref`."

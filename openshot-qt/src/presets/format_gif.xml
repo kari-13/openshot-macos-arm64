@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE openshot-export-option>
+<export-option>
+	<type translatable="True">All Formats</type>
+	<title translatable="True">GIF (animated)</title>
+    <export-to>Video Only</export-to>
+	<videoformat>gif</videoformat>
+	<videocodec>gif</videocodec>
+	<audiocodec></audiocodec>
+	<audiochannels>0</audiochannels>
+	<audiochannellayout>4</audiochannellayout>
+	<videobitrate
+	 low="384 kb/s"
+	 med="5 Mb/s"
+	 high="15.00 Mb/s"></videobitrate>
+	<audiobitrate
+	 low="0 kb/s"
+	 med="0 kb/s"
+	 high="0 kb/s"></audiobitrate>
+	<samplerate>0</samplerate>
+</export-option>

@@ -1,0 +1,972 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:23
+msgid "Files"
+msgstr "파일"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:25
+msgid ""
+"To create a video, we need to make media files available to our project by "
+"importing files into OpenShot. Most media file types are recognized, such as "
+"videos, images, and audio files. Files can be viewed and managed in the "
+"**Project Files** panel."
+msgstr ""
+"비디오를 만들려면 OpenShot에 파일을 가져와서 미디어 파일을 프로젝트에 사용할 "
+"수 있도록 해야 합니다. 비디오, 이미지, 오디오 파일 등 대부분의 미디어 파일 형"
+"식을 인식합니다. 파일은 ** 프로젝트 파일** 패널에서 보고 관리할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:29
+msgid ""
+"Note that imported files are not copied anywhere, they remain in the "
+"physical location they were before and are simply being made available to "
+"your video project. So, they must not be deleted, renamed, or moved after "
+"adding them to your project. The \"Show All\", \"Video\", \"Audio\", "
+"\"Image\" filters above the files allows you to only see the file types you "
+"are interested in. You can also toggle the view between :guilabel:`details` "
+"and :guilabel:`thumbnails` view of your files."
+msgstr ""
+"가져온 파일은 어디에도 복사되지 않고 원래 있던 물리적 위치에 그대로 있으며 단"
+"지 비디오 프로젝트에서 사용할 수 있도록 제공됩니다. 따라서 프로젝트에 추가한 "
+"후에는 삭제, 이름 변경 또는 이동해서는 안 됩니다. 파일 위의 \"모두 보기\", "
+"\"비디오\", \"오디오\", \"이미지\" 필터를 사용하면 관심 있는 파일 유형만 볼 "
+"수 있습니다. 또한 파일의 보기를 :guilabel:` 세부 정보` 와 :guilabel:` 썸네일"
+"` 보기로 전환할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:39
+msgid "Import Files"
+msgstr "파일 가져오기"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:40
+msgid ""
+"There are many different ways to import media files into an OpenShot "
+"project. When a file is imported successfully, it will be automatically "
+"selected and scrolled into view (in the **Project Files** panel). Also, if "
+"the **Project Files** panel is not currently visible, OpenShot will "
+"automatically display the panel."
+msgstr ""
+"OpenShot 프로젝트에 미디어 파일을 가져오는 방법은 여러 가지가 있습니다. 파일"
+"이 성공적으로 가져와지면 자동으로 선택되고 ( ** 프로젝트 파일** 패널에서) 화"
+"면에 표시됩니다. 또한 ** 프로젝트 파일** 패널이 현재 보이지 않는 경우 "
+"OpenShot이 자동으로 해당 패널을 표시합니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:48
+msgid "Import File Method"
+msgstr "파일 가져오기 방법"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:48 ../files.rst:85 ../files.rst:142 ../files.rst:182
+#: ../files.rst:216 ../files.rst:240
+msgid "Description"
+msgstr "설명"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:50
+msgid "Drag and Drop"
+msgstr "드래그 앤 드롭"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:50
+msgid ""
+"Drag and drop the files from your file manager (file explorer, finder, "
+"etc...)."
+msgstr "파일 관리자(파일 탐색기, 파인더 등)에서 파일을 드래그 앤 드롭하세요."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:51
+msgid "Context menu (`File Menu`_)"
+msgstr "컨텍스트 메뉴 (`File Menu`_)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:51
+msgid ""
+"Right click anywhere in the **Project Files** panel and choose :guilabel:"
+"`Import Files`."
+msgstr ""
+"**프로젝트 파일** 패널에서 아무 곳이나 마우스 오른쪽 버튼으로 클릭하고 :"
+"guilabel:`파일 가져오기` 를 선택하세요."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:52
+msgid "Main Menu"
+msgstr "메인 메뉴"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:52
+msgid "In the main menu choose: :guilabel:`File\\→Import Files`."
+msgstr "메인 메뉴에서 :guilabel:` 파일\\→파일 가져오기` 를 선택하세요."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:53
+msgid "Toolbar button"
+msgstr "툴바 버튼"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:53
+msgid "Click the :guilabel:`+` toolbar button in the main toolbar."
+msgstr "메인 툴바에서 :guilabel:`+` 툴바 버튼을 클릭하세요."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:54
+msgid "Keyboard shortcut"
+msgstr "키보드 단축키"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:54
+msgid "Press :kbd:`Ctrl-F` (:kbd:`Cmd-F` on Mac)."
+msgstr "키보드에서 :kbd:`Ctrl-F` (:kbd:`Cmd-F` Mac에서)를 누르세요."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:55 ../files.rst:63
+msgid "Paste from Clipboard"
+msgstr "클립보드에서 붙여넣기"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:55
+msgid ""
+"Press :kbd:`Ctrl-V` (:kbd:`Cmd-V` on Mac) to paste copied files from your "
+"clipboard. See :ref:`paste_from_clipboard_ref`."
+msgstr ""
+"클립보드에서 복사한 파일을 붙여넣으려면 :kbd:`Ctrl-V` (:kbd:`Cmd-V` Mac에서)"
+"를 누르세요. 자세한 내용은 :ref:`paste_from_clipboard_ref` 를 참조하세요."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:64
+msgid ""
+"You can paste files and clipboard media straight into OpenShot. If you "
+"copied one or more files in your file manager, switch to OpenShot and press :"
+"kbd:`Ctrl-V` in the **Project Files** panel to add them, just like importing."
+msgstr ""
+"파일 관리자에서 하나 이상의 파일을 복사한 경우 OpenShot으로 전환하여 ** 프로"
+"젝트 파일** 패널에서 :kbd:`Ctrl-V` 를 눌러 가져오기처럼 추가할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:67
+msgid ""
+"If you copied media **data** (for example, **Copy Image** in a web browser, "
+"a pasted frame from another app, or other image/audio/video clipboard data), "
+"press :kbd:`Ctrl-V` in OpenShot to create a file for that clipboard content. "
+"OpenShot saves a copy in a temporary folder: ``.openshot_qt/clipboard/``. "
+"The new file is then added to your project and appears in **Project Files**."
+msgstr ""
+"웹 브라우저에서 ** 이미지 복사** 하거나 다른 앱에서 프레임을 붙여넣는 등 미디"
+"어 ** 데이터** 를 복사한 경우 OpenShot에서 :kbd:`Ctrl-V` 를 눌러 해당 클립보"
+"드 내용을 파일로 만드세요. OpenShot은 임시 폴더 ``.openshot_qt/clipboard/`` "
+"에 복사본을 저장합니다. 새 파일은 프로젝트에 추가되고 ** 프로젝트 파일** 에 "
+"표시됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:74
+msgid "File Menu"
+msgstr "파일 메뉴"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:75
+msgid ""
+"To view the file menu, right click on a file (in the **Project Files** "
+"panel). Here are the actions you can use from the file menu."
+msgstr ""
+"파일 메뉴를 보려면 ( ** 프로젝트 파일** 패널에서) 파일을 마우스 오른쪽 버튼으"
+"로 클릭하세요. 파일 메뉴에서 사용할 수 있는 작업은 다음과 같습니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:84
+msgid "File Context Option"
+msgstr "파일 컨텍스트 옵션"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:86
+msgid "Import Files..."
+msgstr "파일 가져오기..."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:87
+msgid "Import files into your project"
+msgstr "프로젝트에 파일을 가져오기"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:88
+msgid "Create with AI / Enhance with AI (Optional)"
+msgstr "AI로 생성 / AI로 향상 (선택 사항)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:89
+msgid ""
+"AI menu actions for generating or enhancing media files. These options are "
+"shown only when AI is enabled and the selected file type supports the "
+"workflow. See :ref:`ai_ref`."
+msgstr ""
+"미디어 파일을 생성하거나 향상시키기 위한 AI 메뉴 작업입니다. 이 옵션들은 AI"
+"가 활성화되어 있고 선택한 파일 형식이 해당 작업 흐름을 지원할 때만 표시됩니"
+"다. 자세한 내용은 :ref:`ai_ref` 를 참조하세요."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:90
+msgid "Details View"
+msgstr "상세 보기"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:91
+msgid "Switch the Project Files panel to details view"
+msgstr "프로젝트 파일 패널을 상세 보기로 전환"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:92 ../files.rst:114
+msgid "Preview File"
+msgstr "파일 미리보기"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:93
+msgid "Preview a media file"
+msgstr "미디어 파일 미리보기"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:94 ../files.rst:170
+msgid "Split File"
+msgstr "파일 분할"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:95
+msgid ""
+"Split a file into many smaller files. The new trimmed files appear in the "
+"Project Files list."
+msgstr ""
+"파일을 여러 개의 작은 파일로 분할합니다. 새로 잘린 파일은 프로젝트 파일 목록"
+"에 표시됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:96 ../files.rst:193
+msgid "Export Files"
+msgstr "파일 내보내기"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:97
+msgid "Export selected files (and split segments) to a destination folder"
+msgstr "선택한 파일(및 분할된 세그먼트)을 대상 폴더로 내보내기"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:98 ../files.rst:205
+msgid "Add to Timeline"
+msgstr "타임라인에 추가"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:99
+msgid ""
+"Add many files to the timeline in one step, including transitions or "
+"alternating tracks."
+msgstr ""
+"전환 효과나 교차 트랙을 포함하여 여러 파일을 한 번에 타임라인에 추가합니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:100
+msgid "Choose Profile"
+msgstr "프로필 선택"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:101
+msgid ""
+"Change the current project profile to match the selected file. If the file's "
+"profile does not match a known profile, it will give you the option to "
+"create a custom profile."
+msgstr ""
+"선택한 파일에 맞게 현재 프로젝트 프로필을 변경합니다. 파일의 프로필이 알려진 "
+"프로필과 일치하지 않으면 사용자 지정 프로필을 만들 수 있는 옵션이 제공됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:102 ../files.rst:242
+msgid "File Properties"
+msgstr "파일 속성"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:103
+msgid "View the properties of a file, such as frame rate, size, etc..."
+msgstr "프레임 속도, 크기 등 파일의 속성을 확인"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:104 ../files.rst:125
+msgid "Optimize"
+msgstr "최적화"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:105
+msgid ""
+"Create, link, unlink, or delete optimized preview files for the selected "
+"video files."
+msgstr ""
+"선택한 비디오 파일에 대해 최적화된 미리보기 파일을 생성, 연결, 연결 해제 또"
+"는 삭제합니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:106 ../files.rst:250
+msgid "Remove from Project"
+msgstr "프로젝트에서 제거"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:107
+msgid "Remove a file from the project"
+msgstr "프로젝트에서 파일 제거"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:108
+msgid "Edit Title"
+msgstr "제목 편집"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:109
+msgid "Edit an existing title SVG file (shown when an SVG title is selected)"
+msgstr "기존 제목 SVG 파일 편집 (SVG 제목이 선택되었을 때 표시됨)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:110
+msgid "Duplicate Title"
+msgstr "제목 복제"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:111
+#, fuzzy
+msgid ""
+"Make a copy, and then edit the copied title SVG file (shown when an SVG "
+"title is selected)"
+msgstr "복사본을 만들고 복사된 제목 SVG 파일을 편집"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:115
+msgid ""
+"The :guilabel:`Preview File` action opens the Preview dialog for the "
+"selected file from :guilabel:`Project Files`. Simply double check a file to "
+"open this dialog."
+msgstr ""
+":guilabel:`Preview File` 작업은 :guilabel:`Project Files` 에서 선택한 파일의 "
+"미리보기 대화 상자를 엽니다. 이 대화 상자를 열려면 파일을 두 번 클릭하세요."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:118
+msgid "Playback starts automatically."
+msgstr "재생이 자동으로 시작됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:119
+msgid "Loop is enabled by default."
+msgstr "반복 재생이 기본으로 활성화되어 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:120
+msgid "Press :kbd:`Space` to toggle play/pause."
+msgstr ":kbd:`Space` 키를 눌러 재생/일시정지를 전환하세요."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:121
+msgid "Use the mouse scroll wheel to zoom in/out."
+msgstr "마우스 스크롤 휠로 확대/축소하세요."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:122
+msgid ""
+"A :guilabel:`Reset Zoom` button appears when zoom is not 100%, and resets to "
+"100%."
+msgstr ""
+"확대/축소가 100%가 아닐 때 :guilabel:`Reset Zoom` 버튼이 나타나며, 이를 눌러 "
+"100%로 재설정할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:126
+msgid ""
+"Optimized preview files are lower-resolution copies of your source video "
+"files (sometimes referred to as proxy files), used to improve editing "
+"responsiveness without changing the original media. They are especially "
+"helpful with large formats such as 4K, high frame rate, or high bitrate "
+"footage."
+msgstr ""
+"최적화된 미리보기 파일은 원본 미디어를 변경하지 않고 편집 반응성을 향상시키"
+"기 위해 사용되는 원본 비디오 파일의 저해상도 복사본(때로는 프록시 파일이라고"
+"도 함)입니다. 4K, 고프레임률, 고비트레이트 영상과 같은 대용량 포맷에서 특히 "
+"유용합니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:130
+msgid ""
+"For video files, the file context menu includes an :guilabel:`Optimize` "
+"submenu. This feature creates or links smaller preview copies of your source "
+"clips, which can improve playback and scrubbing on slower systems or with "
+"high-resolution footage. Optimizing also pre-loads thumbnails to further "
+"improve the editing smoothness when zooming into the timeline."
+msgstr ""
+"비디오 파일의 경우, 파일 컨텍스트 메뉴에 :guilabel:`최적화` 하위 메뉴가 포함"
+"되어 있습니다. 이 기능은 원본 클립의 더 작은 미리보기 복사본을 생성하거나 연"
+"결하여 느린 시스템이나 고해상도 영상에서 재생 및 스크러빙을 개선할 수 있습니"
+"다. 최적화는 또한 타임라인 확대 시 편집 부드러움을 향상시키기 위해 썸네일을 "
+"미리 로드합니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:135
+msgid "The :guilabel:`Optimize` submenu contains these actions:"
+msgstr ":guilabel:`최적화` 하위 메뉴에는 다음 작업이 포함되어 있습니다:"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:141
+msgid "Action"
+msgstr "작업"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:143
+msgid "Optimize Video"
+msgstr "비디오 최적화"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:144
+msgid ""
+"Create an optimized preview file for each selected video file. OpenShot "
+"stores these files in the project's ``optimized`` assets folder."
+msgstr ""
+"선택한 각 비디오 파일에 대해 최적화된 미리보기 파일을 생성합니다. OpenShot은 "
+"이 파일들을 프로젝트의 ``optimized`` 자산 폴더에 저장합니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:145
+msgid "Link to Existing..."
+msgstr "기존 파일에 연결..."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:146
+msgid ""
+"Choose a folder containing already-created optimized files and link the best "
+"matching files to the selected source clips. This supports common proxy "
+"naming styles, known proxy suffixes, file ID suffixes, and extension changes."
+msgstr ""
+"이미 생성된 최적화 파일이 포함된 폴더를 선택하고 가장 잘 맞는 파일을 선택한 "
+"원본 클립에 연결합니다. 일반적인 프록시 명명 스타일, 알려진 프록시 접미사, 파"
+"일 ID 접미사 및 확장자 변경을 지원합니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:147
+msgid "Unlink"
+msgstr "연결 해제"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:148
+msgid ""
+"Remove the optimized preview link from the selected file without deleting "
+"the optimized file from disk."
+msgstr ""
+"디스크에서 최적화 파일을 삭제하지 않고 선택한 파일에서 최적화 미리보기 연결"
+"을 제거합니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:149
+msgid "Delete & Unlink"
+msgstr "삭제 및 연결 해제"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:150
+msgid ""
+"Delete the linked optimized file from disk, then remove the link from the "
+"selected file."
+msgstr ""
+"디스크에서 연결된 최적화 파일을 삭제한 후 선택한 파일에서 연결을 제거합니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:152
+msgid ""
+"When optimization is in progress, the submenu changes to a single :guilabel:"
+"`Cancel` action for the selected file(s). Optimized preview files are used "
+"only for editing and preview playback. Your final export still uses the "
+"original source files."
+msgstr ""
+"최적화가 진행 중일 때 하위 메뉴는 선택한 파일에 대해 단일 :guilabel:`취소` 작"
+"업으로 변경됩니다. 최적화된 미리보기 파일은 편집 및 미리보기 재생에만 사용됩"
+"니다. 최종 내보내기는 여전히 원본 파일을 사용합니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:155
+msgid ""
+"When you use :guilabel:`Link to Existing...`, OpenShot tries to match each "
+"selected source clip to an existing optimized file in a safe order. It first "
+"looks for the same base filename with a different video extension, then for "
+"common proxy-style names such as ``_proxy``, ``_preview``, ``_optimized``, "
+"``_lowres``, resolution tags such as ``_720p`` or ``_1080p``, and camera/"
+"editor-style variants such as ``_p``. It also supports names that add the "
+"OpenShot file ID after a known proxy suffix, such as ``clip001_proxy_F1."
+"mp4``, and it can still match files named only by file ID, such as ``F1."
+"mp4``."
+msgstr ""
+":guilabel:`기존 파일에 연결...` 을 사용할 때 OpenShot은 선택한 각 원본 클립을 "
+"안전한 순서로 기존 최적화 파일과 일치시키려고 시도합니다. 먼저 다른 비디오 확"
+"장자를 가진 동일한 기본 파일명을 찾고, 그 다음으로 ``_proxy``, ``_preview``, "
+"``_optimized``, ``_lowres`` 와 같은 일반적인 프록시 스타일 이름, ``_720p`` 또"
+"는 ``_1080p`` 와 같은 해상도 태그, 그리고 ``_p`` 와 같은 카메라/편집기 스타일 "
+"변형을 찾습니다. 또한 ``clip001_proxy_F1.mp4`` 와 같이 알려진 프록시 접미사 뒤"
+"에 OpenShot 파일 ID를 추가한 이름도 지원하며, ``F1.mp4`` 와 같이 파일 ID만으"
+"로 명명된 파일도 일치시킬 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:162
+msgid ""
+"Best practice when bringing your own optimized files is to keep the same "
+"base filename as the source clip and add a clear proxy-style suffix, for "
+"example ``clip001_proxy.mp4`` or ``clip001_proxy.mov``. If you need to avoid "
+"filename collisions, append the OpenShot file ID after the proxy suffix, for "
+"example ``clip001_proxy_F1.mp4``. Avoid unrelated suffixes such as "
+"``_final`` or ``_reviewcopy``, because OpenShot does not treat those as safe "
+"proxy naming patterns."
+msgstr ""
+"직접 최적화된 파일을 가져올 때 가장 좋은 방법은 원본 클립과 동일한 기본 파일"
+"명을 유지하고 명확한 프록시 스타일 접미사를 추가하는 것입니다. 예를 들어 "
+"``clip001_proxy.mp4`` 또는 ``clip001_proxy.mov`` 가 있습니다. 파일명 충돌을 피"
+"해야 할 경우 프록시 접미사 뒤에 OpenShot 파일 ID를 추가하세요. 예: "
+"``clip001_proxy_F1.mp4``. OpenShot은 ``_final`` 또는 ``_reviewcopy`` 와 같은 "
+"관련 없는 접미사를 안전한 프록시 명명 패턴으로 간주하지 않으므로 피해야 합니"
+"다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:171
+msgid ""
+"If you need to cut a large video file into many smaller files before "
+"editing, the **Split File** dialog is built exactly for this purpose. Right "
+"click on a file, and choose :guilabel:`Split File`. Use this dialog to "
+"quickly separate a large file into many smaller segments. For each segment, "
+"you can select the starting and ending frame, and a title. Each segment "
+"appears as a new file in the Project Files dialog."
+msgstr ""
+"편집 전에 큰 비디오 파일을 여러 개의 작은 파일로 자를 필요가 있다면, ** 파일 "
+"분할** 대화상자가 바로 이 목적을 위해 만들어졌습니다. 파일을 마우스 오른쪽 버"
+"튼으로 클릭하고 :guilabel:` 파일 분할` 을 선택하세요. 이 대화상자를 사용하여 "
+"큰 파일을 여러 작은 구간으로 빠르게 나눌 수 있습니다. 각 구간마다 시작 및 종"
+"료 프레임과 제목을 선택할 수 있습니다. 각 구간은 프로젝트 파일 대화상자에 새 "
+"파일로 표시됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:182 ../files.rst:216 ../files.rst:240
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:182 ../files.rst:216 ../files.rst:240
+msgid "Name"
+msgstr "이름"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:184 ../files.rst:218 ../files.rst:242
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:184
+msgid "Start of File"
+msgstr "파일 시작"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:184
+msgid "Choose the starting frame of your file by clicking this button"
+msgstr "이 버튼을 클릭하여 파일의 시작 프레임을 선택하세요"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:185 ../files.rst:219 ../files.rst:243
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:185
+msgid "End of File"
+msgstr "파일 끝"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:185
+msgid "Choose the ending frame of your file by clicking this button"
+msgstr "이 버튼을 클릭하여 파일의 마지막 프레임을 선택하세요"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:186 ../files.rst:220
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:186
+msgid "Name of File"
+msgstr "파일 이름"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:186
+msgid "Enter an optional name"
+msgstr "선택적으로 이름을 입력하세요"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:187 ../files.rst:221
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:187
+msgid "Create Button"
+msgstr "생성 버튼"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:187
+msgid ""
+"Create the file (which resets this dialog, so you can repeat these steps for "
+"each segment)"
+msgstr ""
+"파일을 생성합니다 (이 작업은 대화 상자를 초기화하여 각 세그먼트마다 이 단계"
+"를 반복할 수 있습니다)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:190
+msgid ""
+"Please refer to the section :ref:`clips_cutting_slicing_ref` for more ways "
+"to cut and slice clips directly in the timeline."
+msgstr ""
+"타임라인에서 클립을 직접 자르고 분할하는 더 많은 방법은 :ref:"
+"`clips_cutting_slicing_ref` 섹션을 참조하세요."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:194
+msgid ""
+"If you want your split file segments available outside of your OpenShot "
+"project, or want to copy all your video assets to one place, you can do this "
+"with the **Export Files** dialog. Simply :kbd:`Ctrl+Click` to select all the "
+"files you like, then :kbd:`Right Click` and choose :guilabel:`Export Files`. "
+"In the dialog that appears, choose a destination folder, and click :guilabel:"
+"`Export`."
+msgstr ""
+"분할된 파일 세그먼트를 OpenShot 프로젝트 외부에서 사용하거나 모든 비디오 자산"
+"을 한 곳에 복사하려면 ** 파일 내보내기** 대화 상자를 사용하세요. 원하는 파일"
+"을 모두 선택하려면 :kbd:`Ctrl+클릭` 하고, :kbd:` 마우스 오른쪽 클릭` 후 :"
+"guilabel:` 파일 내보내기` 를 선택하세요. 나타나는 대화 상자에서 대상 폴더를 "
+"선택하고 :guilabel:` 내보내기` 를 클릭하세요."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:199
+msgid ""
+"NOTE: This will export each file or file segment using its **original video "
+"profile** (width, height, framerate, aspect ratio, etc...). It also supports "
+"any :ref:`split_clip_ref` (described above). For example, if you have split "
+"a long video file into many different segments (and named them), you can now "
+"export all the segments as separate video files (using the original file's "
+"video profile)."
+msgstr ""
+"참고: 이 기능은 각 파일 또는 파일 세그먼트를 ** 원본 비디오 프로필**(가로, 세"
+"로, 프레임 속도, 종횡비 등)을 사용하여 내보냅니다. 또한 위에서 설명한 :ref:"
+"`split_clip_ref` 를 지원합니다. 예를 들어, 긴 비디오 파일을 여러 세그먼트로 "
+"나누고 이름을 지정했다면, 이제 모든 세그먼트를 원본 파일의 비디오 프로필을 사"
+"용하여 별도의 비디오 파일로 내보낼 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:206
+msgid ""
+"In certain cases, you might need to add many files to the timeline at the "
+"same time. For example, a photo slideshow, or a large number of short video "
+"clips. The **Add to Timeline** dialog can automate this task for you. First, "
+"select all files you need to add, right click, and choose Add to Timeline."
+msgstr ""
+"특정 경우에 여러 파일을 동시에 타임라인에 추가해야 할 수 있습니다. 예를 들"
+"어, 사진 슬라이드쇼나 많은 짧은 비디오 클립이 있을 때입니다. ** 타임라인에 추"
+"가** 대화 상자가 이 작업을 자동화해 줍니다. 먼저 추가할 모든 파일을 선택하"
+"고, 마우스 오른쪽 클릭 후 '타임라인에 추가'를 선택하세요."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:218
+msgid "Selected Files"
+msgstr "선택된 파일"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:218
+msgid "The list of selected files that need to be added to the timeline"
+msgstr "타임라인에 추가할 선택된 파일 목록"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:219
+msgid "Order of Files"
+msgstr "파일 순서"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:219
+msgid ""
+"Use these buttons to reorder the list of files (move up, move down, "
+"randomize, remove)"
+msgstr ""
+"이 버튼들을 사용하여 파일 목록의 순서를 변경하세요 (위로 이동, 아래로 이동, "
+"무작위, 제거)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:220
+msgid "Timeline Position"
+msgstr "타임라인 위치"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:220
+msgid ""
+"Choose the starting position and track where these files need to be inserted "
+"on the timeline"
+msgstr "이 파일들이 타임라인에 삽입될 시작 위치와 트랙을 선택하세요"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:221
+msgid "Fade Options"
+msgstr "페이드 옵션"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:221
+msgid ""
+"Fade in, fade out, both, or none (only affects the image, and not audio)"
+msgstr ""
+"페이드 인, 페이드 아웃, 둘 다, 또는 없음 (이미지에만 적용되며 오디오에는 영향"
+"을 주지 않습니다)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:222
+msgid "5"
+msgstr "5"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:222
+msgid "Zoom Options"
+msgstr "줌 옵션"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:222
+msgid "Zoom in, zoom out, or none"
+msgstr "확대, 축소, 또는 없음"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:223
+msgid "6"
+msgstr "6"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:223
+msgid "Transitions"
+msgstr "전환 효과"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:223
+msgid ""
+"Choose a specific transition to use between files, random, or none (only "
+"affects the image, and not the audio)"
+msgstr ""
+"파일 간에 사용할 특정 전환 효과, 무작위, 또는 없음 중 선택하세요 (이미지에만 "
+"적용되며 오디오에는 영향을 주지 않습니다)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:229
+msgid "Properties"
+msgstr "속성"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:230
+msgid ""
+"To view the properties of any imported file in your video project, right "
+"click on the file, and choose **File Properties**. This will launch the file "
+"properties dialog, which displays information about your media file. For "
+"certain types of images (i.e. image sequences), you can adjust the frame "
+"rate on this dialog also."
+msgstr ""
+"비디오 프로젝트에 가져온 파일의 속성을 보려면, 파일을 마우스 오른쪽 클릭하고 "
+"** 파일 속성** 을 선택하세요. 그러면 미디어 파일에 대한 정보를 표시하는 파일 "
+"속성 대화 상자가 열립니다. 일부 이미지 유형(예: 이미지 시퀀스)의 경우 이 대"
+"화 상자에서 프레임 속도도 조정할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:242
+msgid ""
+"Select an image sequence in the **Project Files** panel, right click and "
+"choose **File Properties**"
+msgstr ""
+"** 프로젝트 파일** 패널에서 이미지 시퀀스를 선택하고, 마우스 오른쪽 클릭 후 "
+"**파일 속성** 을 선택하세요"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:243
+msgid "Frame Rate"
+msgstr "프레임 속도"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:243
+msgid ""
+"For image sequences, you can also adjust the frame rate of the animation"
+msgstr "이미지 시퀀스의 경우 애니메이션의 프레임 속도도 조정할 수 있습니다"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:252
+msgid ""
+"This will remove a file from the project. It will not delete the underlying "
+"physical file though, so removing a file from the project merely makes it "
+"unavailable for this video project."
+msgstr ""
+"이 작업은 프로젝트에서 파일을 제거합니다. 하지만 실제 물리적 파일은 삭제하지 "
+"않으므로, 프로젝트에서 파일을 제거해도 해당 비디오 프로젝트에서만 사용할 수 "
+"없게 됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:257
+msgid "Project Assets Folder"
+msgstr "프로젝트 자산 폴더"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:258
+msgid ""
+"OpenShot creates and uses a few **temporary working folders** while you "
+"edit. These live under ``.openshot_qt/`` in your user profile and hold "
+"project-specific files that OpenShot generates for you:"
+msgstr ""
+"OpenShot은 편집하는 동안 몇 개의 ** 임시 작업 폴더** 를 생성하고 사용합니다. "
+"이 폴더들은 사용자 프로필의 ``.openshot_qt/`` 아래에 위치하며, OpenShot이 생"
+"성하는 프로젝트별 파일을 저장합니다:"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:261
+msgid ""
+"``.openshot_qt/blender/`` - Blender animation renders created by the "
+"Animated Title dialog"
+msgstr ""
+"``.openshot_qt/blender/`` - 애니메이션 타이틀 대화 상자에서 생성된 Blender 애"
+"니메이션 렌더"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:262
+msgid "``.openshot_qt/title/`` - SVG title files created by the Title dialog"
+msgstr "``.openshot_qt/title/`` - 타이틀 대화 상자에서 생성된 SVG 타이틀 파일"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:263
+msgid ""
+"``.openshot_qt/thumbnail/`` - Thumbnails generated for Project Files and "
+"Timeline"
+msgstr ""
+"``.openshot_qt/thumbnail/`` - 프로젝트 파일과 타임라인용으로 생성된 썸네일"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:264
+msgid ""
+"``.openshot_qt/clipboard/`` - Media created from clipboard pastes (images, "
+"audio, or video that must be saved to disk first)"
+msgstr ""
+"``.openshot_qt/clipboard/`` - 클립보드 붙여넣기에서 생성된 미디어 (먼저 디스"
+"크에 저장해야 하는 이미지, 오디오 또는 비디오)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:265
+msgid ""
+"``.openshot_qt/optimized/`` - Optimized preview files created for smoother "
+"editing"
+msgstr ""
+"``.openshot_qt/optimized/`` - 더 부드러운 편집을 위해 생성된 최적화된 미리보"
+"기 파일"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:266
+msgid "``.openshot_qt/protobuf_data`` - Tracking and object detection data"
+msgstr "``.openshot_qt/protobuf_data`` - 추적 및 객체 인식 데이터"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:268
+msgid ""
+"When you choose **File→Save As**, OpenShot copies these folders into your "
+"project directory, inside a single folder named ``PROJECTNAME_Assets``. For "
+"example: ``MyProject_Assets/clipboard`` will contain any media you pasted "
+"from the clipboard, and ``MyProject_Assets/optimized`` will contain any "
+"optimized preview files linked to the project."
+msgstr ""
+"**파일→다른 이름으로 저장** 을 선택하면 OpenShot은 이 폴더들을 프로젝트 디렉터"
+"리 내의 ``PROJECTNAME_Assets`` 라는 단일 폴더 안에 복사합니다. 예를 들어 "
+"``MyProject_Assets/clipboard`` 에는 클립보드에서 붙여넣은 모든 미디어가 포함되"
+"고, ``MyProject_Assets/optimized`` 에는 프로젝트에 연결된 모든 최적화된 미리보"
+"기 파일이 포함됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:272
+#, fuzzy
+msgid ""
+"As part of this process, all paths inside your ``*.osp`` project file are "
+"updated to be **relative** to your project folder."
+msgstr ""
+"이 과정의 일부로, ``*.osp`` 프로젝트 파일 내의 모든 경로가 프로젝트 폴더에 **"
+"상대적** 으로 업데이트됩니다. 이렇게 하면 모든 것이 자체 포함되어 한 폴더로 "
+"쉽게 이동하거나 백업할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:275
+msgid "Missing Files"
+msgstr "누락된 파일"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:277
+msgid ""
+"When you create and save a project in OpenShot, any files imported into the "
+"software (such as videos, audio, and images) must remain accessible "
+"throughout the project's duration. This means that these imported files "
+"should not be renamed, deleted, or moved to different folders. Additionally, "
+"the full path where these files are located should not be renamed either. "
+"This principle applies to other video editing software as well."
+msgstr ""
+"OpenShot에서 프로젝트를 생성하고 저장할 때, 소프트웨어에 가져온 모든 파일(비"
+"디오, 오디오, 이미지 등)은 프로젝트 기간 내내 접근 가능해야 합니다. 즉, 이러"
+"한 가져온 파일들은 이름이 변경되거나 삭제되거나 다른 폴더로 이동되어서는 안 "
+"됩니다. 또한, 이 파일들이 위치한 전체 경로도 변경되어서는 안 됩니다. 이 원칙"
+"은 다른 비디오 편집 소프트웨어에도 적용됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:282
+msgid ""
+"For example, users might move or delete folders, unplug their USB devices, "
+"or move or delete their project files. Any of these examples cause a :"
+"guilabel:`Missing File` message, in which OpenShot prompts you to locate the "
+"folder of the missing file(s). Depending on the number of files you added to "
+"your project, OpenShot could prompt you many times to find the missing files."
+msgstr ""
+"예를 들어, 사용자가 폴더를 이동하거나 삭제하거나, USB 장치를 분리하거나, 프로"
+"젝트 파일을 이동하거나 삭제할 수 있습니다. 이러한 경우 중 하나라도 발생하면 :"
+"guilabel:`Missing File` 메시지가 나타나며, OpenShot이 누락된 파일의 폴더를 찾"
+"도록 요청합니다. 프로젝트에 추가한 파일 수에 따라 OpenShot이 누락된 파일을 찾"
+"으라고 여러 번 요청할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:286
+msgid ""
+"When OpenShot saves a project, all file paths are converted to **relative** "
+"file paths. As long as you keep all assets organized in the same parent "
+"folder (including the \\*.osp project file), you will be able to move your "
+"project folder without triggering any missing file(s) prompts. You can even "
+"move a self-contained project folder to another computer without any issues."
+msgstr ""
+"OpenShot이 프로젝트를 저장할 때, 모든 파일 경로는 ** 상대 경로** 로 변환됩니"
+"다. 모든 자산을 동일한 상위 폴더(\\*.osp 프로젝트 파일 포함)에 정리해 두면, "
+"누락된 파일 알림 없이 프로젝트 폴더를 이동할 수 있습니다. 독립적인 프로젝트 "
+"폴더를 다른 컴퓨터로 옮겨도 문제없습니다."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:290
+msgid ""
+"Everyone has their unique way of organizing files, and it's crucial to "
+"remember not to make changes to file paths, rename files, or delete files "
+"when working with video editors, as it can lead to missing file issues. For "
+"a detailed guide on missing file(s), see `The Case of “Missing Files”! "
+"<https://github.com/OpenShot/openshot-qt/wiki/Missing-File-Prompt>`_"
+msgstr ""
+"각자 파일을 정리하는 고유한 방식이 있지만, 비디오 편집기를 사용할 때 파일 경"
+"로를 변경하거나 파일 이름을 바꾸거나 삭제하지 않는 것이 중요합니다. 그렇지 않"
+"으면 누락된 파일 문제가 발생할 수 있습니다. 누락된 파일에 대한 자세한 안내는 "
+"`The Case of “Missing Files”! <https://github.com/OpenShot/openshot-qt/wiki/"
+"Missing-File-Prompt>`_ 를 참조하세요."

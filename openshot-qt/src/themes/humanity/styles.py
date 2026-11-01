@@ -1,0 +1,223 @@
+"""
+Timeline theme classes for the Humanity Dark and Retro Qt themes.
+
+Subclass any theme and override only what you need:
+
+    class MyTheme(HumanityDarkTimelineTheme):
+        def __init__(self):
+            super().__init__()
+            self.clip.background = QColor("#ff0000")
+            self.track.height    = 80
+"""
+
+from qt_api import QColor
+
+from windows.views.timeline_backend.theme import TimelineTheme, _icon
+
+
+class HumanityDarkTimelineTheme(TimelineTheme):
+    """Humanity Dark timeline theme — base for all other themes."""
+
+    def __init__(self):
+        super().__init__()
+
+        self.track_size_presets = {
+            "minimal": (28, 2), "compact": (40, 4), "relaxed": (72, 8),
+        }
+
+        # Keep labels proportional to the application font and user UI scale.
+        self.label_font_scale = 0.9
+
+        # ── Timeline ──────────────────────────────────────────────────────
+        self.background             = QColor("#141516")
+        self.background2            = QColor()
+        self.playhead_color         = QColor("#FF0024")
+        self.playhead_width         = 2.0
+        self.clip_selected          = QColor("#FF0000")
+        self.selection              = QColor(42, 130, 218, 102)
+        self.selection_border       = QColor(42, 130, 218, 102)
+        self.selection_border_width = 1.0
+        self.playback_cache_color   = QColor("#4B92AD")
+        self.playback_cache_height  = 5.0
+        self.ruler_name_background  = QColor("#191B1D")
+        self.ruler_name_background2 = QColor()
+        self.ruler_time_font_size   = 13
+        self.ruler_time_pad_left    = 17
+        self.ruler_time_pad_top     = 12
+        self.ruler_label_top        = 6
+        self.scrollbar_handle       = QColor("#4B92AD")
+        self.scrollbar_track        = QColor("#141516")
+        self.scrollbar_width        = 6
+        self.waveform_color         = QColor("#2A82DA")
+        self.waveform_peak_color    = QColor(42, 130, 218, 128)
+        self.keyframe_fill          = QColor("#4D7BFF")
+        self.keyframe_border        = QColor("#FFFFFF")
+        self.keyframe_inactive_opacity       = 0.7
+        self.keyframe_size                   = 10
+        self.keyframe_panel_property_bg      = QColor("#292D30")
+        self.keyframe_panel_row_border_color = QColor(0, 0, 0, 0)
+        self.keyframe_panel_row_border_width = 0.0
+        self.keyframe_panel_curve_color      = QColor("#4B92AD")
+        self.keyframe_panel_marker_fill      = QColor("#4B92AD")
+        self.keyframe_panel_marker_border    = QColor("#7DC3DD")
+
+        # ── Clip ──────────────────────────────────────────────────────────
+        self.clip.background    = QColor("#3D484E")
+        self.clip.background2   = QColor("#333C42")
+        self.clip.top_overlay   = QColor()
+        self.clip.top_overlay2  = QColor()
+        self.clip.border_color  = QColor("#4B92AD")
+        self.clip.border_radius = 5
+        self.clip.border_width  = 2.0
+        self.clip.font_color    = QColor("#FFFFFF")
+        self.clip.font_size     = 9
+        self.clip.height        = 58
+        self.clip.shadow_color  = QColor(0, 0, 0, 75)
+        self.clip.shadow_blur   = 3
+
+        # ── Track ─────────────────────────────────────────────────────────
+        self.track.background               = QColor("#262829")
+        self.track.background2              = QColor("#2B2D2F")
+        self.track.border_color             = QColor("#3B3F42")
+        self.track.border_radius            = 0
+        self.track.height                   = 56
+        self.track.gap                      = 8
+        self.track.margin_top               = -1
+        self.track.font_color               = QColor("#EEEEEE")
+        self.track.font_size                = 9
+        self.track.name_background          = QColor("#191B1D")
+        self.track.name_width               = 140
+        self.track.name_border_color        = QColor("#4B92AD")
+        self.track.name_border_width        = 4
+        self.track.name_border_top_color    = QColor("#3B3F42")
+        self.track.name_border_top_width    = 1
+        self.track.name_border_bottom_color = QColor("#3B3F42")
+        self.track.name_border_bottom_width = 1
+        self.track.name_border_right_color  = QColor("#51575C")
+        self.track.name_border_right_width  = 1
+        self.track.name_radius_tl           = 3
+        self.track.name_radius_bl           = 3
+        self.track.name_top_overlay         = QColor(255, 255, 255, 8)
+        self.track.name_top_overlay2        = QColor(255, 255, 255, 0)
+
+        # ── Transition ────────────────────────────────────────────────────
+        self.transition.background       = QColor("#0192C1")
+        self.transition.background2      = QColor("#3FA1BF")
+        self.transition.border_color     = QColor("#0192C1")
+        self.transition.border_radius    = 5
+        self.transition.border_width     = 2.0
+        self.transition.font_color       = QColor("#FFFFFF")
+        self.transition.font_size        = 9
+        self.transition.height           = 58
+        self.transition.background_image = _icon("themes/humanity/images/transition.svg")
+
+        # ── Ruler ─────────────────────────────────────────────────────────
+        self.ruler.background   = QColor("#191B1D")
+        self.ruler.background2  = QColor()
+        self.ruler.border_color = QColor("#757575")
+        self.ruler.font_color   = QColor("#BCBCBC")
+        self.ruler.font_size    = 10
+        self.ruler.height       = 39
+
+        # ── Icons ─────────────────────────────────────────────────────────
+        _h = "themes/humanity/images/"
+
+        self.menu_size               = 12
+        self.menu_margin             = 4
+        self.playhead_icon           = _icon("themes/humanity/images/playhead.svg")
+        self.playhead_icon_width     = 12
+        self.playhead_icon_height    = 188
+        self.playhead_icon_offset_x  = -6
+        self.playhead_icon_offset_y  = 20
+        self.marker_icon             = _icon("themes/humanity/images/marker.svg")
+        self.marker_icon_width       = 8
+        self.marker_icon_height      = 10
+        self.marker_icon_offset_x    = -4
+        self.marker_icon_offset_y    = 0
+
+        self.track_keyframe_panel_disabled_icon = _icon(_h + "humanity-dark-track-keyframe-panel-show-disabled.svg")
+        self.track_keyframe_panel_enabled_icon  = _icon(_h + "humanity-dark-track-keyframe-panel-show-enabled.svg")
+        self.track_keyframe_panel_hide_disabled_icon = _icon(_h + "humanity-dark-track-keyframe-panel-hide-disabled.svg")
+        self.track_keyframe_panel_hide_enabled_icon = _icon(_h + "humanity-dark-track-keyframe-panel-hide-enabled.svg")
+        self.keyframe_panel_add_icon            = _icon(_h + "humanity-dark-keyframe-panel-add.svg")
+        self.track_add_above_disabled_icon      = _icon(_h + "track-add-above-disabled.svg")
+        self.track_add_above_enabled_icon       = _icon(_h + "track-add-above-enabled.svg")
+        self.track_add_below_disabled_icon      = _icon(_h + "track-add-below-disabled.svg")
+        self.track_add_below_enabled_icon       = _icon(_h + "track-add-below-enabled.svg")
+        self.track_delete_disabled_icon         = _icon(_h + "track-delete-disabled.svg")
+        self.track_delete_enabled_icon          = _icon(_h + "track-delete-enabled.svg")
+        self.track_locked_disabled_icon         = _icon(_h + "humanity-dark-track-locked-disabled.svg")
+        self.track_locked_enabled_icon          = _icon(_h + "humanity-dark-track-locked-enabled.svg")
+        self.track_unlocked_disabled_icon       = _icon(_h + "humanity-dark-track-unlocked-disabled.svg")
+        self.track_unlocked_enabled_icon        = _icon(_h + "humanity-dark-track-unlocked-enabled.svg")
+
+        self.keyframe_toggle_off_icon = self.track_keyframe_panel_disabled_icon
+        self.keyframe_toggle_on_icon  = self.track_keyframe_panel_enabled_icon
+
+
+class RetroTimelineTheme(HumanityDarkTimelineTheme):
+    """Retro (light) timeline theme."""
+
+    def __init__(self):
+        super().__init__()
+
+        # ── Timeline ──────────────────────────────────────────────────────
+        self.background             = QColor("#F0F0F0")
+        self.background2            = QColor()
+        self.ruler_name_background  = QColor("#303030")
+        self.ruler_name_background2 = QColor("#363636")
+        self.scrollbar_track             = QColor("#D5D7DA")
+        self.keyframe_inactive_opacity    = 0.72
+        self.keyframe_panel_property_bg   = QColor("#E5E7EA")
+        self.keyframe_panel_marker_border = QColor("#3A748A")
+
+        # ── Clip ──────────────────────────────────────────────────────────
+        self.clip.background    = QColor("#F0DEA6")
+        self.clip.background2   = QColor()
+        self.clip.top_overlay   = QColor()      # gradient overlay disabled
+        self.clip.top_overlay2  = QColor()
+        self.clip.border_color  = QColor("#D0A13A")
+        self.clip.full_thumbnail_background = QColor("#30343B")
+        self.clip.border_radius = 5
+        self.clip.font_color    = QColor("#FFFFFF")
+
+        # ── Track ─────────────────────────────────────────────────────────
+        self.track.border_color             = QColor("#C6C9CD")
+        self.track.name_border_color        = QColor("#C6C9CD")
+        self.track.name_border_top_color    = QColor("#C6C9CD")
+        self.track.name_border_bottom_color = QColor("#C6C9CD")
+        self.track.name_border_right_color  = QColor("#B9BDC2")
+        self.track.menu_icon                = _icon("themes/humanity/images/retro-dropdown-arrow.svg")
+        self.track.background               = QColor("#E5E7EA")
+        self.track.background2              = QColor()
+        self.track.border_radius            = 0
+        self.track.font_color               = QColor("#303236")
+        self.track.name_background          = QColor("#DDDFE1")
+        self.track.name_radius_tl           = 0         # gradient overlay/radius disabled
+        self.track.name_radius_bl           = 0
+        self.track.name_top_overlay         = QColor()
+        self.track.name_top_overlay2        = QColor()
+
+        # ── Transition ────────────────────────────────────────────────────
+        self.transition.border_radius = 5
+
+        # ── Ruler ─────────────────────────────────────────────────────────
+        self.ruler.background  = QColor("#303030")
+        self.ruler.background2 = QColor("#363636")
+        self.ruler.font_color  = QColor("#C9C9C9")
+
+        # ── Icons ─────────────────────────────────────────────────────────
+        _h = "themes/humanity/images/"
+
+        self.track_keyframe_panel_disabled_icon = _icon(_h + "retro-track-keyframe-panel-show-disabled.svg")
+        self.track_keyframe_panel_enabled_icon  = _icon(_h + "retro-track-keyframe-panel-show-enabled.svg")
+        self.track_keyframe_panel_hide_disabled_icon = _icon(_h + "retro-track-keyframe-panel-hide-disabled.svg")
+        self.track_keyframe_panel_hide_enabled_icon = _icon(_h + "retro-track-keyframe-panel-hide-enabled.svg")
+        self.keyframe_panel_add_icon            = _icon(_h + "keyframe-panel-add.svg")
+        self.track_locked_disabled_icon         = _icon(_h + "retro-track-locked-disabled.svg")
+        self.track_locked_enabled_icon          = _icon(_h + "retro-track-locked-enabled.svg")
+        self.track_unlocked_disabled_icon       = _icon(_h + "retro-track-unlocked-disabled.svg")
+        self.track_unlocked_enabled_icon        = _icon(_h + "retro-track-unlocked-enabled.svg")
+
+        self.keyframe_toggle_off_icon = self.track_keyframe_panel_disabled_icon
+        self.keyframe_toggle_on_icon  = self.track_keyframe_panel_enabled_icon

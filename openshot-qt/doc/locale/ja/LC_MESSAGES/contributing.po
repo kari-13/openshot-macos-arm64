@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-22 12:37-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:22
+msgid "Contributing"
+msgstr "貢献する"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:24
+msgid ""
+"Want to help improve OpenShot (*and make some friends in the process*)? "
+"Please consider joining our open-source team by filling out this quick "
+"`contributor form <https://forms.gle/CRqkS5tLMJE1V36V8>`_ and introduce "
+"yourself! All volunteers are welcome, regardless of skills or skill level. "
+"**Let's build something amazing!**"
+msgstr ""
+"OpenShotの改善を手伝いたいですか（*その過程で友達も作りましょう* ）？ぜひこの簡単な `貢献者フォーム "
+"<https://forms.gle/CRqkS5tLMJE1V36V8>`_ "
+"に記入して、オープンソースチームに参加し自己紹介してください！スキルや経験に関係なく、すべてのボランティアを歓迎します。**一緒に素晴らしいものを作りましょう！**"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:30
+msgid "How to Contribute"
+msgstr "貢献の方法"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:32
+msgid "There are many different ways to help and support OpenShot, including:"
+msgstr "OpenShotを支援・サポートする方法は多岐にわたります。例えば："
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:34
+msgid "Testing"
+msgstr "テスト"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:35
+msgid "`Translations <https://translations.launchpad.net/openshot/2.0>`_"
+msgstr ""
+"`翻訳 <https://translations.launchpad.net/openshot/2.0>`_ `Translations "
+"<https://translations.launchpad.net/openshot/2.0>`_"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:36
+msgid ""
+"`Documentation <https://github.com/OpenShot/openshot-qt/tree/develop/doc>`_"
+msgstr ""
+"`ドキュメント <https://github.com/OpenShot/openshot-qt/tree/develop/doc>`_ "
+"`Documentation <https://github.com/OpenShot/openshot-qt/tree/develop/doc>`_"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:37
+msgid "Customer Service"
+msgstr "カスタマーサービス"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:38
+msgid "Social Media / Marketing"
+msgstr "ソーシャルメディア / マーケティング"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:39
+msgid "`Software Development <https://github.com/OpenShot>`_"
+msgstr ""
+"`ソフトウェア開発 <https://github.com/OpenShot>`_ `Software Development "
+"<https://github.com/OpenShot>`_"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:40
+msgid "Art / Design / UI"
+msgstr "アート / デザイン / UI"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:41
+msgid "`User Community <https://openshot.org/forum>`_"
+msgstr ""
+"`ユーザーコミュニティ <https://openshot.org/forum>`_ `User Community "
+"<https://openshot.org/forum>`_"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:42
+msgid "`Donations <https://openshot.org/donate>`_"
+msgstr ""
+"`寄付 <https://openshot.org/donate>`_ `Donations "
+"<https://openshot.org/donate>`_"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:44
+msgid ""
+"All of these areas are **equally important**, so we would love to know which"
+" ones appeal to you the most. Please take a moment and fill-out our quick "
+"`contributor form <https://forms.gle/CRqkS5tLMJE1V36V8>`_."
+msgstr ""
+"これらすべての分野は**同じくらい重要** です。どの分野に最も興味があるか教えてください。ぜひこの簡単な`貢献者フォーム "
+"<https://forms.gle/CRqkS5tLMJE1V36V8>`_ にご記入ください。 `contributor form "
+"<https://forms.gle/CRqkS5tLMJE1V36V8>`_"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:48
+msgid "Did you find a bug?"
+msgstr "バグを見つけましたか？"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:50
+msgid ""
+"Please use our step-by-step bug reporting page: "
+"https://openshot.org/issues/new/ to troubleshoot a potential new bug. This "
+"guide will instruct you on how to delete you log files, test with the latest"
+" daily build, and search for duplicate bug reports (in case someone else has"
+" already reported this same issue). At the end of the guide, it will help "
+"you create a detailed and useful bug report for our development team and "
+"volunteers."
+msgstr ""
+"新しいバグの可能性を調査するには、ステップバイステップのバグ報告ページ https://openshot.org/issues/new/ "
+"をご利用ください。このガイドでは、ログファイルの削除方法、最新のデイリービルドでのテスト方法、重複するバグ報告の検索方法（他の誰かが同じ問題を報告している場合）を説明します。ガイドの最後には、開発チームとボランティアのために詳細で有用なバグ報告を作成する手助けをします。"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:57
+msgid "Software Developers"
+msgstr "ソフトウェア開発者"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:58
+msgid ""
+"OpenShot uses GitHub to manage issues and source code: "
+"https://github.com/OpenShot. Please read our guide on `Becoming a Developer "
+"<https://github.com/OpenShot/openshot-qt/wiki/Become-a-Developer>`_ for a "
+"step-by-step guide on compiling OpenShot and making your first pull request "
+"on GitHub."
+msgstr ""
+"OpenShotはGitHubを使って課題とソースコードを管理しています：https://github.com/OpenShot。OpenShotのコンパイル方法やGitHubでの最初のプルリクエスト作成方法をステップバイステップで解説した`開発者になる方法"
+" <https://github.com/OpenShot/openshot-qt/wiki/Become-a-Developer>`_ "
+"をご覧ください。 `Becoming a Developer <https://github.com/OpenShot/openshot-"
+"qt/wiki/Become-a-Developer>`_"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:63
+msgid "Made with Love"
+msgstr "愛を込めて作られています"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:65
+msgid ""
+"OpenShot Video Editor is a volunteer effort and a **labor of love**. Please "
+"be patient with any issues you find, and feel free to `get involved "
+"<https://forms.gle/CRqkS5tLMJE1V36V8>`_ and help us fix them!"
+msgstr ""
+"OpenShot Video Editorはボランティアによる取り組みであり、**愛情の結晶** です。問題が見つかってもご理解いただき、ぜひ`参加して"
+" <https://forms.gle/CRqkS5tLMJE1V36V8>`_ 修正にご協力ください！ `get involved "
+"<https://forms.gle/CRqkS5tLMJE1V36V8>`_"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:69
+msgid "Thank you for your support!"
+msgstr "ご支援ありがとうございます！"
+
+# Translated with gpt-4.1-mini
+#: ../contributing.rst:70
+msgid "*-- OpenShot Team*"
+msgstr "*-- OpenShotチーム*"

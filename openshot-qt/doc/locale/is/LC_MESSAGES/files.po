@@ -1,0 +1,1000 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:23
+msgid "Files"
+msgstr "Skrár"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:25
+msgid ""
+"To create a video, we need to make media files available to our project by "
+"importing files into OpenShot. Most media file types are recognized, such as "
+"videos, images, and audio files. Files can be viewed and managed in the "
+"**Project Files** panel."
+msgstr ""
+"Til að búa til myndband þurfum við að gera fjölmiðlaskrár aðgengilegar fyrir "
+"verkefnið okkar með því að flytja skrár inn í OpenShot. Flestar tegundir "
+"fjölmiðlaskráa eru þekktar, svo sem myndbönd, myndir og hljóðskrár. Skrár má "
+"skoða og stjórna í **Verkefnisskráa** glugganum."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:29
+msgid ""
+"Note that imported files are not copied anywhere, they remain in the "
+"physical location they were before and are simply being made available to "
+"your video project. So, they must not be deleted, renamed, or moved after "
+"adding them to your project. The \"Show All\", \"Video\", \"Audio\", "
+"\"Image\" filters above the files allows you to only see the file types you "
+"are interested in. You can also toggle the view between :guilabel:`details` "
+"and :guilabel:`thumbnails` view of your files."
+msgstr ""
+"Athugið að fluttar skrár eru ekki afritaðar neitt, þær eru áfram á sama stað "
+"og áður og eru einfaldlega gerðar aðgengilegar fyrir myndbandsverkefnið "
+"þitt. Því má ekki eyða, endurnefna eða færa þær eftir að þær hafa verið bætt "
+"við verkefnið þitt. Síurnar „Sýna allt“, „Myndband“, „Hljóð“, „Mynd“ fyrir "
+"ofan skrárnar leyfa þér að sjá aðeins þær tegundir skráa sem þú hefur áhuga "
+"á. Þú getur einnig skipt á milli :guilabel:`upplýsingar` og :guilabel:"
+"`smámyndir` sýn á skránum þínum."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:39
+msgid "Import Files"
+msgstr "Flytja inn skrár"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:40
+msgid ""
+"There are many different ways to import media files into an OpenShot "
+"project. When a file is imported successfully, it will be automatically "
+"selected and scrolled into view (in the **Project Files** panel). Also, if "
+"the **Project Files** panel is not currently visible, OpenShot will "
+"automatically display the panel."
+msgstr ""
+"Það eru margar mismunandi leiðir til að flytja fjölmiðlaskrár inn í OpenShot "
+"verkefni. Þegar skrá hefur verið flutt inn með góðum árangri er hún "
+"sjálfkrafa valin og færð í sýn (í **Verkefnisskráa** glugganum). Ef "
+"**Verkefnisskráa** glugginn er ekki sýnilegur mun OpenShot sjálfkrafa sýna "
+"hann."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:48
+msgid "Import File Method"
+msgstr "Aðferð til að flytja inn skrá"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:48 ../files.rst:85 ../files.rst:142 ../files.rst:182
+#: ../files.rst:216 ../files.rst:240
+msgid "Description"
+msgstr "Lýsing"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:50
+msgid "Drag and Drop"
+msgstr "Drag and Drop"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:50
+msgid ""
+"Drag and drop the files from your file manager (file explorer, finder, "
+"etc...)."
+msgstr ""
+"Drag and drop skrárnar úr skráarstjóranum þínum (file explorer, finder o.s."
+"frv.)."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:51
+msgid "Context menu (`File Menu`_)"
+msgstr "Samhengisvalmynd (`Skráavalmynd`_)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:51
+msgid ""
+"Right click anywhere in the **Project Files** panel and choose :guilabel:"
+"`Import Files`."
+msgstr ""
+"Hægri smelltu hvar sem er í **Verkefnisskráa** glugganum og veldu :guilabel:"
+"`Flytja inn skrár`."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:52
+msgid "Main Menu"
+msgstr "Aðalvalmynd"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:52
+msgid "In the main menu choose: :guilabel:`File\\→Import Files`."
+msgstr "Í aðalvalmyndinni veldu: :guilabel:`Skrá\\→Flytja inn skrár`."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:53
+msgid "Toolbar button"
+msgstr "Tólabarhnappur"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:53
+msgid "Click the :guilabel:`+` toolbar button in the main toolbar."
+msgstr "Smelltu á :guilabel:`+` hnappinn í aðal tólabananum."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:54
+msgid "Keyboard shortcut"
+msgstr "Flýtilykill"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:54
+msgid "Press :kbd:`Ctrl-F` (:kbd:`Cmd-F` on Mac)."
+msgstr "Ýttu á :kbd:`Ctrl-F` (:kbd:`Cmd-F` á Mac)."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:55 ../files.rst:63
+msgid "Paste from Clipboard"
+msgstr "Líma úr klippiborði"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:55
+msgid ""
+"Press :kbd:`Ctrl-V` (:kbd:`Cmd-V` on Mac) to paste copied files from your "
+"clipboard. See :ref:`paste_from_clipboard_ref`."
+msgstr ""
+"Ýttu á :kbd:`Ctrl-V` (:kbd:`Cmd-V` á Mac) til að líma afritaðar skrár úr "
+"klippiborðinu. Sjá :ref:`paste_from_clipboard_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:64
+msgid ""
+"You can paste files and clipboard media straight into OpenShot. If you "
+"copied one or more files in your file manager, switch to OpenShot and press :"
+"kbd:`Ctrl-V` in the **Project Files** panel to add them, just like importing."
+msgstr ""
+"Þú getur límt skrár og fjölmiðla úr klippiborðinu beint inn í OpenShot. Ef "
+"þú hefur afritað eina eða fleiri skrár í skráarstjóranum þínum, skaltu "
+"skipta yfir í OpenShot og ýta á :kbd:`Ctrl-V` í **Verkefnisskráa** glugganum "
+"til að bæta þeim við, eins og að flytja inn."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:67
+msgid ""
+"If you copied media **data** (for example, **Copy Image** in a web browser, "
+"a pasted frame from another app, or other image/audio/video clipboard data), "
+"press :kbd:`Ctrl-V` in OpenShot to create a file for that clipboard content. "
+"OpenShot saves a copy in a temporary folder: ``.openshot_qt/clipboard/``. "
+"The new file is then added to your project and appears in **Project Files**."
+msgstr ""
+"Ef þú hefur afritað fjölmiðlagögn (til dæmis, **Afrita mynd** í vafra, límt "
+"ramma úr annarri forriti eða önnur mynd-/hljóð-/myndbandsgögn úr "
+"klippiborði), ýttu á :kbd:`Ctrl-V` í OpenShot til að búa til skrá fyrir það "
+"efni úr klippiborðinu. OpenShot geymir afrit í tímabundnu möppu: ``."
+"openshot_qt/clipboard/``. Nýja skráin er síðan bætt við verkefnið þitt og "
+"birtist í **Verkefnisskráa**."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:74
+msgid "File Menu"
+msgstr "Skráavalmynd"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:75
+msgid ""
+"To view the file menu, right click on a file (in the **Project Files** "
+"panel). Here are the actions you can use from the file menu."
+msgstr ""
+"Til að skoða skráavalmyndina, hægri smelltu á skrá (í **Verkefnisskráa** "
+"glugganum). Hér eru aðgerðirnar sem þú getur notað úr skráavalmyndinni."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:84
+msgid "File Context Option"
+msgstr "Samhengisvalkostur skráar"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:86
+msgid "Import Files..."
+msgstr "Flytja inn skrár..."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:87
+msgid "Import files into your project"
+msgstr "Flytja skrár inn í verkefnið þitt"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:88
+msgid "Create with AI / Enhance with AI (Optional)"
+msgstr "Búa til með AI / Bæta með AI (Valfrjálst)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:89
+msgid ""
+"AI menu actions for generating or enhancing media files. These options are "
+"shown only when AI is enabled and the selected file type supports the "
+"workflow. See :ref:`ai_ref`."
+msgstr ""
+"AI valmyndaraðgerðir til að búa til eða bæta fjölmiðlaskrár. Þessar "
+"valkostir birtast aðeins þegar AI er virkjað og valinn skráargerð styður "
+"vinnuflæðið. Sjá :ref:`ai_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:90
+msgid "Details View"
+msgstr "Skoðun með smáatriðum"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:91
+msgid "Switch the Project Files panel to details view"
+msgstr "Skipta um verkefnisskráaspjaldið í skoðun með smáatriðum"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:92 ../files.rst:114
+msgid "Preview File"
+msgstr "Forskoða skrá"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:93
+msgid "Preview a media file"
+msgstr "Forskoða fjölmiðlaskrá"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:94 ../files.rst:170
+msgid "Split File"
+msgstr "Skipta skrá"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:95
+msgid ""
+"Split a file into many smaller files. The new trimmed files appear in the "
+"Project Files list."
+msgstr ""
+"Skipta skrá í margar minni skrár. Nýju klipptu skrárnar birtast í lista "
+"verkefnisskráa."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:96 ../files.rst:193
+msgid "Export Files"
+msgstr "Flytja út skrár"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:97
+msgid "Export selected files (and split segments) to a destination folder"
+msgstr "Flytja valdar skrár (og skipt hluta) í áfangamöppu"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:98 ../files.rst:205
+msgid "Add to Timeline"
+msgstr "Bæta við tímalínu"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:99
+msgid ""
+"Add many files to the timeline in one step, including transitions or "
+"alternating tracks."
+msgstr ""
+"Bæta mörgum skrám við tímalínuna í einu skrefi, þar með talið umbreytingum "
+"eða skiptum brautum."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:100
+msgid "Choose Profile"
+msgstr "Velja snið"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:101
+msgid ""
+"Change the current project profile to match the selected file. If the file's "
+"profile does not match a known profile, it will give you the option to "
+"create a custom profile."
+msgstr ""
+"Breyta núverandi verkefnissniði til að passa við valda skrá. Ef sniðið á "
+"skránni passar ekki við þekkt snið færðu kost á að búa til sérsniðið snið."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:102 ../files.rst:242
+msgid "File Properties"
+msgstr "Eiginleikar skráar"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:103
+msgid "View the properties of a file, such as frame rate, size, etc..."
+msgstr "Skoða eiginleika skráar, svo sem rammastuðul, stærð o.s.frv."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:104 ../files.rst:125
+msgid "Optimize"
+msgstr "Bæta"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:105
+msgid ""
+"Create, link, unlink, or delete optimized preview files for the selected "
+"video files."
+msgstr ""
+"Búðu til, tengdu, aftengdu eða eyðileggðu hagræddar forskoðunar skrár fyrir "
+"valdar myndbandsskrár."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:106 ../files.rst:250
+msgid "Remove from Project"
+msgstr "Fjarlægja úr verkefni"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:107
+msgid "Remove a file from the project"
+msgstr "Fjarlægja skrá úr verkefninu"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:108
+msgid "Edit Title"
+msgstr "Breyta titli"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:109
+msgid "Edit an existing title SVG file (shown when an SVG title is selected)"
+msgstr "Breyta tiltekinni titils-SVG skrá (sýnt þegar SVG titill er valinn)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:110
+msgid "Duplicate Title"
+msgstr "Afrita titil"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:111
+#, fuzzy
+msgid ""
+"Make a copy, and then edit the copied title SVG file (shown when an SVG "
+"title is selected)"
+msgstr "Búa til afrit og breyta svo afritaðri titils-SVG skrá"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:115
+msgid ""
+"The :guilabel:`Preview File` action opens the Preview dialog for the "
+"selected file from :guilabel:`Project Files`. Simply double check a file to "
+"open this dialog."
+msgstr ""
+":guilabel:`Forskoða skrá` aðgerðin opnar forskoðunarglugga fyrir valda skrá "
+"úr :guilabel:`Verkefnisskrám`. Tvísmelltu einfaldlega á skrá til að opna "
+"þennan glugga."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:118
+msgid "Playback starts automatically."
+msgstr "Spilun byrjar sjálfkrafa."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:119
+msgid "Loop is enabled by default."
+msgstr "Endurtekning er virkjuð sjálfgefið."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:120
+msgid "Press :kbd:`Space` to toggle play/pause."
+msgstr "Ýttu á :kbd:`Space` til að skipta á milli spila/hlé."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:121
+msgid "Use the mouse scroll wheel to zoom in/out."
+msgstr "Notaðu músarhjólið til að stækka/minnka."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:122
+msgid ""
+"A :guilabel:`Reset Zoom` button appears when zoom is not 100%, and resets to "
+"100%."
+msgstr ""
+"Hnappurinn :guilabel:`Endurstilla stækkun` birtist þegar stækkun er ekki "
+"100% og endurstillir í 100%."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:126
+msgid ""
+"Optimized preview files are lower-resolution copies of your source video "
+"files (sometimes referred to as proxy files), used to improve editing "
+"responsiveness without changing the original media. They are especially "
+"helpful with large formats such as 4K, high frame rate, or high bitrate "
+"footage."
+msgstr ""
+"Hagræddar forskoðunar skrár eru afrit af upprunalegu myndbandsskrám þínum "
+"með lægri upplausn (oft kallaðar proxy skrár), notaðar til að bæta "
+"viðbragðshraða við klippingu án þess að breyta upprunalegu efni. Þær eru "
+"sérstaklega gagnlegar með stórum sniðum eins og 4K, háum rammahraða eða háum "
+"bitahraða."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:130
+msgid ""
+"For video files, the file context menu includes an :guilabel:`Optimize` "
+"submenu. This feature creates or links smaller preview copies of your source "
+"clips, which can improve playback and scrubbing on slower systems or with "
+"high-resolution footage. Optimizing also pre-loads thumbnails to further "
+"improve the editing smoothness when zooming into the timeline."
+msgstr ""
+"Fyrir myndbandsskrár inniheldur samhengisvalmynd skráarinnar "
+"undirvalmyndina :guilabel:`Bæta`. Þessi eiginleiki býr til eða tengir minni "
+"forskoðunarafrit af upprunalegum klippum þínum, sem getur bætt spilun og "
+"flettingu á hægari kerfum eða með myndbandi í háupplausn. Að bæta hleður "
+"einnig forskoðunarmyndir fyrirfram til að bæta klippingu þegar að stækka á "
+"tímalínu."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:135
+msgid "The :guilabel:`Optimize` submenu contains these actions:"
+msgstr "Undirvalmyndin :guilabel:`Bæta` inniheldur eftirfarandi aðgerðir:"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:141
+msgid "Action"
+msgstr "Aðgerð"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:143
+msgid "Optimize Video"
+msgstr "Bæta myndband"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:144
+msgid ""
+"Create an optimized preview file for each selected video file. OpenShot "
+"stores these files in the project's ``optimized`` assets folder."
+msgstr ""
+"Búðu til hagrædda forskoðunar skrá fyrir hverja valda myndbandsskrá. "
+"OpenShot geymir þessar skrár í ``optimized`` eignamöppu verkefnisins."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:145
+msgid "Link to Existing..."
+msgstr "Tengja við til staðar..."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:146
+msgid ""
+"Choose a folder containing already-created optimized files and link the best "
+"matching files to the selected source clips. This supports common proxy "
+"naming styles, known proxy suffixes, file ID suffixes, and extension changes."
+msgstr ""
+"Veldu möppu sem inniheldur þegar búnar hagræddar skrár og tengdu bestu "
+"samsvarandi skrár við valdar upprunalegar klippur. Þetta styður algengar "
+"proxy nafngiftarstíla, þekkt proxy viðskeyti, skráarauðkenni viðskeyti og "
+"breytingar á skráarendingum."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:147
+msgid "Unlink"
+msgstr "Aftengja"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:148
+msgid ""
+"Remove the optimized preview link from the selected file without deleting "
+"the optimized file from disk."
+msgstr ""
+"Fjarlægðu hagrædda forskoðunar tengilinn frá valinni skrá án þess að eyða "
+"hagræddu skránni af disknum."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:149
+msgid "Delete & Unlink"
+msgstr "Eyða og aftengja"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:150
+msgid ""
+"Delete the linked optimized file from disk, then remove the link from the "
+"selected file."
+msgstr ""
+"Eyða tengdri hagræddri skrá af disknum og fjarlægja síðan tengilinn frá "
+"valinni skrá."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:152
+msgid ""
+"When optimization is in progress, the submenu changes to a single :guilabel:"
+"`Cancel` action for the selected file(s). Optimized preview files are used "
+"only for editing and preview playback. Your final export still uses the "
+"original source files."
+msgstr ""
+"Þegar hagræðing er í gangi breytist undirvalmyndin í eina aðgerð :guilabel:"
+"`Hætta við` fyrir valdar skrár. Hagræddar forskoðunar skrár eru aðeins "
+"notaðar við klippingu og forskoðun. Lokaflutningurinn notar enn upprunalegu "
+"skrárnar."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:155
+msgid ""
+"When you use :guilabel:`Link to Existing...`, OpenShot tries to match each "
+"selected source clip to an existing optimized file in a safe order. It first "
+"looks for the same base filename with a different video extension, then for "
+"common proxy-style names such as ``_proxy``, ``_preview``, ``_optimized``, "
+"``_lowres``, resolution tags such as ``_720p`` or ``_1080p``, and camera/"
+"editor-style variants such as ``_p``. It also supports names that add the "
+"OpenShot file ID after a known proxy suffix, such as ``clip001_proxy_F1."
+"mp4``, and it can still match files named only by file ID, such as ``F1."
+"mp4``."
+msgstr ""
+"Þegar þú notar :guilabel:`Tengja við til staðar...`, reynir OpenShot að para "
+"hverja valda upprunalegu klippu við til staðar hagrædda skrá í öruggri röð. "
+"Fyrst leitar það að sama grunnskránarheiti með annarri myndbandsendingu, "
+"síðan algengum proxy-stíl nöfnum eins og ``_proxy``, ``_preview``, "
+"``_optimized``, ``_lowres``, upplausnartáknum eins og ``_720p`` eða "
+"``_1080p``, og myndavéla/ritstjóra-stíl afbrigðum eins og ``_p``. Það styður "
+"einnig nöfn sem bæta OpenShot skráarauðkenni eftir þekkt proxy viðskeyti, "
+"eins og ``clip001_proxy_F1.mp4``, og getur enn parað skrár sem eru aðeins "
+"nefndar með skráarauðkenni, eins og ``F1.mp4``."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:162
+msgid ""
+"Best practice when bringing your own optimized files is to keep the same "
+"base filename as the source clip and add a clear proxy-style suffix, for "
+"example ``clip001_proxy.mp4`` or ``clip001_proxy.mov``. If you need to avoid "
+"filename collisions, append the OpenShot file ID after the proxy suffix, for "
+"example ``clip001_proxy_F1.mp4``. Avoid unrelated suffixes such as "
+"``_final`` or ``_reviewcopy``, because OpenShot does not treat those as safe "
+"proxy naming patterns."
+msgstr ""
+"Bestu vinnubrögðin þegar þú notar þínar eigin hagræddu skrár eru að halda "
+"sama grunnskránarheiti og upprunalega klippan og bæta við skýru proxy-stíl "
+"viðskeyti, til dæmis ``clip001_proxy.mp4`` eða ``clip001_proxy.mov``. Ef þú "
+"þarft að forðast árekstra í skráarnafni, bættu OpenShot skráarauðkenni við "
+"eftir proxy viðskeytið, til dæmis ``clip001_proxy_F1.mp4``. Forðastu "
+"ótengdar viðskeyti eins og ``_final`` eða ``_reviewcopy``, því OpenShot "
+"meðhöndlar þau ekki sem örugga proxy nafngiftarmynstur."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:171
+msgid ""
+"If you need to cut a large video file into many smaller files before "
+"editing, the **Split File** dialog is built exactly for this purpose. Right "
+"click on a file, and choose :guilabel:`Split File`. Use this dialog to "
+"quickly separate a large file into many smaller segments. For each segment, "
+"you can select the starting and ending frame, and a title. Each segment "
+"appears as a new file in the Project Files dialog."
+msgstr ""
+"Ef þú þarft að klippa stórt myndbands-skrá í margar minni skrár áður en þú "
+"byrjar að klippa, er **Skipta skrá** glugginn hannaður nákvæmlega fyrir "
+"þetta. Hægri smelltu á skrá og veldu :guilabel:`Skipta skrá`. Notaðu þennan "
+"glugga til að fljótt skipta stórri skrá í margar minni einingar. Fyrir "
+"hverja einingu getur þú valið upphafs- og lokaramma, og titil. Hver eining "
+"birtist sem ný skrá í verkefnisskráa glugganum."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:182 ../files.rst:216 ../files.rst:240
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:182 ../files.rst:216 ../files.rst:240
+msgid "Name"
+msgstr "Nafn"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:184 ../files.rst:218 ../files.rst:242
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:184
+msgid "Start of File"
+msgstr "Byrjun skráar"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:184
+msgid "Choose the starting frame of your file by clicking this button"
+msgstr "Veldu upphafsramma skrárinnar með því að smella á þennan hnapp"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:185 ../files.rst:219 ../files.rst:243
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:185
+msgid "End of File"
+msgstr "Endir skráar"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:185
+msgid "Choose the ending frame of your file by clicking this button"
+msgstr "Veldu lokarammann í skránni þinni með því að smella á þennan hnapp"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:186 ../files.rst:220
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:186
+msgid "Name of File"
+msgstr "Nafn skráar"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:186
+msgid "Enter an optional name"
+msgstr "Sláðu inn valfrjálst nafn"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:187 ../files.rst:221
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:187
+msgid "Create Button"
+msgstr "Búa til hnapp"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:187
+msgid ""
+"Create the file (which resets this dialog, so you can repeat these steps for "
+"each segment)"
+msgstr ""
+"Búðu til skrána (sem endurstillir þennan glugga, svo þú getur endurtekið "
+"þessi skref fyrir hvern hluta)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:190
+msgid ""
+"Please refer to the section :ref:`clips_cutting_slicing_ref` for more ways "
+"to cut and slice clips directly in the timeline."
+msgstr ""
+"Vinsamlegast vísaðu í kaflann :ref:`clips_cutting_slicing_ref` fyrir fleiri "
+"leiðir til að klippa og sneiða klippur beint í tímalínunni."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:194
+msgid ""
+"If you want your split file segments available outside of your OpenShot "
+"project, or want to copy all your video assets to one place, you can do this "
+"with the **Export Files** dialog. Simply :kbd:`Ctrl+Click` to select all the "
+"files you like, then :kbd:`Right Click` and choose :guilabel:`Export Files`. "
+"In the dialog that appears, choose a destination folder, and click :guilabel:"
+"`Export`."
+msgstr ""
+"Ef þú vilt að skiptar skráarhlutar séu aðgengilegir utan OpenShot "
+"verkefnisins þíns, eða vilt afrita öll myndbandsgögnin þín á einn stað, "
+"getur þú gert það með glugganum **Flytja út skrár**. Veldu einfaldlega allar "
+"skrárnar með :kbd:`Ctrl+Smelltu`, svo :kbd:`Hægri smelltu` og veldu :"
+"guilabel:`Flytja út skrár`. Í glugganum sem birtist, veldu áfangamöppu og "
+"smelltu á :guilabel:`Flytja út`."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:199
+msgid ""
+"NOTE: This will export each file or file segment using its **original video "
+"profile** (width, height, framerate, aspect ratio, etc...). It also supports "
+"any :ref:`split_clip_ref` (described above). For example, if you have split "
+"a long video file into many different segments (and named them), you can now "
+"export all the segments as separate video files (using the original file's "
+"video profile)."
+msgstr ""
+"ATH: Þetta mun flytja út hverja skrá eða skráarhluta með því að nota "
+"**upprunalega myndbandsprófílinn** (breidd, hæð, rammatíðni, hlutföll o.s."
+"frv.). Það styður einnig hvaða :ref:`split_clip_ref` sem er (lýst hér að "
+"ofan). Til dæmis, ef þú hefur skipt langri myndbandskrá í marga hluta (og "
+"nefnt þá), getur þú nú flutt út alla hlutana sem aðskildar myndbandsskrár "
+"(með upprunalega prófílnum)."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:206
+msgid ""
+"In certain cases, you might need to add many files to the timeline at the "
+"same time. For example, a photo slideshow, or a large number of short video "
+"clips. The **Add to Timeline** dialog can automate this task for you. First, "
+"select all files you need to add, right click, and choose Add to Timeline."
+msgstr ""
+"Í sumum tilfellum gætir þú þurft að bæta mörgum skrám við tímalínuna "
+"samtímis. Til dæmis, myndasýningu eða stórum fjölda stuttra myndbandsklippa. "
+"Glugginn **Bæta við tímalínu** getur sjálfvirknivætt þetta verkefni fyrir "
+"þig. Fyrst velurðu allar skrárnar sem þú þarft að bæta við, hægrismellir og "
+"velur Bæta við tímalínu."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:218
+msgid "Selected Files"
+msgstr "Valdar skrár"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:218
+msgid "The list of selected files that need to be added to the timeline"
+msgstr "Listi yfir valdar skrár sem þarf að bæta við tímalínuna"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:219
+msgid "Order of Files"
+msgstr "Röð skráa"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:219
+msgid ""
+"Use these buttons to reorder the list of files (move up, move down, "
+"randomize, remove)"
+msgstr ""
+"Notaðu þessa hnappa til að raða skránum aftur (færa upp, færa niður, "
+"slembiraða, fjarlægja)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:220
+msgid "Timeline Position"
+msgstr "Staða á tímalínu"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:220
+msgid ""
+"Choose the starting position and track where these files need to be inserted "
+"on the timeline"
+msgstr ""
+"Veldu upphafsstöðu og rás þar sem þessar skrár eiga að vera settar inn á "
+"tímalínuna"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:221
+msgid "Fade Options"
+msgstr "Brennuvalkostir"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:221
+msgid ""
+"Fade in, fade out, both, or none (only affects the image, and not audio)"
+msgstr ""
+"Brenna inn, brenna út, bæði eða ekkert (á aðeins við myndina, ekki hljóð)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:222
+msgid "5"
+msgstr "5"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:222
+msgid "Zoom Options"
+msgstr "Stækkunarvalkostir"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:222
+msgid "Zoom in, zoom out, or none"
+msgstr "Stækka, minnka eða ekkert"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:223
+msgid "6"
+msgstr "6"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:223
+msgid "Transitions"
+msgstr "Yfirfærslur"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:223
+msgid ""
+"Choose a specific transition to use between files, random, or none (only "
+"affects the image, and not the audio)"
+msgstr ""
+"Veldu ákveðna yfirfærslu til að nota milli skráa, slembi eða ekkert (á "
+"aðeins við myndina, ekki hljóð)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:229
+msgid "Properties"
+msgstr "Eiginleikar"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:230
+msgid ""
+"To view the properties of any imported file in your video project, right "
+"click on the file, and choose **File Properties**. This will launch the file "
+"properties dialog, which displays information about your media file. For "
+"certain types of images (i.e. image sequences), you can adjust the frame "
+"rate on this dialog also."
+msgstr ""
+"Til að skoða eiginleika hvaða innfluttrar skráar sem er í "
+"myndbandsverkefninu þínu, hægrismelltu á skrána og veldu "
+"**Skráareiginleikar**. Þetta opnar glugga með eiginleikum skráarinnar sem "
+"sýnir upplýsingar um fjölmiðlaskrána þína. Fyrir ákveðnar tegundir mynda (t."
+"d. myndaröð) geturðu einnig stillt rammatíðni í þessum glugga."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:242
+msgid ""
+"Select an image sequence in the **Project Files** panel, right click and "
+"choose **File Properties**"
+msgstr ""
+"Veldu myndaröð í glugganum **Verkefnisskrár**, hægrismelltu og veldu "
+"**Skráareiginleikar**"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:243
+msgid "Frame Rate"
+msgstr "Rammatíðni"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:243
+msgid ""
+"For image sequences, you can also adjust the frame rate of the animation"
+msgstr "Fyrir myndaröð geturðu einnig stillt rammatíðni hreyfimyndarinnar"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:252
+msgid ""
+"This will remove a file from the project. It will not delete the underlying "
+"physical file though, so removing a file from the project merely makes it "
+"unavailable for this video project."
+msgstr ""
+"Þetta fjarlægir skrá úr verkefninu. Það eyðir þó ekki undirliggjandi skrá á "
+"disknum, svo að fjarlægja skrá úr verkefninu gerir hana aðeins óaðgengilega "
+"fyrir þetta myndbandsverkefni."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:257
+msgid "Project Assets Folder"
+msgstr "Mappa verkefniseigna"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:258
+msgid ""
+"OpenShot creates and uses a few **temporary working folders** while you "
+"edit. These live under ``.openshot_qt/`` in your user profile and hold "
+"project-specific files that OpenShot generates for you:"
+msgstr ""
+"OpenShot býr til og notar nokkrar **bráðabirgðamöppur** meðan þú ert að "
+"vinna. Þær eru staðsettar undir ``.openshot_qt/`` í notendaprófílnum þínum "
+"og geyma verkefnistengdar skrár sem OpenShot býr til fyrir þig:"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:261
+msgid ""
+"``.openshot_qt/blender/`` - Blender animation renders created by the "
+"Animated Title dialog"
+msgstr ""
+"``.openshot_qt/blender/`` - Blender hreyfimyndir sem búnar eru til með "
+"glugganum fyrir hreyfða titla"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:262
+msgid "``.openshot_qt/title/`` - SVG title files created by the Title dialog"
+msgstr ""
+"``.openshot_qt/title/`` - SVG titlaskrár sem búnar eru til með titlaglugganum"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:263
+msgid ""
+"``.openshot_qt/thumbnail/`` - Thumbnails generated for Project Files and "
+"Timeline"
+msgstr ""
+"``.openshot_qt/thumbnail/`` - Smámyndir sem búnar eru til fyrir "
+"verkefnisskrár og tímalínu"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:264
+msgid ""
+"``.openshot_qt/clipboard/`` - Media created from clipboard pastes (images, "
+"audio, or video that must be saved to disk first)"
+msgstr ""
+"``.openshot_qt/clipboard/`` - Fjölmiðlar búnir til úr límmiðaplötu (myndir, "
+"hljóð eða myndbönd sem þarf að vista á disk fyrst)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:265
+msgid ""
+"``.openshot_qt/optimized/`` - Optimized preview files created for smoother "
+"editing"
+msgstr ""
+"``.openshot_qt/optimized/`` - Hagræddar forskoðunar skrár búnar til fyrir "
+"mýkri klippingu"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:266
+msgid "``.openshot_qt/protobuf_data`` - Tracking and object detection data"
+msgstr "``.openshot_qt/protobuf_data`` - Gögn um eftirfylgni og hlutagreiningu"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:268
+msgid ""
+"When you choose **File→Save As**, OpenShot copies these folders into your "
+"project directory, inside a single folder named ``PROJECTNAME_Assets``. For "
+"example: ``MyProject_Assets/clipboard`` will contain any media you pasted "
+"from the clipboard, and ``MyProject_Assets/optimized`` will contain any "
+"optimized preview files linked to the project."
+msgstr ""
+"Þegar þú velur **Skrá→Vista sem**, afritar OpenShot þessar möppur inn í "
+"verkefnismöppu þína, innan einnar möppu sem heitir ``PROJECTNAME_Assets``. "
+"Til dæmis mun ``MyProject_Assets/clipboard`` innihalda allt efni sem þú "
+"límdir úr klippiborðinu, og ``MyProject_Assets/optimized`` mun innihalda "
+"allar hagræddar forskoðunar skrár tengdar verkefninu."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:272
+#, fuzzy
+msgid ""
+"As part of this process, all paths inside your ``*.osp`` project file are "
+"updated to be **relative** to your project folder."
+msgstr ""
+"Sem hluti af þessu ferli eru allar slóðir í ``*.osp`` verkefnisskránni þinni "
+"uppfærðar til að vera **hlutfallslegar** miðað við verkefnismöppuna þína. "
+"Þetta heldur öllu sjálfstæðu og auðvelt að flytja eða taka afrit af sem eina "
+"möppu."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:275
+msgid "Missing Files"
+msgstr "Vantar skrár"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:277
+msgid ""
+"When you create and save a project in OpenShot, any files imported into the "
+"software (such as videos, audio, and images) must remain accessible "
+"throughout the project's duration. This means that these imported files "
+"should not be renamed, deleted, or moved to different folders. Additionally, "
+"the full path where these files are located should not be renamed either. "
+"This principle applies to other video editing software as well."
+msgstr ""
+"Þegar þú býrð til og vistir verkefni í OpenShot, verða allar skrár sem "
+"fluttar eru inn í hugbúnaðinn (svo sem myndbönd, hljóð og myndir) að vera "
+"aðgengilegar í gegnum allt verkefnið. Þetta þýðir að þessar fluttu skrár "
+"ættu ekki að vera endurnefndar, eyddar eða fluttar í aðrar möppur. Einnig "
+"ætti ekki að endurnefna fulla slóðina þar sem þessar skrár eru staðsettar. "
+"Þetta gildir einnig um annan myndbandsklippingarhugbúnað."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:282
+msgid ""
+"For example, users might move or delete folders, unplug their USB devices, "
+"or move or delete their project files. Any of these examples cause a :"
+"guilabel:`Missing File` message, in which OpenShot prompts you to locate the "
+"folder of the missing file(s). Depending on the number of files you added to "
+"your project, OpenShot could prompt you many times to find the missing files."
+msgstr ""
+"Til dæmis gætu notendur flutt eða eytt möppum, aftengt USB-tæki sín eða "
+"flutt eða eytt verkefnisskrám sínum. Öll þessi dæmi valda :guilabel:`Vantar "
+"skrá` skilaboðum, þar sem OpenShot biður þig um að finna möppuna með vantar "
+"skránum. Fer eftir fjölda skrár sem þú bættir við verkefnið þitt, gæti "
+"OpenShot beðið þig margítrekað um að finna vantar skrár."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:286
+msgid ""
+"When OpenShot saves a project, all file paths are converted to **relative** "
+"file paths. As long as you keep all assets organized in the same parent "
+"folder (including the \\*.osp project file), you will be able to move your "
+"project folder without triggering any missing file(s) prompts. You can even "
+"move a self-contained project folder to another computer without any issues."
+msgstr ""
+"Þegar OpenShot vistir verkefni eru allar skráarslóðir umbreyttar í "
+"**hlutfallslegar** slóðir. Svo lengi sem þú heldur öllum eignum skipulögðum "
+"í sömu aðalmöppu (þar með talið \\*.osp verkefnisskránni), munt þú geta "
+"flutt verkefnismöppuna þína án þess að kalla fram skilaboð um vantar skrár. "
+"Þú getur jafnvel flutt sjálfstæða verkefnismöppu yfir á annan tölvu án "
+"vandræða."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:290
+msgid ""
+"Everyone has their unique way of organizing files, and it's crucial to "
+"remember not to make changes to file paths, rename files, or delete files "
+"when working with video editors, as it can lead to missing file issues. For "
+"a detailed guide on missing file(s), see `The Case of “Missing Files”! "
+"<https://github.com/OpenShot/openshot-qt/wiki/Missing-File-Prompt>`_"
+msgstr ""
+"Allir hafa sinn einstaka hátt til að skipuleggja skrár, og það er mikilvægt "
+"að muna að gera ekki breytingar á skráarslóðum, endurnefna skrár eða eyða "
+"skrám þegar unnið er með myndbandsklippara, þar sem það getur valdið "
+"vandamálum með vantar skrár. Fyrir nákvæma leiðbeiningu um vantar skrár, sjá "
+"`The Case of “Missing Files”! <https://github.com/OpenShot/openshot-qt/wiki/"
+"Missing-File-Prompt>`_."

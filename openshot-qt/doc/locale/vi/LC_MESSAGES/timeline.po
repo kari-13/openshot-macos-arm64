@@ -1,0 +1,450 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:23
+msgid "Timeline"
+msgstr "Dòng thời gian"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:25
+msgid ""
+"The timeline is where your video comes together. You arrange clips, trim "
+"them, layer visuals, and make timing decisions here. If you are new to "
+"editing, think of the timeline as a simple left-to-right story: earlier "
+"moments on the left, later moments on the right."
+msgstr ""
+"Dòng thời gian là nơi video của bạn được kết hợp lại. Bạn sắp xếp các đoạn "
+"clip, cắt bớt, xếp lớp hình ảnh và quyết định thời gian tại đây. Nếu bạn mới"
+" bắt đầu chỉnh sửa, hãy nghĩ về dòng thời gian như một câu chuyện đơn giản "
+"từ trái sang phải: những khoảnh khắc trước ở bên trái, những khoảnh khắc sau"
+" ở bên phải."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:32
+msgid ""
+"If you are just getting started, read :ref:`quick_tutorial_ref` first, then "
+"come back here for more detail. For a labeled breakdown of toolbar controls,"
+" see :ref:`timeline_toolbar_ref`."
+msgstr ""
+"Nếu bạn mới bắt đầu, hãy đọc :ref:`quick_tutorial_ref` trước, sau đó quay "
+"lại đây để biết thêm chi tiết. Để xem phân tích có nhãn của các điều khiển "
+"thanh công cụ, xem :ref:`timeline_toolbar_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:37
+msgid "Timeline Basics"
+msgstr "Những điều cơ bản về dòng thời gian"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:39
+msgid "These terms are used often in this guide:"
+msgstr "Những thuật ngữ này thường được sử dụng trong hướng dẫn này:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:45
+msgid "Term"
+msgstr "Thuật ngữ"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:45
+msgid "Meaning"
+msgstr "Ý nghĩa"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:47
+msgid "Playhead"
+msgstr "Đầu phát"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:47
+msgid "The red line that shows your current time position."
+msgstr "Đường màu đỏ hiển thị vị trí thời gian hiện tại của bạn."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:48
+msgid "Track"
+msgstr "Dòng"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:48
+msgid ""
+"A horizontal layer that holds clips (top tracks appear above lower tracks)."
+msgstr ""
+"Một lớp ngang chứa các đoạn clip (các dòng trên xuất hiện phía trên các dòng"
+" dưới)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:49
+msgid "Clip"
+msgstr "Đoạn clip"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:49
+msgid "A video, audio, or image item placed on a track."
+msgstr "Một mục video, âm thanh hoặc hình ảnh được đặt trên dòng."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:50
+msgid "Transition"
+msgstr "Chuyển cảnh"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:50
+msgid "A blend between two overlapping clips."
+msgstr "Sự pha trộn giữa hai đoạn clip chồng lên nhau."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:51
+msgid "Marker"
+msgstr "Đánh dấu"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:51
+msgid "A saved point in time you can jump back to quickly."
+msgstr "Một điểm thời gian đã lưu mà bạn có thể nhanh chóng quay lại."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:52
+msgid "Keyframe"
+msgstr "Khung khóa"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:52
+msgid "A saved value at a point in time (used for animation)."
+msgstr "Một giá trị đã lưu tại một thời điểm (dùng cho hoạt hình)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:55
+msgid "For a full glossary, see :ref:`glossary_ref`."
+msgstr "Để xem toàn bộ bảng thuật ngữ, xem :ref:`glossary_ref`."
+
+#: ../timeline.rst:58
+msgid "Current Timecode"
+msgstr "Mã thời gian hiện tại"
+
+#: ../timeline.rst:60
+msgid ""
+"The current timecode appears at the left side of the timeline ruler and "
+"shows the playhead's exact position. Click the timecode, enter a new value, "
+"and press :kbd:`Enter` to move the playhead to that frame."
+msgstr ""
+"Mã thời gian hiện tại xuất hiện ở bên trái thước thời gian và hiển thị vị "
+"trí chính xác của đầu phát. Nhấp vào mã thời gian, nhập giá trị mới, và nhấn"
+" :kbd:`Enter` để di chuyển đầu phát đến khung hình đó."
+
+#: ../timeline.rst:64
+msgid ""
+"Clear the field or enter ``0`` to jump to the start of the timeline. Press "
+":kbd:`Up` or :kbd:`Down` to step the selected timecode segment; hold "
+":kbd:`Shift` to step by 10. When the frame segment is selected, hold "
+":kbd:`Ctrl` to step by one second. Press :kbd:`Esc` to cancel."
+msgstr ""
+"Xóa trường hoặc nhập ``0`` để nhảy đến đầu dòng thời gian. Nhấn :kbd:`Up` "
+"hoặc :kbd:`Down` để bước qua phân đoạn mã thời gian được chọn; giữ "
+":kbd:`Shift` để bước 10 lần. Khi phân đoạn khung hình được chọn, giữ "
+":kbd:`Ctrl` để bước một giây. Nhấn :kbd:`Esc` để hủy."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:70
+msgid "Common Timeline Tasks"
+msgstr "Các tác vụ thường gặp trên dòng thời gian"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:72
+msgid "Most editing sessions follow a similar flow:"
+msgstr "Hầu hết các phiên chỉnh sửa đều theo một quy trình tương tự:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:74
+msgid "Add media to the project using :ref:`import_files_ref`."
+msgstr "Thêm phương tiện vào dự án bằng cách sử dụng :ref:`import_files_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:75
+msgid "Drag files from the project panel onto timeline tracks."
+msgstr "Kéo các tệp từ bảng dự án lên các dòng thời gian."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:76
+msgid "Trim clip edges to remove extra content."
+msgstr "Cắt bớt mép đoạn clip để loại bỏ nội dung thừa."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:77
+msgid "Move clips into order and stack tracks to build your scene."
+msgstr ""
+"Di chuyển các đoạn clip theo thứ tự và xếp chồng các dòng để xây dựng cảnh "
+"của bạn."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:78
+msgid ""
+"Add transitions and effects where needed (:ref:`transitions_ref`, "
+":ref:`effects_ref`)."
+msgstr ""
+"Thêm chuyển cảnh và hiệu ứng khi cần thiết (:ref:`transitions_ref`, "
+":ref:`effects_ref`)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:79
+msgid "Preview and adjust timing (:ref:`playback_ref`)."
+msgstr "Xem trước và điều chỉnh thời gian (:ref:`playback_ref`)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:81
+msgid ""
+"Clip trimming, slicing, and clip context menu actions are covered in detail "
+"in :ref:`clips_ref`."
+msgstr ""
+"Việc cắt, chia đoạn clip và các hành động trong menu ngữ cảnh của clip được "
+"trình bày chi tiết trong :ref:`clips_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:84
+msgid "Selecting Clips and Transitions"
+msgstr "Chọn đoạn clip và chuyển cảnh"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:86
+msgid "Selection is one of the most important timeline skills:"
+msgstr ""
+"Việc chọn là một trong những kỹ năng quan trọng nhất trên dòng thời gian:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:88
+msgid "Click an item to select it."
+msgstr "Nhấp vào một mục để chọn nó."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:89
+msgid ":kbd:`Ctrl+Click` adds or removes items from selection."
+msgstr ":kbd:`Ctrl+Click` thêm hoặc loại bỏ mục khỏi lựa chọn."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:90
+msgid ""
+":kbd:`Shift+Click` selects a range between your anchor item and the clicked "
+"item."
+msgstr ""
+":kbd:`Shift+Click` chọn một phạm vi giữa mục neo của bạn và mục được nhấp."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:91
+msgid ":kbd:`Ctrl+Shift+Click` adds that range to your current selection."
+msgstr ""
+":kbd:`Ctrl+Shift+Click` thêm phạm vi đó vào lựa chọn hiện tại của bạn."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:92
+msgid ""
+":kbd:`Alt+Click` ripple-selects from the clicked item to the end of the "
+"track."
+msgstr ":kbd:`Alt+Click` chọn liên tục từ mục được nhấp đến cuối dòng."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:93
+msgid "Drag an empty-area selection box to select multiple items."
+msgstr "Kéo một hộp chọn vùng trống để chọn nhiều mục."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:95
+msgid "See :ref:`clips_ref` for the full list and examples."
+msgstr "Xem :ref:`clips_ref` để biết danh sách đầy đủ và ví dụ."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:98
+msgid "Timeline Toolbar and Zoom"
+msgstr "Thanh công cụ dòng thời gian và Thu phóng"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:100
+msgid ""
+"The timeline toolbar helps with common navigation and editing actions "
+"(snapping, retime, razor, markers, centering, and zoom)."
+msgstr ""
+"Thanh công cụ dòng thời gian hỗ trợ các thao tác điều hướng và chỉnh sửa phổ"
+" biến (bắt điểm, thay đổi thời gian, dao cạo, đánh dấu, căn giữa và thu "
+"phóng)."
+
+#: ../timeline.rst:103
+msgid ""
+"The :ref:`razor_tool_ref` shows a cut guide and timecode over the target "
+"clip. While paused, hovering also previews the cut frame without moving the "
+"playhead. Click to cut, or press :kbd:`Esc` to leave Razor mode. The Razor "
+"guide respects the existing **Snapping** toggle and uses the same snap "
+"targets and tolerance as other timeline edits."
+msgstr ""
+":ref:`razor_tool_ref` hiển thị hướng dẫn cắt và mã thời gian trên clip mục "
+"tiêu. Khi tạm dừng, di chuột cũng xem trước khung hình cắt mà không di "
+"chuyển đầu phát. Nhấp để cắt, hoặc nhấn :kbd:`Esc` để thoát chế độ Razor. "
+"Hướng dẫn Razor tuân theo công tắc **Snapping** hiện có và sử dụng cùng các "
+"mục tiêu và độ dung sai snap như các chỉnh sửa timeline khác."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:109
+msgid ""
+"Tip: If timeline editing feels crowded, zoom in with the timeline slider to "
+"make small clip adjustments easier."
+msgstr ""
+"Mẹo: Nếu việc chỉnh sửa dòng thời gian cảm thấy chật chội, hãy thu phóng vào"
+" bằng thanh trượt dòng thời gian để dễ dàng điều chỉnh các đoạn clip nhỏ "
+"hơn."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:112
+msgid ""
+"You can also zoom the timeline with :kbd:`Ctrl+Scroll Wheel`. On the QWidget"
+" timeline, hold :kbd:`Ctrl` and drag with the middle mouse button for smooth"
+" zooming."
+msgstr ""
+"Bạn cũng có thể phóng to dòng thời gian bằng :kbd:`Ctrl+Cuộn Chuột`. Trên "
+"dòng thời gian QWidget, giữ :kbd:`Ctrl` và kéo bằng nút chuột giữa để phóng "
+"to mượt mà."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:117
+msgid "Tracks, Locking, and Inserting"
+msgstr "Các dòng, Khóa và Chèn"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:119
+msgid "Tracks help organize your edit. A common setup is:"
+msgstr ""
+"Các dòng giúp tổ chức bản chỉnh sửa của bạn. Một thiết lập phổ biến là:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:121
+msgid "Top tracks: titles, overlays, logos, picture-in-picture"
+msgstr "Các dòng trên cùng: tiêu đề, lớp phủ, logo, hình ảnh trong hình"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:122
+msgid "Middle tracks: main video content"
+msgstr "Các dòng giữa: nội dung video chính"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:123
+msgid "Lower tracks: music and sound effects"
+msgstr "Các dòng dưới: nhạc và hiệu ứng âm thanh"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:125
+msgid ""
+"You can lock tracks to protect them from accidental edits and use "
+"insert/ripple editing when you need later clips to move automatically."
+msgstr ""
+"Bạn có thể khóa các dòng để bảo vệ chúng khỏi chỉnh sửa nhầm và sử dụng "
+"chỉnh sửa chèn/liên tục khi bạn cần các đoạn clip sau di chuyển tự động."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:128
+msgid ""
+"For track layout basics, see :ref:`tracks_ref`. For detailed clip editing "
+"behavior, see :ref:`clips_cutting_slicing_ref`."
+msgstr ""
+"Để biết những điều cơ bản về bố cục dòng, xem :ref:`tracks_ref`. Để biết "
+"hành vi chỉnh sửa đoạn clip chi tiết, xem :ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:132
+msgid "Keyframes in the Timeline"
+msgstr "Khung khóa trong dòng thời gian"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:134
+msgid ""
+"Keyframes let you change values over time, such as position, scale, "
+"rotation, opacity, and effect settings."
+msgstr ""
+"Khung khóa cho phép bạn thay đổi các giá trị theo thời gian, như vị trí, tỷ "
+"lệ, xoay, độ mờ và cài đặt hiệu ứng."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:137
+msgid ""
+"In the timeline keyframe panel, each row represents one animated property. "
+"You can:"
+msgstr ""
+"Trong bảng khung khóa dòng thời gian, mỗi hàng đại diện cho một thuộc tính "
+"được hoạt hình hóa. Bạn có thể:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:139
+msgid "Add a keyframe row for a property"
+msgstr "Thêm một hàng khung khóa cho một thuộc tính"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:140
+msgid "Insert new keyframes along the row"
+msgstr "Chèn các khung khóa mới dọc theo hàng"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:141
+msgid "Move keyframes to change timing"
+msgstr "Di chuyển các khung khóa để thay đổi thời gian"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:142
+msgid "Change interpolation to control motion style"
+msgstr "Thay đổi nội suy để điều khiển kiểu chuyển động"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:144
+msgid ""
+"For keyframe concepts and animation examples, see :ref:`animation_ref`."
+msgstr ""
+"Để biết các khái niệm về khung khóa và ví dụ hoạt hình, xem "
+":ref:`animation_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:147
+msgid "Next Steps"
+msgstr "Bước tiếp theo"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:149
+msgid ""
+"After you are comfortable with timeline basics, these sections are the best "
+"next reads:"
+msgstr ""
+"Sau khi bạn đã quen với những điều cơ bản về dòng thời gian, các phần sau "
+"đây là những phần đọc tiếp tốt nhất:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:151
+msgid ":ref:`clips_ref` for trimming, slicing, and clip properties"
+msgstr ":ref:`clips_ref` cho việc cắt, chia và thuộc tính đoạn clip"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:152
+msgid ":ref:`effects_ref` for video/audio effects"
+msgstr ":ref:`effects_ref` cho hiệu ứng video/âm thanh"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:153
+msgid ":ref:`animation_ref` for keyframe animation workflows"
+msgstr ":ref:`animation_ref` cho quy trình làm việc hoạt hình khung khóa"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:154
+msgid ":doc:`export` for creating your final video file"
+msgstr ":doc:`export` để tạo tệp video cuối cùng của bạn"

@@ -1,0 +1,448 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:23
+msgid "Timeline"
+msgstr "Tímalína"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:25
+msgid ""
+"The timeline is where your video comes together. You arrange clips, trim "
+"them, layer visuals, and make timing decisions here. If you are new to "
+"editing, think of the timeline as a simple left-to-right story: earlier "
+"moments on the left, later moments on the right."
+msgstr ""
+"Tímalínan er þar sem myndbandið þitt sameinast. Þú raðar klippum, skerð þær,"
+" raðar sjónrænum lögum og tekur ákvarðanir um tímasetningu hér. Ef þú ert "
+"nýr í klippingu, hugsaðu um tímalínuna sem einfalt vinstri til hægri sögu: "
+"fyrri augnablik til vinstri, seinni augnablik til hægri."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:32
+msgid ""
+"If you are just getting started, read :ref:`quick_tutorial_ref` first, then "
+"come back here for more detail. For a labeled breakdown of toolbar controls,"
+" see :ref:`timeline_toolbar_ref`."
+msgstr ""
+"Ef þú ert að byrja, lestu fyrst :ref:`quick_tutorial_ref` og komdu svo aftur"
+" hingað fyrir nánari upplýsingar. Fyrir merkt yfirlit yfir verkfærastikuna, "
+"sjá :ref:`timeline_toolbar_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:37
+msgid "Timeline Basics"
+msgstr "Grunnatriði tímalínu"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:39
+msgid "These terms are used often in this guide:"
+msgstr "Þessi hugtök eru oft notuð í þessari leiðbeiningu:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:45
+msgid "Term"
+msgstr "Hugtök"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:45
+msgid "Meaning"
+msgstr "Merking"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:47
+msgid "Playhead"
+msgstr "Spilunarhaus"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:47
+msgid "The red line that shows your current time position."
+msgstr "Rauða línan sem sýnir núverandi tímastöðu þína."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:48
+msgid "Track"
+msgstr "Rás"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:48
+msgid ""
+"A horizontal layer that holds clips (top tracks appear above lower tracks)."
+msgstr ""
+"Lárétt lag sem heldur klippum (efri rásir birtast fyrir ofan neðri rásir)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:49
+msgid "Clip"
+msgstr "Klippa"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:49
+msgid "A video, audio, or image item placed on a track."
+msgstr "Myndbands-, hljóð- eða myndaratriði sem sett er á rás."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:50
+msgid "Transition"
+msgstr "Yfirfærsluáhrif"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:50
+msgid "A blend between two overlapping clips."
+msgstr "Blöndun milli tveggja klippa sem skarast."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:51
+msgid "Marker"
+msgstr "Merkimiði"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:51
+msgid "A saved point in time you can jump back to quickly."
+msgstr "Vistaður tímapunktur sem þú getur hoppað fljótt aftur í."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:52
+msgid "Keyframe"
+msgstr "Lykilrammi"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:52
+msgid "A saved value at a point in time (used for animation)."
+msgstr "Vistað gildi á tímapunkti (notað í hreyfimyndum)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:55
+msgid "For a full glossary, see :ref:`glossary_ref`."
+msgstr "Fyrir fullkomið orðasafn, sjá :ref:`glossary_ref`."
+
+#: ../timeline.rst:58
+msgid "Current Timecode"
+msgstr "Núverandi tímatala"
+
+#: ../timeline.rst:60
+msgid ""
+"The current timecode appears at the left side of the timeline ruler and "
+"shows the playhead's exact position. Click the timecode, enter a new value, "
+"and press :kbd:`Enter` to move the playhead to that frame."
+msgstr ""
+"Núverandi tímatala birtist vinstra megin á tímamælinum og sýnir nákvæma "
+"stöðu spilunarhausins. Smelltu á tímatöluna, sláðu inn nýtt gildi og ýttu á "
+":kbd:`Enter` til að færa spilunarhausinn á þann ramma."
+
+#: ../timeline.rst:64
+msgid ""
+"Clear the field or enter ``0`` to jump to the start of the timeline. Press "
+":kbd:`Up` or :kbd:`Down` to step the selected timecode segment; hold "
+":kbd:`Shift` to step by 10. When the frame segment is selected, hold "
+":kbd:`Ctrl` to step by one second. Press :kbd:`Esc` to cancel."
+msgstr ""
+"Hreinsaðu reitinn eða sláðu inn ``0`` til að hoppa í byrjun tímamælisins. "
+"Ýttu á :kbd:`Up` eða :kbd:`Down` til að færa valda tímatöluhlutann; haltu "
+":kbd:`Shift` niðri til að færa um 10. Þegar rammarhlutinn er valinn, haltu "
+":kbd:`Ctrl` niðri til að færa um eina sekúndu. Ýttu á :kbd:`Esc` til að "
+"hætta við."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:70
+msgid "Common Timeline Tasks"
+msgstr "Algengar aðgerðir á tímalínu"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:72
+msgid "Most editing sessions follow a similar flow:"
+msgstr "Flestar klippingarferðir fylgja svipuðu ferli:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:74
+msgid "Add media to the project using :ref:`import_files_ref`."
+msgstr "Bættu við fjölmiðlum í verkefnið með :ref:`import_files_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:75
+msgid "Drag files from the project panel onto timeline tracks."
+msgstr "Dragðu skrár úr verkefnishlutanum á tímalínurásir."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:76
+msgid "Trim clip edges to remove extra content."
+msgstr "Skerðu brúnir klippa til að fjarlægja aukalegt efni."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:77
+msgid "Move clips into order and stack tracks to build your scene."
+msgstr "Færðu klippur í röð og staflaðu rásum til að byggja upp senuna þína."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:78
+msgid ""
+"Add transitions and effects where needed (:ref:`transitions_ref`, "
+":ref:`effects_ref`)."
+msgstr ""
+"Bættu við yfirfærsluáhrifum og áhrifum þar sem þörf er á "
+"(:ref:`transitions_ref`, :ref:`effects_ref`)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:79
+msgid "Preview and adjust timing (:ref:`playback_ref`)."
+msgstr "Forskoðaðu og stilltu tímasetningu (:ref:`playback_ref`)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:81
+msgid ""
+"Clip trimming, slicing, and clip context menu actions are covered in detail "
+"in :ref:`clips_ref`."
+msgstr ""
+"Klippuskerðing, sneiðing og aðgerðir í samhengisvalmynd klippa eru útskýrðar"
+" ítarlega í :ref:`clips_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:84
+msgid "Selecting Clips and Transitions"
+msgstr "Val á klippum og yfirfærsluáhrifum"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:86
+msgid "Selection is one of the most important timeline skills:"
+msgstr "Val er ein mikilvægasta færni á tímalínu:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:88
+msgid "Click an item to select it."
+msgstr "Smelltu á atriði til að velja það."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:89
+msgid ":kbd:`Ctrl+Click` adds or removes items from selection."
+msgstr ":kbd:`Ctrl+Smelltu` bætir við eða fjarlægir atriði úr vali."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:90
+msgid ""
+":kbd:`Shift+Click` selects a range between your anchor item and the clicked "
+"item."
+msgstr ""
+":kbd:`Shift+Smelltu` velur svið á milli festingaratriðis og þess sem smellt "
+"var á."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:91
+msgid ":kbd:`Ctrl+Shift+Click` adds that range to your current selection."
+msgstr ":kbd:`Ctrl+Shift+Smelltu` bætir því sviði við núverandi val."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:92
+msgid ""
+":kbd:`Alt+Click` ripple-selects from the clicked item to the end of the "
+"track."
+msgstr ""
+":kbd:`Alt+Smelltu` velur bylgjulega frá því atriði sem smellt var á og að "
+"enda rásarinnar."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:93
+msgid "Drag an empty-area selection box to select multiple items."
+msgstr "Dragðu valkassa á tómu svæði til að velja mörg atriði."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:95
+msgid "See :ref:`clips_ref` for the full list and examples."
+msgstr "Sjá :ref:`clips_ref` fyrir fullan lista og dæmi."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:98
+msgid "Timeline Toolbar and Zoom"
+msgstr "Verkfærastika tímalínu og aðdráttur"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:100
+msgid ""
+"The timeline toolbar helps with common navigation and editing actions "
+"(snapping, retime, razor, markers, centering, and zoom)."
+msgstr ""
+"Verkfærastika tímalínu hjálpar við algengar leiðsagnar- og "
+"klippingaraðgerðir (festingar, tímastillingu, rakvél, merkimiða, miðju og "
+"aðdrátt)."
+
+#: ../timeline.rst:103
+msgid ""
+"The :ref:`razor_tool_ref` shows a cut guide and timecode over the target "
+"clip. While paused, hovering also previews the cut frame without moving the "
+"playhead. Click to cut, or press :kbd:`Esc` to leave Razor mode. The Razor "
+"guide respects the existing **Snapping** toggle and uses the same snap "
+"targets and tolerance as other timeline edits."
+msgstr ""
+":ref:`razor_tool_ref` sýnir klippileiðbeiningu og tímakóða yfir "
+"markklippunni. Þegar stöðvað er sýnir músarbending einnig forskoðun á "
+"klippiramma án þess að færa spilunarhausinn. Smelltu til að klippa, eða ýttu"
+" á :kbd:`Esc` til að yfirgefa Razor ham. Razor leiðbeiningin virðir "
+"núverandi **Snapping** rofa og notar sömu festimarkmið og þol sem aðrar "
+"tímalínubreytingar."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:109
+msgid ""
+"Tip: If timeline editing feels crowded, zoom in with the timeline slider to "
+"make small clip adjustments easier."
+msgstr ""
+"Ábending: Ef klipping á tímalínu virðist þétt, aðdráttaðu með "
+"tímalínusleðanum til að auðvelda smávægilegar klippubreytingar."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:112
+msgid ""
+"You can also zoom the timeline with :kbd:`Ctrl+Scroll Wheel`. On the QWidget"
+" timeline, hold :kbd:`Ctrl` and drag with the middle mouse button for smooth"
+" zooming."
+msgstr ""
+"Þú getur einnig stækkað tímalínuna með :kbd:`Ctrl+Scroll Wheel`. Á QWidget "
+"tímalínunni, haltu niðri :kbd:`Ctrl` og dragðu með miðju músarhnappinum til "
+"að fá mjúka stækkun."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:117
+msgid "Tracks, Locking, and Inserting"
+msgstr "Rásir, læsing og innsetning"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:119
+msgid "Tracks help organize your edit. A common setup is:"
+msgstr ""
+"Rásir hjálpa til við að skipuleggja klippinguna þína. Algeng uppsetning er:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:121
+msgid "Top tracks: titles, overlays, logos, picture-in-picture"
+msgstr "Efri rásir: titlar, yfirlag, merki, mynd í mynd"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:122
+msgid "Middle tracks: main video content"
+msgstr "Miðræsir: aðal myndbandsinnihald"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:123
+msgid "Lower tracks: music and sound effects"
+msgstr "Neðri rásir: tónlist og hljóðáhrif"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:125
+msgid ""
+"You can lock tracks to protect them from accidental edits and use "
+"insert/ripple editing when you need later clips to move automatically."
+msgstr ""
+"Þú getur læst rásum til að vernda þær gegn óvart breytingum og notað "
+"innsetningar-/bylgjuklippingu þegar þú vilt að seinni klippur færist "
+"sjálfkrafa."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:128
+msgid ""
+"For track layout basics, see :ref:`tracks_ref`. For detailed clip editing "
+"behavior, see :ref:`clips_cutting_slicing_ref`."
+msgstr ""
+"Fyrir grunnatriði rásaruppsetningar, sjá :ref:`tracks_ref`. Fyrir ítarlegt "
+"klippuklippingarferli, sjá :ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:132
+msgid "Keyframes in the Timeline"
+msgstr "Lykilrammar í tímalínu"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:134
+msgid ""
+"Keyframes let you change values over time, such as position, scale, "
+"rotation, opacity, and effect settings."
+msgstr ""
+"Lykilrammar leyfa þér að breyta gildum yfir tíma, eins og staðsetningu, "
+"stærð, snúning, gegnsæi og stillingar á áhrifum."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:137
+msgid ""
+"In the timeline keyframe panel, each row represents one animated property. "
+"You can:"
+msgstr ""
+"Í lykilrammapanelinu á tímalínu táknar hver röð eina hreyfimyndaeiginleika. "
+"Þú getur:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:139
+msgid "Add a keyframe row for a property"
+msgstr "Bætt við röð fyrir lykilramma fyrir eiginleika"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:140
+msgid "Insert new keyframes along the row"
+msgstr "Sett inn nýja lykilramma eftir röðinni"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:141
+msgid "Move keyframes to change timing"
+msgstr "Fært lykilramma til að breyta tímasetningu"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:142
+msgid "Change interpolation to control motion style"
+msgstr "Breyta milligildum til að stjórna hreyfistíl"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:144
+msgid ""
+"For keyframe concepts and animation examples, see :ref:`animation_ref`."
+msgstr ""
+"Fyrir hugtök lykilramma og dæmi um hreyfimyndir, sjá :ref:`animation_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:147
+msgid "Next Steps"
+msgstr "Næstu skref"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:149
+msgid ""
+"After you are comfortable with timeline basics, these sections are the best "
+"next reads:"
+msgstr ""
+"Eftir að þú hefur náð tökum á grunnatriðum tímalínu eru þessar kaflar bestu "
+"næstu lesningarnar:"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:151
+msgid ":ref:`clips_ref` for trimming, slicing, and clip properties"
+msgstr ":ref:`clips_ref` fyrir skerðingu, sneiðingu og eiginleika klippa"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:152
+msgid ":ref:`effects_ref` for video/audio effects"
+msgstr ":ref:`effects_ref` fyrir myndbands-/hljóðáhrif"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:153
+msgid ":ref:`animation_ref` for keyframe animation workflows"
+msgstr ":ref:`animation_ref` fyrir vinnuflæði lykilrammahreyfimynda"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:154
+msgid ":doc:`export` for creating your final video file"
+msgstr ":doc:`export` til að búa til loka myndbandsskrána þína"

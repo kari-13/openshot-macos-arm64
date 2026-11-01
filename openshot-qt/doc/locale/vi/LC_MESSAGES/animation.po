@@ -1,0 +1,512 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:23
+msgid "Animation"
+msgstr "Hoạt hình"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:25
+msgid ""
+"OpenShot has been designed specifically with animation in mind. The powerful"
+" curve-based animation framework can handle most jobs with ease, and is "
+"flexible enough to create just about any animation. Key frames specify "
+"values at certain points on a clip, and OpenShot does the hard work of "
+"interpolating the in-between values."
+msgstr ""
+"OpenShot được thiết kế đặc biệt với mục đích tạo hoạt hình. Khung hoạt hình "
+"dựa trên đường cong mạnh mẽ có thể xử lý hầu hết các công việc một cách dễ "
+"dàng, và đủ linh hoạt để tạo ra hầu hết mọi hoạt hình. Các khung chính xác "
+"định giá trị tại các điểm nhất định trên một clip, và OpenShot thực hiện "
+"công việc khó khăn là nội suy các giá trị ở giữa."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:30
+msgid "Overview"
+msgstr "Tổng quan"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:38 ../animation.rst:141
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:38 ../animation.rst:141
+msgid "Name"
+msgstr "Tên"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:38 ../animation.rst:65 ../animation.rst:141
+msgid "Description"
+msgstr "Mô tả"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:40 ../animation.rst:41 ../animation.rst:143
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:40
+msgid "Green Property"
+msgstr "Thuộc tính màu xanh lá"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:40
+msgid "When the play-head is on a key frame, the property appears green"
+msgstr ""
+"Khi đầu phát đang ở trên một khung chính, thuộc tính sẽ hiển thị màu xanh lá"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:41
+msgid "Blue Property"
+msgstr "Thuộc tính màu xanh dương"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:41
+msgid ""
+"When the play-head is on an interpolated value, the property appears blue"
+msgstr ""
+"Khi đầu phát đang ở trên một giá trị nội suy, thuộc tính sẽ hiển thị màu "
+"xanh dương"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:42 ../animation.rst:144
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:42
+msgid "Value Slider"
+msgstr "Thanh trượt giá trị"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:42
+msgid ""
+"Click and drag your mouse to adjust the value (this automatically creates a "
+"key frame if needed)"
+msgstr ""
+"Nhấp và kéo chuột để điều chỉnh giá trị (điều này tự động tạo một khung "
+"chính nếu cần)"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:43
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:43
+msgid "Play-head"
+msgstr "Đầu phát"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:43
+msgid "Position the play-head over a clip where you need a key frame"
+msgstr "Đặt đầu phát trên một clip tại vị trí bạn cần khung chính"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:44
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:44
+msgid "Key frame Markers"
+msgstr "Các dấu khung chính"
+
+#: ../animation.rst:44
+msgid ""
+"Colorful icons line the bottom of the clip for every keyframe "
+"(`circle=Bézier`, `diamond=linear`, `square=constant`). Each icon matches "
+"the color of its clip, effect, or transition. The selected item's keyframe "
+"icons are shown brighter. Filtering the property list also filters these "
+"icons. Click any icon to jump the play-head, load its properties, and select"
+" its clip, effect, or transition. Drag an icon left or right to move the "
+"keyframe and fine‑tune your animation timing. The play-head moves to the "
+"keyframe's new position when you finish dragging."
+msgstr ""
+"Các biểu tượng nhiều màu sắc nằm ở dưới cùng của đoạn clip cho mỗi khung "
+"hình chính (`circle=Bézier`, `diamond=linear`, `square=constant`). Mỗi biểu "
+"tượng tương ứng với màu của đoạn clip, hiệu ứng hoặc chuyển tiếp. Các biểu "
+"tượng khung hình chính của mục được chọn được hiển thị sáng hơn. Lọc danh "
+"sách thuộc tính cũng lọc các biểu tượng này. Nhấp vào bất kỳ biểu tượng nào "
+"để nhảy đến vị trí play-head, tải thuộc tính của nó và chọn đoạn clip, hiệu "
+"ứng hoặc chuyển tiếp tương ứng. Kéo biểu tượng sang trái hoặc phải để di "
+"chuyển khung hình chính và điều chỉnh thời gian hoạt hình của bạn. Play-head"
+" sẽ di chuyển đến vị trí mới của khung hình chính khi bạn kết thúc kéo."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:48
+msgid "Key Frames"
+msgstr "Khung chính"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:49
+msgid ""
+"To create a key frame in OpenShot, simply position the play-head (i.e. "
+"playback position) at any point over a clip, and edit properties in the "
+"property dialog. If the property supports key frames, it will turn green, "
+"and a small icon (`circle=Bézier, diamond=linear, square=constant`) will "
+"appear on the bottom of your clip at that position. Move your play-head to "
+"another point over that clip, and adjust the properties again. All "
+"animations require at least 2 key frames, but can support an unlimited "
+"number of them."
+msgstr ""
+"Để tạo một khung chính trong OpenShot, chỉ cần đặt đầu phát (tức vị trí phát"
+" lại) tại bất kỳ điểm nào trên clip, và chỉnh sửa thuộc tính trong hộp thoại"
+" thuộc tính. Nếu thuộc tính hỗ trợ khung chính, nó sẽ chuyển sang màu xanh "
+"lá, và một biểu tượng nhỏ (`circle=Bézier, diamond=linear, square=constant`)"
+" sẽ xuất hiện ở dưới cùng của clip tại vị trí đó. Di chuyển đầu phát đến "
+"điểm khác trên clip và điều chỉnh thuộc tính lại. Tất cả hoạt hình yêu cầu "
+"ít nhất 2 khung chính, nhưng có thể hỗ trợ số lượng không giới hạn."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:55
+msgid ""
+"Use the :guilabel:`Next Marker` and :guilabel:`Previous Marker` toolbar "
+"buttons to step through the selected item's keyframes. They follow whichever"
+" clip, effect, or transition is selected. When an effect is selected, "
+"navigation also stops at the start and end of its parent clip."
+msgstr ""
+"Sử dụng các nút thanh công cụ :guilabel:`Next Marker` và :guilabel:`Previous"
+" Marker` để di chuyển qua các khung chính của mục được chọn. Chúng theo dõi "
+"clip, hiệu ứng hoặc chuyển tiếp được chọn. Khi một hiệu ứng được chọn, điều "
+"hướng cũng dừng lại ở đầu và cuối clip cha của nó."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:59
+msgid ""
+"To adjust the **interpolation mode**, right click on the small graph icon "
+"next to a property value."
+msgstr ""
+"Để điều chỉnh **chế độ nội suy**, nhấp chuột phải vào biểu tượng đồ thị nhỏ "
+"bên cạnh giá trị thuộc tính."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:65
+msgid "Key-frame Interpolation"
+msgstr "Nội suy khung chính"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:67
+msgid "Bézier"
+msgstr "Bézier"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:67
+msgid ""
+"Interpolated values use a quadratic curve, and ease-in and ease-out. Icon: "
+":guilabel:`Circle`."
+msgstr ""
+"Giá trị nội suy sử dụng đường cong bậc hai, với hiệu ứng vào và ra nhẹ "
+"nhàng. Biểu tượng: :guilabel:`Circle`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:68
+msgid "Linear"
+msgstr "Tuyến tính"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:68
+msgid ""
+"Interpolated values are calculated linear (each step value is equal). Icon: "
+":guilabel:`Diamond`."
+msgstr ""
+"Giá trị nội suy được tính theo tuyến tính (mỗi bước giá trị bằng nhau). Biểu"
+" tượng: :guilabel:`Diamond`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:69
+msgid "Constant"
+msgstr "Hằng số"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:69
+msgid ""
+"Interpolated values stay the same until the next key frame, and jump to the "
+"new value. Icon: :guilabel:`Square`."
+msgstr ""
+"Giá trị nội suy giữ nguyên cho đến khung chính tiếp theo, sau đó nhảy đến "
+"giá trị mới. Biểu tượng: :guilabel:`Square`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:72
+#, fuzzy
+msgid ""
+"For more info on creating key frames for location, rotation, scale, shear, "
+"and origin, see :ref:`clip_transform_ref`."
+msgstr ""
+"Để biết thêm thông tin về cách tạo khung chính cho vị trí, xoay, tỷ lệ, cắt "
+"nghiêng và vị trí, xem :ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:73
+msgid "For more info on preset animations, see :ref:`clip_presets_ref`."
+msgstr ""
+"Để biết thêm thông tin về các hoạt hình có sẵn, xem :ref:`clip_presets_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:74
+msgid "For a full list of key frames, see :ref:`clip_properties_ref`."
+msgstr ""
+"Để xem danh sách đầy đủ các khung chính, xem :ref:`clip_properties_ref`."
+
+# Main-window terminology review, 2026-09-26.
+#: ../animation.rst:77
+msgid "Timing"
+msgstr "Đổi tốc độ"
+
+# Main-window terminology review, 2026-09-26.
+#: ../animation.rst:78
+msgid ""
+"Changing how fast a clip plays is done with the :guilabel:`Time` property "
+"and the :guilabel:`Timing` tool."
+msgstr ""
+"Thay đổi tốc độ phát của một clip được thực hiện bằng thuộc tính "
+":guilabel:`Time` và công cụ :guilabel:`Đổi tốc độ`."
+
+#: ../animation.rst:80
+msgid ""
+"The :guilabel:`Speed` menu offers presets such as normal, fast, slow, "
+"freeze, reverse, and repeat. See details in :ref:`clip_time_ref`."
+msgstr ""
+"Menu :guilabel:`Tốc độ` cung cấp các thiết lập sẵn như bình thường, nhanh, "
+"chậm, đóng băng, đảo ngược và lặp lại. Xem chi tiết trong "
+":ref:`clip_time_ref`."
+
+# Main-window terminology review, 2026-09-26.
+#: ../animation.rst:81
+msgid ""
+"The :guilabel:`Timing` tool lets you drag a clip’s edges to speed it up or "
+"slow it down. OpenShot adds the needed Time keyframes and **scales your "
+"other keyframes** so your animations stay aligned. Shorter clips play "
+"faster, longer clips play slower. See more: :ref:`clip_time_ref`."
+msgstr ""
+"Công cụ :guilabel:`Đổi tốc độ` cho phép bạn kéo các cạnh của clip để tăng "
+"tốc hoặc giảm tốc. OpenShot thêm các khung chính Thời gian cần thiết và **tỉ"
+" lệ các khung chính khác** để hoạt hình của bạn luôn đồng bộ. Clip ngắn hơn "
+"phát nhanh hơn, clip dài hơn phát chậm hơn. Xem thêm: :ref:`clip_time_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:86
+msgid "Repeating"
+msgstr "Lặp lại"
+
+#: ../animation.rst:87
+msgid ""
+"To play a clip multiple times, use :guilabel:`Right-Click → Speed → Repeat`."
+msgstr ""
+"Để phát một clip nhiều lần, sử dụng :guilabel:`Nhấp chuột phải → Tốc độ → "
+"Lặp lại`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:89
+msgid ":guilabel:`Loop` repeats in one direction (forward or reverse)."
+msgstr ":guilabel:`Loop` lặp lại theo một hướng (tiến hoặc lùi)."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:90
+msgid ""
+":guilabel:`Ping-Pong` alternates direction (forward then backward, etc.)."
+msgstr ":guilabel:`Ping-Pong` thay đổi hướng (tiến rồi lùi, v.v.)."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:91
+msgid ""
+":guilabel:`Custom` can add a short pause between passes, speed up or slow "
+"down each pass, including keyframes."
+msgstr ""
+":guilabel:`Custom` có thể thêm khoảng dừng ngắn giữa các lần phát, tăng hoặc"
+" giảm tốc mỗi lần phát, bao gồm cả khung chính."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:93
+msgid ""
+"OpenShot writes the :guilabel:`Time` curve for you, and you can edit those "
+"keyframes just like any other. See more: :ref:`clip_time_repeat_ref`."
+msgstr ""
+"OpenShot tự động tạo đường cong :guilabel:`Time` cho bạn, và bạn có thể "
+"chỉnh sửa các khung chính đó như bất kỳ khung chính nào khác. Xem thêm: "
+":ref:`clip_time_repeat_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:97
+msgid "Bézier Presets"
+msgstr "Thiết lập sẵn Bézier"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:98
+msgid ""
+"When using a Bézier curve for animation, OpenShot includes more than 20 "
+"curve presets (which affect the shape of the curve). For example, **Ease-"
+"In** has a more gradual slope at the beginning, making an animation move "
+"slower at the beginning, and faster at the end. **Ease-In/Out (Back)** has a"
+" gradual beginning and ending, but actually goes past the expected value and"
+" then back (producing a bounce effect)."
+msgstr ""
+"Khi sử dụng đường cong Bézier cho hoạt hình, OpenShot bao gồm hơn 20 mẫu "
+"đường cong (ảnh hưởng đến hình dạng của đường cong). Ví dụ, **Ease-In** có "
+"độ dốc dần dần ở phần đầu, làm cho hoạt hình di chuyển chậm hơn ở đầu và "
+"nhanh hơn ở cuối. **Ease-In/Out (Back)** có phần đầu và cuối dần dần, nhưng "
+"thực tế vượt quá giá trị mong đợi rồi quay lại (tạo hiệu ứng bật lại)."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:103
+msgid ""
+"To choose a curve preset, right click on the small graph icon next to a key "
+"frame."
+msgstr ""
+"Để chọn mẫu đường cong, nhấp chuột phải vào biểu tượng đồ thị nhỏ bên cạnh "
+"khung khóa."
+
+#: ../animation.rst:110
+msgid "Ken Burns Effect"
+msgstr "Hiệu ứng Ken Burns"
+
+#: ../animation.rst:111
+msgid ""
+"The **Ken Burns effect** is a pan-and-zoom animation technique — named after"
+" documentary filmmaker Ken Burns — that brings still images or video clips "
+"to life with slow, deliberate camera movement. In OpenShot, use "
+":guilabel:`Right-Click → Motion → Camera` presets for one-click Ken Burns "
+"animations (Zoom In, Zoom Out, Pan, Zoom & Pan with Auto Direction), or set "
+"keyframes on :guilabel:`Location X/Y` and :guilabel:`Scale X/Y` manually for"
+" full control. See :ref:`clip_presets_ref`."
+msgstr ""
+"**Hiệu ứng Ken Burns** là kỹ thuật hoạt hình pan và zoom — được đặt theo tên"
+" nhà làm phim tài liệu Ken Burns — giúp làm sống động các hình ảnh tĩnh hoặc"
+" clip video với chuyển động máy quay chậm và có chủ ý. Trong OpenShot, sử "
+"dụng :guilabel:`Nhấp chuột phải → Chuyển động → Camera` với các thiết lập "
+"sẵn để tạo hiệu ứng Ken Burns chỉ với một cú nhấp (Phóng to, Thu nhỏ, Pan, "
+"Phóng to & Pan với hướng tự động), hoặc đặt các khung chính trên "
+":guilabel:`Vị trí X/Y` và :guilabel:`Tỉ lệ X/Y` thủ công để kiểm soát toàn "
+"diện. Xem :ref:`clip_presets_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:120
+msgid "Image Sequences"
+msgstr "Chuỗi Hình Ảnh"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:121
+msgid ""
+"If you have a sequence of similarly named images (such as, cat001.png, "
+"cat002.png, cat003.png, etc...), you can simply drag and drop one of them "
+"into OpenShot, and you will be prompted to import the entire sequence. "
+"OpenShot will playback these sequential images rapidly, as if they are "
+"frames in a video. The rate or speed in which these images are displayed is "
+"based on their frame rate."
+msgstr ""
+"Nếu bạn có một chuỗi các hình ảnh có tên tương tự (ví dụ, cat001.png, "
+"cat002.png, cat003.png, v.v...), bạn chỉ cần kéo và thả một trong số chúng "
+"vào OpenShot, và bạn sẽ được nhắc nhập toàn bộ chuỗi. OpenShot sẽ phát lại "
+"các hình ảnh theo thứ tự này nhanh chóng, như thể chúng là các khung hình "
+"trong video. Tốc độ hiển thị các hình ảnh này dựa trên tốc độ khung hình của"
+" chúng."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:126
+msgid ""
+"**NOTE:** Be sure your image sequence starts at 0 or 1, or you will likely "
+"receive an error when importing it into OpenShot. For example, if your "
+"sequence starts at cat222.png, or has missing images in the sequence, "
+"OpenShot will struggle to understand the sequence. An easy work-around is to"
+" renumber the images so they start with 1."
+msgstr ""
+"**LƯU Ý:** Hãy chắc chắn chuỗi hình ảnh của bạn bắt đầu từ 0 hoặc 1, nếu "
+"không bạn có thể nhận được lỗi khi nhập vào OpenShot. Ví dụ, nếu chuỗi của "
+"bạn bắt đầu từ cat222.png, hoặc có hình ảnh bị thiếu trong chuỗi, OpenShot "
+"sẽ gặp khó khăn trong việc hiểu chuỗi đó. Cách khắc phục đơn giản là đánh số"
+" lại các hình ảnh để bắt đầu từ 1."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:132
+msgid ""
+"To adjust the frame rate of the animation, right click and choose **File "
+"Properties** in the **Project Files** panel, and adjust the frame rate. Once"
+" you have set the correct frame rate, drag the animation onto the timeline."
+msgstr ""
+"Để điều chỉnh tốc độ khung hình của hoạt hình, nhấp chuột phải và chọn "
+"**Thuộc tính Tệp** trong bảng **Tệp Dự án**, sau đó điều chỉnh tốc độ khung "
+"hình. Khi bạn đã đặt tốc độ khung hình chính xác, kéo hoạt hình vào dòng "
+"thời gian."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:143
+msgid "File Properties"
+msgstr "Thuộc tính Tệp"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:143
+msgid ""
+"Select an image sequence in the **Project Files** panel, right click and "
+"choose **File Properties**"
+msgstr ""
+"Chọn một chuỗi hình ảnh trong bảng **Tệp Dự án**, nhấp chuột phải và chọn "
+"**Thuộc tính Tệp**"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:144
+msgid "Frame Rate"
+msgstr "Tốc Độ Khung Hình"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:144
+msgid ""
+"Adjust the frame rate of the animation. Typically, hand-drawn animations use"
+" 12 frames per second."
+msgstr ""
+"Điều chỉnh tốc độ khung hình của hoạt hình. Thông thường, các hoạt hình vẽ "
+"tay sử dụng 12 khung hình mỗi giây."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Colorful icons line the bottom of the clip for every keyframe "
+#~ "(`circle=Bézier`, `diamond=linear`, `square=constant`). Each icon matches "
+#~ "the color of its clip, effect, or transition. The selected item's keyframe "
+#~ "icons are shown brighter. Filtering the property list also filters these "
+#~ "icons. Click any icon to jump the play-head, load its properties, and select"
+#~ " its clip, effect, or transition. Drag an icon left or right to move the "
+#~ "keyframe and fine‑tune your animation timing."
+#~ msgstr ""
+#~ "Các biểu tượng màu sắc nằm ở dưới cùng của clip cho mỗi khung chính "
+#~ "(`circle=Bézier`, `diamond=linear`, `square=constant`). Mỗi biểu tượng tương"
+#~ " ứng với màu của clip, hiệu ứng hoặc chuyển tiếp. Các biểu tượng khung chính"
+#~ " của mục được chọn hiển thị sáng hơn. Lọc danh sách thuộc tính cũng lọc các "
+#~ "biểu tượng này. Nhấp vào bất kỳ biểu tượng nào để di chuyển đầu phát, tải "
+#~ "thuộc tính của nó và chọn clip, hiệu ứng hoặc chuyển tiếp tương ứng. Kéo "
+#~ "biểu tượng sang trái hoặc phải để di chuyển khung chính và điều chỉnh chính "
+#~ "xác thời gian hoạt hình của bạn."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Time` menu offers presets such as normal, fast, slow, freeze,"
+#~ " and reverse. See details in :ref:`clip_time_ref`."
+#~ msgstr ""
+#~ "Menu :guilabel:`Time` cung cấp các thiết lập sẵn như bình thường, nhanh, "
+#~ "chậm, đóng băng và đảo ngược. Xem chi tiết tại :ref:`clip_time_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "To play a clip multiple times, use :guilabel:`Right-Click → Time → Repeat`."
+#~ msgstr ""
+#~ "Để phát một clip nhiều lần, sử dụng :guilabel:`Nhấp chuột phải → Time → "
+#~ "Repeat`."

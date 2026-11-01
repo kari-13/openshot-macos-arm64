@@ -1,0 +1,1144 @@
+# Finnish translations for OpenShot Video Editor package.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: 2026-08-30 16:50-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../recording.rst:23
+msgid "Recording"
+msgstr "Tallennus"
+
+#: ../recording.rst:25
+msgid ""
+"OpenShot can record a microphone, the desktop, and a webcam directly into "
+"the current project. You can enable one source or combine several in a "
+"synchronized recording session. Each source remains an independent media "
+"file and timeline clip, making it easy to adjust microphone volume, crop a "
+"webcam, or edit the screen capture separately."
+msgstr ""
+"OpenShot voi tallentaa mikrofonin, työpöydän ja web-kameran suoraan "
+"nykyiseen projektiin. Voit ottaa käyttöön yhden lähteen tai yhdistää useita "
+"synkronoitua tallennussessiota varten. Jokainen lähde pysyy itsenäisenä "
+"mediatiedostona ja aikajanaleikkeenä, mikä helpottaa mikrofonin "
+"äänenvoimakkuuden säätämistä, web-kameran rajaus tai näytön tallenteen "
+"muokkaamista erikseen."
+
+#: ../recording.rst:29
+msgid ""
+"Open the dedicated layout with :guilabel:`View → Recording View`, or show "
+"only the dock with :guilabel:`View → Docks → Recording`."
+msgstr ""
+"Avaa erillinen näkymä valitsemalla :guilabel:`Näytä → Tallennusnäkymä`, tai "
+"näytä vain telakka valitsemalla :guilabel:`Näytä → Telakat → Tallennus`."
+
+#: ../recording.rst:-1
+msgid "OpenShot Recording View with the microphone source selected by default"
+msgstr "OpenShotin tallennusnäkymä, jossa mikrofoni on oletuksena valittuna"
+
+#: ../recording.rst:36
+msgid "Quick Start"
+msgstr "Pika-aloitus"
+
+#: ../recording.rst:38
+msgid ""
+"Move the timeline playhead to the point where the recording should begin."
+msgstr "Siirrä aikajanan toistopää kohtaan, josta tallennuksen tulisi alkaa."
+
+#: ../recording.rst:39
+msgid "Open :guilabel:`View → Recording View`."
+msgstr "Avaa :guilabel:`Näytä → Tallennusnäkymä`."
+
+#: ../recording.rst:40
+msgid ""
+"Enable :guilabel:`Mic`, :guilabel:`Screen`, :guilabel:`Webcam`, or any "
+"combination of them."
+msgstr ""
+"Ota käyttöön :guilabel:`Mikrofoni`, :guilabel:`Näyttö`, :guilabel:`Web-"
+"kamera` tai mikä tahansa niiden yhdistelmä."
+
+#: ../recording.rst:41
+msgid ""
+"Select the destination :guilabel:`Track`. Multiple sources use adjacent "
+"tracks automatically. Select :guilabel:`No Track` to add completed "
+"recordings to :guilabel:`Project Files` without creating live previews or "
+"clips on the timeline. Choose whether the timeline :guilabel:`Preview` "
+"should play during Mic or Webcam recording."
+msgstr ""
+"Valitse kohde :guilabel:`Raita`. Useat lähteet käyttävät vierekkäisiä "
+"raitoja automaattisesti. Valitse :guilabel:`Ei raitaa` lisätäksesi valmiit "
+"tallenteet :guilabel:`Projektitiedostoihin` ilman, että luodaan live-"
+"esikatseluja tai leikkeitä aikajanalle. Valitse, näytetäänkö aikajanan "
+":guilabel:`Esikatselu` mikrofoni- tai web-kameratallennuksen aikana."
+
+#: ../recording.rst:44
+msgid ""
+"Open each source's :guilabel:`Advanced` section and verify its device and "
+"quality options."
+msgstr ""
+"Avaa kunkin lähteen :guilabel:`Lisäasetukset`-osio ja tarkista laitteen ja "
+"laadun asetukset."
+
+#: ../recording.rst:45
+msgid ""
+"Click :guilabel:`Start Recording`. Perform the narration or action you want "
+"to capture."
+msgstr ""
+"Napsauta :guilabel:`Aloita tallennus`. Suorita haluamasi kerronta tai "
+"toiminto."
+
+#: ../recording.rst:46
+msgid ""
+"Click :guilabel:`Stop Recording`, either in the dock or from the recording "
+"status control."
+msgstr ""
+"Napsauta :guilabel:`Lopeta tallennus` joko telakassa tai tallennuksen "
+"tilanhallinnasta."
+
+#: ../recording.rst:47
+msgid ""
+"Wait briefly while OpenShot finishes the files. They are imported into "
+":guilabel:`Project Files` and, unless :guilabel:`No Track` is selected, "
+"placed on the timeline."
+msgstr ""
+"Odota hetki, kun OpenShot viimeistelee tiedostot. Ne tuodaan "
+":guilabel:`Projektitiedostoihin` ja, ellei :guilabel:`Ei raitaa` ole "
+"valittuna, sijoitetaan aikajanalle."
+
+#: ../recording.rst:51
+msgid "Quick Audio Commentary"
+msgstr "Nopea äänikommentti"
+
+#: ../recording.rst:53
+msgid ""
+"To begin commentary at an existing clip, right-click the clip and choose "
+":guilabel:`Audio → Record`. OpenShot moves the playhead to the clip's first "
+"frame, opens the Recording dock, and selects the first available unlocked "
+"track below the clip. Verify that :guilabel:`Mic` is enabled, then click "
+":guilabel:`Start Recording`. The full :guilabel:`View → Recording View` "
+"remains the general entry point for screen, webcam, microphone, and combined"
+" recording sessions."
+msgstr ""
+"Aloittaaksesi kommentoinnin olemassa olevassa leikkeessä, napsauta leikettä "
+"hiiren oikealla ja valitse :guilabel:`Ääni → Tallenna`. OpenShot siirtää "
+"toistopään leikkeen ensimmäiseen ruutuun, avaa tallennustelakan ja valitsee "
+"ensimmäisen käytettävissä olevan lukitsemattoman raidan leikkeen "
+"alapuolelta. Varmista, että :guilabel:`Mikrofoni` on käytössä, ja napsauta "
+"sitten :guilabel:`Aloita tallennus`. Koko :guilabel:`Näytä → "
+"Tallennusnäkymä` pysyy yleisenä sisäänkäyntinä näytön, web-kameran, "
+"mikrofonin ja yhdistettyjen tallennussessioiden hallintaan."
+
+#: ../recording.rst:60
+msgid "Recording Sources"
+msgstr "Tallennuslähteet"
+
+#: ../recording.rst:62
+msgid ""
+"The source cards at the top of the dock can be enabled independently. An "
+"unavailable card indicates that the required device, operating-system "
+"capture service, or libopenshot feature was not detected."
+msgstr ""
+"Telakan yläosassa olevat lähdekortit voidaan ottaa käyttöön itsenäisesti. "
+"Käyttämätön kortti tarkoittaa, että vaadittua laitetta, käyttöjärjestelmän "
+"tallennuspalvelua tai libopenshot-ominaisuutta ei havaittu."
+
+#: ../recording.rst:65
+msgid "Recorded sources and outputs"
+msgstr "Tallennetut lähteet ja tulosteet"
+
+#: ../recording.rst:69 ../recording.rst:107
+msgid "Source"
+msgstr "Lähde"
+
+#: ../recording.rst:70
+msgid "Recorded File"
+msgstr "Tallennettu tiedosto"
+
+#: ../recording.rst:71
+msgid "Audio"
+msgstr "Ääni"
+
+#: ../recording.rst:72
+msgid "Typical Use"
+msgstr "Tyypillinen käyttö"
+
+#: ../recording.rst:73 ../recording.rst:111 ../recording.rst:272
+msgid "Mic"
+msgstr "Mikrofoni"
+
+#: ../recording.rst:74
+msgid "``Mic-<timestamp>``"
+msgstr "``Mic-<timestamp>``"
+
+#: ../recording.rst:75
+msgid "Microphone only"
+msgstr "Vain mikrofoni"
+
+#: ../recording.rst:76
+msgid "Narration, voice-over, commentary, or interviews."
+msgstr "Kerronta, ääninäyttely, kommentointi tai haastattelut."
+
+#: ../recording.rst:77 ../recording.rst:110 ../recording.rst:194
+#: ../recording.rst:275
+msgid "Screen"
+msgstr "Näyttö"
+
+#: ../recording.rst:78
+msgid "``Screen-<timestamp>.mp4``"
+msgstr "``Screen-<timestamp>.mp4``"
+
+#: ../recording.rst:79
+msgid "Optional system audio"
+msgstr "Valinnainen järjestelmän ääni"
+
+#: ../recording.rst:80
+msgid "Tutorials, demonstrations, presentations, or games."
+msgstr "Opetusohjelmat, esittelyt, esitykset tai pelit."
+
+#: ../recording.rst:81 ../recording.rst:109
+msgid "Webcam"
+msgstr "Web-kamera"
+
+#: ../recording.rst:82
+msgid "``Webcam-<timestamp>.mp4``"
+msgstr "``Webcam-<timestamp>.mp4``"
+
+#: ../recording.rst:83
+msgid "No audio"
+msgstr "Ei ääntä"
+
+#: ../recording.rst:84
+msgid "Presenter video or a picture-in-picture camera."
+msgstr "Esittäjän video tai kuva kuvassa -kamera."
+
+#: ../recording.rst:86
+msgid ""
+"When Mic and Screen are enabled together, microphone audio is kept in its "
+"own file while system audio is embedded in the screen video. This separation"
+" is intentional: it lets you independently adjust, mute, fade, or process "
+"the voice and computer audio during editing. Webcam video has no audio, "
+"avoiding a duplicate microphone track and echo."
+msgstr ""
+"Kun mikrofoni ja näyttö ovat käytössä samanaikaisesti, mikrofonin ääni "
+"tallennetaan omaan tiedostoonsa, kun taas järjestelmän ääni upotetaan näytön"
+" videoon. Tämä erottelu on tarkoituksellinen: se mahdollistaa äänen ja "
+"tietokoneen äänen itsenäisen säätämisen, mykistämisen, häivyttämisen tai "
+"käsittelyn editoinnin aikana. Web-kameran videolla ei ole ääntä, mikä estää "
+"mikrofoniraidan kaksoiskappaleen ja kaiun."
+
+#: ../recording.rst:91
+msgid "Live Feedback and Timeline Placement"
+msgstr "Reaaliaikainen palaute ja aikajanan sijoitus"
+
+#: ../recording.rst:93
+msgid ""
+"The microphone meter responds before and during recording, which helps "
+"confirm that the selected input is working. During recording, OpenShot draws"
+" a temporary clip and live microphone waveform on the timeline. The "
+"completed files replace these previews after recording stops."
+msgstr ""
+"Mikrofonimittari reagoi ennen tallennusta ja sen aikana, mikä auttaa "
+"varmistamaan, että valittu tuloliitäntä toimii. Tallennuksen aikana OpenShot"
+" piirtää väliaikaisen leikkeen ja mikrofonin aaltomuodon aikajanalle. "
+"Valmiit tiedostot korvaavat nämä esikatselut tallennuksen loputtua."
+
+#: ../recording.rst:97
+msgid ""
+"Select :guilabel:`No Track` in the Track list when you want to capture media"
+" without adding live objects or completed clips to the timeline. The "
+"finished recordings are still imported into :guilabel:`Project Files`, ready"
+" to preview, organize, or add to the timeline later. This is useful when "
+"recording several takes before choosing which one to edit."
+msgstr ""
+"Valitse :guilabel:`Ei raitaa` raitalistasta, kun haluat tallentaa mediaa "
+"lisäämättä live-objekteja tai valmiita leikkeitä aikajanalle. Valmiit "
+"tallenteet tuodaan silti :guilabel:`Projektitiedostoihin`, valmiina "
+"esikatseluun, järjestelyyn tai lisäämiseen aikajanalle myöhemmin. Tämä on "
+"hyödyllistä, kun tallennat useita ottoja ennen kuin valitset muokattavan."
+
+#: ../recording.rst:101
+msgid ""
+"All enabled sources start at the same timeline position. OpenShot stacks "
+"them in a useful compositing order:"
+msgstr ""
+"Kaikki käytössä olevat lähteet alkavat samasta aikajanan kohdasta. OpenShot "
+"pinottaa ne hyödylliseen yhdistelyjärjestykseen:"
+
+#: ../recording.rst:103
+msgid "Default source stack"
+msgstr "Oletuslähteiden pino"
+
+#: ../recording.rst:107
+msgid "Placement"
+msgstr "Sijoitus"
+
+#: ../recording.rst:109
+msgid "Highest assigned track, so a corner camera appears on top."
+msgstr "Korkein määritetty raita, jotta kulmavideo näkyy päällimmäisenä."
+
+#: ../recording.rst:110
+msgid "Below the webcam and above microphone audio."
+msgstr "Web-kameran alapuolella ja mikrofonin äänen yläpuolella."
+
+#: ../recording.rst:111
+msgid "Lowest assigned track because it contains audio only."
+msgstr "Alin määritetty raita, koska se sisältää vain ääntä."
+
+#: ../recording.rst:114
+msgid ""
+"If there are not enough tracks below the selected track, OpenShot creates or"
+" selects additional tracks as needed. Recordings are also added to "
+":guilabel:`Project Files`, so they can be reused even if you remove their "
+"first timeline clips."
+msgstr ""
+"Jos valitun raidan alapuolella ei ole tarpeeksi raitoja, OpenShot luo tai "
+"valitsee tarvittaessa lisää raitoja. Tallenteet lisätään myös "
+":guilabel:`Projektitiedostot`-kohtaan, jotta niitä voidaan käyttää "
+"uudelleen, vaikka poistaisit niiden ensimmäiset aikajanan leikkeet."
+
+#: ../recording.rst:119
+msgid "Timeline Preview During Recording"
+msgstr "Aikajanan esikatselu tallennuksen aikana"
+
+#: ../recording.rst:121
+msgid ""
+"The :guilabel:`Preview` control beside :guilabel:`Track` can play the "
+"project from the current playhead while a Mic, Webcam, or combined Mic + "
+"Webcam recording is captured. This is useful for voice-over, commentary, and"
+" reaction videos. Stopping the recording also stops timeline playback when "
+"the recorder started it."
+msgstr ""
+":guilabel:`Esikatselu`-ohjaus :guilabel:`Raidan` vieressä voi toistaa "
+"projektia nykyisestä toistopisteestä samalla, kun mikrofoni-, webkamera- tai"
+" yhdistetty mikrofoni + webkamera-tallennus on käynnissä. Tämä on "
+"hyödyllistä ääniraidoille, kommentaareille ja reaktiovideoille. Tallennuksen"
+" pysäyttäminen pysäyttää myös aikajanan toiston, jos tallennin käynnisti "
+"sen."
+
+#: ../recording.rst:125
+msgid "Preview options"
+msgstr "Esikatseluvaihtoehdot"
+
+#: ../recording.rst:129 ../recording.rst:152 ../recording.rst:192
+#: ../recording.rst:242
+msgid "Option"
+msgstr "Vaihtoehto"
+
+#: ../recording.rst:129
+msgid "Behavior"
+msgstr "Toiminta"
+
+#: ../recording.rst:131
+msgid "Off"
+msgstr "Pois päältä"
+
+#: ../recording.rst:131
+msgid "Records without starting timeline playback."
+msgstr "Tallentaa käynnistämättä aikajanan toistoa."
+
+#: ../recording.rst:132
+msgid "Full"
+msgstr "Täysi"
+
+#: ../recording.rst:132
+msgid "Plays the timeline using the normal preview resolution."
+msgstr "Toistaa aikajanan normaalilla esikatselun resoluutiolla."
+
+#: ../recording.rst:133
+msgid "Half"
+msgstr "Puolikas"
+
+#: ../recording.rst:133
+msgid "Reduces preview rendering resolution to improve recording performance."
+msgstr ""
+"Alentaa esikatselun renderöintiresoluutiota parantaakseen tallennuksen "
+"suorituskykyä."
+
+#: ../recording.rst:134
+msgid "Quarter"
+msgstr "Neljännes"
+
+#: ../recording.rst:134
+msgid ""
+"Uses the lowest preview resolution for demanding projects or slower "
+"computers."
+msgstr ""
+"Käyttää alhaisinta esikatselun resoluutiota vaativissa projekteissa tai "
+"hitaammilla tietokoneilla."
+
+#: ../recording.rst:137
+msgid ""
+"Preview resolution changes only the temporary OpenShot preview. It does not "
+"reduce the resolution or quality of the recorded Mic or Webcam files. Use "
+"headphones when the timeline contains audio so the microphone does not "
+"record the speakers. When :guilabel:`Screen` is selected, Preview is forced "
+"to :guilabel:`Off` and disabled; deselecting Screen restores the previous "
+"choice."
+msgstr ""
+"Esikatselun resoluution muutos vaikuttaa vain väliaikaiseen OpenShot-"
+"esikatseluun. Se ei alenna tallennettujen mikrofoni- tai "
+"webkameratiedostojen resoluutiota tai laatua. Käytä kuulokkeita, kun "
+"aikajanalla on ääntä, jotta mikrofoni ei tallenna kaiuttimien ääntä. Kun "
+":guilabel:`Näyttö` on valittuna, Esikatselu pakotetaan :guilabel:`Pois "
+"päältä`-tilaan ja se poistetaan käytöstä; Näytön valinnan poistaminen "
+"palauttaa aiemman valinnan."
+
+#: ../recording.rst:143
+msgid "Microphone Recording"
+msgstr "Mikrofonin tallennus"
+
+#: ../recording.rst:145
+msgid ""
+"Enable :guilabel:`Mic` to record narration as a separate audio file. Use the"
+" Mono/Stereo control beside the level meter for the common channel choice, "
+"and open :guilabel:`Advanced` for all settings."
+msgstr ""
+"Ota käyttöön :guilabel:`Mikrofoni` tallentaaksesi kerronnan erillisenä "
+"äänitiedostona. Käytä Mono/Stereo-ohjausta tason mittarin vieressä yleisen "
+"kanavavalinnan tekemiseen ja avaa :guilabel:`Lisäasetukset` kaikkia "
+"asetuksia varten."
+
+#: ../recording.rst:148
+msgid "Microphone options"
+msgstr "Mikrofonin asetukset"
+
+#: ../recording.rst:152
+msgid "Typical Default"
+msgstr "Tyypillinen oletus"
+
+#: ../recording.rst:152 ../recording.rst:175 ../recording.rst:192
+#: ../recording.rst:242
+msgid "Description"
+msgstr "Kuvaus"
+
+#: ../recording.rst:154 ../recording.rst:244
+msgid "Input"
+msgstr "Tulo"
+
+#: ../recording.rst:154
+msgid "System input"
+msgstr "Järjestelmän tulo"
+
+#: ../recording.rst:154
+msgid "Selects the microphone or audio-input device."
+msgstr "Valitsee mikrofonin tai äänitulo-laitteen."
+
+#: ../recording.rst:155
+msgid "Format"
+msgstr "Muoto"
+
+#: ../recording.rst:155
+msgid "FLAC"
+msgstr "FLAC"
+
+#: ../recording.rst:155
+msgid ""
+"Chooses WAV, FLAC, or MP3. FLAC is lossless with smaller files than WAV."
+msgstr ""
+"Valitsee WAV:n, FLAC:n tai MP3:n. FLAC on häviötön ja tiedostot ovat "
+"pienempiä kuin WAV."
+
+#: ../recording.rst:156
+msgid "Sample Rate"
+msgstr "Näytetaajuus"
+
+#: ../recording.rst:156
+msgid "48000 Hz"
+msgstr "48000 Hz"
+
+#: ../recording.rst:156
+msgid ""
+"Sets the recording sample rate. Match the device and project when possible."
+msgstr ""
+"Asettaa tallennuksen näytetaajuuden. Yritä sovittaa laite ja projekti "
+"mahdollisuuksien mukaan."
+
+#: ../recording.rst:157
+msgid "Channels"
+msgstr "Kanavat"
+
+#: ../recording.rst:157
+msgid "Mono"
+msgstr "Mono"
+
+#: ../recording.rst:157
+msgid ""
+"Records one or two input channels. Mono is usually best for one microphone."
+msgstr ""
+"Tallentaa yhden tai kaksi tulokanavaa. Mono on yleensä paras yhdelle "
+"mikrofonille."
+
+#: ../recording.rst:160
+msgid ""
+"Aim for a healthy meter response without clipping. A quiet waveform should "
+"remain visually quiet; OpenShot no longer normalizes every newly generated "
+"waveform to full height. The lighter peak envelope highlights transients "
+"while the solid RMS envelope summarizes sustained energy. Their detail is "
+"controlled by :guilabel:`Edit → Preferences → Timeline → Waveform Samples "
+"(per second)`. See :ref:`clip_presets_ref` for waveform display and audio "
+"volume controls after recording."
+msgstr ""
+"Tavoittele hyvää mittarivastetta ilman leikkausta. Hiljaisen aaltomuodon "
+"tulisi pysyä visuaalisesti hiljaisena; OpenShot ei enää normalisoi jokaista "
+"uutta aaltomuotoa täyteen korkeuteen. Vaaleampi huippukäyrä korostaa "
+"transientteja, kun taas kiinteä RMS-käyrä tiivistää jatkuvan energian. "
+"Näiden yksityiskohdat säädetään kohdassa :guilabel:`Muokkaa → Asetukset → "
+"Aikajana → Aaltomuodon näytteet (sekunnissa)`. Katso :ref:`clip_presets_ref`"
+" aaltomuodon näyttöä ja äänenvoimakkuuden säätöjä tallennuksen jälkeen."
+
+#: ../recording.rst:167
+msgid "Screen Recording"
+msgstr "Näytön tallennus"
+
+#: ../recording.rst:169
+msgid "Enable :guilabel:`Screen`, then choose a capture mode:"
+msgstr "Ota käyttöön :guilabel:`Näyttö`, ja valitse sitten tallennustila:"
+
+#: ../recording.rst:171
+msgid "Screen capture modes"
+msgstr "Näytön tallennustilat"
+
+#: ../recording.rst:175
+msgid "Mode"
+msgstr "Tila"
+
+#: ../recording.rst:177
+msgid "Full Screen"
+msgstr "Koko näyttö"
+
+#: ../recording.rst:177
+msgid "Captures the selected display or combined desktop area."
+msgstr "Tallentaa valitun näytön tai yhdistetyn työpöytäalueen."
+
+#: ../recording.rst:178
+msgid "Window"
+msgstr "Ikkuna"
+
+#: ../recording.rst:178
+msgid ""
+"Click a window to capture its bounds. Availability and exact behavior depend"
+" on the platform."
+msgstr ""
+"Napsauta ikkunaa tallentaaksesi sen rajat. Saatavuus ja tarkka toiminta "
+"riippuvat käyttöjärjestelmästä."
+
+#: ../recording.rst:179
+msgid "Region"
+msgstr "Alue"
+
+#: ../recording.rst:179
+msgid ""
+"Drag or select a rectangular desktop area. Availability depends on the "
+"platform."
+msgstr ""
+"Vedä tai valitse suorakulmainen työpöytäalue. Saatavuus riippuu "
+"käyttöjärjestelmästä."
+
+#: ../recording.rst:182
+msgid ""
+"On Wayland desktops, the operating system's sharing portal asks which screen"
+" or window to share when recording starts. The numeric window and region "
+"controls are hidden because selection belongs to that portal."
+msgstr ""
+"Wayland-työpöydillä käyttöjärjestelmän jakamisportaali kysyy, mitä näyttöä "
+"tai ikkunaa jaetaan tallennuksen alkaessa. Numeroidut ikkuna- ja "
+"alueohjaimet ovat piilotettuja, koska valinta kuuluu tälle portaalille."
+
+#: ../recording.rst:186
+msgid "Screen Advanced Options"
+msgstr "Näytön lisäasetukset"
+
+#: ../recording.rst:188
+msgid "Screen options"
+msgstr "Näytön asetukset"
+
+#: ../recording.rst:192
+msgid "Default"
+msgstr "Oletus"
+
+#: ../recording.rst:194
+msgid "Primary display"
+msgstr "Ensisijainen näyttö"
+
+#: ../recording.rst:194
+msgid "Selects a display or the complete desktop when supported."
+msgstr "Valitsee näytön tai koko työpöydän, jos se on tuettu."
+
+#: ../recording.rst:195
+msgid "Offset"
+msgstr "Siirtymä"
+
+#: ../recording.rst:195 ../recording.rst:196
+msgid "Selected bounds"
+msgstr "Valitut rajat"
+
+#: ../recording.rst:195
+msgid "Sets the capture area's X and Y desktop coordinates."
+msgstr "Asettaa tallennusalueen X- ja Y-koordinaatit työpöydällä."
+
+#: ../recording.rst:196 ../recording.rst:248
+msgid "Size"
+msgstr "Koko"
+
+#: ../recording.rst:196
+msgid ""
+"Sets capture width and height. OpenShot uses encoder-safe even dimensions."
+msgstr ""
+"Asettaa tallennuksen leveyden ja korkeuden. OpenShot käyttää kooderille "
+"turvallisia parillisia mittoja."
+
+#: ../recording.rst:197
+msgid "FPS"
+msgstr "FPS"
+
+#: ../recording.rst:197
+msgid "30"
+msgstr "30"
+
+#: ../recording.rst:197
+msgid "Sets the screen recording frame rate: 15, 24, 30, or 60 FPS."
+msgstr "Asettaa näytön tallennuksen kuvataajuuden: 15, 24, 30 tai 60 FPS."
+
+#: ../recording.rst:198 ../recording.rst:211
+msgid "System Audio"
+msgstr "Järjestelmän ääni"
+
+#: ../recording.rst:198 ../recording.rst:199
+msgid "On"
+msgstr "Päällä"
+
+#: ../recording.rst:198
+msgid "Embeds computer playback audio in the screen MP4 when supported."
+msgstr ""
+"Upottaa tietokoneen toistaman äänen näytön MP4-tiedostoon, kun se on tuettu."
+
+#: ../recording.rst:199
+msgid "Cursor"
+msgstr "Kohdistin"
+
+#: ../recording.rst:199
+msgid "Includes the mouse pointer in the screen recording."
+msgstr "Sisältää hiiren osoittimen näytön tallennuksessa."
+
+#: ../recording.rst:200
+msgid "Hide OpenShot"
+msgstr "Piilota OpenShot"
+
+#: ../recording.rst:200
+msgid "No"
+msgstr "Ei"
+
+#: ../recording.rst:200
+msgid ""
+"Temporarily hides OpenShot during selection and recording when enabled."
+msgstr ""
+"Piilottaa OpenShotin väliaikaisesti valinnan ja tallennuksen aikana, kun "
+"ominaisuus on käytössä."
+
+#: ../recording.rst:205
+msgid ""
+"On some Windows systems using high-DPI display scaling, the mouse pointer "
+"may be displaced or missing from screen recordings made on a scaled display."
+" If pointer visibility is important, record on a display configured at 100% "
+"scaling, temporarily set the target display to 100%, or use a separate "
+"screen-capture application. Screen video is still recorded normally, and "
+"setting :guilabel:`Cursor` to :guilabel:`Off` avoids the affected pointer "
+"overlay."
+msgstr ""
+"Joillakin Windows-järjestelmillä, joissa käytetään korkean DPI:n näytön "
+"skaalausta, hiiren osoitin saattaa olla siirtynyt tai puuttua näytön "
+"tallennuksista, jotka on tehty skaalatulla näytöllä. Jos osoittimen näkyvyys"
+" on tärkeää, tallenna näytöllä, joka on asetettu 100 % skaalaustasoon, aseta"
+" kohdenäyttö väliaikaisesti 100 %:iin tai käytä erillistä "
+"näytönkaappausohjelmaa. Näytön video tallentuu silti normaalisti, ja "
+"asettamalla :guilabel:`Cursor` arvoksi :guilabel:`Off` vältetään "
+"ongelmallinen osoitinpeite."
+
+#: ../recording.rst:213
+msgid ""
+":guilabel:`System Audio` is enabled by default on supported capture "
+"backends. It records sound playing through the computer—such as a game, "
+"browser, media player, or presentation—inside the screen recording. It does "
+"not replace the Mic source. Enable both sources when you want system audio "
+"and commentary on independently editable clips."
+msgstr ""
+":guilabel:`Järjestelmän ääni` on oletuksena käytössä tuetuissa "
+"tallennustaustoissa. Se tallentaa tietokoneen kautta toistuvan äänen—kuten "
+"pelin, selaimen, mediasoittimen tai esityksen—näytön tallennukseen. Se ei "
+"korvaa mikrofonilähdettä. Ota molemmat lähteet käyttöön, kun haluat "
+"järjestelmän äänen ja kommentoinnin itsenäisesti muokattavilla klippeillä."
+
+#: ../recording.rst:217
+msgid ""
+"If the control is disabled, the active platform or libopenshot build does "
+"not provide system-audio capture. OpenShot forces the option Off rather than"
+" producing a misleading silent audio track. Operating-system privacy "
+"settings and audio-routing configuration can also affect capture."
+msgstr ""
+"Jos ohjaus on pois käytöstä, käytössä oleva alusta tai libopenshot-käännös "
+"ei tue järjestelmän äänen tallennusta. OpenShot asettaa vaihtoehdon pois "
+"päältä tuottamatta harhaanjohtavaa äänetöntä ääniraitaa. Käyttöjärjestelmän "
+"tietosuoja-asetukset ja äänen reitityksen määritykset voivat myös vaikuttaa "
+"tallennukseen."
+
+#: ../recording.rst:223
+msgid ""
+"System Audio recording is not currently available on macOS. Screen video, "
+"microphone, and webcam recording remain available, but the :guilabel:`System"
+" Audio` option is disabled and forced to :guilabel:`Off`."
+msgstr ""
+"Järjestelmän äänen tallennus ei ole tällä hetkellä saatavilla macOS:llä. "
+"Näytön video, mikrofoni ja web-kameran tallennus ovat edelleen "
+"käytettävissä, mutta :guilabel:`Järjestelmän ääni` -vaihtoehto on poistettu "
+"käytöstä ja pakotettu arvoon :guilabel:`Pois`."
+
+#: ../recording.rst:228
+msgid ""
+"Avoid playing captured system audio through speakers while also recording a "
+"microphone unless that sound is intentional. Headphones reduce echo and "
+"prevent the microphone from recording the speakers a second time."
+msgstr ""
+"Vältä tallennetun järjestelmän äänen toistamista kaiuttimien kautta "
+"samanaikaisesti mikrofonin tallennuksen kanssa, ellei ääni ole "
+"tarkoituksellista. Kuulokkeet vähentävät kaikua ja estävät mikrofonia "
+"tallentamasta kaiuttimien ääntä uudelleen."
+
+#: ../recording.rst:232
+msgid "Webcam Recording"
+msgstr "Web-kameran tallennus"
+
+#: ../recording.rst:234
+msgid ""
+"Enable :guilabel:`Webcam` to record a camera as a silent video clip. A live "
+"preview helps verify framing before you start. When Screen is also enabled, "
+"the default layout is a rounded, 30% camera in the bottom-right corner. When"
+" the webcam is recorded alone, it defaults to full size."
+msgstr ""
+"Ota :guilabel:`Webcam` käyttöön tallentaaksesi kameran äänettömänä "
+"videoklippinä. Live-esikatselu auttaa varmistamaan rajauksen ennen "
+"aloittamista. Kun myös Näyttö on käytössä, oletusasettelu on pyöristetty, 30"
+" % kameran koko oikeassa alakulmassa. Kun web-kamera tallennetaan yksinään, "
+"se on oletuksena täysikokoinen."
+
+#: ../recording.rst:238
+msgid "Webcam options"
+msgstr "Web-kameran asetukset"
+
+#: ../recording.rst:244
+msgid "Selects an available webcam or video-capture device."
+msgstr "Valitsee käytettävissä olevan web-kameran tai videokaappauslaitteen."
+
+#: ../recording.rst:245
+msgid "Resolution"
+msgstr "Resoluutio"
+
+#: ../recording.rst:245
+msgid "Selects a resolution reported by the camera."
+msgstr "Valitsee kameran ilmoittaman resoluution."
+
+#: ../recording.rst:246
+msgid "Record FPS"
+msgstr "Tallenna FPS"
+
+#: ../recording.rst:246
+msgid "Selects a frame rate supported at the chosen resolution."
+msgstr "Valitsee valitulla resoluutiolla tuetun kuvataajuuden."
+
+#: ../recording.rst:247
+msgid "Layout"
+msgstr "Asettelu"
+
+#: ../recording.rst:247
+msgid ""
+"Chooses Bottom/Top Left/Right, Left, Right, Center, or Full Size placement."
+msgstr ""
+"Valitsee sijoittelun: alareuna/yläreuna vasen/oikea, vasen, oikea, keskellä "
+"tai täysikokoinen."
+
+#: ../recording.rst:248
+msgid "Sets a corner camera to 20%, 30%, or 40% of the project frame."
+msgstr "Asettaa kulmakameran koon 20 %, 30 % tai 40 % projektin kehyksestä."
+
+#: ../recording.rst:249
+msgid "Corners"
+msgstr "Kulmat"
+
+#: ../recording.rst:249
+msgid "Uses Rectangle, Rounded, or Oval camera corners."
+msgstr "Käyttää suorakulmaisia, pyöristettyjä tai soikeita kamerakulmia."
+
+#: ../recording.rst:252
+msgid ""
+"Layout choices are applied as ordinary clip properties. After recording, use"
+" :guilabel:`Gravity`, :guilabel:`Scale X`, :guilabel:`Scale Y`, "
+":guilabel:`Margin`, and :guilabel:`Corner Radius` to refine the result. See "
+":ref:`clip_properties_ref`."
+msgstr ""
+"Asetteluvaihtoehdot sovelletaan tavallisina klippin ominaisuuksina. "
+"Tallennuksen jälkeen käytä :guilabel:`Gravity`, :guilabel:`Scale X`, "
+":guilabel:`Scale Y`, :guilabel:`Margin` ja :guilabel:`Corner Radius` "
+"hienosäätöön. Katso :ref:`clip_properties_ref`."
+
+#: ../recording.rst:257
+msgid "Combining Sources"
+msgstr "Lähteiden yhdistäminen"
+
+#: ../recording.rst:259
+msgid ""
+"The Recording View keeps all enabled source controls together while leaving "
+"the preview and timeline visible."
+msgstr ""
+"Tallennusnäkymä pitää kaikki käytössä olevat lähdeohjaimet yhdessä samalla "
+"kun esikatselu ja aikajana pysyvät näkyvissä."
+
+#: ../recording.rst:-1
+msgid ""
+"OpenShot Recording View with microphone, screen, and webcam sources selected"
+msgstr ""
+"OpenShotin tallennusnäkymä, jossa mikrofoni-, näyttö- ja web-kameralähteet "
+"valittuina"
+
+#: ../recording.rst:264
+msgid "Useful recording combinations"
+msgstr "Hyödyllisiä tallennusyhdistelmiä"
+
+#: ../recording.rst:268
+msgid "Workflow"
+msgstr "Työnkulku"
+
+#: ../recording.rst:269
+msgid "Enable"
+msgstr "Ota käyttöön"
+
+#: ../recording.rst:270
+msgid "Result"
+msgstr "Tulos"
+
+#: ../recording.rst:271
+msgid "Voice-over"
+msgstr "Ääninäyttely"
+
+#: ../recording.rst:273
+msgid "One editable narration file."
+msgstr "Yksi muokattava kerrontatiedosto."
+
+#: ../recording.rst:274
+msgid "Silent tutorial"
+msgstr "Äänetön opetusohjelma"
+
+#: ../recording.rst:276
+msgid "Screen MP4; turn System Audio Off if silence is desired."
+msgstr ""
+"Näyttö MP4; kytke Järjestelmän ääni pois päältä, jos haluat hiljaisuuden."
+
+#: ../recording.rst:277
+msgid "Game commentary"
+msgstr "Pelin kommentointi"
+
+#: ../recording.rst:278
+msgid "Mic + Screen"
+msgstr "Mikrofoni + Näyttö"
+
+#: ../recording.rst:279
+msgid "Separate mic clip plus screen video with game audio."
+msgstr "Erillinen mikrofoni-klippi sekä näyttövideo pelin äänellä."
+
+#: ../recording.rst:280
+msgid "Presenter camera"
+msgstr "Esittäjän kamera"
+
+#: ../recording.rst:281
+msgid "Mic + Webcam"
+msgstr "Mikrofoni + Web-kamera"
+
+#: ../recording.rst:282
+msgid "Separate voice and silent camera video."
+msgstr "Erillinen ääni ja äänetön kameravideo."
+
+#: ../recording.rst:283
+msgid "Tutorial with camera"
+msgstr "Opetusohjelma kameralla"
+
+#: ../recording.rst:284
+msgid "Mic + Screen + Webcam"
+msgstr "Mikrofoni + Näyttö + Web-kamera"
+
+#: ../recording.rst:285
+msgid "Three synchronized clips with webcam above the screen."
+msgstr "Kolme synkronoitua klippiä, joissa web-kamera näytön yläpuolella."
+
+#: ../recording.rst:288
+msgid "Where Recordings Are Saved"
+msgstr "Missä tallenteet tallennetaan"
+
+#: ../recording.rst:290
+msgid ""
+"Recordings are saved in the project's assets folder under ``recordings``. If"
+" the project has not been saved yet, OpenShot uses its user-data location. "
+"Filenames contain the source name and a timestamp; another numeric suffix "
+"avoids overwriting a file created during the same second."
+msgstr ""
+"Tallenteet tallennetaan projektin resurssikansioon nimellä ``recordings``. "
+"Jos projektia ei ole vielä tallennettu, OpenShot käyttää käyttäjätietojen "
+"sijaintia. Tiedostonimissä on lähteen nimi ja aikaleima; toinen numeerinen "
+"tunniste estää saman sekunnin aikana luodun tiedoston ylikirjoittamisen."
+
+#: ../recording.rst:294
+msgid ""
+"Save the project before a long or important session so its recording "
+"destination is predictable. Do not move or rename recorded files outside "
+"OpenShot while the project is using them."
+msgstr ""
+"Tallenna projekti ennen pitkää tai tärkeää tallennussessiota, jotta "
+"tallenteiden tallennussijainti on ennustettava. Älä siirrä tai nimeä "
+"tallennettuja tiedostoja uudelleen OpenShotin ulkopuolella, kun projekti "
+"käyttää niitä."
+
+#: ../recording.rst:298
+msgid "Permissions and Platform Behavior"
+msgstr "Oikeudet ja alustan toiminta"
+
+#: ../recording.rst:300
+msgid ""
+"Screen and camera capture depend on operating-system services, hardware, and"
+" build support. The controls in the dock adapt to the available backend."
+msgstr ""
+"Näytön ja kameran tallennus riippuu käyttöjärjestelmän palveluista, "
+"laitteistosta ja koontituen saatavuudesta. Telakan ohjaimet mukautuvat "
+"käytettävissä olevaan taustajärjestelmään."
+
+#: ../recording.rst:303
+msgid ""
+"**Linux/X11:** Full-screen, window, and numeric region capture are available"
+" when the X11 capture backend is built."
+msgstr ""
+"**Linux/X11:** Koko näytön, ikkunan ja numeerisen alueen tallennus on "
+"käytettävissä, kun X11-tallennustaustajärjestelmä on koottu."
+
+#: ../recording.rst:304
+msgid ""
+"**Linux/Wayland:** The desktop sharing portal chooses the capture source "
+"after recording starts."
+msgstr ""
+"**Linux/Wayland:** Työpöydän jakamisportaali valitsee tallennuslähteen "
+"tallennuksen alkamisen jälkeen."
+
+#: ../recording.rst:305
+msgid ""
+"**Windows:** Desktop capture uses the available Windows screen backend; "
+"camera devices use Windows capture services."
+msgstr ""
+"**Windows:** Työpöydän tallennus käyttää käytettävissä olevaa Windows-"
+"näyttötaustajärjestelmää; kameralaitteet käyttävät Windowsin "
+"tallennuspalveluita."
+
+#: ../recording.rst:306
+msgid ""
+"**macOS:** Screen capture uses the supported macOS backend, with window and "
+"region choices represented as cropped screen bounds when required. System "
+"Audio recording is not currently supported; microphone recording remains "
+"available as a separate audio source."
+msgstr ""
+"**macOS:** Näytön tallennus käyttää tuettua macOS-taustajärjestelmää, ja "
+"ikkuna- sekä aluevalinnat esitetään tarvittaessa rajattuina näyttöalueina. "
+"Järjestelmän äänen tallennus ei ole tällä hetkellä tuettu; mikrofonin "
+"tallennus on edelleen käytettävissä erillisenä äänilähteenä."
+
+#: ../recording.rst:310
+msgid ""
+"The first recording may trigger Screen Recording, Microphone, Camera, or "
+"desktop-sharing permission prompts. Approve the requested source, then "
+"restart OpenShot if the operating system requires it. A disabled source card"
+" or option is preferable to a recording that silently omits an unsupported "
+"source."
+msgstr ""
+"Ensimmäinen tallennus voi aiheuttaa näytön tallennuksen, mikrofonin, kameran"
+" tai työpöydän jakamisen lupapyyntöjä. Hyväksy pyydetty lähde ja käynnistä "
+"OpenShot uudelleen, jos käyttöjärjestelmä sitä vaatii. Poissa käytöstä oleva"
+" lähdekortti tai vaihtoehto on parempi kuin tallennus, joka hiljaisesti "
+"jättää tukemattoman lähteen pois."
+
+#: ../recording.rst:315
+msgid "Troubleshooting Recording"
+msgstr "Tallennuksen vianmääritys"
+
+#: ../recording.rst:317
+msgid "Common recording problems"
+msgstr "Yleiset tallennusongelmat"
+
+#: ../recording.rst:321
+msgid "Problem"
+msgstr "Ongelma"
+
+#: ../recording.rst:321
+msgid "What to Check"
+msgstr "Mitä tarkistaa"
+
+#: ../recording.rst:323
+msgid "Mic meter does not move"
+msgstr "Mikrofonimittari ei liiku"
+
+#: ../recording.rst:323
+msgid ""
+"Select the correct Input, verify OS microphone permission, and check "
+"mute/gain."
+msgstr ""
+"Valitse oikea tuloliitäntä, varmista käyttöjärjestelmän mikrofonin lupa ja "
+"tarkista mykistys/voimakkuus."
+
+#: ../recording.rst:324
+msgid "Mic clips or distorts"
+msgstr "Mikrofoni leikkaa tai vääristää ääntä"
+
+#: ../recording.rst:324
+msgid "Lower hardware/input gain and keep peaks below full scale."
+msgstr ""
+"Alenna laitteiston/tulon vahvistusta ja pidä huippuarvot alle maksimin."
+
+#: ../recording.rst:325
+msgid "Mic is very quiet"
+msgstr "Mikrofoni on hyvin hiljainen"
+
+#: ../recording.rst:325
+msgid ""
+"Raise input gain near the device; timeline waveform height does not change "
+"audio."
+msgstr ""
+"Nosta tulon vahvistusta lähellä laitetta; aikajanan aaltomuodon korkeus ei "
+"vaikuta ääneen."
+
+#: ../recording.rst:326
+msgid "System Audio is disabled"
+msgstr "Järjestelmän ääni on pois käytöstä"
+
+#: ../recording.rst:326
+msgid ""
+"The active screen backend/build does not support it; check platform audio "
+"routing."
+msgstr ""
+"Käytössä oleva näyttötaustajärjestelmä/koontiversio ei tue sitä; tarkista "
+"alustan äänen reititys."
+
+#: ../recording.rst:327
+msgid "System Audio is silent"
+msgstr "Järjestelmän ääni on hiljainen"
+
+#: ../recording.rst:327
+msgid ""
+"Play audio before testing, verify the output device, and inspect OS "
+"privacy/routing."
+msgstr ""
+"Toista ääni ennen testausta, varmista ulostulolaite ja tarkista "
+"käyttöjärjestelmän yksityisyys/reititys."
+
+#: ../recording.rst:328
+msgid "Voice contains game echo"
+msgstr "Äänessä on pelin kaiku"
+
+#: ../recording.rst:328
+msgid "Use headphones so the mic does not capture speaker playback."
+msgstr "Käytä kuulokkeita, jotta mikrofoni ei tallenna kaiuttimen toistoa."
+
+#: ../recording.rst:329
+msgid "Screen source is incorrect"
+msgstr "Näytön lähde on virheellinen"
+
+#: ../recording.rst:329
+msgid ""
+"Re-select Full Screen/Window/Region; on Wayland, choose again in the portal."
+msgstr ""
+"Valitse Koko näyttö/Ikkuna/Alue uudelleen; Waylandissa valitse uudelleen "
+"portaalissa."
+
+#: ../recording.rst:330
+msgid "Cursor missing on Windows"
+msgstr "Kohdistin puuttuu Windowsissa"
+
+#: ../recording.rst:330
+msgid ""
+"High-DPI scaling can affect the pointer overlay; try the target display at "
+"100%."
+msgstr ""
+"Korkean DPI:n skaalaus voi vaikuttaa osoittimen päällekkäiseen näyttöön; "
+"kokeile kohdenäyttöä 100 %:ssa."
+
+#: ../recording.rst:331
+msgid "Webcam is unavailable"
+msgstr "Webkamera ei ole käytettävissä"
+
+#: ../recording.rst:331
+msgid ""
+"Check camera permission, close other camera apps, and reconnect the device."
+msgstr ""
+"Tarkista kameran lupa, sulje muut kameraohjelmat ja yhdistä laite uudelleen."
+
+#: ../recording.rst:332
+msgid "Recording is choppy"
+msgstr "Tallennus on nykivää"
+
+#: ../recording.rst:332
+msgid ""
+"Lower screen/camera FPS or resolution and close CPU-intensive applications."
+msgstr ""
+"Alenna näytön/kameran FPS:ää tai resoluutiota ja sulje CPU:ta kuormittavat "
+"sovellukset."
+
+#: ../recording.rst:333
+msgid "Clips appear on wrong track"
+msgstr "Leikkeet näkyvät väärällä raidalla"
+
+#: ../recording.rst:333
+msgid ""
+"Choose the top destination Track before recording, then move clips if "
+"needed."
+msgstr ""
+"Valitse ylin kohderaita ennen tallennusta, siirrä leikkeet tarvittaessa."
+
+#: ../recording.rst:337
+msgid "After Recording"
+msgstr "Tallennuksen jälkeen"
+
+#: ../recording.rst:339
+msgid ""
+"Recorded clips behave like imported media. You can trim, slice, move, mute, "
+"fade, add effects, and adjust volume or layout with the standard editing "
+"tools. Useful next topics are:"
+msgstr ""
+"Tallennetut leikkeet käyttäytyvät kuten tuotu media. Voit rajata, leikata, "
+"siirtää, mykistää, häivyttää, lisätä tehosteita sekä säätää "
+"äänenvoimakkuutta tai asettelua tavallisilla muokkaustyökaluilla. Seuraavat "
+"aiheet ovat hyödyllisiä:"
+
+#: ../recording.rst:342
+msgid ":ref:`clips_cutting_slicing_ref` for trimming and slicing."
+msgstr ":ref:`clips_cutting_slicing_ref` rajaukseen ja leikkaamiseen."
+
+#: ../recording.rst:343
+msgid ""
+":ref:`clip_presets_ref` for waveform, volume, fade, and other clip actions."
+msgstr ""
+":ref:`clip_presets_ref` aaltomuotoon, äänenvoimakkuuteen, häivytykseen ja "
+"muihin leikkeen toimintoihin."
+
+#: ../recording.rst:344
+msgid ""
+":ref:`clip_properties_ref` for webcam placement and detailed adjustments."
+msgstr ""
+":ref:`clip_properties_ref` webkameran sijoitteluun ja yksityiskohtaisiin "
+"säätöihin."
+
+#: ../recording.rst:345
+msgid ":ref:`playback_ref` for playback and audio troubleshooting."
+msgstr ":ref:`playback_ref` toistoon ja äänen vianmääritykseen."

@@ -1,0 +1,18 @@
+# © OpenShot Studios, LLC
+#
+# SPDX-License-Identifier: LGPL-3.0-or-later
+
+coverage:
+  status:
+    project:
+      default:
+        only_pulls: true # Only post a status to pull requests
+        informational: true # Don't block PRs based on coverage stats (yet?)
+ignore:
+  - "examples"
+  - "bindings"
+  - "thirdparty/jsoncpp"
+  - "doc"
+  - "cmake"
+  - "*.md"
+  - "src/openshot_autogen"

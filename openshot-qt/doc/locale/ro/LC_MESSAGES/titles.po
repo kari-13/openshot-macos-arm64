@@ -1,0 +1,1139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:23
+msgid "Text & Titles"
+msgstr "Text și Titluri"
+
+#: ../titles.rst:25
+msgid ""
+"Adding text overlays, lower thirds, and titles is an important aspect of "
+"video editing, and OpenShot comes with an easy-to-use Title Editor. Use the "
+"Title menu (located in the main menu of OpenShot) to launch the Title "
+"Editor. You can also use the keyboard shortcut :kbd:`Ctrl+T`."
+msgstr ""
+"Adăugarea suprapunerilor de text, a lower thirds și a titlurilor este un "
+"aspect important al editării video, iar OpenShot vine cu un Editor de "
+"Titluri ușor de utilizat. Folosește meniul Titlu (situat în meniul principal"
+" al OpenShot) pentru a lansa Editorul de Titluri. Poți folosi și scurtătura "
+"de tastatură :kbd:`Ctrl+T`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:29
+msgid ""
+"Titles are simply vector image files with transparent backgrounds "
+"(``*.svg``). OpenShot comes with many easy-to-use templates, but you can "
+"also create your own or import new templates into OpenShot. These templates "
+"allow you to quickly change the text, font, size, color, and background "
+"color. You can also launch an advanced, external SVG editor for further "
+"customizations (if needed). Once the title is added to your project, drag "
+"and drop the title on a Track above a video clip. The transparent background"
+" will allow the video below to appear behind the text."
+msgstr ""
+"Titlurile sunt pur și simplu fișiere de imagine vectorială cu fundal "
+"transparent (``*.svg``). OpenShot include multe șabloane ușor de utilizat, "
+"dar poți crea și propriile tale sau importa șabloane noi în OpenShot. Aceste"
+" șabloane îți permit să schimbi rapid textul, fontul, dimensiunea, culoarea "
+"și culoarea de fundal. De asemenea, poți lansa un editor SVG avansat, "
+"extern, pentru personalizări suplimentare (dacă este necesar). Odată ce "
+"titlul este adăugat în proiectul tău, trage și plasează titlul pe o pistă "
+"deasupra unui clip video. Fundalul transparent va permite videoclipului de "
+"dedesubt să apară în spatele textului."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:36
+msgid "Overview"
+msgstr "Prezentare generală"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:185
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:185
+msgid "Name"
+msgstr "Nume"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:63 ../titles.rst:185 ../titles.rst:204
+msgid "Description"
+msgstr "Descriere"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46 ../titles.rst:187
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46 ../titles.rst:187
+msgid "Choose a Template"
+msgstr "Alege un șablon"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46
+msgid "Choose from any available vector title template"
+msgstr "Alege din orice șablon de titlu vectorial disponibil"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "Preview Title"
+msgstr "Previzualizează titlul"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "Preview your title as you make changes"
+msgstr "Previzualizează titlul în timp ce faci modificări"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48 ../titles.rst:189
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48 ../titles.rst:189
+msgid "Title Properties"
+msgstr "Proprietăți titlu"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48
+msgid ""
+"Change the text, font, size, colors, or edit in an advanced, external SVG "
+"image editor (such as Inkscape)"
+msgstr ""
+"Schimbă textul, fontul, dimensiunea, culorile sau editează în editorul "
+"avansat extern de imagini SVG (cum ar fi Inkscape)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49 ../titles.rst:190
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49
+msgid "Save"
+msgstr "Salvează"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49
+msgid "Save and add the title to your project"
+msgstr "Salvează și adaugă titlul în proiectul tău"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:53
+msgid "Title Templates"
+msgstr "Șabloane de titlu"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:55
+msgid ""
+"OpenShot includes a variety of vector title templates that can be used to "
+"enhance your video projects. Below is a table listing the available titles "
+"and their descriptions:"
+msgstr ""
+"OpenShot include o varietate de șabloane de titlu vectorial care pot fi "
+"folosite pentru a îmbunătăți proiectele tale video. Mai jos este un tabel cu"
+" titlurile disponibile și descrierile lor:"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:62
+msgid "Title Name"
+msgstr "Numele titlului"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:64
+msgid "Bar 1"
+msgstr "Bară 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:65
+msgid "A simple bar with text centered."
+msgstr "O bară simplă cu text centrat."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:66
+msgid "Bar 2"
+msgstr "Bară 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:67
+msgid "A simple bar, centered, with 2 lines of text."
+msgstr "O bară simplă, centrată, cu 2 linii de text."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:68
+msgid "Bar 3"
+msgstr "Bară 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:69
+msgid "Another variation of a simple bar with text, for lower 3rds."
+msgstr "O altă variantă a unei bare simple cu text, pentru lower thirds."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:70
+msgid "Box"
+msgstr "Cutie"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:71
+#, fuzzy
+msgid "A simple boxed title layout for centered text."
+msgstr "O bară simplă cu text centrat."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:72
+msgid "Bubbles 1"
+msgstr "Bule 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:73
+msgid "A title with bubble graphics for a playful look."
+msgstr "Un titlu cu grafice de bule pentru un aspect jucăuș."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:74
+msgid "Bubbles 2"
+msgstr "Bule 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:75
+msgid "A different bubble design for a fun and creative title."
+msgstr "Un design diferit de bule pentru un titlu distractiv și creativ."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:76
+msgid "Camera Border"
+msgstr "Chenar cameră"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:77
+msgid "A border that mimics a camera viewfinder with centered text."
+msgstr "Un chenar care imită vizorul unei camere, cu text centrat."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:78
+msgid "Cloud 1"
+msgstr "Nor 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:79
+msgid "A title with a playful cloud graphic and text."
+msgstr "Un titlu cu o grafică jucăușă de nor și text."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:80
+msgid "Cloud 2"
+msgstr "Nor 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:81
+msgid "Another playful cloud design with 3 clouds and text."
+msgstr "Un alt design jucăuș de nor cu 3 nori și text."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:82
+msgid "Creative Commons 1"
+msgstr "Creative Commons 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:83
+msgid "Contains text and icons for Creative Commons attribution."
+msgstr "Conține text și icoane pentru atribuirea Creative Commons."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:84
+msgid "Creative Commons 2"
+msgstr "Creative Commons 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:85
+msgid ""
+"Another Creative Commons design with different styling plus website text."
+msgstr "Un alt design Creative Commons cu stil diferit și text pentru site."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:86
+msgid "Film Rating 1"
+msgstr "Clasificare film 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:87
+msgid "Displays a film rating for all audiences."
+msgstr "Afișează o clasificare a filmului pentru toate audiențele."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:88
+msgid "Film Rating 2"
+msgstr "Clasificare film 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:89
+msgid "Displays a film rating of \"R\" restricted."
+msgstr "Afișează o clasificare a filmului \"R\" - restricționat."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:90
+msgid "Film Rating 3"
+msgstr "Clasificare film 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:91
+msgid "Displays a film rating of \"G\" for general audiences."
+msgstr "Afișează o clasificare a filmului \"G\" pentru audiențe generale."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:92
+msgid "Film Rating 4"
+msgstr "Clasificare film 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:93
+msgid "Displays a film rating of \"PG-13\", parents strongly cautioned."
+msgstr ""
+"Afișează o clasificare a filmului \"PG-13\", părinții sunt puternic "
+"avertizați."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:94
+#, fuzzy
+msgid "Flare"
+msgstr "Strălucire"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:95
+#, fuzzy
+msgid "A title with a bright flare effect for a cinematic look."
+msgstr "Un titlu cu efecte de fum pentru un aspect dramatic."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:96
+msgid "Flames"
+msgstr "Flăcări"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:97
+msgid "A title with flame graphics for a fiery effect."
+msgstr "Un titlu cu grafice de flăcări pentru un efect incendiar."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:98
+msgid "Footer 1"
+msgstr "Subsol 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:99
+msgid "A footer bar for lower thirds (left aligned)."
+msgstr "O bară de subsol pentru lower thirds (aliniată la stânga)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:100
+msgid "Footer 2"
+msgstr "Subsol 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:101
+msgid "A footer bar for lower thirds (center aligned)."
+msgstr "O bară de subsol pentru lower thirds (aliniată la centru)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:102
+msgid "Footer 3"
+msgstr "Subsol 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:103
+msgid "A footer bar for lower thirds (right aligned)."
+msgstr "O bară de subsol pentru lower thirds (aliniată la dreapta)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:104
+msgid "Gold 1"
+msgstr "Aur 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:105
+msgid "A title with a gold color scheme, centered with one line of text."
+msgstr "Un titlu cu o schemă de culori aurii, centrat cu o linie de text."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:106
+msgid "Gold 2"
+msgstr "Aur 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:107
+msgid "Another gold-themed title, centered with two lines of text."
+msgstr "Un alt titlu cu tematică aurie, centrat cu două linii de text."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:108
+msgid "Gold Bottom"
+msgstr "Aur jos"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:109
+msgid "Gold title positioned at the bottom of the screen."
+msgstr "Titlu auriu poziționat în partea de jos a ecranului."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:110
+msgid "Gold Top"
+msgstr "Aur sus"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:111
+msgid "Gold title positioned at the top of the screen."
+msgstr "Titlu auriu poziționat în partea de sus a ecranului."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:112
+msgid "Gray Box 1"
+msgstr "Casetă gri 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:113
+msgid ""
+"A simple gray box for highlighting text (one line of text, top-left "
+"aligned)."
+msgstr ""
+"O casetă gri simplă pentru evidențierea textului (o linie de text, aliniat "
+"sus-stânga)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:114
+msgid "Gray Box 2"
+msgstr "Casetă gri 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:115
+msgid ""
+"A simple gray box for highlighting text (two lins of text, top-left "
+"aligned)."
+msgstr ""
+"O casetă gri simplă pentru evidențierea textului (două linii de text, "
+"aliniat sus-stânga)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:116
+msgid "Gray Box 3"
+msgstr "Casetă gri 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:117
+msgid ""
+"A simple gray box for highlighting text (one line of text, bottom-right "
+"aligned)."
+msgstr ""
+"O cutie gri simplă pentru evidențierea textului (o linie de text, aliniat în"
+" dreapta jos)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:118
+msgid "Gray Box 4"
+msgstr "Cutie Gri 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:119
+msgid ""
+"A simple gray box for highlighting text (two lines of text, bottom-right "
+"aligned)."
+msgstr ""
+"O cutie gri simplă pentru evidențierea textului (două linii de text, "
+"aliniate în dreapta jos)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:120
+msgid "Header 1"
+msgstr "Antet 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:121
+msgid "A header bar for titles or section headers (top-left aligned)."
+msgstr ""
+"O bară de antet pentru titluri sau antete de secțiune (aliniat în stânga "
+"sus)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:122
+msgid "Header 2"
+msgstr "Antet 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:123
+msgid "A header bar for titles or section headers (center aligned)."
+msgstr ""
+"O bară de antet pentru titluri sau antete de secțiune (aliniat la centru)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:124
+msgid "Header 3"
+msgstr "Antet 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:125
+msgid "A header bar for titles or section headers (top-right aligned)."
+msgstr ""
+"O bară de antet pentru titluri sau antete de secțiune (aliniat în dreapta "
+"sus)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:126
+msgid "OpenShot"
+msgstr "OpenShot"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:127
+msgid "A title featuring OpenShot branding."
+msgstr "Un titlu care prezintă brandul OpenShot."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:128
+msgid "Oval 1"
+msgstr "Oval 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:129
+msgid "An oval shape for highlighting or decorative purposes, text centered."
+msgstr ""
+"O formă ovală pentru evidențiere sau scopuri decorative, text centrat."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:130
+msgid "Oval 2"
+msgstr "Oval 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:131
+msgid "Another oval design with a different style, text centered."
+msgstr "Un alt design oval cu un stil diferit, text centrat."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:132
+msgid "Oval 3"
+msgstr "Oval 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:133
+msgid ""
+"Another oval design with two-lines of text, one at the top, one at the "
+"bottom."
+msgstr "Un alt design oval cu două linii de text, una sus, una jos."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:134
+msgid "Oval 4"
+msgstr "Oval 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:135
+msgid "Yet another oval design, with text centered plus refection."
+msgstr "Încă un design oval, cu text centrat plus reflexie."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:136
+msgid "Post it"
+msgstr "Notă adezivă"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:137
+msgid "Mimics a sticky note for annotations or reminders."
+msgstr "Imită o notă adezivă pentru adnotări sau mementouri."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:138
+msgid "Ribbon 1"
+msgstr "Panglică 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:139
+msgid "A ribbon graphic with text."
+msgstr "O grafică cu panglică și text."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:140
+msgid "Ribbon 2"
+msgstr "Panglică 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:141
+msgid "Another ribbon design with text."
+msgstr "Un alt design de panglică cu text."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:142
+msgid "Ribbon 3"
+msgstr "Panglică 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:143
+msgid "A third variation of a ribbon design with text."
+msgstr "A treia variație a unui design de panglică cu text."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:144
+msgid "Smoke 1"
+msgstr "Fum 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:145
+msgid "A title with smoke effects for a dramatic look."
+msgstr "Un titlu cu efecte de fum pentru un aspect dramatic."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:146
+msgid "Smoke 2"
+msgstr "Fum 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:147
+msgid "Another smoke design with a different style."
+msgstr "Un alt design de fum cu un stil diferit."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:148
+msgid "Smoke 3"
+msgstr "Fum 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:149
+msgid "A third variation of smoke effects."
+msgstr "A treia variație a efectelor de fum."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:150
+msgid "Solid Color"
+msgstr "Culoare Solidă"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:151
+msgid "A full-screen color background for various uses."
+msgstr "Un fundal colorat pe tot ecranul pentru diverse utilizări."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:152
+msgid "Standard 1"
+msgstr "Standard 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:153
+msgid "A standard title design for general purposes (two lines centered)."
+msgstr ""
+"Un design standard de titlu pentru scopuri generale (două linii centrate)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:154
+msgid "Standard 2"
+msgstr "Standard 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:155
+msgid ""
+"Another standard title with a different style (one line of text plus "
+"reflection)."
+msgstr ""
+"Un alt titlu standard cu un stil diferit (o linie de text plus reflexie)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:156
+msgid "Standard 3"
+msgstr "Standard 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:157
+msgid "A third variation of a standard title (three lines of text)."
+msgstr "A treia variație a unui titlu standard (trei linii de text)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:158
+msgid "Standard 4"
+msgstr "Standard 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:159
+msgid "Yet another standard title design (four lines of text)."
+msgstr "Încă un design standard de titlu (patru linii de text)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:160
+msgid "Sunset"
+msgstr "Apus"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:161
+msgid "A title with sunset gradient for a warm, end-of-day theme."
+msgstr "Un titlu cu gradient de apus pentru o temă caldă, de sfârșit de zi."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:162
+msgid "TV Rating"
+msgstr "Clasificare TV"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:163
+msgid ""
+"Displays TV ratings badge such as \"G\" and \"PG\" (for the corner of the "
+"screen)."
+msgstr ""
+"Afișează insignele de clasificare TV precum „G” și „PG” (pentru colțul "
+"ecranului)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:167
+msgid "Custom Title Templates"
+msgstr "Șabloane Personalizate de Titlu"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:168
+msgid ""
+"OpenShot can use any vector SVG image file as a custom title template in the"
+" :guilabel:`Title Editor` dialog. Just add an SVG image file to your "
+"``~/.openshot_qt/title_templates/`` folder, and it will appear the next time"
+" you launch the :guilabel:`Title Editor` dialog. You can also right click on"
+" any SVG files in your **Project Files** panel, and choose **Edit Title** or"
+" **Duplicate Title**."
+msgstr ""
+"OpenShot poate folosi orice fișier imagine vectorial SVG ca șablon "
+"personalizat de titlu în dialogul :guilabel:`Editor Titlu`. Pur și simplu "
+"adaugă un fișier SVG în folderul ``~/.openshot_qt/title_templates/``, iar "
+"acesta va apărea data viitoare când deschizi dialogul :guilabel:`Editor "
+"Titlu`. De asemenea, poți face clic dreapta pe orice fișier SVG din panoul "
+"**Fișiere Proiect** și alege **Editează Titlul** sau **Duplică Titlul**."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:172
+msgid ""
+"Note: These SVG templates are only used by the :guilabel:`Title Editor` "
+"dialog, and not :guilabel:`Animated Title` dialog."
+msgstr ""
+"Notă: Aceste șabloane SVG sunt folosite doar de dialogul :guilabel:`Editor "
+"Titlu`, și nu de dialogul :guilabel:`Titlu Animat`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:177
+msgid "3D Animated Titles"
+msgstr "Titluri Animate 3D"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:178
+msgid ""
+"Adding a 3D animated title is just as easy, using our **Animated Title** "
+"dialog. Use the Title menu (located in the main menu of OpenShot) to launch "
+"the Animated Title editor. You can also use the keyboard shortcut "
+"**Ctrl+B**. Note: Blender must be installed and configured before this "
+"feature will work in OpenShot. See :ref:`blender_install_ref`."
+msgstr ""
+"Adăugarea unui titlu animat 3D este la fel de simplă, folosind dialogul "
+"nostru **Titlu Animat**. Folosește meniul Titlu (din meniul principal al "
+"OpenShot) pentru a deschide editorul de Titluri Animate. Poți folosi și "
+"scurtătura de tastatură **Ctrl+B**. Notă: Blender trebuie instalat și "
+"configurat înainte ca această funcție să funcționeze în OpenShot. Vezi "
+":ref:`blender_install_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:187
+msgid "Choose from any available 3D title templates"
+msgstr "Alege din orice șablon de titlu 3D disponibil"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:189
+msgid "Change the text, colors, and advanced properties"
+msgstr "Schimbă textul, culorile și proprietățile avansate"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:190
+msgid "Render"
+msgstr "Redă"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:190
+msgid "Render the 3D animation, and add it to your project"
+msgstr "Redă animația 3D și adaug-o în proiectul tău"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:194
+msgid "3D Animated Templates"
+msgstr "Șabloane Animate 3D"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:196
+msgid ""
+"OpenShot includes a variety of 3D animated templates that can be used to add"
+" dynamic and engaging elements to your video projects. Below is a table "
+"listing the available templates and their descriptions:"
+msgstr ""
+"OpenShot include o varietate de șabloane animate 3D care pot fi folosite "
+"pentru a adăuga elemente dinamice și captivante proiectelor tale video. Mai "
+"jos este un tabel cu șabloanele disponibile și descrierile lor:"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:203
+msgid "Template Name"
+msgstr "Numele Șablonului"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:205
+msgid "Blinds (Two Titles)"
+msgstr "Jaluzele (Două Titluri)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:206
+msgid "An animation featuring a blinds effect."
+msgstr "O animație cu efect de jaluzele."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:207
+msgid "Blur"
+msgstr "Estompare"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:208
+msgid ""
+"A template that blurs text in and out, providing a smooth transition effect."
+msgstr ""
+"Un șablon care estompează textul la intrare și ieșire, oferind un efect de "
+"tranziție lin."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:209
+msgid "Color Tiles"
+msgstr "Plăci Colorate"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:210
+msgid ""
+"An animation with changing colors, suitable for vibrant and dynamic titles."
+msgstr ""
+"O animație cu culori schimbătoare, potrivită pentru titluri vibrante și "
+"dinamice."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:211
+msgid "Dissolving Text"
+msgstr "Text Dizolvat"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:212
+msgid ""
+"A dissolve effect that turns any text into particles which get blown away by"
+" the wind."
+msgstr ""
+"Un efect de dizolvare care transformă orice text în particule ce sunt "
+"suflate de vânt."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:213
+msgid "World Map"
+msgstr "Hartă Mondială"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:214
+msgid "A template featuring a rotating Earth between 2 locations."
+msgstr "Un șablon cu o Pământ rotativ între două locații."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:215
+msgid "Exploding Text"
+msgstr "Text Exploziv"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:216
+msgid ""
+"An animation where the title explode into pieces, adding dramatic impact."
+msgstr ""
+"O animație în care titlul explodează în bucăți, adăugând un impact dramatic."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:217
+msgid "Fly Towards Camera"
+msgstr "Zbor către cameră"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:218
+msgid "A fly-by animation with a single title zooming past the screen."
+msgstr ""
+"O animație de trecere rapidă cu un singur titlu care trece în fața "
+"ecranului."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:219
+msgid "Fly Towards Camera (Two Titles)"
+msgstr "Zbor către cameră (Două titluri)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:220
+msgid "Similar to Fly By 1, but with two titles flying by."
+msgstr "Similar cu Zborul 1, dar cu două titluri care trec pe lângă."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:221
+msgid "Glare"
+msgstr "Strălucire"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:222
+msgid "An animation with a glare effect, adding a bright, reflective look."
+msgstr ""
+"O animație cu efect de strălucire, adăugând un aspect luminos și "
+"reflectorizant."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:223
+msgid "Glass Slider"
+msgstr "Glisor de sticlă"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:224
+msgid "A sliding glass effect, providing a modern and sleek transition."
+msgstr ""
+"Un efect de alunecare a sticlei, oferind o tranziție modernă și elegantă."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:225
+msgid "Lens Flare"
+msgstr "Reflexie de lentilă"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:226
+msgid "An animation featuring a lens flare, adding a cinematic touch."
+msgstr "O animație cu reflexie de lentilă, adăugând o notă cinematografică."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:227
+msgid "Magic Wand"
+msgstr "Baghetă magică"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:228
+msgid "A whimsical magic wand effect, ideal for magical or fantasy themes."
+msgstr ""
+"Un efect jucăuș de baghetă magică, ideal pentru teme magice sau fantastice."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:229
+msgid "Neon Curves"
+msgstr "Curbe neon"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:230
+msgid "An animation with neon curves, creating a futuristic and vibrant look."
+msgstr "O animație cu curbe neon, creând un aspect futurist și vibrant."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:231
+msgid "Picture Frames (4 pictures)"
+msgstr "Rame foto (4 imagini)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:232
+msgid ""
+"A template featuring four picture frames, suitable for showcasing images or "
+"video clips."
+msgstr ""
+"Un șablon cu patru rame foto, potrivit pentru prezentarea imaginilor sau "
+"clipurilor video."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:233
+msgid "Rotate 360"
+msgstr "Rotire 360"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:234
+msgid "A 360-degree rotation effect, providing a dynamic title animation."
+msgstr ""
+"Un efect de rotație la 360 de grade, oferind o animație dinamică a titlului."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:235
+msgid "Slide Left to Right"
+msgstr "Alunecare de la stânga la dreapta"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:236
+msgid "A sliding effect where titles move from left to right."
+msgstr ""
+"Un efect de alunecare în care titlurile se mișcă de la stânga la dreapta."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:237
+msgid "Snow"
+msgstr "Zăpadă"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:238
+msgid ""
+"An animation with falling snow particles, perfect for winter or holiday "
+"themes."
+msgstr ""
+"O animație cu particule de zăpadă căzătoare, perfectă pentru teme de iarnă "
+"sau sărbători."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:239
+msgid "Space Movie Intro"
+msgstr "Intro film spațial"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:240
+msgid "A cinematic space-themed intro, ideal for epic or sci-fi projects."
+msgstr ""
+"Un intro cinematic cu tematică spațială, ideal pentru proiecte epice sau SF."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:241
+msgid "Wireframe Text"
+msgstr "Text schelet"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:242
+msgid "An animation with wireframe text, adding a technical or digital look."
+msgstr "O animație cu text schelet, adăugând un aspect tehnic sau digital."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:243
+msgid "Zoom to Clapboard"
+msgstr "Zoom către clapetă"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:244
+msgid ""
+"A zoom title with a clapboard, perfect for film or video production themes."
+msgstr ""
+"Un titlu cu zoom și clapetă, perfect pentru teme de producție film sau "
+"video."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:247
+msgid "Importing Text"
+msgstr "Importarea textului"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:249
+msgid ""
+"You can generate text & titles in many different programs, such as Blender, "
+"Inkscape, Krita, Gimp, etc... Before you can import text into OpenShot, you "
+"must first export the text from these programs into a compatible image "
+"format that contains a **transparent background** and **alpha** channel."
+msgstr ""
+"Puteți genera text și titluri în multe programe diferite, cum ar fi Blender,"
+" Inkscape, Krita, Gimp etc. Înainte de a importa textul în OpenShot, trebuie"
+" mai întâi să exportați textul din aceste programe într-un format de imagine"
+" compatibil care să conțină un **fundal transparent** și un canal **alpha**."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:253
+msgid ""
+"The ``SVG`` format is a great choice for vector graphics (curves, shapes, "
+"text effects and paths), however it is **not** always 100% compatible with "
+"OpenShot. Thus, we recommend using ``PNG`` format, which is a great web-"
+"based image format that can include a transparent background and alpha "
+"channel. A transparent background and alpha channel are needed for OpenShot "
+"to allow the text to not cover up videos and images on the timeline below "
+"them."
+msgstr ""
+"Formatul ``SVG`` este o alegere excelentă pentru grafica vectorială (curbe, "
+"forme, efecte de text și trasee), însă nu este întotdeauna 100% compatibil "
+"cu OpenShot. Prin urmare, recomandăm utilizarea formatului ``PNG``, care "
+"este un format de imagine web excelent ce poate include un fundal "
+"transparent și canal alpha. Un fundal transparent și canal alpha sunt "
+"necesare pentru ca OpenShot să permită textului să nu acopere videoclipurile"
+" și imaginile de pe linia temporală de dedesubt."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:258
+msgid ""
+"For information on importing animated sequences into OpenShot, please see "
+":ref:`animation_image_seq_ref`."
+msgstr ""
+"Pentru informații despre importul secvențelor animate în OpenShot, vă rugăm "
+"să consultați :ref:`animation_image_seq_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:261
+msgid "Installing Inkscape"
+msgstr "Instalarea Inkscape"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:263
+msgid ""
+"The :guilabel:`Advanced Editor` feature in the :guilabel:`Title Editor` "
+"dialog requires the latest version of Inkscape "
+"(https://inkscape.org/release/) be installed and the OpenShot "
+"**Preferences** updated with the correct path to the Inkscape executable. "
+"See the :ref:`preferences_general_ref` tab in Preferences."
+msgstr ""
+"Funcția :guilabel:`Advanced Editor` din dialogul :guilabel:`Title Editor` "
+"necesită instalarea celei mai recente versiuni de Inkscape "
+"(https://inkscape.org/release/) și actualizarea **Preferințelor** OpenShot "
+"cu calea corectă către executabilul Inkscape. Consultați fila "
+":ref:`preferences_general_ref` din Preferințe."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:270
+msgid "Installing Blender"
+msgstr "Instalarea Blender"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:272
+msgid ""
+"The :guilabel:`Animated Title` feature in OpenShot requires the latest "
+"version of Blender (https://www.blender.org/download/) be installed and the "
+"OpenShot **Preferences** updated with the correct path to the Blender "
+"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE:"
+" The minimum supported version of Blender is 5.0+. Older versions of Blender"
+" are not compatible with OpenShot Video Editor."
+msgstr ""
+"Funcția :guilabel:`Animated Title` din OpenShot necesită instalarea celei "
+"mai recente versiuni de Blender (https://www.blender.org/download/) și "
+"actualizarea **Preferințelor** OpenShot cu calea corectă către executabilul "
+"Blender. Consultați fila :ref:`preferences_general_ref` din Preferințe. "
+"NOTĂ: Versiunea minimă suportată de Blender este 5.0+. Versiunile mai vechi "
+"de Blender nu sunt compatibile cu OpenShot Video Editor."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:278
+msgid ""
+"For a detailed guide on how to install these dependencies, see `Blender & "
+"Inkscape Guide <https://github.com/OpenShot/openshot-qt/wiki/Blender-and-"
+"Inkscape-Guide>`_."
+msgstr ""
+"Pentru un ghid detaliat despre cum să instalați aceste dependențe, "
+"consultați `Ghidul Blender & Inkscape <https://github.com/OpenShot/openshot-"
+"qt/wiki/Blender-and-Inkscape-Guide>`_."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Adding text and titles is an important aspect of video editing, and OpenShot"
+#~ " comes with an easy-to-use Title Editor. Use the Title menu (located in the "
+#~ "main menu of OpenShot) to launch the Title Editor. You can also use the "
+#~ "keyboard shortcut :kbd:`Ctrl+T`."
+#~ msgstr ""
+#~ "Adăugarea de text și titluri este un aspect important al editării video, iar"
+#~ " OpenShot vine cu un Editor de Titluri ușor de utilizat. Folosește meniul "
+#~ "Titlu (situat în meniul principal al OpenShot) pentru a lansa Editorul de "
+#~ "Titluri. Poți folosi și scurtătura de tastatură :kbd:`Ctrl+T`."

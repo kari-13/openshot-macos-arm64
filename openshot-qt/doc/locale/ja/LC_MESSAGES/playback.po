@@ -1,0 +1,380 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-22 12:37-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:23
+msgid "Playback"
+msgstr "再生"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:24
+msgid ""
+"The preview window is where video & audio playback takes place in OpenShot "
+"Video Editor. The preview window utilizes real-time video rendering, "
+"caching, re-sampling, and image scaling. This is the primary area for "
+"watching back (and listening to) your edits, giving you the feedback needed "
+"to make adjustments. It is also one of the most costly operations to your "
+"CPU, and requires a modern computer and some reasonable assumptions and "
+"factors (listed below)."
+msgstr ""
+"プレビューウィンドウは、OpenShot Video "
+"Editorでビデオとオーディオの再生が行われる場所です。プレビューウィンドウはリアルタイムのビデオレンダリング、キャッシュ、リサンプリング、画像スケーリングを利用しています。ここは編集内容を再生（視聴および聴取）して調整のフィードバックを得る主要なエリアです。また、CPUに最も負荷のかかる操作の一つであり、最新のコンピュータと以下に示す合理的な条件が必要です。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:30
+msgid "Real-Time Preview"
+msgstr "リアルタイムプレビュー"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:31
+msgid ""
+"Many factors affect how smoothly the **real-time video preview** can "
+"playback on your computer. This requires a fast, modern multi-threaded CPU, "
+"lots of RAM (memory), and a modern GPU. We have listed many of the important"
+" factors below."
+msgstr ""
+"多くの要因が、コンピュータ上での**リアルタイムビデオプレビュー** "
+"の滑らかな再生に影響します。高速で最新のマルチスレッドCPU、大量のRAM（メモリ）、最新のGPUが必要です。重要な要因を以下に示します。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38
+msgid "Factor"
+msgstr "要因"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38 ../playback.rst:97
+msgid "Description"
+msgstr "説明"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid "CPU"
+msgstr "CPU"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid ""
+"If your CPU is too slow or has too few cores, you will likely experience a "
+"slow, choppy preview. We recommend installing OpenShot on fairly modern "
+"computer. See :ref:`min_system_req_ref` for more details on the hardware "
+"requirements for OpenShot Video Editor."
+msgstr ""
+"CPUが遅すぎるかコア数が少ない場合、プレビューが遅く途切れがちになります。OpenShotは比較的最新のコンピュータにインストールすることを推奨します。OpenShot"
+" Video Editorのハードウェア要件の詳細は :ref:`min_system_req_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid "Memory"
+msgstr "メモリ"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid ""
+"If your available RAM memory is too limited, you will likely see huge drops "
+"in real-time performance, and your entire system will lag. We recommend "
+"installing additional RAM in your computer, if possible. See "
+":ref:`min_system_req_ref`."
+msgstr ""
+"利用可能なRAMメモリが不足していると、リアルタイムパフォーマンスが大幅に低下し、システム全体が遅くなります。可能であれば追加のRAMを搭載することを推奨します。詳細は"
+" :ref:`min_system_req_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid "Cache"
+msgstr "キャッシュ"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid ""
+"Your cache settings in the OpenShot Preferences are very important for "
+"determining how many frames to processes in advance. A value too low or too "
+"high can cause lag during the real-time video preview. The cache is also "
+"related to the available RAM. The higher the cache values, the more RAM and "
+"CPU is needed. We recommend experimenting with the Cache Preferences in "
+"OpenShot if you are experiencing issues with smooth playback. This same "
+"caching system also prepares frames ahead of time during export, speeding up"
+" the final render. See :ref:`preferences_cache_ref`."
+msgstr ""
+"OpenShotの設定にあるキャッシュ設定は、事前に処理するフレーム数を決定する上で非常に重要です。値が低すぎたり高すぎたりすると、リアルタイムビデオプレビューで遅延が発生します。キャッシュは利用可能なRAMとも関連しています。キャッシュ値が高いほど、より多くのRAMとCPUが必要です。スムーズな再生に問題がある場合は、OpenShotのキャッシュ設定を調整することを推奨します。このキャッシュシステムはエクスポート時にもフレームを事前準備し、最終レンダリングを高速化します。詳細は"
+" :ref:`preferences_cache_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid "Preview Size"
+msgstr "プレビューサイズ"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid ""
+"The height x width of your preview dock (widget) is very important for "
+"smooth real-time previews. The larger the window size, the more pixels must "
+"be rendered per frame, and the more CPU and RAM are required. It is "
+"recommended to keep reducing the preview window size until you achieve "
+"smooth video playback. On a slower computer, the preview window size might "
+"need to be very small for real-time previews (i.e. 320 x 240)."
+msgstr ""
+"プレビュードック（ウィジェット）の高さ×幅は、スムーズなリアルタイムプレビューに非常に重要です。ウィンドウサイズが大きいほど、1フレームあたりにレンダリングするピクセル数が増え、より多くのCPUとRAMが必要になります。スムーズな再生が得られるまでプレビューウィンドウのサイズを小さくすることを推奨します。性能の低いコンピュータでは、リアルタイムプレビューのために非常に小さいサイズ（例：320×240）が必要になる場合があります。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid "Profile"
+msgstr "プロファイル"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid ""
+"Your project profile determines which size (width x height) and frame rate "
+"(FPS) are used during both playback and exporting. For example, if you are "
+"using a FHD 1920x1080 sized profile, you can also choose a smaller profile "
+"with the same aspect ratio (``16x9`` in this example), to improve the "
+"preview speed on slower computers. See :ref:`profiles_ref` for more "
+"information on available profiles."
+msgstr ""
+"プロジェクトのプロファイルは、再生およびエクスポート時に使用されるサイズ（幅×高さ）とフレームレート（FPS）を決定します。例えば、FHD "
+"1920x1080のプロファイルを使用している場合、同じアスペクト比（この例では``16x9`` "
+"）のより小さいプロファイルを選択して、性能の低いコンピュータでのプレビュー速度を向上させることができます。利用可能なプロファイルの詳細は "
+":ref:`profiles_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid "FPS (Frame Rate)"
+msgstr "FPS（フレームレート）"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid ""
+"The FPS of your project is also very important, and a large factor for "
+"smooth video playback. For example, a 60 FPS video must render twice the "
+"number of frames, compared to a 30 FPS video. If you are experiencing slow "
+"downs in real-time performance, it can be helpful to reduce your project's "
+"FPS to a lower value, such as 30 or 24."
+msgstr ""
+"プロジェクトのFPSも非常に重要で、スムーズなビデオ再生に大きく影響します。例えば、60 FPSのビデオは30 "
+"FPSのビデオの2倍のフレーム数をレンダリングする必要があります。リアルタイムパフォーマンスが遅い場合は、プロジェクトのFPSを30や24などの低い値に下げると効果的です。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid "Matching Rates"
+msgstr "レートの一致"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid ""
+"It is very important to match your source assets FPS and Sample Rate with "
+"your Project FPS and Project sample rate. If either rate does not match "
+"exactly, it requires lots of additional CPU and RAM for OpenShot to "
+"normalize the mismatching rates. This can lead to audio pops, mis-"
+"alignments, duplicate frames, and extra lag in the real-time video preview. "
+"You can right-click a file and choose :guilabel:`File Properties`, to "
+"inspect the source asset rates, and ensure they match your Project settings "
+"(shown at the top of OpenShot). See :ref:`file_properties_ref`."
+msgstr ""
+"ソースアセットのFPSとサンプルレートをプロジェクトのFPSおよびサンプルレートと一致させることが非常に重要です。どちらかのレートが正確に一致しない場合、OpenShotは不一致のレートを正規化するために多くの追加CPUとRAMを必要とします。これにより、オーディオのポップ音、ズレ、重複フレーム、リアルタイムビデオプレビューの遅延が発生する可能性があります。ファイルを右クリックして"
+" :guilabel:`ファイルのプロパティ` "
+"を選択し、ソースアセットのレートを確認してプロジェクト設定（OpenShotの上部に表示）と一致しているか確認できます。詳細は "
+":ref:`file_properties_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid "Source Assets"
+msgstr "ソースアセット"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid ""
+"For example, if you are editing 4K 60 FPS source assets, this is likely "
+"going to put a strain on your system. A common solution is using another "
+"tool (such as FFmpeg) to create a copy (or proxy) of all your source assets,"
+" at a lower resolution (and maybe even a lower FPS). It is recommended to "
+"keep these proxy video files in their own folder, separate from the original"
+" video files. Once you have completed your video editing with the proxy "
+"files, simply copy/paste your `*.osp` project file back into the original "
+"folder, and export the higher quality, original files."
+msgstr ""
+"例えば、4K 60 "
+"FPSのソースアセットを編集している場合、システムに大きな負荷がかかる可能性があります。一般的な解決策は、FFmpegなどの別のツールを使って、すべてのソースアセットの低解像度（場合によっては低FPS）のコピー（またはプロキシ）を作成することです。これらのプロキシビデオファイルは、元のビデオファイルとは別のフォルダに保存することを推奨します。プロキシファイルで編集を完了したら、`*.osp`"
+" プロジェクトファイルを元のフォルダにコピー＆ペーストし、高品質の元ファイルでエクスポートしてください。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77 ../playback.rst:101
+msgid "Audio Device"
+msgstr "オーディオデバイス"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77
+msgid ""
+"If you are still having issues with audio lag or sync, please verify you are"
+" using the correct :guilabel:`Playback Audio Device` for playback (in the "
+"OpenShot Preferences). See :ref:`preferences_preview_ref`. Verify your "
+"default audio device (on your operating system) is using the same sample "
+"rate and all *Audio Enhancements* are disabled. On certain operating systems"
+" (such as Windows), mismatching sample rates or audio enhancements can cause"
+" severe audio / video sync problems. Lastly, try adjusting the "
+":guilabel:`Playback Audio Buffer Size` (lower values will playback audio "
+"with less delay, higher values will playback audio with a larger delay). "
+"OpenShot defaults to a buffer size of 512, which is reasonable for most "
+"systems, however on some systems you might need to lower (or raise) this "
+"value for smooth and lag-free audio playback. Be sure to restart OpenShot "
+"after changing the audio playback settings."
+msgstr ""
+"音声の遅延や同期の問題が続く場合は、再生に使用している :guilabel:`Playback Audio Device` "
+"が正しいか（OpenShotの設定で）確認してください。詳細は :ref:`preferences_preview_ref` "
+"を参照してください。お使いのオペレーティングシステムのデフォルトのオーディオデバイスが同じサンプルレートを使用しており、すべての *Audio "
+"Enhancements* "
+"が無効になっていることを確認してください。特定のOS（例えばWindows）では、サンプルレートの不一致やオーディオエンハンスメントが原因で深刻な音声と映像の同期問題が発生することがあります。最後に、:guilabel:`Playback"
+" Audio Buffer Size` "
+"を調整してみてください（値を小さくすると遅延が少なくなり、大きくすると遅延が大きくなります）。OpenShotのデフォルトは512で、多くのシステムで適切ですが、一部のシステムではスムーズで遅延のない音声再生のためにこの値を下げるか上げる必要があるかもしれません。オーディオ再生設定を変更した後は必ずOpenShotを再起動してください。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:89
+msgid "Audio Troubleshooting"
+msgstr "オーディオトラブルシューティング"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:90
+msgid ""
+"If you are still experiencing audio related issues, and the above real-time "
+"playback factors did not resolve your issue, here are some additional "
+"troubleshooting steps you can take."
+msgstr ""
+"それでも音声に関する問題が解決しない場合、上記のリアルタイム再生の要因が問題を解決しなかった場合は、以下の追加のトラブルシューティング手順を試してください。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:97
+msgid "Step"
+msgstr "ステップ"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid "Latest Daily Build"
+msgstr "最新のデイリービルド"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid ""
+"Verify you are running the latest daily build of OpenShot: "
+"https://www.openshot.org/download#daily"
+msgstr ""
+"OpenShotの最新のデイリービルドを使用していることを確認してください：https://www.openshot.org/download#daily"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "Clean Install"
+msgstr "クリーンインストール"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "See :ref:`preferences_reset_ref` for a clean install"
+msgstr "クリーンインストールについては :ref:`preferences_reset_ref` を参照してください"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:101
+msgid ""
+"Check that the Playback Audio Device is set correctly for your sound output "
+"under Preferences in the Preview tab. Restart OpenShot after changing the "
+"settings. You can also try a different audio device (USB, audio over HDMI "
+"from the video card, headphones, etc.) to rule out other audio issues. "
+"Disable `automatic sound suppression` for voice calls during microphone "
+"activity, and disable `Audio Enhancements` under the advanced settings tab "
+"of your audio device (not all audio devices have these settings). See "
+":ref:`preferences_preview_ref`."
+msgstr ""
+"プレビュータブの設定で、再生用のオーディオデバイスが正しく設定されているか確認してください。設定を変更したらOpenShotを再起動してください。USB、ビデオカードのHDMI経由の音声、ヘッドフォンなど、別のオーディオデバイスを試して他の音声問題を除外することもできます。マイク使用時の音声通話のための「自動音声抑制」を無効にし、オーディオデバイスの詳細設定タブで「Audio"
+" Enhancements」を無効にしてください（すべてのオーディオデバイスにこの設定があるわけではありません）。詳細は "
+":ref:`preferences_preview_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid "Audio Buffer Size"
+msgstr "オーディオバッファサイズ"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid ""
+"The audio buffer size is the amount of audio samples which must first be "
+"buffered in OpenShot before audio playback can begin. If this value is too "
+"low, you might experience audio break-up / crackle / popping. If this value "
+"is too high, you might experience delays or lag before audio playback "
+"begins. OpenShot defaults this value to 512, which is a reasonable default "
+"for most systems, which should provide smooth audio playback with minimal "
+"noticeable lag or delay. However, on some systems this value might need to "
+"be adjusted up or down, for in-sync and lag-free audio playback. The range "
+"is 128 to 4096."
+msgstr ""
+"オーディオバッファサイズは、OpenShotが音声再生を開始する前にバッファリングする必要がある音声サンプルの量です。この値が低すぎると、音声の途切れやノイズが発生することがあります。逆に高すぎると、音声再生開始までに遅延やラグが生じることがあります。OpenShotのデフォルトは512で、多くのシステムでスムーズな音声再生とほとんど気にならない遅延を提供します。ただし、一部のシステムでは同期の取れた遅延のない音声再生のために、この値を上下に調整する必要がある場合があります。範囲は128から4096です。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid "Sample Rate"
+msgstr "サンプルレート"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid ""
+"Ensure that the `Default Audio Sample Rate` and `Default Audio Channels` on "
+"the Preview tab of the Preferences window match your hardware. You can also "
+"check these settings in the operating system control panel (i.e. Windows "
+"Sound Control Panel). See :ref:`preferences_preview_ref`."
+msgstr ""
+"設定ウィンドウのプレビュ―タブにある「Default Audio Sample Rate」と「Default Audio "
+"Channels」がハードウェアと一致していることを確認してください。これらの設定はオペレーティングシステムのコントロールパネル（例：Windowsのサウンドコントロールパネル）でも確認できます。詳細は"
+" :ref:`preferences_preview_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid "Volume"
+msgstr "音量"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid ""
+"Ensure that the volume does not exceed 100% on overlapping clips (such as an"
+" audio track combined with a video track). Lower the volume on individual "
+"clips if needed. See :ref:`clip_volume_mixing_ref`."
+msgstr ""
+"重なっているクリップ（例えば、音声トラックと映像トラックが組み合わさっている場合）で音量が100%を超えないようにしてください。必要に応じて個々のクリップの音量を下げてください。詳細は"
+" :ref:`clip_volume_mixing_ref` を参照してください。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid "Headphones"
+msgstr "ヘッドフォン"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid ""
+"If you're using headphones, plug them in before starting OpenShot. Launching"
+" OpenShot with no speakers, headphones, or valid audio playback device can "
+"cause OpenShot to freeze during playback."
+msgstr ""
+"ヘッドフォンを使用する場合は、OpenShotを起動する前に接続してください。スピーカー、ヘッドフォン、または有効なオーディオ再生デバイスがない状態でOpenShotを起動すると、再生中にOpenShotがフリーズすることがあります。"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid "OS Updates"
+msgstr "OSの更新"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid ""
+"Update your operating system and any pending security updates. Some audio "
+"issues, especially audio device specific issues, can be resolved with an "
+"operating system update."
+msgstr ""
+"オペレーティングシステムおよび保留中のセキュリティアップデートを適用してください。特にオーディオデバイス固有の問題は、OSのアップデートで解決することがあります。"

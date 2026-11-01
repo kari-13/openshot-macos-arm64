@@ -1,0 +1,5024 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:23
+msgid "Clips"
+msgstr "Klipp"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:25
+msgid ""
+"In OpenShot, when you add project files (videos, images, and audio) to the "
+"timeline, they appear as **clips** represented by rounded rectangles. These "
+"clips come with different properties that influence how they're rendered and"
+" composited. These properties include the clip's :guilabel:`position`, "
+":guilabel:`layer`, :guilabel:`scale`, :guilabel:`location`, "
+":guilabel:`rotation`, :guilabel:`alpha`, and :guilabel:`composite (blend "
+"mode)`."
+msgstr ""
+"Í OpenShot birtast verkefnisskrár (myndbönd, myndir og hljóð) sem þú bætir "
+"við tímalínuna sem **klippur**, táknaðar með kringlóttum ferningum. Þessar "
+"klippur hafa mismunandi eiginleika sem hafa áhrif á hvernig þær eru birtar "
+"og samsettar. Eiginleikarnir fela í sér :guilabel:`staðsetningu`, "
+":guilabel:`lag`, :guilabel:`stærð`, :guilabel:`stað`, :guilabel:`snúning`, "
+":guilabel:`alpha` og :guilabel:`samsetningu (blend mode)` klippsins."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:30
+msgid ""
+"You can examine a clip's properties by either right-clicking and selecting "
+":guilabel:`Properties` or by double-clicking the clip. The properties are "
+"listed alphabetically in the Property dock, and you can use the filter "
+"options at the top to find specific properties. See "
+":ref:`clip_properties_ref` for a list of all clip properties."
+msgstr ""
+"Þú getur skoðað eiginleika klipps með því að hægrismella og velja "
+":guilabel:`Eiginleikar` eða með því að tvísmella á klippuna. Eiginleikarnir "
+"eru skráðir í stafrófsröð í eiginleikaskúffunni, og þú getur notað "
+"síuvalkostina efst til að finna ákveðna eiginleika. Sjá "
+":ref:`clip_properties_ref` fyrir lista yfir alla eiginleika klipps."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:34
+msgid "To **make adjustments** to a property:"
+msgstr "Til að **gera breytingar** á eiginleika:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:36
+msgid "For **rough** changes, you can drag the slider."
+msgstr "Fyrir **grófar** breytingar geturðu dregið sleðann."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:37
+msgid ""
+"For **precise** adjustments, double-click the property to enter exact "
+"values."
+msgstr ""
+"Fyrir **nákvæmar** breytingar, tvísmelltu á eiginleikann til að slá inn "
+"nákvæm gildi."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:38
+msgid ""
+"If the property involves **non-numerical choices**, right-click or double-"
+"click for options."
+msgstr ""
+"Ef eiginleikinn felur í sér **ekki-töluleg val**, hægrismelltu eða "
+"tvísmelltu til að fá valkosti."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:40
+msgid ""
+"Clip properties play a vital role in the :ref:`animation_ref` system. "
+"Whenever you modify a clip property, a ``key-frame`` is automatically "
+"created at the current playhead position. If you want a property change to "
+"apply throughout the entire clip, ensure the playhead is positioned at or "
+"before the clip's start, before making adjustments. You can easily find a "
+"clip's start by using the :guilabel:`next/previous marker` feature on the "
+"Timeline toolbar."
+msgstr ""
+"Eiginleikar klipps gegna mikilvægu hlutverki í :ref:`animation_ref` kerfinu."
+" Í hvert skipti sem þú breytir eiginleika klipps er sjálfkrafa búið til "
+"``lykilramma`` á núverandi staðsetningu spilunarhaus. Ef þú vilt að breyting"
+" á eiginleika gildi fyrir alla klippuna skaltu ganga úr skugga um að "
+"spilunarhausinn sé staðsettur á eða fyrir byrjun klippsins áður en þú gerir "
+"breytingar. Þú getur auðveldlega fundið byrjun klipps með því að nota "
+":guilabel:`næsta/fyrri merki` eiginleikann á tímalínustikunni."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51
+msgid "Name"
+msgstr "Nafn"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51 ../clips.rst:76 ../clips.rst:189 ../clips.rst:228
+#: ../clips.rst:701
+msgid "Description"
+msgstr "Lýsing"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "Clip 1"
+msgstr "Klippa 1"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "A video clip"
+msgstr "Myndbandsklippa"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid "Transition"
+msgstr "Yfirfærsla"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid ""
+"A gradual fade transition between the 2 clip images (does not affect the "
+"audio)"
+msgstr ""
+"Hægfara dofningaryfirfærsla milli tveggja klippumynda (áhrifar ekki hljóðið)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "Clip 2"
+msgstr "Klippa 2"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "An image clip"
+msgstr "Myndaklippa"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:61
+msgid "Trimming & Slicing"
+msgstr "Klipping og sneiðing"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:62
+msgid ""
+"OpenShot provides multiple ways to adjust the start and end trim positions "
+"of a clip (also known as trimming). The most common method is to click and "
+"drag the left or right edge of a clip. Trimming can be used to remove "
+"unwanted sections from the beginning or ending of a clip."
+msgstr ""
+"OpenShot býður upp á margar leiðir til að stilla byrjun og enda klippu "
+"(einnig kallað klipping). Algengasta aðferðin er að smella og draga vinstri "
+"eða hægri brún klipps. Klipping er notuð til að fjarlægja óæskilegar hluta "
+"frá byrjun eða enda klipps."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:66
+msgid ""
+"To **slice** a clip into smaller sections, OpenShot offers several options, "
+"including dividing or slicing a clip at the play-head (*vertical playback "
+"line*) position. Trimming and slicing clips are powerful tools that allow "
+"users to rearrange sections of video and remove unwanted parts."
+msgstr ""
+"Til að **sneiða** klippu í minni hluta býður OpenShot upp á nokkra valkosti,"
+" þar á meðal að skipta eða sneiða klippu við spilunarhausinn (*lóðrétta "
+"spilunar línu*). Klipping og sneiðing klippa eru öflug verkfæri sem leyfa "
+"notendum að endurraða myndbandsbrotum og fjarlægja óæskilega hluta."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:70
+msgid ""
+"Here is a list of all methods for cutting and/or trimming clips in OpenShot:"
+msgstr ""
+"Hér er listi yfir allar aðferðir til að klippa og/eða klippa klippur í "
+"OpenShot:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:76
+msgid "Trim & Slice Method"
+msgstr "Aðferð til klippingar og sneiðingar"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:78
+msgid "**Resizing Edge**"
+msgstr "**Breyta stærð brúnar**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:78
+msgid ""
+"Mouse over the edge of a clip and resize it by dragging **left** or "
+"**right**. The left edge of a clip can not be resized smaller than 0.0 "
+"(*i.e. the first frame of the file*). The right edge of a clip can not be "
+"resized larger than the duration of a file (*i.e. the last frame of a "
+"file*)."
+msgstr ""
+"Færðu músina yfir brún klipps og breyttu stærð með því að draga **til "
+"vinstri** eða **til hægri**. Vinstri brún klipps má ekki minnka undir 0.0 "
+"(*þ.e. fyrsta ramma skráarinnar*). Hægri brún klipps má ekki stækka umfram "
+"lengd skráarinnar (*þ.e. síðasta ramma skráarinnar*)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:79
+msgid "**Slice All**"
+msgstr "**Sneiða allt**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:79
+msgid ""
+"When the play-head overlaps multiple clips, right-click the play-head and "
+"choose :guilabel:`Slice All`. This will cut/slice all intersecting clips on "
+"all tracks. You can also use the keyboard shortcuts :kbd:`Ctrl+Shift+K` to "
+"keep both sides, :kbd:`Ctrl+Shift+J` to keep the left side, or "
+":kbd:`Ctrl+Shift+L` to keep the right side of the clips."
+msgstr ""
+"Þegar spilunarhausinn skerast á við margar klippur, hægrismelltu á "
+"spilunarhausinn og veldu :guilabel:`Sneiða allt`. Þetta klippir/sneiðir "
+"allar skerandi klippur á öllum brautum. Þú getur einnig notað flýtilykla "
+":kbd:`Ctrl+Shift+K` til að halda báðum hliðum, :kbd:`Ctrl+Shift+J` til að "
+"halda vinstri hlið, eða :kbd:`Ctrl+Shift+L` til að halda hægri hlið "
+"klippanna."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:83
+msgid "**Slice Selected**"
+msgstr "**Sneiða valið**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:83
+msgid ""
+"When the play-head overlaps a clip, right-click the clip and choose "
+":guilabel:`Slice`. This provides options to keep the left side, the right "
+"side, or both sides of the clip. Alternatively, use :kbd:`Ctrl+K` to keep "
+"both sides, :kbd:`Ctrl+J` to keep the left side, or :kbd:`Ctrl+L` to keep "
+"the right side."
+msgstr ""
+"Þegar spilunarhausinn sker á við klippu, hægrismelltu á klippuna og veldu "
+":guilabel:`Sneiða`. Þetta býður upp á valkosti til að halda vinstri hlið, "
+"hægri hlið eða báðum hliðum klippsins. Einnig má nota :kbd:`Ctrl+K` til að "
+"halda báðum hliðum, :kbd:`Ctrl+J` til að halda vinstri hlið, eða "
+":kbd:`Ctrl+L` til að halda hægri hlið."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:86
+msgid "**Slice Selected (Ripple)**"
+msgstr "**Sneiða valið (Riffling)**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:86
+msgid ""
+"Slice the selected clip(s) at the play-head position, keeping either the "
+"left side (shortcut: :kbd:`W`) or the right side (shortcut: :kbd:`Q`), while"
+" rippling the gap removal across the current track."
+msgstr ""
+"Sneiða valdar klippur á staðsetningu spilunarhausar, halda annað hvort "
+"vinstri hlið (flýtilykill: :kbd:`W`) eða hægri hlið (flýtilykill: :kbd:`Q`),"
+" á meðan riffling fjarlægingar bilsins á sér stað yfir núverandi braut."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:88
+msgid "**Razor Tool**"
+msgstr "**Rakhnífsverkfæri**"
+
+#: ../clips.rst:88
+msgid ""
+"The :guilabel:`razor tool` from the **Timeline Toolbar** cuts a clip at the "
+"position where it is clicked. See :ref:`razor_tool_ref` for cut guides and "
+"frame previews. Use :kbd:`SHIFT` to slice and keep the left side, or "
+":kbd:`CTRL` to keep the right side."
+msgstr ""
+":guilabel:`Razor tólið` úr **Tímalínustikunni** sker klippu á þeim stað sem "
+"smellt er. Sjá :ref:`razor_tool_ref` fyrir leiðbeiningar um skurð og "
+"forskoðun ramma. Notaðu :kbd:`SHIFT` til að sneiða og halda vinstri "
+"hliðinni, eða :kbd:`CTRL` til að halda hægri hliðinni."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:90
+msgid "**Split File Dialog**"
+msgstr "**Sundra skráarglugga**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:90
+msgid ""
+"Right-click on a file and choose :guilabel:`Split File`. This opens a dialog"
+" that allows you to create multiple clips from a single video file."
+msgstr ""
+"Hægrismelltu á skrá og veldu :guilabel:`Sundra skrá`. Þetta opnar glugga sem"
+" leyfir þér að búa til margar klippur úr einni myndbandskrá."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:94
+msgid ""
+"Keep in mind that the above cutting methods also have "
+":ref:`keyboard_shortcut_ref`, to save even more time."
+msgstr ""
+"Mundu að ofangreindar klippiaðferðir hafa einnig "
+":ref:`keyboard_shortcut_ref` til að spara enn meiri tíma."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:96
+msgid ""
+"If multiple selected clips and/or transitions share the same left edge or "
+"right edge, you can drag that shared edge once to trim them together."
+msgstr ""
+"Ef mörg valin klipp og/eða umbreytingar deila sama vinstri eða hægri brún, "
+"getur þú dregið þá sameiginlegu brún einu sinni til að klippa þau saman."
+
+#: ../clips.rst:102
+msgid "Razor Tool"
+msgstr "Razor tólið"
+
+#: ../clips.rst:104
+msgid ""
+"Use the **Razor Tool** to preview a cut and split a clip or transition "
+"directly on the timeline. Each click affects only the item under the "
+"pointer."
+msgstr ""
+"Notaðu **Razor tólið** til að forskoða skurð og skipta klippu eða "
+"umbreytingu beint á tímalínunni. Hver smellur hefur áhrif aðeins á hlutinn "
+"undir bendlinum."
+
+#: ../clips.rst:107
+msgid "Enable :guilabel:`Razor Tool` in the **Timeline Toolbar**."
+msgstr "Virkjaðu :guilabel:`Razor tólið` í **Tímalínustikunni**."
+
+#: ../clips.rst:108
+msgid ""
+"Move over the clip you want to cut. A vertical dashed guide marks the exact "
+"frame boundary, with a timecode and the action that clicking will perform."
+msgstr ""
+"Færðu bendilinn yfir klippuna sem þú vilt skera. Lóðrétt brotin leiðarvísi "
+"merkir nákvæma rammamörk, með tímakóða og aðgerð sem smellur mun framkvæma."
+
+#: ../clips.rst:110
+msgid ""
+"While playback is paused, **Video Preview** shows the source frame of the "
+"hovered clip, including its time mapping. Higher tracks cannot obscure this "
+"preview. The playhead stays in place, and the guide's timecode is timeline "
+"time."
+msgstr ""
+"Þegar spilun er stöðvuð sýnir **Forskoðun myndbands** upprunalega rammann af"
+" klippunni sem bendillinn er yfir, þar með talið tímamörkun hennar. Efri "
+"rásir geta ekki falið þessa forskoðun. Spilunarhausinn helst kyrr, og "
+"tímakóði leiðarvísisins er tími tímalínunnar."
+
+#: ../clips.rst:113
+msgid "Click to split. Razor stays enabled so you can make more cuts."
+msgstr ""
+"Smelltu til að skipta. Razor helst virkt svo þú getir gert fleiri skurði."
+
+#: ../clips.rst:114
+msgid ""
+"Press :kbd:`Esc`, or toggle the toolbar button again, to return to normal "
+"editing."
+msgstr ""
+"Ýttu á :kbd:`Esc`, eða kveiktu/slökktu á hnappinum í stikunni aftur til að "
+"fara aftur í venjulega ritvinnslu."
+
+#: ../clips.rst:116
+msgid ""
+"Moving away from the clip or leaving Razor mode restores the preview at the "
+"playhead. Hovering during playback does not interrupt playback. Like edge "
+"trimming, Razor previews the individual source rather than the composed "
+"timeline. Hovering a transition previews its mask source."
+msgstr ""
+"Að færa bendilinn frá klippunni eða yfirgefa Razor ham endurheimtir "
+"forskoðunina við spilunarhausinn. Að halda bendlinum yfir meðan á spilun "
+"stendur truflar ekki spilunina. Eins og við skerðingu á brún sýnir Razor "
+"forskoðun á einstaka uppruna frekar en samsettri tímalínu. Að halda "
+"bendlinum yfir umbreytingu sýnir forskoðun á grímu hennar."
+
+#: ../clips.rst:121
+msgid "Razor actions"
+msgstr "Razor aðgerðir"
+
+#: ../clips.rst:125
+msgid "Action"
+msgstr "Aðgerð"
+
+#: ../clips.rst:126
+msgid "Result"
+msgstr "Niðurstaða"
+
+#: ../clips.rst:127
+msgid "Click"
+msgstr "Smelltu"
+
+#: ../clips.rst:128
+msgid ""
+"Split at the guide and keep both sides. The previewed frame starts the right"
+" side."
+msgstr ""
+"Skiptu við leiðarvísinn og haltu báðum hliðum. Forskoðaður rammi byrjar "
+"hægri hliðina."
+
+#: ../clips.rst:129
+msgid ":kbd:`Shift+Click`"
+msgstr ":kbd:`Shift+Click`"
+
+#: ../clips.rst:130
+msgid ""
+"Keep the left side of the guide. The right side is shaded to show what will "
+"be removed."
+msgstr ""
+"Haltu vinstri hlið leiðarvísisins. Hægri hliðin er skyggð til að sýna hvað "
+"verður fjarlægt."
+
+#: ../clips.rst:131
+msgid ":kbd:`Ctrl+Click`"
+msgstr ":kbd:`Ctrl+Click`"
+
+#: ../clips.rst:132
+msgid ""
+"Keep the right side. The left side is shaded to show what will be removed."
+msgstr ""
+"Haltu hægri hliðinni. Vinstri hliðin er skyggð til að sýna hvað verður "
+"fjarlægt."
+
+#: ../clips.rst:133
+msgid ":kbd:`Alt+Shift+Click`"
+msgstr ":kbd:`Alt+Shift+Click`"
+
+#: ../clips.rst:134
+msgid ""
+"Keep the left side and close the gap, shifting later items on the same track"
+" left."
+msgstr ""
+"Haltu vinstri hliðinni og lokaðu bilinu, færa seinni hluti á sömu rás til "
+"vinstri."
+
+#: ../clips.rst:135
+msgid ":kbd:`Alt+Ctrl+Click`"
+msgstr ":kbd:`Alt+Ctrl+Click`"
+
+#: ../clips.rst:136
+msgid ""
+"Keep the right side and close the gap, shifting later items on the same "
+"track left."
+msgstr ""
+"Haltu hægri hliðinni og lokaðu bilinu, færa seinni hluti á sömu rás til "
+"vinstri."
+
+#: ../clips.rst:137
+msgid ":kbd:`W` / :kbd:`Q` while hovering"
+msgstr ":kbd:`W` / :kbd:`Q` meðan bendillinn er yfir"
+
+#: ../clips.rst:138
+msgid ""
+"Use the existing ripple-slice shortcuts at the pointer: keep left (:kbd:`W`)"
+" or right (:kbd:`Q`) and close the gap. Customized bindings work too."
+msgstr ""
+"Notaðu núverandi flýtileiðir fyrir bylgjusneiðingu við bendilinn: haltu "
+"vinstri (:kbd:`W`) eða hægri (:kbd:`Q`) og lokaðu bilinu. Sérsniðnar "
+"tengingar virka einnig."
+
+#: ../clips.rst:141
+msgid ""
+"Holding :kbd:`Alt` with :kbd:`Shift` or :kbd:`Ctrl` adds **Close gap** to "
+"the hint. The red shading shows the portion being removed. These operations "
+"reuse **Slice Selected (Ripple)**; they move later clips and transitions on "
+"the same track, not on other tracks. Outside Razor hover, the ripple "
+"shortcuts retain their normal selected-item/playhead behavior. A locked or "
+"invalid Razor target does not fall back to cutting a different selected "
+"clip."
+msgstr ""
+"Að halda :kbd:`Alt` ásamt :kbd:`Shift` eða :kbd:`Ctrl` bætir við "
+"vísbendingunni **Loka bili**. Rauð skygging sýnir þann hluta sem verður "
+"fjarlægður. Þessar aðgerðir endurnýta **Sker valið (bylgja)**; þær færa "
+"seinni klippur og umbreytingar á sömu rás, ekki á öðrum rásum. Fyrir utan "
+"Razor bendil halda bylgjuflýtileiðir sínu venjulega hegðun fyrir valda "
+"hluti/spilunarhaus. Læstur eða ógildur Razor markmiðsþáttur fellur ekki "
+"aftur á að skera aðra valda klippu."
+
+#: ../clips.rst:148
+msgid ""
+"Cuts align to project frames. With **Snapping** enabled, the Razor guide "
+"uses the same snap targets and distance tolerance as other timeline edits: "
+"clip and transition edges, markers, the playhead, and the hovered clip's "
+"keyframe targets. The hovered item's own endpoints are excluded. Preview, "
+"mouse cuts, and ripple shortcuts all use the guide's snapped boundary. "
+"Toggle the timeline's existing **Snapping** button to cut freely between "
+"these targets."
+msgstr ""
+"Skurðir raðast við ramma verkefnisins. Með virku **Festingu** notar Razor "
+"leiðarvísirinn sömu festimarkmið og fjarlægðarþol eins og aðrar breytingar á"
+" tímalínu: brúnir klippa og umbreytinga, merkimiðar, spilunarhaus og "
+"lykilrammamarkmið klippunnar sem bendillinn er yfir. Endapunktar hlutarins "
+"sem bendillinn er yfir eru undanskildir. Forskoðun, músarskurðir og "
+"bylgjuflýtileiðir nota allar festu leiðarvísisins. Kveiktu eða slökktu á "
+"núverandi **Festingu** hnappinum á tímalínunni til að skera frjálst á milli "
+"þessara markmiða."
+
+#: ../clips.rst:155
+msgid ""
+"Without snapping to a target, :kbd:`Shift+Click` includes the frame under "
+"the pointer in the left side, placing the guide at the following frame "
+"boundary. When snapped, the snapped boundary takes priority for all cut "
+"modes."
+msgstr ""
+"Án festu við markmið inniheldur :kbd:`Shift+Click` rammann undir bendlinum í"
+" vinstri hliðinni, setur leiðarvísinn við næstu rammamörk. Þegar fest er "
+"tekur festu mörkin forgang fyrir öll skurðham."
+
+#: ../clips.rst:159
+msgid ""
+"Locked tracks, empty space, and boundaries that would leave an empty side do"
+" not show a valid cut guide. Zoom in for finer frame selection, and use "
+"**Undo** to reverse a cut."
+msgstr ""
+"Læstar rásir, tómt pláss og mörk sem skilja eftir tóma hlið sýna ekki gilt "
+"skurðaleiðarvísi. Stækkaðu til að velja nákvæmari ramma og notaðu "
+"**Afturkalla** til að afturkalla skurð."
+
+#: ../clips.rst:163
+msgid ""
+"To cut several clips at the playhead instead, use **Slice Selected** or "
+"**Slice All**, described above."
+msgstr ""
+"Til að skera margar klippur við spilunarhausinn, notaðu í staðinn **Sker "
+"valið** eða **Sker allt**, eins og lýst er hér að ofan."
+
+#: ../clips.rst:167
+msgid "Clip controls while zoomed in"
+msgstr "Stýringar klippa þegar stækkað er"
+
+#: ../clips.rst:169
+msgid ""
+"When a clip's start scrolls off screen, its title, effect badges, and menu "
+"stay near the left side of the visible timeline. Click an effect badge to "
+"access that effect, or use the title's dropdown to open the clip menu. The "
+"controls stay within the visible portion of their clip and shorten as space "
+"runs out."
+msgstr ""
+"Þegar byrjun klippu rennur út af skjánum halda titill hennar, áhrifamerki og"
+" valmynd sig nær vinstri hluta sýnilegrar tímalínu. Smelltu á áhrifamerki "
+"til að opna það áhrif, eða notaðu fellivalmynd titilsins til að opna "
+"klippuvalmyndina. Stýringarnar halda sig innan sýnilegs hluta klippunnar og "
+"styttast þegar plássið klárast."
+
+#: ../clips.rst:174
+msgid ""
+"Only these controls follow the viewport. The clip's outline, thumbnails, "
+"waveform, and trim handles remain at their actual timeline positions. A "
+"small inset separates the pinned controls from the viewport edge."
+msgstr ""
+"Aðeins þessar stýringar fylgja sýnishorninu. Útlínur klippunnar, smámyndir, "
+"bylgjulína og klippihöndlar halda sínum raunverulegu stöðum á tímalínunni. "
+"Lítil innskot aðskilur festu stýringarnar frá brún sýnishornsins."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:179
+msgid "Selections"
+msgstr "Val"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:180
+msgid ""
+"Selecting clips and transitions on the timeline is an essential part of "
+"editing in OpenShot. Multiple selection methods are available to streamline "
+"your workflow, enabling efficient editing of clips and transitions."
+msgstr ""
+"Val á klippum og yfirfærslum á tímalínunni er mikilvægur hluti af klippingu "
+"í OpenShot. Margar aðferðir til val eru í boði til að einfalda vinnuflæði "
+"þitt og gera kleift að klippa klippur og yfirfærslur á skilvirkan hátt."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:183
+msgid "Here is a list of all methods for selecting clips in OpenShot:"
+msgstr "Hér er listi yfir allar aðferðir til að velja klippur í OpenShot:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:189
+msgid "Selection Method"
+msgstr "Aðferð val"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:191
+msgid "**Box Selection**"
+msgstr "**Val með reit**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:191
+msgid ""
+"Click and drag a selection box around clips or transitions to select "
+"multiple items at once. Hold down :kbd:`Ctrl` to add to your current "
+"selection."
+msgstr ""
+"Smelltu og dragðu valreit utan um klippur eða umbreytingar til að velja mörg"
+" atriði í einu. Haltu niðri :kbd:`Ctrl` til að bæta við núverandi vali."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:192
+msgid "**Click Selection**"
+msgstr "**Val með smelli**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:192
+msgid ""
+"Click on a clip or transition to select it. This will deselect all other "
+"items unless you hold down :kbd:`Ctrl`."
+msgstr ""
+"Smelltu á klippu eða umbreytingu til að velja hana. Þetta afvelur öll önnur "
+"atriði nema þú haldir niðri :kbd:`Ctrl`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:193
+msgid "**Add to Selection**"
+msgstr "**Bæta við vali**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:193
+msgid ""
+"Hold down :kbd:`Ctrl` while clicking to add or remove clips from the current"
+" selection, allowing you to select non-adjacent clips."
+msgstr ""
+"Haltu niðri :kbd:`Ctrl` meðan þú smellir til að bæta við eða fjarlægja "
+"klippur úr núverandi vali, sem gerir þér kleift að velja klippur sem eru "
+"ekki hlið við hlið."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:194
+msgid "**Range Selection**"
+msgstr "**Val á bili**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:194
+msgid ""
+"Hold down :kbd:`Shift` while clicking to select a range of clips/transitions"
+" from the previous selection to the new selection. This supports ranges that"
+" span multiple tracks as well."
+msgstr ""
+"Haltu niðri :kbd:`Shift` meðan þú smellir til að velja bil af "
+"klippum/umbreytingum frá fyrra vali til nýs val. Þetta styður einnig bil sem"
+" ná yfir margar brautir."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:195
+msgid "**Ripple Selection**"
+msgstr "**Val með bylgju**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:195
+msgid ""
+"Hold down :kbd:`Alt` while clicking to ripple select all clips/transitions "
+"from your selection to the end of the track. This always adds to your "
+"current selection, even if :kbd:`Ctrl` is not pressed."
+msgstr ""
+"Haltu niðri :kbd:`Alt` meðan þú smellir til að velja með bylgju allar "
+"klippur/umbreitingar frá vali þínu til enda brautarinnar. Þetta bætir alltaf"
+" við núverandi vali, jafnvel þó :kbd:`Ctrl` sé ekki niðri."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:196
+msgid "**Clear Selection**"
+msgstr "**Hreinsa val**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:196
+msgid ""
+"Click anywhere on the timeline or on a new clip/transition to reset the "
+"current selection, unless :kbd:`Ctrl` is pressed."
+msgstr ""
+"Smelltu hvar sem er á tímalínunni eða á nýrri klippu/umbreitingu til að "
+"endurstilla núverandi val, nema :kbd:`Ctrl` sé niðri."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:197
+msgid "**Select All**"
+msgstr "**Velja allt**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:197
+msgid ""
+"Press :kbd:`Ctrl+A` to select all clips and transitions on the timeline."
+msgstr ""
+"Ýttu á :kbd:`Ctrl+A` til að velja allar klippur og umbreitingar á "
+"tímalínunni."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:198
+msgid "**Select None**"
+msgstr "**Hætta við val**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:198
+msgid ""
+"Press :kbd:`Ctrl+Shift+A` to deselect all clips and transitions on the "
+"timeline."
+msgstr ""
+"Ýttu á :kbd:`Ctrl+Shift+A` til að afvelja allar klippur og umbreitingar á "
+"tímalínunni."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:201
+msgid ""
+"Mastering these selection techniques will streamline your editing process, "
+"especially when dealing with complex projects. For more advanced tips on "
+"selection and editing, refer to the :ref:`clips_cutting_slicing_ref` "
+"section."
+msgstr ""
+"Að ná tökum á þessum valaðferðum mun einfalda klippingarferlið þitt, "
+"sérstaklega við flókin verkefni. Fyrir ítarlegri ráð um val og klippingu, "
+"skoðaðu kaflann :ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:207
+msgid "Context Menu"
+msgstr "Samhengisvalmynd"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:208
+msgid ""
+"OpenShot has tons of great preset animations and clip properties, such as "
+"fading, sliding, zooming, reversing time, adjusting volume, etc... These "
+"presets can be accessed by right-clicking on a clip, revealing the context "
+"menu. A preset sets one (or more) clip properties for the user without "
+"needing to manually set the key-frame clip properties. See "
+":ref:`clip_properties_ref`."
+msgstr ""
+"OpenShot hefur fjölda frábærra fyrirfram skilgreindra hreyfimynda og "
+"eiginleika klippa, eins og að hverfa, renna, stækka, snúa tímann við, stilla"
+" hljóðstyrk o.fl. Þessar fyrirframstillingar má nálgast með því að "
+"hægrismella á klippu og opna samhengisvalmynd. Fyrirframstilling setur einn "
+"eða fleiri eiginleika klippunnar fyrir notandann án þess að þurfa að stilla "
+"lykilramma handvirkt. Sjá :ref:`clip_properties_ref`."
+
+#: ../clips.rst:213
+msgid ""
+"Some presets allow the user to target either the start, end, or entire clip,"
+" and most presets allow the user to reset a specific clip property. For "
+"example, when using the :guilabel:`Audio → Volume` presets, the user has the"
+" following menu options:"
+msgstr ""
+"Sumir forstillingar leyfa notanda að miða annað hvort við byrjun, enda eða "
+"allan klippuna, og flestar forstillingar leyfa notanda að endurstilla "
+"ákveðna eiginleika klippunnar. Til dæmis, þegar notað er :guilabel:`Audio → "
+"Volume` forstillingarnar, hefur notandinn eftirfarandi valmyndarmöguleika:"
+
+#: ../clips.rst:217
+msgid "**Reset Volume** — resets the volume to the original level."
+msgstr ""
+"**Endurstilla hljóðstyrk** — endurstillir hljóðstyrkinn í upprunalegt stig."
+
+#: ../clips.rst:218
+msgid ""
+"**Start of Clip** — the volume change applies at the beginning of the clip."
+msgstr "**Byrjun klippu** — hljóðstyrksbreytingin gildir í byrjun klippunnar."
+
+#: ../clips.rst:219
+msgid "**End of Clip** — the volume change applies at the end of the clip."
+msgstr "**Endi klippu** — hljóðstyrksbreytingin gildir í enda klippunnar."
+
+#: ../clips.rst:220
+msgid "**Entire Clip** — the volume change applies to the entire clip."
+msgstr "**Öll klippan** — hljóðstyrksbreytingin gildir fyrir alla klippuna."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:228
+msgid "Preset Name"
+msgstr "Nafn fyrirframstillingar"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:230 ../clips.rst:618
+msgid "Copy / Cut / Paste"
+msgstr "Afrita / Klippa / Líma"
+
+#: ../clips.rst:230
+msgid ""
+"Copy selected clip data, cut selected clips, or paste copied clip data. Copy"
+" supports full clips, effects, and keyframe groups."
+msgstr ""
+"Afrita valin klippugögn, klippa valdar klippur, eða líma afrituð klippugögn."
+" Afritun styður fullar klippur, áhrif og lykilrammahópa."
+
+#: ../clips.rst:231
+msgid "Align"
+msgstr "Jafna"
+
+#: ../clips.rst:231
+msgid ""
+"Align the left or right edge of multiple selected clips and transitions "
+"(only shown when multiple clips are selected)."
+msgstr ""
+"Jafna vinstri eða hægri brún margra valinna klippa og umbreytinga (sýnt "
+"aðeins þegar fleiri en ein klippa er valin)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:232 ../clips.rst:244
+msgid "Fade"
+msgstr "Hverfa"
+
+#: ../clips.rst:232
+msgid ""
+"Fade the clip in or out — automatically fades video (alpha) and/or audio "
+"(volume) based on what the clip contains."
+msgstr ""
+"Faðma klippuna inn eða út — fæðir sjálfkrafa myndband (alpha) og/eða hljóð "
+"(hljóðstyrk) eftir því hvað klippan inniheldur."
+
+#: ../clips.rst:233 ../clips.rst:261
+msgid "Motion"
+msgstr "Hreyfing"
+
+#: ../clips.rst:233
+msgid ""
+"Add animated motion to a clip: slide in/out, bounce, blur, wipe/focus-wipe, "
+"zoom, emphasis effects at the playhead, camera movements, and scrolling "
+"credits. Only shown for visual clips."
+msgstr ""
+"Bæta við hreyfimyndaðri hreyfingu á klippu: renna inn/út, hoppa, óskýrt, "
+"þurrka/fókus-þurrka, aðdrátt, áhersluáhrif við spilunarhaus, "
+"myndavélarhreyfingar og skrunandi titla. Sýnt aðeins fyrir sjónrænar "
+"klippur."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:234 ../clips.rst:496
+msgid "Transform"
+msgstr "Breyta"
+
+#: ../clips.rst:234
+msgid ""
+"Apply geometric presets to a clip: rotate/flip, crop, or snap to a corner "
+"layout. Also provides a **No Transform** reset. Only shown for visual clips."
+msgstr ""
+"Beita rúmfræðilegum forstillingum á klippu: snúa/velta, klippa eða festa við"
+" hornskipulag. Veitir einnig **Engin umbreyting** endurstillingu. Sýnt "
+"aðeins fyrir sjónrænar klippur."
+
+#: ../clips.rst:235 ../clips.rst:397
+msgid "Look"
+msgstr "Útlit"
+
+#: ../clips.rst:235
+msgid ""
+"Apply visual style presets: color grades, film grain, analog tape, sharpen, "
+"blur, shadow, and glow effects. Includes **Adjust Colors** (Color Wheels "
+"editor) and **Analyze Colors** (video scopes). Only shown for visual clips."
+msgstr ""
+"Beita sjónrænum stílforsettingum: litastig, kvikmyndakorn, analógupptaka, "
+"skerpa, óskýrt, skugga og glóandi áhrif. Inniheldur **Stilla liti** "
+"(Litahjól ritstjóri) og **Greina liti** (myndbandsmælar). Sýnt aðeins fyrir "
+"sjónrænar klippur."
+
+#: ../clips.rst:236 ../clips.rst:328
+msgid "Speed"
+msgstr "Hraði"
+
+#: ../clips.rst:236
+msgid ""
+"Reverse, repeat, speed up, or slow down video. Includes Freeze and Freeze & "
+"Zoom options."
+msgstr ""
+"Snúa við, endurtaka, hraða upp eða hægja á myndbandi. Inniheldur valkosti "
+"fyrir Stöðvun og Stöðvun & Aðdrátt."
+
+#: ../clips.rst:237 ../clips.rst:444
+msgid "Audio"
+msgstr "Hljóð"
+
+#: ../clips.rst:237
+msgid ""
+"Control audio properties: adjust volume levels, fade volume in/out, separate"
+" audio channels, show/hide the timeline waveform, or open the Audio Levels "
+"scope."
+msgstr ""
+"Stjórna hljóðeiginleikum: stilla hljóðstyrk, fæðast inn/út, aðskilja "
+"hljóðrásir, sýna/fela bylgjulínu tímalínu eða opna hljóðstyrkjamæli."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:238 ../clips.rst:471
+msgid "Slice"
+msgstr "Skerða"
+
+#: ../clips.rst:238
+msgid ""
+"Cut the clip at the play-head position, with options to keep either side, "
+"both sides, or ripple-delete one side. Only shown when the playhead overlaps"
+" the clip."
+msgstr ""
+"Klippa klippuna við spilunarhausinn, með valkostum um að halda annarri hlið,"
+" báðum hliðum eða eyða annarri hlið með bylgjuáhrifum. Sýnt aðeins þegar "
+"spilunarhausinn er yfir klippunni."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:239 ../clips.rst:610
+msgid "Properties"
+msgstr "Eiginleikar"
+
+#: ../clips.rst:239
+msgid "Show the properties panel for a clip."
+msgstr "Sýna eiginleikaspjaldið fyrir klippu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:240 ../clips.rst:642
+msgid "Remove Clip"
+msgstr "Fjarlægja klippu"
+
+#: ../clips.rst:240
+msgid "Remove a clip from the timeline."
+msgstr "Fjarlægja klippu af tímalínunni."
+
+#: ../clips.rst:245
+msgid ""
+"The :guilabel:`Fade` preset creates a smooth fade-in or fade-out on the "
+"selected clip. It automatically fades **video** (alpha/opacity) and/or "
+"**audio** (volume) depending on what the clip contains — a video clip gets "
+"both, an audio-only clip gets only a volume fade, and an image clip gets "
+"only an alpha fade."
+msgstr ""
+":guilabel:`Fade` forstillingin býr til mjúka inn- eða útfæðingu á valinni "
+"klippu. Hún fæðir sjálfkrafa **myndband** (alpha/gegndræpi) og/eða **hljóð**"
+" (hljóðstyrk) eftir því hvað klippan inniheldur — myndbandsklippa fær bæði, "
+"hljóðklippa fær aðeins hljóðstyrksfæðingu og myndaklippa fær aðeins alpha-"
+"fæðingu."
+
+#: ../clips.rst:249
+msgid ":guilabel:`No Fade` — removes all fade keyframes."
+msgstr ":guilabel:`Engin fæðing` — fjarlægir öll fæðilykillramma."
+
+#: ../clips.rst:250
+msgid ""
+":guilabel:`Fade In` → :guilabel:`Fast` / :guilabel:`Slow` — fades from "
+"transparent/silent at the start of the clip."
+msgstr ""
+":guilabel:`Fæða inn` → :guilabel:`Hraður` / :guilabel:`Hægur` — fæðir frá "
+"gegnsæju/þöglu í byrjun klippunnar."
+
+#: ../clips.rst:251
+msgid ""
+":guilabel:`Fade Out` → :guilabel:`Fast` / :guilabel:`Slow` — fades to "
+"transparent/silent at the end of the clip."
+msgstr ""
+":guilabel:`Fæða út` → :guilabel:`Hraður` / :guilabel:`Hægur` — fæðir í "
+"gegnsætt/þögult í enda klippunnar."
+
+#: ../clips.rst:252
+msgid ""
+":guilabel:`Fade In and Out` → :guilabel:`Fast` / :guilabel:`Slow` — applies "
+"both a fade-in at the start and a fade-out at the end."
+msgstr ""
+":guilabel:`Fæða inn og út` → :guilabel:`Hraður` / :guilabel:`Hægur` — beitir"
+" bæði innfæðingu í byrjun og útfæðingu í enda."
+
+#: ../clips.rst:254
+msgid ""
+"Fast fades span approximately 1 second; Slow fades span approximately 3 "
+"seconds. See :ref:`clip_alpha_ref` and :ref:`clip_volume_ref` key-frames."
+msgstr ""
+"Hraðar fæðingar taka um það bil 1 sekúndu; hægar fæðingar taka um það bil 3 "
+"sekúndur. Sjá :ref:`clip_alpha_ref` og :ref:`clip_volume_ref` lykilramma."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:257
+msgid ""
+"**Usage Example:** Applying a fade-out to a video clip to gently conclude a "
+"scene."
+msgstr ""
+"**Dæmi um notkun:** Að beita útfadingu á myndbandaklippu til að ljúka "
+"senunni mjúklega."
+
+#: ../clips.rst:258
+msgid ""
+"**Tip:** Fade and Volume fade are independent — use :guilabel:`Fade` for a "
+"combined video+audio fade, or use :guilabel:`Audio → Volume` to fade only "
+"the audio."
+msgstr ""
+"**Ábending:** Fæðing og hljóðstyrksfæðing eru sjálfstæð — notaðu "
+":guilabel:`Fade` fyrir sameinaða myndbands+hljóð fæðingu, eða notaðu "
+":guilabel:`Audio → Volume` til að fæðast aðeins hljóðið."
+
+#: ../clips.rst:262
+msgid ""
+"The :guilabel:`Motion` menu adds animated movement to visual clips using "
+"keyframe presets. It is organized into several submenus. See "
+":ref:`clip_location_x_ref` and :ref:`clip_scale_x_ref` key-frames."
+msgstr ""
+":guilabel:`Motion` valmyndin bætir við hreyfimyndaðri hreyfingu á sjónrænar "
+"klippur með lykilramma forstillingum. Hún er skipulögð í nokkrar "
+"undirmöppur. Sjá :ref:`clip_location_x_ref` og :ref:`clip_scale_x_ref` "
+"lykilramma."
+
+#: ../clips.rst:265
+msgid ":guilabel:`No Motion` — removes all motion keyframes from the clip."
+msgstr ""
+":guilabel:`Engin hreyfing` — fjarlægir alla hreyfilykilramma úr klippunni."
+
+#: ../clips.rst:266
+msgid ":guilabel:`In` — entrance animations applied at the start of the clip:"
+msgstr ":guilabel:`Inn` — inngangs hreyfimyndir beittar í byrjun klippunnar:"
+
+#: ../clips.rst:268
+msgid ""
+"**Back In** (From Bottom / Left / Right / Top) — clip overshoots and springs"
+" back into position."
+msgstr ""
+"**Bak Inn** (Frá Neðri / Vinstri / Hægri / Efri) — klippan fer fram úr og "
+"hoppar aftur í stöðu."
+
+#: ../clips.rst:269
+msgid "**Blur In** — clip fades in from a motion blur."
+msgstr "**Óskýrt Inn** — klippan fæðir inn úr hreyfióskýrleika."
+
+#: ../clips.rst:270
+msgid ""
+"**Bounce In** (Center / From Bottom / Left / Right / Top) — clip bounces as "
+"it enters."
+msgstr ""
+"**Hoppa Inn** (Miðja / Frá Neðri / Vinstri / Hægri / Efri) — klippan hoppar "
+"þegar hún kemur inn."
+
+#: ../clips.rst:271
+msgid ""
+"**Focus Wipe In** (Circle Expand / Circle Shrink / From Bottom / Left / "
+"Right / Top) — clip is revealed by a wipe while sharpening from blur into "
+"focus."
+msgstr ""
+"**Fókus Þurrka Inn** (Hringur Stækkar / Hringur Minnkar / Frá Neðri / "
+"Vinstri / Hægri / Efri) — klippan birtist með þurrkun á meðan skerpt er úr "
+"óskýrleika í fókus."
+
+#: ../clips.rst:272
+msgid "**Pop In** — clip scales up quickly from nothing."
+msgstr "**Poppa Inn** — klippan stækkar hratt úr engu."
+
+#: ../clips.rst:273
+msgid ""
+"**Slide In** (From Bottom / Left / Right / Top) — clip slides onto the "
+"screen."
+msgstr ""
+"**Renna Inn** (Frá Neðri / Vinstri / Hægri / Efri) — klippan rennur inn á "
+"skjáinn."
+
+#: ../clips.rst:274
+msgid "**Spiral In** — clip rotates in while scaling up."
+msgstr "**Spírala Inn** — klippan snýst inn á meðan hún stækkar."
+
+#: ../clips.rst:275
+msgid ""
+"**Wipe In** (Circle Expand / Circle Shrink / From Bottom / Left / Right / "
+"Top) — clip is revealed by a wipe."
+msgstr ""
+"**Þurrka Inn** (Hringur Stækkar / Hringur Minnkar / Frá Neðri / Vinstri / "
+"Hægri / Efri) — klippan birtist með þurrkun."
+
+#: ../clips.rst:277
+msgid ""
+":guilabel:`Out` — exit animations applied at the end of the clip (mirrors "
+"the In options: Back Out, Blur Out, Bounce Out, Focus Wipe Out, Pop Out, "
+"Slide Out, Spiral Out, Wipe Out)."
+msgstr ""
+":guilabel:`Út` — útgangshreyfimyndir beittar í enda klippunnar (endurspeglar"
+" Inn valkostina: Bak Út, Óskýrt Út, Hoppa Út, Fókus Þurrka Út, Poppa Út, "
+"Renna Út, Spírala Út, Þurrka Út)."
+
+#: ../clips.rst:279
+msgid ""
+":guilabel:`Emphasis` — short attention-grabbing animations **inserted at the"
+" current playhead position** (not applied across the whole clip). Useful for"
+" mid-clip highlights: **Bounce**, **Flash**, **Heartbeat**, **Jello**, "
+"**Pulse**, **Rubber Band**, **Shake X**, **Shake Y**, **Swing**, **Tada**, "
+"**Wobble**."
+msgstr ""
+":guilabel:`Áhersla` — stuttar athygli-grípandi hreyfimyndir **innsettar á "
+"núverandi spilunarstað** (ekki notaðar yfir allan klippuna). Gagnlegt til að"
+" draga fram miðju klippunnar: **Hoppa**, **Glitra**, **Hjartsláttur**, "
+"**Jello**, **Púls**, **Teygjubönd**, **Skjálfti X**, **Skjálfti Y**, "
+"**Sveifla**, **Tada**, **Vobbl**."
+
+#: ../clips.rst:281
+msgid ""
+":guilabel:`Camera` — simulates camera movement on the clip by animating "
+"scale and position:"
+msgstr ""
+":guilabel:`Myndavél` — hermir eftir hreyfingu myndavélar á klippunni með því"
+" að hreyfa stærð og staðsetningu:"
+
+#: ../clips.rst:283
+msgid "**Zoom** → In / Out — a simple push-in or pull-out."
+msgstr "**Þysja** → Inn / Út — einföld þrýstingur inn eða toga út."
+
+#: ../clips.rst:284
+msgid ""
+"**Pan** → Auto Direction / Left to Right / Right to Left / Top to Bottom / "
+"Bottom to Top — a lateral camera pan. *Auto Direction* picks the best "
+"direction based on the clip's aspect ratio."
+msgstr ""
+"**Renna** → Sjálfvirk stefna / Vinstri til hægri / Hægri til vinstri / Ofan "
+"til neðan / Neðan til ofan — hliðræn myndavélarrenna. *Sjálfvirk stefna* "
+"velur bestu stefnu miðað við hlutfall klippunnar."
+
+#: ../clips.rst:285
+msgid ""
+"**Zoom & Pan** → In or Out, with directional variants — combines a zoom with"
+" a pan (Ken Burns style). *Auto Direction* picks the best direction based on"
+" the clip's aspect ratio."
+msgstr ""
+"**Þysja & Renna** → Inn eða Út, með stefnuvalkostum — sameinar þysjun og "
+"rennu (Ken Burns stíll). *Sjálfvirk stefna* velur bestu stefnu miðað við "
+"hlutfall klippunnar."
+
+#: ../clips.rst:287
+msgid ""
+":guilabel:`Credits` — scrolling credit animations: **Scroll Up** and "
+"**Scroll Down**."
+msgstr ""
+":guilabel:`Kredít` — skrunandi kredit-hreyfimyndir: **Skruna upp** og "
+"**Skruna niður**."
+
+#: ../clips.rst:289
+msgid ""
+"**Tip:** Emphasis presets are placed at the current playhead position, so "
+"position the playhead over the moment you want to highlight before applying "
+"one."
+msgstr ""
+"**Ábending:** Áherslu-forstillingar eru settar á núverandi spilunarstað, svo"
+" staðsettu spilunarstaðinn yfir augnablikinu sem þú vilt draga fram áður en "
+"þú notar eina."
+
+#: ../clips.rst:290
+msgid ""
+"**Tip:** Camera presets use *Auto Direction* by default, which picks the "
+"optimal pan direction for wide or tall media to avoid black bars."
+msgstr ""
+"**Ábending:** Myndavélar-forstillingar nota *Sjálfvirka stefnu* sjálfgefið, "
+"sem velur bestu rennistefnu fyrir breið eða háa miðla til að forðast svört "
+"bönd."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:295
+msgid "Rotate"
+msgstr "Snúa"
+
+#: ../clips.rst:296
+msgid ""
+"The :guilabel:`Transform → Rotate` submenu introduces easy rotation and "
+"flipping of clips. It enables orientation adjustment by rotating and "
+"flipping a clip for creative visual transformations. See "
+":ref:`clip_rotation_ref` key-frame."
+msgstr ""
+"Undirvalmyndin :guilabel:`Breyta → Snúa` býður upp á auðvelda snúning og "
+"speglun klippa. Hún gerir kleift að stilla stefnu með því að snúa og spegla "
+"klippu fyrir skapandi sjónrænar umbreytingar. Sjá :ref:`clip_rotation_ref` "
+"lykilramma."
+
+#: ../clips.rst:300
+msgid ":guilabel:`No Rotation` — removes any rotation keyframes."
+msgstr ":guilabel:`Enginn snúningur` — fjarlægir alla snúningslykilramma."
+
+#: ../clips.rst:301
+msgid ":guilabel:`Rotate 90 (Right)` — rotates the clip 90 degrees clockwise."
+msgstr ":guilabel:`Snúa 90 (Hægri)` — snýr klippunni 90 gráður með klukku."
+
+#: ../clips.rst:302
+msgid ""
+":guilabel:`Rotate 90 (Left)` — rotates the clip 90 degrees counterclockwise."
+msgstr ""
+":guilabel:`Snúa 90 (Vinstri)` — snýr klippunni 90 gráður á móti klukku."
+
+#: ../clips.rst:303
+msgid ":guilabel:`Rotate 180 (Flip)` — flips the clip upside down."
+msgstr ":guilabel:`Snúa 180 (Snúa við)` — snýr klippunni á hvolf."
+
+#: ../clips.rst:305
+msgid ""
+"**Usage Example:** Rotating a photo or video by 90 degrees (a portrait video"
+" to a landscape)."
+msgstr ""
+"**Dæmi um notkun:** Að snúa mynd eða myndbandi um 90 gráður (myndband í "
+"portrett-stíl í landslags-stíl)."
+
+#: ../clips.rst:306
+msgid ""
+"**Usage Example:** If your video is upside down, rotate it by 180 degrees to"
+" correct the orientation."
+msgstr ""
+"**Dæmi um notkun:** Ef myndbandið þitt er á hvolfi, snúðu því um 180 gráður "
+"til að leiðrétta stefnu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:311
+msgid "Layout"
+msgstr "Uppsetning"
+
+#: ../clips.rst:312
+msgid ""
+"The :guilabel:`Transform → Layout` submenu adjusts the size of a clip and "
+"snaps it to a chosen corner of the screen, useful for picture-in-picture or "
+"watermark effects. See :ref:`clip_location_x_ref`, :ref:`clip_scale_x_ref`, "
+":guilabel:`Margin`, and :guilabel:`Corner Radius` key-frames."
+msgstr ""
+"Undirvalmyndin :guilabel:`Breyta → Uppsetning` stillir stærð klippu og "
+"festir hana við valinn skjáhorn, gagnlegt fyrir mynd í mynd eða vatnsmerki. "
+"Sjá :ref:`clip_location_x_ref`, :ref:`clip_scale_x_ref`, :guilabel:`Brún`, "
+"og :guilabel:`Hornaradíus` lykilramma."
+
+#: ../clips.rst:317
+msgid ":guilabel:`Reset Layout` — removes any layout keyframes."
+msgstr ""
+":guilabel:`Endurstilla uppsetningu` — fjarlægir alla uppsetningar-"
+"lykilramma."
+
+#: ../clips.rst:318
+msgid ""
+":guilabel:`1/4 Size` — positions the clip at 1/4 of the screen in the "
+"Center, Top Left, Top Right, Bottom Left, or Bottom Right corner."
+msgstr ""
+":guilabel:`1/4 Stærð` — staðsetur klippuna á 1/4 hluta skjásins í miðju, "
+"efra vinstra, efra hægra, neðra vinstra eða neðra hægra horni."
+
+#: ../clips.rst:319
+msgid ""
+":guilabel:`Show All (Maintain Ratio)` — fits the entire clip frame within "
+"the screen while preserving its aspect ratio."
+msgstr ""
+":guilabel:`Sýna allt (Halda hlutfalli)` — passar allan ramma klippunnar "
+"innan skjásins og viðheldur hlutfalli."
+
+#: ../clips.rst:320
+msgid ""
+":guilabel:`Show All (Distort)` — stretches the entire clip frame to fill the"
+" screen, ignoring aspect ratio."
+msgstr ""
+":guilabel:`Sýna allt (Afmynda)` — teygir allan ramma klippunnar til að fylla"
+" skjáinn, án tillits til hlutfalls."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:322
+msgid ""
+"**Usage Example:** Placing a logo in the corner of a video using the layout "
+"preset."
+msgstr ""
+"**Dæmi um notkun:** Setja lógó í horn myndbands með layout forstillingunni."
+
+#: ../clips.rst:323
+msgid ""
+"**Tip:** Use :guilabel:`Margin` to create an inset layout area for a clip, "
+"and :guilabel:`Corner Radius` to round picture-in-picture camera clips "
+"without adding a Mask effect."
+msgstr ""
+"**Ábending:** Notaðu :guilabel:`Brún` til að búa til innfellda uppsetningu "
+"fyrir klippu, og :guilabel:`Hornaradíus` til að gera horn mynd í mynd "
+"myndavélaklippa mjúk án þess að bæta við grímuáhrifum."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:325
+msgid ""
+"**Tip:** Combine with animation presets for dynamic transitions involving "
+"resizing and repositioning."
+msgstr ""
+"**Ábending:** Sameina með hreyfimyndaforstillingum fyrir kraftmiklar "
+"umbreytingar með stærðarbreytingu og endurstaðsetningu."
+
+#: ../clips.rst:329
+msgid ""
+"The :guilabel:`Speed` menu manipulates clip playback speed, allowing for "
+"reverse playback, time-lapse, slow-motion, freezes, and looping effects. See"
+" :ref:`clip_time_ref` key-frame."
+msgstr ""
+"Valmyndin :guilabel:`Hraði` stjórnar spilunahraða klippu, leyfir bakspilun, "
+"tímaskot, hægagang, kyrrstöðu og lykkjuáhrif. Sjá :ref:`clip_time_ref` "
+"lykilramma."
+
+#: ../clips.rst:332
+msgid ":guilabel:`Reset Speed` — restores the clip to normal 1× speed."
+msgstr ""
+":guilabel:`Endurstilla hraða` — endurheimtir klippuna í venjulegan 1× hraða."
+
+#: ../clips.rst:333
+msgid ":guilabel:`Reverse` — plays the clip backwards at normal speed."
+msgstr ":guilabel:`Bakspilun` — spilar klippuna afturábak á venjulegum hraða."
+
+#: ../clips.rst:334
+msgid ""
+":guilabel:`Speed Up` → Forward / Backward → 2×, 4×, 8×, 16× — speeds up "
+"playback in either direction."
+msgstr ""
+":guilabel:`Hraða upp` → Fram / Aftur → 2×, 4×, 8×, 16× — hraðar spilun í "
+"báðar áttir."
+
+#: ../clips.rst:335
+msgid ""
+":guilabel:`Slow Down` → Forward / Backward → 1/2×, 1/4×, 1/8×, 1/16× — slows"
+" down playback in either direction."
+msgstr ""
+":guilabel:`Hægja á` → Fram / Aftur → 1/2×, 1/4×, 1/8×, 1/16× — hægir á "
+"spilun í báðar áttir."
+
+#: ../clips.rst:336
+msgid ":guilabel:`Repeat` — see below."
+msgstr ":guilabel:`Endurtaka` — sjá neðar."
+
+#: ../clips.rst:337
+msgid ""
+":guilabel:`Freeze` — freezes on the frame at the current playhead position "
+"for 2, 4, 6, 8, 10, 20, or 30 seconds."
+msgstr ""
+":guilabel:`Kyrrstaða` — kyrrsetur ramma á núverandi spilunarstað í 2, 4, 6, "
+"8, 10, 20 eða 30 sekúndur."
+
+#: ../clips.rst:338
+msgid ""
+":guilabel:`Freeze && Zoom` — freezes and simultaneously zooms in on that "
+"frozen frame."
+msgstr ""
+":guilabel:`Kyrrstaða && Þysja` — kyrrsetur og þysjar samtímis inn á þann "
+"kyrrsetta ramma."
+
+#: ../clips.rst:340
+msgid ""
+"**Slow motion** — :guilabel:`Slow Down → 1/2×` or :guilabel:`1/4×` for "
+"dreamy or dramatic footage."
+msgstr ""
+"**Hægagangur** — :guilabel:`Hægja á → 1/2×` eða :guilabel:`1/4×` fyrir "
+"draumkennda eða dramatíska upptöku."
+
+#: ../clips.rst:341
+msgid ""
+"**Time-lapse** — :guilabel:`Speed Up → 8×` or :guilabel:`16×` to compress "
+"hours into seconds."
+msgstr ""
+"**Tímaskot** — :guilabel:`Hraða upp → 8×` eða :guilabel:`16×` til að þjappa "
+"klukkustundum í sekúndur."
+
+#: ../clips.rst:342
+msgid ""
+"**Speed ramp** — use the :guilabel:`Timing` tool to drag clip edges and "
+"create a natural-feeling speed change; OpenShot scales all keyframes "
+"automatically."
+msgstr ""
+"**Hraðabreyting** — notaðu :guilabel:`Tímasetningu` tólið til að draga "
+"brúnir klippu og búa til náttúrulega hraðabreytingu; OpenShot stillir alla "
+"lykilramma sjálfkrafa."
+
+#: ../clips.rst:343
+msgid ""
+"**Tip:** Combine :guilabel:`Freeze` with :guilabel:`Speed Up` for an impact-"
+"freeze-then-fast-forward effect."
+msgstr ""
+"**Ábending:** Sameinaðu :guilabel:`Kyrrstöðu` með :guilabel:`Hraða upp` "
+"fyrir áhrif þar sem myndin frýs og svo hraðspilun."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:348
+msgid "Repeat"
+msgstr "Endurtaka"
+
+#: ../clips.rst:349
+msgid ""
+"Use :guilabel:`Speed → Repeat` to play a clip multiple times, without "
+"building the time curve by hand. OpenShot writes the needed :guilabel:`Time`"
+" keyframes for you (you can edit them later)."
+msgstr ""
+"Notaðu :guilabel:`Hraði → Endurtaka` til að spila klippu mörgum sinnum án "
+"þess að byggja tímakúrfu handvirkt. OpenShot skrifar nauðsynlega "
+":guilabel:`Tíma` lykilramma fyrir þig (þú getur breytt þeim síðar)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:352
+msgid "**Menu path**"
+msgstr "**Valmyndarleið**"
+
+#: ../clips.rst:354
+msgid ""
+":guilabel:`Speed → Repeat → Loop → Forward` – plays left to right, then "
+"starts again from the beginning"
+msgstr ""
+":guilabel:`Hraði → Endurtaka → Lykkja → Fram` – spilar frá vinstri til "
+"hægri, byrjar svo aftur frá byrjun"
+
+#: ../clips.rst:355
+msgid ""
+":guilabel:`Speed → Repeat → Loop → Reverse` – plays right to left, then "
+"starts again from the end"
+msgstr ""
+":guilabel:`Hraði → Endurtaka → Lykkja → Bak` – spilar frá hægri til vinstri,"
+" byrjar svo aftur frá enda"
+
+#: ../clips.rst:356
+msgid ""
+":guilabel:`Speed → Repeat → Ping-Pong → Forward` – forward, then backward, "
+"then forward…"
+msgstr ""
+":guilabel:`Hraði → Endurtaka → Ping-Pong → Fram` – áfram, svo afturábak, svo"
+" áfram…"
+
+#: ../clips.rst:357
+msgid ""
+":guilabel:`Speed → Repeat → Ping-Pong → Reverse` – backward, then forward, "
+"then backward…"
+msgstr ""
+":guilabel:`Hraði → Endurtaka → Ping-Pong → Öfug` – afturábak, svo áfram, svo"
+" afturábak…"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:358
+msgid ":guilabel:`Custom…` – opens a dialog for extra options (see below)"
+msgstr ":guilabel:`Sérsniðið…` – opnar glugga fyrir aukavalkosti (sjá neðar)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:360
+msgid ""
+"Counts are **finite** (2x, 3x, 4x, 5x, 8x, 10x, or a custom number). "
+"Example: “Forward then Back and stop” = :guilabel:`Ping-Pong → Forward → "
+"2x`."
+msgstr ""
+"Fjöldi er **takmarkaður** (2x, 3x, 4x, 5x, 8x, 10x eða sérsniðið). Dæmi: "
+"„Áfram, svo aftur og stöðva“ = :guilabel:`Ping-Pong → Forward → 2x`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:363
+msgid "**What gets repeated**"
+msgstr "**Hvað er endurtekið**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:365
+msgid "Repeat always acts on the **currently trimmed** in/out of the clip."
+msgstr ""
+"Endurtekning virkar alltaf á **núverandi klipptu** inn- og útpunktum "
+"klippunnar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:366
+msgid ""
+"The :guilabel:`Time` curve is stamped as a simple shape: - Loop Forward = "
+"rising saw - Loop Reverse = falling saw - Ping-Pong = triangle (direction "
+"flips each pass)"
+msgstr ""
+":guilabel:`Time` kúrvan er merkt með einföldu formi: - Loop Forward = "
+"hækkandi sagarform - Loop Reverse = lækkandi sagarform - Ping-Pong = "
+"þríhyrningur (stefna snýst við í hverri umferð)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:370
+msgid ""
+"To avoid a double frame at the seam, the last frame of each pass is not "
+"duplicated."
+msgstr ""
+"Til að forðast tvöfalda ramma við sauminn er síðasti rammi hverrar umferðar "
+"ekki afritaður."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:372
+msgid "**Keyframes during Repeat**"
+msgstr "**Lykilrammar við endurtekningu**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:374
+msgid ""
+"When you use Repeat, OpenShot will also **repeat other keyframes** found "
+"inside the trimmed section (location, scale, effects, etc.) into each pass "
+"so your animations stay in sync."
+msgstr ""
+"Þegar þú notar Endurtekningu mun OpenShot einnig **endurtaka aðra "
+"lykilramma** sem finnast innan klipptu svæðisins (staðsetningu, stærð, áhrif"
+" o.s.frv.) í hverri umferð svo hreyfimyndir þínar haldist samstilltar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:375
+msgid "Repeated keyframes keep their relative timing inside each pass."
+msgstr ""
+"Endurteknir lykilrammar halda hlutfallslegri tímasetningu sinni í hverri "
+"umferð."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:377
+msgid "**Custom Repeat** (dialog options)"
+msgstr "**Sérsniðin endurtekning** (valkostir í glugga)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:379
+msgid ":guilabel:`Pattern:` Loop | Ping-Pong"
+msgstr ":guilabel:`Mynstur:` Loop | Ping-Pong"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:380
+msgid ":guilabel:`Direction:` Forward | Reverse"
+msgstr ":guilabel:`Stefna:` Áfram | Afturábak"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:381
+msgid ""
+":guilabel:`Passes:` integer (2 or more). This is the number of times it will"
+" play."
+msgstr ""
+":guilabel:`Umferðir:` heiltala (2 eða fleiri). Þetta er fjöldi skipta sem "
+"það spilar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:382
+msgid ""
+":guilabel:`Delay:` number + units [frames | ms | sec]. This is an optional "
+"delay between each repeated pass."
+msgstr ""
+":guilabel:`Seinkun:` tala + einingar [rammar | ms | sek]. Þetta er valfrjáls"
+" seinkun milli hverrar endurtekinna umferða."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:383
+msgid ""
+":guilabel:`Speed Ramp (%):` % speed change per pass (optional). Positive "
+"speeds up each pass; negative slows down each pass."
+msgstr ""
+":guilabel:`Hraðabreyting (%):` % hraðabreyting á hverri umferð (valfrjálst)."
+" Jákvætt hraðar hverja umferð; neikvætt hægir á hverri umferð."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:385
+msgid "**Reset**"
+msgstr "**Endurstilla**"
+
+#: ../clips.rst:387
+msgid ""
+":guilabel:`Speed → Reset Speed` completely removes any Time curve (including"
+" Repeat) and restores the clip to its original playback, **without deleting "
+"your original non-Time keyframes**."
+msgstr ""
+":guilabel:`Hraði → Endurstilla hraða` fjarlægir algjörlega allar tímakúrfur "
+"(þ.m.t. endurtekningu) og endurheimtir klippuna í upprunalegt "
+"spilunarástand, **án þess að eyða upprunalegum lykilrammum sem tengjast ekki"
+" tíma**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:391
+msgid "Timing Tool"
+msgstr "Tímatól"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:392
+msgid ""
+"Another way to change a clip's speed is with the :guilabel:`Timing` tool on "
+"the timeline toolbar. Enable the clock icon and drag a clip's edges. "
+"Lengthening the clip slows playback, while shotening it speeds the clip up. "
+"All keyframes on the clip and its effects are scaled so their relative "
+"positions remain intact."
+msgstr ""
+"Annað leið til að breyta hraða klips er með :guilabel:`Tímatól` á "
+"tímalínustikunni. Virkjaðu klukkutáknið og dragðu brúnir klipsins. Að lengja"
+" klipið hægir á spilun, á meðan að stytta það hraðar klipið. Öll lykilramma "
+"á klipinu og áhrifum þess eru skölvuð svo hlutfallsleg staðsetning þeirra "
+"haldist óbreytt."
+
+#: ../clips.rst:398
+msgid ""
+"The :guilabel:`Look` menu applies one-click visual style presets to clips. "
+"All presets work by adding or updating effects on the clip — you can inspect"
+" or animate them further in the Properties dock. The menu is organized into "
+"four submenus plus two direct actions at the bottom."
+msgstr ""
+":guilabel:`Útlit` valmyndin beitir einni-smell forstilltum sjónrænum stíl á "
+"klippur. Allar forstillingar virka með því að bæta við eða uppfæra áhrif á "
+"klippuna — þú getur skoðað eða hreyft þau frekar í eiginleikadokknum. "
+"Valmyndin er skipulögð í fjóra undirmatseðla auk tveggja beinna aðgerða "
+"neðst."
+
+#: ../clips.rst:402
+msgid ""
+":guilabel:`Reset Look` — removes all Look-managed effects (Color Grade, Film"
+" Grain, Analog Tape, Sharpen, Blur, Shadow, Glow) from the selected clips in"
+" a single step."
+msgstr ""
+":guilabel:`Endurstilla útlit` — fjarlægir öll áhrif sem stjórnað er af "
+"Útliti (Litastig, Kvikmyndarkorn, Analogtöpa, Skerpa, Óskýrt, Skuggi, Glóð) "
+"af valdar klippur í einu skrefi."
+
+#: ../clips.rst:405
+msgid ""
+"**Color** — applies a :guilabel:`Color Grade` effect with one of four quick "
+"presets:"
+msgstr ""
+"**Litur** — beitir :guilabel:`Litastig` áhrifum með einni af fjórum "
+"hraðaforstillingum:"
+
+#: ../clips.rst:407
+msgid ""
+"**Auto Contrast** — boosts contrast by lifting shadows and pulling "
+"highlights."
+msgstr ""
+"**Sjálfvirkur andstæða** — eykur andstöðu með því að hækka skugga og draga "
+"fram hápunktana."
+
+#: ../clips.rst:408
+msgid "**Lift Shadows** — brightens the dark areas of the image."
+msgstr "**Lyfta skuggum** — lýsir upp dökk svæði myndarinnar."
+
+#: ../clips.rst:409
+msgid "**Warm Up** — shifts the color balance toward warm orange/amber tones."
+msgstr ""
+"**Hita upp** — færist litajafnvægið í átt að hlýjum appelsínugulum/ambra "
+"tónum."
+
+#: ../clips.rst:410
+msgid "**Boost Color** — increases color saturation."
+msgstr "**Auka lit** — eykur litmettun."
+
+#: ../clips.rst:412
+msgid "**Film** — cinematic film simulation:"
+msgstr "**Kvikmynd** — kvikmyndasýnd hermun:"
+
+#: ../clips.rst:414
+msgid ""
+":guilabel:`Film Grain` → **No Film Grain**, then: **35mm Fine**, **35mm "
+"Classic**, **35mm Gritty**, **16mm Classic**, **Super 8**, **High ISO** — "
+"adds photographic grain at various strengths and sizes."
+msgstr ""
+":guilabel:`Kvikmyndarkorn` → **Engin kvikmyndarkorn**, svo: **35mm fínt**, "
+"**35mm klassískt**, **35mm gróft**, **16mm klassískt**, **Super 8**, **Há "
+"ISO** — bætir við ljósmyndakorni í mismunandi styrk og stærð."
+
+#: ../clips.rst:416
+msgid ""
+":guilabel:`Analog Tape` → **No Analog Tape**, then: **Subtle**, **VHS**, "
+"**Heavy** — adds tape noise and color degradation for a retro video look."
+msgstr ""
+":guilabel:`Analogtöpa` → **Engin analogtöpa**, svo: **Hóflegt**, **VHS**, "
+"**Þungt** — bætir við hljóðnema og litabresti fyrir retro vídeó útlit."
+
+#: ../clips.rst:419
+msgid "**Focus** — sharpness adjustments:"
+msgstr "**Fókus** — skerpu stillingar:"
+
+#: ../clips.rst:421
+msgid ""
+":guilabel:`Sharpen` → **No Sharpen**, then: **Subtle**, **Medium**, "
+"**Strong** — sharpens fine detail."
+msgstr ""
+":guilabel:`Skerpa` → **Engin skerpa**, svo: **Hófleg**, **Miðlungs**, "
+"**Sterk** — skerpir fínar smáatriði."
+
+#: ../clips.rst:422
+msgid ""
+":guilabel:`Blur` → **No Blur**, then: **Soft Focus**, **Medium**, **Heavy** "
+"— softens the image."
+msgstr ""
+":guilabel:`Óskýrt` → **Engin óskýrt**, svo: **Mjúkur fókus**, **Miðlungs**, "
+"**Þungt** — mýkir myndina."
+
+#: ../clips.rst:424
+msgid "**Lighting** — light and shadow overlays:"
+msgstr "**Lýsing** — ljós- og skuggalag:"
+
+#: ../clips.rst:426
+msgid ""
+":guilabel:`Shadow` → **No Shadow**, then: **Subtle**, **Soft**, **Strong**, "
+"**Long** — casts a drop shadow across the clip."
+msgstr ""
+":guilabel:`Skuggi` → **Enginn skuggi**, svo: **Hóflegur**, **Mjúkur**, "
+"**Sterkur**, **Langur** — kastar dropaskugga yfir klippuna."
+
+#: ../clips.rst:428
+msgid ""
+":guilabel:`Glow` → **No Glow**, then: **Soft White**, **Warm**, **Neon**, "
+"**Inner Glow** — adds a soft halo or glow effect."
+msgstr ""
+":guilabel:`Glóð` → **Engin glóð**, svo: **Mjúk hvít**, **Hlý**, **Neon**, "
+"**Innri glóð** — bætir við mjúku geisla- eða glóðaáhrifum."
+
+#: ../clips.rst:431
+msgid "At the bottom of the Look menu:"
+msgstr "Neðst í Útlitsvalmyndinni:"
+
+#: ../clips.rst:433
+msgid ""
+":guilabel:`Adjust Colors` — opens the :guilabel:`Color Wheels` dock for full"
+" manual color grading with lift/gamma/gain wheels, curves, and an "
+"Amount/Luma blend slider."
+msgstr ""
+":guilabel:`Stilla liti` — opnar :guilabel:`Litahjól` dokkinn fyrir fulla "
+"handvirka litastillingu með lyftu/gamma/aukningu hjólum, kúrfum og "
+"blöndunarrúllu fyrir magn/luma."
+
+# Main-window terminology review, 2026-09-26.
+#: ../clips.rst:435
+msgid ""
+":guilabel:`Analyze Colors` — opens the :guilabel:`Luma Waveform` and "
+":guilabel:`Histogram` video scopes on the right side of the window, tabified"
+" together."
+msgstr ""
+":guilabel:`Greina liti` — opnar :guilabel:`Luma-bylgjuform` og "
+":guilabel:`Dreifirit` myndmæla á hægri hlið gluggans, flipað saman."
+
+#: ../clips.rst:438
+msgid ""
+"**Tip:** Each Look submenu has a \"No …\" option at the top to remove just "
+"that single effect without affecting the others."
+msgstr ""
+"**Ábending:** Hver undirmatsvalmynd í Útliti hefur „Engin …“ valkost efst "
+"til að fjarlægja aðeins það eina áhrif án þess að hafa áhrif á önnur."
+
+#: ../clips.rst:440
+msgid ""
+"**Tip:** After applying a Look preset, double-click the effect badge on the "
+"clip (or use Properties) to fine-tune every parameter or animate it over "
+"time."
+msgstr ""
+"**Ábending:** Eftir að hafa beitt Útlitsforstillingu, tvísmelltu á "
+"áhrifamerkið á klippunni (eða notaðu Eiginleika) til að fínstilla hvern þátt"
+" eða hreyfa hann yfir tíma."
+
+#: ../clips.rst:445
+msgid ""
+"The :guilabel:`Audio` menu groups all audio-related clip actions in one "
+"place."
+msgstr ""
+":guilabel:`Hljóð` valmyndin safnar öllum hljóðtengdum klippuaðgerðum á einn "
+"stað."
+
+#: ../clips.rst:447
+msgid ""
+"**Volume** — controls the clip's audio level. See :ref:`clip_volume_ref` "
+"key-frame."
+msgstr ""
+"**Hljóðstyrkur** — stjórnar hljóðstigi klippunnar. Sjá "
+":ref:`clip_volume_ref` lykilramma."
+
+#: ../clips.rst:449
+msgid ""
+":guilabel:`Reset Volume` — removes all volume keyframes, returning to full "
+"(1×) volume."
+msgstr ""
+":guilabel:`Endurstilla hljóðstyrk` — fjarlægir alla hljóðstyrk-lykilramma og"
+" skilar í fullan (1×) hljóðstyrk."
+
+#: ../clips.rst:450
+msgid ""
+":guilabel:`Level` — sets a fixed volume percentage (0 % to 130 %) for the "
+"entire clip."
+msgstr ""
+":guilabel:`Stig` — stillir fast hlutfall hljóðstyrks (0 % til 130 %) fyrir "
+"alla klippuna."
+
+#: ../clips.rst:451
+msgid ""
+":guilabel:`Fade In` → :guilabel:`Fast` / :guilabel:`Slow` — fades volume "
+"from silence at the start of the clip."
+msgstr ""
+":guilabel:`Faðma inn` → :guilabel:`Hraður` / :guilabel:`Hægur` — dregur "
+"hljóðstyrk úr þögn í byrjun klippunnar."
+
+#: ../clips.rst:452
+msgid ""
+":guilabel:`Fade Out` → :guilabel:`Fast` / :guilabel:`Slow` — fades volume to"
+" silence at the end of the clip."
+msgstr ""
+":guilabel:`Faðma út` → :guilabel:`Hraður` / :guilabel:`Hægur` — dregur "
+"hljóðstyrk niður í þögn í lok klippunnar."
+
+#: ../clips.rst:453
+msgid ""
+":guilabel:`Fade In and Out` → :guilabel:`Fast` / :guilabel:`Slow` — applies "
+"both a volume fade-in and fade-out."
+msgstr ""
+":guilabel:`Faðma inn og út` → :guilabel:`Hraður` / :guilabel:`Hægur` — "
+"beitir bæði hljóðstyrksfaðma inn og út."
+
+#: ../clips.rst:455
+msgid "**Separate** — splits the audio track out of a clip:"
+msgstr "**Aðskilja** — aðskilur hljóðrás frá klippu:"
+
+#: ../clips.rst:457
+msgid ""
+":guilabel:`Single Clip (all channels)` — creates one detached audio clip on "
+"a layer below the original."
+msgstr ""
+":guilabel:`Einföld klippa (allar rásir)` — býr til eina aðskilda hljóðklippu"
+" á lagi undir upprunalegu."
+
+#: ../clips.rst:458
+msgid ""
+":guilabel:`Multiple Clips (each channel)` — creates separate detached audio "
+"clips, one per audio channel, on multiple layers below the original."
+msgstr ""
+":guilabel:`Fjölmargar klippur (hver rás)` — býr til aðskildar hljóðklippur, "
+"eina fyrir hverja hljóðrás, á mörgum lögum undir upprunalegu."
+
+#: ../clips.rst:460
+msgid ""
+"**Show Waveform / Hide Waveform** — toggles the audio waveform visualization"
+" on the timeline for audio-only clips. Only shown for clips that do not have"
+" a video track."
+msgstr ""
+"**Sýna bylgjulaga / Fela bylgjulaga** — kveikir eða slökkvir á sýningu "
+"hljóðbylgjulaga á tímalínu fyrir hljóð-eina klippur. Sýnt aðeins fyrir "
+"klippur sem hafa ekki myndrás."
+
+#: ../clips.rst:463
+msgid ""
+"**Analyze Levels** — opens the :guilabel:`Audio Levels` scope dock. If other"
+" scope docks are already open, OpenShot tabifies :guilabel:`Audio Levels` "
+"with them."
+msgstr ""
+"**Greina stig** — opnar :guilabel:`Hljóðstig` mælitæki dokkinn. Ef önnur "
+"mælitæki eru opin, raðar OpenShot :guilabel:`Hljóðstig` í flipa með þeim."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:466
+msgid ""
+"**Usage Example:** Applying a gradual volume fade-out to transition between "
+"scenes."
+msgstr ""
+"**Dæmi um notkun:** Að beita hægfara hljóðstyrksdimmingu til að skipta á "
+"milli senna."
+
+#: ../clips.rst:467
+msgid ""
+"**Usage Example:** Extracting background music from a video clip for "
+"independent volume control."
+msgstr ""
+"**Dæmi um notkun:** Að draga út bakgrunnstónlist úr myndbandsklippu til "
+"sjálfstæðrar hljóðstyrkstillingar."
+
+#: ../clips.rst:468
+msgid ""
+"**Tip:** Use :guilabel:`Audio → Volume → Fade In/Out` for audio-only fades. "
+"Use the top-level :guilabel:`Fade` menu for a combined video+audio fade."
+msgstr ""
+"**Ábending:** Notaðu :guilabel:`Hljóð → Hljóðstyrkur → Faðma inn/út` fyrir "
+"hljóð-eina faðma. Notaðu efsta :guilabel:`Faðma` valmyndina fyrir sameinaðan"
+" myndbands- og hljóðfaðma."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:472
+msgid ""
+"The :guilabel:`Slice` tool lets you cut a clip at the position of the play-"
+"head (*the vertical line that shows your current position in the timeline*)."
+" This will split the clip into two separate parts at the exact point where "
+"the play-head is."
+msgstr ""
+":guilabel:`Skeri` tólið leyfir þér að klippa klipið á staðsetningu "
+"spilunarhausins (*lóðrétta línan sem sýnir núverandi stöðu þína á "
+"tímalínunni*). Þetta skiptir klipinu í tvær aðskildar einingar á nákvæmlega "
+"þeim stað þar sem spilunarhausinn er."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:475
+msgid ""
+"Slicing is a key feature for making precise edits and rearranging sections "
+"of your video. You can slice a clip and choose to keep one side or both, and"
+" with the ripple option, you can automatically shift other clips on the same"
+" track to fill any gaps caused by the cut."
+msgstr ""
+"Skerun er lykilatriði til að gera nákvæmar breytingar og endurraða hlutum "
+"myndbandsins þíns. Þú getur skorið klipið og valið að halda öðru megin eða "
+"báðum, og með bylgjuvalkostinum geturðu sjálfkrafa fært önnur klip á sama "
+"lagi til að fylla í eyður sem klippingin veldur."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:479
+msgid "**Slicing Options:**"
+msgstr "**Skeruvalkostir:**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:481
+msgid ""
+"**Keep Both Sides**: This option splits the clip into two parts, keeping "
+"everything on both sides of the play-head. It’s useful when you want to "
+"break a clip into sections but don’t want to remove anything."
+msgstr ""
+"**Halda báðum hliðum**: Þessi valkostur skiptir klipinu í tvær einingar og "
+"heldur öllu á báðum hliðum spilunarhausins. Hann er gagnlegur þegar þú vilt "
+"skipta klipi í hluta en vilt ekki fjarlægja neitt."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:482
+msgid ""
+"**Keep Left Side**: This option cuts the clip and removes the part to the "
+"right of the play-head, keeping only the part before the play-head. Use this"
+" to get rid of the portion of the clip that comes after the current point."
+msgstr ""
+"**Halda vinstri hlið**: Þessi valkostur sker klipið og fjarlægir hlutann "
+"hægra megin við spilunarhausinn, og heldur aðeins hlutanum fyrir "
+"spilunarhausinn. Notaðu þetta til að losna við þann hluta klipsins sem kemur"
+" á eftir núverandi stað."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:483
+msgid ""
+"**Keep Right Side**: This option cuts the clip and removes the part to the "
+"left of the play-head, keeping only the part after the play-head. It’s handy"
+" for trimming away the beginning of a clip and keeping the rest."
+msgstr ""
+"**Halda hægri hlið**: Þessi valkostur sker klipið og fjarlægir hlutann "
+"vinstra megin við spilunarhausinn, og heldur aðeins hlutanum eftir "
+"spilunarhausinn. Hann er hentugur til að klippa burt byrjun klipsins og "
+"halda restinni."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:484
+msgid ""
+"**Ripple Slicing**: Ripple slicing not only cuts the clip but also moves any"
+" clips and transitions that follow to close the gap. This way, your timeline"
+" stays continuous without empty spaces after a cut, saving you the trouble "
+"of manually adjusting the clips that come after."
+msgstr ""
+"**Bylgjuskerun**: Bylgjuskerun sker ekki aðeins klipið heldur færist einnig "
+"önnur klip og umbreytingar sem koma á eftir til að loka eyðunni. Þannig "
+"helst tímalínan þín samfellt án tóma svæða eftir klippingu, sem sparar þér "
+"fyrirhöfnina að stilla klipin handvirkt."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:486 ../clips.rst:660
+msgid "**Tips for Beginners:**"
+msgstr "**Ábendingar fyrir byrjendur:**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:488
+msgid ""
+"**Example**: If there’s a part of a clip you don’t want (like the end of a "
+"scene), use **Keep Left Side** or **Keep Right Side** to remove it. If you "
+"want to split a scene into multiple smaller sections to rearrange, use "
+"**Keep Both Sides**."
+msgstr ""
+"**Dæmi**: Ef það er hluti af klipi sem þú vilt ekki (eins og endi senunnar),"
+" notaðu **Halda vinstri hlið** eða **Halda hægri hlið** til að fjarlægja "
+"hann. Ef þú vilt skipta senunni í fleiri minni hluta til að endurraða, "
+"notaðu **Halda báðum hliðum**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:489
+msgid ""
+"**Quick Tip**: Slicing can also be used to break a long clip into smaller "
+"parts, making it easier to manage and edit each section separately."
+msgstr ""
+"**Fljót ábending**: Skerun má einnig nota til að skipta löngu klipi í minni "
+"hluta, sem gerir það auðveldara að stjórna og breyta hverjum hluta fyrir "
+"sig."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:491
+msgid ""
+"For a complete guide to slicing and all available keyboard shortcuts, see "
+"the :ref:`clips_cutting_slicing_ref` section."
+msgstr ""
+"Fyrir fullkomna leiðbeiningu um skerun og alla tiltæka flýtilykla, sjáðu "
+":ref:`clips_cutting_slicing_ref` kaflann."
+
+#: ../clips.rst:497
+msgid ""
+"The :guilabel:`Transform` context menu provides geometric preset actions for"
+" visual clips:"
+msgstr ""
+":guilabel:`Breyta` samhengisvalmyndin býður upp á rúmfræðilegar "
+"forstillingar fyrir sjónrænar klippur:"
+
+#: ../clips.rst:499
+msgid ""
+":guilabel:`No Transform` — removes all Rotate, Layout, and crop presets from"
+" the selected clips in one step."
+msgstr ""
+":guilabel:`Engin breyting` — fjarlægir allar snúnings-, uppsetningar- og "
+"klippiforstillingar af valdum klippum í einu skrefi."
+
+#: ../clips.rst:500
+msgid ""
+":guilabel:`Rotate` — rotate or flip the clip. See the :ref:`Rotate "
+"<clip_presets_rotate_ref>` section above."
+msgstr ""
+":guilabel:`Snúa` — snúa eða spegla klippuna. Sjá :ref:`Snúa "
+"<clip_presets_rotate_ref>` kaflann hér að ofan."
+
+#: ../clips.rst:501
+msgid ""
+":guilabel:`Crop` — add or remove a crop effect. See the :ref:`Crop "
+"<clip_presets_crop_ref>` section below."
+msgstr ""
+":guilabel:`Klippa` — bæta við eða fjarlægja klippiefni. Sjá :ref:`Klippa "
+"<clip_presets_crop_ref>` kaflann hér að neðan."
+
+#: ../clips.rst:502
+msgid ""
+":guilabel:`Layout` — resize and snap the clip to a corner or fit position. "
+"See the :ref:`Layout <clip_presets_layout_ref>` section above."
+msgstr ""
+":guilabel:`Uppsetning` — breyta stærð og festa klippuna í horn eða "
+"viðeigandi staðsetningu. Sjá :ref:`Uppsetning <clip_presets_layout_ref>` "
+"kaflann hér að ofan."
+
+#: ../clips.rst:507
+msgid "Transform Tool"
+msgstr "Breytingartól"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:508
+msgid ""
+"The **Transform Tool** lets you quickly adjust a clip directly in the "
+"preview window, instead of changing location, scale, rotation, shear, and "
+"rotation origin values one property at a time. OpenShot shows the Transform "
+"Tool automatically whenever you select a clip on the timeline, with blue "
+"lines and handles drawn around the selected clip. You can also select "
+"multiple clips at once with :kbd:`Ctrl` or :kbd:`Shift`; in that case, the "
+"preview shows one set of handles around the full selection, and any move, "
+"scale, or rotation is applied to all selected clips together."
+msgstr ""
+"**Breytingartólið** leyfir þér að stilla klippu hratt beint í "
+"forskoðunarglugganum, í stað þess að breyta staðsetningu, stærð, snúningi, "
+"skekkju og snúningsupphafsgildi einu í einu. OpenShot sýnir Breytingartólið "
+"sjálfkrafa þegar þú velur klippu á tímalínunni, með bláum línum og "
+"handföngum dregnum utan um valda klippuna. Þú getur einnig valið margar "
+"klippur í einu með :kbd:`Ctrl` eða :kbd:`Shift`; í því tilfelli sýnir "
+"forskoðunin eitt sett af höndum utan um alla valda klippuna, og hvaða "
+"hreyfing, stærðarbreyting eða snúningur sem er er beitt á allar valdar "
+"klippur samtímis."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:517
+msgid "Dragging the blue squares will adjust the **scale** of the image."
+msgstr "Að draga í bláu ferningana stillir **stærð** myndarinnar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:518
+msgid "Dragging the center will move the **location** of the image."
+msgstr "Að draga miðjuna mun færa **staðsetningu** myndarinnar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:519
+msgid ""
+"Dragging the mouse on the outside of the blue lines will **rotate** the "
+"image."
+msgstr "Að draga músina utan við bláu línurnar mun **snúa** myndinni."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:520
+msgid ""
+"Hold :kbd:`Ctrl` or :kbd:`Shift` while rotating to snap to 15-degree "
+"increments."
+msgstr ""
+"Haltu :kbd:`Ctrl` eða :kbd:`Shift` niðri meðan þú snýrð til að festa við 15 "
+"gráðu skref."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:521
+msgid ""
+"Dragging along the blue lines will **shear** the image in that direction."
+msgstr "Að draga eftir bláu línunum mun **skera** myndina í þeirri átt."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:522
+msgid ""
+"Dragging the circle in the middle will move the **origin point** that "
+"controls the center of **rotation**."
+msgstr ""
+"Að draga hringinn í miðjunni mun færa **upprunapunktinn** sem stjórnar miðju"
+" **snúnings**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:524
+msgid ""
+"Note: Pay close attention to the play-head position (red playback line). Key"
+" frames are automatically created at the current playback position, to help "
+"quickly create animations. If you want to transform a clip with **no "
+"animation**, be sure the playhead is positioned before (to the left) of your"
+" clip. You can also manually adjust these same clip properties in the "
+"property editor, see :ref:`clip_properties_ref`."
+msgstr ""
+"Athugið: Gefðu gaum að staðsetningu spilunarhausins (rauða spilunar línan). "
+"Lykilrammar eru sjálfkrafa búnir til á núverandi spilunarstað til að "
+"auðvelda hraða gerð hreyfimynda. Ef þú vilt breyta klipi án **hreyfimynda**,"
+" vertu viss um að spilunarhausinn sé staðsettur fyrir (til vinstri við) "
+"klipið þitt. Þú getur einnig handvirkt stillt sömu eiginleika klipsins í "
+"eiginleikaglugganum, sjá :ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:531
+#, fuzzy
+msgid ""
+"**Usage Example:** Use the transform handles to resize and reposition a clip"
+" for a picture-in-picture effect."
+msgstr ""
+"**Dæmi um notkun:** Að nota breytingarham til að breyta stærð og "
+"staðsetningu klips fyrir mynd í mynd áhrif."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:532
+#, fuzzy
+msgid "**Tip:** Use these handles to precisely control a clip's appearance."
+msgstr ""
+"**Ábending:** Notaðu þetta fyrirframstillta til að stjórna útliti klips "
+"nákvæmlega."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:537
+msgid "Crop"
+msgstr "Klippa"
+
+#: ../clips.rst:538
+msgid ""
+"The :guilabel:`Transform → Crop` submenu adds a crop effect to the selected "
+"clip and displays interactive crop handles in the video preview. The submenu"
+" offers:"
+msgstr ""
+"Undirvalmyndin :guilabel:`Breyta → Klippa` bætir klippiefni við valda "
+"klippuna og sýnir gagnvirk klippihandföng í forskoðun myndbandsins. "
+"Undirvalmyndin býður upp á:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:541
+msgid ":guilabel:`No Crop` – remove any existing crop effect."
+msgstr ":guilabel:`Engin klipping` – fjarlægja núverandi klippiefni."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:542
+msgid ""
+":guilabel:`Crop (No Resize)` – trim the clip without scaling the remaining "
+"area."
+msgstr ""
+":guilabel:`Klippa (án stærðarbreytingar)` – sker klipið án þess að breyta "
+"stærð eftirfylgjandi svæðis."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:543
+msgid ""
+":guilabel:`Crop (Resize)` – trim the clip and scale the cropped region to "
+"fill the frame."
+msgstr ""
+":guilabel:`Klippa (stækka)` – sker klipið og stækkar klippt svæði til að "
+"fylla rammann."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:545
+msgid ""
+"Drag the blue handles to adjust the crop boundaries, move the cropped area "
+"around, or move the center handle to reposition the image inside the cropped"
+" area."
+msgstr ""
+"Dragðu bláu handföngin til að stilla klippimörk, færa klippt svæðið eða færa"
+" miðju handfangið til að endurstaða myndina innan klippta svæðisins."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:549 ../clips.rst:734 ../clips.rst:1067
+msgid "Waveform"
+msgstr "Bylgjulína"
+
+#: ../clips.rst:550
+msgid ""
+"The :guilabel:`Audio → Show Waveform` / :guilabel:`Hide Waveform` action "
+"toggles whether an audio-only clip shows its waveform visualization on the "
+"timeline instead of the default thumbnail. This option only appears for "
+"clips that have no video track."
+msgstr ""
+"Aðgerðin :guilabel:`Hljóð → Sýna bylgjulínu` / :guilabel:`Fela bylgjulínu` "
+"skiptir á milli þess hvort hljóðklippa sýni bylgjulínulýsingu á tímalínunni "
+"í stað sjálfgefins smámyndar. Þessi valkostur birtist aðeins fyrir klippur "
+"sem hafa enga myndbraut."
+
+#: ../clips.rst:554
+msgid ""
+"**Usage Example:** Displaying the audio waveform for precise audio editing "
+"and alignment."
+msgstr ""
+"**Dæmi um notkun:** Sýna bylgjulínu hljóðs til nákvæmrar hljóðvinnslu og "
+"samstillingar."
+
+#: ../clips.rst:555
+msgid ""
+"**Tip:** Use this to visually spot loud or quiet sections in a music clip "
+"without opening the audio scopes."
+msgstr ""
+"**Ábending:** Notaðu þetta til að sjá hávær eða hljóðlát svæði í "
+"tónlistarklippu án þess að opna hljóðmælingar."
+
+#: ../clips.rst:557
+msgid "**How timeline waveforms are scaled**"
+msgstr "**Hvernig bylgjulínur á tímalínu eru skalaðar**"
+
+#: ../clips.rst:559
+msgid ""
+"Timeline waveforms are an editing aid: they help you find speech, beats, "
+"silence, and transients, and compare the approximate levels of different "
+"clips. New waveform data preserves the source's **absolute peak level**. "
+"OpenShot does not enlarge every quiet file until its highest peak fills the "
+"clip, so a quiet recording remains visibly quieter than a loud recording."
+msgstr ""
+"Bylgjulínur á tímalínu eru hjálpartæki við klippingu: þær hjálpa þér að "
+"finna tal, takta, þögn og skyndileg hljóð, og bera saman nálæg gildi "
+"mismunandi klippa. Ný gögn bylgjulínu varðveita **algjört hámarksgildi** "
+"upprunans. OpenShot stækkar ekki hljóðskrár sem eru rólegar þar til hámarkið"
+" fyllir klippuna, svo róleg upptaka sýnist enn rólegri en hávær."
+
+#: ../clips.rst:564
+msgid ""
+"Pure linear amplitude is accurate but makes ordinary speech difficult to "
+"see. OpenShot therefore applies a fixed, gentle square-root display curve. "
+"This expands useful detail while preserving the order of levels: a louder "
+"source always appears taller than a quieter source. The curve changes only "
+"the drawing; it does not alter, normalize, or process the recorded audio."
+msgstr ""
+"Hrein línuleg amplitúða er nákvæm en gerir venjulegt tal erfitt að sjá. "
+"OpenShot notar því fastan, mildan kvaðratrótarkúrfu til sýningar. Þetta "
+"eykur gagnleg smáatriði á meðan röð stiganna helst óbreytt: háværari upptaka"
+" virðist alltaf hærri en rólegri. Kúrfan breytir aðeins myndinni; hún "
+"breytir, normalíserar eða vinnur ekki með hljóðupptökuna."
+
+#: ../clips.rst:569
+msgid "Approximate waveform height for new clips"
+msgstr "Nálæg hæð bylgjulínu fyrir nýjar klippur"
+
+#: ../clips.rst:573
+msgid "Peak Level"
+msgstr "Hámarksstig"
+
+#: ../clips.rst:573
+msgid "Display Height"
+msgstr "Sýningarhæð"
+
+#: ../clips.rst:573
+msgid "What It Often Looks Like"
+msgstr "Hvernig það lítur oft út"
+
+#: ../clips.rst:575
+msgid "``0 dBFS``"
+msgstr "``0 dBFS``"
+
+#: ../clips.rst:575
+msgid "100%"
+msgstr "100%"
+
+#: ../clips.rst:575
+msgid "Full-scale peak; check for possible clipping."
+msgstr "Hámark á fullum skala; athugaðu mögulega klippingu."
+
+#: ../clips.rst:576
+msgid "``-6 dBFS``"
+msgstr "``-6 dBFS``"
+
+#: ../clips.rst:576
+msgid "71%"
+msgstr "71%"
+
+#: ../clips.rst:576
+msgid "Strong transient or loud program audio."
+msgstr "Sterk skyndileg hljóð eða hávær hljóðrás."
+
+#: ../clips.rst:577
+msgid "``-12 dBFS``"
+msgstr "``-12 dBFS``"
+
+#: ../clips.rst:577
+msgid "50%"
+msgstr "50%"
+
+#: ../clips.rst:577
+msgid "Healthy speech or other prominent audio."
+msgstr "Skýr tala eða annað áberandi hljóð."
+
+#: ../clips.rst:578
+msgid "``-20 dBFS``"
+msgstr "``-20 dBFS``"
+
+#: ../clips.rst:578
+msgid "32%"
+msgstr "32%"
+
+#: ../clips.rst:578
+msgid "Moderate speech or background program audio."
+msgstr "Miðlungs tala eða bakgrunnshljóð."
+
+#: ../clips.rst:579
+msgid "``-40 dBFS``"
+msgstr "``-40 dBFS``"
+
+#: ../clips.rst:579
+msgid "10%"
+msgstr "10%"
+
+#: ../clips.rst:579
+msgid "Quiet room tone or microphone noise floor."
+msgstr "Hljóðlátt herbergis- eða hljóðnámshljóð."
+
+#: ../clips.rst:580
+msgid "``-60 dBFS``"
+msgstr "``-60 dBFS``"
+
+#: ../clips.rst:580
+msgid "3%"
+msgstr "3%"
+
+#: ../clips.rst:580
+msgid "Very quiet detail near the center line."
+msgstr "Mjög hljóðlát smáatriði nálægt miðlínu."
+
+#: ../clips.rst:583
+msgid ""
+"OpenShot samples both **peak** and **RMS** envelopes at regular time "
+"intervals. The lighter outer envelope shows brief peaks and transients; the "
+"solid inner envelope shows sustained RMS energy. Both follow the clip's "
+"Volume and Time curves and use the same fixed display curve. A subtle center"
+" line keeps silent passages identifiable without making them look louder "
+"than they are."
+msgstr ""
+"OpenShot tekur sýni af bæði **hámarki** og **RMS** umslögum með reglulegu "
+"millibili. Ljósara ytra umslagið sýnir stutt hámark og skyndileg hljóð; fast"
+" innra umslag sýnir viðvarandi RMS orku. Bæði fylgja hljóðstyrk og tímaferli"
+" klippunnar og nota sömu fasta sýningarkúrfu. Fínleg miðlína heldur þögn "
+"auðkenndri án þess að gera hana háværari en hún er."
+
+#: ../clips.rst:588
+msgid ""
+"New waveforms use 200 samples per second by default, providing several "
+"measurements within a typical video frame. Change this density with "
+":guilabel:`Edit → Preferences → Timeline → Waveform Samples (per second)`. "
+"Higher values show more detail when zoomed in but increase project data size"
+" and analysis time. The painter reduces dense data to the visible timeline "
+"pixels, and its rendered-waveform cache keeps normal scrolling and "
+"repainting inexpensive. Live microphone previews use the selected density "
+"and the same peak/RMS display as completed recordings."
+msgstr ""
+"Nýjar bylgjulínur nota sjálfgefið 200 sýni á sekúndu, sem gefur nokkrar "
+"mælingar innan venjulegs myndbandsramma. Breyttu þessari þéttleika með "
+":guilabel:`Breyta → Stillingar → Tímalína → Bylgjulínu sýni (á sekúndu)`. "
+"Hærri gildi sýna meiri smáatriði þegar að er zoomað en auka gagnastærð og "
+"greiningartíma verkefnisins. Málari minnkar þétt gögn niður í sýnilega "
+"tímalínupixla, og skyndiminni bylgjulínu heldur venjulegri flettingu og "
+"endurmálun ódýrri. Bein forskoðun hljóðnema notar valda þéttleika og sömu "
+"hámark/RMS sýningu og fullgerðar upptökur."
+
+#: ../clips.rst:594
+msgid ""
+"Projects saved by older OpenShot versions can contain independently peak-"
+"normalized waveform data. These waveforms have no format marker, so OpenShot"
+" deliberately displays them with the original legacy scaling. They remain "
+"familiar instead of becoming unexpectedly thin. Older waveform data without "
+"a stored density defaults to its original 20 samples per second, and data "
+"without an RMS envelope remains a single solid waveform. A project may "
+"safely contain legacy and new waveforms together."
+msgstr ""
+"Verkefni sem vistuð voru með eldri útgáfum OpenShot geta innihaldið "
+"sjálfstætt hámarksstillt bylgjulínugögn. Þessar bylgjulínur hafa enga "
+"sniðmerki, svo OpenShot sýnir þær með upprunalegri eldri kvarðan. Þær "
+"haldast kunnugar í stað þess að verða óvænt þunnar. Eldri bylgjulínugögn án "
+"geymds þéttleika nota sjálfgefið upprunalega 20 sýni á sekúndu, og gögn án "
+"RMS umslags eru enn ein heildar bylgjulína. Verkefni getur örugglega "
+"innihaldið bæði eldri og nýjar bylgjulínur saman."
+
+#: ../clips.rst:600
+msgid ""
+"To regenerate cached waveform data using the current method, choose "
+":guilabel:`Edit → Clear → Waveform Display Data`, then show the waveform "
+"again. This affects only cached display data and does not modify the media "
+"file or its audio."
+msgstr ""
+"Til að endurframleiða skyndiminni bylgjulínugögn með núverandi aðferð, veldu"
+" :guilabel:`Breyta → Hreinsa → Gögn bylgjulínusýningar`, og sýndu "
+"bylgjulínuna aftur. Þetta hefur áhrif aðeins á skyndiminni sýningargögn og "
+"breytir ekki fjölmiðlagagnaskrá eða hljóði hennar."
+
+#: ../clips.rst:605
+msgid ""
+"The peak envelope identifies transient level and possible clipping; RMS "
+"summarizes sustained energy but is not a loudness-standard measurement. Use "
+"the :guilabel:`Audio Levels` scope and your ears when mixing. See "
+":ref:`playback_ref` for audio troubleshooting."
+msgstr ""
+"Hámarksumslagið greinir skyndileg stig og mögulega klippingu; RMS dregur "
+"saman viðvarandi orku en er ekki mæling samkvæmt hávaðastaðli. Notaðu "
+":guilabel:`Hljóðstig` mælitæki og eyrun við blöndun. Sjá :ref:`playback_ref`"
+" fyrir hljóðvandamál."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:611
+msgid ""
+"The :guilabel:`Properties` preset opens the properties panel for a clip, "
+"allowing quick access for adjustments to clip properties, such as location, "
+"scale, rotation, etc... See :ref:`clip_properties_ref`."
+msgstr ""
+":guilabel:`Eiginleikar` fyrirframstillt opnar eiginleikaspjaldið fyrir "
+"klipið, sem gerir þér kleift að aðlaga eiginleika klipsins eins og "
+"staðsetningu, stærð, snúning o.s.frv. Sjá :ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:614
+msgid ""
+"**Usage Example:** Adjusting clip properties like opacity, volume, or "
+"position."
+msgstr ""
+"**Dæmi um notkun:** Aðlaga eiginleika klips eins og gegnsæi, hljóðstyrk eða "
+"staðsetningu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:615
+msgid ""
+"**Tip:** Apply this preset to streamline adjustments to all clip properties "
+"in a single dock."
+msgstr ""
+"**Ábending:** Notaðu þetta fyrirframstillt til að einfalda aðlögun allra "
+"eiginleika klips í einu glugga."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:619
+msgid ""
+"The :guilabel:`Copy / Paste` preset allows copying and pasting keyframes, "
+"effects, or duplicating an entire clip along with its keyframes. Paste will "
+"create a new clip at the position of your mouse. If you select 1 or more "
+"clips before pasting, you can paste \"over\" those clips with your current "
+"clip."
+msgstr ""
+":guilabel:`Afrita / Líma` fyrirframstillt gerir þér kleift að afrita og líma"
+" lykilramma, áhrif eða tvöfalda allt klip með lykilrömmum. Líma býr til nýtt"
+" klip á staðsetningu músarinnar. Ef þú velur eitt eða fleiri klip áður en þú"
+" límir, getur þú límt \"yfir\" þau klip með núverandi klipi."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:623
+msgid ""
+"**Usage Example:** Duplicating a clip with intricate animations for reuse in"
+" different parts of the project."
+msgstr ""
+"**Dæmi um notkun:** Tvöfalda klip með flóknum hreyfimyndum til endurnýtingar"
+" í mismunandi hlutum verkefnisins."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:624
+msgid ""
+"**Tip:** Use this preset to replicate animations or effects across multiple "
+"clips."
+msgstr ""
+"**Ábending:** Notaðu þetta fyrirframstillt til að endurgera hreyfimyndir eða"
+" áhrif yfir mörg klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:625
+msgid ""
+"**Tip:** Selecting multiple clips before pasting, sets keyframes and/or "
+"effects for all clips."
+msgstr ""
+"**Ábending:** Ef þú velur mörg klip áður en þú límir, stillir það lykilramma"
+" og/eða áhrif fyrir öll klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:626
+msgid ""
+"**Tip:** You can copy a single effect, and paste it to multiple selected "
+"clips."
+msgstr ""
+"**Ábending:** Þú getur afritað eitt áhrif og límt það á mörg valin klip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:629
+msgid "Remove Gaps"
+msgstr "Fjarlægja bil"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:630
+msgid ""
+"The :guilabel:`Remove Gap` and :guilabel:`Remove All Gaps` options help you "
+"quickly eliminate gaps between clips on the timeline by rippling (i.e., "
+"shifting) subsequent clips to close the gap. These options can be accessed "
+"via the context menu and are only available when gaps are detected."
+msgstr ""
+":guilabel:`Fjarlægja bil` og :guilabel:`Fjarlægja öll bil` valkostirnir "
+"hjálpa þér að fjarlægja bil á milli klipa á tímalínunni með því að færa "
+"næstu klip til að loka bilinu. Þessir valkostir eru aðgengilegir í "
+"samhengisvalmynd og aðeins virkir þegar bil eru til staðar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:633
+msgid ""
+"**Remove Gap:** - This option deletes a specific gap between two clips on "
+"the timeline. Right-click on the gap between clips to access the "
+":guilabel:`Remove Gap` option. - Usage: Use this option to quickly eliminate"
+" a specific gap caused by trimming or using the razor tool."
+msgstr ""
+"**Fjarlægja bil:** - Þessi valkostur eyðir ákveðnu bili á milli tveggja "
+"klipa á tímalínunni. Hægri smelltu á bilið á milli klipa til að fá aðgang að"
+" :guilabel:`Fjarlægja bil`. - Notkun: Notaðu þennan valkost til að fljótt "
+"fjarlægja ákveðið bil sem stafar af klippingu eða notkun rakvélarinnar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:637
+msgid ""
+"**Remove All Gaps:** - This option removes all gaps between clips on the "
+"timeline for the entire track. Right-click on the track name to access the "
+":guilabel:`Remove All Gaps` option. - Usage: Ideal for tracks that contain "
+"back-to-back clips, such as a photo slideshow, where no gaps are desired."
+msgstr ""
+"**Fjarlægja öll bil:** - Þessi valkostur fjarlægir öll bil á milli klipa á "
+"tímalínunni fyrir alla rásina. Hægri smelltu á nafn rásarinnar til að fá "
+"aðgang að :guilabel:`Fjarlægja öll bil`. - Notkun: Hentar vel fyrir rásir "
+"með samfelldum klipum, eins og myndasýningu, þar sem engin bil eru æskileg."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:643
+msgid ""
+"The :guilabel:`Remove Clip` option lets you delete a clip from the timeline."
+" Removing clips is an essential part of organizing your project and getting "
+"rid of unwanted sections. Removing a clip can also impact the surrounding "
+"clips. If you want to clean up the gap that remains after deleting a clip, "
+"you have a few options to automatically adjust your timeline."
+msgstr ""
+":guilabel:`Fjarlægja klip` valkosturinn leyfir þér að eyða klipi af "
+"tímalínunni. Að fjarlægja klip er mikilvægt til að skipuleggja verkefnið "
+"þitt og losna við óæskilegar hluta. Að fjarlægja klip getur einnig haft "
+"áhrif á nærliggjandi klip. Ef þú vilt hreinsa bilið sem myndast eftir að "
+"klip er eytt, hefur þú nokkra möguleika til að stilla tímalínuna sjálfkrafa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:647
+msgid ""
+"**How to Remove a Clip:** To delete a clip, simply select it and press "
+":kbd:`Delete` on your keyboard, or right-click the clip and choose "
+":guilabel:`Remove Clip` from the context menu. You can also select multiple "
+"clips at once by holding down the :kbd:`Ctrl` key and clicking on additional"
+" clips, then remove them all at once."
+msgstr ""
+"**Hvernig á að fjarlægja klip:** Til að eyða klipi, veldu það og ýttu á "
+":kbd:`Delete` á lyklaborðinu, eða hægri smelltu á klipið og veldu "
+":guilabel:`Fjarlægja klip` úr samhengisvalmyndinni. Þú getur einnig valið "
+"mörg klip í einu með því að halda niðri :kbd:`Ctrl` og smella á fleiri klip,"
+" og fjarlægt þau öll í einu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:651
+msgid ""
+"**Ripple Delete:** If you want to delete a clip and automatically remove the"
+" empty space (gap) it leaves behind, use the **Ripple Delete** feature by "
+"pressing :kbd:`Shift+Delete`. This will shift all the remaining clips and "
+"transitions on the track to the left, filling in the gap and keeping your "
+"timeline smooth and continuous."
+msgstr ""
+"**Ripple Delete:** Ef þú vilt eyða klipi og sjálfkrafa fjarlægja tóma svæðið"
+" (bil) sem það skilur eftir, notaðu **Ripple Delete** með því að ýta á "
+":kbd:`Shift+Delete`. Þetta færist öll eftirfarandi klip og umbreytingar á "
+"rásinni til vinstri, fyllir bilið og heldur tímalínunni sléttri og samfellu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:656
+msgid ""
+"**Remove Gap:** After deleting a clip, if you have gaps left in your "
+"timeline that you want to remove, simply right-click in the empty space and "
+"choose :guilabel:`Remove Gap`. This action will shift all clips and "
+"transitions to the left, closing the gap and maintaining the flow of your "
+"video."
+msgstr ""
+"**Fjarlægja bil:** Eftir að hafa eytt klipi, ef bil eru eftir á tímalínunni "
+"sem þú vilt fjarlægja, hægri smelltu á tóma svæðið og veldu "
+":guilabel:`Fjarlægja bil`. Þetta færist öll klip og umbreytingar til "
+"vinstri, lokar bilinu og viðheldur flæði myndbandsins."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:662
+msgid ""
+"**Example**: If you have a clip that’s no longer needed, such as an intro "
+"you’ve decided not to use, you can quickly select it and either delete it or"
+" use **Ripple Delete** to remove it and shift everything left to close the "
+"gap."
+msgstr ""
+"**Dæmi:** Ef þú átt klip sem þú þarft ekki lengur, eins og inngang sem þú "
+"hefur ákveðið að nota ekki, getur þú fljótt valið það og annað hvort eytt "
+"því eða notað **Ripple Delete** til að fjarlægja það og færa allt til "
+"vinstri til að loka bilinu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:664
+msgid ""
+"For more advanced editing options and shortcuts, refer to the "
+":ref:`clips_cutting_slicing_ref` section."
+msgstr ""
+"Fyrir flóknari klippivinnsluvalkosti og flýtilykla, sjáðu kaflann "
+":ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:667
+msgid "Effects"
+msgstr "Áhrif"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:668
+msgid ""
+"In addition to the many clip properties which can be animated and adjusted, "
+"you can also drop an effect directly onto a clip from the effects dock. Each"
+" effect is represented by a small colored letter icon. Clicking the effect "
+"icon will populate the properties of that effect, and allow you to edit (and"
+" animate) them. For the full list of effects, see :ref:`effects_ref`."
+msgstr ""
+"Auk þess að mörgum eiginleikum klippunnar sem hægt er að hreyfa og stilla, "
+"geturðu líka dregið áhrif beint á klippu úr áhrifahillunni. Hvert áhrif er "
+"táknað með litlu litríku bókstafstákni. Með því að smella á áhrifatákninu "
+"birtast eiginleikar þess áhrifa og þú getur breytt (og hreyft) þeim. Fyrir "
+"fullan lista yfir áhrif, sjá :ref:`effects_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:678
+msgid "Clip Properties"
+msgstr "Eiginleikar klippu"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:679
+msgid ""
+"Below is a list of clip properties which can be edited, and in most cases, "
+"animated over time. To view a clip's properties, right click and choose "
+":guilabel:`Properties`. The property editor will appear, where you can "
+"change these properties. You can select multiple clips, transitions or "
+"effects at once. The dropdown at the top of the dock shows entries for each "
+"item plus an entry such as ``2 Selections``. Pick that entry to edit all "
+"selected items together, only properties they share will be visible. If a "
+"field is blank, the values differ between items, but you can still change it"
+" or insert a keyframe for all of them."
+msgstr ""
+"Hér að neðan er listi yfir eiginleika klippu sem hægt er að breyta og í "
+"flestum tilfellum hreyfa yfir tíma. Til að skoða eiginleika klippu, "
+"hægrismelltu og veldu :guilabel:`Eiginleikar`. Eiginleikabreytingar glugginn"
+" birtist þar sem þú getur breytt þessum eiginleikum. Þú getur valið margar "
+"klippur, umbreytingar eða áhrif í einu. Fellivalmyndin efst í hillu sýnir "
+"færslur fyrir hvert atriði auk færslu eins og ``2 valin``. Veldu þá færslu "
+"til að breyta öllum valnum atriðum saman, aðeins eiginleikar sem þau deila "
+"verða sýnilegir. Ef reitur er tómur eru gildin mismunandi milli atriða, en "
+"þú getur samt breytt því eða sett inn lykilramma fyrir öll."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:687
+msgid ""
+"Note: Pay close attention to where the play-head (i.e. red playback line) "
+"is. Key frames are automatically created at the current playback position, "
+"to help quickly create animations."
+msgstr ""
+"Athugið: Gefðu gaum að því hvar spilunarhausinn (rauða spilunar línan) er "
+"staðsettur. Lykilrammar eru sjálfkrafa búnir til á núverandi spilunarstað "
+"til að auðvelda hraða gerð hreyfimynda."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:690
+msgid ""
+"When animating clip properties, you can fade a clip from opaque to "
+"transparent with ``alpha``, slide a clip around the screen with "
+"``location_x`` and ``location_y``, scale a clip smaller or larger with the "
+"``scale_x`` and ``scale_y``, fade the volume of a clip quieter or louder "
+"with ``volume``, and much more. If you want to set a single, static clip "
+"property with **no animation**, be sure the playhead is positioned at the "
+"start of your clip (to the left) when adjusting the property value."
+msgstr ""
+"Þegar þú hreyfir eiginleika klippu geturðu látið klippu hverfa úr ógegnsæi í"
+" gegnsæi með ``alpha``, fært klippu um skjáinn með ``location_x`` og "
+"``location_y``, stækkað eða minnkað klippu með ``scale_x`` og ``scale_y``, "
+"lækkað eða hækkað hljóðstyrk klippu með ``volume`` og margt fleira. Ef þú "
+"vilt stilla einn fasta eiginleika klippu án hreyfingar, vertu viss um að "
+"spilunarhausinn sé staðsettur í byrjun klippunnar (til vinstri) þegar þú "
+"stillir eiginleikann."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:695
+msgid "See the table below for a full list of clip properties."
+msgstr "Sjáðu töfluna hér að neðan fyrir fullan lista yfir eiginleika klippu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:701
+msgid "Clip Property Name"
+msgstr "Nafn eiginleika klippu"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:701
+msgid "Type"
+msgstr "Tegund"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:703 ../clips.rst:784
+msgid "Alpha"
+msgstr "Alpha"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:703 ../clips.rst:704 ../clips.rst:705 ../clips.rst:707
+#: ../clips.rst:715 ../clips.rst:716 ../clips.rst:717 ../clips.rst:718
+#: ../clips.rst:719 ../clips.rst:722 ../clips.rst:724 ../clips.rst:725
+#: ../clips.rst:726 ../clips.rst:727 ../clips.rst:729 ../clips.rst:731
+#: ../clips.rst:733
+msgid "Key-Frame"
+msgstr "Lykilrammi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:703
+msgid ""
+"Curve representing the alpha for fading the image and adding transparency (1"
+" to 0)"
+msgstr ""
+"Ferill sem táknar alpha til að láta myndina hverfa og bæta við gegnsæi (1 "
+"til 0)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:704 ../clips.rst:801
+msgid "Channel Filter"
+msgstr "Rásasía"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:704
+msgid ""
+"A number representing an audio channel to filter (clears all other channels)"
+msgstr "Tala sem táknar hljóðrás til að sía (hreinsar allar aðrar rásir)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:705 ../clips.rst:809
+msgid "Channel Mapping"
+msgstr "Rásakortlagning"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:705
+msgid ""
+"A number representing an audio channel to output (only works when filtering "
+"a channel)"
+msgstr ""
+"Tala sem táknar hljóðrás til að senda út (virkar aðeins þegar síun er virk)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:706 ../clips.rst:741
+msgid "Composite (Blend Mode)"
+msgstr "Samsetning (blöndunarstilling)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:706 ../clips.rst:709 ../clips.rst:710 ../clips.rst:712
+#: ../clips.rst:713 ../clips.rst:723 ../clips.rst:732 ../clips.rst:735
+msgid "Enum"
+msgstr "Talnasafn"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:706
+msgid ""
+"The blend mode used to composite this clip into lower layers. Default is "
+"**Normal**. See :ref:`clip_composite_ref`."
+msgstr ""
+"Blöndunarstillingin sem notuð er til að setja þessa klippu saman við neðri "
+"lög. Sjálfgefið er **Normal**. Sjá :ref:`clip_composite_ref`."
+
+#: ../clips.rst:707 ../clips.rst:792
+msgid "Corner Radius"
+msgstr "Hornaradíus"
+
+#: ../clips.rst:707
+msgid ""
+"Curve representing the radius used to round the clip's corners (0 to 0.5)"
+msgstr ""
+"Kúrfa sem táknar radíusinn sem notaður er til að slétta horn klippunnar (0 "
+"til 0,5)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:708 ../clips.rst:824
+msgid "Duration"
+msgstr "Lengd"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:708 ../clips.rst:711 ../clips.rst:721 ../clips.rst:728
+msgid "Float"
+msgstr "Kommutala"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:708
+msgid ""
+"The length of the clip (in seconds). Read-only property. This is calculated "
+"by: End - Start."
+msgstr ""
+"Lengd klippunnar (í sekúndum). Eiginleiki sem aðeins er hægt að lesa. "
+"Reiknaður sem: Endir - Byrjun."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:709 ../clips.rst:857
+msgid "Enable Audio"
+msgstr "Virkja hljóð"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:709
+msgid ""
+"An optional override to determine if this clip has audio (-1=undefined, "
+"0=no, 1=yes)"
+msgstr ""
+"Valfrjáls yfirsögn til að ákvarða hvort þessi klippa hafi hljóð "
+"(-1=óskilgreint, 0=nei, 1=já)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:710 ../clips.rst:865
+msgid "Enable Video"
+msgstr "Virkja mynd"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:710
+msgid ""
+"An optional override to determine if this clip has video (-1=undefined, "
+"0=no, 1=yes)"
+msgstr ""
+"Valfrjáls yfirsögn til að ákvarða hvort þessi klippa hafi mynd "
+"(-1=óskilgreint, 0=nei, 1=já)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:711 ../clips.rst:832
+msgid "End"
+msgstr "Endir"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:711
+msgid "The end trimming position of the clip (in seconds)"
+msgstr "Staðsetning enda klippunnar (í sekúndum)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:712 ../clips.rst:817
+msgid "Frame Number"
+msgstr "Rammatal"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:712
+msgid "The format to display the frame number (if any)"
+msgstr "Snið til að sýna rammatal (ef einhver)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:713 ../clips.rst:840
+msgid "Gravity"
+msgstr "Þyngdarafl"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:713
+msgid ""
+"The gravity of a clip determines where it snaps to its parent (details "
+"below)"
+msgstr ""
+"Þyngdarafl klippu ákvarðar hvar hún festist við foreldrið sitt (nánar hér að"
+" neðan)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:714 ../clips.rst:873
+msgid "ID"
+msgstr "Auðkenni"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:714 ../clips.rst:720
+msgid "String"
+msgstr "Strengur"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:714
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"clip. Read-only property."
+msgstr ""
+"Handahófskennt búið til GUID (alþjóðlega einstakt auðkenni) úthlutað hverri "
+"klippu. Eiginleiki sem aðeins er hægt að lesa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:715
+msgid "Location X"
+msgstr "Staðsetning X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:715
+msgid ""
+"Curve representing the relative X position in percent based on the gravity "
+"(-1 to 1)"
+msgstr ""
+"Ferill sem táknar hlutfallslega X-staðsetningu í prósentum miðað við "
+"þyngdarafl (-1 til 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:716
+msgid "Location Y"
+msgstr "Staðsetning Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:716
+msgid ""
+"Curve representing the relative Y position in percent based on the gravity "
+"(-1 to 1)"
+msgstr ""
+"Ferill sem táknar hlutfallslega Y-staðsetningu í prósentum miðað við "
+"þyngdarafl (-1 til 1)"
+
+#: ../clips.rst:717 ../clips.rst:899
+msgid "Margin"
+msgstr "Brún"
+
+#: ../clips.rst:717
+msgid "Curve representing edge spacing for gravity-aligned clips (0 to 0.5)"
+msgstr ""
+"Kúrfa sem táknar bil við brún fyrir þyngdarjafnaðar klippur (0 til 0,5)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:718
+msgid "Origin X"
+msgstr "Uppruni X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:718
+msgid ""
+"Curve representing the rotation origin point, X position in percent (-1 to "
+"1)"
+msgstr ""
+"Ferill sem táknar snúningsupprunapunkt, X-staðsetning í prósentum (-1 til 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:719
+msgid "Origin Y"
+msgstr "Uppruni Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:719
+msgid ""
+"Curve representing the rotation origin point, Y position in percent (-1 to "
+"1)"
+msgstr ""
+"Ferill sem sýnir snúningsupprunapunktinn, Y-staðsetningu í prósentum (-1 til"
+" 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:720
+msgid "Parent"
+msgstr "Foreldri"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:720
+msgid ""
+"The parent object to this clip, which makes many of these keyframe values "
+"initialize to the parent value"
+msgstr ""
+"Foreldrahlutur þessa klips, sem veldur því að mörg þessara lykilrammagilda "
+"hefjast á gildum foreldrisins"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:721 ../clips.rst:956
+msgid "Position"
+msgstr "Staðsetning"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:721
+msgid ""
+"The position of the clip on the timeline (in seconds, 0.0 is the beginning "
+"of the timeline)"
+msgstr ""
+"Staðsetning klipsins á tímalínunni (í sekúndum, 0,0 er byrjun tímalínunnar)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:722 ../clips.rst:965
+msgid "Rotation"
+msgstr "Snúningur"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:722
+msgid "Curve representing the rotation (0 to 360)"
+msgstr "Ferill sem sýnir snúninginn (0 til 360)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:723 ../clips.rst:981
+msgid "Scale"
+msgstr "Stærðarhlutfall"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:723
+msgid ""
+"The scale determines how a clip should be resized to fit its parent (details"
+" below)"
+msgstr ""
+"Stærðarhlutfallið ákvarðar hvernig klipið á að stærðarbreytast til að passa "
+"foreldrið sitt (nánari upplýsingar hér að neðan)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:724
+msgid "Scale X"
+msgstr "Stærðarhlutfall X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:724
+msgid "Curve representing the horizontal scaling in percent (0 to 1)"
+msgstr "Ferill sem sýnir lárétta stærðarbreytingu í prósentum (0 til 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:725
+msgid "Scale Y"
+msgstr "Stærðarhlutfall Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:725
+msgid "Curve representing the vertical scaling in percent (0 to 1)"
+msgstr "Ferill sem sýnir lóðrétta stærðarbreytingu í prósentum (0 til 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:726
+msgid "Shear X"
+msgstr "Skúningur X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:726
+msgid "Curve representing X shear angle in degrees (-45.0=left, 45.0=right)"
+msgstr "Ferill sem sýnir skúning á X-ás í gráðum (-45,0=vinstri, 45,0=hægri)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:727
+msgid "Shear Y"
+msgstr "Skúningur Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:727
+msgid "Curve representing Y shear angle in degrees (-45.0=down, 45.0=up)"
+msgstr "Ferill sem sýnir skúning á Y-ás í gráðum (-45,0=niður, 45,0=upp)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:728 ../clips.rst:1015
+msgid "Start"
+msgstr "Byrjun"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:728
+msgid "The start trimming position of the clip (in seconds)"
+msgstr "Byrjunarklippingarstaða klipsins (í sekúndum)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:729 ../clips.rst:1025
+msgid "Time"
+msgstr "Tími"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:729
+msgid ""
+"Curve representing the frames over time to play (used for speed and "
+"direction of video)"
+msgstr ""
+"Ferill sem sýnir ramma yfir tíma til að spila (notað fyrir hraða og stefnu "
+"myndbands)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:730 ../clips.rst:881
+msgid "Track"
+msgstr "Rás"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:730
+msgid "Int"
+msgstr "Heiltala"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:730
+msgid ""
+"The layer which holds the clip (higher tracks are rendered on top of lower "
+"tracks)"
+msgstr "Lag sem heldur klippunni (efri rásir eru sýndar ofan á neðri rásum)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:731 ../clips.rst:1051
+msgid "Volume"
+msgstr "Hljóðstyrkur"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:731
+msgid ""
+"Curve representing the volume for fading audio quieter/louder, mute, or "
+"adjusting levels (0 to 1)"
+msgstr ""
+"Ferill sem sýnir hljóðstyrk til að lækka/hækka hljóð, þagga niður eða stilla"
+" stig (0 til 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:732 ../clips.rst:917
+msgid "Volume Mixing"
+msgstr "Hljóðstyrksblöndun"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:732
+msgid ""
+"The volume mixing choices control how volume is adjusted before mixing "
+"(None=don't adjust volume of this clip, Reduce=lower the volume to 80%, "
+"Average=divide volume based on # of concurrent clips, details below)"
+msgstr ""
+"Val á hljóðstyrksblöndun stjórnar hvernig hljóðstyrkur er stilltur áður en "
+"blandað er (Enginn=ekki breyta hljóðstyrk klippunnar, Minnka=lækka "
+"hljóðstyrk í 80%, Meðaltal=deila hljóðstyrk miðað við fjölda samtímis "
+"klippa, nánar hér að neðan)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:733 ../clips.rst:1060
+msgid "Wave Color"
+msgstr "Bylgjulitur"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:733
+msgid "Curve representing the color of the audio waveform"
+msgstr "Ferill sem sýnir lit hljóðbylgjunnar"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:734
+msgid "Bool"
+msgstr "Bool"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:734
+msgid "Should a waveform be used instead of the clip's image"
+msgstr "Á að nota bylgjulínu í stað myndar klipsins"
+
+#: ../clips.rst:735 ../clips.rst:1074
+msgid "Waveform Mode"
+msgstr "Bylgjulögun Hamur"
+
+#: ../clips.rst:735
+msgid ""
+"The visualization style used when displaying the clip as an audio waveform"
+msgstr ""
+"Sjónræn stíll sem notaður er þegar klippan er sýnd sem hljóðbylgjulína"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:742
+msgid ""
+"The :guilabel:`Composite (Blend Mode)` property controls **how the pixels of"
+" this clip mix with the clips on lower tracks**. If you are new to this, "
+"start with **Normal**. Switch modes when you want a quick creative change "
+"without adding an effect."
+msgstr ""
+"Eiginleikinn :guilabel:`Composite (Blend Mode)` stjórnar **hvernig pixlar "
+"þessa klips blandast við klippur á neðri lögum**. Ef þú ert nýr í þessu, "
+"byrjaðu með **Normal**. Skiptu um ham þegar þú vilt fljótlega skapandi "
+"breytingu án þess að bæta við áhrifum."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:745
+msgid "**Beginner tips**"
+msgstr "**Ráð fyrir byrjendur**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:747
+msgid ""
+"Want to **brighten** light effects, flares, or smoke over a dark scene? Try "
+"**Screen** or **Add**."
+msgstr ""
+"Viltu **ljóma** ljósáhrif, glampa eða reyk yfir dökku senuna? Prófaðu "
+"**Screen** eða **Add**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:748
+msgid ""
+"Want to **darken** or place a texture over footage (paper grain, grids, "
+"shadows)? Try **Multiply** or **Color Burn**."
+msgstr ""
+"Viltu **dökkva** eða setja áferð yfir upptöku (pappírsáferð, grindur, "
+"skuggar)? Prófaðu **Multiply** eða **Color Burn**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:749
+msgid ""
+"Want **more contrast** without crushing blacks and whites too much? Try "
+"**Overlay** or **Soft Light**."
+msgstr ""
+"Viltu **meira andstæða** án þess að þjappa svörtum og hvítum of mikið? "
+"Prófaðu **Overlay** eða **Soft Light**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:750
+msgid ""
+"Want a **creative/inverted look** or to line things up? Try **Difference** "
+"or **Exclusion**."
+msgstr ""
+"Viltu **skapandi/öfug áhrif** eða raða hlutum upp? Prófaðu **Difference** "
+"eða **Exclusion**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:752
+msgid "**Common modes (recommended)**"
+msgstr "**Algengar stillingar (mælt með)**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:758
+msgid "Mode"
+msgstr "Hamur"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:758
+msgid "What it does"
+msgstr "Hvað það gerir"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:760
+msgid "Normal"
+msgstr "Venjulegur"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:760
+msgid "Standard alpha compositing. Respects transparency from the clip."
+msgstr "Venjuleg alpha-blöndun. Virðir gegnsæi klipsins."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:761
+msgid "Darken"
+msgstr "Dökkva"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:761
+msgid "Chooses the darker pixel from the two layers, per channel."
+msgstr "Velur dökkari pixil úr tveimur lögum, á hverjum rás."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:762
+msgid "Multiply"
+msgstr "Margfalda"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:762
+msgid "Multiplies colors. Darkens and helps textures sit on top of footage."
+msgstr "Margfaldar liti. Dökkvar og hjálpar áferð að sitja ofan á upptöku."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:763
+msgid "Color Burn"
+msgstr "Litabrenna"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:763
+msgid "Pushes shadows darker and boosts contrast; can clip to black."
+msgstr "Dregur skugga dökkari og eykur andstæða; getur klippt í svart."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:764
+msgid "Lighten"
+msgstr "Ljósga"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:764
+msgid "Chooses the lighter pixel from the two layers, per channel."
+msgstr "Velur ljósari pixil úr tveimur lögum, á hverjum rás."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:765
+msgid "Screen"
+msgstr "Skjár"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:765
+msgid "The opposite of Multiply. Brightens; great for light, glow, fire, fog."
+msgstr "Andstæða margföldunar. Ljósar; frábært fyrir ljós, glóa, eld, þoku."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:766
+msgid "Color Dodge"
+msgstr "Litahraðari"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:766
+msgid "Brightens highlights strongly; can blow out to white."
+msgstr "Ljósar hápunktana mikið; getur orðið alveg hvítur."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:767
+msgid "Add"
+msgstr "Bæta við"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:767
+msgid ""
+"Adds pixel values. Strong brightening; clips at white. Also called *Linear "
+"Dodge (Add)*."
+msgstr ""
+"Bætir pixilgildum saman. Sterk ljósun; klippist við hvítt. Einnig kallað "
+"*Linear Dodge (Add)*."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:768
+msgid "Overlay"
+msgstr "Yfirlag"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:768
+msgid ""
+"Mix of Multiply and Screen using the lower layer to decide. Adds punchy "
+"contrast."
+msgstr ""
+"Bland af Multiply og Screen þar sem neðra lagið ræður. Bætir við skörpum "
+"andstæðum."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:769
+msgid "Soft Light"
+msgstr "Mjúkt ljós"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:769
+msgid "Gentle contrast curve; softer than Overlay."
+msgstr "Mjúk andstæðaferill; mýkri en Yfirlag."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:770
+msgid "Hard Light"
+msgstr "Harðt ljós"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:770
+msgid "Stronger, edgy contrast using the upper layer to drive the change."
+msgstr ""
+"Sterkari, skarpari andstæða með því að nota efra lagið til að stjórna "
+"breytingunni."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:771
+msgid "Difference"
+msgstr "Mismunur"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:771
+msgid ""
+"Absolute difference between layers. Creates inverted/psychedelic colors; "
+"useful for alignment."
+msgstr ""
+"Algjör mismunur milli laga. Býr til öfug/litrík áhrif; gagnlegt til að raða "
+"hlutum."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:772
+msgid "Exclusion"
+msgstr "Útilokun"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:772
+msgid "Softer version of Difference with less contrast."
+msgstr "Mýkri útgáfa af Mismun með minni andstæðu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:775
+msgid "**Notes**"
+msgstr "**Athugasemdir**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:777
+msgid ""
+"Blend modes affect **color**, while alpha (the :guilabel:`Alpha` property) "
+"affects **transparency**. You can use both."
+msgstr ""
+"Blöndunarhamar hafa áhrif á **lit**, á meðan alpha (eiginleikinn "
+":guilabel:`Alpha`) hefur áhrif á **gegnsæi**. Þú getur notað bæði."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:778
+msgid ""
+"Some modes can create very bright or very dark results. If needed, lower the"
+" :guilabel:`Alpha` property to soften."
+msgstr ""
+"Sumir hamir geta skapað mjög bjarta eða mjög dökka niðurstöðu. Ef þörf "
+"krefur, lækkaðu :guilabel:`Alpha` til að mýkja."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:779
+msgid ""
+"The exact look of Multiply/Screen/Overlay family is best when project colors"
+" are in a linear color space."
+msgstr ""
+"Nákvæm útlit fjölskyldunnar Multiply/Screen/Overlay er best þegar "
+"litaumhverfi verkefnisins er í línulegu litarrými."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:785
+msgid ""
+"The :guilabel:`Alpha` property is a key-frame curve that represents the "
+"alpha value, determining fading and transparency of the image in the clip. "
+"The curve ranges from 1 (fully opaque) to 0 (completely transparent)."
+msgstr ""
+"Eiginleikinn :guilabel:`Alpha` er lykilrammakúrfa sem táknar alfagildi, sem "
+"ákvarðar dofnun og gegnsæi myndarinnar í klippunni. Kúrfan spannar frá 1 "
+"(fullkomlega ógegnsæ) til 0 (algjörlega gegnsær)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:788
+msgid ""
+"**Usage Example:** Applying a gradual fade-in or fade-out effect to smoothly"
+" transition clips."
+msgstr ""
+"**Dæmi um notkun:** Að beita hægfara dofnum inn eða út til að gera mjúka "
+"yfirfærslu milli klippa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:789
+msgid ""
+"**Tip:** Use keyframes to create complex fading patterns, such as fading in "
+"and then fading out for a ghostly effect."
+msgstr ""
+"**Ábending:** Notaðu lykilramma til að búa til flókin dofnunarmynstur, eins "
+"og að dofna inn og svo út fyrir draugalegt útlit."
+
+#: ../clips.rst:793
+msgid ""
+"The :guilabel:`Corner Radius` property is a key-frame curve that rounds the "
+"visible corners of a clip. The curve ranges from 0 (square corners) to 0.5 "
+"(maximum rounding, based on the clip's shortest side)."
+msgstr ""
+"Eiginleikinn :guilabel:`Hornaradíus` er lykilrammakúrfa sem gefur sýnilegum "
+"hornum klippunnar boginn form. Kúrfan spannar frá 0 (ferhyrnd horn) upp í "
+"0,5 (hámarks bogun, miðað við stystu hlið klippunnar)."
+
+#: ../clips.rst:796
+msgid ""
+"**Usage Example:** Rounding the corners of a picture-in-picture camera "
+"recording without adding a separate mask effect."
+msgstr ""
+"**Dæmi um notkun:** Að gefa hornum mynd í mynd myndbandsupptöku boginn form "
+"án þess að bæta við aðskildum grímuáhrifum."
+
+#: ../clips.rst:797
+msgid ""
+"**Usage Example:** In :guilabel:`Recording View`, corner webcam clips use "
+"this property for the :guilabel:`Corners` setting."
+msgstr ""
+"**Dæmi um notkun:** Í :guilabel:`Upptökusýn` nota hornmyndavélarklippur "
+"þennan eiginleika fyrir stillinguna :guilabel:`Horn`."
+
+#: ../clips.rst:798
+msgid ""
+"**Tip:** Use 0 for normal full-frame video, a small value for rounded "
+"rectangles, or 0.5 for a pill or oval-like shape."
+msgstr ""
+"**Ábending:** Notaðu 0 fyrir venjulegt fullramma myndband, lágt gildi fyrir "
+"bogin ferhyrning eða 0,5 fyrir pillu- eða egglaga form."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:802
+msgid ""
+"The :guilabel:`Channel Filter` property is a key-frame curve used for audio "
+"manipulation. It specifies a single audio channel to be filtered while "
+"clearing all other channels."
+msgstr ""
+"Eiginleikinn :guilabel:`Channel Filter` er lykilrammakúrfa sem notuð er til "
+"hljóðvinnslu. Hún tilgreinir einn hljóðrás til að sía á meðan allar aðrar "
+"rásir eru hreinsaðar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:805
+msgid ""
+"**Usage Example:** Isolating and enhancing specific audio elements, like "
+"isolating vocals from a song."
+msgstr ""
+"**Dæmi um notkun:** Að einangra og bæta ákveðin hljóðatriði, eins og að "
+"einangra söng frá lagi."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:806
+msgid ""
+"**Tip:** Combine with the \"Channel Mapping\" property to route the filtered"
+" channel to a specific audio output."
+msgstr ""
+"**Ábending:** Sameinaðu með eiginleikanum „Channel Mapping“ til að beina "
+"síuðu rásinni í ákveðinn hljóðúttak."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:810
+msgid ""
+"The :guilabel:`Channel Mapping` property is a key-frame curve that defines "
+"the output audio channel for the clip. This property works in conjunction "
+"with the \"Channel Filter\" property and specifies which channel is retained"
+" in the output."
+msgstr ""
+"Eiginleikinn :guilabel:`Channel Mapping` er lykilrammakúrfa sem skilgreinir "
+"úttaks hljóðrás fyrir klippuna. Þessi eiginleiki vinnur með eiginleikanum "
+"„Channel Filter“ og tilgreinir hvaða rás er varðveitt í úttakinu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:813
+msgid ""
+"**Usage Example:** Keeping the filtered channel's audio while discarding "
+"others for an unconventional audio mix."
+msgstr ""
+"**Dæmi um notkun:** Að halda hljóðinu úr síuðu rásinni en henda öðrum fyrir "
+"óvenjulegt hljóðblöndun."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:814
+msgid ""
+"**Tip:** Experiment with mapping different channels to create unique audio "
+"effects, like panning sounds between speakers."
+msgstr ""
+"**Ábending:** Prófaðu að kortleggja mismunandi rásir til að búa til einstök "
+"hljóðáhrif, eins og að færa hljóð á milli hátalara."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:818
+msgid ""
+"The :guilabel:`Frame Number` property specifies the format in which the "
+"frame numbers are displayed within the clip, if applicable."
+msgstr ""
+"Eiginleikinn :guilabel:`Frame Number` tilgreinir sniðið sem rammatalan er "
+"sýnd innan klippunnar, ef við á."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:820
+msgid ""
+"**Usage Example:** Displaying frame numbers in the top left corner of the "
+"clip, as either absolute frame number or relative to the start of the clip."
+msgstr ""
+"**Dæmi um notkun:** Sýna rammatölur í efra vinstra horni klippunnar, annað "
+"hvort sem algjör rammatafla eða miðað við upphaf klippunnar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:821
+msgid ""
+"**Tip:** This can help with identifying precise frame numbers or "
+"troubleshooting a problem."
+msgstr ""
+"**Ábending:** Þetta getur hjálpað við að finna nákvæmar rammatölur eða leysa"
+" úr vandamálum."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:825
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the clip in seconds. This is a Read-only property. This is calculated by: "
+"End - Start. To modify duration, you must edit the :guilabel:`Start` and/or "
+":guilabel:`End` clip properties."
+msgstr ""
+"Eiginleikinn :guilabel:`Duration` er kommutala sem sýnir lengd klippunnar í "
+"sekúndum. Þetta er aðeins lesinn eiginleiki. Hann er reiknaður sem: End - "
+"Start. Til að breyta lengdinni þarftu að breyta eiginleikum "
+":guilabel:`Start` og/eða :guilabel:`End` klippunnar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:828
+msgid ""
+"**Usage Example:** Inspect the duration of a clip to ensure it fits a "
+"specific time slot in the project."
+msgstr ""
+"**Dæmi um notkun:** Skoða lengd klippu til að tryggja að hún passi í "
+"ákveðinn tímaramma í verkefninu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:829
+msgid ""
+"**Tip:** Consider using the \"Duration\" property for clips that need to "
+"match specific time intervals, such as dialogue or scenes."
+msgstr ""
+"**Ábending:** Hugleiddu að nota eiginleikann „Duration“ fyrir klippur sem "
+"þurfa að passa við ákveðin tímabil, eins og samtöl eða senur."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:833
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"clip in seconds, allowing you to control how much of the clip is visible in "
+"the timeline. Changing this property will impact the :guilabel:`Duration` "
+"clip property."
+msgstr ""
+"Eiginleikinn :guilabel:`End` skilgreinir klippimörk í lok klippunnar í "
+"sekúndum, sem gerir þér kleift að stjórna hversu mikið af klippunni sést í "
+"tímalínunni. Breyting á þessum eiginleika hefur áhrif á :guilabel:`Duration`"
+" eiginleikann."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:836
+msgid ""
+"**Usage Example:** Trimming the end of a clip to align with another clip or "
+"trimming off unwanted sections of the clip."
+msgstr ""
+"**Dæmi um notkun:** Klippa endann á klippu til að samræma við aðra klippu "
+"eða fjarlægja óæskilegar hluta klippunnar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:837
+msgid ""
+"**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
+"the visible portion of the clip."
+msgstr ""
+"**Ábending:** Sameinaðu eiginleikana „Start“ og „End“ til að stjórna "
+"nákvæmlega sýnilegum hluta klippunnar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:841
+msgid ""
+"The :guilabel:`Gravity` clip property sets the initial display position "
+"coordinate (X,Y) for the clip, after it has been scaled (see "
+":ref:`clip_scale_ref`). This affects where the clip picture is initially "
+"displayed on the screen, for example ``Top Left`` or ``Bottom Right``. The "
+"default gravity option is ``Center``, which displays the picture in the very"
+" center of the screen. The gravity options are:"
+msgstr ""
+"Eiginleikinn :guilabel:`Gravity` stillir upphaflega staðsetningu klippunnar "
+"(X,Y) eftir að hún hefur verið skölvuð (sjá :ref:`clip_scale_ref`). Þetta "
+"hefur áhrif á hvar mynd klippunnar birtist á skjánum, til dæmis „Top Left“ "
+"eða „Bottom Right“. Sjálfgefin valmöguleiki fyrir gravity er „Center“, sem "
+"birtir myndina í miðju skjásins. Gravity valkostirnir eru:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:846
+msgid ""
+"**Top Left** – The top and left edges of the clip align with the top and "
+"left edges of the screen"
+msgstr ""
+"**Efri vinstri** – Efri og vinstri brún klippunnar raðast við efri og "
+"vinstri brún skjásins"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:847
+msgid ""
+"**Top Center** – The top edge of the clip aligns with the top edge of the "
+"screen; the clip is horizontally centered on the screen."
+msgstr ""
+"**Efri miðja** – Efri brún klippunnar raðast við efri brún skjásins; klippan"
+" er miðjuð lárétt á skjánum."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:848
+msgid ""
+"**Top Right** – The top and right edges of the clip align with the top and "
+"right edges of the screen"
+msgstr ""
+"**Efri hægri** – Efri og hægri brún klippunnar raðast við efri og hægri brún"
+" skjásins"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:849
+msgid ""
+"**Left** – The left edge of the clip aligns with the left edge of the "
+"screen; the clip is vertically centered on the screen."
+msgstr ""
+"**Vinstri** – Vinstri brún klippunnar raðast við vinstri brún skjásins; "
+"klippan er miðjuð lóðrétt á skjánum."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:850
+msgid ""
+"**Center** (default) – The clip is centered horizontally and vertically on "
+"the screen."
+msgstr ""
+"**Miðja** (sjálfgefið) – Klippan er miðjuð lárétt og lóðrétt á skjánum."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:851
+msgid ""
+"**Right** – The right edge of the clip aligns with the right edge of the "
+"screen; the clip is vertically centered on the screen."
+msgstr ""
+"**Hægri** – Hægri brún klippunnar raðast við hægri brún skjásins; klippan er"
+" miðjuð lóðrétt á skjánum."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:852
+msgid ""
+"**Bottom Left** – The bottom and left edges of the clip align with the "
+"bottom and left edges of the screen"
+msgstr ""
+"**Neðri vinstri** – Neðri og vinstri brún klippunnar raðast við neðri og "
+"vinstri brún skjásins"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:853
+msgid ""
+"**Bottom Center** – The bottom edge of the clip aligns with the bottom edge "
+"of the screen; the clip is horizontally centered on the screen."
+msgstr ""
+"**Neðri miðja** – Neðri brún klippunnar raðast við neðri brún skjásins; "
+"klippan er miðjuð lárétt á skjánum."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:854
+msgid ""
+"**Bottom Right** – The bottom and right edges of the clip align with the "
+"bottom and right edges of the screen"
+msgstr ""
+"**Neðri hægri** – Neðri og hægri brún klippunnar raðast við neðri og hægri "
+"brún skjásins"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:858
+msgid ""
+"The :guilabel:`Enable Audio` property is an enumeration that overrides the "
+"default audio setting for the clip. Possible values: -1 (undefined), 0 (no "
+"audio), 1 (audio enabled)."
+msgstr ""
+"Eiginleikinn :guilabel:`Enable Audio` er talnagildi sem sigrar sjálfgefna "
+"hljóðstillingu klippunnar. Möguleg gildi: -1 (óskilgreint), 0 (engin hljóð),"
+" 1 (hljóð virkjað)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:861
+msgid ""
+"**Usage Example:** Turning off unwanted audio for a clip, like ambient "
+"noise."
+msgstr ""
+"**Dæmi um notkun:** Slökkva á óæskilegu hljóði í klippu, eins og "
+"umhverfishljóði."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:862
+msgid ""
+"**Tip:** Use this property to control audio playback for specific clips, "
+"especially clips which have no useful audio track."
+msgstr ""
+"**Ábending:** Notaðu þennan eiginleika til að stjórna hljóðspilun fyrir "
+"ákveðnar klippur, sérstaklega klippur sem hafa enga gagnlega hljóðrás."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:866
+msgid ""
+"The :guilabel:`Enable Video` property is an enumeration that overrides the "
+"default video setting for the clip. Possible values: -1 (undefined), 0 (no "
+"video), 1 (video enabled)."
+msgstr ""
+"Eiginleikinn :guilabel:`Enable Video` er talnagildi sem sigrar sjálfgefna "
+"myndstillingu klippunnar. Möguleg gildi: -1 (óskilgreint), 0 (engin mynd), 1"
+" (mynd virkjuð)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:869
+msgid ""
+"**Usage Example:** Disabling the video of a clip while retaining its audio "
+"for creating audio-only sequences."
+msgstr ""
+"**Dæmi um notkun:** Að slökkva á myndbandi klips en halda hljóðinu til að "
+"búa til einungis hljóðraðir."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:870
+msgid ""
+"**Tip:** This property can be helpful when creating scenes with audio "
+"commentary or voiceovers."
+msgstr ""
+"**Ábending:** Þessi eiginleiki getur verið gagnlegur við að búa til senur "
+"með hljóðlýsingu eða raddsetningu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:874
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique"
+" Identifier) assigned to each clip, ensuring its uniqueness. This is a Read-"
+"only property, and assigned by OpenShot when a clip is created."
+msgstr ""
+":guilabel:`ID` eiginleikinn geymir handahófskennt búið til GUID (alheims "
+"einstakt auðkenni) sem er úthlutað hverju klipi til að tryggja sérstöðu "
+"þess. Þetta er aðeins lesinn eiginleiki, úthlutað af OpenShot þegar klipið "
+"er búið til."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:877
+msgid ""
+"**Usage Example:** Referencing specific clips within custom scripts or "
+"automation tasks."
+msgstr ""
+"**Dæmi um notkun:** Vísa til ákveðinna klippa í sérsniðnum skriftum eða "
+"sjálfvirkniverkefnum."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:878
+msgid ""
+"**Tip:** While typically managed behind the scenes, understanding clip IDs "
+"can aid in advanced project customization."
+msgstr ""
+"**Ábending:** Þó að þetta sé venjulega stjórnað í bakgrunni, getur "
+"skilningur á klippu-ID hjálpað við flóknari sérsnið verkefna."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:882
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the clip is placed. Clips on higher tracks are rendered above those on lower"
+" tracks."
+msgstr ""
+":guilabel:`Rás` eiginleikinn er heiltala sem sýnir lagið sem klipið er "
+"staðsett á. Klippur á hærri rásum eru sýndar ofan á þeim á lægri rásum."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:885
+msgid ""
+"**Usage Example:** Arranging clips in different layers for creating visual "
+"depth and complexity."
+msgstr ""
+"**Dæmi um notkun:** Raða klippum í mismunandi lög til að skapa sjónræna dýpt"
+" og flækjustig."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:886
+msgid ""
+"**Tip:** Use higher tracks for elements that need to appear above others, "
+"like text overlays or graphics."
+msgstr ""
+"**Ábending:** Notaðu hærri rásir fyrir þætti sem þurfa að birtast ofan á "
+"öðrum, eins og textalag eða grafík."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:891
+msgid "Location X and Location Y"
+msgstr "Staðsetning X og Staðsetning Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:892
+msgid ""
+"The :guilabel:`Location X` and :guilabel:`Location Y` properties are key-"
+"frame curves that determine the relative position of the clip, expressed in "
+"percentages, based on the specified gravity. The range for these curves is "
+"-1 to 1. See :ref:`clip_transform_ref`."
+msgstr ""
+":guilabel:`Staðsetning X` og :guilabel:`Staðsetning Y` eiginleikarnir eru "
+"lykilrammakúrfur sem ákvarða hlutfallslega staðsetningu klipsins, gefið upp "
+"í prósentum, byggt á tilteknum þyngdaraflsstillingum. Gildissvið þessara "
+"kúrfna er frá -1 til 1. Sjá :ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:895
+msgid ""
+"**Usage Example:** Animating a clip's movement across the screen using key-"
+"frame curves for both X and Y locations."
+msgstr ""
+"**Dæmi um notkun:** Hreyfa klip yfir skjáinn með lykilrammakúrfum fyrir bæði"
+" X og Y staðsetningu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:896
+msgid ""
+"**Tip:** Combine with gravity settings to create dynamic animations that "
+"adhere to consistent alignment rules."
+msgstr ""
+"**Ábending:** Sameina með þyngdaraflsstillingum til að búa til kraftmiklar "
+"hreyfimyndir sem fylgja samræmdum staðsetningarreglum."
+
+#: ../clips.rst:900
+msgid ""
+"The :guilabel:`Margin` property is a key-frame curve that creates an inset "
+"layout area for a clip. The curve is measured as a percentage of the "
+"project's shortest side and ranges from 0 to 0.5. For example, in a "
+"1920x1080 project, a margin of 0.05 creates a 54-pixel inset on every side, "
+"and the clip is laid out inside the remaining rectangle."
+msgstr ""
+"Eiginleikinn :guilabel:`Brún` er lykilrammakúrfa sem býr til innskotssvæði "
+"fyrir klippu. Kúrfan er mæld sem prósenta af stystu hlið verkefnisins og "
+"spannar frá 0 til 0,5. Til dæmis, í 1920x1080 verkefni, býr brúnin 0,05 til "
+"54 punkta innskot á hverri hlið og klippan er staðsett innan þess "
+"eftirliggjandi rétthyrnings."
+
+#: ../clips.rst:904
+msgid ""
+"Margin is applied before the clip's scale and gravity are calculated. This "
+"means :guilabel:`Scale` modes such as ``Fit``, ``Crop``, and ``Stretch`` use"
+" the smaller inset area instead of the full project frame. It also means all"
+" :guilabel:`Gravity` options, including ``Center``, are resolved inside the "
+"inset area."
+msgstr ""
+"Brún er beitt áður en stærð og þyngdarafl klippunnar eru reiknuð. Þetta "
+"þýðir að :guilabel:`Stærð` stillingar eins og ``Passa``, ``Klippa`` og "
+"``Teygja`` nota minna innskotssvæði í stað fulls verkefnisramma. Þetta þýðir"
+" einnig að allar :guilabel:`Þyngdarafl` valkostir, þar með talið ``Miðja``, "
+"eru leystir innan innskotssvæðisins."
+
+#: ../clips.rst:908
+msgid ""
+"**Usage Example:** Keeping a corner webcam clip slightly away from the "
+"screen edge during a screen recording."
+msgstr ""
+"**Dæmi um notkun:** Að halda hornmyndavélarklippu örlítið frá skjábrún meðan"
+" á skjáupptöku stendur."
+
+#: ../clips.rst:909
+msgid ""
+"**Usage Example:** Adding a clean border around a full-frame image by using "
+"``Fit`` or ``Stretch`` with a small margin."
+msgstr ""
+"**Dæmi um notkun:** Að bæta hreinni brún utan um fullramma mynd með því að "
+"nota ``Passa`` eða ``Teygja`` með litlu brúnargildi."
+
+#: ../clips.rst:910
+msgid ""
+"**Usage Example:** Creating safe-area layouts, split-screen spacing, or "
+"picture-in-picture spacing without adding Crop or Mask effects."
+msgstr ""
+"**Dæmi um notkun:** Að búa til öruggt svæði, bil milli skjáa eða mynd í mynd"
+" bil án þess að bæta við Klippa eða Grímu áhrifum."
+
+#: ../clips.rst:911
+msgid ""
+"**Usage Example:** In :guilabel:`Recording View`, screen-plus-camera "
+"recordings use this property to inset the corner webcam clip."
+msgstr ""
+"**Dæmi um notkun:** Í :guilabel:`Upptökusýn` nota skjá- og myndavélaupptökur"
+" þennan eiginleika til að innskota hornmyndavélarklippuna."
+
+#: ../clips.rst:912
+msgid ""
+"**Tip:** Use a small value such as 0.02 to 0.05 for normal edge spacing. "
+"Larger values intentionally shrink the available layout area."
+msgstr ""
+"**Ábending:** Notaðu lítið gildi eins og 0,02 til 0,05 fyrir venjulegt bil "
+"við brún. Stærri gildi minnka meðvitað tiltækt skipulagsrými."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:918
+msgid ""
+"The :guilabel:`Volume Mixing` property is an enumeration that controls how "
+"volume adjustments are applied before mixing audio. Options: None (no "
+"adjustment), Reduce (volume lowered to 80%), Average (volume divided based "
+"on the number of concurrent clips)."
+msgstr ""
+":guilabel:`Hljóðstyrksblöndun` eiginleikinn er talning sem stjórnar hvernig "
+"hljóðstyrksbreytingar eru notaðar áður en hljóð er blandað saman. Valkostir:"
+" Enginn (engin breyting), Minnka (hljóðstyrkur lækkaður í 80%), Meðaltal "
+"(hljóðstyrkur deilt eftir fjölda samtímis klippa)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:921
+msgid ""
+"**Usage Example:** Automatically lowering the volume of a clip to allow "
+"background music to stand out more prominently."
+msgstr ""
+"**Dæmi um notkun:** Sjálfvirkt lækka hljóðstyrk klips til að leyfa "
+"bakgrunnstónlist að skína betur í gegn."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:922
+msgid ""
+"**Tip:** Experiment with volume mixing options to achieve balanced audio "
+"levels across different clips."
+msgstr ""
+"**Ábending:** Prófaðu mismunandi valkosti í hljóðstyrksblöndun til að ná "
+"jafnvægi í hljóðstyrk milli klippa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:924
+msgid ""
+"Mixing audio involves adjusting volume levels so that **overlapping clips** "
+"do not become too loud (creating audio distortion and loss of audio "
+"clarity). If you combine particularly loud audio clips on multiple tracks, "
+"clipping (a staccato audio distortion) may occur. To avoid distortion, "
+"OpenShot might need to reduce the volume levels in overlapping clips. The "
+"following audio mixing methods are available:"
+msgstr ""
+"Hljóðblöndun felur í sér að stilla hljóðstyrk svo að **yfirfallandi "
+"klippur** verði ekki of háværar (sem veldur hljóðröskun og tap á "
+"hljóðskýrleika). Ef þú sameinar sérstaklega háværar klippur á mörgum rásum "
+"getur komið fram clipping (staccato hljóðröskun). Til að forðast röskun gæti"
+" OpenShot þurft að lækka hljóðstyrk í yfirfallandi klippum. Eftirfarandi "
+"aðferðir við hljóðblöndun eru í boði:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:928
+msgid ""
+"**None** - Make no adjustments to volume data before mixing audio. "
+"Overlapping clips will combine audio at full volume, with no reduction."
+msgstr ""
+"**Enginn** - Ekki gera neinar breytingar á hljóðstyrk áður en hljóð er "
+"blandað. Yfirfallandi klippur sameina hljóð á fullum styrk, án lækkunar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:929
+msgid ""
+"**Average** - Automatically divide the volume of each clip based on the # of"
+" overlapping clips. For example, 2 overlapping clips would each have 50% "
+"volume, 3 overlapping clips would each have 33% volume, etc..."
+msgstr ""
+"**Meðaltal** - Deilir sjálfkrafa hljóðstyrk hvers klips miðað við fjölda "
+"yfirfallandi klippa. Til dæmis myndu 2 yfirfallandi klippur hafa hvor um sig"
+" 50% hljóðstyrk, 3 yfirfallandi klippur 33% hljóðstyrk, o.s.frv."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:930
+msgid ""
+"**Reduce** - Automatically reduce overlapping clips volume by 20%, which "
+"reduces the likelihood of becoming too loud, but does not always prevent "
+"audio distortion. For example, if you have 10 loud clips overlapping, each "
+"with a 20% reduction in volume, it might still exceed the max allowable "
+"volume and exhibit audio distortion."
+msgstr ""
+"**Minnka** - Lækkar sjálfkrafa hljóðstyrk yfirfallandi klippa um 20%, sem "
+"minnkar líkur á of háværum hljóðstyrk, en kemur ekki alltaf í veg fyrir "
+"hljóðröskun. Til dæmis, ef 10 háværar klippur falla saman og hver er lækkuð "
+"um 20%, gæti samt farið yfir hámarks leyfilegan hljóðstyrk og valdið "
+"hljóðröskun."
+
+#: ../clips.rst:932
+msgid ""
+"For quickly adjusting the volume of a clip, you can use the :guilabel:`Audio"
+" → Volume` menu. See :ref:`clip_presets_ref`. For precise control over the "
+"volume of a clip, you can manually set the :guilabel:`Volume Key-frame`. See"
+" :ref:`clip_volume_ref`."
+msgstr ""
+"Til að stilla hljóðstyrk klippu hratt geturðu notað valmyndina "
+":guilabel:`Hljóð → Hljóðstyrkur`. Sjá :ref:`clip_presets_ref`. Fyrir nákvæma"
+" stjórn á hljóðstyrk klippu geturðu handvirkt stillt :guilabel:`Hljóðstyrks "
+"lykilramma`. Sjá :ref:`clip_volume_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:936
+msgid "Origin X and Origin Y"
+msgstr "Uppruni X og Uppruni Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:937
+msgid ""
+"The :guilabel:`Origin X` and :guilabel:`Origin Y` properties are key-frame "
+"curves that define the rotation origin point's position in percentages. The "
+"range for these curves is -1 to 1. See :ref:`clip_transform_ref`."
+msgstr ""
+":guilabel:`Uppruni X` og :guilabel:`Uppruni Y` eiginleikarnir eru "
+"lykilrammakúrfur sem skilgreina staðsetningu snúningsupprunapunktsins í "
+"prósentum. Gildissvið þessara kúrfna er frá -1 til 1. Sjá "
+":ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:940
+msgid ""
+"**Usage Example:** Rotating a clip around a specific point, such as a "
+"character's pivot joint."
+msgstr ""
+"**Dæmi um notkun:** Snúa klipi um ákveðinn punkt, eins og snúningslið "
+"persónu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:941
+msgid ""
+"**Tip:** Set the origin point to achieve controlled and natural-looking "
+"rotations during animations."
+msgstr ""
+"**Ábending:** Stilltu upprunapunktinn til að ná stjórn á og náttúrulegum "
+"snúningum í hreyfimyndum."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:946
+msgid "Clip Parent"
+msgstr "Foreldri klips"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:947
+msgid ""
+"The :guilabel:`Parent` property of a clip sets the initial keyframe values "
+"to the parent object. For example, if many clips all point to the same "
+"parent clip, they will inherit all their default properties, such as "
+"``location_x``, ``location_y``, ``scale_x``, ``scale_y``, etc... This can be"
+" very useful in certain circumstances, such as when you have many clips that"
+" need to move or scale together."
+msgstr ""
+":guilabel:`Foreldri` eiginleikinn á klipi setur upphafsgildi lykilramma til "
+"foreldrahlutans. Til dæmis, ef mörg klippur vísa öll til sama foreldraklips,"
+" erfast allar sjálfgefnu eiginleikar þeirra, eins og ``location_x``, "
+"``location_y``, ``scale_x``, ``scale_y``, o.s.frv. Þetta getur verið mjög "
+"gagnlegt í ákveðnum aðstæðum, eins og þegar mörg klippur þurfa að hreyfast "
+"eða stækka saman."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:951
+msgid ""
+"**Usage Example:** Creating complex animations by establishing a parent-"
+"child relationship between clips."
+msgstr ""
+"**Dæmi um notkun:** Búa til flóknar hreyfimyndir með því að stofna foreldra-"
+"barn tengsl milli klippa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:952
+msgid ""
+"**Tip:** Utilize this property to propagate changes from the parent clip to "
+"child clips for consistent animations."
+msgstr ""
+"**Ábending:** Notaðu þennan eiginleika til að miðla breytingum frá "
+"foreldraklipi til barnaklippa fyrir samræmdar hreyfimyndir."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:953
+msgid ""
+"**Tip:** You can also set the ``parent`` attribute to a ``Tracker`` or "
+"``Object Detector`` tracked object, so the clip follows the location and "
+"scale of a tracked object. Also see :ref:`effect_parent_ref`."
+msgstr ""
+"**Ábending:** Þú getur einnig stillt ``parent`` eiginleikann á ``Tracker`` "
+"eða ``Object Detector`` fylgdu hlut, svo klipið fylgi staðsetningu og stærð "
+"fylgdu hlutarins. Sjá einnig :ref:`effect_parent_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:957
+msgid ""
+"The :guilabel:`Position` property determines the clip's position on the "
+"timeline in seconds, with 0.0 indicating the beginning."
+msgstr ""
+":guilabel:`Staðsetning` eiginleikinn ákvarðar staðsetningu klipsins á "
+"tímalínunni í sekúndum, þar sem 0.0 táknar byrjun."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:959
+msgid ""
+"**Usage Example:** Timing a clip's appearance to coincide with specific "
+"events in the project."
+msgstr ""
+"**Dæmi um notkun:** Tímasetja birtingu klips til að falla saman við tiltekin"
+" atvik í verkefninu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:960
+msgid ""
+"**Tip:** Adjust the position to synchronize clips with audio cues or visual "
+"elements."
+msgstr ""
+"**Ábending:** Stilltu staðsetninguna til að samstilla klippur við hljóðmerki"
+" eða sjónræna þætti."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:966
+msgid ""
+"The :guilabel:`Rotation` property is a key-frame curve that controls the "
+"rotation angle of the clip, ranging from -360 to 360 degrees. You can rotate"
+" clockwise or counterclockwise. Quickly adjust the orientation angle of a "
+"clip (sideways, upside down, right side up, portrait, landscape), flip a "
+"clip, or animate the rotation.  See :ref:`clip_transform_ref`."
+msgstr ""
+":guilabel:`Snúningur` eiginleikinn er lykilrammakúrfa sem stjórnar "
+"snúningshorni klipsins, frá -360 til 360 gráður. Þú getur snúið klipinu "
+"réttsælis eða rangsælis. Stilltu hratt stefnu klipsins (á hlið, á haus, "
+"réttsælis, portrett, landslag), speglaðu klipið eða gerðu snúninginn "
+"hreyfimyndaðan. Sjá :ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:970
+msgid ""
+"**Usage Example:** Simulating a spinning effect by animating the rotation "
+"curve."
+msgstr ""
+"**Dæmi um notkun:** Hermdu eftir snúningsáhrifum með því að hreyfimynda "
+"snúningskúrfunni."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:971
+msgid ""
+"**Tip:** Use this property creatively for effects like rotating text or "
+"emulating camera movement."
+msgstr ""
+"**Ábending:** Notaðu þennan eiginleika skapandi fyrir áhrif eins og að snúa "
+"texta eða líkja eftir hreyfingu myndavélar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:972
+msgid ""
+"**Tip:** In the preview transform tool, hold :kbd:`Ctrl` or :kbd:`Shift` "
+"while rotating to snap to 15-degree increments."
+msgstr ""
+"**Ábending:** Í forskoðun breytingartólsins, haltu :kbd:`Ctrl` eða "
+":kbd:`Shift` niðri meðan þú snýrð til að festa við 15 gráðu skref."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:973
+msgid ""
+"**Tip:** Experiment with rotating your video at different angles, not just "
+"90 or 180 degrees. Sometimes a slight tilt or a specific angle can add "
+"creative flair to your video, especially for artistic or storytelling "
+"purposes."
+msgstr ""
+"**Ábending:** Prófaðu að snúa myndbandinu þínu á mismunandi hornum, ekki "
+"bara 90 eða 180 gráður. Stundum getur smávægilegur halli eða ákveðið horn "
+"bætt skapandi blæ við myndbandið, sérstaklega fyrir listræna eða "
+"sögusagnartengda notkun."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:974
+msgid ""
+"**Tip:** After rotating your video, you might end up with black bars around "
+"the edges. Consider cropping and resizing the video to eliminate these bars "
+"and maintain a clean, polished look."
+msgstr ""
+"**Ábending:** Eftir að hafa snúið myndbandinu gætu svartir rammar komið fram"
+" við brúnirnar. Hugleiddu að klippa og breyta stærð myndbandsins til að "
+"fjarlægja þessa ramma og halda hreinu, snyrtilegu útliti."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:975
+msgid ""
+"**Tip:** If you're dealing with vertical videos that are meant to be watched"
+" on horizontal screens, rotate them by 90 degrees and then scale them up to "
+"fill the frame. This way, your vertical video will occupy more screen real "
+"estate."
+msgstr ""
+"**Ábending:** Ef þú ert að vinna með lóðrétt myndbönd sem á að horfa á á "
+"láréttum skjám, snúðu þeim um 90 gráður og stækkaðu svo til að fylla "
+"rammann. Þannig mun lóðrétta myndbandið þitt taka meira skjápláss."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:976
+msgid ""
+"**Tip:** If the horizon in your video appears slanted due to camera tilt, "
+"use rotation to level it. This is particularly important for landscape shots"
+" to maintain a professional and visually pleasing appearance."
+msgstr ""
+"**Ábending:** Ef sjóndeildarhringurinn í myndbandinu þínu virðist hallandi "
+"vegna hallandi myndavélar, notaðu snúning til að rétta hann af. Þetta er "
+"sérstaklega mikilvægt fyrir landslagsmyndir til að viðhalda faglegu og "
+"sjónrænt ánægjulegu útliti."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:982
+msgid ""
+"The :guilabel:`Scale` property is the initial resizing or scaling method "
+"used to display the picture of a clip, which may be further adjusted by the "
+":guilabel:`Scale X` and :guilabel:`Scale Y` clip properties (see "
+":ref:`clip_scale_x_ref`). It is recommended to use assets with the same "
+"aspect ratio as your project profile, which allows many of these resizing "
+"methods to fully scale your clip up to the size of the screen, without "
+"adding any black bars on the edges. The scale methods are:"
+msgstr ""
+":guilabel:`Stærð` eiginleikinn er upphafleg stærðarbreyting eða "
+"stækkunaraðferð sem notuð er til að sýna mynd klipsins, sem má síðan stilla "
+"frekar með :guilabel:`Stærð X` og :guilabel:`Stærð Y` eiginleikum klipsins "
+"(sjá :ref:`clip_scale_x_ref`). Mælt er með að nota efni með sama hlutfalli "
+"og verkefnisstillingin þín, sem gerir mörgum af þessum "
+"stærðarbreytingaraðferðum kleift að stækka klipið þitt að fullu upp í "
+"skjástærð án þess að bæta við svörtum römmum við brúnirnar. "
+"Stærðarbreytingaraðferðirnar eru:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:987
+msgid ""
+"**Best Fit** (default) – The clip is as large as possible without changing "
+"the aspect ratio. This might result in black bars on certain sides of the "
+"picture, if the aspect ratio does not exactly match your project size."
+msgstr ""
+"**Best Fit** (sjálfgefið) – Klipið er eins stórt og mögulegt er án þess að "
+"breyta hlutfallinu. Þetta getur valdið svörtum römmum á ákveðnum hliðum "
+"myndarinnar ef hlutfallið passar ekki nákvæmlega við stærð verkefnisins."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:988
+msgid ""
+"**Crop** – The aspect ratio of the clip is maintained while the clip is "
+"enlarged to fill the entire screen, even if that means some of it will be "
+"cropped. This prevents black bars around the picture, but if the aspect "
+"ratio of the clip does not match the project size, some of the picture will "
+"be cropped off."
+msgstr ""
+"**Crop** – Hlutfall klipsins er haldið en klipið stækkað til að fylla allan "
+"skjáinn, jafnvel þótt hluti þess verði klipptur burt. Þetta kemur í veg "
+"fyrir svarta ramma í kringum myndina, en ef hlutfall klipsins passar ekki "
+"við stærð verkefnisins verður hluti myndarinnar klipptur burt."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:989
+msgid ""
+"**None** – The clip is displayed in its original size. This is not "
+"recommended, since the picture will not scale correctly if you change the "
+"project profile (or project size)."
+msgstr ""
+"**Engin** – Klipið er sýnt í upprunalegri stærð. Þetta er ekki mælt með, þar"
+" sem myndin stækkar ekki rétt ef þú breytir verkefnisstillingum (eða stærð "
+"verkefnisins)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:990
+msgid ""
+"**Stretch** – The clip is stretched to fill the entire screen, changing the "
+"aspect ratio if necessary."
+msgstr ""
+"**Strekkja** – Klipið er teygð til að fylla allan skjáinn, breytir "
+"hlutfallinu ef þörf krefur."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:995
+msgid "Scale X and Scale Y"
+msgstr "Stærð X og Stærð Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:996
+msgid ""
+"The :guilabel:`Scale X` and :guilabel:`Scale Y` properties are key-frame "
+"curves that represent horizontal and vertical scaling in percentages, "
+"respectively. The range for these curves is 0 to 1. See "
+":ref:`clip_transform_ref`. OpenShot limits the max scale values based on the"
+" file type and the project size, to prevent crashes and performance issues."
+msgstr ""
+":guilabel:`Stærð X` og :guilabel:`Stærð Y` eiginleikarnir eru "
+"lykilrammakúrfur sem tákna lárétta og lóðrétta stækkun í prósentum, í sömu "
+"röð. Gildissvið þessara kúrfna er 0 til 1. Sjá :ref:`clip_transform_ref`. "
+"OpenShot takmarkar hámarksstærðargildi miðað við skráargerð og stærð "
+"verkefnisins til að koma í veg fyrir hnökrar og frammistöðuvandamál."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1000
+msgid ""
+"**Usage Example:** Creating a zoom-in effect by animating the Scale X and "
+"Scale Y curves simultaneously."
+msgstr ""
+"**Dæmi um notkun:** Búa til innstækkað áhrif með því að hreyfimynda Stærð X "
+"og Stærð Y kúrfurnar samtímis."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1001
+msgid ""
+"**Tip:** Scale the image larger than the screen, only revealing a portion of"
+" the video. This is a simple way to crop a portion of the video."
+msgstr ""
+"**Ábending:** Stækkaðu myndina meira en skjáinn, þannig að aðeins hluti "
+"myndbandsins sjást. Þetta er einföld leið til að klippa hluta af "
+"myndbandinu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1002
+msgid ""
+"**Tip:** Scale the horizontal and vertical elements separately, to squash "
+"and stretch the image in fun ways."
+msgstr ""
+"**Ábending:** Stækkaðu lárétta og lóðrétta þætti sér, til að þjappa og "
+"teygja myndina á skemmtilegan hátt."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1003
+msgid ""
+"**Tip:** Combine scaling with rotation and location properties for dynamic "
+"transformations."
+msgstr ""
+"**Ábending:** Sameinaðu stærðarbreytingu með snúningi og staðsetningu fyrir "
+"kraftmiklar umbreytingar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1006
+msgid "Shear X and Shear Y"
+msgstr "Skekkja X og Skekkja Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1007
+msgid ""
+"The :guilabel:`Shear X` and :guilabel:`Shear Y` properties are key-frame "
+"curves that represent X and Y shear angles in degrees, respectively. See "
+":ref:`clip_transform_ref`. OpenShot limits the max shear values based on the"
+" file type and the project size, to prevent crashes and performance issues."
+msgstr ""
+":guilabel:`Skekkja X` og :guilabel:`Skekkja Y` eiginleikarnir eru "
+"lykilrammakúrfur sem tákna skekkjuhorn í gráðum á X og Y ásum, í sömu röð. "
+"Sjá :ref:`clip_transform_ref`. OpenShot takmarkar hámarks skekkjugildi miðað"
+" við skráargerð og stærð verkefnisins til að koma í veg fyrir hnökrar og "
+"frammistöðuvandamál."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1011
+msgid ""
+"**Usage Example:** Adding a dynamic tilt effect to a clip by animating the "
+"shear angles."
+msgstr ""
+"**Dæmi um notkun:** Bæta við kraftmiklu hallaráhrifum á klip með því að "
+"hreyfimynda skekkjuhornin."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1012
+msgid ""
+"**Tip:** Use shear properties for creating slanted or skewed animations."
+msgstr ""
+"**Ábending:** Notaðu skekkju eiginleikana til að búa til hallandi eða "
+"skekktar hreyfimyndir."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1016
+msgid ""
+"The :guilabel:`Start` property defines the trimming point at the beginning "
+"of the clip in seconds. Changing this property will impact the "
+":guilabel:`Duration` clip property."
+msgstr ""
+":guilabel:`Byrjun` eiginleikinn skilgreinir klippingarpunkt í byrjun "
+"klipsins í sekúndum. Breyting á þessum eiginleika hefur áhrif á "
+":guilabel:`Lengd` klipsins."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1019
+msgid ""
+"**Usage Example:** Removing the initial portion of a clip to focus on a "
+"specific scene or moment."
+msgstr ""
+"**Dæmi um notkun:** Fjarlægja upphafshluta klips til að einbeita sér að "
+"ákveðnu atriði eða augnabliki."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1020
+msgid ""
+"**Tip:** Utilize the \"Start\" property in combination with the \"End\" "
+"property for precise clip trimming."
+msgstr ""
+"**Ábending:** Notaðu :guilabel:`Byrjun` eiginleikann ásamt :guilabel:`Enda` "
+"eiginleikanum til nákvæmrar klippingar klips."
+
+#: ../clips.rst:1026
+msgid ""
+"The :guilabel:`Time` property is a key-frame curve that represents frames "
+"played over time, affecting the speed and direction of the video. You can "
+"use one of the available presets (normal, fast, slow, freeze, freeze & zoom,"
+" forward, backward), by right-clicking on a clip and choosing the "
+":guilabel:`Speed` menu. Many presets are available in this menu for "
+"reversing, speeding up, and slowing down a video clip, see "
+":ref:`clip_presets_ref`. The same adjustments can be made interactively with"
+" the :guilabel:`Timing` toolbar button by dragging a clip's edges; OpenShot "
+"adds the necessary time keyframes and scales all other keyframes "
+"automatically."
+msgstr ""
+"Eiginleikinn :guilabel:`Tími` er lykilrammakúrfa sem táknar ramma spilaða "
+"yfir tíma, sem hefur áhrif á hraða og stefnu myndbandsins. Þú getur notað "
+"eitt af tiltækum forstillingum (venjulegt, hratt, hægt, frysta, frysta & "
+"aðdráttur, áfram, afturábak) með því að hægrismella á klippu og velja "
+"valmyndina :guilabel:`Hraði`. Margar forstillingar eru í boði í þessari "
+"valmynd til að snúa við, hraða upp og hægja á myndbandsklippu, sjá "
+":ref:`clip_presets_ref`. Sömu stillingar er hægt að gera gagnvirkt með "
+":guilabel:`Tímasetning` tækjastikuhnappi með því að draga brúnir klippunnar;"
+" OpenShot bætir við nauðsynlegum tímalykilrammum og skalar alla aðra "
+"lykilramma sjálfkrafa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1033
+msgid ""
+"Optionally, you can manually set key-frame values for the :guilabel:`Time` "
+"property. The value represents the `frame number` at the position of the "
+"key-frame. This can be tricky to determine and might require a calculator to"
+" find the needed values. For example, if the beginning of your Clip sets a "
+"time value of ``300`` (i.e. `frame 300`), and the end of your clip sets a "
+"time value of ``1`` (`frame 1`), OpenShot will play this clip backwards, "
+"starting at frame 300 and ending at frame 1, at the appropriate speed (based"
+" on where these key-frames are set on the timeline). NOTE: To determine the "
+"total number of frames in a clip, multiply the duration of the file with the"
+" FPS of the project (for example: ``47.0 sec clip duration X 24.0 Project "
+"FPS = 1128 total frames``)."
+msgstr ""
+"Að vild getur þú stillt lykilrammagildi handvirkt fyrir :guilabel:`Time` "
+"eiginleikann. Gildið táknar `rammanúmer` á staðsetningu lykilrammans. Þetta "
+"getur verið flókið að ákvarða og krefst stundum reiknivél til að finna "
+"nauðsynleg gildi. Til dæmis, ef byrjun klippunnar þinnar stillir tímagildi "
+"``300`` (þ.e. `ramma 300`), og endi klippunnar stillir tímagildi ``1`` "
+"(`ramma 1`), mun OpenShot spila þessa klippu afturábak, byrja á ramma 300 og"
+" enda á ramma 1, á viðeigandi hraða (miðað við hvar þessir lykilrammar eru "
+"settir á tímalínuna). ATH: Til að ákvarða heildarfjölda ramma í klippu, "
+"margfaldaðu lengd skrárinnar með FPS verkefnisins (til dæmis: ``47,0 sek "
+"klippulengd X 24,0 FPS verkefnis = 1128 heildarrammar``)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1041
+msgid ""
+"This allows for some very complex scenarios, such as jump cutting inside a "
+"clip, reversing a portion of a clip, slowing down a portion of a clip, "
+"freezing on a frame, and much more. See :ref:`animation_ref` for more "
+"details on manual key-frame animations."
+msgstr ""
+"Þetta gerir kleift að búa til mjög flókin atvik, svo sem hoppklippingu innan"
+" klippu, að snúa hluta klippu við, hægja á hluta klippu, frysta á ramma og "
+"margt fleira. Sjá :ref:`animation_ref` fyrir frekari upplýsingar um "
+"handvirkar lykilramma hreyfimyndir."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1045
+msgid ""
+"**Usage Example:** Creating a slow-motion or time-lapse effect by modifying "
+"the time curve."
+msgstr ""
+"**Dæmi um notkun:** Að búa til hægfara eða hraðamyndaráhrif með því að "
+"breyta tímakúrfunni."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1046
+msgid ""
+"**Tip:** Adjust the \"Time\" property to control video playback speed for "
+"dramatic visual impact."
+msgstr ""
+"**Ábending:** Stilltu eiginleikann „Time“ til að stjórna spilun hraða "
+"myndbandsins fyrir áhrifaríkan sjónrænan áhrif."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1052
+msgid ""
+"The :guilabel:`Volume` property is a key-frame curve that controls audio "
+"volume or level, ranging from 0 (mute) to 1 (full volume). For automatic "
+"adjustment of volume, see :ref:`clip_volume_mixing_ref`."
+msgstr ""
+"Eiginleikinn :guilabel:`Volume` er lykilrammakúrfa sem stjórnar hljóðstyrk "
+"eða stigi, frá 0 (þögn) til 1 (fullur styrkur). Fyrir sjálfvirka stillingu "
+"hljóðstyrks, sjá :ref:`clip_volume_mixing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1055
+msgid ""
+"**Usage Example:** Gradually fading out background music as dialogue becomes"
+" more prominent, or increasing or lowering the volume of a clip."
+msgstr ""
+"**Dæmi um notkun:** Að dofna smám saman út bakgrunnstónlist þegar samtal "
+"verður áberandi, eða að hækka eða lækka hljóðstyrk klippu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1056
+msgid ""
+"**Tip:** Combine multiple volume key-frames for nuanced audio adjustments, "
+"such as ducking the level of the music when dialog is spoken."
+msgstr ""
+"**Ábending:** Sameinaðu marga hljóðstyrks lykilramma fyrir nákvæmar "
+"hljóðstillingar, svo sem að lækka tónlist þegar talað er."
+
+#: ../clips.rst:1057
+msgid ""
+"**Tip:** For **quickly** adjusting the volume of a clip you can use the "
+":guilabel:`Audio → Volume` menu. See :ref:`clip_presets_ref`."
+msgstr ""
+"**Ábending:** Fyrir **hratt** að stilla hljóðstyrk klippu geturðu notað "
+"valmyndina :guilabel:`Hljóð → Hljóðstyrkur`. Sjá :ref:`clip_presets_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1061
+msgid ""
+"The :guilabel:`Wave Color` property is a key-frame curve that represents the"
+" color of the audio waveform visualization."
+msgstr ""
+"Eiginleikinn :guilabel:`Wave Color` er lykilrammakúrfa sem táknar lit "
+"hljóðbylgjulínuritsins."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1063
+msgid ""
+"**Usage Example:** Matching the waveform color to the project's overall "
+"visual theme."
+msgstr ""
+"**Dæmi um notkun:** Að samræma lit bylgjulínuritsins við heildar sjónrænt "
+"þema verkefnisins."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1064
+msgid ""
+"**Tip:** Experiment with different colors to enhance the visual appeal of "
+"the waveform or animate the color over time."
+msgstr ""
+"**Ábending:** Prófaðu mismunandi liti til að auka sjónræna aðdráttarafl "
+"bylgjulínuritsins eða hreyfa litinn með tímanum."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1068
+msgid ""
+"The :guilabel:`Waveform` property is a boolean that determines whether a "
+"waveform visualization is used instead of the clip's image."
+msgstr ""
+"Eiginleikinn :guilabel:`Waveform` er tvíundarbreyta sem ákvarðar hvort "
+"bylgjulínurit sé notað í stað myndar klippunnar."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1070
+msgid ""
+"**Usage Example:** Displaying an audio waveform in place of the video for "
+"visually highlighting audio patterns."
+msgstr ""
+"**Dæmi um notkun:** Sýna hljóðbylgjulínurit í stað myndbands til að leggja "
+"áherslu á hljóðmynstur sjónrænt."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1071
+msgid ""
+"**Tip:** Use waveform visualization for emphasizing music beats or voice "
+"modulations."
+msgstr ""
+"**Ábending:** Notaðu bylgjulínuritsmyndun til að leggja áherslu á takta "
+"tónlistar eða raddbreytingar."
+
+#: ../clips.rst:1075
+msgid ""
+"The :guilabel:`Waveform Mode` property controls the visualization style used"
+" when :guilabel:`Waveform` is enabled. It uses the same choices as the "
+":guilabel:`Visualization` property on the :guilabel:`Audio Visualization` "
+"effect: Waveform, Filled Waveform, Bars, Radial, Radial Bars, Spectrum, "
+"Phase Scope, Particles, and VU Meter."
+msgstr ""
+"Eiginleikinn :guilabel:`Bylgjulögun Hamur` stjórnar sjónrænum stíl sem "
+"notaður er þegar :guilabel:`Bylgjulögun` er virkjuð. Hann notar sömu "
+"valkosti og :guilabel:`Sjónræn áhrif` eiginleikinn á :guilabel:`Hljóðsýn` "
+"áhrifinu: Bylgjulögun, Fylt bylgjulögun, Stafir, Geisla, Geislastafir, Svið,"
+" Fasa mæling, Agnir og VU mælir."
+
+#: ../clips.rst:1079
+msgid ""
+"**Usage Example:** Switching an audio-only clip from a standard waveform to "
+"bars or a spectrum display."
+msgstr ""
+"**Dæmi um notkun:** Að skipta hljóð-einangraðri klippu úr venjulegri "
+"bylgjulögun yfir í stafi eða sviðsmynd."
+
+#: ../clips.rst:1080
+msgid ""
+"**Tip:** Use :guilabel:`Wave Color` with :guilabel:`Waveform Mode` to tune "
+"both the visualization style and color."
+msgstr ""
+"**Ábending:** Notaðu :guilabel:`Bylgjulitur` með :guilabel:`Bylgjulögun "
+"Hamur` til að stilla bæði sjónrænan stíl og lit."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1083
+msgid "More Information"
+msgstr "Frekari upplýsingar"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1084
+msgid "For more info on key frames and animation, see :ref:`animation_ref`."
+msgstr ""
+"Fyrir frekari upplýsingar um lykilramma og hreyfimyndir, sjá "
+":ref:`animation_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`razor tool` from the **Timeline Toolbar** cuts a clip at the "
+#~ "position where it is clicked. Use :kbd:`SHIFT` to slice and keep the left "
+#~ "side, or :kbd:`CTRL` to keep the right side."
+#~ msgstr ""
+#~ ":guilabel:`rakhnífsverkfærið` úr **Tímalínuverkfærastikunni** klippir klippu"
+#~ " á staðnum þar sem smellt er. Notaðu :kbd:`SHIFT` til að sneiða og halda "
+#~ "vinstri hlið, eða :kbd:`CTRL` til að halda hægri hlið."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Some presets allow the user to target either the start, end, or entire clip,"
+#~ " and most presets allow the user to reset a specific clip property. For "
+#~ "example, when using the ``Volume`` preset, the user has the following menu "
+#~ "options:"
+#~ msgstr ""
+#~ "Sumar fyrirframstillingar leyfa notanda að velja upphaf, endi eða alla "
+#~ "klippuna, og flestar fyrirframstillingar leyfa notanda að endurstilla "
+#~ "ákveðinn eiginleika klippunnar. Til dæmis, þegar notað er ``Volume`` "
+#~ "fyrirframstillinguna, hefur notandinn eftirfarandi valkosti í valmyndinni:"
+
+# Translated with gpt-4.1-mini
+#~ msgid "**Reset** - This will reset the volume to the original level."
+#~ msgstr ""
+#~ "**Endurstilla** - Þetta endurstillir hljóðstyrkinn í upprunalegt stig."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Start of Clip** - Your volume level selection will apply at the Beginning "
+#~ "of the clip."
+#~ msgstr "**Byrjun klippu** - Val á hljóðstyrk gildir frá byrjun klippunnar."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**End of Clip** - Your volume level selection will apply to the End of the "
+#~ "clip."
+#~ msgstr "**Endi klippu** - Val á hljóðstyrk gildir til enda klippunnar."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Entire Clip** - Your volume level selection will apply to the Entire clip."
+#~ msgstr "**Öll klippa** - Val á hljóðstyrk gildir fyrir alla klippuna."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Fade the image in or out (often easier than using a transition)"
+#~ msgstr "Hverfa myndinni inn eða út (oft auðveldara en að nota umbreytingu)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Animate"
+#~ msgstr "Hreyfa"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Zoom and slide a clip"
+#~ msgstr "Stækka og renna klippu"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Rotate or flip a clip"
+#~ msgstr "Snúa eða spegla klippu"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Make a video smaller or larger, and snap to any corner"
+#~ msgstr "Gera myndbandið minna eða stærra og festa það við hvaða horn sem er"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Reverse, repeat, and speed up or slow down video"
+#~ msgstr "Snúa við, endurtaka og hraða upp eða hægja á myndbandi"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Fade in or out the volume, reduce or increase the volume of a clip, or mute"
+#~ msgstr ""
+#~ "Hverfa hljóðstyrk inn eða út, minnka eða auka hljóðstyrk klippu, eða "
+#~ "hljóðlaust"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Separate Audio"
+#~ msgstr "Aðskilja hljóð"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Separate the audio from a clip. This preset can either create a single "
+#~ "detached audio clip (positioned on a layer below the original clip), or "
+#~ "multiple detached audio clips (one per audio track, positioned on multiple "
+#~ "layers below the original clip)"
+#~ msgstr ""
+#~ "Aðskilja hljóð frá klippu. Þessi fyrirframstilling getur búið til eina "
+#~ "aðskilda hljóðklippu (staðsett á lagi undir upprunalegu klippunni) eða "
+#~ "margar aðskildar hljóðklippur (ein fyrir hljóðrás, staðsettar á mörgum lögum"
+#~ " undir upprunalegu klippunni)."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Cut the clip at the play-head position"
+#~ msgstr "Skerðu klippuna á staðsetningu spilunarhaus"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Display"
+#~ msgstr "Sýna"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Show waveform or thumbnail for a clip"
+#~ msgstr "Sýna bylgjulínu eða smámynd fyrir klippu"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Show the properties panel for a clip"
+#~ msgstr "Sýna eiginleikaspjaldið fyrir klippu"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Copy / Paste"
+#~ msgstr "Afrita / Líma"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Copy and paste key frames or duplicate an entire clip (with all key frames)"
+#~ msgstr ""
+#~ "Afrita og líma lykilramma eða tvöfalda alla klippuna (með öllum lykilrömmum)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Remove a clip from the timeline"
+#~ msgstr "Fjarlægðu klippu af tímalínunni"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Fade` preset enables smooth transitions by gradually "
+#~ "increasing or decreasing the clip's opacity. It creates a fade-in or fade-"
+#~ "out of the clip image, ideal for introducing or concluding clips. See "
+#~ ":ref:`clip_alpha_ref` key-frame."
+#~ msgstr ""
+#~ "Fyrirframstillingin :guilabel:`Fade` gerir kleift að búa til mjúkar "
+#~ "umbreytingar með því að auka eða minnka gegnsæi klippunnar smám saman. Hún "
+#~ "skapar hverfingu inn eða út á mynd klippunnar, sem hentar vel til að kynna "
+#~ "eða ljúka klippum. Sjá :ref:`clip_alpha_ref` lykilramma."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Adjust the duration of the fade effect (slow or fast) to control "
+#~ "its timing and intensity."
+#~ msgstr ""
+#~ "**Ábending:** Stilltu lengd útfadingar (hæg eða hröð) til að stjórna "
+#~ "tímasetningu og styrk hennar."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Animate` preset adds dynamic motion to clips, combining "
+#~ "zooming and sliding animations. It animates a clip by zooming in or out "
+#~ "while sliding across the screen. It can **slide** in many specific "
+#~ "directions, or slide and zoom to a **random** location. See "
+#~ ":ref:`clip_location_x_ref` and :ref:`clip_scale_x_ref` key-frames."
+#~ msgstr ""
+#~ ":guilabel:`Animate` forstillt bætir við hreyfingu í klippur með því að "
+#~ "sameina aðdrátt og rennihreyfingar. Það hreyfir klippuna með því að "
+#~ "aðdráttur inn eða út á sama tíma og hún rennur yfir skjáinn. Hún getur "
+#~ "**rennt** í mörgum tilteknum áttum, eða rennt og aðdrætt að "
+#~ "**handahófskenndri** staðsetningu. Sjá :ref:`clip_location_x_ref` og "
+#~ ":ref:`clip_scale_x_ref` lykilramma."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Using the animate preset to simulate a camera movement "
+#~ "across a landscape shot."
+#~ msgstr ""
+#~ "**Dæmi um notkun:** Nota animate forstillinguna til að líkja eftir hreyfingu"
+#~ " myndavélar yfir landslagsskot."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Experiment with different animation speeds and directions for "
+#~ "diverse visual effects."
+#~ msgstr ""
+#~ "**Ábending:** Prófaðu mismunandi hraða og áttir í hreyfimyndum fyrir "
+#~ "fjölbreytt sjónræn áhrif."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Rotate` preset introduces easy rotation and flipping of "
+#~ "clips, enhancing their visual appeal. It enables orientation adjustment, by "
+#~ "rotating and flipping a clip for creative visual transformations. See "
+#~ ":ref:`clip_rotation_ref` key-frame."
+#~ msgstr ""
+#~ ":guilabel:`Rotate` forstillt gerir auðvelda snúninga og speglun klippa "
+#~ "kleift, sem eykur sjónræna aðdráttarafl þeirra. Hún gerir kleift að stilla "
+#~ "stefnu með því að snúa og spegla klippu fyrir skapandi sjónrænar "
+#~ "umbreytingar. Sjá :ref:`clip_rotation_ref` lykilramma."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Rotating a photo or video by 90 degree (a portrait video "
+#~ "to a landscape)"
+#~ msgstr ""
+#~ "**Dæmi um notkun:** Snúa mynd eða myndbandi um 90 gráður (frá "
+#~ "portrettmyndbandi í landslagsmyndband)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** If your video is oriented sideways (90 degrees), you can "
+#~ "rotate it clockwise or counterclockwise by 90 degrees to bring it to the "
+#~ "correct orientation. This can be useful when you accidentally recorded a "
+#~ "video in portrait mode when you intended it to be landscape."
+#~ msgstr ""
+#~ "**Dæmi um notkun:** Ef myndbandið þitt er á hliðinni (90 gráður), getur þú "
+#~ "snúið því réttsælis eða rangsælis um 90 gráður til að fá rétta stefnu. Þetta"
+#~ " getur verið gagnlegt ef þú óvart tókst upp myndband í portrettstillingu "
+#~ "þegar þú ætlaðir að hafa það í landslagsstillingu."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** If your video is upside down, you can rotate it by 180 "
+#~ "degrees to flip it to the correct orientation. This can happen if you "
+#~ "accidentally held your camera the wrong way while recording."
+#~ msgstr ""
+#~ "**Dæmi um notkun:** Ef myndbandið þitt er á haus, getur þú snúið því um 180 "
+#~ "gráður til að snúa því rétt. Þetta getur gerst ef þú hélt myndavélinni rangt"
+#~ " við upptöku."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Layout` preset adjusts the size of a clip and snaps it to a "
+#~ "chosen corner of the screen. It resizes a clip and anchors it to a corner or"
+#~ " the center, useful for picture-in-picture or watermark effects. See "
+#~ ":ref:`clip_location_x_ref` and :ref:`clip_scale_x_ref` key-frames."
+#~ msgstr ""
+#~ ":guilabel:`Layout` forstillt stillir stærð klippu og festir hana við valinn "
+#~ "skjáhorn. Hún breytir stærð klippu og festir hana við horn eða miðju, "
+#~ "gagnlegt fyrir mynd í mynd eða vatnsmerki. Sjá :ref:`clip_location_x_ref` og"
+#~ " :ref:`clip_scale_x_ref` lykilramma."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Time` preset manipulates clip playback speed, allowing for "
+#~ "reverse playback or time-lapse effects. It alters the speed and direction of"
+#~ " a clip's playback, enhancing visual storytelling. See :ref:`clip_time_ref` "
+#~ "key-frame."
+#~ msgstr ""
+#~ ":guilabel:`Time` forstillt stjórnar spilun hraða klippu, leyfir afturábak "
+#~ "spilun eða hraðamyndun. Hún breytir hraða og stefnu spilunar klippu, sem "
+#~ "eykur sjónræna frásögn. Sjá :ref:`clip_time_ref` lykilramma."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Creating a slow-motion effect to emphasize a specific "
+#~ "action."
+#~ msgstr ""
+#~ "**Dæmi um notkun:** Búa til hægfara áhrif til að leggja áherslu á ákveðna "
+#~ "aðgerð."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Use time presets to creatively manipulate the pacing of your video."
+#~ msgstr ""
+#~ "**Ábending:** Notaðu tímaforstillingar til að skapa skapandi hraðastjórnun í"
+#~ " myndbandinu þínu."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Use :guilabel:`Time → Repeat` to play a clip multiple times, without "
+#~ "building the time curve by hand. OpenShot writes the needed :guilabel:`Time`"
+#~ " keyframes for you (you can edit them later)."
+#~ msgstr ""
+#~ "Notaðu :guilabel:`Time → Repeat` til að spila klippu mörgum sinnum án þess "
+#~ "að byggja tímakúrfu handvirkt. OpenShot skrifar nauðsynlega :guilabel:`Time`"
+#~ " lykilramma fyrir þig (þú getur breytt þeim síðar)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Repeat → Loop → Forward` – plays left to right, then "
+#~ "starts again from the beginning"
+#~ msgstr ""
+#~ ":guilabel:`Time → Repeat → Loop → Forward` – spilar frá vinstri til hægri, "
+#~ "byrjar svo aftur frá byrjun"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Repeat → Loop → Reverse` – plays right to left, then "
+#~ "starts again from the end"
+#~ msgstr ""
+#~ ":guilabel:`Time → Repeat → Loop → Reverse` – spilar frá hægri til vinstri, "
+#~ "byrjar svo aftur frá enda"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Repeat → Ping-Pong → Forward` – forward, then backward, "
+#~ "then forward…"
+#~ msgstr ""
+#~ ":guilabel:`Time → Repeat → Ping-Pong → Forward` – áfram, svo afturábak, svo "
+#~ "áfram…"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Repeat → Ping-Pong → Reverse` – backward, then forward, "
+#~ "then backward…"
+#~ msgstr ""
+#~ ":guilabel:`Time → Repeat → Ping-Pong → Reverse` – afturábak, svo áfram, svo "
+#~ "afturábak…"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Reset Time` completely removes any Time curve (including "
+#~ "Repeat) and restores the clip to its original playback, **without deleting "
+#~ "your original non-Time keyframes**."
+#~ msgstr ""
+#~ ":guilabel:`Time → Reset Time` fjarlægir algjörlega allar Time kúrfur (þar "
+#~ "með talið Endurtekningu) og endurheimtir klippuna í upprunalega spilun, **án"
+#~ " þess að eyða upprunalegum lykilrömmum sem ekki tengjast Time**."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "If you select multiple clips and/or transitions that share the same left "
+#~ "edge or right edge, you can retime that shared edge together in one drag."
+#~ msgstr ""
+#~ "Ef þú velur mörg klipp og/eða umbreytingar sem deila sama vinstri eða hægri "
+#~ "brún, getur þú endurstillt tímann á þeirri sameiginlegu brún með einum "
+#~ "dragi."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Volume` preset controls audio properties, facilitating smooth"
+#~ " volume adjustments. It manages audio volume, including fading in/out, "
+#~ "reducing/increasing volume, or muting. See :ref:`clip_volume_ref` key-frame."
+#~ msgstr ""
+#~ ":guilabel:`Hljóðstyrkur` forstillt stjórnar hljóðeiginleikum og auðveldar "
+#~ "mjúkar hljóðstyrksbreytingar. Hún stýrir hljóðstyrk, þar með talið að fækka "
+#~ "eða auka hljóðstyrk, eða þagga niður. Sjá :ref:`clip_volume_ref` lykilramma."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Utilize volume presets for quickly lowering or raising volume "
+#~ "levels."
+#~ msgstr ""
+#~ "**Ábending:** Notaðu hljóðstyrksforstillingar til að lækka eða hækka "
+#~ "hljóðstyrk hratt."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Separate Audio` preset splits the audio from a clip, creating"
+#~ " detached audio clips positioned below the original clip on the timeline. "
+#~ "This preset can either create a **single** detached audio clip (positioned "
+#~ "on a layer below the original clip) or **multiple** detached audio clips "
+#~ "(one per audio track, positioned on multiple layers below the original "
+#~ "clip)."
+#~ msgstr ""
+#~ ":guilabel:`Aðskilja hljóð` forstillt skiptir hljóðinu frá klipi og býr til "
+#~ "aðskilin hljóðklip sem eru staðsett undir upprunalega klipinu á tímalínunni."
+#~ " Þessi forstilling getur búið til annaðhvort **eitt** aðskilið hljóðklip "
+#~ "(staðsett á lagi undir upprunalega klipinu) eða **mörg** aðskilin hljóðklip "
+#~ "(eitt fyrir hljóðrás, staðsett á mörgum lögum undir upprunalega klipinu)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Extracting background music from a video clip for "
+#~ "independent control."
+#~ msgstr ""
+#~ "**Dæmi um notkun:** Að draga út bakgrunnstónlist úr myndbandsklipi til "
+#~ "sjálfstæðrar stjórnar."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Use this preset to fine-tune audio elements separately from the "
+#~ "visual content."
+#~ msgstr ""
+#~ "**Ábending:** Notaðu þessa forstillingu til að fínstilla hljóðþætti aðskilda"
+#~ " frá sjónrænu efni."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Crop` preset adds a crop effect to the selected clip and "
+#~ "displays interactive crop handles in the video preview. The submenu offers:"
+#~ msgstr ""
+#~ ":guilabel:`Klippa` fyrirframstillt bætir við klippiefni á valið klip og "
+#~ "sýnir gagnvirk klippihandföng í myndbandsforskoðuninni. Undirvalmyndin býður"
+#~ " upp á:"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Display` preset toggles the display mode of a clip on the "
+#~ "timeline, showing either its waveform or thumbnail."
+#~ msgstr ""
+#~ ":guilabel:`Sýna` fyrirframstillt skiptir um sýnisham klips á tímalínunni, "
+#~ "sýnir annaðhvort bylgjulínu eða smámynd."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Displaying the audio waveform for precise audio editing."
+#~ msgstr "**Dæmi um notkun:** Sýna hljóðbylgjulínu fyrir nákvæma hljóðvinnslu."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Use this preset to focus on specific aspects of a clip's audio "
+#~ "during editing."
+#~ msgstr ""
+#~ "**Ábending:** Notaðu þetta fyrirframstillt til að einbeita þér að ákveðnum "
+#~ "þáttum hljóðs klipsins við vinnslu."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "For quickly adjusting the volume of a clip, you can use the simple "
+#~ ":guilabel:`Volume Preset` menu. See :ref:`clip_presets_ref`. For precise "
+#~ "control over the volume of a clip, you can manually set the "
+#~ ":guilabel:`Volume Key-frame`. See :ref:`clip_volume_ref`."
+#~ msgstr ""
+#~ "Til að stilla hljóðstyrk klips fljótt geturðu notað einfaldan "
+#~ ":guilabel:`Hljóðstyrksforstillingar` valmynd. Sjá :ref:`clip_presets_ref`. "
+#~ "Fyrir nákvæma stjórn á hljóðstyrk klips geturðu handvirkt stillt "
+#~ ":guilabel:`Hljóðstyrkslykilramma`. Sjá :ref:`clip_volume_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Time` property is a key-frame curve that represents frames "
+#~ "played over time, affecting the speed and direction of the video. You can "
+#~ "use one of the available presets (`normal, fast, slow, freeze, freeze & "
+#~ "zoom, forward, backward`), by right clicking on a Clip and choosing the "
+#~ ":guilabel:`Time` menu. Many presets are available in this menu for "
+#~ "reversing, speeding up, and slowing down a video clip, see "
+#~ ":ref:`clip_presets_ref`. The same adjustments can be made interactively with"
+#~ " the :guilabel:`Timing` toolbar button by dragging a clip's edges; OpenShot "
+#~ "adds the necessary time keyframes and scales all other keyframes "
+#~ "automatically."
+#~ msgstr ""
+#~ "Eiginleikinn :guilabel:`Time` er lykilrammakúrfa sem táknar ramma spilaða "
+#~ "yfir tíma, sem hefur áhrif á hraða og stefnu myndbandsins. Þú getur notað "
+#~ "eitt af tiltækum forstillingum (`normal, fast, slow, freeze, freeze & zoom, "
+#~ "forward, backward`) með því að hægrismella á klippu og velja "
+#~ ":guilabel:`Time` valmyndina. Margar forstillingar eru í boði í þessari "
+#~ "valmynd til að snúa við, hraða upp eða hægja á myndbandsklippu, sjá "
+#~ ":ref:`clip_presets_ref`. Sömu stillingar er hægt að gera með gagnvirkum "
+#~ "hætti með :guilabel:`Timing` tækjastikunni með því að draga brúnir "
+#~ "klippunnar; OpenShot bætir við nauðsynlegum tímalyklaramma og skalar alla "
+#~ "aðra lykilramma sjálfkrafa."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** For **quickly** adjusting the volume of a clip you can use the "
+#~ "simple :guilabel:`Volume Preset` menu. See :ref:`clip_presets_ref`."
+#~ msgstr ""
+#~ "**Ábending:** Til að stilla hljóðstyrk klippu **hratt** geturðu notað "
+#~ "einföldu :guilabel:`Volume Preset` valmyndina. Sjá :ref:`clip_presets_ref`."

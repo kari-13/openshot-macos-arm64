@@ -1,0 +1,533 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:23
+msgid "Animation"
+msgstr "Animation"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:25
+msgid ""
+"OpenShot has been designed specifically with animation in mind. The powerful"
+" curve-based animation framework can handle most jobs with ease, and is "
+"flexible enough to create just about any animation. Key frames specify "
+"values at certain points on a clip, and OpenShot does the hard work of "
+"interpolating the in-between values."
+msgstr ""
+"OpenShot a été conçu spécifiquement pour l'animation. Le puissant cadre "
+"d'animation basé sur des courbes peut gérer la plupart des tâches avec "
+"aisance, et est suffisamment flexible pour créer presque n'importe quelle "
+"animation. Les images clés spécifient des valeurs à certains points d'un "
+"clip, et OpenShot fait le travail difficile d'interpoler les valeurs "
+"intermédiaires."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:30
+msgid "Overview"
+msgstr "Aperçu"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:38 ../animation.rst:141
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:38 ../animation.rst:141
+msgid "Name"
+msgstr "Nom"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:38 ../animation.rst:65 ../animation.rst:141
+msgid "Description"
+msgstr "Description"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:40 ../animation.rst:41 ../animation.rst:143
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+# Updated/fixed translation with gpt-4.1-mini
+#: ../animation.rst:40
+msgid "Green Property"
+msgstr "Propriété en vert"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:40
+msgid "When the play-head is on a key frame, the property appears green"
+msgstr ""
+"Lorsque la tête de lecture est sur une image clé, la propriété apparaît en "
+"vert"
+
+# Translated with gpt-4.1-mini
+# Updated/fixed translation with gpt-4.1-mini
+#: ../animation.rst:41
+msgid "Blue Property"
+msgstr "Propriété en bleu"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:41
+msgid ""
+"When the play-head is on an interpolated value, the property appears blue"
+msgstr ""
+"Lorsque la tête de lecture est sur une valeur interpolée, la propriété "
+"apparaît en bleu"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:42 ../animation.rst:144
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:42
+msgid "Value Slider"
+msgstr "Curseur de valeur"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:42
+msgid ""
+"Click and drag your mouse to adjust the value (this automatically creates a "
+"key frame if needed)"
+msgstr ""
+"Cliquez et faites glisser votre souris pour ajuster la valeur (cela crée "
+"automatiquement une image clé si nécessaire)"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:43
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:43
+msgid "Play-head"
+msgstr "Tête de lecture"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:43
+msgid "Position the play-head over a clip where you need a key frame"
+msgstr ""
+"Positionnez la tête de lecture sur un clip où vous avez besoin d'une image "
+"clé"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:44
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:44
+msgid "Key frame Markers"
+msgstr "Marqueurs d'images clés"
+
+#: ../animation.rst:44
+msgid ""
+"Colorful icons line the bottom of the clip for every keyframe "
+"(`circle=Bézier`, `diamond=linear`, `square=constant`). Each icon matches "
+"the color of its clip, effect, or transition. The selected item's keyframe "
+"icons are shown brighter. Filtering the property list also filters these "
+"icons. Click any icon to jump the play-head, load its properties, and select"
+" its clip, effect, or transition. Drag an icon left or right to move the "
+"keyframe and fine‑tune your animation timing. The play-head moves to the "
+"keyframe's new position when you finish dragging."
+msgstr ""
+"Des icônes colorées s'alignent en bas du clip pour chaque image clé "
+"(`circle=Bézier`, `diamond=linéaire`, `square=constant`). Chaque icône "
+"correspond à la couleur de son clip, effet ou transition. Les icônes des "
+"images clés de l'élément sélectionné sont affichées en plus clair. Le "
+"filtrage de la liste des propriétés filtre également ces icônes. Cliquez sur"
+" une icône pour déplacer la tête de lecture, charger ses propriétés et "
+"sélectionner son clip, effet ou transition. Faites glisser une icône vers la"
+" gauche ou la droite pour déplacer l'image clé et affiner le timing de votre"
+" animation. La tête de lecture se déplace à la nouvelle position de l'image "
+"clé lorsque vous terminez le glissement."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:48
+msgid "Key Frames"
+msgstr "Images clés"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:49
+msgid ""
+"To create a key frame in OpenShot, simply position the play-head (i.e. "
+"playback position) at any point over a clip, and edit properties in the "
+"property dialog. If the property supports key frames, it will turn green, "
+"and a small icon (`circle=Bézier, diamond=linear, square=constant`) will "
+"appear on the bottom of your clip at that position. Move your play-head to "
+"another point over that clip, and adjust the properties again. All "
+"animations require at least 2 key frames, but can support an unlimited "
+"number of them."
+msgstr ""
+"Pour créer une image clé dans OpenShot, positionnez simplement la tête de "
+"lecture (c'est-à-dire la position de lecture) à n'importe quel point d'un "
+"clip, et modifiez les propriétés dans la boîte de dialogue des propriétés. "
+"Si la propriété supporte les images clés, elle deviendra verte, et une "
+"petite icône (`cercle=Bézier, losange=linéaire, carré=constant`) apparaîtra "
+"en bas de votre clip à cette position. Déplacez votre tête de lecture à un "
+"autre point sur ce clip, et ajustez à nouveau les propriétés. Toutes les "
+"animations nécessitent au moins 2 images clés, mais peuvent en supporter un "
+"nombre illimité."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:55
+msgid ""
+"Use the :guilabel:`Next Marker` and :guilabel:`Previous Marker` toolbar "
+"buttons to step through the selected item's keyframes. They follow whichever"
+" clip, effect, or transition is selected. When an effect is selected, "
+"navigation also stops at the start and end of its parent clip."
+msgstr ""
+"Utilisez les boutons de la barre d'outils :guilabel:`Marqueur suivant` et "
+":guilabel:`Marqueur précédent` pour parcourir les images clés de l'élément "
+"sélectionné. Ils suivent le clip, l'effet ou la transition sélectionné. "
+"Lorsqu'un effet est sélectionné, la navigation s'arrête également au début "
+"et à la fin de son clip parent."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:59
+msgid ""
+"To adjust the **interpolation mode**, right click on the small graph icon "
+"next to a property value."
+msgstr ""
+"Pour ajuster le **mode d'interpolation**, faites un clic droit sur la petite"
+" icône graphique à côté d'une valeur de propriété."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:65
+msgid "Key-frame Interpolation"
+msgstr "Interpolation des images clés"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:67
+msgid "Bézier"
+msgstr "Bézier"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:67
+msgid ""
+"Interpolated values use a quadratic curve, and ease-in and ease-out. Icon: "
+":guilabel:`Circle`."
+msgstr ""
+"Les valeurs interpolées utilisent une courbe quadratique, avec un effet "
+"d'accélération et de décélération. Icône : :guilabel:`Cercle`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:68
+msgid "Linear"
+msgstr "Linéaire"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:68
+msgid ""
+"Interpolated values are calculated linear (each step value is equal). Icon: "
+":guilabel:`Diamond`."
+msgstr ""
+"Les valeurs interpolées sont calculées linéairement (chaque valeur d'étape "
+"est égale). Icône : :guilabel:`Losange`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:69
+msgid "Constant"
+msgstr "Constant"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:69
+msgid ""
+"Interpolated values stay the same until the next key frame, and jump to the "
+"new value. Icon: :guilabel:`Square`."
+msgstr ""
+"Les valeurs interpolées restent les mêmes jusqu'à la prochaine image clé, "
+"puis sautent à la nouvelle valeur. Icône : :guilabel:`Carré`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:72
+#, fuzzy
+msgid ""
+"For more info on creating key frames for location, rotation, scale, shear, "
+"and origin, see :ref:`clip_transform_ref`."
+msgstr ""
+"Pour plus d'informations sur la création d'images clés pour la position, la "
+"rotation, l'échelle, le cisaillement et la position, voir "
+":ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:73
+msgid "For more info on preset animations, see :ref:`clip_presets_ref`."
+msgstr ""
+"Pour plus d'informations sur les animations prédéfinies, voir "
+":ref:`clip_presets_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:74
+msgid "For a full list of key frames, see :ref:`clip_properties_ref`."
+msgstr ""
+"Pour une liste complète des images clés, voir :ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:77
+msgid "Timing"
+msgstr "Synchronisation"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:78
+msgid ""
+"Changing how fast a clip plays is done with the :guilabel:`Time` property "
+"and the :guilabel:`Timing` tool."
+msgstr ""
+"Modifier la vitesse de lecture d'un clip se fait avec la propriété "
+":guilabel:`Temps` et l'outil :guilabel:`Synchronisation`."
+
+#: ../animation.rst:80
+msgid ""
+"The :guilabel:`Speed` menu offers presets such as normal, fast, slow, "
+"freeze, reverse, and repeat. See details in :ref:`clip_time_ref`."
+msgstr ""
+"Le menu :guilabel:`Vitesse` propose des préréglages tels que normal, rapide,"
+" lent, gelé, inverse et répétition. Voir les détails dans "
+":ref:`clip_time_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:81
+msgid ""
+"The :guilabel:`Timing` tool lets you drag a clip’s edges to speed it up or "
+"slow it down. OpenShot adds the needed Time keyframes and **scales your "
+"other keyframes** so your animations stay aligned. Shorter clips play "
+"faster, longer clips play slower. See more: :ref:`clip_time_ref`."
+msgstr ""
+"L'outil :guilabel:`Synchronisation` vous permet de faire glisser les bords "
+"d'un clip pour l'accélérer ou le ralentir. OpenShot ajoute les images clés "
+"de temps nécessaires et **met à l'échelle vos autres images clés** pour que "
+"vos animations restent alignées. Les clips plus courts sont lus plus "
+"rapidement, les clips plus longs plus lentement. Voir plus : "
+":ref:`clip_time_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:86
+msgid "Repeating"
+msgstr "Répétition"
+
+#: ../animation.rst:87
+msgid ""
+"To play a clip multiple times, use :guilabel:`Right-Click → Speed → Repeat`."
+msgstr ""
+"Pour lire un clip plusieurs fois, utilisez :guilabel:`Clic droit → Vitesse →"
+" Répéter`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:89
+msgid ":guilabel:`Loop` repeats in one direction (forward or reverse)."
+msgstr ""
+":guilabel:`Boucle` répète dans une seule direction (avant ou arrière)."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:90
+msgid ""
+":guilabel:`Ping-Pong` alternates direction (forward then backward, etc.)."
+msgstr ""
+":guilabel:`Ping-Pong` alterne la direction (avant puis arrière, etc.)."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:91
+msgid ""
+":guilabel:`Custom` can add a short pause between passes, speed up or slow "
+"down each pass, including keyframes."
+msgstr ""
+":guilabel:`Personnalisé` peut ajouter une courte pause entre les passages, "
+"accélérer ou ralentir chaque passage, y compris les images clés."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:93
+msgid ""
+"OpenShot writes the :guilabel:`Time` curve for you, and you can edit those "
+"keyframes just like any other. See more: :ref:`clip_time_repeat_ref`."
+msgstr ""
+"OpenShot écrit la courbe :guilabel:`Temps` pour vous, et vous pouvez "
+"modifier ces images clés comme n'importe lesquelles. Voir plus : "
+":ref:`clip_time_repeat_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:97
+msgid "Bézier Presets"
+msgstr "Préréglages Bézier"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:98
+msgid ""
+"When using a Bézier curve for animation, OpenShot includes more than 20 "
+"curve presets (which affect the shape of the curve). For example, **Ease-"
+"In** has a more gradual slope at the beginning, making an animation move "
+"slower at the beginning, and faster at the end. **Ease-In/Out (Back)** has a"
+" gradual beginning and ending, but actually goes past the expected value and"
+" then back (producing a bounce effect)."
+msgstr ""
+"Lors de l'utilisation d'une courbe de Bézier pour l'animation, OpenShot "
+"inclut plus de 20 préréglages de courbes (qui affectent la forme de la "
+"courbe). Par exemple, **Ease-In** a une pente plus progressive au début, ce "
+"qui fait que l'animation se déplace plus lentement au début, puis plus "
+"rapidement à la fin. **Ease-In/Out (Back)** a un début et une fin "
+"progressifs, mais dépasse en fait la valeur attendue avant de revenir en "
+"arrière (produisant un effet de rebond)."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:103
+msgid ""
+"To choose a curve preset, right click on the small graph icon next to a key "
+"frame."
+msgstr ""
+"Pour choisir un préréglage de courbe, faites un clic droit sur la petite "
+"icône de graphique à côté d'une image clé."
+
+#: ../animation.rst:110
+msgid "Ken Burns Effect"
+msgstr "Effet Ken Burns"
+
+#: ../animation.rst:111
+msgid ""
+"The **Ken Burns effect** is a pan-and-zoom animation technique — named after"
+" documentary filmmaker Ken Burns — that brings still images or video clips "
+"to life with slow, deliberate camera movement. In OpenShot, use "
+":guilabel:`Right-Click → Motion → Camera` presets for one-click Ken Burns "
+"animations (Zoom In, Zoom Out, Pan, Zoom & Pan with Auto Direction), or set "
+"keyframes on :guilabel:`Location X/Y` and :guilabel:`Scale X/Y` manually for"
+" full control. See :ref:`clip_presets_ref`."
+msgstr ""
+"L'**effet Ken Burns** est une technique d'animation panoramique et de zoom —"
+" nommée d'après le réalisateur de documentaires Ken Burns — qui donne vie "
+"aux images fixes ou aux clips vidéo grâce à un mouvement de caméra lent et "
+"délibéré. Dans OpenShot, utilisez les préréglages :guilabel:`Clic droit → "
+"Mouvement → Caméra` pour des animations Ken Burns en un clic (Zoom avant, "
+"Zoom arrière, Panoramique, Zoom & Panoramique avec direction automatique), "
+"ou définissez manuellement des images clés sur :guilabel:`Position X/Y` et "
+":guilabel:`Échelle X/Y` pour un contrôle total. Voir "
+":ref:`clip_presets_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:120
+msgid "Image Sequences"
+msgstr "Séquences d'images"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:121
+msgid ""
+"If you have a sequence of similarly named images (such as, cat001.png, "
+"cat002.png, cat003.png, etc...), you can simply drag and drop one of them "
+"into OpenShot, and you will be prompted to import the entire sequence. "
+"OpenShot will playback these sequential images rapidly, as if they are "
+"frames in a video. The rate or speed in which these images are displayed is "
+"based on their frame rate."
+msgstr ""
+"Si vous avez une séquence d'images nommées de manière similaire (par "
+"exemple, cat001.png, cat002.png, cat003.png, etc.), vous pouvez simplement "
+"glisser-déposer l'une d'elles dans OpenShot, et vous serez invité à importer"
+" toute la séquence. OpenShot lira ces images séquentielles rapidement, comme"
+" s'il s'agissait d'images dans une vidéo. La vitesse à laquelle ces images "
+"sont affichées dépend de leur fréquence d'images."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:126
+msgid ""
+"**NOTE:** Be sure your image sequence starts at 0 or 1, or you will likely "
+"receive an error when importing it into OpenShot. For example, if your "
+"sequence starts at cat222.png, or has missing images in the sequence, "
+"OpenShot will struggle to understand the sequence. An easy work-around is to"
+" renumber the images so they start with 1."
+msgstr ""
+"**REMARQUE :** Assurez-vous que votre séquence d'images commence à 0 ou 1, "
+"sinon vous risquez de recevoir une erreur lors de l'importation dans "
+"OpenShot. Par exemple, si votre séquence commence à cat222.png, ou si des "
+"images manquent dans la séquence, OpenShot aura du mal à comprendre la "
+"séquence. Une solution simple consiste à renuméroter les images pour "
+"qu'elles commencent à 1."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:132
+msgid ""
+"To adjust the frame rate of the animation, right click and choose **File "
+"Properties** in the **Project Files** panel, and adjust the frame rate. Once"
+" you have set the correct frame rate, drag the animation onto the timeline."
+msgstr ""
+"Pour ajuster la fréquence d'images de l'animation, faites un clic droit et "
+"choisissez **Propriétés du fichier** dans le panneau **Fichiers du projet**,"
+" puis ajustez la fréquence d'images. Une fois la fréquence correcte définie,"
+" faites glisser l'animation sur la timeline."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:143
+msgid "File Properties"
+msgstr "Propriétés du fichier"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:143
+msgid ""
+"Select an image sequence in the **Project Files** panel, right click and "
+"choose **File Properties**"
+msgstr ""
+"Sélectionnez une séquence d'images dans le panneau **Fichiers du projet**, "
+"faites un clic droit et choisissez **Propriétés du fichier**"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:144
+msgid "Frame Rate"
+msgstr "Fréquence d'images"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:144
+msgid ""
+"Adjust the frame rate of the animation. Typically, hand-drawn animations use"
+" 12 frames per second."
+msgstr ""
+"Ajustez la fréquence d'images de l'animation. En général, les animations "
+"dessinées à la main utilisent 12 images par seconde."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Colorful icons line the bottom of the clip for every keyframe "
+#~ "(`circle=Bézier`, `diamond=linear`, `square=constant`). Each icon matches "
+#~ "the color of its clip, effect, or transition. The selected item's keyframe "
+#~ "icons are shown brighter. Filtering the property list also filters these "
+#~ "icons. Click any icon to jump the play-head, load its properties, and select"
+#~ " its clip, effect, or transition. Drag an icon left or right to move the "
+#~ "keyframe and fine‑tune your animation timing."
+#~ msgstr ""
+#~ "Des icônes colorées alignent le bas du clip pour chaque image clé "
+#~ "(`cercle=Bézier`, `losange=linéaire`, `carré=constant`). Chaque icône "
+#~ "correspond à la couleur de son clip, effet ou transition. Les icônes des "
+#~ "images clés de l'élément sélectionné sont affichées en plus clair. Le "
+#~ "filtrage de la liste des propriétés filtre également ces icônes. Cliquez sur"
+#~ " une icône pour déplacer la tête de lecture, charger ses propriétés et "
+#~ "sélectionner son clip, effet ou transition. Faites glisser une icône vers la"
+#~ " gauche ou la droite pour déplacer l'image clé et affiner le timing de votre"
+#~ " animation."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Time` menu offers presets such as normal, fast, slow, freeze,"
+#~ " and reverse. See details in :ref:`clip_time_ref`."
+#~ msgstr ""
+#~ "Le menu :guilabel:`Temps` propose des préréglages tels que normal, rapide, "
+#~ "lent, figé et inversé. Voir les détails dans :ref:`clip_time_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "To play a clip multiple times, use :guilabel:`Right-Click → Time → Repeat`."
+#~ msgstr ""
+#~ "Pour lire un clip plusieurs fois, utilisez :guilabel:`Clic droit → Temps → "
+#~ "Répéter`."

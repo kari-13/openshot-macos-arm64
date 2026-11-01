@@ -1,0 +1,487 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:21
+msgid "Video Editing Basics"
+msgstr "Основи відеомонтажу"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:23
+msgid ""
+"You do not need to be a trained videographer to understand how to create "
+"videos well. Simple editing can keep your viewers engaged longer, and add a "
+"professional feel, even if you are not a professional video editor."
+msgstr ""
+"Вам не потрібно бути професійним відеографом, щоб зрозуміти, як добре "
+"створювати відео. Простий монтаж може довше утримувати увагу глядачів і "
+"додати професійного вигляду, навіть якщо ви не професійний відеоредактор."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:27
+msgid ""
+"Basically, video editing is taking footage, cutting it up, removing the "
+"pieces you do not want, and keeping the bits you do. Back in the old days, "
+"editing was slicing reels of film and piecing it together. Thankfully "
+"software makes the whole process much more manageable."
+msgstr ""
+"В основі відеомонтажу лежить взяття відеоматеріалу, його розрізання, "
+"видалення небажаних фрагментів і збереження потрібних. Раніше монтаж полягав"
+" у розрізанні плівки та склеюванні її частин. На щастя, програмне "
+"забезпечення значно спростило цей процес."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:32
+msgid "There are three main jobs of video editing:"
+msgstr "Існує три основні завдання відеомонтажу:"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:34
+msgid "Remove mistakes or unwanted sections"
+msgstr "Видалити помилки або небажані фрагменти"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:35
+msgid "Keep the video moving at an engaging pace"
+msgstr "Підтримувати динамічний темп відео"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:36
+msgid "Insert supporting footage, audio, or titles"
+msgstr "Вставляти додаткові відео, аудіо або титри"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:38
+msgid "Use these three points as a checklist as you edit."
+msgstr "Використовуйте ці три пункти як контрольний список під час монтажу."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:41
+msgid "Computer"
+msgstr "Комп’ютер"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:42
+msgid ""
+"Video editing does not require an expensive machine, especially if you are a"
+" beginner. However, it would be best if you had a more recent monitor and "
+"graphics card. If you have an older computer, check your system "
+"specifications against OpenShot's :ref:`min_system_req_ref` to make sure it "
+"works for video editing. Unfortunately, many older computers are not fast "
+"enough for video editing, and you should upgrade your whole system, if "
+"possible."
+msgstr ""
+"Для відеомонтажу не потрібен дорогий комп’ютер, особливо якщо ви "
+"початківець. Однак бажано мати сучасний монітор і відеокарту. Якщо у вас "
+"старий комп’ютер, перевірте його характеристики відповідно до мінімальних "
+"вимог OpenShot :ref:`min_system_req_ref`, щоб переконатися, що він підходить"
+" для монтажу. На жаль, багато старих комп’ютерів недостатньо швидкі для "
+"відеомонтажу, тому за можливості варто оновити систему."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:50
+msgid "Accessories"
+msgstr "Аксесуари"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:51
+msgid ""
+"Before beginning a video project, ensure there is enough storage space on "
+"your computer to save all the necessary clips. For example, one hour of "
+"1080i video, such as from a mini-DV camcorder, takes up nearly 11 GB of "
+"storage. If your computer's internal storage device cannot store all the "
+"clips, the solution is to buy an external drive."
+msgstr ""
+"Перед початком відеопроєкту переконайтеся, що на вашому комп’ютері достатньо"
+" місця для збереження всіх необхідних кліпів. Наприклад, одна година відео у"
+" форматі 1080i, наприклад з міні-DV камери, займає майже 11 ГБ. Якщо "
+"внутрішній накопичувач комп’ютера не може зберегти всі кліпи, рішенням буде "
+"придбати зовнішній диск."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:57
+msgid ""
+"It would help if you had several cables, usually Firewire or USB, to connect"
+" your computer, external hard drive, and a camera. Different computers and "
+"cameras accept other connectors, so check your manuals before buying "
+"anything."
+msgstr ""
+"Вам знадобиться кілька кабелів, зазвичай Firewire або USB, щоб підключити "
+"комп’ютер, зовнішній жорсткий диск і камеру. Різні комп’ютери та камери "
+"підтримують різні роз’єми, тому перед покупкою перевірте інструкції."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:63
+msgid "Practical Tips"
+msgstr "Практичні поради"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:64
+msgid ""
+"Becoming a great video editor isn’t effortless, but with practice and "
+"patience, you’ll be editing like a professional in no time. Here are a few "
+"of the essential tips and techniques you need to know to become a skilled "
+"video editor."
+msgstr ""
+"Стати відмінним відеоредактором нелегко, але з практикою і терпінням ви "
+"швидко навчитеся монтувати як професіонал. Ось кілька основних порад і "
+"технік, які допоможуть вам стати майстром відеомонтажу."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:69
+msgid "Pick the Right Computer"
+msgstr "Виберіть правильний комп’ютер"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:70
+msgid ""
+"While having a great computer won’t necessarily make you a great video "
+"editor, a faster computer will allow you to focus more of your time on the "
+"story you’re trying to tell rather than your computer rendering. Everyone "
+"has their own opinions about what computer is best for editing, but it all "
+"depends on your own preferences."
+msgstr ""
+"Хоча хороший комп’ютер не зробить вас автоматично відмінним відеоредактором,"
+" швидший комп’ютер дозволить більше часу приділяти розповіді, а не "
+"очікуванню рендерингу. У кожного є свої думки щодо найкращого комп’ютера для"
+" монтажу, але все залежить від ваших уподобань."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:77
+msgid "Keep Shooting"
+msgstr "Продовжуйте знімати"
+
+#: ../getting_started.rst:78
+msgid ""
+"Record more video and audio than you think you will need for your project. "
+"Include video that enhances the scene, sets a mood, or tells a story. You "
+"can use the extra video for smooth transitions in your project. If your "
+"project requires voice overs, narration, screen capture, or webcam footage, "
+"you can use :guilabel:`View->Recording View` to open OpenShot's recording "
+"tools. For more details, including microphone, system audio, screen, and "
+"webcam options, see :ref:`recording_ref`. For more specialized capture "
+"workflows, you can still record with an external application and import the "
+"finished media into OpenShot."
+msgstr ""
+"Записуйте більше відео та аудіо, ніж ви вважаєте потрібним для вашого "
+"проєкту. Включайте відео, яке підсилює сцену, створює настрій або розповідає"
+" історію. Ви можете використовувати додаткове відео для плавних переходів у "
+"вашому проєкті. Якщо ваш проєкт потребує озвучення, нарації, захоплення "
+"екрану або відео з вебкамери, ви можете скористатися "
+":guilabel:`View->Recording View`, щоб відкрити інструменти запису OpenShot. "
+"Для детальнішої інформації, включно з параметрами мікрофона, системного "
+"звуку, екрану та вебкамери, дивіться :ref:`recording_ref`. Для більш "
+"спеціалізованих робочих процесів захоплення ви також можете записувати за "
+"допомогою зовнішньої програми та імпортувати готові медіафайли в OpenShot."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:88
+msgid "Organize Your Project Files"
+msgstr "Організуйте файли проєкту"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:89
+msgid ""
+"Composition is the key to success, whether you are running Linux, on a Mac, "
+"or a Windows machine. Be sure to label video files, audio files, and even "
+"still images clearly and keep all your clips on the same device and in the "
+"same folder for easy access. OpenShot tries to keep up with your clips, but "
+"if you move them after your project is saved, you could lose your entire "
+"project. Organizing before you begin editing can be very advantageous."
+msgstr ""
+"Організація — ключ до успіху, незалежно від того, чи ви працюєте на Linux, "
+"Mac чи Windows. Обов’язково чітко позначайте відео-, аудіофайли та навіть "
+"зображення, зберігайте всі кліпи на одному пристрої і в одній папці для "
+"зручного доступу. OpenShot намагається відстежувати ваші кліпи, але якщо ви "
+"перемістите їх після збереження проєкту, можете втратити весь проєкт. "
+"Організація перед монтажем дуже корисна."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:98
+msgid "Watch Everything"
+msgstr "Переглядайте все"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:99
+msgid ""
+"Watching everything is the first step in the editing process. Writer and "
+"filmmaker David Andrew Stoler says there is gold in the most unlikely of "
+"places: \"Some of the most beautiful expressions you're going to get from "
+"the actors are after the cut.\""
+msgstr ""
+"Перегляд всього матеріалу — перший крок у монтажі. Письменник і режисер "
+"Девід Ендрю Столер каже, що золото можна знайти в найнеочікуваніших місцях: "
+"«Деякі з найкрасивіших виразів акторів ви побачите після монтажного зрізу.»"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:105
+msgid "Edit for a Story"
+msgstr "Монтуйте для розповіді"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:106
+msgid ""
+"Remember that as you edit, you are telling a story. Editing is so much more "
+"than merely cutting footage and adding effects. It is an opportunity to take"
+" your audience on a journey. Whether you are editing a complex narrative "
+"film or only putting together a personal video, you tell a more in-depth "
+"story."
+msgstr ""
+"Пам’ятайте, що під час монтажу ви розповідаєте історію. Монтаж — це не "
+"просто різання відео та додавання ефектів. Це можливість провести глядача "
+"через подорож. Незалежно від того, чи монтуєте ви складний художній фільм, "
+"чи особисте відео, ви розповідаєте глибшу історію."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:113
+msgid "Keyboard Shortcuts"
+msgstr "Клавіатурні скорочення"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:114
+msgid ""
+"One of the easiest ways to tell the difference between and professional "
+"video editor and a novice is to simply look at how much they use the "
+"keyboard. Editors that have been in the business for some time know that a "
+"few seconds saved add up over the length of the project."
+msgstr ""
+"Один із найпростіших способів відрізнити професійного відеоредактора від "
+"новачка — подивитися, наскільки часто він користується клавіатурою. "
+"Редактори з досвідом знають, що кілька секунд, зекономлених тут і там, "
+"накопичуються за весь проєкт."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:120
+msgid "Learn the Lingo"
+msgstr "Вивчайте термінологію"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:121
+msgid ""
+"Video editing is not just a hobby or a profession; it is an industry. And "
+"just like any industry, there is a ton of jargon to learn. Practically "
+"speaking, you do not need to know all the terms on the :ref:`glossary_ref` "
+"to become a better video editor, but a fundamental knowledge of the terms "
+"may help you communicate better with other video editors or clients."
+msgstr ""
+"Відеомонтаж — це не просто хобі чи професія, це індустрія. І, як у будь-якій"
+" індустрії, тут багато термінів для вивчення. Насправді вам не потрібно "
+"знати всі терміни зі :ref:`glossary_ref`, щоб стати кращим відеоредактором, "
+"але базове розуміння термінів допоможе краще спілкуватися з іншими "
+"редакторами чи клієнтами."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:129
+msgid "Assemble, Then Make a Rough Cut"
+msgstr "Зберіть матеріал, а потім зробіть чорновий монтаж"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:130
+msgid ""
+"Drag and drop all your video footage into a timeline and make sure your "
+"frame size and frame rates are consistent. Begin a new timeline and drag-"
+"and-drop the best clips into what becomes your assembly cut. Remember to "
+"save your work frequently, and notate the date and time of each version."
+msgstr ""
+"Перетягніть усі ваші відеоматеріали на часову шкалу та переконайтеся, що "
+"розмір кадру та частота кадрів узгоджені. Почніть нову часову шкалу та "
+"перетягніть найкращі кліпи у те, що стане вашим монтажним нарізом. Не "
+"забувайте часто зберігати роботу та позначати дату і час кожної версії."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:136
+msgid "Refine Your Video"
+msgstr "Удоскональте ваше відео"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:137
+msgid ""
+"In this phase, your rough cut begins to resemble a cohesive project. Adjust "
+"the sound and color, make sure the dialog is audible, and add music, titles,"
+" or graphics in this phase. Color correction is the process of setting your "
+"footage to a color baseline. No matter how great your subject looks on set, "
+"you will almost always need to do some basic post-processing for a "
+"consistent video."
+msgstr ""
+"На цьому етапі ваш чорновий монтаж починає нагадувати цілісний проєкт. "
+"Відрегулюйте звук і колір, переконайтеся, що діалоги чутні, додайте музику, "
+"титри або графіку. Колірна корекція — це процес встановлення базового "
+"кольору для вашого відеоматеріалу. Незалежно від того, наскільки добре "
+"виглядає ваш об’єкт зйомки, майже завжди потрібно виконати базову "
+"постобробку для отримання послідовного відео."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:145
+msgid "Refine Some More"
+msgstr "Удосконалюйте далі"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:146
+msgid ""
+"A slow scene can set the mood and add tension or it can bore an audience. A "
+"fast scene can add adrenaline to your audience’s systems or it can give them"
+" headaches. Some editors cut their projects several different ways before "
+"they find the right pace. Do not let cutting your project several times "
+"discourage you."
+msgstr ""
+"Повільна сцена може створити настрій і додати напруги, або ж нудити "
+"глядачів. Швидка сцена може підвищити адреналін у глядачів або викликати у "
+"них головний біль. Деякі монтажери монтують свої проєкти кількома різними "
+"способами, перш ніж знайти правильний темп. Не дозволяйте багаторазовому "
+"монтажу вашого проєкту вас засмучувати."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:153
+msgid "Exporting"
+msgstr "Експорт"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:154
+msgid ""
+"People view most of their projects on phones, tablets, or computers, so it "
+"is essential to know how to export for the web. The goal when exporting a "
+"video for the web is to create the highest quality possible with the "
+"smallest file size. Four main factors determine the file size of your "
+"finished video:"
+msgstr ""
+"Більшість людей переглядають свої проєкти на телефонах, планшетах або "
+"комп’ютерах, тому важливо знати, як експортувати для вебу. Мета експорту "
+"відео для вебу — створити найвищу якість із найменшим розміром файлу. Чотири"
+" основні фактори визначають розмір файлу вашого готового відео:"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:160
+msgid "Codec"
+msgstr "Кодек"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:161
+msgid ""
+"A codec determines the type of file format (MP4, AVI, MOV). The more "
+"compression performed by the codec, the smaller your video’s size. Videos "
+"that are smaller in file size tend to be lower in visual quality."
+msgstr ""
+"Кодек визначає тип формату файлу (MP4, AVI, MOV). Чим більше стиснення "
+"виконує кодек, тим менший розмір вашого відео. Відео з меншим розміром файлу"
+" зазвичай мають нижчу візуальну якість."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:166
+msgid "Resolution"
+msgstr "Роздільна здатність"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:167
+msgid ""
+"Resolution refers to the number of horizontal and vertical pixels (dots on "
+"display) your video contains. For example, a 4K UHD (2160P) video has four "
+"times the resolution of FHD (1080P) video. A higher resolution means more "
+"information to store so that you will have larger file sizes."
+msgstr ""
+"Роздільна здатність — це кількість горизонтальних і вертикальних пікселів "
+"(крапок на екрані) у вашому відео. Наприклад, відео 4K UHD (2160P) має "
+"вчетверо більшу роздільну здатність, ніж FHD (1080P). Вища роздільна "
+"здатність означає більше інформації для зберігання, тому розмір файлу буде "
+"більшим."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:173
+msgid "Bit Rate"
+msgstr "Бітрейт"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:174
+msgid ""
+"The Bit Rate is the measure of the speed of data processing of your video. A"
+" higher bit rate means higher-quality video and larger files. OpenShot "
+"allows you to manually set the Bit Rate / Quality in the Advanced tab of the"
+" Export Video window."
+msgstr ""
+"Бітрейт — це показник швидкості обробки даних вашого відео. Вищий бітрейт "
+"означає відео вищої якості та більші файли. OpenShot дозволяє вручну "
+"встановлювати бітрейт/якість на вкладці «Додатково» вікна експорту відео."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:180
+msgid "Frame Rate"
+msgstr "Частота кадрів"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:181
+msgid ""
+"The frequency (in Hz) at which consecutive images, called frames, appear on "
+"the display is the Frame Rate. Typically, you export your video in the film "
+"standard (24fps) or the TV broadcast standard of 30fps (or 25fps in PAL). "
+"While there is not much wiggle room here, you should note that if you decide"
+" to export your video in 48fps, 50fps, or 60fps, your file size doubles."
+msgstr ""
+"Частота кадрів — це частота (у Гц), з якою послідовні зображення, звані "
+"кадрами, з’являються на екрані. Зазвичай відео експортують у "
+"кінематографічному стандарті (24 кадри/с) або телевізійному стандарті 30 "
+"кадрів/с (або 25 кадрів/с у PAL). Хоча тут мало варіантів, варто зазначити, "
+"що якщо ви вирішите експортувати відео з 48, 50 або 60 кадрами/с, розмір "
+"файлу подвоїться."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:188
+msgid "Conclusion"
+msgstr "Висновок"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:189
+msgid ""
+"In conclusion, video editing is an accessible skill that can elevate your "
+"video content even if you're not a professional videographer. With the "
+"ability to trim, arrange, and enhance footage, you can create engaging "
+"videos that captivate your audience. Whether you're a beginner or on your "
+"way to becoming a skilled video editor, remember to focus on storytelling, "
+"efficient organization, and refining your project's details. From selecting "
+"the right computer to mastering keyboard shortcuts and understanding "
+"technical aspects like codecs and resolutions, your journey in video editing"
+" can lead to polished and impactful results. As you venture into the world "
+"of video editing, keep in mind that practice, patience, and a commitment to "
+"learning are key to achieving excellence in this creative endeavor."
+msgstr ""
+"На завершення, відеомонтаж — це доступна навичка, яка може підняти якість "
+"вашого відеоконтенту, навіть якщо ви не професійний відеограф. Маючи "
+"можливість обрізати, впорядковувати та покращувати відеоматеріали, ви можете"
+" створювати захопливі відео, що приваблюють вашу аудиторію. Незалежно від "
+"того, чи ви початківець, чи на шляху до становлення досвідченим "
+"відеоредактором, пам’ятайте про важливість розповіді, ефективної організації"
+" та вдосконалення деталей проєкту. Від вибору правильного комп’ютера до "
+"освоєння гарячих клавіш і розуміння технічних аспектів, таких як кодеки та "
+"роздільна здатність, ваша подорож у світі відеомонтажу може привести до "
+"відшліфованих і вражаючих результатів. Пам’ятайте, що практика, терпіння та "
+"прагнення до навчання є ключем до досягнення досконалості в цій творчій "
+"справі."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Record more video and audio than you think you will need for your project. "
+#~ "Include video that enhances the scene, sets a mood, or tells a story. You "
+#~ "can use the extra video for smooth transitions in your project. If your "
+#~ "project requires voice overs or narration, we suggest using an external "
+#~ "application to record your microphone (since OpenShot does not include any "
+#~ "recording capabilities yet)."
+#~ msgstr ""
+#~ "Записуйте більше відео та аудіо, ніж вважаєте потрібним для проєкту. "
+#~ "Включайте відео, яке підсилює сцену, створює настрій або розповідає історію."
+#~ " Додаткове відео можна використовувати для плавних переходів. Якщо ваш "
+#~ "проєкт потребує озвучення або коментарів, радимо використовувати зовнішні "
+#~ "програми для запису мікрофона (оскільки OpenShot поки не має такої функції)."

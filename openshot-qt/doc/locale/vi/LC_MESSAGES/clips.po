@@ -1,0 +1,5021 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:23
+msgid "Clips"
+msgstr "Các đoạn phim"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:25
+msgid ""
+"In OpenShot, when you add project files (videos, images, and audio) to the "
+"timeline, they appear as **clips** represented by rounded rectangles. These "
+"clips come with different properties that influence how they're rendered and"
+" composited. These properties include the clip's :guilabel:`position`, "
+":guilabel:`layer`, :guilabel:`scale`, :guilabel:`location`, "
+":guilabel:`rotation`, :guilabel:`alpha`, and :guilabel:`composite (blend "
+"mode)`."
+msgstr ""
+"Trong OpenShot, khi bạn thêm các tệp dự án (video, hình ảnh và âm thanh) vào"
+" dòng thời gian, chúng xuất hiện dưới dạng **đoạn phim** được biểu diễn bằng"
+" các hình chữ nhật bo tròn. Các đoạn phim này có các thuộc tính khác nhau "
+"ảnh hưởng đến cách chúng được hiển thị và kết hợp. Các thuộc tính này bao "
+"gồm :guilabel:`vị trí`, :guilabel:`lớp`, :guilabel:`tỉ lệ`, :guilabel:`vị "
+"trí`, :guilabel:`xoay`, :guilabel:`alpha`, và :guilabel:`kết hợp (chế độ hòa"
+" trộn)` của đoạn phim."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:30
+msgid ""
+"You can examine a clip's properties by either right-clicking and selecting "
+":guilabel:`Properties` or by double-clicking the clip. The properties are "
+"listed alphabetically in the Property dock, and you can use the filter "
+"options at the top to find specific properties. See "
+":ref:`clip_properties_ref` for a list of all clip properties."
+msgstr ""
+"Bạn có thể xem các thuộc tính của đoạn phim bằng cách nhấp chuột phải và "
+"chọn :guilabel:`Thuộc tính` hoặc nhấp đúp vào đoạn phim. Các thuộc tính được"
+" liệt kê theo thứ tự chữ cái trong bảng Thuộc tính, và bạn có thể sử dụng "
+"các tùy chọn lọc ở trên cùng để tìm các thuộc tính cụ thể. Xem "
+":ref:`clip_properties_ref` để biết danh sách tất cả các thuộc tính của đoạn "
+"phim."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:34
+msgid "To **make adjustments** to a property:"
+msgstr "Để **điều chỉnh** một thuộc tính:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:36
+msgid "For **rough** changes, you can drag the slider."
+msgstr "Đối với các thay đổi **thô**, bạn có thể kéo thanh trượt."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:37
+msgid ""
+"For **precise** adjustments, double-click the property to enter exact "
+"values."
+msgstr ""
+"Để điều chỉnh **chính xác**, nhấp đúp vào thuộc tính để nhập giá trị chính "
+"xác."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:38
+msgid ""
+"If the property involves **non-numerical choices**, right-click or double-"
+"click for options."
+msgstr ""
+"Nếu thuộc tính liên quan đến các lựa chọn **không phải số**, nhấp chuột phải"
+" hoặc nhấp đúp để chọn các tùy chọn."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:40
+msgid ""
+"Clip properties play a vital role in the :ref:`animation_ref` system. "
+"Whenever you modify a clip property, a ``key-frame`` is automatically "
+"created at the current playhead position. If you want a property change to "
+"apply throughout the entire clip, ensure the playhead is positioned at or "
+"before the clip's start, before making adjustments. You can easily find a "
+"clip's start by using the :guilabel:`next/previous marker` feature on the "
+"Timeline toolbar."
+msgstr ""
+"Các thuộc tính của đoạn phim đóng vai trò quan trọng trong hệ thống "
+":ref:`animation_ref`. Mỗi khi bạn thay đổi một thuộc tính của đoạn phim, một"
+" ``khung chính`` sẽ tự động được tạo tại vị trí con trỏ phát hiện tại. Nếu "
+"bạn muốn thay đổi thuộc tính áp dụng cho toàn bộ đoạn phim, hãy đảm bảo con "
+"trỏ phát được đặt tại hoặc trước điểm bắt đầu của đoạn phim trước khi điều "
+"chỉnh. Bạn có thể dễ dàng tìm điểm bắt đầu của đoạn phim bằng cách sử dụng "
+"tính năng :guilabel:`đánh dấu tiếp theo/trước đó` trên thanh công cụ Dòng "
+"thời gian."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51
+msgid "Name"
+msgstr "Tên"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:51 ../clips.rst:76 ../clips.rst:189 ../clips.rst:228
+#: ../clips.rst:701
+msgid "Description"
+msgstr "Mô tả"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "Clip 1"
+msgstr "Đoạn phim 1"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:53
+msgid "A video clip"
+msgstr "Một đoạn video"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid "Transition"
+msgstr "Chuyển cảnh"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:54
+msgid ""
+"A gradual fade transition between the 2 clip images (does not affect the "
+"audio)"
+msgstr ""
+"Một chuyển cảnh mờ dần giữa 2 hình ảnh đoạn phim (không ảnh hưởng đến âm "
+"thanh)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "Clip 2"
+msgstr "Đoạn phim 2"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:55
+msgid "An image clip"
+msgstr "Một đoạn hình ảnh"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:61
+msgid "Trimming & Slicing"
+msgstr "Cắt & Chia nhỏ"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:62
+msgid ""
+"OpenShot provides multiple ways to adjust the start and end trim positions "
+"of a clip (also known as trimming). The most common method is to click and "
+"drag the left or right edge of a clip. Trimming can be used to remove "
+"unwanted sections from the beginning or ending of a clip."
+msgstr ""
+"OpenShot cung cấp nhiều cách để điều chỉnh vị trí cắt đầu và cuối của một "
+"đoạn phim (còn gọi là cắt tỉa). Phương pháp phổ biến nhất là nhấp và kéo "
+"cạnh trái hoặc phải của đoạn phim. Cắt tỉa có thể dùng để loại bỏ các phần "
+"không mong muốn ở đầu hoặc cuối đoạn phim."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:66
+msgid ""
+"To **slice** a clip into smaller sections, OpenShot offers several options, "
+"including dividing or slicing a clip at the play-head (*vertical playback "
+"line*) position. Trimming and slicing clips are powerful tools that allow "
+"users to rearrange sections of video and remove unwanted parts."
+msgstr ""
+"Để **chia nhỏ** một đoạn phim thành các phần nhỏ hơn, OpenShot cung cấp "
+"nhiều tùy chọn, bao gồm chia hoặc cắt đoạn phim tại vị trí con trỏ phát "
+"(*đường phát dọc*). Cắt tỉa và chia nhỏ đoạn phim là các công cụ mạnh mẽ "
+"giúp người dùng sắp xếp lại các phần video và loại bỏ các phần không mong "
+"muốn."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:70
+msgid ""
+"Here is a list of all methods for cutting and/or trimming clips in OpenShot:"
+msgstr ""
+"Dưới đây là danh sách tất cả các phương pháp để cắt và/hoặc cắt tỉa đoạn "
+"phim trong OpenShot:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:76
+msgid "Trim & Slice Method"
+msgstr "Phương pháp Cắt & Chia nhỏ"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:78
+msgid "**Resizing Edge**"
+msgstr "**Thay đổi kích thước cạnh**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:78
+msgid ""
+"Mouse over the edge of a clip and resize it by dragging **left** or "
+"**right**. The left edge of a clip can not be resized smaller than 0.0 "
+"(*i.e. the first frame of the file*). The right edge of a clip can not be "
+"resized larger than the duration of a file (*i.e. the last frame of a "
+"file*)."
+msgstr ""
+"Di chuột qua cạnh của đoạn phim và thay đổi kích thước bằng cách kéo "
+"**trái** hoặc **phải**. Cạnh trái của đoạn phim không thể thay đổi nhỏ hơn "
+"0.0 (*tức là khung hình đầu tiên của tệp*). Cạnh phải của đoạn phim không "
+"thể thay đổi lớn hơn thời lượng của tệp (*tức là khung hình cuối cùng của "
+"tệp*)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:79
+msgid "**Slice All**"
+msgstr "**Chia tất cả**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:79
+msgid ""
+"When the play-head overlaps multiple clips, right-click the play-head and "
+"choose :guilabel:`Slice All`. This will cut/slice all intersecting clips on "
+"all tracks. You can also use the keyboard shortcuts :kbd:`Ctrl+Shift+K` to "
+"keep both sides, :kbd:`Ctrl+Shift+J` to keep the left side, or "
+":kbd:`Ctrl+Shift+L` to keep the right side of the clips."
+msgstr ""
+"Khi con trỏ phát chồng lên nhiều đoạn phim, nhấp chuột phải vào con trỏ phát"
+" và chọn :guilabel:`Chia tất cả`. Điều này sẽ cắt/chia tất cả các đoạn phim "
+"giao nhau trên tất cả các track. Bạn cũng có thể sử dụng phím tắt "
+":kbd:`Ctrl+Shift+K` để giữ cả hai bên, :kbd:`Ctrl+Shift+J` để giữ bên trái, "
+"hoặc :kbd:`Ctrl+Shift+L` để giữ bên phải của các đoạn phim."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:83
+msgid "**Slice Selected**"
+msgstr "**Chia đoạn đã chọn**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:83
+msgid ""
+"When the play-head overlaps a clip, right-click the clip and choose "
+":guilabel:`Slice`. This provides options to keep the left side, the right "
+"side, or both sides of the clip. Alternatively, use :kbd:`Ctrl+K` to keep "
+"both sides, :kbd:`Ctrl+J` to keep the left side, or :kbd:`Ctrl+L` to keep "
+"the right side."
+msgstr ""
+"Khi con trỏ phát chồng lên một đoạn phim, nhấp chuột phải vào đoạn phim và "
+"chọn :guilabel:`Chia`. Điều này cung cấp các tùy chọn giữ bên trái, bên phải"
+" hoặc cả hai bên của đoạn phim. Ngoài ra, sử dụng :kbd:`Ctrl+K` để giữ cả "
+"hai bên, :kbd:`Ctrl+J` để giữ bên trái, hoặc :kbd:`Ctrl+L` để giữ bên phải."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:86
+msgid "**Slice Selected (Ripple)**"
+msgstr "**Chia đoạn đã chọn (Làn sóng)**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:86
+msgid ""
+"Slice the selected clip(s) at the play-head position, keeping either the "
+"left side (shortcut: :kbd:`W`) or the right side (shortcut: :kbd:`Q`), while"
+" rippling the gap removal across the current track."
+msgstr ""
+"Chia đoạn phim được chọn tại vị trí con trỏ phát, giữ bên trái (phím tắt: "
+":kbd:`W`) hoặc bên phải (phím tắt: :kbd:`Q`), đồng thời lan truyền việc loại"
+" bỏ khoảng trống trên track hiện tại."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:88
+msgid "**Razor Tool**"
+msgstr "**Công cụ Dao cạo**"
+
+#: ../clips.rst:88
+msgid ""
+"The :guilabel:`razor tool` from the **Timeline Toolbar** cuts a clip at the "
+"position where it is clicked. See :ref:`razor_tool_ref` for cut guides and "
+"frame previews. Use :kbd:`SHIFT` to slice and keep the left side, or "
+":kbd:`CTRL` to keep the right side."
+msgstr ""
+"Công cụ :guilabel:`razor tool` từ **Thanh công cụ Dòng thời gian** cắt một "
+"clip tại vị trí được nhấp. Xem :ref:`razor_tool_ref` để biết hướng dẫn cắt "
+"và xem trước khung hình. Sử dụng :kbd:`SHIFT` để cắt và giữ phía bên trái, "
+"hoặc :kbd:`CTRL` để giữ phía bên phải."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:90
+msgid "**Split File Dialog**"
+msgstr "**Hộp thoại Chia tệp**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:90
+msgid ""
+"Right-click on a file and choose :guilabel:`Split File`. This opens a dialog"
+" that allows you to create multiple clips from a single video file."
+msgstr ""
+"Nhấp chuột phải vào một tệp và chọn :guilabel:`Chia tệp`. Điều này mở hộp "
+"thoại cho phép bạn tạo nhiều đoạn phim từ một tệp video duy nhất."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:94
+msgid ""
+"Keep in mind that the above cutting methods also have "
+":ref:`keyboard_shortcut_ref`, to save even more time."
+msgstr ""
+"Hãy nhớ rằng các phương pháp cắt ở trên cũng có "
+":ref:`keyboard_shortcut_ref`, giúp tiết kiệm thời gian hơn nữa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:96
+msgid ""
+"If multiple selected clips and/or transitions share the same left edge or "
+"right edge, you can drag that shared edge once to trim them together."
+msgstr ""
+"Nếu nhiều clip và/hoặc chuyển tiếp được chọn cùng chia sẻ cạnh trái hoặc "
+"cạnh phải, bạn có thể kéo cạnh chung đó một lần để cắt chúng cùng nhau."
+
+#: ../clips.rst:102
+msgid "Razor Tool"
+msgstr "Công cụ Razor"
+
+#: ../clips.rst:104
+msgid ""
+"Use the **Razor Tool** to preview a cut and split a clip or transition "
+"directly on the timeline. Each click affects only the item under the "
+"pointer."
+msgstr ""
+"Sử dụng **Công cụ Razor** để xem trước một lần cắt và tách một clip hoặc "
+"chuyển tiếp trực tiếp trên dòng thời gian. Mỗi lần nhấp chỉ ảnh hưởng đến "
+"mục dưới con trỏ."
+
+#: ../clips.rst:107
+msgid "Enable :guilabel:`Razor Tool` in the **Timeline Toolbar**."
+msgstr "Bật :guilabel:`Công cụ Razor` trong **Thanh công cụ Dòng thời gian**."
+
+#: ../clips.rst:108
+msgid ""
+"Move over the clip you want to cut. A vertical dashed guide marks the exact "
+"frame boundary, with a timecode and the action that clicking will perform."
+msgstr ""
+"Di chuyển qua clip bạn muốn cắt. Một đường hướng dẫn nét đứt dọc đánh dấu "
+"ranh giới khung hình chính xác, kèm theo mã thời gian và hành động sẽ thực "
+"hiện khi nhấp."
+
+#: ../clips.rst:110
+msgid ""
+"While playback is paused, **Video Preview** shows the source frame of the "
+"hovered clip, including its time mapping. Higher tracks cannot obscure this "
+"preview. The playhead stays in place, and the guide's timecode is timeline "
+"time."
+msgstr ""
+"Khi phát tạm dừng, **Xem trước Video** hiển thị khung nguồn của clip đang di"
+" chuột qua, bao gồm cả ánh xạ thời gian của nó. Các track cao hơn không thể "
+"che khuất bản xem trước này. Đầu phát giữ nguyên vị trí, và mã thời gian của"
+" hướng dẫn là thời gian dòng thời gian."
+
+#: ../clips.rst:113
+msgid "Click to split. Razor stays enabled so you can make more cuts."
+msgstr ""
+"Nhấp để tách. Công cụ Razor vẫn được bật để bạn có thể thực hiện thêm các "
+"lần cắt."
+
+#: ../clips.rst:114
+msgid ""
+"Press :kbd:`Esc`, or toggle the toolbar button again, to return to normal "
+"editing."
+msgstr ""
+"Nhấn :kbd:`Esc`, hoặc chuyển đổi lại nút trên thanh công cụ, để trở về chỉnh"
+" sửa bình thường."
+
+#: ../clips.rst:116
+msgid ""
+"Moving away from the clip or leaving Razor mode restores the preview at the "
+"playhead. Hovering during playback does not interrupt playback. Like edge "
+"trimming, Razor previews the individual source rather than the composed "
+"timeline. Hovering a transition previews its mask source."
+msgstr ""
+"Rời khỏi clip hoặc thoát chế độ Razor sẽ khôi phục bản xem trước tại đầu "
+"phát. Di chuột trong khi phát không làm gián đoạn phát. Giống như cắt mép, "
+"Razor xem trước nguồn riêng lẻ thay vì dòng thời gian đã ghép. Di chuột qua "
+"một chuyển tiếp sẽ xem trước nguồn mặt nạ của nó."
+
+#: ../clips.rst:121
+msgid "Razor actions"
+msgstr "Các hành động của Razor"
+
+#: ../clips.rst:125
+msgid "Action"
+msgstr "Hành động"
+
+#: ../clips.rst:126
+msgid "Result"
+msgstr "Kết quả"
+
+#: ../clips.rst:127
+msgid "Click"
+msgstr "Nhấp"
+
+#: ../clips.rst:128
+msgid ""
+"Split at the guide and keep both sides. The previewed frame starts the right"
+" side."
+msgstr ""
+"Tách tại đường hướng dẫn và giữ cả hai bên. Khung xem trước bắt đầu phía bên"
+" phải."
+
+#: ../clips.rst:129
+msgid ":kbd:`Shift+Click`"
+msgstr ":kbd:`Shift+Click`"
+
+#: ../clips.rst:130
+msgid ""
+"Keep the left side of the guide. The right side is shaded to show what will "
+"be removed."
+msgstr ""
+"Giữ phía bên trái của đường hướng dẫn. Phía bên phải được tô bóng để hiển "
+"thị phần sẽ bị loại bỏ."
+
+#: ../clips.rst:131
+msgid ":kbd:`Ctrl+Click`"
+msgstr ":kbd:`Ctrl+Click`"
+
+#: ../clips.rst:132
+msgid ""
+"Keep the right side. The left side is shaded to show what will be removed."
+msgstr ""
+"Giữ phía bên phải. Phía bên trái được tô bóng để hiển thị phần sẽ bị loại "
+"bỏ."
+
+#: ../clips.rst:133
+msgid ":kbd:`Alt+Shift+Click`"
+msgstr ":kbd:`Alt+Shift+Click`"
+
+#: ../clips.rst:134
+msgid ""
+"Keep the left side and close the gap, shifting later items on the same track"
+" left."
+msgstr ""
+"Giữ phía bên trái và đóng khoảng trống, dịch các mục sau trên cùng một track"
+" sang trái."
+
+#: ../clips.rst:135
+msgid ":kbd:`Alt+Ctrl+Click`"
+msgstr ":kbd:`Alt+Ctrl+Click`"
+
+#: ../clips.rst:136
+msgid ""
+"Keep the right side and close the gap, shifting later items on the same "
+"track left."
+msgstr ""
+"Giữ phía bên phải và đóng khoảng trống, dịch các mục sau trên cùng một track"
+" sang trái."
+
+#: ../clips.rst:137
+msgid ":kbd:`W` / :kbd:`Q` while hovering"
+msgstr ":kbd:`W` / :kbd:`Q` khi di chuột qua"
+
+#: ../clips.rst:138
+msgid ""
+"Use the existing ripple-slice shortcuts at the pointer: keep left (:kbd:`W`)"
+" or right (:kbd:`Q`) and close the gap. Customized bindings work too."
+msgstr ""
+"Sử dụng các phím tắt cắt sóng hiện có tại con trỏ: giữ bên trái (:kbd:`W`) "
+"hoặc bên phải (:kbd:`Q`) và đóng khoảng trống. Các phím tắt tùy chỉnh cũng "
+"hoạt động."
+
+#: ../clips.rst:141
+msgid ""
+"Holding :kbd:`Alt` with :kbd:`Shift` or :kbd:`Ctrl` adds **Close gap** to "
+"the hint. The red shading shows the portion being removed. These operations "
+"reuse **Slice Selected (Ripple)**; they move later clips and transitions on "
+"the same track, not on other tracks. Outside Razor hover, the ripple "
+"shortcuts retain their normal selected-item/playhead behavior. A locked or "
+"invalid Razor target does not fall back to cutting a different selected "
+"clip."
+msgstr ""
+"Giữ :kbd:`Alt` cùng với :kbd:`Shift` hoặc :kbd:`Ctrl` thêm **Đóng khoảng "
+"trống** vào gợi ý. Vùng tô đỏ hiển thị phần bị loại bỏ. Các thao tác này tái"
+" sử dụng **Cắt đã chọn (Ripple)**; chúng di chuyển các clip và chuyển tiếp "
+"sau trên cùng một track, không phải trên các track khác. Ngoài chế độ di "
+"chuột Razor, các phím tắt ripple giữ hành vi bình thường với mục được "
+"chọn/đầu phát. Mục tiêu Razor bị khóa hoặc không hợp lệ không chuyển sang "
+"cắt clip được chọn khác."
+
+#: ../clips.rst:148
+msgid ""
+"Cuts align to project frames. With **Snapping** enabled, the Razor guide "
+"uses the same snap targets and distance tolerance as other timeline edits: "
+"clip and transition edges, markers, the playhead, and the hovered clip's "
+"keyframe targets. The hovered item's own endpoints are excluded. Preview, "
+"mouse cuts, and ripple shortcuts all use the guide's snapped boundary. "
+"Toggle the timeline's existing **Snapping** button to cut freely between "
+"these targets."
+msgstr ""
+"Các lần cắt căn chỉnh với khung hình dự án. Khi bật **Bắt điểm**, đường "
+"hướng dẫn Razor sử dụng cùng các mục tiêu bắt điểm và dung sai khoảng cách "
+"như các chỉnh sửa dòng thời gian khác: cạnh clip và chuyển tiếp, dấu hiệu, "
+"đầu phát và các điểm khung hình chính của clip đang di chuột. Các điểm cuối "
+"của mục đang di chuột bị loại trừ. Xem trước, cắt bằng chuột và các phím tắt"
+" ripple đều sử dụng ranh giới bắt điểm của đường hướng dẫn. Chuyển đổi nút "
+"**Bắt điểm** hiện có của dòng thời gian để cắt tự do giữa các mục tiêu này."
+
+#: ../clips.rst:155
+msgid ""
+"Without snapping to a target, :kbd:`Shift+Click` includes the frame under "
+"the pointer in the left side, placing the guide at the following frame "
+"boundary. When snapped, the snapped boundary takes priority for all cut "
+"modes."
+msgstr ""
+"Không bắt điểm vào mục tiêu, :kbd:`Shift+Click` bao gồm khung hình dưới con "
+"trỏ vào phía bên trái, đặt đường hướng dẫn tại ranh giới khung hình tiếp "
+"theo. Khi bắt điểm, ranh giới bắt điểm được ưu tiên cho tất cả các chế độ "
+"cắt."
+
+#: ../clips.rst:159
+msgid ""
+"Locked tracks, empty space, and boundaries that would leave an empty side do"
+" not show a valid cut guide. Zoom in for finer frame selection, and use "
+"**Undo** to reverse a cut."
+msgstr ""
+"Các track bị khóa, khoảng trống và ranh giới sẽ để lại một bên trống không "
+"hiển thị đường hướng dẫn cắt hợp lệ. Phóng to để chọn khung hình chính xác "
+"hơn, và sử dụng **Hoàn tác** để đảo ngược lần cắt."
+
+#: ../clips.rst:163
+msgid ""
+"To cut several clips at the playhead instead, use **Slice Selected** or "
+"**Slice All**, described above."
+msgstr ""
+"Để cắt nhiều clip tại đầu phát thay vào đó, sử dụng **Cắt đã chọn** hoặc "
+"**Cắt tất cả**, như đã mô tả ở trên."
+
+#: ../clips.rst:167
+msgid "Clip controls while zoomed in"
+msgstr "Điều khiển clip khi phóng to"
+
+#: ../clips.rst:169
+msgid ""
+"When a clip's start scrolls off screen, its title, effect badges, and menu "
+"stay near the left side of the visible timeline. Click an effect badge to "
+"access that effect, or use the title's dropdown to open the clip menu. The "
+"controls stay within the visible portion of their clip and shorten as space "
+"runs out."
+msgstr ""
+"Khi phần đầu của clip cuộn ra khỏi màn hình, tiêu đề, huy hiệu hiệu ứng và "
+"menu của nó vẫn ở gần bên trái của dòng thời gian hiển thị. Nhấp vào huy "
+"hiệu hiệu ứng để truy cập hiệu ứng đó, hoặc sử dụng menu thả xuống của tiêu "
+"đề để mở menu clip. Các điều khiển giữ trong phần hiển thị của clip và thu "
+"ngắn khi không còn chỗ."
+
+#: ../clips.rst:174
+msgid ""
+"Only these controls follow the viewport. The clip's outline, thumbnails, "
+"waveform, and trim handles remain at their actual timeline positions. A "
+"small inset separates the pinned controls from the viewport edge."
+msgstr ""
+"Chỉ các điều khiển này theo viewport. Đường viền clip, hình thu nhỏ, sóng âm"
+" và tay cầm cắt vẫn giữ vị trí thực trên dòng thời gian. Một khoảng cách nhỏ"
+" tách các điều khiển cố định khỏi mép viewport."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:179
+msgid "Selections"
+msgstr "Lựa chọn"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:180
+msgid ""
+"Selecting clips and transitions on the timeline is an essential part of "
+"editing in OpenShot. Multiple selection methods are available to streamline "
+"your workflow, enabling efficient editing of clips and transitions."
+msgstr ""
+"Việc chọn các đoạn phim và chuyển cảnh trên dòng thời gian là phần thiết yếu"
+" trong chỉnh sửa bằng OpenShot. Có nhiều phương pháp chọn khác nhau để tối "
+"ưu hóa quy trình làm việc, giúp chỉnh sửa đoạn phim và chuyển cảnh hiệu quả."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:183
+msgid "Here is a list of all methods for selecting clips in OpenShot:"
+msgstr ""
+"Dưới đây là danh sách tất cả các phương pháp chọn đoạn phim trong OpenShot:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:189
+msgid "Selection Method"
+msgstr "Phương pháp chọn"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:191
+msgid "**Box Selection**"
+msgstr "**Chọn bằng hộp**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:191
+msgid ""
+"Click and drag a selection box around clips or transitions to select "
+"multiple items at once. Hold down :kbd:`Ctrl` to add to your current "
+"selection."
+msgstr ""
+"Nhấp và kéo một hộp chọn quanh các clip hoặc chuyển tiếp để chọn nhiều mục "
+"cùng lúc. Giữ :kbd:`Ctrl` để thêm vào lựa chọn hiện tại."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:192
+msgid "**Click Selection**"
+msgstr "**Chọn bằng nhấp chuột**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:192
+msgid ""
+"Click on a clip or transition to select it. This will deselect all other "
+"items unless you hold down :kbd:`Ctrl`."
+msgstr ""
+"Nhấp vào một clip hoặc chuyển tiếp để chọn nó. Điều này sẽ bỏ chọn tất cả "
+"các mục khác trừ khi bạn giữ :kbd:`Ctrl`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:193
+msgid "**Add to Selection**"
+msgstr "**Thêm vào lựa chọn**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:193
+msgid ""
+"Hold down :kbd:`Ctrl` while clicking to add or remove clips from the current"
+" selection, allowing you to select non-adjacent clips."
+msgstr ""
+"Giữ :kbd:`Ctrl` khi nhấp để thêm hoặc bỏ các clip khỏi lựa chọn hiện tại, "
+"cho phép bạn chọn các clip không liền kề."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:194
+msgid "**Range Selection**"
+msgstr "**Chọn theo phạm vi**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:194
+msgid ""
+"Hold down :kbd:`Shift` while clicking to select a range of clips/transitions"
+" from the previous selection to the new selection. This supports ranges that"
+" span multiple tracks as well."
+msgstr ""
+"Giữ :kbd:`Shift` khi nhấp để chọn một phạm vi các clip/chuyển tiếp từ lựa "
+"chọn trước đến lựa chọn mới. Điều này cũng hỗ trợ phạm vi trải dài trên "
+"nhiều track."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:195
+msgid "**Ripple Selection**"
+msgstr "**Chọn lan rộng**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:195
+msgid ""
+"Hold down :kbd:`Alt` while clicking to ripple select all clips/transitions "
+"from your selection to the end of the track. This always adds to your "
+"current selection, even if :kbd:`Ctrl` is not pressed."
+msgstr ""
+"Giữ :kbd:`Alt` khi nhấp để chọn lan rộng tất cả các clip/chuyển tiếp từ lựa "
+"chọn của bạn đến cuối track. Điều này luôn thêm vào lựa chọn hiện tại, ngay "
+"cả khi không giữ :kbd:`Ctrl`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:196
+msgid "**Clear Selection**"
+msgstr "**Xóa lựa chọn**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:196
+msgid ""
+"Click anywhere on the timeline or on a new clip/transition to reset the "
+"current selection, unless :kbd:`Ctrl` is pressed."
+msgstr ""
+"Nhấp vào bất kỳ đâu trên timeline hoặc trên clip/chuyển tiếp mới để đặt lại "
+"lựa chọn hiện tại, trừ khi giữ :kbd:`Ctrl`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:197
+msgid "**Select All**"
+msgstr "**Chọn tất cả**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:197
+msgid ""
+"Press :kbd:`Ctrl+A` to select all clips and transitions on the timeline."
+msgstr ""
+"Nhấn :kbd:`Ctrl+A` để chọn tất cả các clip và chuyển tiếp trên timeline."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:198
+msgid "**Select None**"
+msgstr "**Bỏ chọn tất cả**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:198
+msgid ""
+"Press :kbd:`Ctrl+Shift+A` to deselect all clips and transitions on the "
+"timeline."
+msgstr ""
+"Nhấn :kbd:`Ctrl+Shift+A` để bỏ chọn tất cả các clip và chuyển tiếp trên "
+"timeline."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:201
+msgid ""
+"Mastering these selection techniques will streamline your editing process, "
+"especially when dealing with complex projects. For more advanced tips on "
+"selection and editing, refer to the :ref:`clips_cutting_slicing_ref` "
+"section."
+msgstr ""
+"Thành thạo các kỹ thuật chọn này sẽ giúp quy trình chỉnh sửa của bạn hiệu "
+"quả hơn, đặc biệt khi làm việc với các dự án phức tạp. Để biết thêm mẹo nâng"
+" cao về chọn và chỉnh sửa, tham khảo phần :ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:207
+msgid "Context Menu"
+msgstr "Menu ngữ cảnh"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:208
+msgid ""
+"OpenShot has tons of great preset animations and clip properties, such as "
+"fading, sliding, zooming, reversing time, adjusting volume, etc... These "
+"presets can be accessed by right-clicking on a clip, revealing the context "
+"menu. A preset sets one (or more) clip properties for the user without "
+"needing to manually set the key-frame clip properties. See "
+":ref:`clip_properties_ref`."
+msgstr ""
+"OpenShot có rất nhiều hiệu ứng và thuộc tính clip được thiết lập sẵn tuyệt "
+"vời, như mờ dần, trượt, phóng to, đảo ngược thời gian, điều chỉnh âm lượng, "
+"v.v... Các thiết lập sẵn này có thể truy cập bằng cách nhấp chuột phải vào "
+"clip, mở menu ngữ cảnh. Một thiết lập sẵn sẽ đặt một (hoặc nhiều) thuộc tính"
+" clip cho người dùng mà không cần phải thiết lập thủ công các thuộc tính "
+"keyframe. Xem :ref:`clip_properties_ref`."
+
+#: ../clips.rst:213
+msgid ""
+"Some presets allow the user to target either the start, end, or entire clip,"
+" and most presets allow the user to reset a specific clip property. For "
+"example, when using the :guilabel:`Audio → Volume` presets, the user has the"
+" following menu options:"
+msgstr ""
+"Một số cài đặt sẵn cho phép người dùng nhắm vào phần bắt đầu, kết thúc hoặc "
+"toàn bộ đoạn clip, và hầu hết các cài đặt sẵn cho phép người dùng đặt lại "
+"một thuộc tính cụ thể của đoạn clip. Ví dụ, khi sử dụng các cài đặt sẵn "
+":guilabel:`Audio → Volume`, người dùng có các tùy chọn menu sau:"
+
+#: ../clips.rst:217
+msgid "**Reset Volume** — resets the volume to the original level."
+msgstr "**Đặt lại âm lượng** — đặt lại âm lượng về mức ban đầu."
+
+#: ../clips.rst:218
+msgid ""
+"**Start of Clip** — the volume change applies at the beginning of the clip."
+msgstr ""
+"**Bắt đầu đoạn clip** — thay đổi âm lượng áp dụng tại phần đầu của đoạn "
+"clip."
+
+#: ../clips.rst:219
+msgid "**End of Clip** — the volume change applies at the end of the clip."
+msgstr ""
+"**Kết thúc đoạn clip** — thay đổi âm lượng áp dụng tại phần cuối của đoạn "
+"clip."
+
+#: ../clips.rst:220
+msgid "**Entire Clip** — the volume change applies to the entire clip."
+msgstr ""
+"**Toàn bộ đoạn clip** — thay đổi âm lượng áp dụng cho toàn bộ đoạn clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:228
+msgid "Preset Name"
+msgstr "Tên thiết lập sẵn"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:230 ../clips.rst:618
+msgid "Copy / Cut / Paste"
+msgstr "Sao chép / Cắt / Dán"
+
+#: ../clips.rst:230
+msgid ""
+"Copy selected clip data, cut selected clips, or paste copied clip data. Copy"
+" supports full clips, effects, and keyframe groups."
+msgstr ""
+"Sao chép dữ liệu đoạn clip đã chọn, cắt các đoạn clip đã chọn, hoặc dán dữ "
+"liệu đoạn clip đã sao chép. Sao chép hỗ trợ toàn bộ đoạn clip, hiệu ứng và "
+"nhóm khung hình chính."
+
+#: ../clips.rst:231
+msgid "Align"
+msgstr "Căn chỉnh"
+
+#: ../clips.rst:231
+msgid ""
+"Align the left or right edge of multiple selected clips and transitions "
+"(only shown when multiple clips are selected)."
+msgstr ""
+"Căn chỉnh cạnh trái hoặc phải của nhiều đoạn clip và chuyển cảnh được chọn "
+"(chỉ hiển thị khi chọn nhiều đoạn clip)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:232 ../clips.rst:244
+msgid "Fade"
+msgstr "Mờ dần"
+
+#: ../clips.rst:232
+msgid ""
+"Fade the clip in or out — automatically fades video (alpha) and/or audio "
+"(volume) based on what the clip contains."
+msgstr ""
+"Làm mờ đoạn clip vào hoặc ra — tự động làm mờ video (alpha) và/hoặc âm thanh"
+" (âm lượng) dựa trên nội dung của đoạn clip."
+
+#: ../clips.rst:233 ../clips.rst:261
+msgid "Motion"
+msgstr "Chuyển động"
+
+#: ../clips.rst:233
+msgid ""
+"Add animated motion to a clip: slide in/out, bounce, blur, wipe/focus-wipe, "
+"zoom, emphasis effects at the playhead, camera movements, and scrolling "
+"credits. Only shown for visual clips."
+msgstr ""
+"Thêm chuyển động hoạt hình vào đoạn clip: trượt vào/ra, bật nảy, làm mờ, "
+"lau/chỉnh nét lau, phóng to, hiệu ứng nhấn mạnh tại vị trí phát, chuyển động"
+" camera và cuộn phụ đề. Chỉ hiển thị cho các đoạn clip hình ảnh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:234 ../clips.rst:496
+msgid "Transform"
+msgstr "Biến đổi"
+
+#: ../clips.rst:234
+msgid ""
+"Apply geometric presets to a clip: rotate/flip, crop, or snap to a corner "
+"layout. Also provides a **No Transform** reset. Only shown for visual clips."
+msgstr ""
+"Áp dụng các cài đặt sẵn hình học cho đoạn clip: xoay/lật, cắt, hoặc căn vào "
+"bố cục góc. Cũng cung cấp tùy chọn đặt lại **Không biến đổi**. Chỉ hiển thị "
+"cho các đoạn clip hình ảnh."
+
+#: ../clips.rst:235 ../clips.rst:397
+msgid "Look"
+msgstr "Giao diện"
+
+#: ../clips.rst:235
+msgid ""
+"Apply visual style presets: color grades, film grain, analog tape, sharpen, "
+"blur, shadow, and glow effects. Includes **Adjust Colors** (Color Wheels "
+"editor) and **Analyze Colors** (video scopes). Only shown for visual clips."
+msgstr ""
+"Áp dụng các cài đặt sẵn phong cách hình ảnh: điều chỉnh màu sắc, hạt phim, "
+"băng analog, làm nét, làm mờ, bóng và hiệu ứng phát sáng. Bao gồm **Điều "
+"chỉnh màu sắc** (trình chỉnh sửa bánh xe màu) và **Phân tích màu sắc** (phạm"
+" vi video). Chỉ hiển thị cho các đoạn clip hình ảnh."
+
+#: ../clips.rst:236 ../clips.rst:328
+msgid "Speed"
+msgstr "Tốc độ"
+
+#: ../clips.rst:236
+msgid ""
+"Reverse, repeat, speed up, or slow down video. Includes Freeze and Freeze & "
+"Zoom options."
+msgstr ""
+"Đảo ngược, lặp lại, tăng tốc hoặc làm chậm video. Bao gồm các tùy chọn Đóng "
+"băng và Đóng băng & Phóng to."
+
+#: ../clips.rst:237 ../clips.rst:444
+msgid "Audio"
+msgstr "Âm thanh"
+
+#: ../clips.rst:237
+msgid ""
+"Control audio properties: adjust volume levels, fade volume in/out, separate"
+" audio channels, show/hide the timeline waveform, or open the Audio Levels "
+"scope."
+msgstr ""
+"Điều khiển thuộc tính âm thanh: điều chỉnh mức âm lượng, làm mờ âm lượng "
+"vào/ra, tách kênh âm thanh, hiển thị/ẩn dạng sóng trên dòng thời gian, hoặc "
+"mở phạm vi Mức âm thanh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:238 ../clips.rst:471
+msgid "Slice"
+msgstr "Cắt"
+
+#: ../clips.rst:238
+msgid ""
+"Cut the clip at the play-head position, with options to keep either side, "
+"both sides, or ripple-delete one side. Only shown when the playhead overlaps"
+" the clip."
+msgstr ""
+"Cắt đoạn clip tại vị trí đầu phát, với các tùy chọn giữ một bên, cả hai bên,"
+" hoặc xóa sóng một bên. Chỉ hiển thị khi đầu phát chồng lên đoạn clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:239 ../clips.rst:610
+msgid "Properties"
+msgstr "Thuộc tính"
+
+#: ../clips.rst:239
+msgid "Show the properties panel for a clip."
+msgstr "Hiển thị bảng thuộc tính cho đoạn clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:240 ../clips.rst:642
+msgid "Remove Clip"
+msgstr "Xóa clip"
+
+#: ../clips.rst:240
+msgid "Remove a clip from the timeline."
+msgstr "Xóa đoạn clip khỏi dòng thời gian."
+
+#: ../clips.rst:245
+msgid ""
+"The :guilabel:`Fade` preset creates a smooth fade-in or fade-out on the "
+"selected clip. It automatically fades **video** (alpha/opacity) and/or "
+"**audio** (volume) depending on what the clip contains — a video clip gets "
+"both, an audio-only clip gets only a volume fade, and an image clip gets "
+"only an alpha fade."
+msgstr ""
+"Cài đặt sẵn :guilabel:`Fade` tạo hiệu ứng mờ dần vào hoặc ra mượt mà trên "
+"đoạn clip được chọn. Nó tự động làm mờ **video** (alpha/độ mờ) và/hoặc **âm "
+"thanh** (âm lượng) tùy thuộc vào nội dung đoạn clip — đoạn clip video có cả "
+"hai, đoạn clip chỉ âm thanh chỉ có hiệu ứng mờ âm lượng, và đoạn clip hình "
+"ảnh chỉ có hiệu ứng mờ alpha."
+
+#: ../clips.rst:249
+msgid ":guilabel:`No Fade` — removes all fade keyframes."
+msgstr ":guilabel:`Không mờ` — xóa tất cả các khung hình chính hiệu ứng mờ."
+
+#: ../clips.rst:250
+msgid ""
+":guilabel:`Fade In` → :guilabel:`Fast` / :guilabel:`Slow` — fades from "
+"transparent/silent at the start of the clip."
+msgstr ""
+":guilabel:`Mờ vào` → :guilabel:`Nhanh` / :guilabel:`Chậm` — mờ từ trong "
+"suốt/yên tĩnh ở đầu đoạn clip."
+
+#: ../clips.rst:251
+msgid ""
+":guilabel:`Fade Out` → :guilabel:`Fast` / :guilabel:`Slow` — fades to "
+"transparent/silent at the end of the clip."
+msgstr ""
+":guilabel:`Mờ ra` → :guilabel:`Nhanh` / :guilabel:`Chậm` — mờ đến trong "
+"suốt/yên tĩnh ở cuối đoạn clip."
+
+#: ../clips.rst:252
+msgid ""
+":guilabel:`Fade In and Out` → :guilabel:`Fast` / :guilabel:`Slow` — applies "
+"both a fade-in at the start and a fade-out at the end."
+msgstr ""
+":guilabel:`Mờ vào và ra` → :guilabel:`Nhanh` / :guilabel:`Chậm` — áp dụng cả"
+" hiệu ứng mờ vào ở đầu và mờ ra ở cuối."
+
+#: ../clips.rst:254
+msgid ""
+"Fast fades span approximately 1 second; Slow fades span approximately 3 "
+"seconds. See :ref:`clip_alpha_ref` and :ref:`clip_volume_ref` key-frames."
+msgstr ""
+"Hiệu ứng mờ nhanh kéo dài khoảng 1 giây; hiệu ứng mờ chậm kéo dài khoảng 3 "
+"giây. Xem :ref:`clip_alpha_ref` và :ref:`clip_volume_ref` các khung hình "
+"chính."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:257
+msgid ""
+"**Usage Example:** Applying a fade-out to a video clip to gently conclude a "
+"scene."
+msgstr ""
+"**Ví dụ sử dụng:** Áp dụng hiệu ứng mờ dần cho đoạn video để kết thúc cảnh "
+"một cách nhẹ nhàng."
+
+#: ../clips.rst:258
+msgid ""
+"**Tip:** Fade and Volume fade are independent — use :guilabel:`Fade` for a "
+"combined video+audio fade, or use :guilabel:`Audio → Volume` to fade only "
+"the audio."
+msgstr ""
+"**Mẹo:** Hiệu ứng mờ và hiệu ứng mờ âm lượng là độc lập — sử dụng "
+":guilabel:`Fade` để mờ kết hợp video+âm thanh, hoặc sử dụng :guilabel:`Audio"
+" → Volume` để chỉ mờ âm thanh."
+
+#: ../clips.rst:262
+msgid ""
+"The :guilabel:`Motion` menu adds animated movement to visual clips using "
+"keyframe presets. It is organized into several submenus. See "
+":ref:`clip_location_x_ref` and :ref:`clip_scale_x_ref` key-frames."
+msgstr ""
+"Menu :guilabel:`Motion` thêm chuyển động hoạt hình vào các đoạn clip hình "
+"ảnh bằng cách sử dụng các cài đặt sẵn khung hình chính. Nó được tổ chức "
+"thành nhiều menu con. Xem :ref:`clip_location_x_ref` và "
+":ref:`clip_scale_x_ref` các khung hình chính."
+
+#: ../clips.rst:265
+msgid ":guilabel:`No Motion` — removes all motion keyframes from the clip."
+msgstr ""
+":guilabel:`Không chuyển động` — xóa tất cả các khung hình chính chuyển động "
+"khỏi đoạn clip."
+
+#: ../clips.rst:266
+msgid ":guilabel:`In` — entrance animations applied at the start of the clip:"
+msgstr ""
+":guilabel:`Vào` — hiệu ứng hoạt hình xuất hiện áp dụng ở đầu đoạn clip:"
+
+#: ../clips.rst:268
+msgid ""
+"**Back In** (From Bottom / Left / Right / Top) — clip overshoots and springs"
+" back into position."
+msgstr ""
+"**Lùi vào** (Từ dưới lên / Trái / Phải / Trên) — đoạn clip vượt quá vị trí "
+"rồi bật trở lại vị trí ban đầu."
+
+#: ../clips.rst:269
+msgid "**Blur In** — clip fades in from a motion blur."
+msgstr "**Làm mờ vào** — đoạn clip mờ dần từ hiệu ứng làm mờ chuyển động."
+
+#: ../clips.rst:270
+msgid ""
+"**Bounce In** (Center / From Bottom / Left / Right / Top) — clip bounces as "
+"it enters."
+msgstr ""
+"**Bật nảy vào** (Trung tâm / Từ dưới lên / Trái / Phải / Trên) — đoạn clip "
+"bật nảy khi xuất hiện."
+
+#: ../clips.rst:271
+msgid ""
+"**Focus Wipe In** (Circle Expand / Circle Shrink / From Bottom / Left / "
+"Right / Top) — clip is revealed by a wipe while sharpening from blur into "
+"focus."
+msgstr ""
+"**Lau nét vào** (Mở rộng vòng tròn / Thu nhỏ vòng tròn / Từ dưới lên / Trái "
+"/ Phải / Trên) — đoạn clip được tiết lộ bằng hiệu ứng lau trong khi làm nét "
+"từ mờ sang rõ."
+
+#: ../clips.rst:272
+msgid "**Pop In** — clip scales up quickly from nothing."
+msgstr "**Phóng to nhanh vào** — đoạn clip phóng to nhanh từ không có gì."
+
+#: ../clips.rst:273
+msgid ""
+"**Slide In** (From Bottom / Left / Right / Top) — clip slides onto the "
+"screen."
+msgstr ""
+"**Trượt vào** (Từ dưới lên / Trái / Phải / Trên) — đoạn clip trượt vào màn "
+"hình."
+
+#: ../clips.rst:274
+msgid "**Spiral In** — clip rotates in while scaling up."
+msgstr "**Xoắn ốc vào** — đoạn clip xoay vào trong khi phóng to."
+
+#: ../clips.rst:275
+msgid ""
+"**Wipe In** (Circle Expand / Circle Shrink / From Bottom / Left / Right / "
+"Top) — clip is revealed by a wipe."
+msgstr ""
+"**Lau vào** (Mở rộng vòng tròn / Thu nhỏ vòng tròn / Từ dưới lên / Trái / "
+"Phải / Trên) — đoạn clip được tiết lộ bằng hiệu ứng lau."
+
+#: ../clips.rst:277
+msgid ""
+":guilabel:`Out` — exit animations applied at the end of the clip (mirrors "
+"the In options: Back Out, Blur Out, Bounce Out, Focus Wipe Out, Pop Out, "
+"Slide Out, Spiral Out, Wipe Out)."
+msgstr ""
+":guilabel:`Ra` — hiệu ứng hoạt hình thoát áp dụng ở cuối đoạn clip (phản "
+"chiếu các tùy chọn Vào: Lùi ra, Làm mờ ra, Bật nảy ra, Lau nét ra, Phóng to "
+"ra, Trượt ra, Xoắn ốc ra, Lau ra)."
+
+#: ../clips.rst:279
+msgid ""
+":guilabel:`Emphasis` — short attention-grabbing animations **inserted at the"
+" current playhead position** (not applied across the whole clip). Useful for"
+" mid-clip highlights: **Bounce**, **Flash**, **Heartbeat**, **Jello**, "
+"**Pulse**, **Rubber Band**, **Shake X**, **Shake Y**, **Swing**, **Tada**, "
+"**Wobble**."
+msgstr ""
+":guilabel:`Nhấn mạnh` — các hoạt ảnh thu hút sự chú ý ngắn **chèn tại vị trí"
+" playhead hiện tại** (không áp dụng cho toàn bộ clip). Hữu ích cho các điểm "
+"nổi bật giữa clip: **Bounce**, **Flash**, **Heartbeat**, **Jello**, "
+"**Pulse**, **Rubber Band**, **Shake X**, **Shake Y**, **Swing**, **Tada**, "
+"**Wobble**."
+
+#: ../clips.rst:281
+msgid ""
+":guilabel:`Camera` — simulates camera movement on the clip by animating "
+"scale and position:"
+msgstr ""
+":guilabel:`Camera` — mô phỏng chuyển động camera trên clip bằng cách tạo "
+"hoạt ảnh tỷ lệ và vị trí:"
+
+#: ../clips.rst:283
+msgid "**Zoom** → In / Out — a simple push-in or pull-out."
+msgstr "**Phóng to** → Vào / Ra — một thao tác đẩy vào hoặc kéo ra đơn giản."
+
+#: ../clips.rst:284
+msgid ""
+"**Pan** → Auto Direction / Left to Right / Right to Left / Top to Bottom / "
+"Bottom to Top — a lateral camera pan. *Auto Direction* picks the best "
+"direction based on the clip's aspect ratio."
+msgstr ""
+"**Quay ngang** → Tự động hướng / Trái sang phải / Phải sang trái / Trên "
+"xuống dưới / Dưới lên trên — một chuyển động camera ngang. *Tự động hướng* "
+"chọn hướng tốt nhất dựa trên tỷ lệ khung hình của clip."
+
+#: ../clips.rst:285
+msgid ""
+"**Zoom & Pan** → In or Out, with directional variants — combines a zoom with"
+" a pan (Ken Burns style). *Auto Direction* picks the best direction based on"
+" the clip's aspect ratio."
+msgstr ""
+"**Phóng to & Quay ngang** → Vào hoặc Ra, với các biến thể hướng — kết hợp "
+"phóng to với quay ngang (phong cách Ken Burns). *Tự động hướng* chọn hướng "
+"tốt nhất dựa trên tỷ lệ khung hình của clip."
+
+#: ../clips.rst:287
+msgid ""
+":guilabel:`Credits` — scrolling credit animations: **Scroll Up** and "
+"**Scroll Down**."
+msgstr ""
+":guilabel:`Credits` — các hoạt ảnh cuộn danh sách: **Cuộn lên** và **Cuộn "
+"xuống**."
+
+#: ../clips.rst:289
+msgid ""
+"**Tip:** Emphasis presets are placed at the current playhead position, so "
+"position the playhead over the moment you want to highlight before applying "
+"one."
+msgstr ""
+"**Mẹo:** Các cài đặt sẵn Nhấn mạnh được đặt tại vị trí playhead hiện tại, vì"
+" vậy hãy đặt playhead lên khoảnh khắc bạn muốn làm nổi bật trước khi áp "
+"dụng."
+
+#: ../clips.rst:290
+msgid ""
+"**Tip:** Camera presets use *Auto Direction* by default, which picks the "
+"optimal pan direction for wide or tall media to avoid black bars."
+msgstr ""
+"**Mẹo:** Các cài đặt sẵn Camera mặc định sử dụng *Tự động hướng*, chọn hướng"
+" quay ngang tối ưu cho phương tiện rộng hoặc cao để tránh thanh đen."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:295
+msgid "Rotate"
+msgstr "Xoay"
+
+#: ../clips.rst:296
+msgid ""
+"The :guilabel:`Transform → Rotate` submenu introduces easy rotation and "
+"flipping of clips. It enables orientation adjustment by rotating and "
+"flipping a clip for creative visual transformations. See "
+":ref:`clip_rotation_ref` key-frame."
+msgstr ""
+"Menu con :guilabel:`Biến đổi → Xoay` giới thiệu cách xoay và lật clip dễ "
+"dàng. Nó cho phép điều chỉnh hướng bằng cách xoay và lật clip để tạo các "
+"biến đổi hình ảnh sáng tạo. Xem :ref:`clip_rotation_ref` khung khóa."
+
+#: ../clips.rst:300
+msgid ":guilabel:`No Rotation` — removes any rotation keyframes."
+msgstr ":guilabel:`Không Xoay` — loại bỏ tất cả các khung khóa xoay."
+
+#: ../clips.rst:301
+msgid ":guilabel:`Rotate 90 (Right)` — rotates the clip 90 degrees clockwise."
+msgstr ":guilabel:`Xoay 90 (Phải)` — xoay clip 90 độ theo chiều kim đồng hồ."
+
+#: ../clips.rst:302
+msgid ""
+":guilabel:`Rotate 90 (Left)` — rotates the clip 90 degrees counterclockwise."
+msgstr ":guilabel:`Xoay 90 (Trái)` — xoay clip 90 độ ngược chiều kim đồng hồ."
+
+#: ../clips.rst:303
+msgid ":guilabel:`Rotate 180 (Flip)` — flips the clip upside down."
+msgstr ":guilabel:`Xoay 180 (Lật)` — lật clip ngược lại."
+
+#: ../clips.rst:305
+msgid ""
+"**Usage Example:** Rotating a photo or video by 90 degrees (a portrait video"
+" to a landscape)."
+msgstr ""
+"**Ví dụ sử dụng:** Xoay một bức ảnh hoặc video 90 độ (video chân dung thành "
+"phong cảnh)."
+
+#: ../clips.rst:306
+msgid ""
+"**Usage Example:** If your video is upside down, rotate it by 180 degrees to"
+" correct the orientation."
+msgstr ""
+"**Ví dụ sử dụng:** Nếu video của bạn bị ngược, xoay nó 180 độ để chỉnh "
+"hướng."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:311
+msgid "Layout"
+msgstr "Bố cục"
+
+#: ../clips.rst:312
+msgid ""
+"The :guilabel:`Transform → Layout` submenu adjusts the size of a clip and "
+"snaps it to a chosen corner of the screen, useful for picture-in-picture or "
+"watermark effects. See :ref:`clip_location_x_ref`, :ref:`clip_scale_x_ref`, "
+":guilabel:`Margin`, and :guilabel:`Corner Radius` key-frames."
+msgstr ""
+"Menu con :guilabel:`Biến đổi → Bố cục` điều chỉnh kích thước clip và gắn nó "
+"vào một góc màn hình đã chọn, hữu ích cho hiệu ứng hình trong hình hoặc "
+"watermark. Xem :ref:`clip_location_x_ref`, :ref:`clip_scale_x_ref`, "
+":guilabel:`Lề`, và :guilabel:`Bán kính góc` khung khóa."
+
+#: ../clips.rst:317
+msgid ":guilabel:`Reset Layout` — removes any layout keyframes."
+msgstr ":guilabel:`Đặt lại Bố cục` — loại bỏ tất cả các khung khóa bố cục."
+
+#: ../clips.rst:318
+msgid ""
+":guilabel:`1/4 Size` — positions the clip at 1/4 of the screen in the "
+"Center, Top Left, Top Right, Bottom Left, or Bottom Right corner."
+msgstr ""
+":guilabel:`Kích thước 1/4` — đặt clip ở 1/4 màn hình tại Trung tâm, Góc trên"
+" trái, Góc trên phải, Góc dưới trái hoặc Góc dưới phải."
+
+#: ../clips.rst:319
+msgid ""
+":guilabel:`Show All (Maintain Ratio)` — fits the entire clip frame within "
+"the screen while preserving its aspect ratio."
+msgstr ""
+":guilabel:`Hiển thị tất cả (Giữ tỷ lệ)` — vừa khung clip toàn bộ trong màn "
+"hình đồng thời giữ nguyên tỷ lệ khung hình."
+
+#: ../clips.rst:320
+msgid ""
+":guilabel:`Show All (Distort)` — stretches the entire clip frame to fill the"
+" screen, ignoring aspect ratio."
+msgstr ""
+":guilabel:`Hiển thị tất cả (Biến dạng)` — kéo giãn toàn bộ khung clip để lấp"
+" đầy màn hình, bỏ qua tỷ lệ khung hình."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:322
+msgid ""
+"**Usage Example:** Placing a logo in the corner of a video using the layout "
+"preset."
+msgstr "**Ví dụ sử dụng:** Đặt logo vào góc video bằng cài đặt sẵn layout."
+
+#: ../clips.rst:323
+msgid ""
+"**Tip:** Use :guilabel:`Margin` to create an inset layout area for a clip, "
+"and :guilabel:`Corner Radius` to round picture-in-picture camera clips "
+"without adding a Mask effect."
+msgstr ""
+"**Mẹo:** Sử dụng :guilabel:`Lề` để tạo vùng bố cục lùi vào cho clip, và "
+":guilabel:`Bán kính góc` để bo tròn các clip camera hình trong hình mà không"
+" cần thêm hiệu ứng Mặt nạ."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:325
+msgid ""
+"**Tip:** Combine with animation presets for dynamic transitions involving "
+"resizing and repositioning."
+msgstr ""
+"**Mẹo:** Kết hợp với các cài đặt sẵn hoạt ảnh để tạo chuyển tiếp động bao "
+"gồm thay đổi kích thước và định vị lại."
+
+#: ../clips.rst:329
+msgid ""
+"The :guilabel:`Speed` menu manipulates clip playback speed, allowing for "
+"reverse playback, time-lapse, slow-motion, freezes, and looping effects. See"
+" :ref:`clip_time_ref` key-frame."
+msgstr ""
+"Menu :guilabel:`Tốc độ` điều khiển tốc độ phát lại clip, cho phép phát "
+"ngược, tua nhanh thời gian, chuyển động chậm, đóng băng và hiệu ứng lặp lại."
+" Xem :ref:`clip_time_ref` khung khóa."
+
+#: ../clips.rst:332
+msgid ":guilabel:`Reset Speed` — restores the clip to normal 1× speed."
+msgstr ":guilabel:`Đặt lại Tốc độ` — khôi phục clip về tốc độ bình thường 1×."
+
+#: ../clips.rst:333
+msgid ":guilabel:`Reverse` — plays the clip backwards at normal speed."
+msgstr ":guilabel:`Phát ngược` — phát clip ngược với tốc độ bình thường."
+
+#: ../clips.rst:334
+msgid ""
+":guilabel:`Speed Up` → Forward / Backward → 2×, 4×, 8×, 16× — speeds up "
+"playback in either direction."
+msgstr ""
+":guilabel:`Tăng tốc` → Tiến / Lùi → 2×, 4×, 8×, 16× — tăng tốc phát lại theo"
+" cả hai hướng."
+
+#: ../clips.rst:335
+msgid ""
+":guilabel:`Slow Down` → Forward / Backward → 1/2×, 1/4×, 1/8×, 1/16× — slows"
+" down playback in either direction."
+msgstr ""
+":guilabel:`Giảm tốc` → Tiến / Lùi → 1/2×, 1/4×, 1/8×, 1/16× — làm chậm phát "
+"lại theo cả hai hướng."
+
+#: ../clips.rst:336
+msgid ":guilabel:`Repeat` — see below."
+msgstr ":guilabel:`Lặp lại` — xem bên dưới."
+
+#: ../clips.rst:337
+msgid ""
+":guilabel:`Freeze` — freezes on the frame at the current playhead position "
+"for 2, 4, 6, 8, 10, 20, or 30 seconds."
+msgstr ""
+":guilabel:`Đóng băng` — đóng băng khung hình tại vị trí playhead hiện tại "
+"trong 2, 4, 6, 8, 10, 20 hoặc 30 giây."
+
+#: ../clips.rst:338
+msgid ""
+":guilabel:`Freeze && Zoom` — freezes and simultaneously zooms in on that "
+"frozen frame."
+msgstr ""
+":guilabel:`Đóng băng & Phóng to` — đóng băng và đồng thời phóng to khung "
+"hình đó."
+
+#: ../clips.rst:340
+msgid ""
+"**Slow motion** — :guilabel:`Slow Down → 1/2×` or :guilabel:`1/4×` for "
+"dreamy or dramatic footage."
+msgstr ""
+"**Chuyển động chậm** — :guilabel:`Giảm tốc → 1/2×` hoặc :guilabel:`1/4×` cho"
+" cảnh quay mơ màng hoặc kịch tính."
+
+#: ../clips.rst:341
+msgid ""
+"**Time-lapse** — :guilabel:`Speed Up → 8×` or :guilabel:`16×` to compress "
+"hours into seconds."
+msgstr ""
+"**Tua nhanh thời gian** — :guilabel:`Tăng tốc → 8×` hoặc :guilabel:`16×` để "
+"nén hàng giờ thành vài giây."
+
+# Main-window terminology review, 2026-09-26.
+#: ../clips.rst:342
+msgid ""
+"**Speed ramp** — use the :guilabel:`Timing` tool to drag clip edges and "
+"create a natural-feeling speed change; OpenShot scales all keyframes "
+"automatically."
+msgstr ""
+"**Tăng giảm tốc độ** — sử dụng công cụ :guilabel:`Đổi tốc độ` để kéo các "
+"cạnh clip và tạo thay đổi tốc độ tự nhiên; OpenShot tự động điều chỉnh tất "
+"cả các khung khóa."
+
+#: ../clips.rst:343
+msgid ""
+"**Tip:** Combine :guilabel:`Freeze` with :guilabel:`Speed Up` for an impact-"
+"freeze-then-fast-forward effect."
+msgstr ""
+"**Mẹo:** Kết hợp :guilabel:`Đóng băng` với :guilabel:`Tăng tốc` để tạo hiệu "
+"ứng đóng băng rồi tua nhanh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:348
+msgid "Repeat"
+msgstr "Lặp lại"
+
+#: ../clips.rst:349
+msgid ""
+"Use :guilabel:`Speed → Repeat` to play a clip multiple times, without "
+"building the time curve by hand. OpenShot writes the needed :guilabel:`Time`"
+" keyframes for you (you can edit them later)."
+msgstr ""
+"Sử dụng :guilabel:`Tốc độ → Lặp lại` để phát clip nhiều lần, không cần tạo "
+"đường cong thời gian thủ công. OpenShot sẽ tạo các khung khóa "
+":guilabel:`Thời gian` cần thiết cho bạn (bạn có thể chỉnh sửa sau)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:352
+msgid "**Menu path**"
+msgstr "**Đường dẫn menu**"
+
+#: ../clips.rst:354
+msgid ""
+":guilabel:`Speed → Repeat → Loop → Forward` – plays left to right, then "
+"starts again from the beginning"
+msgstr ""
+":guilabel:`Tốc độ → Lặp lại → Vòng lặp → Tiến` – phát từ trái sang phải, sau"
+" đó bắt đầu lại từ đầu"
+
+#: ../clips.rst:355
+msgid ""
+":guilabel:`Speed → Repeat → Loop → Reverse` – plays right to left, then "
+"starts again from the end"
+msgstr ""
+":guilabel:`Tốc độ → Lặp lại → Vòng lặp → Ngược` – phát từ phải sang trái, "
+"sau đó bắt đầu lại từ cuối"
+
+#: ../clips.rst:356
+msgid ""
+":guilabel:`Speed → Repeat → Ping-Pong → Forward` – forward, then backward, "
+"then forward…"
+msgstr ""
+":guilabel:`Tốc độ → Lặp lại → Ping-Pong → Tiến` – tiến, rồi lùi, rồi tiến…"
+
+#: ../clips.rst:357
+msgid ""
+":guilabel:`Speed → Repeat → Ping-Pong → Reverse` – backward, then forward, "
+"then backward…"
+msgstr ""
+":guilabel:`Tốc độ → Lặp lại → Ping-Pong → Đảo ngược` – lùi, rồi tiến, rồi "
+"lại lùi…"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:358
+msgid ":guilabel:`Custom…` – opens a dialog for extra options (see below)"
+msgstr ""
+":guilabel:`Custom…` – mở hộp thoại cho các tùy chọn bổ sung (xem bên dưới)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:360
+msgid ""
+"Counts are **finite** (2x, 3x, 4x, 5x, 8x, 10x, or a custom number). "
+"Example: “Forward then Back and stop” = :guilabel:`Ping-Pong → Forward → "
+"2x`."
+msgstr ""
+"Số lần lặp là **hữu hạn** (2x, 3x, 4x, 5x, 8x, 10x hoặc số tùy chỉnh). Ví "
+"dụ: “Tiến rồi lùi và dừng” = :guilabel:`Ping-Pong → Forward → 2x`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:363
+msgid "**What gets repeated**"
+msgstr "**Phần được lặp lại**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:365
+msgid "Repeat always acts on the **currently trimmed** in/out of the clip."
+msgstr ""
+"Lặp lại luôn áp dụng cho phần vào/ra **đã cắt** hiện tại của đoạn clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:366
+msgid ""
+"The :guilabel:`Time` curve is stamped as a simple shape: - Loop Forward = "
+"rising saw - Loop Reverse = falling saw - Ping-Pong = triangle (direction "
+"flips each pass)"
+msgstr ""
+"Đường cong :guilabel:`Time` được đánh dấu bằng hình dạng đơn giản: - Loop "
+"Forward = hình răng cưa lên - Loop Reverse = hình răng cưa xuống - Ping-Pong"
+" = hình tam giác (đổi hướng mỗi lần lặp)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:370
+msgid ""
+"To avoid a double frame at the seam, the last frame of each pass is not "
+"duplicated."
+msgstr ""
+"Để tránh trùng khung hình tại điểm nối, khung hình cuối cùng của mỗi lần lặp"
+" không bị nhân đôi."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:372
+msgid "**Keyframes during Repeat**"
+msgstr "**Khung khóa trong khi lặp lại**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:374
+msgid ""
+"When you use Repeat, OpenShot will also **repeat other keyframes** found "
+"inside the trimmed section (location, scale, effects, etc.) into each pass "
+"so your animations stay in sync."
+msgstr ""
+"Khi bạn sử dụng Lặp lại, OpenShot cũng sẽ **lặp lại các khung khóa khác** "
+"bên trong phần đã cắt (vị trí, tỷ lệ, hiệu ứng, v.v.) trong mỗi lần lặp để "
+"hoạt ảnh của bạn đồng bộ."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:375
+msgid "Repeated keyframes keep their relative timing inside each pass."
+msgstr ""
+"Các khung khóa lặp lại giữ nguyên thời gian tương đối trong mỗi lần lặp."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:377
+msgid "**Custom Repeat** (dialog options)"
+msgstr "**Lặp lại tùy chỉnh** (tùy chọn hộp thoại)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:379
+msgid ":guilabel:`Pattern:` Loop | Ping-Pong"
+msgstr ":guilabel:`Pattern:` Vòng lặp | Ping-Pong"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:380
+msgid ":guilabel:`Direction:` Forward | Reverse"
+msgstr ":guilabel:`Direction:` Tiến | Lùi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:381
+msgid ""
+":guilabel:`Passes:` integer (2 or more). This is the number of times it will"
+" play."
+msgstr ":guilabel:`Passes:` số nguyên (2 hoặc nhiều hơn). Đây là số lần phát."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:382
+msgid ""
+":guilabel:`Delay:` number + units [frames | ms | sec]. This is an optional "
+"delay between each repeated pass."
+msgstr ""
+":guilabel:`Delay:` số + đơn vị [khung hình | ms | giây]. Đây là khoảng trễ "
+"tùy chọn giữa mỗi lần lặp."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:383
+msgid ""
+":guilabel:`Speed Ramp (%):` % speed change per pass (optional). Positive "
+"speeds up each pass; negative slows down each pass."
+msgstr ""
+":guilabel:`Speed Ramp (%):` % thay đổi tốc độ mỗi lần lặp (tùy chọn). Giá "
+"trị dương làm tăng tốc mỗi lần; giá trị âm làm chậm mỗi lần."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:385
+msgid "**Reset**"
+msgstr "**Đặt lại**"
+
+#: ../clips.rst:387
+msgid ""
+":guilabel:`Speed → Reset Speed` completely removes any Time curve (including"
+" Repeat) and restores the clip to its original playback, **without deleting "
+"your original non-Time keyframes**."
+msgstr ""
+":guilabel:`Tốc độ → Đặt lại tốc độ` hoàn toàn loại bỏ mọi đường cong Thời "
+"gian (bao gồm Lặp lại) và khôi phục clip về phát lại gốc, **không xóa các "
+"keyframe không thuộc Thời gian ban đầu của bạn**."
+
+# Main-window terminology review, 2026-09-26.
+#: ../clips.rst:391
+msgid "Timing Tool"
+msgstr "Công cụ đổi tốc độ"
+
+# Main-window terminology review, 2026-09-26.
+#: ../clips.rst:392
+msgid ""
+"Another way to change a clip's speed is with the :guilabel:`Timing` tool on "
+"the timeline toolbar. Enable the clock icon and drag a clip's edges. "
+"Lengthening the clip slows playback, while shotening it speeds the clip up. "
+"All keyframes on the clip and its effects are scaled so their relative "
+"positions remain intact."
+msgstr ""
+"Một cách khác để thay đổi tốc độ của clip là sử dụng công cụ :guilabel:`Đổi "
+"tốc độ` trên thanh công cụ timeline. Bật biểu tượng đồng hồ và kéo các cạnh "
+"của clip. Kéo dài clip sẽ làm chậm phát lại, trong khi rút ngắn clip sẽ làm "
+"tăng tốc clip. Tất cả các keyframe trên clip và hiệu ứng của nó được điều "
+"chỉnh tỉ lệ để vị trí tương đối vẫn giữ nguyên."
+
+#: ../clips.rst:398
+msgid ""
+"The :guilabel:`Look` menu applies one-click visual style presets to clips. "
+"All presets work by adding or updating effects on the clip — you can inspect"
+" or animate them further in the Properties dock. The menu is organized into "
+"four submenus plus two direct actions at the bottom."
+msgstr ""
+"Menu :guilabel:`Giao diện` áp dụng các cài đặt trước phong cách hình ảnh chỉ"
+" với một cú nhấp cho các clip. Tất cả các cài đặt trước hoạt động bằng cách "
+"thêm hoặc cập nhật hiệu ứng trên clip — bạn có thể kiểm tra hoặc tạo hoạt "
+"ảnh thêm trong dock Thuộc tính. Menu được tổ chức thành bốn menu con cùng "
+"hai hành động trực tiếp ở dưới cùng."
+
+#: ../clips.rst:402
+msgid ""
+":guilabel:`Reset Look` — removes all Look-managed effects (Color Grade, Film"
+" Grain, Analog Tape, Sharpen, Blur, Shadow, Glow) from the selected clips in"
+" a single step."
+msgstr ""
+":guilabel:`Đặt lại Giao diện` — loại bỏ tất cả hiệu ứng do Giao diện quản lý"
+" (Phân loại màu, Hạt phim, Băng analog, Làm nét, Làm mờ, Bóng, Phát sáng) "
+"khỏi các clip được chọn chỉ trong một bước."
+
+#: ../clips.rst:405
+msgid ""
+"**Color** — applies a :guilabel:`Color Grade` effect with one of four quick "
+"presets:"
+msgstr ""
+"**Màu sắc** — áp dụng hiệu ứng :guilabel:`Phân loại màu` với một trong bốn "
+"cài đặt trước nhanh:"
+
+#: ../clips.rst:407
+msgid ""
+"**Auto Contrast** — boosts contrast by lifting shadows and pulling "
+"highlights."
+msgstr ""
+"**Tự động Tương phản** — tăng cường tương phản bằng cách nâng bóng tối và "
+"kéo sáng vùng sáng."
+
+#: ../clips.rst:408
+msgid "**Lift Shadows** — brightens the dark areas of the image."
+msgstr "**Nâng bóng** — làm sáng các vùng tối của hình ảnh."
+
+#: ../clips.rst:409
+msgid "**Warm Up** — shifts the color balance toward warm orange/amber tones."
+msgstr "**Làm ấm** — chuyển cân bằng màu về phía tông cam/ hổ phách ấm áp."
+
+#: ../clips.rst:410
+msgid "**Boost Color** — increases color saturation."
+msgstr "**Tăng màu** — tăng độ bão hòa màu."
+
+#: ../clips.rst:412
+msgid "**Film** — cinematic film simulation:"
+msgstr "**Phim** — mô phỏng phim điện ảnh:"
+
+#: ../clips.rst:414
+msgid ""
+":guilabel:`Film Grain` → **No Film Grain**, then: **35mm Fine**, **35mm "
+"Classic**, **35mm Gritty**, **16mm Classic**, **Super 8**, **High ISO** — "
+"adds photographic grain at various strengths and sizes."
+msgstr ""
+":guilabel:`Hạt phim` → **Không hạt phim**, sau đó: **35mm Mịn**, **35mm Cổ "
+"điển**, **35mm Thô**, **16mm Cổ điển**, **Super 8**, **ISO cao** — thêm hạt "
+"ảnh với các mức độ và kích thước khác nhau."
+
+#: ../clips.rst:416
+msgid ""
+":guilabel:`Analog Tape` → **No Analog Tape**, then: **Subtle**, **VHS**, "
+"**Heavy** — adds tape noise and color degradation for a retro video look."
+msgstr ""
+":guilabel:`Băng analog` → **Không băng analog**, sau đó: **Nhẹ nhàng**, "
+"**VHS**, **Nặng** — thêm tiếng ồn băng và suy giảm màu sắc cho phong cách "
+"video cổ điển."
+
+#: ../clips.rst:419
+msgid "**Focus** — sharpness adjustments:"
+msgstr "**Tiêu cự** — điều chỉnh độ nét:"
+
+#: ../clips.rst:421
+msgid ""
+":guilabel:`Sharpen` → **No Sharpen**, then: **Subtle**, **Medium**, "
+"**Strong** — sharpens fine detail."
+msgstr ""
+":guilabel:`Làm nét` → **Không làm nét**, sau đó: **Nhẹ**, **Trung bình**, "
+"**Mạnh** — làm nét các chi tiết nhỏ."
+
+#: ../clips.rst:422
+msgid ""
+":guilabel:`Blur` → **No Blur**, then: **Soft Focus**, **Medium**, **Heavy** "
+"— softens the image."
+msgstr ""
+":guilabel:`Làm mờ` → **Không làm mờ**, sau đó: **Tiêu cự mềm**, **Trung "
+"bình**, **Nặng** — làm mềm hình ảnh."
+
+#: ../clips.rst:424
+msgid "**Lighting** — light and shadow overlays:"
+msgstr "**Ánh sáng** — lớp phủ ánh sáng và bóng:"
+
+#: ../clips.rst:426
+msgid ""
+":guilabel:`Shadow` → **No Shadow**, then: **Subtle**, **Soft**, **Strong**, "
+"**Long** — casts a drop shadow across the clip."
+msgstr ""
+":guilabel:`Bóng` → **Không bóng**, sau đó: **Nhẹ**, **Mềm**, **Mạnh**, "
+"**Dài** — tạo bóng đổ trên clip."
+
+#: ../clips.rst:428
+msgid ""
+":guilabel:`Glow` → **No Glow**, then: **Soft White**, **Warm**, **Neon**, "
+"**Inner Glow** — adds a soft halo or glow effect."
+msgstr ""
+":guilabel:`Phát sáng` → **Không phát sáng**, sau đó: **Trắng mềm**, **Ấm "
+"áp**, **Neon**, **Phát sáng bên trong** — thêm hiệu ứng hào quang hoặc phát "
+"sáng mềm."
+
+#: ../clips.rst:431
+msgid "At the bottom of the Look menu:"
+msgstr "Ở dưới cùng của menu Giao diện:"
+
+#: ../clips.rst:433
+msgid ""
+":guilabel:`Adjust Colors` — opens the :guilabel:`Color Wheels` dock for full"
+" manual color grading with lift/gamma/gain wheels, curves, and an "
+"Amount/Luma blend slider."
+msgstr ""
+":guilabel:`Điều chỉnh màu` — mở dock :guilabel:`Bánh xe màu` để phân loại "
+"màu thủ công đầy đủ với bánh xe nâng/gamma/tăng, đường cong và thanh trượt "
+"pha trộn Lượng/Màu sáng."
+
+#: ../clips.rst:435
+msgid ""
+":guilabel:`Analyze Colors` — opens the :guilabel:`Luma Waveform` and "
+":guilabel:`Histogram` video scopes on the right side of the window, tabified"
+" together."
+msgstr ""
+":guilabel:`Phân tích màu` — mở các công cụ đo video :guilabel:`Sóng Luma` và"
+" :guilabel:`Biểu đồ` ở bên phải cửa sổ, được gộp thành tab."
+
+#: ../clips.rst:438
+msgid ""
+"**Tip:** Each Look submenu has a \"No …\" option at the top to remove just "
+"that single effect without affecting the others."
+msgstr ""
+"**Mẹo:** Mỗi menu con Giao diện có tùy chọn \"Không …\" ở trên cùng để chỉ "
+"loại bỏ hiệu ứng đó mà không ảnh hưởng đến các hiệu ứng khác."
+
+#: ../clips.rst:440
+msgid ""
+"**Tip:** After applying a Look preset, double-click the effect badge on the "
+"clip (or use Properties) to fine-tune every parameter or animate it over "
+"time."
+msgstr ""
+"**Mẹo:** Sau khi áp dụng cài đặt trước Giao diện, nhấp đúp vào biểu tượng "
+"hiệu ứng trên clip (hoặc dùng Thuộc tính) để tinh chỉnh từng tham số hoặc "
+"tạo hoạt ảnh theo thời gian."
+
+#: ../clips.rst:445
+msgid ""
+"The :guilabel:`Audio` menu groups all audio-related clip actions in one "
+"place."
+msgstr ""
+"Menu :guilabel:`Âm thanh` nhóm tất cả các hành động liên quan đến âm thanh "
+"của clip vào một chỗ."
+
+#: ../clips.rst:447
+msgid ""
+"**Volume** — controls the clip's audio level. See :ref:`clip_volume_ref` "
+"key-frame."
+msgstr ""
+"**Âm lượng** — điều khiển mức âm thanh của clip. Xem :ref:`clip_volume_ref` "
+"keyframe."
+
+#: ../clips.rst:449
+msgid ""
+":guilabel:`Reset Volume` — removes all volume keyframes, returning to full "
+"(1×) volume."
+msgstr ""
+":guilabel:`Đặt lại âm lượng` — loại bỏ tất cả keyframe âm lượng, trở về âm "
+"lượng đầy đủ (1×)."
+
+#: ../clips.rst:450
+msgid ""
+":guilabel:`Level` — sets a fixed volume percentage (0 % to 130 %) for the "
+"entire clip."
+msgstr ""
+":guilabel:`Mức` — đặt tỷ lệ phần trăm âm lượng cố định (0 % đến 130 %) cho "
+"toàn bộ clip."
+
+#: ../clips.rst:451
+msgid ""
+":guilabel:`Fade In` → :guilabel:`Fast` / :guilabel:`Slow` — fades volume "
+"from silence at the start of the clip."
+msgstr ""
+":guilabel:`Làm mờ vào` → :guilabel:`Nhanh` / :guilabel:`Chậm` — làm tăng âm "
+"lượng từ im lặng ở đầu clip."
+
+#: ../clips.rst:452
+msgid ""
+":guilabel:`Fade Out` → :guilabel:`Fast` / :guilabel:`Slow` — fades volume to"
+" silence at the end of the clip."
+msgstr ""
+":guilabel:`Làm mờ ra` → :guilabel:`Nhanh` / :guilabel:`Chậm` — làm giảm âm "
+"lượng đến im lặng ở cuối clip."
+
+#: ../clips.rst:453
+msgid ""
+":guilabel:`Fade In and Out` → :guilabel:`Fast` / :guilabel:`Slow` — applies "
+"both a volume fade-in and fade-out."
+msgstr ""
+":guilabel:`Làm mờ vào và ra` → :guilabel:`Nhanh` / :guilabel:`Chậm` — áp "
+"dụng cả làm mờ âm lượng vào và ra."
+
+#: ../clips.rst:455
+msgid "**Separate** — splits the audio track out of a clip:"
+msgstr "**Tách riêng** — tách đường âm thanh ra khỏi clip:"
+
+#: ../clips.rst:457
+msgid ""
+":guilabel:`Single Clip (all channels)` — creates one detached audio clip on "
+"a layer below the original."
+msgstr ""
+":guilabel:`Clip đơn (tất cả kênh)` — tạo một clip âm thanh tách rời trên lớp"
+" bên dưới clip gốc."
+
+#: ../clips.rst:458
+msgid ""
+":guilabel:`Multiple Clips (each channel)` — creates separate detached audio "
+"clips, one per audio channel, on multiple layers below the original."
+msgstr ""
+":guilabel:`Nhiều clip (mỗi kênh)` — tạo các clip âm thanh tách rời riêng "
+"biệt, mỗi kênh một clip, trên nhiều lớp bên dưới clip gốc."
+
+#: ../clips.rst:460
+msgid ""
+"**Show Waveform / Hide Waveform** — toggles the audio waveform visualization"
+" on the timeline for audio-only clips. Only shown for clips that do not have"
+" a video track."
+msgstr ""
+"**Hiện dạng sóng / Ẩn dạng sóng** — chuyển đổi hiển thị dạng sóng âm thanh "
+"trên dòng thời gian cho các clip chỉ có âm thanh. Chỉ hiển thị cho các clip "
+"không có đường video."
+
+#: ../clips.rst:463
+msgid ""
+"**Analyze Levels** — opens the :guilabel:`Audio Levels` scope dock. If other"
+" scope docks are already open, OpenShot tabifies :guilabel:`Audio Levels` "
+"with them."
+msgstr ""
+"**Phân tích mức** — mở dock công cụ :guilabel:`Mức âm thanh`. Nếu các dock "
+"công cụ khác đã mở, OpenShot sẽ gộp :guilabel:`Mức âm thanh` thành tab cùng "
+"chúng."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:466
+msgid ""
+"**Usage Example:** Applying a gradual volume fade-out to transition between "
+"scenes."
+msgstr "**Ví dụ sử dụng:** Áp dụng hiệu ứng giảm âm lượng dần để chuyển cảnh."
+
+#: ../clips.rst:467
+msgid ""
+"**Usage Example:** Extracting background music from a video clip for "
+"independent volume control."
+msgstr ""
+"**Ví dụ sử dụng:** Tách nhạc nền từ clip video để điều khiển âm lượng độc "
+"lập."
+
+#: ../clips.rst:468
+msgid ""
+"**Tip:** Use :guilabel:`Audio → Volume → Fade In/Out` for audio-only fades. "
+"Use the top-level :guilabel:`Fade` menu for a combined video+audio fade."
+msgstr ""
+"**Mẹo:** Dùng :guilabel:`Âm thanh → Âm lượng → Làm mờ vào/ra` cho hiệu ứng "
+"làm mờ chỉ âm thanh. Dùng menu cấp cao :guilabel:`Làm mờ` cho hiệu ứng làm "
+"mờ kết hợp video và âm thanh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:472
+msgid ""
+"The :guilabel:`Slice` tool lets you cut a clip at the position of the play-"
+"head (*the vertical line that shows your current position in the timeline*)."
+" This will split the clip into two separate parts at the exact point where "
+"the play-head is."
+msgstr ""
+"Công cụ :guilabel:`Slice` cho phép bạn cắt clip tại vị trí của play-head "
+"(*đường thẳng đứng hiển thị vị trí hiện tại của bạn trên timeline*). Điều "
+"này sẽ chia clip thành hai phần riêng biệt tại điểm chính xác của play-head."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:475
+msgid ""
+"Slicing is a key feature for making precise edits and rearranging sections "
+"of your video. You can slice a clip and choose to keep one side or both, and"
+" with the ripple option, you can automatically shift other clips on the same"
+" track to fill any gaps caused by the cut."
+msgstr ""
+"Cắt là một tính năng quan trọng để thực hiện chỉnh sửa chính xác và sắp xếp "
+"lại các phần của video. Bạn có thể cắt clip và chọn giữ một bên hoặc cả hai,"
+" và với tùy chọn ripple, bạn có thể tự động dịch chuyển các clip khác trên "
+"cùng track để lấp đầy khoảng trống do cắt tạo ra."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:479
+msgid "**Slicing Options:**"
+msgstr "**Tùy chọn Cắt:**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:481
+msgid ""
+"**Keep Both Sides**: This option splits the clip into two parts, keeping "
+"everything on both sides of the play-head. It’s useful when you want to "
+"break a clip into sections but don’t want to remove anything."
+msgstr ""
+"**Giữ cả hai bên**: Tùy chọn này chia clip thành hai phần, giữ lại mọi thứ ở"
+" cả hai bên của play-head. Nó hữu ích khi bạn muốn chia clip thành các phần "
+"nhưng không muốn loại bỏ gì."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:482
+msgid ""
+"**Keep Left Side**: This option cuts the clip and removes the part to the "
+"right of the play-head, keeping only the part before the play-head. Use this"
+" to get rid of the portion of the clip that comes after the current point."
+msgstr ""
+"**Giữ bên trái**: Tùy chọn này cắt clip và loại bỏ phần bên phải của play-"
+"head, chỉ giữ phần trước play-head. Dùng để loại bỏ phần clip sau điểm hiện "
+"tại."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:483
+msgid ""
+"**Keep Right Side**: This option cuts the clip and removes the part to the "
+"left of the play-head, keeping only the part after the play-head. It’s handy"
+" for trimming away the beginning of a clip and keeping the rest."
+msgstr ""
+"**Giữ bên phải**: Tùy chọn này cắt clip và loại bỏ phần bên trái của play-"
+"head, chỉ giữ phần sau play-head. Thích hợp để cắt bỏ phần đầu clip và giữ "
+"lại phần còn lại."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:484
+msgid ""
+"**Ripple Slicing**: Ripple slicing not only cuts the clip but also moves any"
+" clips and transitions that follow to close the gap. This way, your timeline"
+" stays continuous without empty spaces after a cut, saving you the trouble "
+"of manually adjusting the clips that come after."
+msgstr ""
+"**Cắt Ripple**: Cắt ripple không chỉ cắt clip mà còn di chuyển các clip và "
+"chuyển cảnh theo sau để đóng khoảng trống. Nhờ đó, timeline của bạn luôn "
+"liền mạch không có khoảng trống sau khi cắt, giúp bạn không phải điều chỉnh "
+"thủ công các clip phía sau."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:486 ../clips.rst:660
+msgid "**Tips for Beginners:**"
+msgstr "**Mẹo cho Người mới bắt đầu:**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:488
+msgid ""
+"**Example**: If there’s a part of a clip you don’t want (like the end of a "
+"scene), use **Keep Left Side** or **Keep Right Side** to remove it. If you "
+"want to split a scene into multiple smaller sections to rearrange, use "
+"**Keep Both Sides**."
+msgstr ""
+"**Ví dụ**: Nếu có phần clip bạn không muốn (như phần cuối của cảnh), dùng "
+"**Giữ bên trái** hoặc **Giữ bên phải** để loại bỏ. Nếu muốn chia cảnh thành "
+"nhiều phần nhỏ để sắp xếp lại, dùng **Giữ cả hai bên**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:489
+msgid ""
+"**Quick Tip**: Slicing can also be used to break a long clip into smaller "
+"parts, making it easier to manage and edit each section separately."
+msgstr ""
+"**Mẹo nhanh**: Cắt cũng có thể dùng để chia clip dài thành các phần nhỏ hơn,"
+" giúp dễ quản lý và chỉnh sửa từng phần riêng biệt."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:491
+msgid ""
+"For a complete guide to slicing and all available keyboard shortcuts, see "
+"the :ref:`clips_cutting_slicing_ref` section."
+msgstr ""
+"Để có hướng dẫn đầy đủ về cắt và tất cả phím tắt có sẵn, xem phần "
+":ref:`clips_cutting_slicing_ref`."
+
+#: ../clips.rst:497
+msgid ""
+"The :guilabel:`Transform` context menu provides geometric preset actions for"
+" visual clips:"
+msgstr ""
+"Menu ngữ cảnh :guilabel:`Biến đổi` cung cấp các hành động cài đặt trước hình"
+" học cho các clip hình ảnh:"
+
+#: ../clips.rst:499
+msgid ""
+":guilabel:`No Transform` — removes all Rotate, Layout, and crop presets from"
+" the selected clips in one step."
+msgstr ""
+":guilabel:`Không biến đổi` — loại bỏ tất cả cài đặt trước Xoay, Bố cục và "
+"cắt từ các clip được chọn chỉ trong một bước."
+
+#: ../clips.rst:500
+msgid ""
+":guilabel:`Rotate` — rotate or flip the clip. See the :ref:`Rotate "
+"<clip_presets_rotate_ref>` section above."
+msgstr ""
+":guilabel:`Xoay` — xoay hoặc lật clip. Xem phần :ref:`Xoay "
+"<clip_presets_rotate_ref>` ở trên."
+
+#: ../clips.rst:501
+msgid ""
+":guilabel:`Crop` — add or remove a crop effect. See the :ref:`Crop "
+"<clip_presets_crop_ref>` section below."
+msgstr ""
+":guilabel:`Cắt` — thêm hoặc loại bỏ hiệu ứng cắt. Xem phần :ref:`Cắt "
+"<clip_presets_crop_ref>` bên dưới."
+
+#: ../clips.rst:502
+msgid ""
+":guilabel:`Layout` — resize and snap the clip to a corner or fit position. "
+"See the :ref:`Layout <clip_presets_layout_ref>` section above."
+msgstr ""
+":guilabel:`Bố cục` — thay đổi kích thước và căn chỉnh clip vào góc hoặc vị "
+"trí phù hợp. Xem phần :ref:`Bố cục <clip_presets_layout_ref>` ở trên."
+
+#: ../clips.rst:507
+msgid "Transform Tool"
+msgstr "Công cụ Biến đổi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:508
+msgid ""
+"The **Transform Tool** lets you quickly adjust a clip directly in the "
+"preview window, instead of changing location, scale, rotation, shear, and "
+"rotation origin values one property at a time. OpenShot shows the Transform "
+"Tool automatically whenever you select a clip on the timeline, with blue "
+"lines and handles drawn around the selected clip. You can also select "
+"multiple clips at once with :kbd:`Ctrl` or :kbd:`Shift`; in that case, the "
+"preview shows one set of handles around the full selection, and any move, "
+"scale, or rotation is applied to all selected clips together."
+msgstr ""
+"**Công cụ Biến đổi** cho phép bạn nhanh chóng điều chỉnh một clip trực tiếp "
+"trong cửa sổ xem trước, thay vì thay đổi vị trí, tỷ lệ, xoay, cắt xiên và "
+"giá trị gốc xoay từng thuộc tính một. OpenShot tự động hiển thị Công cụ Biến"
+" đổi mỗi khi bạn chọn một clip trên dòng thời gian, với các đường màu xanh "
+"và các tay cầm được vẽ xung quanh clip được chọn. Bạn cũng có thể chọn nhiều"
+" clip cùng lúc bằng :kbd:`Ctrl` hoặc :kbd:`Shift`; trong trường hợp đó, cửa "
+"sổ xem trước sẽ hiển thị một bộ tay cầm xung quanh toàn bộ lựa chọn, và mọi "
+"thao tác di chuyển, thay đổi tỷ lệ hoặc xoay sẽ được áp dụng cho tất cả các "
+"clip được chọn cùng nhau."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:517
+msgid "Dragging the blue squares will adjust the **scale** of the image."
+msgstr "Kéo các ô vuông màu xanh sẽ điều chỉnh **tỷ lệ** của hình ảnh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:518
+msgid "Dragging the center will move the **location** of the image."
+msgstr "Kéo trung tâm sẽ di chuyển **vị trí** của hình ảnh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:519
+msgid ""
+"Dragging the mouse on the outside of the blue lines will **rotate** the "
+"image."
+msgstr "Kéo chuột bên ngoài các đường màu xanh sẽ **xoay** hình ảnh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:520
+msgid ""
+"Hold :kbd:`Ctrl` or :kbd:`Shift` while rotating to snap to 15-degree "
+"increments."
+msgstr ""
+"Giữ :kbd:`Ctrl` hoặc :kbd:`Shift` khi xoay để căn chỉnh theo các bước 15 độ."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:521
+msgid ""
+"Dragging along the blue lines will **shear** the image in that direction."
+msgstr ""
+"Kéo dọc theo các đường màu xanh sẽ **cắt xiên** hình ảnh theo hướng đó."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:522
+msgid ""
+"Dragging the circle in the middle will move the **origin point** that "
+"controls the center of **rotation**."
+msgstr ""
+"Kéo vòng tròn ở giữa sẽ di chuyển **điểm gốc** điều khiển tâm của **xoay**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:524
+msgid ""
+"Note: Pay close attention to the play-head position (red playback line). Key"
+" frames are automatically created at the current playback position, to help "
+"quickly create animations. If you want to transform a clip with **no "
+"animation**, be sure the playhead is positioned before (to the left) of your"
+" clip. You can also manually adjust these same clip properties in the "
+"property editor, see :ref:`clip_properties_ref`."
+msgstr ""
+"Lưu ý: Hãy chú ý vị trí play-head (đường phát lại màu đỏ). Các keyframe được"
+" tạo tự động tại vị trí phát hiện tại, giúp tạo hoạt ảnh nhanh chóng. Nếu "
+"bạn muốn biến đổi clip **không có hoạt ảnh**, hãy đảm bảo play-head nằm "
+"trước (bên trái) clip của bạn. Bạn cũng có thể điều chỉnh thủ công các thuộc"
+" tính clip này trong trình chỉnh sửa thuộc tính, xem "
+":ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:531
+#, fuzzy
+msgid ""
+"**Usage Example:** Use the transform handles to resize and reposition a clip"
+" for a picture-in-picture effect."
+msgstr ""
+"**Ví dụ sử dụng:** Dùng chế độ biến đổi để thay đổi kích thước và định vị "
+"lại clip cho hiệu ứng hình trong hình."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:532
+#, fuzzy
+msgid "**Tip:** Use these handles to precisely control a clip's appearance."
+msgstr ""
+"**Mẹo:** Sử dụng cài đặt sẵn này để điều khiển chính xác cách hiển thị của "
+"clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:537
+msgid "Crop"
+msgstr "Cắt"
+
+#: ../clips.rst:538
+msgid ""
+"The :guilabel:`Transform → Crop` submenu adds a crop effect to the selected "
+"clip and displays interactive crop handles in the video preview. The submenu"
+" offers:"
+msgstr ""
+"Menu con :guilabel:`Biến đổi → Cắt` thêm hiệu ứng cắt vào clip được chọn và "
+"hiển thị các tay cầm cắt tương tác trong bản xem trước video. Menu con cung "
+"cấp:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:541
+msgid ":guilabel:`No Crop` – remove any existing crop effect."
+msgstr ":guilabel:`No Crop` – loại bỏ mọi hiệu ứng cắt hiện có."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:542
+msgid ""
+":guilabel:`Crop (No Resize)` – trim the clip without scaling the remaining "
+"area."
+msgstr ""
+":guilabel:`Crop (No Resize)` – cắt clip mà không thay đổi kích thước phần "
+"còn lại."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:543
+msgid ""
+":guilabel:`Crop (Resize)` – trim the clip and scale the cropped region to "
+"fill the frame."
+msgstr ""
+":guilabel:`Crop (Resize)` – cắt clip và phóng to vùng đã cắt để lấp đầy "
+"khung hình."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:545
+msgid ""
+"Drag the blue handles to adjust the crop boundaries, move the cropped area "
+"around, or move the center handle to reposition the image inside the cropped"
+" area."
+msgstr ""
+"Kéo các tay cầm màu xanh để điều chỉnh ranh giới cắt, di chuyển vùng đã cắt,"
+" hoặc kéo tay cầm trung tâm để định vị lại hình ảnh bên trong vùng cắt."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:549 ../clips.rst:734 ../clips.rst:1067
+msgid "Waveform"
+msgstr "Dạng sóng"
+
+#: ../clips.rst:550
+msgid ""
+"The :guilabel:`Audio → Show Waveform` / :guilabel:`Hide Waveform` action "
+"toggles whether an audio-only clip shows its waveform visualization on the "
+"timeline instead of the default thumbnail. This option only appears for "
+"clips that have no video track."
+msgstr ""
+"Hành động :guilabel:`Âm thanh → Hiển thị Sóng âm` / :guilabel:`Ẩn Sóng âm` "
+"chuyển đổi việc liệu clip chỉ có âm thanh có hiển thị hình sóng trên dòng "
+"thời gian thay vì hình thu nhỏ mặc định hay không. Tùy chọn này chỉ xuất "
+"hiện cho các clip không có đường video."
+
+#: ../clips.rst:554
+msgid ""
+"**Usage Example:** Displaying the audio waveform for precise audio editing "
+"and alignment."
+msgstr ""
+"**Ví dụ sử dụng:** Hiển thị sóng âm để chỉnh sửa và căn chỉnh âm thanh chính"
+" xác."
+
+#: ../clips.rst:555
+msgid ""
+"**Tip:** Use this to visually spot loud or quiet sections in a music clip "
+"without opening the audio scopes."
+msgstr ""
+"**Mẹo:** Sử dụng điều này để nhận biết trực quan các đoạn to hoặc nhỏ trong "
+"clip nhạc mà không cần mở các công cụ đo âm thanh."
+
+#: ../clips.rst:557
+msgid "**How timeline waveforms are scaled**"
+msgstr "**Cách sóng âm trên dòng thời gian được tỉ lệ hóa**"
+
+#: ../clips.rst:559
+msgid ""
+"Timeline waveforms are an editing aid: they help you find speech, beats, "
+"silence, and transients, and compare the approximate levels of different "
+"clips. New waveform data preserves the source's **absolute peak level**. "
+"OpenShot does not enlarge every quiet file until its highest peak fills the "
+"clip, so a quiet recording remains visibly quieter than a loud recording."
+msgstr ""
+"Sóng âm trên dòng thời gian là công cụ hỗ trợ chỉnh sửa: chúng giúp bạn tìm "
+"giọng nói, nhịp điệu, khoảng lặng và các điểm chuyển tiếp, cũng như so sánh "
+"mức độ gần đúng của các clip khác nhau. Dữ liệu sóng âm mới giữ nguyên **mức"
+" đỉnh tuyệt đối** của nguồn. OpenShot không phóng to mọi file yên tĩnh cho "
+"đến khi đỉnh cao nhất lấp đầy clip, vì vậy bản ghi yên tĩnh vẫn hiển thị rõ "
+"ràng là nhỏ hơn bản ghi to."
+
+#: ../clips.rst:564
+msgid ""
+"Pure linear amplitude is accurate but makes ordinary speech difficult to "
+"see. OpenShot therefore applies a fixed, gentle square-root display curve. "
+"This expands useful detail while preserving the order of levels: a louder "
+"source always appears taller than a quieter source. The curve changes only "
+"the drawing; it does not alter, normalize, or process the recorded audio."
+msgstr ""
+"Biên độ tuyến tính thuần túy là chính xác nhưng làm cho giọng nói bình "
+"thường khó nhìn thấy. Vì vậy, OpenShot áp dụng một đường cong hiển thị căn "
+"bậc hai cố định và nhẹ nhàng. Điều này mở rộng chi tiết hữu ích trong khi "
+"giữ nguyên thứ tự mức độ: nguồn to hơn luôn xuất hiện cao hơn nguồn nhỏ hơn."
+" Đường cong chỉ thay đổi cách vẽ; nó không thay đổi, chuẩn hóa hoặc xử lý âm"
+" thanh đã ghi."
+
+#: ../clips.rst:569
+msgid "Approximate waveform height for new clips"
+msgstr "Chiều cao sóng âm gần đúng cho các clip mới"
+
+#: ../clips.rst:573
+msgid "Peak Level"
+msgstr "Mức Đỉnh"
+
+#: ../clips.rst:573
+msgid "Display Height"
+msgstr "Chiều Cao Hiển Thị"
+
+#: ../clips.rst:573
+msgid "What It Often Looks Like"
+msgstr "Hình Dạng Thường Gặp"
+
+#: ../clips.rst:575
+msgid "``0 dBFS``"
+msgstr "``0 dBFS``"
+
+#: ../clips.rst:575
+msgid "100%"
+msgstr "100%"
+
+#: ../clips.rst:575
+msgid "Full-scale peak; check for possible clipping."
+msgstr "Đỉnh toàn thang đo; kiểm tra khả năng bị cắt âm."
+
+#: ../clips.rst:576
+msgid "``-6 dBFS``"
+msgstr "``-6 dBFS``"
+
+#: ../clips.rst:576
+msgid "71%"
+msgstr "71%"
+
+#: ../clips.rst:576
+msgid "Strong transient or loud program audio."
+msgstr "Âm thanh chương trình mạnh hoặc chuyển tiếp lớn."
+
+#: ../clips.rst:577
+msgid "``-12 dBFS``"
+msgstr "``-12 dBFS``"
+
+#: ../clips.rst:577
+msgid "50%"
+msgstr "50%"
+
+#: ../clips.rst:577
+msgid "Healthy speech or other prominent audio."
+msgstr "Giọng nói rõ ràng hoặc âm thanh nổi bật khác."
+
+#: ../clips.rst:578
+msgid "``-20 dBFS``"
+msgstr "``-20 dBFS``"
+
+#: ../clips.rst:578
+msgid "32%"
+msgstr "32%"
+
+#: ../clips.rst:578
+msgid "Moderate speech or background program audio."
+msgstr "Giọng nói vừa phải hoặc âm thanh nền chương trình."
+
+#: ../clips.rst:579
+msgid "``-40 dBFS``"
+msgstr "``-40 dBFS``"
+
+#: ../clips.rst:579
+msgid "10%"
+msgstr "10%"
+
+#: ../clips.rst:579
+msgid "Quiet room tone or microphone noise floor."
+msgstr "Âm nền phòng yên tĩnh hoặc tiếng ồn micro."
+
+#: ../clips.rst:580
+msgid "``-60 dBFS``"
+msgstr "``-60 dBFS``"
+
+#: ../clips.rst:580
+msgid "3%"
+msgstr "3%"
+
+#: ../clips.rst:580
+msgid "Very quiet detail near the center line."
+msgstr "Chi tiết rất nhỏ gần đường trung tâm."
+
+#: ../clips.rst:583
+msgid ""
+"OpenShot samples both **peak** and **RMS** envelopes at regular time "
+"intervals. The lighter outer envelope shows brief peaks and transients; the "
+"solid inner envelope shows sustained RMS energy. Both follow the clip's "
+"Volume and Time curves and use the same fixed display curve. A subtle center"
+" line keeps silent passages identifiable without making them look louder "
+"than they are."
+msgstr ""
+"OpenShot lấy mẫu cả phong bì **đỉnh** và **RMS** theo các khoảng thời gian "
+"đều đặn. Phong bì ngoài nhẹ hơn hiển thị các đỉnh và chuyển tiếp ngắn; phong"
+" bì trong đặc thể hiện năng lượng RMS duy trì. Cả hai theo dõi các đường "
+"cong Âm lượng và Thời gian của clip và sử dụng cùng một đường cong hiển thị "
+"cố định. Một đường trung tâm tinh tế giúp nhận biết các đoạn im lặng mà "
+"không làm chúng trông to hơn thực tế."
+
+#: ../clips.rst:588
+msgid ""
+"New waveforms use 200 samples per second by default, providing several "
+"measurements within a typical video frame. Change this density with "
+":guilabel:`Edit → Preferences → Timeline → Waveform Samples (per second)`. "
+"Higher values show more detail when zoomed in but increase project data size"
+" and analysis time. The painter reduces dense data to the visible timeline "
+"pixels, and its rendered-waveform cache keeps normal scrolling and "
+"repainting inexpensive. Live microphone previews use the selected density "
+"and the same peak/RMS display as completed recordings."
+msgstr ""
+"Sóng âm mới sử dụng mặc định 200 mẫu mỗi giây, cung cấp nhiều phép đo trong "
+"một khung video điển hình. Thay đổi mật độ này bằng :guilabel:`Chỉnh sửa → "
+"Tùy chọn → Dòng thời gian → Mẫu sóng âm (mỗi giây)`. Giá trị cao hơn hiển "
+"thị nhiều chi tiết hơn khi phóng to nhưng làm tăng kích thước dữ liệu dự án "
+"và thời gian phân tích. Bộ vẽ giảm dữ liệu dày đặc thành các điểm ảnh dòng "
+"thời gian hiển thị, và bộ nhớ đệm sóng âm đã vẽ giữ cho việc cuộn và vẽ lại "
+"bình thường không tốn kém. Xem trước micro trực tiếp sử dụng mật độ đã chọn "
+"và cùng hiển thị đỉnh/RMS như các bản ghi hoàn chỉnh."
+
+#: ../clips.rst:594
+msgid ""
+"Projects saved by older OpenShot versions can contain independently peak-"
+"normalized waveform data. These waveforms have no format marker, so OpenShot"
+" deliberately displays them with the original legacy scaling. They remain "
+"familiar instead of becoming unexpectedly thin. Older waveform data without "
+"a stored density defaults to its original 20 samples per second, and data "
+"without an RMS envelope remains a single solid waveform. A project may "
+"safely contain legacy and new waveforms together."
+msgstr ""
+"Các dự án được lưu bởi các phiên bản OpenShot cũ hơn có thể chứa dữ liệu "
+"sóng âm chuẩn đỉnh độc lập. Các sóng âm này không có dấu hiệu định dạng, vì "
+"vậy OpenShot cố ý hiển thị chúng với tỉ lệ kế thừa gốc. Chúng vẫn quen thuộc"
+" thay vì trở nên mỏng bất ngờ. Dữ liệu sóng âm cũ không có mật độ lưu trữ "
+"mặc định là 20 mẫu mỗi giây ban đầu, và dữ liệu không có phong bì RMS vẫn là"
+" một sóng âm đặc duy nhất. Một dự án có thể chứa an toàn cả sóng âm kế thừa "
+"và mới cùng lúc."
+
+#: ../clips.rst:600
+msgid ""
+"To regenerate cached waveform data using the current method, choose "
+":guilabel:`Edit → Clear → Waveform Display Data`, then show the waveform "
+"again. This affects only cached display data and does not modify the media "
+"file or its audio."
+msgstr ""
+"Để tái tạo dữ liệu sóng âm đã lưu trong bộ nhớ đệm bằng phương pháp hiện "
+"tại, chọn :guilabel:`Chỉnh sửa → Xóa → Dữ liệu Hiển thị Sóng âm`, sau đó "
+"hiển thị lại sóng âm. Điều này chỉ ảnh hưởng đến dữ liệu hiển thị đã lưu "
+"trong bộ nhớ đệm và không thay đổi tệp phương tiện hoặc âm thanh của nó."
+
+#: ../clips.rst:605
+msgid ""
+"The peak envelope identifies transient level and possible clipping; RMS "
+"summarizes sustained energy but is not a loudness-standard measurement. Use "
+"the :guilabel:`Audio Levels` scope and your ears when mixing. See "
+":ref:`playback_ref` for audio troubleshooting."
+msgstr ""
+"Phong bì đỉnh xác định mức chuyển tiếp và khả năng cắt âm; RMS tóm tắt năng "
+"lượng duy trì nhưng không phải là phép đo tiêu chuẩn độ to. Sử dụng công cụ "
+":guilabel:`Mức Âm thanh` và tai của bạn khi trộn. Xem :ref:`playback_ref` để"
+" khắc phục sự cố âm thanh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:611
+msgid ""
+"The :guilabel:`Properties` preset opens the properties panel for a clip, "
+"allowing quick access for adjustments to clip properties, such as location, "
+"scale, rotation, etc... See :ref:`clip_properties_ref`."
+msgstr ""
+"Cài đặt sẵn :guilabel:`Properties` mở bảng thuộc tính cho clip, cho phép "
+"truy cập nhanh để điều chỉnh các thuộc tính clip như vị trí, tỷ lệ, xoay, "
+"v.v... Xem :ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:614
+msgid ""
+"**Usage Example:** Adjusting clip properties like opacity, volume, or "
+"position."
+msgstr ""
+"**Ví dụ sử dụng:** Điều chỉnh các thuộc tính clip như độ mờ, âm lượng hoặc "
+"vị trí."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:615
+msgid ""
+"**Tip:** Apply this preset to streamline adjustments to all clip properties "
+"in a single dock."
+msgstr ""
+"**Mẹo:** Áp dụng cài đặt sẵn này để đơn giản hóa việc điều chỉnh tất cả "
+"thuộc tính clip trong một bảng duy nhất."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:619
+msgid ""
+"The :guilabel:`Copy / Paste` preset allows copying and pasting keyframes, "
+"effects, or duplicating an entire clip along with its keyframes. Paste will "
+"create a new clip at the position of your mouse. If you select 1 or more "
+"clips before pasting, you can paste \"over\" those clips with your current "
+"clip."
+msgstr ""
+"Cài đặt sẵn :guilabel:`Copy / Paste` cho phép sao chép và dán các keyframe, "
+"hiệu ứng, hoặc nhân bản toàn bộ clip cùng với các keyframe của nó. Dán sẽ "
+"tạo một clip mới tại vị trí con trỏ chuột. Nếu bạn chọn một hoặc nhiều clip "
+"trước khi dán, bạn có thể dán \"đè lên\" các clip đó bằng clip hiện tại."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:623
+msgid ""
+"**Usage Example:** Duplicating a clip with intricate animations for reuse in"
+" different parts of the project."
+msgstr ""
+"**Ví dụ sử dụng:** Nhân bản một clip với các hoạt ảnh phức tạp để tái sử "
+"dụng ở các phần khác của dự án."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:624
+msgid ""
+"**Tip:** Use this preset to replicate animations or effects across multiple "
+"clips."
+msgstr ""
+"**Mẹo:** Sử dụng cài đặt sẵn này để sao chép hoạt ảnh hoặc hiệu ứng trên "
+"nhiều clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:625
+msgid ""
+"**Tip:** Selecting multiple clips before pasting, sets keyframes and/or "
+"effects for all clips."
+msgstr ""
+"**Mẹo:** Chọn nhiều clip trước khi dán sẽ đặt keyframe và/hoặc hiệu ứng cho "
+"tất cả các clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:626
+msgid ""
+"**Tip:** You can copy a single effect, and paste it to multiple selected "
+"clips."
+msgstr ""
+"**Mẹo:** Bạn có thể sao chép một hiệu ứng đơn lẻ và dán nó vào nhiều clip "
+"được chọn."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:629
+msgid "Remove Gaps"
+msgstr "Xóa Khoảng Trống"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:630
+msgid ""
+"The :guilabel:`Remove Gap` and :guilabel:`Remove All Gaps` options help you "
+"quickly eliminate gaps between clips on the timeline by rippling (i.e., "
+"shifting) subsequent clips to close the gap. These options can be accessed "
+"via the context menu and are only available when gaps are detected."
+msgstr ""
+"Tùy chọn :guilabel:`Remove Gap` và :guilabel:`Remove All Gaps` giúp bạn "
+"nhanh chóng loại bỏ các khoảng trống giữa các clip trên timeline bằng cách "
+"dịch chuyển các clip tiếp theo để đóng khoảng trống. Các tùy chọn này có thể"
+" truy cập qua menu ngữ cảnh và chỉ khả dụng khi phát hiện khoảng trống."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:633
+msgid ""
+"**Remove Gap:** - This option deletes a specific gap between two clips on "
+"the timeline. Right-click on the gap between clips to access the "
+":guilabel:`Remove Gap` option. - Usage: Use this option to quickly eliminate"
+" a specific gap caused by trimming or using the razor tool."
+msgstr ""
+"**Xóa Khoảng Trống:** - Tùy chọn này xóa một khoảng trống cụ thể giữa hai "
+"clip trên timeline. Nhấp chuột phải vào khoảng trống giữa các clip để truy "
+"cập tùy chọn :guilabel:`Remove Gap`. - Cách dùng: Sử dụng tùy chọn này để "
+"nhanh chóng loại bỏ khoảng trống cụ thể do cắt hoặc dùng công cụ dao cạo."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:637
+msgid ""
+"**Remove All Gaps:** - This option removes all gaps between clips on the "
+"timeline for the entire track. Right-click on the track name to access the "
+":guilabel:`Remove All Gaps` option. - Usage: Ideal for tracks that contain "
+"back-to-back clips, such as a photo slideshow, where no gaps are desired."
+msgstr ""
+"**Xóa Tất Cả Khoảng Trống:** - Tùy chọn này xóa tất cả các khoảng trống giữa"
+" các clip trên timeline cho toàn bộ track. Nhấp chuột phải vào tên track để "
+"truy cập tùy chọn :guilabel:`Remove All Gaps`. - Cách dùng: Phù hợp cho các "
+"track chứa các clip liên tiếp, như trình chiếu ảnh, nơi không muốn có khoảng"
+" trống."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:643
+msgid ""
+"The :guilabel:`Remove Clip` option lets you delete a clip from the timeline."
+" Removing clips is an essential part of organizing your project and getting "
+"rid of unwanted sections. Removing a clip can also impact the surrounding "
+"clips. If you want to clean up the gap that remains after deleting a clip, "
+"you have a few options to automatically adjust your timeline."
+msgstr ""
+"Tùy chọn :guilabel:`Remove Clip` cho phép bạn xóa một clip khỏi timeline. "
+"Việc xóa clip là phần quan trọng trong việc tổ chức dự án và loại bỏ các "
+"phần không mong muốn. Xóa clip cũng có thể ảnh hưởng đến các clip xung "
+"quanh. Nếu bạn muốn dọn dẹp khoảng trống còn lại sau khi xóa clip, bạn có "
+"một số tùy chọn để tự động điều chỉnh timeline."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:647
+msgid ""
+"**How to Remove a Clip:** To delete a clip, simply select it and press "
+":kbd:`Delete` on your keyboard, or right-click the clip and choose "
+":guilabel:`Remove Clip` from the context menu. You can also select multiple "
+"clips at once by holding down the :kbd:`Ctrl` key and clicking on additional"
+" clips, then remove them all at once."
+msgstr ""
+"**Cách Xóa Clip:** Để xóa một clip, chỉ cần chọn nó và nhấn :kbd:`Delete` "
+"trên bàn phím, hoặc nhấp chuột phải vào clip và chọn :guilabel:`Remove Clip`"
+" từ menu ngữ cảnh. Bạn cũng có thể chọn nhiều clip cùng lúc bằng cách giữ "
+"phím :kbd:`Ctrl` và nhấp vào các clip khác, sau đó xóa tất cả cùng lúc."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:651
+msgid ""
+"**Ripple Delete:** If you want to delete a clip and automatically remove the"
+" empty space (gap) it leaves behind, use the **Ripple Delete** feature by "
+"pressing :kbd:`Shift+Delete`. This will shift all the remaining clips and "
+"transitions on the track to the left, filling in the gap and keeping your "
+"timeline smooth and continuous."
+msgstr ""
+"**Xóa Gợn Sóng:** Nếu bạn muốn xóa một clip và tự động loại bỏ khoảng trống "
+"(khoảng cách) mà nó để lại, hãy sử dụng tính năng **Ripple Delete** bằng "
+"cách nhấn :kbd:`Shift+Delete`. Điều này sẽ dịch chuyển tất cả các clip và "
+"chuyển tiếp còn lại trên track sang bên trái, lấp đầy khoảng trống và giữ "
+"cho timeline của bạn mượt mà và liên tục."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:656
+msgid ""
+"**Remove Gap:** After deleting a clip, if you have gaps left in your "
+"timeline that you want to remove, simply right-click in the empty space and "
+"choose :guilabel:`Remove Gap`. This action will shift all clips and "
+"transitions to the left, closing the gap and maintaining the flow of your "
+"video."
+msgstr ""
+"**Xóa Khoảng Trống:** Sau khi xóa một clip, nếu còn khoảng trống trên "
+"timeline mà bạn muốn loại bỏ, chỉ cần nhấp chuột phải vào khoảng trống và "
+"chọn :guilabel:`Remove Gap`. Hành động này sẽ dịch chuyển tất cả các clip và"
+" chuyển tiếp sang bên trái, đóng khoảng trống và duy trì sự liền mạch của "
+"video."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:662
+msgid ""
+"**Example**: If you have a clip that’s no longer needed, such as an intro "
+"you’ve decided not to use, you can quickly select it and either delete it or"
+" use **Ripple Delete** to remove it and shift everything left to close the "
+"gap."
+msgstr ""
+"**Ví dụ**: Nếu bạn có một clip không còn cần thiết, như phần mở đầu mà bạn "
+"quyết định không sử dụng, bạn có thể nhanh chóng chọn nó và xóa hoặc sử dụng"
+" **Ripple Delete** để loại bỏ và dịch chuyển tất cả sang trái để đóng khoảng"
+" trống."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:664
+msgid ""
+"For more advanced editing options and shortcuts, refer to the "
+":ref:`clips_cutting_slicing_ref` section."
+msgstr ""
+"Để biết thêm các tùy chọn chỉnh sửa nâng cao và phím tắt, tham khảo phần "
+":ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:667
+msgid "Effects"
+msgstr "Hiệu ứng"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:668
+msgid ""
+"In addition to the many clip properties which can be animated and adjusted, "
+"you can also drop an effect directly onto a clip from the effects dock. Each"
+" effect is represented by a small colored letter icon. Clicking the effect "
+"icon will populate the properties of that effect, and allow you to edit (and"
+" animate) them. For the full list of effects, see :ref:`effects_ref`."
+msgstr ""
+"Ngoài nhiều thuộc tính clip có thể được hoạt hình và điều chỉnh, bạn cũng có"
+" thể thả một hiệu ứng trực tiếp lên clip từ dock hiệu ứng. Mỗi hiệu ứng được"
+" đại diện bởi một biểu tượng chữ cái màu nhỏ. Nhấp vào biểu tượng hiệu ứng "
+"sẽ hiển thị các thuộc tính của hiệu ứng đó và cho phép bạn chỉnh sửa (và "
+"hoạt hình) chúng. Để xem danh sách đầy đủ các hiệu ứng, xem "
+":ref:`effects_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:678
+msgid "Clip Properties"
+msgstr "Thuộc tính Clip"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:679
+msgid ""
+"Below is a list of clip properties which can be edited, and in most cases, "
+"animated over time. To view a clip's properties, right click and choose "
+":guilabel:`Properties`. The property editor will appear, where you can "
+"change these properties. You can select multiple clips, transitions or "
+"effects at once. The dropdown at the top of the dock shows entries for each "
+"item plus an entry such as ``2 Selections``. Pick that entry to edit all "
+"selected items together, only properties they share will be visible. If a "
+"field is blank, the values differ between items, but you can still change it"
+" or insert a keyframe for all of them."
+msgstr ""
+"Dưới đây là danh sách các thuộc tính clip có thể chỉnh sửa, và trong hầu hết"
+" các trường hợp, có thể hoạt hình theo thời gian. Để xem thuộc tính của một "
+"clip, nhấp chuột phải và chọn :guilabel:`Properties`. Trình chỉnh sửa thuộc "
+"tính sẽ xuất hiện, nơi bạn có thể thay đổi các thuộc tính này. Bạn có thể "
+"chọn nhiều clip, chuyển tiếp hoặc hiệu ứng cùng lúc. Menu thả xuống ở đầu "
+"dock hiển thị các mục cho từng phần tử cùng với một mục như ``2 "
+"Selections``. Chọn mục đó để chỉnh sửa tất cả các mục đã chọn cùng nhau, chỉ"
+" các thuộc tính chung mới hiển thị. Nếu một trường để trống, giá trị khác "
+"nhau giữa các mục, nhưng bạn vẫn có thể thay đổi hoặc chèn khung khóa cho "
+"tất cả chúng."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:687
+msgid ""
+"Note: Pay close attention to where the play-head (i.e. red playback line) "
+"is. Key frames are automatically created at the current playback position, "
+"to help quickly create animations."
+msgstr ""
+"Lưu ý: Hãy chú ý kỹ vị trí của đầu phát (tức là đường phát màu đỏ). Khung "
+"khóa được tạo tự động tại vị trí phát hiện tại, giúp tạo hoạt hình nhanh "
+"chóng."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:690
+msgid ""
+"When animating clip properties, you can fade a clip from opaque to "
+"transparent with ``alpha``, slide a clip around the screen with "
+"``location_x`` and ``location_y``, scale a clip smaller or larger with the "
+"``scale_x`` and ``scale_y``, fade the volume of a clip quieter or louder "
+"with ``volume``, and much more. If you want to set a single, static clip "
+"property with **no animation**, be sure the playhead is positioned at the "
+"start of your clip (to the left) when adjusting the property value."
+msgstr ""
+"Khi hoạt hình các thuộc tính clip, bạn có thể làm mờ clip từ đục sang trong "
+"suốt với ``alpha``, trượt clip quanh màn hình với ``location_x`` và "
+"``location_y``, thay đổi kích thước clip nhỏ hơn hoặc lớn hơn với "
+"``scale_x`` và ``scale_y``, làm nhỏ hoặc lớn âm lượng clip với ``volume``, "
+"và nhiều hơn nữa. Nếu bạn muốn đặt một thuộc tính clip tĩnh duy nhất **không"
+" hoạt hình**, hãy đảm bảo đầu phát được đặt ở đầu clip của bạn (bên trái) "
+"khi điều chỉnh giá trị thuộc tính."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:695
+msgid "See the table below for a full list of clip properties."
+msgstr "Xem bảng dưới đây để biết danh sách đầy đủ các thuộc tính clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:701
+msgid "Clip Property Name"
+msgstr "Tên Thuộc Tính Clip"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:701
+msgid "Type"
+msgstr "Loại"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:703 ../clips.rst:784
+msgid "Alpha"
+msgstr "Alpha"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:703 ../clips.rst:704 ../clips.rst:705 ../clips.rst:707
+#: ../clips.rst:715 ../clips.rst:716 ../clips.rst:717 ../clips.rst:718
+#: ../clips.rst:719 ../clips.rst:722 ../clips.rst:724 ../clips.rst:725
+#: ../clips.rst:726 ../clips.rst:727 ../clips.rst:729 ../clips.rst:731
+#: ../clips.rst:733
+msgid "Key-Frame"
+msgstr "Khung Khóa"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:703
+msgid ""
+"Curve representing the alpha for fading the image and adding transparency (1"
+" to 0)"
+msgstr ""
+"Đường cong đại diện cho alpha để làm mờ hình ảnh và thêm độ trong suốt (1 "
+"đến 0)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:704 ../clips.rst:801
+msgid "Channel Filter"
+msgstr "Bộ Lọc Kênh"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:704
+msgid ""
+"A number representing an audio channel to filter (clears all other channels)"
+msgstr "Một số đại diện cho kênh âm thanh để lọc (xóa tất cả các kênh khác)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:705 ../clips.rst:809
+msgid "Channel Mapping"
+msgstr "Bản Đồ Kênh"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:705
+msgid ""
+"A number representing an audio channel to output (only works when filtering "
+"a channel)"
+msgstr ""
+"Một số đại diện cho kênh âm thanh để xuất ra (chỉ hoạt động khi lọc kênh)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:706 ../clips.rst:741
+msgid "Composite (Blend Mode)"
+msgstr "Hợp Nhất (Chế Độ Hòa Trộn)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:706 ../clips.rst:709 ../clips.rst:710 ../clips.rst:712
+#: ../clips.rst:713 ../clips.rst:723 ../clips.rst:732 ../clips.rst:735
+msgid "Enum"
+msgstr "Liệt Kê"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:706
+msgid ""
+"The blend mode used to composite this clip into lower layers. Default is "
+"**Normal**. See :ref:`clip_composite_ref`."
+msgstr ""
+"Chế độ hòa trộn được sử dụng để hợp nhất clip này vào các lớp bên dưới. Mặc "
+"định là **Normal**. Xem :ref:`clip_composite_ref`."
+
+#: ../clips.rst:707 ../clips.rst:792
+msgid "Corner Radius"
+msgstr "Bán Kính Góc"
+
+#: ../clips.rst:707
+msgid ""
+"Curve representing the radius used to round the clip's corners (0 to 0.5)"
+msgstr ""
+"Đường cong biểu thị bán kính dùng để bo tròn các góc của clip (0 đến 0.5)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:708 ../clips.rst:824
+msgid "Duration"
+msgstr "Thời Lượng"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:708 ../clips.rst:711 ../clips.rst:721 ../clips.rst:728
+msgid "Float"
+msgstr "Số Thực"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:708
+msgid ""
+"The length of the clip (in seconds). Read-only property. This is calculated "
+"by: End - Start."
+msgstr ""
+"Độ dài của clip (tính bằng giây). Thuộc tính chỉ đọc. Được tính bằng: Kết "
+"thúc - Bắt đầu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:709 ../clips.rst:857
+msgid "Enable Audio"
+msgstr "Bật Âm Thanh"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:709
+msgid ""
+"An optional override to determine if this clip has audio (-1=undefined, "
+"0=no, 1=yes)"
+msgstr ""
+"Tùy chọn ghi đè để xác định clip này có âm thanh hay không (-1=chưa xác "
+"định, 0=không, 1=có)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:710 ../clips.rst:865
+msgid "Enable Video"
+msgstr "Bật Video"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:710
+msgid ""
+"An optional override to determine if this clip has video (-1=undefined, "
+"0=no, 1=yes)"
+msgstr ""
+"Tùy chọn ghi đè để xác định clip này có video hay không (-1=chưa xác định, "
+"0=không, 1=có)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:711 ../clips.rst:832
+msgid "End"
+msgstr "Kết Thúc"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:711
+msgid "The end trimming position of the clip (in seconds)"
+msgstr "Vị trí cắt cuối của clip (tính bằng giây)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:712 ../clips.rst:817
+msgid "Frame Number"
+msgstr "Số Khung Hình"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:712
+msgid "The format to display the frame number (if any)"
+msgstr "Định dạng để hiển thị số khung hình (nếu có)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:713 ../clips.rst:840
+msgid "Gravity"
+msgstr "Trọng Lực"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:713
+msgid ""
+"The gravity of a clip determines where it snaps to its parent (details "
+"below)"
+msgstr ""
+"Trọng lực của clip xác định vị trí nó gắn vào phần tử cha (chi tiết bên "
+"dưới)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:714 ../clips.rst:873
+msgid "ID"
+msgstr "ID"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:714 ../clips.rst:720
+msgid "String"
+msgstr "Chuỗi"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:714
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"clip. Read-only property."
+msgstr ""
+"Một GUID được tạo ngẫu nhiên (định danh duy nhất toàn cầu) được gán cho mỗi "
+"clip. Thuộc tính chỉ đọc."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:715
+msgid "Location X"
+msgstr "Vị Trí X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:715
+msgid ""
+"Curve representing the relative X position in percent based on the gravity "
+"(-1 to 1)"
+msgstr ""
+"Đường cong đại diện cho vị trí X tương đối theo phần trăm dựa trên trọng lực"
+" (-1 đến 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:716
+msgid "Location Y"
+msgstr "Vị Trí Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:716
+msgid ""
+"Curve representing the relative Y position in percent based on the gravity "
+"(-1 to 1)"
+msgstr ""
+"Đường cong đại diện cho vị trí Y tương đối theo phần trăm dựa trên trọng lực"
+" (-1 đến 1)"
+
+#: ../clips.rst:717 ../clips.rst:899
+msgid "Margin"
+msgstr "Lề"
+
+#: ../clips.rst:717
+msgid "Curve representing edge spacing for gravity-aligned clips (0 to 0.5)"
+msgstr ""
+"Đường cong biểu thị khoảng cách cạnh cho các clip căn theo trọng lực (0 đến "
+"0.5)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:718
+msgid "Origin X"
+msgstr "Gốc X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:718
+msgid ""
+"Curve representing the rotation origin point, X position in percent (-1 to "
+"1)"
+msgstr ""
+"Đường cong đại diện cho điểm gốc xoay, vị trí X theo phần trăm (-1 đến 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:719
+msgid "Origin Y"
+msgstr "Gốc Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:719
+msgid ""
+"Curve representing the rotation origin point, Y position in percent (-1 to "
+"1)"
+msgstr ""
+"Đường cong biểu diễn điểm gốc xoay, vị trí Y theo phần trăm (-1 đến 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:720
+msgid "Parent"
+msgstr "Cha"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:720
+msgid ""
+"The parent object to this clip, which makes many of these keyframe values "
+"initialize to the parent value"
+msgstr ""
+"Đối tượng cha của đoạn clip này, khiến nhiều giá trị khung hình chính được "
+"khởi tạo theo giá trị của cha"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:721 ../clips.rst:956
+msgid "Position"
+msgstr "Vị trí"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:721
+msgid ""
+"The position of the clip on the timeline (in seconds, 0.0 is the beginning "
+"of the timeline)"
+msgstr ""
+"Vị trí của đoạn clip trên dòng thời gian (tính bằng giây, 0.0 là bắt đầu "
+"dòng thời gian)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:722 ../clips.rst:965
+msgid "Rotation"
+msgstr "Xoay"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:722
+msgid "Curve representing the rotation (0 to 360)"
+msgstr "Đường cong biểu diễn góc xoay (0 đến 360)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:723 ../clips.rst:981
+msgid "Scale"
+msgstr "Tỉ lệ"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:723
+msgid ""
+"The scale determines how a clip should be resized to fit its parent (details"
+" below)"
+msgstr ""
+"Tỉ lệ xác định cách đoạn clip được thay đổi kích thước để phù hợp với đối "
+"tượng cha (chi tiết bên dưới)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:724
+msgid "Scale X"
+msgstr "Tỉ lệ X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:724
+msgid "Curve representing the horizontal scaling in percent (0 to 1)"
+msgstr "Đường cong biểu diễn tỉ lệ ngang theo phần trăm (0 đến 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:725
+msgid "Scale Y"
+msgstr "Tỉ lệ Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:725
+msgid "Curve representing the vertical scaling in percent (0 to 1)"
+msgstr "Đường cong biểu diễn tỉ lệ dọc theo phần trăm (0 đến 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:726
+msgid "Shear X"
+msgstr "Nghiêng X"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:726
+msgid "Curve representing X shear angle in degrees (-45.0=left, 45.0=right)"
+msgstr "Đường cong biểu diễn góc nghiêng X theo độ (-45.0=trái, 45.0=phải)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:727
+msgid "Shear Y"
+msgstr "Nghiêng Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:727
+msgid "Curve representing Y shear angle in degrees (-45.0=down, 45.0=up)"
+msgstr "Đường cong biểu diễn góc nghiêng Y theo độ (-45.0=xuống, 45.0=lên)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:728 ../clips.rst:1015
+msgid "Start"
+msgstr "Bắt đầu"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:728
+msgid "The start trimming position of the clip (in seconds)"
+msgstr "Vị trí cắt bắt đầu của đoạn clip (tính bằng giây)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:729 ../clips.rst:1025
+msgid "Time"
+msgstr "Thời gian"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:729
+msgid ""
+"Curve representing the frames over time to play (used for speed and "
+"direction of video)"
+msgstr ""
+"Đường cong biểu diễn các khung hình theo thời gian phát (dùng cho tốc độ và "
+"hướng của video)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:730 ../clips.rst:881
+msgid "Track"
+msgstr "Lớp"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:730
+msgid "Int"
+msgstr "Số Nguyên"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:730
+msgid ""
+"The layer which holds the clip (higher tracks are rendered on top of lower "
+"tracks)"
+msgstr "Lớp chứa clip (lớp cao hơn được hiển thị trên lớp thấp hơn)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:731 ../clips.rst:1051
+msgid "Volume"
+msgstr "Âm lượng"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:731
+msgid ""
+"Curve representing the volume for fading audio quieter/louder, mute, or "
+"adjusting levels (0 to 1)"
+msgstr ""
+"Đường cong biểu diễn âm lượng để làm nhỏ/lớn âm thanh, tắt tiếng hoặc điều "
+"chỉnh mức (0 đến 1)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:732 ../clips.rst:917
+msgid "Volume Mixing"
+msgstr "Trộn Âm Lượng"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:732
+msgid ""
+"The volume mixing choices control how volume is adjusted before mixing "
+"(None=don't adjust volume of this clip, Reduce=lower the volume to 80%, "
+"Average=divide volume based on # of concurrent clips, details below)"
+msgstr ""
+"Các lựa chọn trộn âm lượng kiểm soát cách điều chỉnh âm lượng trước khi trộn"
+" (None=không điều chỉnh âm lượng clip này, Reduce=giảm âm lượng xuống 80%, "
+"Average=chia âm lượng dựa trên số clip đồng thời, chi tiết bên dưới)"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:733 ../clips.rst:1060
+msgid "Wave Color"
+msgstr "Màu sóng"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:733
+msgid "Curve representing the color of the audio waveform"
+msgstr "Đường cong biểu diễn màu của dạng sóng âm thanh"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:734
+msgid "Bool"
+msgstr "Bool"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:734
+msgid "Should a waveform be used instead of the clip's image"
+msgstr "Có nên sử dụng dạng sóng thay vì hình ảnh của đoạn clip"
+
+#: ../clips.rst:735 ../clips.rst:1074
+msgid "Waveform Mode"
+msgstr "Chế Độ Sóng Âm"
+
+#: ../clips.rst:735
+msgid ""
+"The visualization style used when displaying the clip as an audio waveform"
+msgstr ""
+"Kiểu hiển thị được sử dụng khi trình chiếu clip dưới dạng sóng âm thanh"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:742
+msgid ""
+"The :guilabel:`Composite (Blend Mode)` property controls **how the pixels of"
+" this clip mix with the clips on lower tracks**. If you are new to this, "
+"start with **Normal**. Switch modes when you want a quick creative change "
+"without adding an effect."
+msgstr ""
+"Thuộc tính :guilabel:`Composite (Chế độ hòa trộn)` điều khiển **cách các "
+"điểm ảnh của đoạn clip này hòa trộn với các đoạn clip trên các track thấp "
+"hơn**. Nếu bạn mới làm quen, hãy bắt đầu với **Normal**. Chuyển chế độ khi "
+"bạn muốn thay đổi sáng tạo nhanh mà không cần thêm hiệu ứng."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:745
+msgid "**Beginner tips**"
+msgstr "**Mẹo cho người mới bắt đầu**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:747
+msgid ""
+"Want to **brighten** light effects, flares, or smoke over a dark scene? Try "
+"**Screen** or **Add**."
+msgstr ""
+"Muốn **làm sáng** hiệu ứng ánh sáng, lóa sáng, hoặc khói trên cảnh tối? Thử "
+"**Screen** hoặc **Add**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:748
+msgid ""
+"Want to **darken** or place a texture over footage (paper grain, grids, "
+"shadows)? Try **Multiply** or **Color Burn**."
+msgstr ""
+"Muốn **làm tối** hoặc đặt kết cấu lên cảnh quay (hạt giấy, lưới, bóng)? Thử "
+"**Multiply** hoặc **Color Burn**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:749
+msgid ""
+"Want **more contrast** without crushing blacks and whites too much? Try "
+"**Overlay** or **Soft Light**."
+msgstr ""
+"Muốn **tăng độ tương phản** mà không làm mất chi tiết đen và trắng quá "
+"nhiều? Thử **Overlay** hoặc **Soft Light**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:750
+msgid ""
+"Want a **creative/inverted look** or to line things up? Try **Difference** "
+"or **Exclusion**."
+msgstr ""
+"Muốn một cái nhìn **sáng tạo/đảo ngược** hoặc căn chỉnh? Thử **Difference** "
+"hoặc **Exclusion**."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:752
+msgid "**Common modes (recommended)**"
+msgstr "**Các chế độ phổ biến (khuyến nghị)**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:758
+msgid "Mode"
+msgstr "Chế độ"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:758
+msgid "What it does"
+msgstr "Chức năng"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:760
+msgid "Normal"
+msgstr "Bình thường"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:760
+msgid "Standard alpha compositing. Respects transparency from the clip."
+msgstr "Hòa trộn alpha tiêu chuẩn. Tôn trọng độ trong suốt của đoạn clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:761
+msgid "Darken"
+msgstr "Làm tối"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:761
+msgid "Chooses the darker pixel from the two layers, per channel."
+msgstr "Chọn điểm ảnh tối hơn trong hai lớp, theo từng kênh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:762
+msgid "Multiply"
+msgstr "Nhân"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:762
+msgid "Multiplies colors. Darkens and helps textures sit on top of footage."
+msgstr "Nhân màu. Làm tối và giúp kết cấu nổi trên cảnh quay."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:763
+msgid "Color Burn"
+msgstr "Đốt màu"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:763
+msgid "Pushes shadows darker and boosts contrast; can clip to black."
+msgstr "Làm bóng tối hơn và tăng độ tương phản; có thể cắt thành màu đen."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:764
+msgid "Lighten"
+msgstr "Làm sáng"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:764
+msgid "Chooses the lighter pixel from the two layers, per channel."
+msgstr "Chọn điểm ảnh sáng hơn trong hai lớp, theo từng kênh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:765
+msgid "Screen"
+msgstr "Phủ sáng"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:765
+msgid "The opposite of Multiply. Brightens; great for light, glow, fire, fog."
+msgstr ""
+"Ngược với Multiply. Làm sáng; tuyệt vời cho ánh sáng, phát sáng, lửa, sương "
+"mù."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:766
+msgid "Color Dodge"
+msgstr "Chói màu"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:766
+msgid "Brightens highlights strongly; can blow out to white."
+msgstr "Làm sáng điểm sáng mạnh; có thể làm cháy sáng thành trắng."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:767
+msgid "Add"
+msgstr "Cộng"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:767
+msgid ""
+"Adds pixel values. Strong brightening; clips at white. Also called *Linear "
+"Dodge (Add)*."
+msgstr ""
+"Cộng giá trị điểm ảnh. Làm sáng mạnh; cắt ở màu trắng. Còn gọi là *Linear "
+"Dodge (Add)*."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:768
+msgid "Overlay"
+msgstr "Phủ lớp"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:768
+msgid ""
+"Mix of Multiply and Screen using the lower layer to decide. Adds punchy "
+"contrast."
+msgstr ""
+"Kết hợp Multiply và Screen sử dụng lớp dưới để quyết định. Tăng độ tương "
+"phản rõ nét."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:769
+msgid "Soft Light"
+msgstr "Ánh sáng mềm"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:769
+msgid "Gentle contrast curve; softer than Overlay."
+msgstr "Đường cong tương phản nhẹ nhàng; mềm hơn Overlay."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:770
+msgid "Hard Light"
+msgstr "Ánh sáng mạnh"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:770
+msgid "Stronger, edgy contrast using the upper layer to drive the change."
+msgstr "Tương phản mạnh và sắc nét sử dụng lớp trên để điều khiển thay đổi."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:771
+msgid "Difference"
+msgstr "Hiệu ứng khác biệt"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:771
+msgid ""
+"Absolute difference between layers. Creates inverted/psychedelic colors; "
+"useful for alignment."
+msgstr ""
+"Hiệu số tuyệt đối giữa các lớp. Tạo màu đảo ngược/ảo giác; hữu ích để căn "
+"chỉnh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:772
+msgid "Exclusion"
+msgstr "Loại trừ"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:772
+msgid "Softer version of Difference with less contrast."
+msgstr "Phiên bản nhẹ nhàng hơn của Difference với độ tương phản thấp hơn."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:775
+msgid "**Notes**"
+msgstr "**Ghi chú**"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:777
+msgid ""
+"Blend modes affect **color**, while alpha (the :guilabel:`Alpha` property) "
+"affects **transparency**. You can use both."
+msgstr ""
+"Chế độ hòa trộn ảnh hưởng đến **màu sắc**, trong khi alpha (thuộc tính "
+":guilabel:`Alpha`) ảnh hưởng đến **độ trong suốt**. Bạn có thể sử dụng cả "
+"hai."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:778
+msgid ""
+"Some modes can create very bright or very dark results. If needed, lower the"
+" :guilabel:`Alpha` property to soften."
+msgstr ""
+"Một số chế độ có thể tạo ra kết quả rất sáng hoặc rất tối. Nếu cần, giảm "
+"thuộc tính :guilabel:`Alpha` để làm mềm."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:779
+msgid ""
+"The exact look of Multiply/Screen/Overlay family is best when project colors"
+" are in a linear color space."
+msgstr ""
+"Hiệu ứng chính xác của nhóm Multiply/Screen/Overlay tốt nhất khi màu dự án ở"
+" không gian màu tuyến tính."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:785
+msgid ""
+"The :guilabel:`Alpha` property is a key-frame curve that represents the "
+"alpha value, determining fading and transparency of the image in the clip. "
+"The curve ranges from 1 (fully opaque) to 0 (completely transparent)."
+msgstr ""
+"Thuộc tính :guilabel:`Alpha` là một đường cong khung chính đại diện cho giá "
+"trị alpha, xác định độ mờ dần và độ trong suốt của hình ảnh trong clip. "
+"Đường cong dao động từ 1 (hoàn toàn không trong suốt) đến 0 (hoàn toàn trong"
+" suốt)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:788
+msgid ""
+"**Usage Example:** Applying a gradual fade-in or fade-out effect to smoothly"
+" transition clips."
+msgstr ""
+"**Ví dụ sử dụng:** Áp dụng hiệu ứng mờ dần vào hoặc ra để chuyển tiếp các "
+"clip một cách mượt mà."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:789
+msgid ""
+"**Tip:** Use keyframes to create complex fading patterns, such as fading in "
+"and then fading out for a ghostly effect."
+msgstr ""
+"**Mẹo:** Sử dụng khung chính để tạo các mẫu mờ phức tạp, như mờ dần vào rồi "
+"mờ dần ra để tạo hiệu ứng ma quái."
+
+#: ../clips.rst:793
+msgid ""
+"The :guilabel:`Corner Radius` property is a key-frame curve that rounds the "
+"visible corners of a clip. The curve ranges from 0 (square corners) to 0.5 "
+"(maximum rounding, based on the clip's shortest side)."
+msgstr ""
+"Thuộc tính :guilabel:`Corner Radius` là một đường cong khung khóa làm tròn "
+"các góc hiển thị của clip. Đường cong dao động từ 0 (góc vuông) đến 0.5 (làm"
+" tròn tối đa, dựa trên cạnh ngắn nhất của clip)."
+
+#: ../clips.rst:796
+msgid ""
+"**Usage Example:** Rounding the corners of a picture-in-picture camera "
+"recording without adding a separate mask effect."
+msgstr ""
+"**Ví dụ sử dụng:** Làm tròn các góc của bản ghi camera hình ảnh-trong-hình "
+"ảnh mà không cần thêm hiệu ứng mặt nạ riêng biệt."
+
+# Main-window terminology review, 2026-09-26.
+#: ../clips.rst:797
+msgid ""
+"**Usage Example:** In :guilabel:`Recording View`, corner webcam clips use "
+"this property for the :guilabel:`Corners` setting."
+msgstr ""
+"**Ví dụ sử dụng:** Trong :guilabel:`Chế độ xem ghi âm và ghi hình`, các clip"
+" webcam góc sử dụng thuộc tính này cho cài đặt :guilabel:`Corners`."
+
+#: ../clips.rst:798
+msgid ""
+"**Tip:** Use 0 for normal full-frame video, a small value for rounded "
+"rectangles, or 0.5 for a pill or oval-like shape."
+msgstr ""
+"**Mẹo:** Sử dụng 0 cho video toàn khung bình thường, giá trị nhỏ cho hình "
+"chữ nhật bo tròn, hoặc 0.5 cho hình dạng viên thuốc hoặc bầu dục."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:802
+msgid ""
+"The :guilabel:`Channel Filter` property is a key-frame curve used for audio "
+"manipulation. It specifies a single audio channel to be filtered while "
+"clearing all other channels."
+msgstr ""
+"Thuộc tính :guilabel:`Channel Filter` là một đường cong khung chính dùng để "
+"xử lý âm thanh. Nó chỉ định một kênh âm thanh duy nhất được lọc trong khi "
+"loại bỏ tất cả các kênh khác."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:805
+msgid ""
+"**Usage Example:** Isolating and enhancing specific audio elements, like "
+"isolating vocals from a song."
+msgstr ""
+"**Ví dụ sử dụng:** Tách và nâng cao các yếu tố âm thanh cụ thể, như tách "
+"giọng hát ra khỏi bài hát."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:806
+msgid ""
+"**Tip:** Combine with the \"Channel Mapping\" property to route the filtered"
+" channel to a specific audio output."
+msgstr ""
+"**Mẹo:** Kết hợp với thuộc tính \"Channel Mapping\" để định tuyến kênh đã "
+"lọc đến đầu ra âm thanh cụ thể."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:810
+msgid ""
+"The :guilabel:`Channel Mapping` property is a key-frame curve that defines "
+"the output audio channel for the clip. This property works in conjunction "
+"with the \"Channel Filter\" property and specifies which channel is retained"
+" in the output."
+msgstr ""
+"Thuộc tính :guilabel:`Channel Mapping` là một đường cong khung chính xác "
+"định kênh âm thanh đầu ra cho clip. Thuộc tính này hoạt động cùng với thuộc "
+"tính \"Channel Filter\" và chỉ định kênh nào được giữ lại trong đầu ra."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:813
+msgid ""
+"**Usage Example:** Keeping the filtered channel's audio while discarding "
+"others for an unconventional audio mix."
+msgstr ""
+"**Ví dụ sử dụng:** Giữ lại âm thanh của kênh đã lọc trong khi loại bỏ các "
+"kênh khác để tạo hỗn hợp âm thanh độc đáo."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:814
+msgid ""
+"**Tip:** Experiment with mapping different channels to create unique audio "
+"effects, like panning sounds between speakers."
+msgstr ""
+"**Mẹo:** Thử nghiệm ánh xạ các kênh khác nhau để tạo hiệu ứng âm thanh độc "
+"đáo, như chuyển âm thanh giữa các loa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:818
+msgid ""
+"The :guilabel:`Frame Number` property specifies the format in which the "
+"frame numbers are displayed within the clip, if applicable."
+msgstr ""
+"Thuộc tính :guilabel:`Frame Number` xác định định dạng hiển thị số khung "
+"hình trong clip, nếu có."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:820
+msgid ""
+"**Usage Example:** Displaying frame numbers in the top left corner of the "
+"clip, as either absolute frame number or relative to the start of the clip."
+msgstr ""
+"**Ví dụ sử dụng:** Hiển thị số khung hình ở góc trên bên trái của clip, dưới"
+" dạng số khung tuyệt đối hoặc tương đối so với điểm bắt đầu của clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:821
+msgid ""
+"**Tip:** This can help with identifying precise frame numbers or "
+"troubleshooting a problem."
+msgstr ""
+"**Mẹo:** Điều này giúp xác định chính xác số khung hình hoặc khắc phục sự "
+"cố."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:825
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the clip in seconds. This is a Read-only property. This is calculated by: "
+"End - Start. To modify duration, you must edit the :guilabel:`Start` and/or "
+":guilabel:`End` clip properties."
+msgstr ""
+"Thuộc tính :guilabel:`Duration` là giá trị số thực chỉ độ dài của clip tính "
+"bằng giây. Đây là thuộc tính chỉ đọc. Nó được tính bằng: Kết thúc - Bắt đầu."
+" Để thay đổi độ dài, bạn phải chỉnh sửa thuộc tính clip :guilabel:`Start` "
+"và/hoặc :guilabel:`End`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:828
+msgid ""
+"**Usage Example:** Inspect the duration of a clip to ensure it fits a "
+"specific time slot in the project."
+msgstr ""
+"**Ví dụ sử dụng:** Kiểm tra độ dài của clip để đảm bảo nó phù hợp với khoảng"
+" thời gian cụ thể trong dự án."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:829
+msgid ""
+"**Tip:** Consider using the \"Duration\" property for clips that need to "
+"match specific time intervals, such as dialogue or scenes."
+msgstr ""
+"**Mẹo:** Cân nhắc sử dụng thuộc tính \"Duration\" cho các clip cần khớp với "
+"khoảng thời gian cụ thể, như đoạn hội thoại hoặc cảnh quay."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:833
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"clip in seconds, allowing you to control how much of the clip is visible in "
+"the timeline. Changing this property will impact the :guilabel:`Duration` "
+"clip property."
+msgstr ""
+"Thuộc tính :guilabel:`End` xác định điểm cắt ở cuối clip tính bằng giây, cho"
+" phép bạn kiểm soát phần nào của clip hiển thị trên timeline. Thay đổi thuộc"
+" tính này sẽ ảnh hưởng đến thuộc tính :guilabel:`Duration` của clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:836
+msgid ""
+"**Usage Example:** Trimming the end of a clip to align with another clip or "
+"trimming off unwanted sections of the clip."
+msgstr ""
+"**Ví dụ sử dụng:** Cắt phần cuối của clip để căn chỉnh với clip khác hoặc "
+"loại bỏ các phần không mong muốn của clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:837
+msgid ""
+"**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
+"the visible portion of the clip."
+msgstr ""
+"**Mẹo:** Kết hợp thuộc tính \"Start\" và \"End\" để kiểm soát chính xác phần"
+" hiển thị của clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:841
+msgid ""
+"The :guilabel:`Gravity` clip property sets the initial display position "
+"coordinate (X,Y) for the clip, after it has been scaled (see "
+":ref:`clip_scale_ref`). This affects where the clip picture is initially "
+"displayed on the screen, for example ``Top Left`` or ``Bottom Right``. The "
+"default gravity option is ``Center``, which displays the picture in the very"
+" center of the screen. The gravity options are:"
+msgstr ""
+"Thuộc tính clip :guilabel:`Gravity` đặt tọa độ vị trí hiển thị ban đầu (X,Y)"
+" cho clip, sau khi đã được phóng to/thu nhỏ (xem :ref:`clip_scale_ref`). "
+"Điều này ảnh hưởng đến vị trí hiển thị ban đầu của hình ảnh clip trên màn "
+"hình, ví dụ như ``Top Left`` hoặc ``Bottom Right``. Tùy chọn gravity mặc "
+"định là ``Center``, hiển thị hình ảnh ở chính giữa màn hình. Các tùy chọn "
+"gravity bao gồm:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:846
+msgid ""
+"**Top Left** – The top and left edges of the clip align with the top and "
+"left edges of the screen"
+msgstr ""
+"**Trên cùng bên trái** – Cạnh trên và cạnh trái của clip căn chỉnh với cạnh "
+"trên và cạnh trái của màn hình"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:847
+msgid ""
+"**Top Center** – The top edge of the clip aligns with the top edge of the "
+"screen; the clip is horizontally centered on the screen."
+msgstr ""
+"**Trên cùng ở giữa** – Cạnh trên của clip căn chỉnh với cạnh trên của màn "
+"hình; clip được căn giữa theo chiều ngang trên màn hình."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:848
+msgid ""
+"**Top Right** – The top and right edges of the clip align with the top and "
+"right edges of the screen"
+msgstr ""
+"**Trên cùng bên phải** – Cạnh trên và cạnh phải của clip căn chỉnh với cạnh "
+"trên và cạnh phải của màn hình"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:849
+msgid ""
+"**Left** – The left edge of the clip aligns with the left edge of the "
+"screen; the clip is vertically centered on the screen."
+msgstr ""
+"**Bên trái** – Cạnh trái của clip căn chỉnh với cạnh trái của màn hình; clip"
+" được căn giữa theo chiều dọc trên màn hình."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:850
+msgid ""
+"**Center** (default) – The clip is centered horizontally and vertically on "
+"the screen."
+msgstr ""
+"**Giữa** (mặc định) – Clip được căn giữa theo cả chiều ngang và chiều dọc "
+"trên màn hình."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:851
+msgid ""
+"**Right** – The right edge of the clip aligns with the right edge of the "
+"screen; the clip is vertically centered on the screen."
+msgstr ""
+"**Bên phải** – Cạnh phải của clip căn chỉnh với cạnh phải của màn hình; clip"
+" được căn giữa theo chiều dọc trên màn hình."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:852
+msgid ""
+"**Bottom Left** – The bottom and left edges of the clip align with the "
+"bottom and left edges of the screen"
+msgstr ""
+"**Dưới cùng bên trái** – Cạnh dưới và cạnh trái của clip căn chỉnh với cạnh "
+"dưới và cạnh trái của màn hình"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:853
+msgid ""
+"**Bottom Center** – The bottom edge of the clip aligns with the bottom edge "
+"of the screen; the clip is horizontally centered on the screen."
+msgstr ""
+"**Dưới cùng ở giữa** – Cạnh dưới của clip căn chỉnh với cạnh dưới của màn "
+"hình; clip được căn giữa theo chiều ngang trên màn hình."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:854
+msgid ""
+"**Bottom Right** – The bottom and right edges of the clip align with the "
+"bottom and right edges of the screen"
+msgstr ""
+"**Dưới cùng bên phải** – Cạnh dưới và cạnh phải của clip căn chỉnh với cạnh "
+"dưới và cạnh phải của màn hình"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:858
+msgid ""
+"The :guilabel:`Enable Audio` property is an enumeration that overrides the "
+"default audio setting for the clip. Possible values: -1 (undefined), 0 (no "
+"audio), 1 (audio enabled)."
+msgstr ""
+"Thuộc tính :guilabel:`Enable Audio` là một kiểu liệt kê ghi đè cài đặt âm "
+"thanh mặc định cho clip. Các giá trị có thể: -1 (không xác định), 0 (không "
+"có âm thanh), 1 (bật âm thanh)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:861
+msgid ""
+"**Usage Example:** Turning off unwanted audio for a clip, like ambient "
+"noise."
+msgstr ""
+"**Ví dụ sử dụng:** Tắt âm thanh không mong muốn cho một clip, như tiếng ồn "
+"môi trường."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:862
+msgid ""
+"**Tip:** Use this property to control audio playback for specific clips, "
+"especially clips which have no useful audio track."
+msgstr ""
+"**Mẹo:** Sử dụng thuộc tính này để kiểm soát phát lại âm thanh cho các clip "
+"cụ thể, đặc biệt là các clip không có đường âm thanh hữu ích."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:866
+msgid ""
+"The :guilabel:`Enable Video` property is an enumeration that overrides the "
+"default video setting for the clip. Possible values: -1 (undefined), 0 (no "
+"video), 1 (video enabled)."
+msgstr ""
+"Thuộc tính :guilabel:`Enable Video` là một kiểu liệt kê ghi đè cài đặt video"
+" mặc định cho clip. Các giá trị có thể: -1 (không xác định), 0 (không có "
+"video), 1 (bật video)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:869
+msgid ""
+"**Usage Example:** Disabling the video of a clip while retaining its audio "
+"for creating audio-only sequences."
+msgstr ""
+"**Ví dụ sử dụng:** Tắt video của một đoạn clip trong khi giữ lại âm thanh để"
+" tạo các chuỗi chỉ có âm thanh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:870
+msgid ""
+"**Tip:** This property can be helpful when creating scenes with audio "
+"commentary or voiceovers."
+msgstr ""
+"**Mẹo:** Thuộc tính này có thể hữu ích khi tạo các cảnh có bình luận âm "
+"thanh hoặc lồng tiếng."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:874
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique"
+" Identifier) assigned to each clip, ensuring its uniqueness. This is a Read-"
+"only property, and assigned by OpenShot when a clip is created."
+msgstr ""
+"Thuộc tính :guilabel:`ID` chứa một GUID (Định danh duy nhất toàn cầu) được "
+"tạo ngẫu nhiên và gán cho mỗi đoạn clip, đảm bảo tính duy nhất của nó. Đây "
+"là thuộc tính chỉ đọc, được OpenShot gán khi tạo clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:877
+msgid ""
+"**Usage Example:** Referencing specific clips within custom scripts or "
+"automation tasks."
+msgstr ""
+"**Ví dụ sử dụng:** Tham chiếu các đoạn clip cụ thể trong các kịch bản tùy "
+"chỉnh hoặc tác vụ tự động hóa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:878
+msgid ""
+"**Tip:** While typically managed behind the scenes, understanding clip IDs "
+"can aid in advanced project customization."
+msgstr ""
+"**Mẹo:** Mặc dù thường được quản lý ngầm, hiểu về ID clip có thể giúp tùy "
+"chỉnh dự án nâng cao."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:882
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the clip is placed. Clips on higher tracks are rendered above those on lower"
+" tracks."
+msgstr ""
+"Thuộc tính :guilabel:`Track` là một số nguyên chỉ lớp mà đoạn clip được đặt "
+"lên. Các đoạn clip trên lớp cao hơn sẽ được hiển thị trên các lớp thấp hơn."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:885
+msgid ""
+"**Usage Example:** Arranging clips in different layers for creating visual "
+"depth and complexity."
+msgstr ""
+"**Ví dụ sử dụng:** Sắp xếp các đoạn clip trên các lớp khác nhau để tạo chiều"
+" sâu và độ phức tạp hình ảnh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:886
+msgid ""
+"**Tip:** Use higher tracks for elements that need to appear above others, "
+"like text overlays or graphics."
+msgstr ""
+"**Mẹo:** Sử dụng các lớp cao hơn cho các phần tử cần hiển thị trên các phần "
+"tử khác, như lớp phủ văn bản hoặc đồ họa."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:891
+msgid "Location X and Location Y"
+msgstr "Vị trí X và Vị trí Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:892
+msgid ""
+"The :guilabel:`Location X` and :guilabel:`Location Y` properties are key-"
+"frame curves that determine the relative position of the clip, expressed in "
+"percentages, based on the specified gravity. The range for these curves is "
+"-1 to 1. See :ref:`clip_transform_ref`."
+msgstr ""
+"Thuộc tính :guilabel:`Location X` và :guilabel:`Location Y` là các đường "
+"cong khung chính xác định vị trí tương đối của đoạn clip, được biểu thị bằng"
+" phần trăm, dựa trên trọng lực đã chỉ định. Phạm vi của các đường cong này "
+"là từ -1 đến 1. Xem :ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:895
+msgid ""
+"**Usage Example:** Animating a clip's movement across the screen using key-"
+"frame curves for both X and Y locations."
+msgstr ""
+"**Ví dụ sử dụng:** Tạo hoạt ảnh chuyển động của đoạn clip trên màn hình bằng"
+" các đường cong khung chính cho cả vị trí X và Y."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:896
+msgid ""
+"**Tip:** Combine with gravity settings to create dynamic animations that "
+"adhere to consistent alignment rules."
+msgstr ""
+"**Mẹo:** Kết hợp với cài đặt trọng lực để tạo các hoạt ảnh động tuân theo "
+"các quy tắc căn chỉnh nhất quán."
+
+#: ../clips.rst:900
+msgid ""
+"The :guilabel:`Margin` property is a key-frame curve that creates an inset "
+"layout area for a clip. The curve is measured as a percentage of the "
+"project's shortest side and ranges from 0 to 0.5. For example, in a "
+"1920x1080 project, a margin of 0.05 creates a 54-pixel inset on every side, "
+"and the clip is laid out inside the remaining rectangle."
+msgstr ""
+"Thuộc tính :guilabel:`Margin` là một đường cong khung khóa tạo ra khu vực bố"
+" cục lùi vào cho một clip. Đường cong được đo theo phần trăm cạnh ngắn nhất "
+"của dự án và dao động từ 0 đến 0.5. Ví dụ, trong dự án 1920x1080, lề 0.05 "
+"tạo ra khoảng lùi 54 pixel ở mỗi bên, và clip được bố trí bên trong hình chữ"
+" nhật còn lại."
+
+#: ../clips.rst:904
+msgid ""
+"Margin is applied before the clip's scale and gravity are calculated. This "
+"means :guilabel:`Scale` modes such as ``Fit``, ``Crop``, and ``Stretch`` use"
+" the smaller inset area instead of the full project frame. It also means all"
+" :guilabel:`Gravity` options, including ``Center``, are resolved inside the "
+"inset area."
+msgstr ""
+"Lề được áp dụng trước khi tính toán tỷ lệ và trọng lực của clip. Điều này có"
+" nghĩa các chế độ :guilabel:`Scale` như ``Fit``, ``Crop``, và ``Stretch`` sử"
+" dụng khu vực lùi nhỏ hơn thay vì toàn bộ khung dự án. Nó cũng có nghĩa tất "
+"cả các tùy chọn :guilabel:`Gravity`, bao gồm ``Center``, được giải quyết bên"
+" trong khu vực lùi."
+
+#: ../clips.rst:908
+msgid ""
+"**Usage Example:** Keeping a corner webcam clip slightly away from the "
+"screen edge during a screen recording."
+msgstr ""
+"**Ví dụ sử dụng:** Giữ clip webcam góc hơi cách mép màn hình trong khi ghi "
+"màn hình."
+
+#: ../clips.rst:909
+msgid ""
+"**Usage Example:** Adding a clean border around a full-frame image by using "
+"``Fit`` or ``Stretch`` with a small margin."
+msgstr ""
+"**Ví dụ sử dụng:** Thêm viền sạch xung quanh hình ảnh toàn khung bằng cách "
+"sử dụng ``Fit`` hoặc ``Stretch`` với lề nhỏ."
+
+#: ../clips.rst:910
+msgid ""
+"**Usage Example:** Creating safe-area layouts, split-screen spacing, or "
+"picture-in-picture spacing without adding Crop or Mask effects."
+msgstr ""
+"**Ví dụ sử dụng:** Tạo bố cục vùng an toàn, khoảng cách chia màn hình, hoặc "
+"khoảng cách hình ảnh-trong-hình ảnh mà không cần thêm hiệu ứng Crop hoặc "
+"Mask."
+
+# Main-window terminology review, 2026-09-26.
+#: ../clips.rst:911
+msgid ""
+"**Usage Example:** In :guilabel:`Recording View`, screen-plus-camera "
+"recordings use this property to inset the corner webcam clip."
+msgstr ""
+"**Ví dụ sử dụng:** Trong :guilabel:`Chế độ xem ghi âm và ghi hình`, các bản "
+"ghi màn hình-cộng-camera sử dụng thuộc tính này để lùi clip webcam góc."
+
+#: ../clips.rst:912
+msgid ""
+"**Tip:** Use a small value such as 0.02 to 0.05 for normal edge spacing. "
+"Larger values intentionally shrink the available layout area."
+msgstr ""
+"**Mẹo:** Sử dụng giá trị nhỏ như 0.02 đến 0.05 cho khoảng cách mép bình "
+"thường. Giá trị lớn hơn sẽ làm thu nhỏ khu vực bố cục có sẵn."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:918
+msgid ""
+"The :guilabel:`Volume Mixing` property is an enumeration that controls how "
+"volume adjustments are applied before mixing audio. Options: None (no "
+"adjustment), Reduce (volume lowered to 80%), Average (volume divided based "
+"on the number of concurrent clips)."
+msgstr ""
+"Thuộc tính :guilabel:`Volume Mixing` là một kiểu liệt kê điều khiển cách "
+"điều chỉnh âm lượng được áp dụng trước khi trộn âm thanh. Các tùy chọn: None"
+" (không điều chỉnh), Reduce (giảm âm lượng xuống 80%), Average (âm lượng "
+"chia theo số lượng đoạn clip đồng thời)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:921
+msgid ""
+"**Usage Example:** Automatically lowering the volume of a clip to allow "
+"background music to stand out more prominently."
+msgstr ""
+"**Ví dụ sử dụng:** Tự động giảm âm lượng của đoạn clip để cho nhạc nền nổi "
+"bật hơn."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:922
+msgid ""
+"**Tip:** Experiment with volume mixing options to achieve balanced audio "
+"levels across different clips."
+msgstr ""
+"**Mẹo:** Thử nghiệm với các tùy chọn trộn âm lượng để đạt được mức âm thanh "
+"cân bằng giữa các đoạn clip khác nhau."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:924
+msgid ""
+"Mixing audio involves adjusting volume levels so that **overlapping clips** "
+"do not become too loud (creating audio distortion and loss of audio "
+"clarity). If you combine particularly loud audio clips on multiple tracks, "
+"clipping (a staccato audio distortion) may occur. To avoid distortion, "
+"OpenShot might need to reduce the volume levels in overlapping clips. The "
+"following audio mixing methods are available:"
+msgstr ""
+"Trộn âm thanh bao gồm việc điều chỉnh mức âm lượng để các **đoạn clip chồng "
+"lên nhau** không trở nên quá lớn (gây méo âm thanh và mất độ rõ âm). Nếu bạn"
+" kết hợp các đoạn clip âm thanh đặc biệt lớn trên nhiều lớp, có thể xảy ra "
+"hiện tượng clipping (méo âm thanh kiểu staccato). Để tránh méo âm, OpenShot "
+"có thể cần giảm mức âm lượng trong các đoạn clip chồng lên nhau. Các phương "
+"pháp trộn âm thanh sau đây có sẵn:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:928
+msgid ""
+"**None** - Make no adjustments to volume data before mixing audio. "
+"Overlapping clips will combine audio at full volume, with no reduction."
+msgstr ""
+"**None** - Không điều chỉnh dữ liệu âm lượng trước khi trộn âm thanh. Các "
+"đoạn clip chồng lên nhau sẽ kết hợp âm thanh ở âm lượng đầy đủ, không giảm."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:929
+msgid ""
+"**Average** - Automatically divide the volume of each clip based on the # of"
+" overlapping clips. For example, 2 overlapping clips would each have 50% "
+"volume, 3 overlapping clips would each have 33% volume, etc..."
+msgstr ""
+"**Average** - Tự động chia âm lượng của mỗi đoạn clip dựa trên số lượng đoạn"
+" clip chồng lên nhau. Ví dụ, 2 đoạn clip chồng lên nhau sẽ có mỗi đoạn 50% "
+"âm lượng, 3 đoạn clip chồng lên nhau sẽ có mỗi đoạn 33% âm lượng, v.v..."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:930
+msgid ""
+"**Reduce** - Automatically reduce overlapping clips volume by 20%, which "
+"reduces the likelihood of becoming too loud, but does not always prevent "
+"audio distortion. For example, if you have 10 loud clips overlapping, each "
+"with a 20% reduction in volume, it might still exceed the max allowable "
+"volume and exhibit audio distortion."
+msgstr ""
+"**Reduce** - Tự động giảm âm lượng các đoạn clip chồng lên nhau 20%, giúp "
+"giảm khả năng âm thanh quá lớn, nhưng không phải lúc nào cũng ngăn được méo "
+"âm. Ví dụ, nếu bạn có 10 đoạn clip lớn chồng lên nhau, mỗi đoạn giảm 20% âm "
+"lượng, vẫn có thể vượt quá mức âm lượng tối đa cho phép và gây méo âm."
+
+#: ../clips.rst:932
+msgid ""
+"For quickly adjusting the volume of a clip, you can use the :guilabel:`Audio"
+" → Volume` menu. See :ref:`clip_presets_ref`. For precise control over the "
+"volume of a clip, you can manually set the :guilabel:`Volume Key-frame`. See"
+" :ref:`clip_volume_ref`."
+msgstr ""
+"Để điều chỉnh nhanh âm lượng của một clip, bạn có thể sử dụng menu "
+":guilabel:`Audio → Volume`. Xem :ref:`clip_presets_ref`. Để kiểm soát chính "
+"xác âm lượng của clip, bạn có thể thiết lập thủ công :guilabel:`Volume Key-"
+"frame`. Xem :ref:`clip_volume_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:936
+msgid "Origin X and Origin Y"
+msgstr "Gốc X và Gốc Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:937
+msgid ""
+"The :guilabel:`Origin X` and :guilabel:`Origin Y` properties are key-frame "
+"curves that define the rotation origin point's position in percentages. The "
+"range for these curves is -1 to 1. See :ref:`clip_transform_ref`."
+msgstr ""
+"Thuộc tính :guilabel:`Origin X` và :guilabel:`Origin Y` là các đường cong "
+"khung chính xác định vị trí điểm gốc xoay theo phần trăm. Phạm vi của các "
+"đường cong này là từ -1 đến 1. Xem :ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:940
+msgid ""
+"**Usage Example:** Rotating a clip around a specific point, such as a "
+"character's pivot joint."
+msgstr ""
+"**Ví dụ sử dụng:** Xoay đoạn clip quanh một điểm cụ thể, như khớp trục của "
+"một nhân vật."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:941
+msgid ""
+"**Tip:** Set the origin point to achieve controlled and natural-looking "
+"rotations during animations."
+msgstr ""
+"**Mẹo:** Đặt điểm gốc để đạt được các phép xoay có kiểm soát và tự nhiên "
+"trong hoạt ảnh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:946
+msgid "Clip Parent"
+msgstr "Cha của đoạn clip"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:947
+msgid ""
+"The :guilabel:`Parent` property of a clip sets the initial keyframe values "
+"to the parent object. For example, if many clips all point to the same "
+"parent clip, they will inherit all their default properties, such as "
+"``location_x``, ``location_y``, ``scale_x``, ``scale_y``, etc... This can be"
+" very useful in certain circumstances, such as when you have many clips that"
+" need to move or scale together."
+msgstr ""
+"Thuộc tính :guilabel:`Parent` của một đoạn clip đặt các giá trị khung chính "
+"ban đầu cho đối tượng cha. Ví dụ, nếu nhiều đoạn clip đều trỏ đến cùng một "
+"đoạn clip cha, chúng sẽ kế thừa tất cả các thuộc tính mặc định của nó, như "
+"``location_x``, ``location_y``, ``scale_x``, ``scale_y``, v.v... Điều này "
+"rất hữu ích trong một số trường hợp, như khi bạn có nhiều đoạn clip cần di "
+"chuyển hoặc thay đổi kích thước cùng nhau."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:951
+msgid ""
+"**Usage Example:** Creating complex animations by establishing a parent-"
+"child relationship between clips."
+msgstr ""
+"**Ví dụ sử dụng:** Tạo các hoạt ảnh phức tạp bằng cách thiết lập mối quan hệ"
+" cha-con giữa các đoạn clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:952
+msgid ""
+"**Tip:** Utilize this property to propagate changes from the parent clip to "
+"child clips for consistent animations."
+msgstr ""
+"**Mẹo:** Sử dụng thuộc tính này để truyền các thay đổi từ đoạn clip cha sang"
+" các đoạn clip con nhằm tạo hoạt ảnh nhất quán."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:953
+msgid ""
+"**Tip:** You can also set the ``parent`` attribute to a ``Tracker`` or "
+"``Object Detector`` tracked object, so the clip follows the location and "
+"scale of a tracked object. Also see :ref:`effect_parent_ref`."
+msgstr ""
+"**Mẹo:** Bạn cũng có thể đặt thuộc tính ``parent`` thành một đối tượng được "
+"theo dõi bởi ``Tracker`` hoặc ``Object Detector``, để đoạn clip theo dõi vị "
+"trí và kích thước của đối tượng được theo dõi. Xem thêm "
+":ref:`effect_parent_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:957
+msgid ""
+"The :guilabel:`Position` property determines the clip's position on the "
+"timeline in seconds, with 0.0 indicating the beginning."
+msgstr ""
+"Thuộc tính :guilabel:`Position` xác định vị trí của đoạn clip trên dòng thời"
+" gian tính bằng giây, với 0.0 là điểm bắt đầu."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:959
+msgid ""
+"**Usage Example:** Timing a clip's appearance to coincide with specific "
+"events in the project."
+msgstr ""
+"**Ví dụ sử dụng:** Đồng bộ thời điểm xuất hiện của clip với các sự kiện cụ "
+"thể trong dự án."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:960
+msgid ""
+"**Tip:** Adjust the position to synchronize clips with audio cues or visual "
+"elements."
+msgstr ""
+"**Mẹo:** Điều chỉnh vị trí để đồng bộ các clip với tín hiệu âm thanh hoặc "
+"yếu tố hình ảnh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:966
+msgid ""
+"The :guilabel:`Rotation` property is a key-frame curve that controls the "
+"rotation angle of the clip, ranging from -360 to 360 degrees. You can rotate"
+" clockwise or counterclockwise. Quickly adjust the orientation angle of a "
+"clip (sideways, upside down, right side up, portrait, landscape), flip a "
+"clip, or animate the rotation.  See :ref:`clip_transform_ref`."
+msgstr ""
+"Thuộc tính :guilabel:`Rotation` là một đường cong khung chính điều khiển góc"
+" xoay của clip, trong khoảng từ -360 đến 360 độ. Bạn có thể xoay theo chiều "
+"kim đồng hồ hoặc ngược chiều kim đồng hồ. Nhanh chóng điều chỉnh góc định "
+"hướng của clip (nghiêng, lộn ngược, đúng chiều, chân dung, phong cảnh), lật "
+"clip hoặc tạo hoạt ảnh xoay. Xem :ref:`clip_transform_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:970
+msgid ""
+"**Usage Example:** Simulating a spinning effect by animating the rotation "
+"curve."
+msgstr ""
+"**Ví dụ sử dụng:** Mô phỏng hiệu ứng quay bằng cách tạo hoạt ảnh cho đường "
+"cong xoay."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:971
+msgid ""
+"**Tip:** Use this property creatively for effects like rotating text or "
+"emulating camera movement."
+msgstr ""
+"**Mẹo:** Sử dụng thuộc tính này một cách sáng tạo cho các hiệu ứng như xoay "
+"chữ hoặc mô phỏng chuyển động camera."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:972
+msgid ""
+"**Tip:** In the preview transform tool, hold :kbd:`Ctrl` or :kbd:`Shift` "
+"while rotating to snap to 15-degree increments."
+msgstr ""
+"**Mẹo:** Trong công cụ biến đổi xem trước, giữ :kbd:`Ctrl` hoặc :kbd:`Shift`"
+" khi xoay để căn chỉnh theo các bước 15 độ."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:973
+msgid ""
+"**Tip:** Experiment with rotating your video at different angles, not just "
+"90 or 180 degrees. Sometimes a slight tilt or a specific angle can add "
+"creative flair to your video, especially for artistic or storytelling "
+"purposes."
+msgstr ""
+"**Mẹo:** Thử xoay video của bạn ở các góc độ khác nhau, không chỉ 90 hoặc "
+"180 độ. Đôi khi một chút nghiêng hoặc góc độ cụ thể có thể thêm nét sáng tạo"
+" cho video, đặc biệt cho mục đích nghệ thuật hoặc kể chuyện."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:974
+msgid ""
+"**Tip:** After rotating your video, you might end up with black bars around "
+"the edges. Consider cropping and resizing the video to eliminate these bars "
+"and maintain a clean, polished look."
+msgstr ""
+"**Mẹo:** Sau khi xoay video, bạn có thể thấy các thanh đen quanh viền. Hãy "
+"cân nhắc cắt và thay đổi kích thước video để loại bỏ các thanh này và giữ "
+"cho hình ảnh sạch sẽ, chuyên nghiệp."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:975
+msgid ""
+"**Tip:** If you're dealing with vertical videos that are meant to be watched"
+" on horizontal screens, rotate them by 90 degrees and then scale them up to "
+"fill the frame. This way, your vertical video will occupy more screen real "
+"estate."
+msgstr ""
+"**Mẹo:** Nếu bạn xử lý video dọc dành để xem trên màn hình ngang, hãy xoay "
+"chúng 90 độ rồi phóng to để lấp đầy khung hình. Cách này giúp video dọc "
+"chiếm nhiều diện tích màn hình hơn."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:976
+msgid ""
+"**Tip:** If the horizon in your video appears slanted due to camera tilt, "
+"use rotation to level it. This is particularly important for landscape shots"
+" to maintain a professional and visually pleasing appearance."
+msgstr ""
+"**Mẹo:** Nếu đường chân trời trong video bị nghiêng do máy quay, hãy dùng "
+"xoay để cân bằng lại. Điều này đặc biệt quan trọng với cảnh phong cảnh để "
+"giữ vẻ chuyên nghiệp và dễ nhìn."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:982
+msgid ""
+"The :guilabel:`Scale` property is the initial resizing or scaling method "
+"used to display the picture of a clip, which may be further adjusted by the "
+":guilabel:`Scale X` and :guilabel:`Scale Y` clip properties (see "
+":ref:`clip_scale_x_ref`). It is recommended to use assets with the same "
+"aspect ratio as your project profile, which allows many of these resizing "
+"methods to fully scale your clip up to the size of the screen, without "
+"adding any black bars on the edges. The scale methods are:"
+msgstr ""
+"Thuộc tính :guilabel:`Scale` là phương pháp thay đổi kích thước hoặc tỉ lệ "
+"ban đầu dùng để hiển thị hình ảnh của clip, có thể được điều chỉnh thêm bởi "
+"các thuộc tính :guilabel:`Scale X` và :guilabel:`Scale Y` của clip (xem "
+":ref:`clip_scale_x_ref`). Khuyến nghị sử dụng tài nguyên có tỉ lệ khung hình"
+" giống với cấu hình dự án của bạn, điều này cho phép nhiều phương pháp thay "
+"đổi kích thước có thể phóng to clip đến kích thước màn hình mà không tạo "
+"thanh đen ở các cạnh. Các phương pháp tỉ lệ gồm:"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:987
+msgid ""
+"**Best Fit** (default) – The clip is as large as possible without changing "
+"the aspect ratio. This might result in black bars on certain sides of the "
+"picture, if the aspect ratio does not exactly match your project size."
+msgstr ""
+"**Best Fit** (mặc định) – Clip được phóng to tối đa mà không thay đổi tỉ lệ "
+"khung hình. Điều này có thể tạo ra các thanh đen ở một số cạnh nếu tỉ lệ "
+"khung hình không hoàn toàn khớp với kích thước dự án của bạn."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:988
+msgid ""
+"**Crop** – The aspect ratio of the clip is maintained while the clip is "
+"enlarged to fill the entire screen, even if that means some of it will be "
+"cropped. This prevents black bars around the picture, but if the aspect "
+"ratio of the clip does not match the project size, some of the picture will "
+"be cropped off."
+msgstr ""
+"**Crop** – Tỉ lệ khung hình của clip được giữ nguyên trong khi clip được "
+"phóng to để lấp đầy toàn bộ màn hình, ngay cả khi một phần bị cắt bớt. Cách "
+"này ngăn các thanh đen quanh hình ảnh, nhưng nếu tỉ lệ khung hình clip không"
+" khớp với kích thước dự án, một phần hình ảnh sẽ bị cắt."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:989
+msgid ""
+"**None** – The clip is displayed in its original size. This is not "
+"recommended, since the picture will not scale correctly if you change the "
+"project profile (or project size)."
+msgstr ""
+"**None** – Clip được hiển thị với kích thước gốc. Không khuyến nghị sử dụng "
+"vì hình ảnh sẽ không thay đổi kích thước đúng khi bạn thay đổi cấu hình dự "
+"án (hoặc kích thước dự án)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:990
+msgid ""
+"**Stretch** – The clip is stretched to fill the entire screen, changing the "
+"aspect ratio if necessary."
+msgstr ""
+"**Stretch** – Clip được kéo dãn để lấp đầy toàn bộ màn hình, thay đổi tỉ lệ "
+"khung hình nếu cần."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:995
+msgid "Scale X and Scale Y"
+msgstr "Scale X và Scale Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:996
+msgid ""
+"The :guilabel:`Scale X` and :guilabel:`Scale Y` properties are key-frame "
+"curves that represent horizontal and vertical scaling in percentages, "
+"respectively. The range for these curves is 0 to 1. See "
+":ref:`clip_transform_ref`. OpenShot limits the max scale values based on the"
+" file type and the project size, to prevent crashes and performance issues."
+msgstr ""
+"Các thuộc tính :guilabel:`Scale X` và :guilabel:`Scale Y` là các đường cong "
+"khung chính đại diện cho tỉ lệ phóng to theo chiều ngang và chiều dọc theo "
+"phần trăm, tương ứng. Phạm vi của các đường cong này là từ 0 đến 1. Xem "
+":ref:`clip_transform_ref`. OpenShot giới hạn giá trị tỉ lệ tối đa dựa trên "
+"loại tệp và kích thước dự án để tránh sự cố và vấn đề hiệu năng."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1000
+msgid ""
+"**Usage Example:** Creating a zoom-in effect by animating the Scale X and "
+"Scale Y curves simultaneously."
+msgstr ""
+"**Ví dụ sử dụng:** Tạo hiệu ứng phóng to bằng cách tạo hoạt ảnh đồng thời "
+"cho các đường cong Scale X và Scale Y."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1001
+msgid ""
+"**Tip:** Scale the image larger than the screen, only revealing a portion of"
+" the video. This is a simple way to crop a portion of the video."
+msgstr ""
+"**Mẹo:** Phóng to hình ảnh lớn hơn màn hình, chỉ hiển thị một phần của "
+"video. Đây là cách đơn giản để cắt một phần video."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1002
+msgid ""
+"**Tip:** Scale the horizontal and vertical elements separately, to squash "
+"and stretch the image in fun ways."
+msgstr ""
+"**Mẹo:** Phóng to các yếu tố ngang và dọc riêng biệt, để bóp méo và kéo giãn"
+" hình ảnh theo cách thú vị."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1003
+msgid ""
+"**Tip:** Combine scaling with rotation and location properties for dynamic "
+"transformations."
+msgstr ""
+"**Mẹo:** Kết hợp phóng to với các thuộc tính xoay và vị trí để tạo các biến "
+"đổi động."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1006
+msgid "Shear X and Shear Y"
+msgstr "Shear X và Shear Y"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1007
+msgid ""
+"The :guilabel:`Shear X` and :guilabel:`Shear Y` properties are key-frame "
+"curves that represent X and Y shear angles in degrees, respectively. See "
+":ref:`clip_transform_ref`. OpenShot limits the max shear values based on the"
+" file type and the project size, to prevent crashes and performance issues."
+msgstr ""
+"Các thuộc tính :guilabel:`Shear X` và :guilabel:`Shear Y` là các đường cong "
+"khung chính đại diện cho góc cắt xén theo trục X và Y tính bằng độ, tương "
+"ứng. Xem :ref:`clip_transform_ref`. OpenShot giới hạn giá trị cắt xén tối đa"
+" dựa trên loại tệp và kích thước dự án để tránh sự cố và vấn đề hiệu năng."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1011
+msgid ""
+"**Usage Example:** Adding a dynamic tilt effect to a clip by animating the "
+"shear angles."
+msgstr ""
+"**Ví dụ sử dụng:** Thêm hiệu ứng nghiêng động cho clip bằng cách tạo hoạt "
+"ảnh các góc cắt xén."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1012
+msgid ""
+"**Tip:** Use shear properties for creating slanted or skewed animations."
+msgstr ""
+"**Mẹo:** Sử dụng các thuộc tính cắt xén để tạo các hoạt ảnh nghiêng hoặc "
+"xiên."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1016
+msgid ""
+"The :guilabel:`Start` property defines the trimming point at the beginning "
+"of the clip in seconds. Changing this property will impact the "
+":guilabel:`Duration` clip property."
+msgstr ""
+"Thuộc tính :guilabel:`Start` xác định điểm cắt ở đầu clip tính bằng giây. "
+"Thay đổi thuộc tính này sẽ ảnh hưởng đến thuộc tính :guilabel:`Duration` của"
+" clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1019
+msgid ""
+"**Usage Example:** Removing the initial portion of a clip to focus on a "
+"specific scene or moment."
+msgstr ""
+"**Ví dụ sử dụng:** Loại bỏ phần đầu của clip để tập trung vào một cảnh hoặc "
+"khoảnh khắc cụ thể."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1020
+msgid ""
+"**Tip:** Utilize the \"Start\" property in combination with the \"End\" "
+"property for precise clip trimming."
+msgstr ""
+"**Mẹo:** Sử dụng thuộc tính \"Start\" kết hợp với thuộc tính \"End\" để cắt "
+"clip chính xác."
+
+# Main-window terminology review, 2026-09-26.
+#: ../clips.rst:1026
+msgid ""
+"The :guilabel:`Time` property is a key-frame curve that represents frames "
+"played over time, affecting the speed and direction of the video. You can "
+"use one of the available presets (normal, fast, slow, freeze, freeze & zoom,"
+" forward, backward), by right-clicking on a clip and choosing the "
+":guilabel:`Speed` menu. Many presets are available in this menu for "
+"reversing, speeding up, and slowing down a video clip, see "
+":ref:`clip_presets_ref`. The same adjustments can be made interactively with"
+" the :guilabel:`Timing` toolbar button by dragging a clip's edges; OpenShot "
+"adds the necessary time keyframes and scales all other keyframes "
+"automatically."
+msgstr ""
+"Thuộc tính :guilabel:`Time` là một đường cong khung khóa đại diện cho các "
+"khung hình được phát theo thời gian, ảnh hưởng đến tốc độ và hướng của "
+"video. Bạn có thể sử dụng một trong các cài đặt sẵn có (bình thường, nhanh, "
+"chậm, đóng băng, đóng băng & phóng to, tiến, lùi) bằng cách nhấp chuột phải "
+"vào clip và chọn menu :guilabel:`Speed`. Nhiều cài đặt sẵn có trong menu này"
+" để đảo ngược, tăng tốc và làm chậm clip video, xem :ref:`clip_presets_ref`."
+" Các điều chỉnh tương tự có thể được thực hiện tương tác với nút thanh công "
+"cụ :guilabel:`Đổi tốc độ` bằng cách kéo các cạnh của clip; OpenShot sẽ thêm "
+"các khung khóa thời gian cần thiết và tự động điều chỉnh tỷ lệ các khung "
+"khóa khác."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1033
+msgid ""
+"Optionally, you can manually set key-frame values for the :guilabel:`Time` "
+"property. The value represents the `frame number` at the position of the "
+"key-frame. This can be tricky to determine and might require a calculator to"
+" find the needed values. For example, if the beginning of your Clip sets a "
+"time value of ``300`` (i.e. `frame 300`), and the end of your clip sets a "
+"time value of ``1`` (`frame 1`), OpenShot will play this clip backwards, "
+"starting at frame 300 and ending at frame 1, at the appropriate speed (based"
+" on where these key-frames are set on the timeline). NOTE: To determine the "
+"total number of frames in a clip, multiply the duration of the file with the"
+" FPS of the project (for example: ``47.0 sec clip duration X 24.0 Project "
+"FPS = 1128 total frames``)."
+msgstr ""
+"Bạn cũng có thể tự đặt giá trị khung hình chính cho thuộc tính "
+":guilabel:`Time`. Giá trị này đại diện cho `số khung hình` tại vị trí của "
+"khung hình chính. Việc này có thể khó xác định và có thể cần máy tính để tìm"
+" giá trị cần thiết. Ví dụ, nếu đầu clip của bạn đặt giá trị thời gian là "
+"``300`` (tức là `khung hình 300`), và cuối clip đặt giá trị thời gian là "
+"``1`` (`khung hình 1`), OpenShot sẽ phát clip này ngược lại, bắt đầu từ "
+"khung hình 300 và kết thúc ở khung hình 1, với tốc độ phù hợp (dựa trên vị "
+"trí các khung hình chính trên dòng thời gian). LƯU Ý: Để xác định tổng số "
+"khung hình trong một clip, nhân thời lượng file với FPS của dự án (ví dụ: "
+"``47.0 giây thời lượng clip X 24.0 FPS dự án = 1128 tổng số khung hình``)."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1041
+msgid ""
+"This allows for some very complex scenarios, such as jump cutting inside a "
+"clip, reversing a portion of a clip, slowing down a portion of a clip, "
+"freezing on a frame, and much more. See :ref:`animation_ref` for more "
+"details on manual key-frame animations."
+msgstr ""
+"Điều này cho phép một số kịch bản rất phức tạp, như cắt nhảy trong clip, đảo"
+" ngược một phần của clip, làm chậm một phần của clip, đóng băng trên một "
+"khung hình, và nhiều hơn nữa. Xem :ref:`animation_ref` để biết thêm chi tiết"
+" về hoạt ảnh khung hình chính thủ công."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1045
+msgid ""
+"**Usage Example:** Creating a slow-motion or time-lapse effect by modifying "
+"the time curve."
+msgstr ""
+"**Ví dụ sử dụng:** Tạo hiệu ứng chuyển động chậm hoặc tua nhanh thời gian "
+"bằng cách chỉnh sửa đường cong thời gian."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1046
+msgid ""
+"**Tip:** Adjust the \"Time\" property to control video playback speed for "
+"dramatic visual impact."
+msgstr ""
+"**Mẹo:** Điều chỉnh thuộc tính \"Time\" để kiểm soát tốc độ phát video nhằm "
+"tạo hiệu ứng hình ảnh ấn tượng."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1052
+msgid ""
+"The :guilabel:`Volume` property is a key-frame curve that controls audio "
+"volume or level, ranging from 0 (mute) to 1 (full volume). For automatic "
+"adjustment of volume, see :ref:`clip_volume_mixing_ref`."
+msgstr ""
+"Thuộc tính :guilabel:`Volume` là một đường cong khung hình chính điều khiển "
+"âm lượng hoặc mức độ âm thanh, từ 0 (tắt tiếng) đến 1 (âm lượng đầy đủ). Để "
+"điều chỉnh âm lượng tự động, xem :ref:`clip_volume_mixing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1055
+msgid ""
+"**Usage Example:** Gradually fading out background music as dialogue becomes"
+" more prominent, or increasing or lowering the volume of a clip."
+msgstr ""
+"**Ví dụ sử dụng:** Dần dần làm mờ nhạc nền khi lời thoại trở nên nổi bật "
+"hơn, hoặc tăng hoặc giảm âm lượng của một clip."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1056
+msgid ""
+"**Tip:** Combine multiple volume key-frames for nuanced audio adjustments, "
+"such as ducking the level of the music when dialog is spoken."
+msgstr ""
+"**Mẹo:** Kết hợp nhiều khung hình chính âm lượng để điều chỉnh âm thanh tinh"
+" tế, như giảm âm lượng nhạc khi có lời thoại."
+
+#: ../clips.rst:1057
+msgid ""
+"**Tip:** For **quickly** adjusting the volume of a clip you can use the "
+":guilabel:`Audio → Volume` menu. See :ref:`clip_presets_ref`."
+msgstr ""
+"**Mẹo:** Để điều chỉnh **nhanh** âm lượng của một clip, bạn có thể sử dụng "
+"menu :guilabel:`Audio → Volume`. Xem :ref:`clip_presets_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1061
+msgid ""
+"The :guilabel:`Wave Color` property is a key-frame curve that represents the"
+" color of the audio waveform visualization."
+msgstr ""
+"Thuộc tính :guilabel:`Wave Color` là một đường cong khung hình chính đại "
+"diện cho màu sắc của hình ảnh sóng âm thanh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1063
+msgid ""
+"**Usage Example:** Matching the waveform color to the project's overall "
+"visual theme."
+msgstr ""
+"**Ví dụ sử dụng:** Phối màu sóng âm thanh phù hợp với chủ đề hình ảnh tổng "
+"thể của dự án."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1064
+msgid ""
+"**Tip:** Experiment with different colors to enhance the visual appeal of "
+"the waveform or animate the color over time."
+msgstr ""
+"**Mẹo:** Thử nghiệm với các màu sắc khác nhau để tăng sức hấp dẫn hình ảnh "
+"của sóng âm thanh hoặc tạo hoạt ảnh màu sắc theo thời gian."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1068
+msgid ""
+"The :guilabel:`Waveform` property is a boolean that determines whether a "
+"waveform visualization is used instead of the clip's image."
+msgstr ""
+"Thuộc tính :guilabel:`Waveform` là một giá trị boolean xác định xem có sử "
+"dụng hình ảnh sóng âm thanh thay cho hình ảnh của clip hay không."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1070
+msgid ""
+"**Usage Example:** Displaying an audio waveform in place of the video for "
+"visually highlighting audio patterns."
+msgstr ""
+"**Ví dụ sử dụng:** Hiển thị sóng âm thanh thay cho video để làm nổi bật các "
+"mẫu âm thanh về mặt hình ảnh."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1071
+msgid ""
+"**Tip:** Use waveform visualization for emphasizing music beats or voice "
+"modulations."
+msgstr ""
+"**Mẹo:** Sử dụng hình ảnh sóng âm thanh để nhấn mạnh nhịp điệu nhạc hoặc "
+"biến đổi giọng nói."
+
+#: ../clips.rst:1075
+msgid ""
+"The :guilabel:`Waveform Mode` property controls the visualization style used"
+" when :guilabel:`Waveform` is enabled. It uses the same choices as the "
+":guilabel:`Visualization` property on the :guilabel:`Audio Visualization` "
+"effect: Waveform, Filled Waveform, Bars, Radial, Radial Bars, Spectrum, "
+"Phase Scope, Particles, and VU Meter."
+msgstr ""
+"Thuộc tính :guilabel:`Waveform Mode` điều khiển kiểu hiển thị được sử dụng "
+"khi :guilabel:`Waveform` được bật. Nó sử dụng các lựa chọn giống như thuộc "
+"tính :guilabel:`Visualization` trong hiệu ứng :guilabel:`Audio "
+"Visualization`: Waveform, Filled Waveform, Bars, Radial, Radial Bars, "
+"Spectrum, Phase Scope, Particles, và VU Meter."
+
+#: ../clips.rst:1079
+msgid ""
+"**Usage Example:** Switching an audio-only clip from a standard waveform to "
+"bars or a spectrum display."
+msgstr ""
+"**Ví dụ sử dụng:** Chuyển một clip chỉ âm thanh từ sóng âm tiêu chuẩn sang "
+"thanh hoặc hiển thị phổ."
+
+#: ../clips.rst:1080
+msgid ""
+"**Tip:** Use :guilabel:`Wave Color` with :guilabel:`Waveform Mode` to tune "
+"both the visualization style and color."
+msgstr ""
+"**Mẹo:** Sử dụng :guilabel:`Wave Color` cùng với :guilabel:`Waveform Mode` "
+"để điều chỉnh cả kiểu hiển thị và màu sắc."
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1083
+msgid "More Information"
+msgstr "Thông tin thêm"
+
+# Translated with gpt-4.1-mini
+#: ../clips.rst:1084
+msgid "For more info on key frames and animation, see :ref:`animation_ref`."
+msgstr ""
+"Để biết thêm thông tin về khung hình chính và hoạt ảnh, xem "
+":ref:`animation_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`razor tool` from the **Timeline Toolbar** cuts a clip at the "
+#~ "position where it is clicked. Use :kbd:`SHIFT` to slice and keep the left "
+#~ "side, or :kbd:`CTRL` to keep the right side."
+#~ msgstr ""
+#~ "Công cụ :guilabel:`dao cạo` từ **Thanh công cụ Dòng thời gian** cắt đoạn "
+#~ "phim tại vị trí được nhấp. Sử dụng :kbd:`SHIFT` để chia và giữ bên trái, "
+#~ "hoặc :kbd:`CTRL` để giữ bên phải."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Some presets allow the user to target either the start, end, or entire clip,"
+#~ " and most presets allow the user to reset a specific clip property. For "
+#~ "example, when using the ``Volume`` preset, the user has the following menu "
+#~ "options:"
+#~ msgstr ""
+#~ "Một số thiết lập sẵn cho phép người dùng chọn áp dụng cho đầu, cuối hoặc "
+#~ "toàn bộ clip, và hầu hết các thiết lập cho phép người dùng đặt lại một thuộc"
+#~ " tính clip cụ thể. Ví dụ, khi sử dụng thiết lập ``Volume``, người dùng có "
+#~ "các tùy chọn menu sau:"
+
+# Translated with gpt-4.1-mini
+#~ msgid "**Reset** - This will reset the volume to the original level."
+#~ msgstr "**Đặt lại** - Điều này sẽ đặt lại âm lượng về mức ban đầu."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Start of Clip** - Your volume level selection will apply at the Beginning "
+#~ "of the clip."
+#~ msgstr "**Đầu clip** - Mức âm lượng bạn chọn sẽ áp dụng tại đầu clip."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**End of Clip** - Your volume level selection will apply to the End of the "
+#~ "clip."
+#~ msgstr "**Cuối clip** - Mức âm lượng bạn chọn sẽ áp dụng tại cuối clip."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Entire Clip** - Your volume level selection will apply to the Entire clip."
+#~ msgstr "**Toàn bộ clip** - Mức âm lượng bạn chọn sẽ áp dụng cho toàn bộ clip."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Fade the image in or out (often easier than using a transition)"
+#~ msgstr "Mờ dần hình ảnh vào hoặc ra (thường dễ hơn dùng chuyển tiếp)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Animate"
+#~ msgstr "Hoạt hình"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Zoom and slide a clip"
+#~ msgstr "Phóng to và trượt một clip"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Rotate or flip a clip"
+#~ msgstr "Xoay hoặc lật một clip"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Make a video smaller or larger, and snap to any corner"
+#~ msgstr "Thu nhỏ hoặc phóng to video, và gắn vào bất kỳ góc nào"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Reverse, repeat, and speed up or slow down video"
+#~ msgstr "Đảo ngược, lặp lại, và tăng hoặc giảm tốc độ video"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Fade in or out the volume, reduce or increase the volume of a clip, or mute"
+#~ msgstr ""
+#~ "Mờ dần âm lượng vào hoặc ra, giảm hoặc tăng âm lượng của clip, hoặc tắt "
+#~ "tiếng"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Separate Audio"
+#~ msgstr "Tách âm thanh"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Separate the audio from a clip. This preset can either create a single "
+#~ "detached audio clip (positioned on a layer below the original clip), or "
+#~ "multiple detached audio clips (one per audio track, positioned on multiple "
+#~ "layers below the original clip)"
+#~ msgstr ""
+#~ "Tách âm thanh khỏi clip. Thiết lập sẵn này có thể tạo một clip âm thanh tách"
+#~ " rời duy nhất (đặt trên lớp dưới clip gốc), hoặc nhiều clip âm thanh tách "
+#~ "rời (mỗi track âm thanh một clip, đặt trên nhiều lớp dưới clip gốc)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Cut the clip at the play-head position"
+#~ msgstr "Cắt clip tại vị trí đầu phát"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Display"
+#~ msgstr "Hiển thị"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Show waveform or thumbnail for a clip"
+#~ msgstr "Hiển thị dạng sóng hoặc hình thu nhỏ cho clip"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Show the properties panel for a clip"
+#~ msgstr "Hiển thị bảng thuộc tính cho clip"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Copy / Paste"
+#~ msgstr "Sao chép / Dán"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Copy and paste key frames or duplicate an entire clip (with all key frames)"
+#~ msgstr ""
+#~ "Sao chép và dán các keyframe hoặc nhân bản toàn bộ clip (với tất cả "
+#~ "keyframe)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Remove a clip from the timeline"
+#~ msgstr "Xóa một clip khỏi timeline"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Fade` preset enables smooth transitions by gradually "
+#~ "increasing or decreasing the clip's opacity. It creates a fade-in or fade-"
+#~ "out of the clip image, ideal for introducing or concluding clips. See "
+#~ ":ref:`clip_alpha_ref` key-frame."
+#~ msgstr ""
+#~ "Thiết lập sẵn :guilabel:`Fade` cho phép chuyển tiếp mượt mà bằng cách tăng "
+#~ "hoặc giảm dần độ mờ của clip. Nó tạo hiệu ứng mờ dần vào hoặc ra cho hình "
+#~ "ảnh clip, lý tưởng để giới thiệu hoặc kết thúc clip. Xem keyframe "
+#~ ":ref:`clip_alpha_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Adjust the duration of the fade effect (slow or fast) to control "
+#~ "its timing and intensity."
+#~ msgstr ""
+#~ "**Mẹo:** Điều chỉnh thời lượng hiệu ứng mờ dần (chậm hoặc nhanh) để kiểm "
+#~ "soát thời gian và cường độ của nó."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Animate` preset adds dynamic motion to clips, combining "
+#~ "zooming and sliding animations. It animates a clip by zooming in or out "
+#~ "while sliding across the screen. It can **slide** in many specific "
+#~ "directions, or slide and zoom to a **random** location. See "
+#~ ":ref:`clip_location_x_ref` and :ref:`clip_scale_x_ref` key-frames."
+#~ msgstr ""
+#~ "Cài đặt sẵn :guilabel:`Animate` thêm chuyển động động cho các đoạn clip, kết"
+#~ " hợp hiệu ứng phóng to và trượt. Nó tạo hoạt ảnh cho đoạn clip bằng cách "
+#~ "phóng to hoặc thu nhỏ trong khi trượt trên màn hình. Có thể **trượt** theo "
+#~ "nhiều hướng cụ thể, hoặc trượt và phóng to đến vị trí **ngẫu nhiên**. Xem "
+#~ "các khung khóa :ref:`clip_location_x_ref` và :ref:`clip_scale_x_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Using the animate preset to simulate a camera movement "
+#~ "across a landscape shot."
+#~ msgstr ""
+#~ "**Ví dụ sử dụng:** Sử dụng cài đặt sẵn animate để mô phỏng chuyển động "
+#~ "camera qua cảnh quay phong cảnh."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Experiment with different animation speeds and directions for "
+#~ "diverse visual effects."
+#~ msgstr ""
+#~ "**Mẹo:** Thử nghiệm với các tốc độ và hướng hoạt ảnh khác nhau để tạo hiệu "
+#~ "ứng hình ảnh đa dạng."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Rotate` preset introduces easy rotation and flipping of "
+#~ "clips, enhancing their visual appeal. It enables orientation adjustment, by "
+#~ "rotating and flipping a clip for creative visual transformations. See "
+#~ ":ref:`clip_rotation_ref` key-frame."
+#~ msgstr ""
+#~ "Cài đặt sẵn :guilabel:`Rotate` cho phép xoay và lật đoạn clip dễ dàng, tăng "
+#~ "tính hấp dẫn hình ảnh. Nó cho phép điều chỉnh hướng bằng cách xoay và lật "
+#~ "đoạn clip để tạo các biến đổi hình ảnh sáng tạo. Xem khung khóa "
+#~ ":ref:`clip_rotation_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Rotating a photo or video by 90 degree (a portrait video "
+#~ "to a landscape)"
+#~ msgstr ""
+#~ "**Ví dụ sử dụng:** Xoay ảnh hoặc video 90 độ (video chân dung sang phong "
+#~ "cảnh)"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** If your video is oriented sideways (90 degrees), you can "
+#~ "rotate it clockwise or counterclockwise by 90 degrees to bring it to the "
+#~ "correct orientation. This can be useful when you accidentally recorded a "
+#~ "video in portrait mode when you intended it to be landscape."
+#~ msgstr ""
+#~ "**Ví dụ sử dụng:** Nếu video của bạn bị xoay ngang (90 độ), bạn có thể xoay "
+#~ "nó theo chiều kim đồng hồ hoặc ngược chiều kim đồng hồ 90 độ để đưa về hướng"
+#~ " đúng. Điều này hữu ích khi bạn vô tình quay video ở chế độ chân dung trong "
+#~ "khi muốn quay phong cảnh."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** If your video is upside down, you can rotate it by 180 "
+#~ "degrees to flip it to the correct orientation. This can happen if you "
+#~ "accidentally held your camera the wrong way while recording."
+#~ msgstr ""
+#~ "**Ví dụ sử dụng:** Nếu video của bạn bị lộn ngược, bạn có thể xoay nó 180 độ"
+#~ " để đưa về hướng đúng. Điều này có thể xảy ra nếu bạn vô tình cầm máy quay "
+#~ "sai chiều khi ghi hình."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Layout` preset adjusts the size of a clip and snaps it to a "
+#~ "chosen corner of the screen. It resizes a clip and anchors it to a corner or"
+#~ " the center, useful for picture-in-picture or watermark effects. See "
+#~ ":ref:`clip_location_x_ref` and :ref:`clip_scale_x_ref` key-frames."
+#~ msgstr ""
+#~ "Cài đặt sẵn :guilabel:`Layout` điều chỉnh kích thước đoạn clip và cố định nó"
+#~ " vào một góc màn hình đã chọn. Nó thay đổi kích thước đoạn clip và neo nó "
+#~ "vào góc hoặc trung tâm, hữu ích cho hiệu ứng hình trong hình hoặc watermark."
+#~ " Xem các khung khóa :ref:`clip_location_x_ref` và :ref:`clip_scale_x_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Time` preset manipulates clip playback speed, allowing for "
+#~ "reverse playback or time-lapse effects. It alters the speed and direction of"
+#~ " a clip's playback, enhancing visual storytelling. See :ref:`clip_time_ref` "
+#~ "key-frame."
+#~ msgstr ""
+#~ "Cài đặt sẵn :guilabel:`Time` điều khiển tốc độ phát lại đoạn clip, cho phép "
+#~ "phát ngược hoặc hiệu ứng tua nhanh thời gian. Nó thay đổi tốc độ và hướng "
+#~ "phát lại của đoạn clip, tăng cường kể chuyện bằng hình ảnh. Xem khung khóa "
+#~ ":ref:`clip_time_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Creating a slow-motion effect to emphasize a specific "
+#~ "action."
+#~ msgstr ""
+#~ "**Ví dụ sử dụng:** Tạo hiệu ứng chuyển động chậm để nhấn mạnh một hành động "
+#~ "cụ thể."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Use time presets to creatively manipulate the pacing of your video."
+#~ msgstr ""
+#~ "**Mẹo:** Sử dụng các cài đặt sẵn thời gian để sáng tạo điều chỉnh nhịp độ "
+#~ "video của bạn."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Use :guilabel:`Time → Repeat` to play a clip multiple times, without "
+#~ "building the time curve by hand. OpenShot writes the needed :guilabel:`Time`"
+#~ " keyframes for you (you can edit them later)."
+#~ msgstr ""
+#~ "Sử dụng :guilabel:`Time → Repeat` để phát lại đoạn clip nhiều lần, không cần"
+#~ " tạo đường cong thời gian thủ công. OpenShot sẽ tự động tạo các khung khóa "
+#~ ":guilabel:`Time` cần thiết cho bạn (bạn có thể chỉnh sửa sau)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Repeat → Loop → Forward` – plays left to right, then "
+#~ "starts again from the beginning"
+#~ msgstr ""
+#~ ":guilabel:`Time → Repeat → Loop → Forward` – phát từ trái sang phải, sau đó "
+#~ "bắt đầu lại từ đầu"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Repeat → Loop → Reverse` – plays right to left, then "
+#~ "starts again from the end"
+#~ msgstr ""
+#~ ":guilabel:`Time → Repeat → Loop → Reverse` – phát từ phải sang trái, sau đó "
+#~ "bắt đầu lại từ cuối"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Repeat → Ping-Pong → Forward` – forward, then backward, "
+#~ "then forward…"
+#~ msgstr ""
+#~ ":guilabel:`Time → Repeat → Ping-Pong → Forward` – phát tiến, rồi lùi, rồi "
+#~ "tiến…"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Repeat → Ping-Pong → Reverse` – backward, then forward, "
+#~ "then backward…"
+#~ msgstr ""
+#~ ":guilabel:`Time → Repeat → Ping-Pong → Reverse` – phát lùi, rồi tiến, rồi "
+#~ "lùi…"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Time → Reset Time` completely removes any Time curve (including "
+#~ "Repeat) and restores the clip to its original playback, **without deleting "
+#~ "your original non-Time keyframes**."
+#~ msgstr ""
+#~ ":guilabel:`Time → Reset Time` hoàn toàn loại bỏ mọi đường cong Thời gian "
+#~ "(bao gồm Lặp lại) và khôi phục đoạn clip về phát lại gốc, **không xóa các "
+#~ "khung khóa gốc không thuộc Thời gian của bạn**."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "If you select multiple clips and/or transitions that share the same left "
+#~ "edge or right edge, you can retime that shared edge together in one drag."
+#~ msgstr ""
+#~ "Nếu bạn chọn nhiều clip và/hoặc chuyển tiếp cùng chia sẻ cạnh trái hoặc cạnh"
+#~ " phải, bạn có thể điều chỉnh thời gian cạnh chung đó cùng nhau chỉ với một "
+#~ "lần kéo."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Volume` preset controls audio properties, facilitating smooth"
+#~ " volume adjustments. It manages audio volume, including fading in/out, "
+#~ "reducing/increasing volume, or muting. See :ref:`clip_volume_ref` key-frame."
+#~ msgstr ""
+#~ "Cài đặt trước :guilabel:`Volume` điều khiển các thuộc tính âm thanh, giúp "
+#~ "điều chỉnh âm lượng mượt mà. Nó quản lý âm lượng âm thanh, bao gồm tăng giảm"
+#~ " âm lượng dần, giảm/tăng âm lượng hoặc tắt tiếng. Xem :ref:`clip_volume_ref`"
+#~ " key-frame."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Utilize volume presets for quickly lowering or raising volume "
+#~ "levels."
+#~ msgstr ""
+#~ "**Mẹo:** Sử dụng cài đặt trước âm lượng để nhanh chóng giảm hoặc tăng mức âm"
+#~ " lượng."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Separate Audio` preset splits the audio from a clip, creating"
+#~ " detached audio clips positioned below the original clip on the timeline. "
+#~ "This preset can either create a **single** detached audio clip (positioned "
+#~ "on a layer below the original clip) or **multiple** detached audio clips "
+#~ "(one per audio track, positioned on multiple layers below the original "
+#~ "clip)."
+#~ msgstr ""
+#~ "Cài đặt trước :guilabel:`Separate Audio` tách âm thanh ra khỏi clip, tạo các"
+#~ " clip âm thanh riêng biệt nằm dưới clip gốc trên timeline. Cài đặt này có "
+#~ "thể tạo một clip âm thanh riêng biệt **đơn lẻ** (nằm trên một lớp dưới clip "
+#~ "gốc) hoặc **nhiều** clip âm thanh riêng biệt (mỗi track âm thanh một clip, "
+#~ "nằm trên nhiều lớp dưới clip gốc)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Extracting background music from a video clip for "
+#~ "independent control."
+#~ msgstr "**Ví dụ sử dụng:** Tách nhạc nền từ clip video để điều khiển độc lập."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Use this preset to fine-tune audio elements separately from the "
+#~ "visual content."
+#~ msgstr ""
+#~ "**Mẹo:** Sử dụng cài đặt trước này để điều chỉnh các yếu tố âm thanh riêng "
+#~ "biệt với nội dung hình ảnh."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Crop` preset adds a crop effect to the selected clip and "
+#~ "displays interactive crop handles in the video preview. The submenu offers:"
+#~ msgstr ""
+#~ "Cài đặt sẵn :guilabel:`Crop` thêm hiệu ứng cắt vào clip được chọn và hiển "
+#~ "thị các tay cầm cắt tương tác trong bản xem trước video. Menu phụ cung cấp:"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Display` preset toggles the display mode of a clip on the "
+#~ "timeline, showing either its waveform or thumbnail."
+#~ msgstr ""
+#~ "Cài đặt sẵn :guilabel:`Display` chuyển đổi chế độ hiển thị của clip trên "
+#~ "timeline, hiển thị dạng sóng âm thanh hoặc hình thu nhỏ."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Usage Example:** Displaying the audio waveform for precise audio editing."
+#~ msgstr ""
+#~ "**Ví dụ sử dụng:** Hiển thị dạng sóng âm thanh để chỉnh sửa âm thanh chính "
+#~ "xác."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** Use this preset to focus on specific aspects of a clip's audio "
+#~ "during editing."
+#~ msgstr ""
+#~ "**Mẹo:** Sử dụng cài đặt sẵn này để tập trung vào các khía cạnh cụ thể của "
+#~ "âm thanh clip khi chỉnh sửa."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "For quickly adjusting the volume of a clip, you can use the simple "
+#~ ":guilabel:`Volume Preset` menu. See :ref:`clip_presets_ref`. For precise "
+#~ "control over the volume of a clip, you can manually set the "
+#~ ":guilabel:`Volume Key-frame`. See :ref:`clip_volume_ref`."
+#~ msgstr ""
+#~ "Để điều chỉnh nhanh âm lượng của một đoạn clip, bạn có thể sử dụng menu đơn "
+#~ "giản :guilabel:`Volume Preset`. Xem :ref:`clip_presets_ref`. Để kiểm soát "
+#~ "chính xác âm lượng của đoạn clip, bạn có thể thiết lập thủ công "
+#~ ":guilabel:`Volume Key-frame`. Xem :ref:`clip_volume_ref`."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Time` property is a key-frame curve that represents frames "
+#~ "played over time, affecting the speed and direction of the video. You can "
+#~ "use one of the available presets (`normal, fast, slow, freeze, freeze & "
+#~ "zoom, forward, backward`), by right clicking on a Clip and choosing the "
+#~ ":guilabel:`Time` menu. Many presets are available in this menu for "
+#~ "reversing, speeding up, and slowing down a video clip, see "
+#~ ":ref:`clip_presets_ref`. The same adjustments can be made interactively with"
+#~ " the :guilabel:`Timing` toolbar button by dragging a clip's edges; OpenShot "
+#~ "adds the necessary time keyframes and scales all other keyframes "
+#~ "automatically."
+#~ msgstr ""
+#~ "Thuộc tính :guilabel:`Time` là một đường cong khung hình chính đại diện cho "
+#~ "các khung hình được phát theo thời gian, ảnh hưởng đến tốc độ và hướng của "
+#~ "video. Bạn có thể sử dụng một trong các cài đặt sẵn có (`normal, fast, slow,"
+#~ " freeze, freeze & zoom, forward, backward`) bằng cách nhấp chuột phải vào "
+#~ "Clip và chọn menu :guilabel:`Time`. Nhiều cài đặt sẵn có trong menu này để "
+#~ "đảo ngược, tăng tốc và làm chậm clip video, xem :ref:`clip_presets_ref`. Các"
+#~ " điều chỉnh tương tự có thể được thực hiện tương tác với nút thanh công cụ "
+#~ ":guilabel:`Timing` bằng cách kéo các cạnh của clip; OpenShot sẽ thêm các "
+#~ "khung hình chính thời gian cần thiết và tự động điều chỉnh tỷ lệ tất cả các "
+#~ "khung hình chính khác."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "**Tip:** For **quickly** adjusting the volume of a clip you can use the "
+#~ "simple :guilabel:`Volume Preset` menu. See :ref:`clip_presets_ref`."
+#~ msgstr ""
+#~ "**Mẹo:** Để điều chỉnh âm lượng clip **nhanh chóng**, bạn có thể sử dụng "
+#~ "menu đơn giản :guilabel:`Volume Preset`. Xem :ref:`clip_presets_ref`."

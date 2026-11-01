@@ -1,0 +1,1147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:23
+msgid "Text & Titles"
+msgstr "Tekst & Titels"
+
+#: ../titles.rst:25
+msgid ""
+"Adding text overlays, lower thirds, and titles is an important aspect of "
+"video editing, and OpenShot comes with an easy-to-use Title Editor. Use the "
+"Title menu (located in the main menu of OpenShot) to launch the Title "
+"Editor. You can also use the keyboard shortcut :kbd:`Ctrl+T`."
+msgstr ""
+"Het toevoegen van tekstoverlays, lower thirds en titels is een belangrijk "
+"aspect van videobewerking, en OpenShot wordt geleverd met een "
+"gebruiksvriendelijke Titelbewerker. Gebruik het Titelmenu (te vinden in het "
+"hoofdmenu van OpenShot) om de Titelbewerker te openen. Je kunt ook de "
+"sneltoets :kbd:`Ctrl+T` gebruiken."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:29
+msgid ""
+"Titles are simply vector image files with transparent backgrounds "
+"(``*.svg``). OpenShot comes with many easy-to-use templates, but you can "
+"also create your own or import new templates into OpenShot. These templates "
+"allow you to quickly change the text, font, size, color, and background "
+"color. You can also launch an advanced, external SVG editor for further "
+"customizations (if needed). Once the title is added to your project, drag "
+"and drop the title on a Track above a video clip. The transparent background"
+" will allow the video below to appear behind the text."
+msgstr ""
+"Titels zijn eenvoudigweg vectorafbeeldingsbestanden met transparante "
+"achtergronden (``*.svg``). OpenShot wordt geleverd met veel "
+"gebruiksvriendelijke sjablonen, maar je kunt ook je eigen sjablonen maken of"
+" nieuwe sjablonen in OpenShot importeren. Met deze sjablonen kun je snel de "
+"tekst, het lettertype, de grootte, de kleur en de achtergrondkleur wijzigen."
+" Je kunt ook een geavanceerde, externe SVG-bewerker openen voor verdere "
+"aanpassingen (indien nodig). Zodra de titel aan je project is toegevoegd, "
+"sleep je de titel naar een spoor boven een videofragment. De transparante "
+"achtergrond zorgt ervoor dat de video eronder achter de tekst zichtbaar "
+"blijft."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:36
+msgid "Overview"
+msgstr "Overzicht"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:185
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:185
+msgid "Name"
+msgstr "Naam"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:63 ../titles.rst:185 ../titles.rst:204
+msgid "Description"
+msgstr "Beschrijving"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46 ../titles.rst:187
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46 ../titles.rst:187
+msgid "Choose a Template"
+msgstr "Kies een sjabloon"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46
+msgid "Choose from any available vector title template"
+msgstr "Kies uit een van de beschikbare vector-titelsjablonen"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "Preview Title"
+msgstr "Voorbeeld van titel"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "Preview your title as you make changes"
+msgstr "Bekijk een voorbeeld van je titel terwijl je wijzigingen aanbrengt"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48 ../titles.rst:189
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48 ../titles.rst:189
+msgid "Title Properties"
+msgstr "Titel eigenschappen"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48
+msgid ""
+"Change the text, font, size, colors, or edit in an advanced, external SVG "
+"image editor (such as Inkscape)"
+msgstr ""
+"Wijzig de tekst, het lettertype, de grootte, kleuren, of bewerk in een "
+"geavanceerde, externe SVG-afbeeldingseditor (zoals Inkscape)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49 ../titles.rst:190
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49
+msgid "Save"
+msgstr "Opslaan"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49
+msgid "Save and add the title to your project"
+msgstr "Sla op en voeg de titel toe aan je project"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:53
+msgid "Title Templates"
+msgstr "Titelsjablonen"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:55
+msgid ""
+"OpenShot includes a variety of vector title templates that can be used to "
+"enhance your video projects. Below is a table listing the available titles "
+"and their descriptions:"
+msgstr ""
+"OpenShot bevat verschillende vector-titelsjablonen die je kunt gebruiken om "
+"je videoprojecten te verbeteren. Hieronder staat een tabel met de "
+"beschikbare titels en hun beschrijvingen:"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:62
+msgid "Title Name"
+msgstr "Titelnaam"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:64
+msgid "Bar 1"
+msgstr "Balk 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:65
+msgid "A simple bar with text centered."
+msgstr "Een eenvoudige balk met gecentreerde tekst."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:66
+msgid "Bar 2"
+msgstr "Balk 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:67
+msgid "A simple bar, centered, with 2 lines of text."
+msgstr "Een eenvoudige balk, gecentreerd, met 2 tekstregels."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:68
+msgid "Bar 3"
+msgstr "Balk 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:69
+msgid "Another variation of a simple bar with text, for lower 3rds."
+msgstr ""
+"Een andere variant van een eenvoudige balk met tekst, voor lower thirds."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:70
+msgid "Box"
+msgstr "Doos"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:71
+#, fuzzy
+msgid "A simple boxed title layout for centered text."
+msgstr "Een eenvoudige balk met gecentreerde tekst."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:72
+msgid "Bubbles 1"
+msgstr "Bubbels 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:73
+msgid "A title with bubble graphics for a playful look."
+msgstr "Een titel met bubbelgrafieken voor een speelse uitstraling."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:74
+msgid "Bubbles 2"
+msgstr "Bubbels 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:75
+msgid "A different bubble design for a fun and creative title."
+msgstr "Een ander bubbelontwerp voor een leuke en creatieve titel."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:76
+msgid "Camera Border"
+msgstr "Camera Rand"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:77
+msgid "A border that mimics a camera viewfinder with centered text."
+msgstr "Een rand die een camerazichtfinder nabootst met gecentreerde tekst."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:78
+msgid "Cloud 1"
+msgstr "Wolk 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:79
+msgid "A title with a playful cloud graphic and text."
+msgstr "Een titel met een speelse wolkafbeelding en tekst."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:80
+msgid "Cloud 2"
+msgstr "Wolk 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:81
+msgid "Another playful cloud design with 3 clouds and text."
+msgstr "Een ander speels wolkontwerp met 3 wolken en tekst."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:82
+msgid "Creative Commons 1"
+msgstr "Creative Commons 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:83
+msgid "Contains text and icons for Creative Commons attribution."
+msgstr "Bevat tekst en iconen voor Creative Commons-toeschrijving."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:84
+msgid "Creative Commons 2"
+msgstr "Creative Commons 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:85
+msgid ""
+"Another Creative Commons design with different styling plus website text."
+msgstr ""
+"Een ander Creative Commons-ontwerp met een andere stijl en websitetekst."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:86
+msgid "Film Rating 1"
+msgstr "Filmcijfer 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:87
+msgid "Displays a film rating for all audiences."
+msgstr "Toont een filmclassificatie voor alle doelgroepen."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:88
+msgid "Film Rating 2"
+msgstr "Filmcijfer 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:89
+msgid "Displays a film rating of \"R\" restricted."
+msgstr "Toont een filmclassificatie van \"R\" (beperkt)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:90
+msgid "Film Rating 3"
+msgstr "Filmcijfer 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:91
+msgid "Displays a film rating of \"G\" for general audiences."
+msgstr "Toont een filmclassificatie van \"G\" voor algemeen publiek."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:92
+msgid "Film Rating 4"
+msgstr "Filmcijfer 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:93
+msgid "Displays a film rating of \"PG-13\", parents strongly cautioned."
+msgstr ""
+"Toont een filmclassificatie van \"PG-13\", ouders worden sterk gewaarschuwd."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:94
+#, fuzzy
+msgid "Flare"
+msgstr "Glans"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:95
+#, fuzzy
+msgid "A title with a bright flare effect for a cinematic look."
+msgstr "Een titel met rook-effecten voor een dramatisch uiterlijk."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:96
+msgid "Flames"
+msgstr "Vlammen"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:97
+msgid "A title with flame graphics for a fiery effect."
+msgstr "Een titel met vlamgrafieken voor een vurige uitstraling."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:98
+msgid "Footer 1"
+msgstr "Voettekst 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:99
+msgid "A footer bar for lower thirds (left aligned)."
+msgstr "Een voettekstbalk voor lower thirds (links uitgelijnd)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:100
+msgid "Footer 2"
+msgstr "Voettekst 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:101
+msgid "A footer bar for lower thirds (center aligned)."
+msgstr "Een voettekstbalk voor lower thirds (gecentreerd)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:102
+msgid "Footer 3"
+msgstr "Voettekst 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:103
+msgid "A footer bar for lower thirds (right aligned)."
+msgstr "Een voettekstbalk voor lower thirds (rechts uitgelijnd)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:104
+msgid "Gold 1"
+msgstr "Goud 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:105
+msgid "A title with a gold color scheme, centered with one line of text."
+msgstr ""
+"Een titel met een gouden kleurenschema, gecentreerd met één regel tekst."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:106
+msgid "Gold 2"
+msgstr "Goud 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:107
+msgid "Another gold-themed title, centered with two lines of text."
+msgstr "Een andere goudthema-titel, gecentreerd met twee regels tekst."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:108
+msgid "Gold Bottom"
+msgstr "Goud Onder"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:109
+msgid "Gold title positioned at the bottom of the screen."
+msgstr "Gouden titel gepositioneerd aan de onderkant van het scherm."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:110
+msgid "Gold Top"
+msgstr "Goud Boven"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:111
+msgid "Gold title positioned at the top of the screen."
+msgstr "Gouden titel gepositioneerd aan de bovenkant van het scherm."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:112
+msgid "Gray Box 1"
+msgstr "Grijze Box 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:113
+msgid ""
+"A simple gray box for highlighting text (one line of text, top-left "
+"aligned)."
+msgstr ""
+"Een eenvoudige grijze box om tekst te markeren (één regel tekst, linksboven "
+"uitgelijnd)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:114
+msgid "Gray Box 2"
+msgstr "Grijze Box 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:115
+msgid ""
+"A simple gray box for highlighting text (two lins of text, top-left "
+"aligned)."
+msgstr ""
+"Een eenvoudige grijze box om tekst te markeren (twee regels tekst, "
+"linksboven uitgelijnd)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:116
+msgid "Gray Box 3"
+msgstr "Grijze Box 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:117
+msgid ""
+"A simple gray box for highlighting text (one line of text, bottom-right "
+"aligned)."
+msgstr ""
+"Een eenvoudige grijze doos om tekst te markeren (één regel tekst, "
+"rechtsonder uitgelijnd)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:118
+msgid "Gray Box 4"
+msgstr "Grijze Doos 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:119
+msgid ""
+"A simple gray box for highlighting text (two lines of text, bottom-right "
+"aligned)."
+msgstr ""
+"Een eenvoudige grijze doos om tekst te markeren (twee regels tekst, "
+"rechtsonder uitgelijnd)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:120
+msgid "Header 1"
+msgstr "Kop 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:121
+msgid "A header bar for titles or section headers (top-left aligned)."
+msgstr "Een kopbalk voor titels of sectiekoppen (links boven uitgelijnd)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:122
+msgid "Header 2"
+msgstr "Kop 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:123
+msgid "A header bar for titles or section headers (center aligned)."
+msgstr "Een kopbalk voor titels of sectiekoppen (midden uitgelijnd)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:124
+msgid "Header 3"
+msgstr "Kop 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:125
+msgid "A header bar for titles or section headers (top-right aligned)."
+msgstr "Een kopbalk voor titels of sectiekoppen (rechts boven uitgelijnd)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:126
+msgid "OpenShot"
+msgstr "OpenShot"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:127
+msgid "A title featuring OpenShot branding."
+msgstr "Een titel met OpenShot branding."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:128
+msgid "Oval 1"
+msgstr "Ovaal 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:129
+msgid "An oval shape for highlighting or decorative purposes, text centered."
+msgstr ""
+"Een ovale vorm voor markering of decoratieve doeleinden, tekst gecentreerd."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:130
+msgid "Oval 2"
+msgstr "Ovaal 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:131
+msgid "Another oval design with a different style, text centered."
+msgstr "Een ander ovaal ontwerp met een andere stijl, tekst gecentreerd."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:132
+msgid "Oval 3"
+msgstr "Ovaal 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:133
+msgid ""
+"Another oval design with two-lines of text, one at the top, one at the "
+"bottom."
+msgstr "Een ander ovaal ontwerp met twee tekstregels, één boven en één onder."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:134
+msgid "Oval 4"
+msgstr "Ovaal 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:135
+msgid "Yet another oval design, with text centered plus refection."
+msgstr "Weer een ander ovaal ontwerp, met gecentreerde tekst plus reflectie."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:136
+msgid "Post it"
+msgstr "Post-it"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:137
+msgid "Mimics a sticky note for annotations or reminders."
+msgstr "Imiteert een plakbriefje voor aantekeningen of herinneringen."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:138
+msgid "Ribbon 1"
+msgstr "Lint 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:139
+msgid "A ribbon graphic with text."
+msgstr "Een lintgrafiek met tekst."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:140
+msgid "Ribbon 2"
+msgstr "Lint 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:141
+msgid "Another ribbon design with text."
+msgstr "Een ander lintontwerp met tekst."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:142
+msgid "Ribbon 3"
+msgstr "Lint 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:143
+msgid "A third variation of a ribbon design with text."
+msgstr "Een derde variant van een lintontwerp met tekst."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:144
+msgid "Smoke 1"
+msgstr "Rook 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:145
+msgid "A title with smoke effects for a dramatic look."
+msgstr "Een titel met rook-effecten voor een dramatisch uiterlijk."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:146
+msgid "Smoke 2"
+msgstr "Rook 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:147
+msgid "Another smoke design with a different style."
+msgstr "Een ander rookontwerp met een andere stijl."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:148
+msgid "Smoke 3"
+msgstr "Rook 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:149
+msgid "A third variation of smoke effects."
+msgstr "Een derde variant van rook-effecten."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:150
+msgid "Solid Color"
+msgstr "Effen Kleur"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:151
+msgid "A full-screen color background for various uses."
+msgstr "Een kleurachtergrond over het hele scherm voor diverse toepassingen."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:152
+msgid "Standard 1"
+msgstr "Standaard 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:153
+msgid "A standard title design for general purposes (two lines centered)."
+msgstr ""
+"Een standaard titelontwerp voor algemene doeleinden (twee regels "
+"gecentreerd)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:154
+msgid "Standard 2"
+msgstr "Standaard 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:155
+msgid ""
+"Another standard title with a different style (one line of text plus "
+"reflection)."
+msgstr ""
+"Een andere standaardtitel met een andere stijl (één regel tekst plus "
+"reflectie)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:156
+msgid "Standard 3"
+msgstr "Standaard 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:157
+msgid "A third variation of a standard title (three lines of text)."
+msgstr "Een derde variant van een standaardtitel (drie regels tekst)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:158
+msgid "Standard 4"
+msgstr "Standaard 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:159
+msgid "Yet another standard title design (four lines of text)."
+msgstr "Weer een ander standaard titelontwerp (vier regels tekst)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:160
+msgid "Sunset"
+msgstr "Zonsondergang"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:161
+msgid "A title with sunset gradient for a warm, end-of-day theme."
+msgstr ""
+"Een titel met een zonsondergangverloop voor een warme, einde-van-de-dag "
+"sfeer."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:162
+msgid "TV Rating"
+msgstr "TV-classificatie"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:163
+msgid ""
+"Displays TV ratings badge such as \"G\" and \"PG\" (for the corner of the "
+"screen)."
+msgstr ""
+"Toont TV-classificatiebadges zoals \"G\" en \"PG\" (voor de hoek van het "
+"scherm)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:167
+msgid "Custom Title Templates"
+msgstr "Aangepaste Titel Sjablonen"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:168
+msgid ""
+"OpenShot can use any vector SVG image file as a custom title template in the"
+" :guilabel:`Title Editor` dialog. Just add an SVG image file to your "
+"``~/.openshot_qt/title_templates/`` folder, and it will appear the next time"
+" you launch the :guilabel:`Title Editor` dialog. You can also right click on"
+" any SVG files in your **Project Files** panel, and choose **Edit Title** or"
+" **Duplicate Title**."
+msgstr ""
+"OpenShot kan elk vector SVG-afbeeldingsbestand gebruiken als een aangepast "
+"titelsjabloon in het :guilabel:`Titelbewerker`-dialoogvenster. Voeg gewoon "
+"een SVG-afbeeldingsbestand toe aan je ``~/.openshot_qt/title_templates/`` "
+"map, en het verschijnt de volgende keer dat je het "
+":guilabel:`Titelbewerker`-dialoogvenster opent. Je kunt ook met de "
+"rechtermuisknop op een SVG-bestand in je **Projectbestanden**-paneel klikken"
+" en **Titel bewerken** of **Titel dupliceren** kiezen."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:172
+msgid ""
+"Note: These SVG templates are only used by the :guilabel:`Title Editor` "
+"dialog, and not :guilabel:`Animated Title` dialog."
+msgstr ""
+"Opmerking: Deze SVG-sjablonen worden alleen gebruikt door het "
+":guilabel:`Titelbewerker`-dialoogvenster, en niet door het "
+":guilabel:`Geanimeerde Titel`-dialoogvenster."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:177
+msgid "3D Animated Titles"
+msgstr "3D Geanimeerde Titels"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:178
+msgid ""
+"Adding a 3D animated title is just as easy, using our **Animated Title** "
+"dialog. Use the Title menu (located in the main menu of OpenShot) to launch "
+"the Animated Title editor. You can also use the keyboard shortcut "
+"**Ctrl+B**. Note: Blender must be installed and configured before this "
+"feature will work in OpenShot. See :ref:`blender_install_ref`."
+msgstr ""
+"Het toevoegen van een 3D-geanimeerde titel is net zo eenvoudig met ons "
+"**Geanimeerde Titel**-dialoogvenster. Gebruik het Titelmenu (in het "
+"hoofdmenu van OpenShot) om de Geanimeerde Titel-editor te openen. Je kunt "
+"ook de sneltoets **Ctrl+B** gebruiken. Opmerking: Blender moet geïnstalleerd"
+" en geconfigureerd zijn voordat deze functie in OpenShot werkt. Zie "
+":ref:`blender_install_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:187
+msgid "Choose from any available 3D title templates"
+msgstr "Kies uit beschikbare 3D-titelsjablonen"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:189
+msgid "Change the text, colors, and advanced properties"
+msgstr "Wijzig de tekst, kleuren en geavanceerde eigenschappen"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:190
+msgid "Render"
+msgstr "Renderen"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:190
+msgid "Render the 3D animation, and add it to your project"
+msgstr "Render de 3D-animatie en voeg deze toe aan je project"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:194
+msgid "3D Animated Templates"
+msgstr "3D Geanimeerde Sjablonen"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:196
+msgid ""
+"OpenShot includes a variety of 3D animated templates that can be used to add"
+" dynamic and engaging elements to your video projects. Below is a table "
+"listing the available templates and their descriptions:"
+msgstr ""
+"OpenShot bevat diverse 3D-geanimeerde sjablonen die gebruikt kunnen worden "
+"om dynamische en boeiende elementen aan je videoprojecten toe te voegen. "
+"Hieronder staat een tabel met de beschikbare sjablonen en hun "
+"beschrijvingen:"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:203
+msgid "Template Name"
+msgstr "Sjabloonnaam"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:205
+msgid "Blinds (Two Titles)"
+msgstr "Jaloezieën (Twee Titels)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:206
+msgid "An animation featuring a blinds effect."
+msgstr "Een animatie met een jaloezie-effect."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:207
+msgid "Blur"
+msgstr "Vervagen"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:208
+msgid ""
+"A template that blurs text in and out, providing a smooth transition effect."
+msgstr ""
+"Een sjabloon dat tekst vervaagt in en uit, voor een vloeiend "
+"overgangseffect."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:209
+msgid "Color Tiles"
+msgstr "Kleurtegels"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:210
+msgid ""
+"An animation with changing colors, suitable for vibrant and dynamic titles."
+msgstr ""
+"Een animatie met wisselende kleuren, geschikt voor levendige en dynamische "
+"titels."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:211
+msgid "Dissolving Text"
+msgstr "Oplosbare Tekst"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:212
+msgid ""
+"A dissolve effect that turns any text into particles which get blown away by"
+" the wind."
+msgstr ""
+"Een oploseffect dat elke tekst verandert in deeltjes die door de wind worden"
+" weggeblazen."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:213
+msgid "World Map"
+msgstr "Wereldkaart"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:214
+msgid "A template featuring a rotating Earth between 2 locations."
+msgstr "Een sjabloon met een roterende aarde tussen 2 locaties."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:215
+msgid "Exploding Text"
+msgstr "Exploderende Tekst"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:216
+msgid ""
+"An animation where the title explode into pieces, adding dramatic impact."
+msgstr ""
+"Een animatie waarbij de titel in stukken explodeert, wat een dramatisch "
+"effect toevoegt."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:217
+msgid "Fly Towards Camera"
+msgstr "Vliegen Naar Camera"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:218
+msgid "A fly-by animation with a single title zooming past the screen."
+msgstr "Een fly-by animatie met een enkele titel die langs het scherm zoemt."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:219
+msgid "Fly Towards Camera (Two Titles)"
+msgstr "Vliegen Naar Camera (Twee Titels)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:220
+msgid "Similar to Fly By 1, but with two titles flying by."
+msgstr "Vergelijkbaar met Fly By 1, maar met twee titels die voorbij vliegen."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:221
+msgid "Glare"
+msgstr "Glans"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:222
+msgid "An animation with a glare effect, adding a bright, reflective look."
+msgstr ""
+"Een animatie met een glanseffect, die een heldere, reflecterende uitstraling"
+" geeft."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:223
+msgid "Glass Slider"
+msgstr "Glazen Schuif"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:224
+msgid "A sliding glass effect, providing a modern and sleek transition."
+msgstr "Een schuivend glas-effect, dat een moderne en strakke overgang biedt."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:225
+msgid "Lens Flare"
+msgstr "Lensflare"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:226
+msgid "An animation featuring a lens flare, adding a cinematic touch."
+msgstr "Een animatie met een lensflare, die een filmisch tintje toevoegt."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:227
+msgid "Magic Wand"
+msgstr "Toverstaf"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:228
+msgid "A whimsical magic wand effect, ideal for magical or fantasy themes."
+msgstr "Een speels toverstaf-effect, ideaal voor magische of fantasiethema's."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:229
+msgid "Neon Curves"
+msgstr "Neon Curven"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:230
+msgid "An animation with neon curves, creating a futuristic and vibrant look."
+msgstr ""
+"Een animatie met neon curven, die een futuristische en levendige uitstraling"
+" creëert."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:231
+msgid "Picture Frames (4 pictures)"
+msgstr "Fotolijsten (4 foto's)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:232
+msgid ""
+"A template featuring four picture frames, suitable for showcasing images or "
+"video clips."
+msgstr ""
+"Een sjabloon met vier fotolijsten, geschikt om afbeeldingen of videoclips te"
+" tonen."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:233
+msgid "Rotate 360"
+msgstr "Draaien 360"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:234
+msgid "A 360-degree rotation effect, providing a dynamic title animation."
+msgstr ""
+"Een 360-graden rotatie-effect, dat een dynamische titelanimatie biedt."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:235
+msgid "Slide Left to Right"
+msgstr "Schuiven Van Links Naar Rechts"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:236
+msgid "A sliding effect where titles move from left to right."
+msgstr "Een schuifeffect waarbij titels van links naar rechts bewegen."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:237
+msgid "Snow"
+msgstr "Sneeuw"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:238
+msgid ""
+"An animation with falling snow particles, perfect for winter or holiday "
+"themes."
+msgstr ""
+"Een animatie met vallende sneeuwdeeltjes, perfect voor winter- of "
+"feestdagenthema's."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:239
+msgid "Space Movie Intro"
+msgstr "Ruimtefilm Intro"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:240
+msgid "A cinematic space-themed intro, ideal for epic or sci-fi projects."
+msgstr ""
+"Een filmische intro met ruimte-thema, ideaal voor epische of sci-fi "
+"projecten."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:241
+msgid "Wireframe Text"
+msgstr "Draadmodel Tekst"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:242
+msgid "An animation with wireframe text, adding a technical or digital look."
+msgstr ""
+"Een animatie met draadmodeltekst, die een technische of digitale uitstraling"
+" geeft."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:243
+msgid "Zoom to Clapboard"
+msgstr "Inzoomen op Klapbord"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:244
+msgid ""
+"A zoom title with a clapboard, perfect for film or video production themes."
+msgstr ""
+"Een zoomtitel met een klapbord, perfect voor film- of videoproductiethema's."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:247
+msgid "Importing Text"
+msgstr "Tekst Importeren"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:249
+msgid ""
+"You can generate text & titles in many different programs, such as Blender, "
+"Inkscape, Krita, Gimp, etc... Before you can import text into OpenShot, you "
+"must first export the text from these programs into a compatible image "
+"format that contains a **transparent background** and **alpha** channel."
+msgstr ""
+"Je kunt tekst en titels genereren in veel verschillende programma's, zoals "
+"Blender, Inkscape, Krita, Gimp, enzovoort... Voordat je tekst in OpenShot "
+"kunt importeren, moet je de tekst eerst vanuit deze programma's exporteren "
+"naar een compatibel afbeeldingsformaat met een **transparante achtergrond** "
+"en een **alfakanaal**."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:253
+msgid ""
+"The ``SVG`` format is a great choice for vector graphics (curves, shapes, "
+"text effects and paths), however it is **not** always 100% compatible with "
+"OpenShot. Thus, we recommend using ``PNG`` format, which is a great web-"
+"based image format that can include a transparent background and alpha "
+"channel. A transparent background and alpha channel are needed for OpenShot "
+"to allow the text to not cover up videos and images on the timeline below "
+"them."
+msgstr ""
+"Het ``SVG``-formaat is een uitstekende keuze voor vectorafbeeldingen "
+"(curven, vormen, teksteffecten en paden), maar het is **niet** altijd 100% "
+"compatibel met OpenShot. Daarom raden we het ``PNG``-formaat aan, een "
+"uitstekend webgebaseerd afbeeldingsformaat dat een transparante achtergrond "
+"en alfakanaal kan bevatten. Een transparante achtergrond en alfakanaal zijn "
+"nodig zodat OpenShot de tekst niet over video's en afbeeldingen op de "
+"tijdlijn eronder laat vallen."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:258
+msgid ""
+"For information on importing animated sequences into OpenShot, please see "
+":ref:`animation_image_seq_ref`."
+msgstr ""
+"Voor informatie over het importeren van geanimeerde reeksen in OpenShot, zie"
+" :ref:`animation_image_seq_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:261
+msgid "Installing Inkscape"
+msgstr "Inkscape Installeren"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:263
+msgid ""
+"The :guilabel:`Advanced Editor` feature in the :guilabel:`Title Editor` "
+"dialog requires the latest version of Inkscape "
+"(https://inkscape.org/release/) be installed and the OpenShot "
+"**Preferences** updated with the correct path to the Inkscape executable. "
+"See the :ref:`preferences_general_ref` tab in Preferences."
+msgstr ""
+"De functie :guilabel:`Geavanceerde Editor` in het dialoogvenster "
+":guilabel:`Titel Editor` vereist dat de nieuwste versie van Inkscape "
+"(https://inkscape.org/release/) is geïnstalleerd en dat de OpenShot "
+"**Voorkeuren** zijn bijgewerkt met het juiste pad naar het Inkscape-"
+"uitvoerbare bestand. Zie het tabblad :ref:`preferences_general_ref` in "
+"Voorkeuren."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:270
+msgid "Installing Blender"
+msgstr "Blender Installeren"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:272
+msgid ""
+"The :guilabel:`Animated Title` feature in OpenShot requires the latest "
+"version of Blender (https://www.blender.org/download/) be installed and the "
+"OpenShot **Preferences** updated with the correct path to the Blender "
+"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE:"
+" The minimum supported version of Blender is 5.0+. Older versions of Blender"
+" are not compatible with OpenShot Video Editor."
+msgstr ""
+"De functie :guilabel:`Geanimeerde Titel` in OpenShot vereist dat de nieuwste"
+" versie van Blender (https://www.blender.org/download/) is geïnstalleerd en "
+"dat de OpenShot **Voorkeuren** zijn bijgewerkt met het juiste pad naar het "
+"Blender-uitvoerbare bestand. Zie het tabblad :ref:`preferences_general_ref` "
+"in Voorkeuren. OPMERKING: De minimaal ondersteunde versie van Blender is "
+"5.0+. Oudere versies van Blender zijn niet compatibel met OpenShot Video "
+"Editor."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:278
+msgid ""
+"For a detailed guide on how to install these dependencies, see `Blender & "
+"Inkscape Guide <https://github.com/OpenShot/openshot-qt/wiki/Blender-and-"
+"Inkscape-Guide>`_."
+msgstr ""
+"Voor een gedetailleerde handleiding over het installeren van deze "
+"afhankelijkheden, zie `Blender & Inkscape Guide "
+"<https://github.com/OpenShot/openshot-qt/wiki/Blender-and-Inkscape-Guide>`_."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Adding text and titles is an important aspect of video editing, and OpenShot"
+#~ " comes with an easy-to-use Title Editor. Use the Title menu (located in the "
+#~ "main menu of OpenShot) to launch the Title Editor. You can also use the "
+#~ "keyboard shortcut :kbd:`Ctrl+T`."
+#~ msgstr ""
+#~ "Tekst en titels toevoegen is een belangrijk aspect van videobewerking, en "
+#~ "OpenShot wordt geleverd met een gebruiksvriendelijke Titelbewerker. Gebruik "
+#~ "het Titelmenu (te vinden in het hoofdmenu van OpenShot) om de Titelbewerker "
+#~ "te openen. Je kunt ook de sneltoets :kbd:`Ctrl+T` gebruiken."

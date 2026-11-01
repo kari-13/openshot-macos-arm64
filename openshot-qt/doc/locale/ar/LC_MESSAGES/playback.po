@@ -1,0 +1,434 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:23
+msgid "Playback"
+msgstr "التشغيل"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:24
+msgid ""
+"The preview window is where video & audio playback takes place in OpenShot "
+"Video Editor. The preview window utilizes real-time video rendering, "
+"caching, re-sampling, and image scaling. This is the primary area for "
+"watching back (and listening to) your edits, giving you the feedback needed "
+"to make adjustments. It is also one of the most costly operations to your "
+"CPU, and requires a modern computer and some reasonable assumptions and "
+"factors (listed below)."
+msgstr ""
+"نافذة المعاينة هي المكان الذي يتم فيه تشغيل الفيديو والصوت في محرر الفيديو "
+"OpenShot. تستخدم نافذة المعاينة عرض الفيديو في الوقت الحقيقي، والتخزين "
+"المؤقت، وإعادة العينة، وتغيير حجم الصورة. هذه هي المنطقة الأساسية لمشاهدة "
+"تعديلاتك (والاستماع إليها)، مما يمنحك التغذية الراجعة اللازمة لإجراء "
+"التعديلات. كما أنها واحدة من العمليات الأكثر استهلاكًا لوحدة المعالجة "
+"المركزية، وتتطلب حاسوبًا حديثًا وبعض الافتراضات والعوامل المعقولة (الموضحة "
+"أدناه)."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:30
+msgid "Real-Time Preview"
+msgstr "معاينة في الوقت الحقيقي"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:31
+msgid ""
+"Many factors affect how smoothly the **real-time video preview** can "
+"playback on your computer. This requires a fast, modern multi-threaded CPU, "
+"lots of RAM (memory), and a modern GPU. We have listed many of the important "
+"factors below."
+msgstr ""
+"تؤثر العديد من العوامل على مدى سلاسة تشغيل **معاينة الفيديو في الوقت "
+"الحقيقي** على جهاز الكمبيوتر الخاص بك. يتطلب ذلك وحدة معالجة مركزية متعددة "
+"الخيوط وسريعة وحديثة، وذاكرة وصول عشوائي كبيرة، وبطاقة رسومات حديثة. لقد "
+"قمنا بإدراج العديد من العوامل المهمة أدناه."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38
+msgid "Factor"
+msgstr "العامل"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38 ../playback.rst:97
+msgid "Description"
+msgstr "الوصف"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid "CPU"
+msgstr "وحدة المعالجة المركزية"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid ""
+"If your CPU is too slow or has too few cores, you will likely experience a "
+"slow, choppy preview. We recommend installing OpenShot on fairly modern "
+"computer. See :ref:`min_system_req_ref` for more details on the hardware "
+"requirements for OpenShot Video Editor."
+msgstr ""
+"إذا كانت وحدة المعالجة المركزية لديك بطيئة جدًا أو تحتوي على عدد قليل جدًا من "
+"النوى، فمن المحتمل أن تواجه معاينة بطيئة ومتقطعة. نوصي بتثبيت OpenShot على "
+"حاسوب حديث إلى حد ما. راجع :ref:`min_system_req_ref` لمزيد من التفاصيل حول "
+"متطلبات الأجهزة لمحرر الفيديو OpenShot."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid "Memory"
+msgstr "الذاكرة"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid ""
+"If your available RAM memory is too limited, you will likely see huge drops "
+"in real-time performance, and your entire system will lag. We recommend "
+"installing additional RAM in your computer, if possible. See :ref:"
+"`min_system_req_ref`."
+msgstr ""
+"إذا كانت ذاكرة الوصول العشوائي المتاحة لديك محدودة جدًا، فمن المحتمل أن تلاحظ "
+"انخفاضًا كبيرًا في أداء الوقت الحقيقي، وسيتباطأ نظامك بالكامل. نوصي بتركيب "
+"ذاكرة وصول عشوائي إضافية في جهازك، إذا أمكن. راجع :ref:`min_system_req_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid "Cache"
+msgstr "التخزين المؤقت"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid ""
+"Your cache settings in the OpenShot Preferences are very important for "
+"determining how many frames to processes in advance. A value too low or too "
+"high can cause lag during the real-time video preview. The cache is also "
+"related to the available RAM. The higher the cache values, the more RAM and "
+"CPU is needed. We recommend experimenting with the Cache Preferences in "
+"OpenShot if you are experiencing issues with smooth playback. This same "
+"caching system also prepares frames ahead of time during export, speeding up "
+"the final render. See :ref:`preferences_cache_ref`."
+msgstr ""
+"إعدادات التخزين المؤقت في تفضيلات OpenShot مهمة جدًا لتحديد عدد الإطارات التي "
+"تتم معالجتها مسبقًا. قد يتسبب قيمة منخفضة جدًا أو مرتفعة جدًا في تأخير أثناء "
+"معاينة الفيديو في الوقت الحقيقي. التخزين المؤقت مرتبط أيضًا بذاكرة الوصول "
+"العشوائي المتاحة. كلما زادت قيم التخزين المؤقت، زادت الحاجة إلى ذاكرة وصول "
+"عشوائي ووحدة معالجة مركزية. نوصي بتجربة تفضيلات التخزين المؤقت في OpenShot "
+"إذا كنت تواجه مشاكل في التشغيل السلس. نفس نظام التخزين المؤقت هذا يحضر "
+"الإطارات مسبقًا أثناء التصدير، مما يسرع من العرض النهائي. راجع :ref:"
+"`preferences_cache_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid "Preview Size"
+msgstr "حجم المعاينة"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid ""
+"The height x width of your preview dock (widget) is very important for "
+"smooth real-time previews. The larger the window size, the more pixels must "
+"be rendered per frame, and the more CPU and RAM are required. It is "
+"recommended to keep reducing the preview window size until you achieve "
+"smooth video playback. On a slower computer, the preview window size might "
+"need to be very small for real-time previews (i.e. 320 x 240)."
+msgstr ""
+"ارتفاع × عرض لوحة المعاينة (الأداة) مهم جدًا لمعاينات سلسة في الوقت الحقيقي. "
+"كلما زاد حجم النافذة، زاد عدد البكسلات التي يجب عرضها لكل إطار، وزادت الحاجة "
+"إلى وحدة المعالجة المركزية والذاكرة. يُنصح بالاستمرار في تقليل حجم نافذة "
+"المعاينة حتى تحقق تشغيل فيديو سلس. على جهاز أبطأ، قد يحتاج حجم نافذة "
+"المعاينة إلى أن يكون صغيرًا جدًا للمعاينات في الوقت الحقيقي (مثلاً 320 × 240)."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid ""
+"Your project profile determines which size (width x height) and frame rate "
+"(FPS) are used during both playback and exporting. For example, if you are "
+"using a FHD 1920x1080 sized profile, you can also choose a smaller profile "
+"with the same aspect ratio (``16x9`` in this example), to improve the "
+"preview speed on slower computers. See :ref:`profiles_ref` for more "
+"information on available profiles."
+msgstr ""
+"يحدد ملف المشروع الخاص بك الحجم (العرض × الارتفاع) ومعدل الإطارات (FPS) "
+"المستخدمين أثناء كل من التشغيل والتصدير. على سبيل المثال، إذا كنت تستخدم "
+"ملفًا بحجم FHD 1920x1080، يمكنك أيضًا اختيار ملف أصغر بنفس نسبة العرض إلى "
+"الارتفاع (``16x9`` في هذا المثال)، لتحسين سرعة المعاينة على أجهزة أبطأ. "
+"راجع :ref:`profiles_ref` لمزيد من المعلومات حول الملفات المتاحة."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid "FPS (Frame Rate)"
+msgstr "معدل الإطارات (FPS)"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid ""
+"The FPS of your project is also very important, and a large factor for "
+"smooth video playback. For example, a 60 FPS video must render twice the "
+"number of frames, compared to a 30 FPS video. If you are experiencing slow "
+"downs in real-time performance, it can be helpful to reduce your project's "
+"FPS to a lower value, such as 30 or 24."
+msgstr ""
+"معدل الإطارات في مشروعك مهم جدًا، وهو عامل كبير في تشغيل الفيديو بسلاسة. على "
+"سبيل المثال، يجب عرض فيديو بمعدل 60 إطارًا في الثانية ضعف عدد الإطارات مقارنة "
+"بفيديو بمعدل 30 إطارًا في الثانية. إذا كنت تواجه تباطؤًا في الأداء في الوقت "
+"الحقيقي، فقد يكون من المفيد تقليل معدل الإطارات في مشروعك إلى قيمة أقل، مثل "
+"30 أو 24."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid "Matching Rates"
+msgstr "مطابقة المعدلات"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid ""
+"It is very important to match your source assets FPS and Sample Rate with "
+"your Project FPS and Project sample rate. If either rate does not match "
+"exactly, it requires lots of additional CPU and RAM for OpenShot to "
+"normalize the mismatching rates. This can lead to audio pops, mis-"
+"alignments, duplicate frames, and extra lag in the real-time video preview. "
+"You can right-click a file and choose :guilabel:`File Properties`, to "
+"inspect the source asset rates, and ensure they match your Project settings "
+"(shown at the top of OpenShot). See :ref:`file_properties_ref`."
+msgstr ""
+"من المهم جدًا مطابقة معدل الإطارات ومعدل العينة لمصادر الوسائط مع معدل "
+"الإطارات ومعدل العينة في مشروعك. إذا لم يتطابق أي من المعدلين تمامًا، يتطلب "
+"ذلك الكثير من وحدة المعالجة المركزية والذاكرة الإضافية لكي يقوم OpenShot "
+"بتطبيع المعدلات غير المتطابقة. قد يؤدي ذلك إلى طقطقة في الصوت، وعدم محاذاة، "
+"وتكرار الإطارات، وتأخير إضافي في معاينة الفيديو في الوقت الحقيقي. يمكنك "
+"النقر بزر الماوس الأيمن على ملف واختيار :guilabel:`خصائص الملف` لفحص معدلات "
+"مصادر الوسائط والتأكد من تطابقها مع إعدادات مشروعك (المعروضة في أعلى "
+"OpenShot). راجع :ref:`file_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid "Source Assets"
+msgstr "مصادر الوسائط"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid ""
+"For example, if you are editing 4K 60 FPS source assets, this is likely "
+"going to put a strain on your system. A common solution is using another "
+"tool (such as FFmpeg) to create a copy (or proxy) of all your source assets, "
+"at a lower resolution (and maybe even a lower FPS). It is recommended to "
+"keep these proxy video files in their own folder, separate from the original "
+"video files. Once you have completed your video editing with the proxy "
+"files, simply copy/paste your `*.osp` project file back into the original "
+"folder, and export the higher quality, original files."
+msgstr ""
+"على سبيل المثال، إذا كنت تقوم بتحرير مصادر وسائط بدقة 4K ومعدل 60 إطارًا في "
+"الثانية، فمن المحتمل أن يضع ذلك عبئًا على نظامك. الحل الشائع هو استخدام أداة "
+"أخرى (مثل FFmpeg) لإنشاء نسخة (أو وكيل) من جميع مصادر الوسائط الخاصة بك بدقة "
+"أقل (وربما حتى بمعدل إطارات أقل). يُنصح بالاحتفاظ بملفات الفيديو الوكيلة هذه "
+"في مجلد خاص بها، منفصل عن ملفات الفيديو الأصلية. بمجرد الانتهاء من تحرير "
+"الفيديو باستخدام ملفات الوكيل، ببساطة انسخ/الصق ملف مشروع `*.osp` الخاص بك "
+"مرة أخرى في المجلد الأصلي، وقم بتصدير الملفات الأصلية ذات الجودة الأعلى."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77 ../playback.rst:101
+msgid "Audio Device"
+msgstr "جهاز الصوت"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77
+msgid ""
+"If you are still having issues with audio lag or sync, please verify you are "
+"using the correct :guilabel:`Playback Audio Device` for playback (in the "
+"OpenShot Preferences). See :ref:`preferences_preview_ref`. Verify your "
+"default audio device (on your operating system) is using the same sample "
+"rate and all *Audio Enhancements* are disabled. On certain operating systems "
+"(such as Windows), mismatching sample rates or audio enhancements can cause "
+"severe audio / video sync problems. Lastly, try adjusting the :guilabel:"
+"`Playback Audio Buffer Size` (lower values will playback audio with less "
+"delay, higher values will playback audio with a larger delay). OpenShot "
+"defaults to a buffer size of 512, which is reasonable for most systems, "
+"however on some systems you might need to lower (or raise) this value for "
+"smooth and lag-free audio playback. Be sure to restart OpenShot after "
+"changing the audio playback settings."
+msgstr ""
+"إذا كنت لا تزال تواجه مشاكل في تأخر الصوت أو التزامن، يرجى التحقق من أنك "
+"تستخدم :guilabel:`جهاز تشغيل الصوت` الصحيح للتشغيل (في تفضيلات OpenShot). "
+"انظر :ref:`preferences_preview_ref`. تحقق من أن جهاز الصوت الافتراضي (في "
+"نظام التشغيل الخاص بك) يستخدم نفس معدل العينة وأن جميع *تحسينات الصوت* "
+"معطلة. في بعض أنظمة التشغيل (مثل ويندوز)، قد تتسبب معدلات العينات غير "
+"المتطابقة أو تحسينات الصوت في مشاكل شديدة في تزامن الصوت / الفيديو. أخيرًا، "
+"حاول ضبط :guilabel:`حجم مخزن مؤقت تشغيل الصوت` (القيم الأقل ستشغل الصوت "
+"بتأخير أقل، والقيم الأعلى ستشغل الصوت بتأخير أكبر). يحدد OpenShot حجم المخزن "
+"المؤقت إلى 512 بشكل افتراضي، وهو مناسب لمعظم الأنظمة، ولكن قد تحتاج في بعض "
+"الأنظمة إلى خفض (أو رفع) هذه القيمة لتشغيل صوت سلس وخالي من التأخير. تأكد من "
+"إعادة تشغيل OpenShot بعد تغيير إعدادات تشغيل الصوت."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:89
+msgid "Audio Troubleshooting"
+msgstr "استكشاف أخطاء الصوت وإصلاحها"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:90
+msgid ""
+"If you are still experiencing audio related issues, and the above real-time "
+"playback factors did not resolve your issue, here are some additional "
+"troubleshooting steps you can take."
+msgstr ""
+"إذا كنت لا تزال تواجه مشاكل متعلقة بالصوت، ولم تحل العوامل السابقة لتشغيل "
+"الصوت في الوقت الحقيقي مشكلتك، فإليك بعض خطوات استكشاف الأخطاء الإضافية التي "
+"يمكنك اتخاذها."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:97
+msgid "Step"
+msgstr "الخطوة"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid "Latest Daily Build"
+msgstr "أحدث إصدار يومي"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid ""
+"Verify you are running the latest daily build of OpenShot: https://www."
+"openshot.org/download#daily"
+msgstr ""
+"تحقق من أنك تستخدم أحدث إصدار يومي من OpenShot: https://www.openshot.org/"
+"download#daily"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "Clean Install"
+msgstr "تثبيت نظيف"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "See :ref:`preferences_reset_ref` for a clean install"
+msgstr "انظر :ref:`preferences_reset_ref` للحصول على تثبيت نظيف"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:101
+msgid ""
+"Check that the Playback Audio Device is set correctly for your sound output "
+"under Preferences in the Preview tab. Restart OpenShot after changing the "
+"settings. You can also try a different audio device (USB, audio over HDMI "
+"from the video card, headphones, etc.) to rule out other audio issues. "
+"Disable `automatic sound suppression` for voice calls during microphone "
+"activity, and disable `Audio Enhancements` under the advanced settings tab "
+"of your audio device (not all audio devices have these settings). See :ref:"
+"`preferences_preview_ref`."
+msgstr ""
+"تحقق من تعيين جهاز تشغيل الصوت بشكل صحيح لمخرج الصوت الخاص بك ضمن التفضيلات "
+"في تبويب المعاينة. أعد تشغيل OpenShot بعد تغيير الإعدادات. يمكنك أيضًا تجربة "
+"جهاز صوت مختلف (USB، الصوت عبر HDMI من بطاقة الفيديو، سماعات الرأس، إلخ) "
+"لاستبعاد مشاكل صوتية أخرى. قم بتعطيل `كتم الصوت التلقائي` لمكالمات الصوت "
+"أثناء نشاط الميكروفون، وقم بتعطيل `تحسينات الصوت` ضمن تبويب الإعدادات "
+"المتقدمة لجهاز الصوت الخاص بك (ليس كل أجهزة الصوت تحتوي على هذه الإعدادات). "
+"انظر :ref:`preferences_preview_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid "Audio Buffer Size"
+msgstr "حجم مخزن مؤقت الصوت"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid ""
+"The audio buffer size is the amount of audio samples which must first be "
+"buffered in OpenShot before audio playback can begin. If this value is too "
+"low, you might experience audio break-up / crackle / popping. If this value "
+"is too high, you might experience delays or lag before audio playback "
+"begins. OpenShot defaults this value to 512, which is a reasonable default "
+"for most systems, which should provide smooth audio playback with minimal "
+"noticeable lag or delay. However, on some systems this value might need to "
+"be adjusted up or down, for in-sync and lag-free audio playback. The range "
+"is 128 to 4096."
+msgstr ""
+"حجم مخزن مؤقت الصوت هو كمية عينات الصوت التي يجب تخزينها مؤقتًا في OpenShot "
+"قبل بدء تشغيل الصوت. إذا كانت هذه القيمة منخفضة جدًا، قد تواجه تقطعًا أو طقطقة "
+"أو فرقعة في الصوت. إذا كانت القيمة مرتفعة جدًا، قد تواجه تأخيرات أو تباطؤًا "
+"قبل بدء تشغيل الصوت. يحدد OpenShot هذه القيمة افتراضيًا إلى 512، وهي قيمة "
+"معقولة لمعظم الأنظمة، ويجب أن توفر تشغيل صوت سلس مع تأخير أو تباطؤ ملحوظ "
+"قليل. ومع ذلك، قد تحتاج هذه القيمة في بعض الأنظمة إلى تعديلها للأعلى أو "
+"للأسفل لتشغيل صوت متزامن وخالي من التأخير. النطاق هو من 128 إلى 4096."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid "Sample Rate"
+msgstr "معدل العينة"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid ""
+"Ensure that the `Default Audio Sample Rate` and `Default Audio Channels` on "
+"the Preview tab of the Preferences window match your hardware. You can also "
+"check these settings in the operating system control panel (i.e. Windows "
+"Sound Control Panel). See :ref:`preferences_preview_ref`."
+msgstr ""
+"تأكد من أن `معدل عينة الصوت الافتراضي` و`قنوات الصوت الافتراضية` في تبويب "
+"المعاينة من نافذة التفضيلات تتطابق مع جهازك. يمكنك أيضًا التحقق من هذه "
+"الإعدادات في لوحة تحكم نظام التشغيل (مثل لوحة تحكم الصوت في ويندوز). انظر :"
+"ref:`preferences_preview_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid "Volume"
+msgstr "مستوى الصوت"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid ""
+"Ensure that the volume does not exceed 100% on overlapping clips (such as an "
+"audio track combined with a video track). Lower the volume on individual "
+"clips if needed. See :ref:`clip_volume_mixing_ref`."
+msgstr ""
+"تأكد من أن مستوى الصوت لا يتجاوز 100% في المقاطع المتداخلة (مثل مسار صوتي "
+"مدمج مع مسار فيديو). قم بخفض مستوى الصوت في المقاطع الفردية إذا لزم الأمر. "
+"انظر :ref:`clip_volume_mixing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid "Headphones"
+msgstr "سماعات الرأس"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid ""
+"If you're using headphones, plug them in before starting OpenShot. Launching "
+"OpenShot with no speakers, headphones, or valid audio playback device can "
+"cause OpenShot to freeze during playback."
+msgstr ""
+"إذا كنت تستخدم سماعات الرأس، قم بتوصيلها قبل بدء تشغيل OpenShot. تشغيل "
+"OpenShot بدون مكبرات صوت أو سماعات رأس أو جهاز تشغيل صوت صالح قد يتسبب في "
+"تجميد OpenShot أثناء التشغيل."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid "OS Updates"
+msgstr "تحديثات نظام التشغيل"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid ""
+"Update your operating system and any pending security updates. Some audio "
+"issues, especially audio device specific issues, can be resolved with an "
+"operating system update."
+msgstr ""
+"قم بتحديث نظام التشغيل وأي تحديثات أمان معلقة. يمكن حل بعض مشاكل الصوت، خاصة "
+"تلك المتعلقة بأجهزة الصوت، من خلال تحديث نظام التشغيل."

@@ -1,0 +1,467 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Main-window terminology review, 2026-09-26.
+#: ../timeline.rst:23
+msgid "Timeline"
+msgstr "Ligne de temps"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:25
+msgid ""
+"The timeline is where your video comes together. You arrange clips, trim "
+"them, layer visuals, and make timing decisions here. If you are new to "
+"editing, think of the timeline as a simple left-to-right story: earlier "
+"moments on the left, later moments on the right."
+msgstr ""
+"La chronologie est l'endroit où votre vidéo prend forme. Vous y organisez "
+"les clips, les coupez, superposez les visuels et prenez des décisions de "
+"synchronisation. Si vous débutez en montage, considérez la chronologie comme"
+" une histoire simple de gauche à droite : les moments plus anciens à gauche,"
+" les moments plus récents à droite."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:32
+msgid ""
+"If you are just getting started, read :ref:`quick_tutorial_ref` first, then "
+"come back here for more detail. For a labeled breakdown of toolbar controls,"
+" see :ref:`timeline_toolbar_ref`."
+msgstr ""
+"Si vous débutez, lisez d'abord :ref:`quick_tutorial_ref`, puis revenez ici "
+"pour plus de détails. Pour une description étiquetée des contrôles de la "
+"barre d'outils, consultez :ref:`timeline_toolbar_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:37
+msgid "Timeline Basics"
+msgstr "Notions de base sur la chronologie"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:39
+msgid "These terms are used often in this guide:"
+msgstr "Ces termes sont fréquemment utilisés dans ce guide :"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:45
+msgid "Term"
+msgstr "Terme"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:45
+msgid "Meaning"
+msgstr "Signification"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:47
+msgid "Playhead"
+msgstr "Curseur de lecture"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:47
+msgid "The red line that shows your current time position."
+msgstr "La ligne rouge qui indique votre position temporelle actuelle."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:48
+msgid "Track"
+msgstr "Piste"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:48
+msgid ""
+"A horizontal layer that holds clips (top tracks appear above lower tracks)."
+msgstr ""
+"Une couche horizontale qui contient des clips (les pistes supérieures "
+"apparaissent au-dessus des pistes inférieures)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:49
+msgid "Clip"
+msgstr "Clip"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:49
+msgid "A video, audio, or image item placed on a track."
+msgstr "Un élément vidéo, audio ou image placé sur une piste."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:50
+msgid "Transition"
+msgstr "Transition"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:50
+msgid "A blend between two overlapping clips."
+msgstr "Un fondu entre deux clips qui se chevauchent."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:51
+msgid "Marker"
+msgstr "Marqueur"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:51
+msgid "A saved point in time you can jump back to quickly."
+msgstr "Un point temporel enregistré auquel vous pouvez revenir rapidement."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:52
+msgid "Keyframe"
+msgstr "Image clé"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:52
+msgid "A saved value at a point in time (used for animation)."
+msgstr ""
+"Une valeur enregistrée à un instant donné (utilisée pour l'animation)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:55
+msgid "For a full glossary, see :ref:`glossary_ref`."
+msgstr "Pour un glossaire complet, voir :ref:`glossary_ref`."
+
+#: ../timeline.rst:58
+msgid "Current Timecode"
+msgstr "Code temporel actuel"
+
+#: ../timeline.rst:60
+msgid ""
+"The current timecode appears at the left side of the timeline ruler and "
+"shows the playhead's exact position. Click the timecode, enter a new value, "
+"and press :kbd:`Enter` to move the playhead to that frame."
+msgstr ""
+"Le code temporel actuel apparaît à gauche de la règle de la timeline et "
+"montre la position exacte de la tête de lecture. Cliquez sur le code "
+"temporel, saisissez une nouvelle valeur, puis appuyez sur :kbd:`Entrée` pour"
+" déplacer la tête de lecture à cette image."
+
+#: ../timeline.rst:64
+msgid ""
+"Clear the field or enter ``0`` to jump to the start of the timeline. Press "
+":kbd:`Up` or :kbd:`Down` to step the selected timecode segment; hold "
+":kbd:`Shift` to step by 10. When the frame segment is selected, hold "
+":kbd:`Ctrl` to step by one second. Press :kbd:`Esc` to cancel."
+msgstr ""
+"Effacez le champ ou saisissez ``0`` pour revenir au début de la timeline. "
+"Appuyez sur :kbd:`Flèche haut` ou :kbd:`Flèche bas` pour avancer ou reculer "
+"dans le segment de code temporel sélectionné ; maintenez :kbd:`Maj` pour "
+"avancer ou reculer par 10. Lorsque le segment d’image est sélectionné, "
+"maintenez :kbd:`Ctrl` pour avancer ou reculer d’une seconde. Appuyez sur "
+":kbd:`Échap` pour annuler."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:70
+msgid "Common Timeline Tasks"
+msgstr "Tâches courantes sur la chronologie"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:72
+msgid "Most editing sessions follow a similar flow:"
+msgstr "La plupart des sessions de montage suivent un flux similaire :"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:74
+msgid "Add media to the project using :ref:`import_files_ref`."
+msgstr "Ajoutez des médias au projet en utilisant :ref:`import_files_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:75
+msgid "Drag files from the project panel onto timeline tracks."
+msgstr ""
+"Faites glisser les fichiers du panneau projet vers les pistes de la "
+"chronologie."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:76
+msgid "Trim clip edges to remove extra content."
+msgstr "Coupez les bords des clips pour supprimer le contenu superflu."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:77
+msgid "Move clips into order and stack tracks to build your scene."
+msgstr ""
+"Ordonnez les clips et superposez les pistes pour construire votre scène."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:78
+msgid ""
+"Add transitions and effects where needed (:ref:`transitions_ref`, "
+":ref:`effects_ref`)."
+msgstr ""
+"Ajoutez des transitions et des effets là où c'est nécessaire "
+"(:ref:`transitions_ref`, :ref:`effects_ref`)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:79
+msgid "Preview and adjust timing (:ref:`playback_ref`)."
+msgstr "Prévisualisez et ajustez le timing (:ref:`playback_ref`)."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:81
+msgid ""
+"Clip trimming, slicing, and clip context menu actions are covered in detail "
+"in :ref:`clips_ref`."
+msgstr ""
+"La découpe, le tranchage des clips et les actions du menu contextuel des "
+"clips sont détaillés dans :ref:`clips_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:84
+msgid "Selecting Clips and Transitions"
+msgstr "Sélection des clips et des transitions"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:86
+msgid "Selection is one of the most important timeline skills:"
+msgstr ""
+"La sélection est l'une des compétences les plus importantes sur la "
+"chronologie :"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:88
+msgid "Click an item to select it."
+msgstr "Cliquez sur un élément pour le sélectionner."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:89
+msgid ":kbd:`Ctrl+Click` adds or removes items from selection."
+msgstr ":kbd:`Ctrl+Clic` ajoute ou retire des éléments de la sélection."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:90
+msgid ""
+":kbd:`Shift+Click` selects a range between your anchor item and the clicked "
+"item."
+msgstr ""
+":kbd:`Shift+Clic` sélectionne une plage entre votre élément d'ancrage et "
+"l'élément cliqué."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:91
+msgid ":kbd:`Ctrl+Shift+Click` adds that range to your current selection."
+msgstr ":kbd:`Ctrl+Shift+Clic` ajoute cette plage à votre sélection actuelle."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:92
+msgid ""
+":kbd:`Alt+Click` ripple-selects from the clicked item to the end of the "
+"track."
+msgstr ""
+":kbd:`Alt+Clic` sélectionne en cascade depuis l'élément cliqué jusqu'à la "
+"fin de la piste."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:93
+msgid "Drag an empty-area selection box to select multiple items."
+msgstr ""
+"Faites glisser une zone de sélection vide pour sélectionner plusieurs "
+"éléments."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:95
+msgid "See :ref:`clips_ref` for the full list and examples."
+msgstr "Voir :ref:`clips_ref` pour la liste complète et des exemples."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:98
+msgid "Timeline Toolbar and Zoom"
+msgstr "Barre d'outils de la chronologie et zoom"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:100
+msgid ""
+"The timeline toolbar helps with common navigation and editing actions "
+"(snapping, retime, razor, markers, centering, and zoom)."
+msgstr ""
+"La barre d'outils de la chronologie facilite les actions courantes de "
+"navigation et d'édition (accrochage, retiming, rasoir, marqueurs, centrage "
+"et zoom)."
+
+#: ../timeline.rst:103
+msgid ""
+"The :ref:`razor_tool_ref` shows a cut guide and timecode over the target "
+"clip. While paused, hovering also previews the cut frame without moving the "
+"playhead. Click to cut, or press :kbd:`Esc` to leave Razor mode. The Razor "
+"guide respects the existing **Snapping** toggle and uses the same snap "
+"targets and tolerance as other timeline edits."
+msgstr ""
+"L’outil :ref:`razor_tool_ref` affiche un guide de coupe et un timecode sur "
+"le clip cible. En pause, le survol prévisualise également l’image de coupe "
+"sans déplacer la tête de lecture. Cliquez pour couper, ou appuyez sur "
+":kbd:`Esc` pour quitter le mode Rasoir. Le guide Rasoir respecte l’option "
+"**Accrochage** existante et utilise les mêmes cibles et tolérances "
+"d’accrochage que les autres modifications de la timeline."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:109
+msgid ""
+"Tip: If timeline editing feels crowded, zoom in with the timeline slider to "
+"make small clip adjustments easier."
+msgstr ""
+"Astuce : si l'édition sur la chronologie semble encombrée, zoomez avec le "
+"curseur de la chronologie pour faciliter les petits ajustements de clips."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:112
+msgid ""
+"You can also zoom the timeline with :kbd:`Ctrl+Scroll Wheel`. On the QWidget"
+" timeline, hold :kbd:`Ctrl` and drag with the middle mouse button for smooth"
+" zooming."
+msgstr ""
+"Vous pouvez également zoomer sur la timeline avec :kbd:`Ctrl+Molette de "
+"défilement`. Sur la timeline QWidget, maintenez :kbd:`Ctrl` et faites "
+"glisser avec le bouton central de la souris pour un zoom fluide."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:117
+msgid "Tracks, Locking, and Inserting"
+msgstr "Pistes, verrouillage et insertion"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:119
+msgid "Tracks help organize your edit. A common setup is:"
+msgstr ""
+"Les pistes aident à organiser votre montage. Une configuration courante est "
+":"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:121
+msgid "Top tracks: titles, overlays, logos, picture-in-picture"
+msgstr ""
+"Pistes supérieures : titres, superpositions, logos, image dans l'image"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:122
+msgid "Middle tracks: main video content"
+msgstr "Pistes du milieu : contenu vidéo principal"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:123
+msgid "Lower tracks: music and sound effects"
+msgstr "Pistes inférieures : musique et effets sonores"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:125
+msgid ""
+"You can lock tracks to protect them from accidental edits and use "
+"insert/ripple editing when you need later clips to move automatically."
+msgstr ""
+"Vous pouvez verrouiller les pistes pour les protéger des modifications "
+"accidentelles et utiliser l'édition par insertion/en cascade lorsque vous "
+"souhaitez que les clips ultérieurs se déplacent automatiquement."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:128
+msgid ""
+"For track layout basics, see :ref:`tracks_ref`. For detailed clip editing "
+"behavior, see :ref:`clips_cutting_slicing_ref`."
+msgstr ""
+"Pour les bases de la disposition des pistes, voir :ref:`tracks_ref`. Pour un"
+" comportement détaillé de l'édition des clips, voir "
+":ref:`clips_cutting_slicing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:132
+msgid "Keyframes in the Timeline"
+msgstr "Images clés dans la chronologie"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:134
+msgid ""
+"Keyframes let you change values over time, such as position, scale, "
+"rotation, opacity, and effect settings."
+msgstr ""
+"Les images clés vous permettent de modifier des valeurs au fil du temps, "
+"telles que la position, l'échelle, la rotation, l'opacité et les réglages "
+"d'effets."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:137
+msgid ""
+"In the timeline keyframe panel, each row represents one animated property. "
+"You can:"
+msgstr ""
+"Dans le panneau des images clés de la chronologie, chaque ligne représente "
+"une propriété animée. Vous pouvez :"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:139
+msgid "Add a keyframe row for a property"
+msgstr "Ajouter une ligne d'image clé pour une propriété"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:140
+msgid "Insert new keyframes along the row"
+msgstr "Insérer de nouvelles images clés le long de la ligne"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:141
+msgid "Move keyframes to change timing"
+msgstr "Déplacer les images clés pour modifier le timing"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:142
+msgid "Change interpolation to control motion style"
+msgstr "Modifier l'interpolation pour contrôler le style de mouvement"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:144
+msgid ""
+"For keyframe concepts and animation examples, see :ref:`animation_ref`."
+msgstr ""
+"Pour les concepts d'images clés et des exemples d'animation, voir "
+":ref:`animation_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:147
+msgid "Next Steps"
+msgstr "Étapes suivantes"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:149
+msgid ""
+"After you are comfortable with timeline basics, these sections are the best "
+"next reads:"
+msgstr ""
+"Une fois que vous maîtrisez les bases de la chronologie, ces sections sont "
+"les meilleures lectures suivantes :"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:151
+msgid ":ref:`clips_ref` for trimming, slicing, and clip properties"
+msgstr ""
+":ref:`clips_ref` pour la coupe, le tranchage et les propriétés des clips"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:152
+msgid ":ref:`effects_ref` for video/audio effects"
+msgstr ":ref:`effects_ref` pour les effets vidéo/audio"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:153
+msgid ":ref:`animation_ref` for keyframe animation workflows"
+msgstr ""
+":ref:`animation_ref` pour les flux de travail d'animation par images clés"
+
+# Translated with gpt-4.1-mini
+#: ../timeline.rst:154
+msgid ":doc:`export` for creating your final video file"
+msgstr ":doc:`export` pour créer votre fichier vidéo final"

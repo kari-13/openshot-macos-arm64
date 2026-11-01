@@ -1,0 +1,1997 @@
+"""
+ @file
+ @brief This file listens to changes, and updates the primary project data
+ @author Noah Figg <eggmunkee@hotmail.com>
+ @author Jonathan Thomas <jonathan@openshot.org>
+ @author Olivier Girard <eolinwen@gmail.com>
+
+ @section LICENSE
+
+ Copyright (c) 2008-2018 OpenShot Studios, LLC
+ (http://www.openshotstudios.com). This file is part of
+ OpenShot Video Editor (http://www.openshot.org), an open-source project
+ dedicated to delivering high quality video editing and animation solutions
+ to the world.
+
+ OpenShot Video Editor is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ OpenShot Video Editor is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with OpenShot Library.  If not, see <http://www.gnu.org/licenses/>.
+ """
+
+import copy
+import errno
+import glob
+import os
+import random
+import re
+import shutil
+import json
+import tempfile
+
+from classes import info
+from classes.app import get_app
+from classes.image_types import get_media_type
+from classes.json_data import JsonDataStore
+from classes.logger import log
+from classes.thumbnail import MigrateThumbnailLayout
+from classes.updates import UpdateInterface
+from classes.assets import get_assets_path
+from classes.path_utils import comparable_local_path, normalized_local_path
+from windows.views.find_file import find_missing_file
+from classes.convert_framerate import change_profile
+
+from .keyframe_scaler import KeyframeScaler
+
+import openshot
+
+
+class ProjectDataStore(JsonDataStore, UpdateInterface):
+    """ This class allows advanced searching of data structure, implements changes interface """
+
+    def __init__(self):
+        JsonDataStore.__init__(self)
+        self.data_type = "project data"  # Used in error messages
+        self.default_project_filepath = os.path.join(info.PATH, 'settings', '_default.project')
+
+        # Set default filepath to user's home folder
+        self.current_filepath = None
+
+        # Track changes after save
+        self.has_unsaved_changes = False
+
+        # Load default project data on creation
+        self.new()
+
+    def read_from_file(self, file_path, path_mode="ignore"):
+        """Import waveform assets and migrate legacy arrays before project copies."""
+        from classes.waveform_cache import externalize, transfer
+        data = super().read_from_file(file_path, path_mode)
+        transfer(data, os.path.join(get_assets_path(file_path, create_paths=False), "waveforms"), importing=True)
+        return externalize(data)
+
+    def write_to_file(self, file_path, data, path_mode="ignore", previous_path=None):
+        """Save waveform assets before writing references into project JSON."""
+        from classes.waveform_cache import externalize, transfer
+        externalize(data)
+        transfer(data, os.path.join(get_assets_path(file_path, create_paths=False), "waveforms"))
+        return super().write_to_file(file_path, data, path_mode, previous_path)
+
+    def needs_save(self):
+        """Returns if project data has unsaved changes"""
+        return self.has_unsaved_changes
+
+    def _effect_has_reader_source(self, effect):
+        """Return True when an effect already has a modern reader payload."""
+        if not isinstance(effect, dict):
+            return False
+        for key in ("mask_reader", "reader"):
+            reader = effect.get(key)
+            if not isinstance(reader, dict):
+                continue
+            if reader.get("path") or reader.get("id") or reader.get("has_single_image"):
+                return True
+        return False
+
+    def _migrate_optimized_asset_paths(self):
+        """Migrate legacy proxy asset folder paths from `proxies` to `optimized`."""
+        if not self.current_filepath:
+            return
+
+        asset_path = get_assets_path(self.current_filepath)
+        legacy_proxy_path = os.path.join(asset_path, "proxies")
+        optimized_path = os.path.join(asset_path, "optimized")
+
+        if os.path.isdir(legacy_proxy_path) and not os.path.exists(optimized_path):
+            shutil.move(legacy_proxy_path, optimized_path)
+            log.info("Migrated optimized assets folder to %s", optimized_path)
+
+        legacy_prefix = os.path.abspath(legacy_proxy_path) + os.sep
+        updated = 0
+        for file_data in self._data.get("files", []):
+            if not isinstance(file_data, dict):
+                continue
+            proxy_reader = file_data.get("proxy_reader")
+            if not isinstance(proxy_reader, dict):
+                continue
+            proxy_path = str(proxy_reader.get("path") or "")
+            abs_proxy_path = os.path.abspath(proxy_path) if proxy_path else ""
+            if abs_proxy_path.startswith(legacy_prefix):
+                relative_path = os.path.relpath(abs_proxy_path, os.path.abspath(legacy_proxy_path))
+                proxy_reader["path"] = os.path.join(optimized_path, relative_path)
+                updated += 1
+
+        info.PROXY_PATH = optimized_path
+        if updated:
+            log.info("Updated %s optimized reader path(s) to use %s", updated, optimized_path)
+
+    def _drop_obsolete_effect_resource(self, effect):
+        """Remove legacy resource paths once a reader payload is available."""
+        if not isinstance(effect, dict):
+            return
+        if "resource" in effect and self._effect_has_reader_source(effect):
+            effect.pop("resource", None)
+
+    def get(self, key):
+        """Get copied value of a given key in data store"""
+
+        # Verify key is valid type
+        if not key:
+            log.warning("ProjectDataStore cannot get empty key.")
+            return None
+        if not isinstance(key, list):
+            key = [key]
+
+        # Get reference to internal data structure
+        obj = self._data
+
+        # Iterate through key list finding sub-objects either by name or by an object match criteria such as {"id":"ADB34"}.
+        for key_index in range(len(key)):
+            key_part = key[key_index]
+
+            # Key_part must be a string or dictionary
+            if not isinstance(key_part, dict) and not isinstance(key_part, str):
+                log.error("Unexpected key part type: {}".format(type(key_part).__name__))
+                return None
+
+            # If key_part is a dictionary and obj is a list or dict, each key is tested as a property of the items in the current object
+            # in the project data structure, and the first match is returned.
+            if isinstance(key_part, dict) and isinstance(obj, list):
+                # Overall status of finding a matching sub-object
+                found = False
+                # Loop through each item in object to find match
+                for item_index in range(len(obj)):
+                    item = obj[item_index]
+                    # True until something disqualifies this as a match
+                    match = True
+                    # Check each key in key_part dictionary and if not found to be equal as a property in item, move on to next item in list
+                    for subkey in key_part:
+                        # Get each key in dictionary (i.e. "id", "layer", etc...)
+                        subkey = subkey.lower()
+                        # If object is missing the key or the values differ, then it doesn't match.
+                        if not (subkey in item and item[subkey] == key_part[subkey]):
+                            match = False
+                            break
+                    # If matched, set key_part to index of list or dict and stop loop
+                    if match:
+                        found = True
+                        obj = item
+                        break
+                # No match found, return None
+                if not found:
+                    return None
+
+            # If key_part is a string, homogenize to lower case for comparisons
+            if isinstance(key_part, str):
+                key_part = key_part.lower()
+
+                # Check current obj type (should be dictionary)
+                if not isinstance(obj, dict):
+                    log.warn(
+                        "Invalid project data structure. Trying to use a key on a non-dictionary object. Key part: {} (\"{}\").\nKey: {}".format(
+                            (key_index), key_part, key))
+                    return None
+
+                # If next part of path isn't in current dictionary, return failure
+                if key_part not in obj:
+                    log.warn(
+                        'Key not found in project. Mismatch on key part %s ("%s").\nKey: %s',
+                        key_index, key_part, key)
+                    return None
+
+                # Get the matching item
+                obj = obj[key_part]
+
+        # After processing each key, we've found object, return it
+        return obj
+
+    def set(self, key, value):
+        """Prevent calling JsonDataStore set() method. It is not allowed in ProjectDataStore, as changes come from UpdateManager."""
+        raise RuntimeError("ProjectDataStore.set() is not allowed. Changes must route through UpdateManager.")
+
+    def _set(self, key, values=None, add=False, remove=False):
+        """ Store setting, but adding isn't allowed. All possible settings must be in default settings file. """
+
+        log.debug(
+            "_set key: %s, values: %s, add: %s, remove: %s",
+            key, values, add, remove)
+        parent, my_key = None, ""
+
+        # Verify key is valid type
+        if not isinstance(key, list):
+            log.warning("_set() key must be a list. key=%s", key)
+            return None
+        if not key:
+            log.warning("Cannot set empty key (key=%s)", key)
+            return None
+
+        # Get reference to internal data structure
+        obj = self._data
+
+        # Iterate through key list finding sub-objects either by name or by an object match criteria such as {"id":"ADB34"}.
+        for key_index in range(len(key)):
+            key_part = key[key_index]
+
+            # Key_part must be a string or dictionary
+            if not isinstance(key_part, dict) and not isinstance(key_part, str):
+                log.error("Unexpected key part type: %s", type(key_part).__name__)
+                return None
+
+            # If key_part is a dictionary and obj is a list or dict, each key is tested as a property of the items in the current object
+            # in the project data structure, and the first match is returned.
+            if isinstance(key_part, dict) and isinstance(obj, list):
+                # Overall status of finding a matching sub-object
+                found = False
+                # Loop through each item in object to find match
+                for item_index in range(len(obj)):
+                    item = obj[item_index]
+                    # True until something disqualifies this as a match
+                    match = True
+                    # Check each key in key_part dictionary and if not found to be equal as a property in item, move on to next item in list
+                    for subkey in key_part.keys():
+                        # Get each key in dictionary (i.e. "id", "layer", etc...)
+                        subkey = subkey.lower()
+                        # If object is missing the key or the values differ, then it doesn't match.
+                        if not (subkey in item and item[subkey] == key_part[subkey]):
+                            match = False
+                            break
+                    # If matched, set key_part to index of list or dict and stop loop
+                    if match:
+                        found = True
+                        obj = item
+                        my_key = item_index
+                        break
+                # No match found, return None
+                if not found:
+                    return None
+
+
+            # If key_part is a string, homogenize to lower case for comparisons
+            if isinstance(key_part, str):
+                key_part = key_part.lower()
+
+                # Check current obj type (should be dictionary)
+                if not isinstance(obj, dict):
+                    return None
+
+                # If next part of path isn't in current dictionary, return failure
+                if key_part not in obj:
+                    log.warn(
+                        'Key not found in project. Mismatch on key part %s ("%s").\nKey: %s',
+                        key_index, key_part, key)
+                    return None
+
+                # Get sub-object based on part key as new object, continue to next part
+                obj = obj[key_part]
+                my_key = key_part
+
+
+            # Set parent to the last set obj (if not final iteration)
+            if key_index < (len(key) - 1) or key_index == 0:
+                parent = obj
+
+
+        # After processing each key, we've found object and parent, return former value/s on update
+        # An insertion is reversed by deleting the inserted ID. Sibling items
+        # are not part of that action and need no undo snapshot (waveforms can
+        # make this list many megabytes). Updates/deletes still retain the full
+        # previous value, including readers, effects, and keyframes.
+        ret = {} if add and isinstance(parent, list) else json.loads(json.dumps(obj))
+
+        # Apply the correct action to the found item
+        if remove:
+            del parent[my_key]
+
+        else:
+
+            # Keep live project edits from changing values retained in history.
+            values = copy.deepcopy(values)
+
+            # Add or Full Update
+            # For adds to list perform an insert to index or the end if not specified
+            if add and isinstance(parent, list):
+                parent.append(values)
+
+            # Otherwise, set the given index
+            elif isinstance(values, dict):
+                if (
+                    isinstance(obj, dict)
+                    and isinstance(obj.get("objects"), dict)
+                    and isinstance(values.get("objects"), dict)
+                ):
+                    object_updates = values.pop("objects", {})
+                    tracked_objects = obj.setdefault("objects", {})
+                    for object_id, object_values in object_updates.items():
+                        if (
+                            isinstance(object_values, dict)
+                            and isinstance(tracked_objects.get(object_id), dict)
+                        ):
+                            tracked_objects[object_id].update(object_values)
+                        else:
+                            tracked_objects[object_id] = object_values
+                # Update existing dictionary value
+                obj.update(values)
+
+            else:
+
+                # Update root string
+                self._data[my_key] = values
+
+        # Return the previous value to the matching item (used for history tracking)
+        return ret
+
+    # Load default project data
+    def new(self):
+        """ Try to load default project settings file, will raise error on failure """
+        import openshot
+
+        # Try to load user default project
+        if os.path.exists(info.USER_DEFAULT_PROJECT):
+            try:
+                self._data = self.read_from_file(info.USER_DEFAULT_PROJECT)
+            except (FileNotFoundError, PermissionError):
+                log.warning(
+                    "Unable to load user project defaults from %s",
+                    info.USER_DEFAULT_PROJECT, exc_info=1)
+            except Exception:
+                raise
+            else:
+                log.info("Loaded user project defaults from %s",
+                         info.USER_DEFAULT_PROJECT)
+        else:
+            # Fall back to OpenShot defaults, if user defaults didn't load
+            self._data = self.read_from_file(self.default_project_filepath)
+            self.apply_default_track_count()
+
+        self._data.setdefault("auto_optimize", None)
+        self.current_filepath = None
+        self.has_unsaved_changes = False
+
+        # Reset info paths back to their default/initial values
+        info.reset_userdirs()
+
+        # Get default profile
+        s = get_app().get_settings()
+        default_profile_desc = s.get("default-profile")
+
+        # Get profile (if any)
+        profile = self.get_profile(profile_desc=default_profile_desc)
+        if not profile:
+            # Fallback, in case of missing/invalid default profile
+            profile = self.get_profile(profile_desc="HD 720p 30 fps")
+
+        # Update default profile (if it changed)
+        if profile and default_profile_desc != profile.info.description:
+            log.info(f"Updating default-profile from legacy `{default_profile_desc}` to `{profile.info.description}`.")
+            s.set("default-profile", profile.info.description)
+
+        # Apply default audio playback settings to this data structure
+        self.apply_default_audio_settings()
+
+        # Set default project ID
+        self._data["id"] = self.generate_id()
+
+    def apply_default_track_count(self):
+        """Adjust bundled blank-project tracks, leaving user templates untouched."""
+        try:
+            count = int(get_app().get_settings().get("default-track-count"))
+        except (TypeError, ValueError, OverflowError):
+            count = 5
+        count = max(1, min(count, 100))
+
+        template = self._data["layers"][0]
+        tracks = []
+        for index in range(1, count + 1):
+            track = copy.deepcopy(template)
+            track.update(id="L%s" % index, number=index * 1000000)
+            tracks.append(track)
+        self._data["layers"] = tracks
+
+    def get_profile(self, profile_desc=None, profile_key=None):
+        """Attempt to find a specific profile"""
+        profile = None
+
+        # Loop through legacy profiles
+        LEGACY_PROFILE_PATH = os.path.join(info.PROFILES_PATH, "legacy")
+        legacy_profile = None
+        legacy_profile_match = None  # Find the equivalent match of this legacy (if any)
+        for legacy_filename in os.listdir(LEGACY_PROFILE_PATH):
+            legacy_profile_path = os.path.join(LEGACY_PROFILE_PATH, legacy_filename)
+            try:
+                # Load Profile and append description
+                temp_profile = openshot.Profile(legacy_profile_path)
+                if profile_desc == temp_profile.info.description:
+                    legacy_profile = temp_profile
+                    break
+            except RuntimeError:
+                # Ignore legacy parsing errors
+                pass
+
+        # Loop through profiles
+        profile_dirs = [info.USER_PROFILES_PATH, info.PROFILES_PATH]
+        available_dirs = [f for f in profile_dirs if os.path.exists(f)]
+        for profile_folder in available_dirs:
+            for file in reversed(sorted(os.listdir(profile_folder))):
+                profile_path = os.path.join(profile_folder, file)
+                if os.path.isdir(profile_path):
+                    continue
+                try:
+                    # Load Profile and append description
+                    temp_profile = openshot.Profile(profile_path)
+
+                    if profile_desc == temp_profile.info.description:
+                        profile = self.apply_profile(temp_profile)
+                        break
+                    if legacy_profile and legacy_profile.Key() == temp_profile.Key():
+                        # Switch from legacy profile to new profile
+                        legacy_profile_match = temp_profile
+
+                except RuntimeError as e:
+                    # This exception occurs when there's a problem parsing the Profile file - display a message and continue
+                    log.error("Failed to parse file '%s' as a profile: %s" % (profile_path, e))
+
+        # Portable custom profiles travel with the project, not a machine-local
+        # profile file. Installed/legacy profiles retain their existing lookup.
+        embedded = self._data.get("profile_settings") or {}
+        if not profile and embedded.get("description") == profile_desc:
+            custom = openshot.Profile()
+            custom.SetJson(json.dumps(embedded))
+            profile = self.apply_profile(custom)
+
+        # Upgrade a legacy profile (if needed). Sometimes legacy profiles do match a new profile description, so
+        # only upgrade if we have not already found a profile matching the description
+        if not profile and legacy_profile_match:
+            profile = self.apply_profile(legacy_profile_match)
+
+        return profile
+
+    def apply_profile(self, profile):
+        """Apply a specific profile to the current project data"""
+        log.info("Setting profile to %s" % profile.info.description)
+
+        # Update default profile
+        self._data["profile_settings"] = json.loads(profile.Json())
+        self._data["profile"] = profile.info.description
+        self._data["width"] = profile.info.width
+        self._data["height"] = profile.info.height
+        self._data["fps"] = {"num": profile.info.fps.num, "den": profile.info.fps.den}
+        self._data["display_ratio"] = {"num": profile.info.display_ratio.num, "den": profile.info.display_ratio.den}
+        self._data["pixel_ratio"] = {"num": profile.info.pixel_ratio.num, "den": profile.info.pixel_ratio.den}
+
+        # Convert all position, start, and end trims to profile FPS precision (if any)
+        change_profile(self._data["clips"] + self._data["effects"] + self._data["markers"], profile)
+
+        # Text style curves are keyed to project frames (and were rescaled with them)
+        from classes.direct_text import sync_text_fps
+        sync_text_fps(self._data)
+
+        return profile
+
+    def load(self, file_path, clear_thumbnails=True, interactive=True):
+        """ Load project from file """
+
+        if file_path and not interactive:
+            # Validate paths before replacing the active project; agents must never
+            # open a modal missing-file dialog or silently drop missing media.
+            candidate = self.read_from_file(file_path, path_mode="absolute")
+            def check_paths(value):
+                if isinstance(value, dict):
+                    self._drop_obsolete_effect_resource(value)
+                    for key, child in value.items():
+                        if key in ("path", "resource", "protobuf_data_path", "lut_path") and isinstance(child, str) and child and "%" not in child:
+                            if not os.path.exists(child):
+                                raise FileNotFoundError("Missing project asset: " + child)
+                        elif key != "history":
+                            check_paths(child)
+                elif isinstance(value, list):
+                    for child in value:
+                        check_paths(child)
+            check_paths(candidate)
+        self.new()
+
+        if file_path:
+            log.info("Loading project file: %s", file_path)
+
+            # Default project data
+            default_project = self._data
+
+            try:
+                # Attempt to load v2.X project file
+                project_data = (self.read_from_file(file_path, path_mode="absolute")
+                                if interactive else candidate)
+
+                # Fix history (if broken)
+                if not project_data.get("history"):
+                    project_data["history"] = {"undo": [], "redo": []}
+
+                # If project has waveforms, enable removing waveforms
+                if get_app().window:
+                    get_app().window.actionClearWaveformData.setEnabled(False)
+                    for file in project_data["files"]:
+                        if file.get("ui",{}).get("audio_data", []):
+                            get_app().window.actionClearWaveformData.setEnabled(True)
+                            break
+
+            except Exception:
+                try:
+                    # Attempt to load legacy project file (v1.X version)
+                    project_data = self.read_legacy_project_file(file_path)
+
+                except Exception:
+                    # Project file not recognized as v1.X or v2.X, bubble up error
+                    raise
+
+            # Merge default and project settings, excluding settings not in default.
+            recovery_assets = project_data.pop("runtime_assets_path", info.USER_PATH)
+            self._data = self.merge_settings(default_project, project_data)
+
+            # On success, save current filepath
+            self.current_filepath = file_path
+
+            # Update info paths to assets folders
+            if clear_thumbnails:
+                info.ASSETS_PATH = get_assets_path(self.current_filepath)
+                info.THUMBNAIL_PATH = os.path.join(get_assets_path(self.current_filepath), "thumbnail")
+                info.TITLE_PATH = os.path.join(get_assets_path(self.current_filepath), "title")
+                info.BLENDER_PATH = os.path.join(get_assets_path(self.current_filepath), "blender")
+                info.PROTOBUF_DATA_PATH = os.path.join(get_assets_path(self.current_filepath), "protobuf_data")
+                info.CLIPBOARD_PATH = os.path.join(get_assets_path(self.current_filepath), "clipboard")
+                info.COMFYUI_OUTPUT_PATH = os.path.join(get_assets_path(self.current_filepath), "comfyui-output")
+                info.PROXY_PATH = os.path.join(get_assets_path(self.current_filepath), "optimized")
+                migrated = MigrateThumbnailLayout(info.THUMBNAIL_PATH)
+                if migrated:
+                    log.info("Migrated %s thumbnail(s) to per-file folders", migrated)
+            elif self._paths_match(file_path, info.BACKUP_FILE):
+                # Backups contain absolute media paths. Keep using their asset
+                # root even if the preference changed since the backup was made.
+                # Older backups used USER_PATH and have no root metadata.
+                if isinstance(recovery_assets, str) and os.path.isabs(recovery_assets):
+                    info.set_assets_path(recovery_assets)
+
+            self._migrate_optimized_asset_paths()
+
+            # Clear needs save flag
+            self.has_unsaved_changes = False
+
+            # Check if paths are all valid
+            if interactive:
+                self.check_if_paths_are_valid()
+
+            # Clear old thumbnails
+            openshot_thumbnails = info.get_default_path("THUMBNAIL_PATH")
+            if os.path.exists(openshot_thumbnails) and clear_thumbnails:
+                # Clear thumbnails
+                shutil.rmtree(openshot_thumbnails, True)
+                os.mkdir(openshot_thumbnails)
+
+            # Add to recent files setting
+            self.add_to_recent_files(file_path)
+
+            # Upgrade any data structures
+            self.upgrade_project_data_structures()
+
+            # Get profile (if any)
+            project_profile_desc = self._data.get("profile", "HD 720p 30 fps")
+            profile = self.get_profile(profile_desc=project_profile_desc)
+            if not profile:
+                # Fallback, in case of missing/invalid default profile
+                profile = self.get_profile(profile_desc="HD 720p 30 fps")
+
+            # Apply default audio playback settings to this data structure
+            self.apply_default_audio_settings()
+
+        # Get app, and distribute all project data through update manager
+        get_app().updates.load(self._data)
+
+    def rescale_keyframes(self, scale_factor):
+        """Adjust all keyframe coordinates from previous FPS to new FPS (using a scale factor)
+           and return scaled project data without modifing the current project."""
+        log.info('Scale all keyframes by a factor of %s', scale_factor)
+        # Create a scaler instance, and scale all key-frames
+        scaler = KeyframeScaler(factor=scale_factor)
+        scaler(self._data)
+
+    def read_legacy_project_file(self, file_path):
+        """Attempt to read a legacy version 1.x openshot project file"""
+        import sys
+        import pickle
+        from classes.query import File, Track, Clip, Transition
+        import openshot
+        import json
+
+        # Get translation method
+        _ = get_app()._tr
+
+        # Append version info
+        project_data = {}
+        project_data["version"] = {"openshot-qt": info.VERSION,
+                                   "libopenshot": openshot.OPENSHOT_VERSION_FULL}
+
+        # Get FPS from project
+        fps = get_app().project.get("fps")
+        fps_float = float(fps["num"]) / float(fps["den"])
+
+        # Import legacy openshot classes (from version 1.X)
+        from classes.legacy.openshot import classes as legacy_classes
+        from classes.legacy.openshot.classes import project as legacy_project
+        from classes.legacy.openshot.classes import sequences as legacy_sequences
+        from classes.legacy.openshot.classes import track as legacy_track
+        from classes.legacy.openshot.classes import clip as legacy_clip
+        from classes.legacy.openshot.classes import keyframe as legacy_keyframe
+        from classes.legacy.openshot.classes import files as legacy_files
+        from classes.legacy.openshot.classes import transition as legacy_transition
+        from classes.legacy.openshot.classes import effect as legacy_effect
+        from classes.legacy.openshot.classes import marker as legacy_marker
+        sys.modules['openshot.classes'] = legacy_classes
+        sys.modules['classes.project'] = legacy_project
+        sys.modules['classes.sequences'] = legacy_sequences
+        sys.modules['classes.track'] = legacy_track
+        sys.modules['classes.clip'] = legacy_clip
+        sys.modules['classes.keyframe'] = legacy_keyframe
+        sys.modules['classes.files'] = legacy_files
+        sys.modules['classes.transition'] = legacy_transition
+        sys.modules['classes.effect'] = legacy_effect
+        sys.modules['classes.marker'] = legacy_marker
+
+        # Keep track of files that failed to load
+        failed_files = []
+
+        with open(os.fsencode(file_path), 'rb') as f:
+            try:
+                # Unpickle legacy openshot project file
+                v1_data = pickle.load(f, fix_imports=True, encoding="UTF-8")
+                file_lookup = {}
+
+                # Loop through files
+                for item in v1_data.project_folder.items:
+                    # Is this item a File (i.e. ignore folders)
+                    if isinstance(item, legacy_files.OpenShotFile):
+                        # Create file
+                        try:
+                            clip = openshot.Clip(item.name)
+                            reader = clip.Reader()
+                            file_data = json.loads(reader.Json(), strict=False)
+
+                            # Determine media type
+                            file_data["media_type"] = get_media_type(file_data)
+
+                            # Save new file to the project data
+                            file = File()
+                            file.data = file_data
+                            file.save()
+
+                            # Keep track of new ids and old ids
+                            file_lookup[item.unique_id] = file
+
+                        except Exception:
+                            log.error("%s is not a valid video, audio, or image file",
+                                      item.name,
+                                      exc_info=1)
+                            failed_files.append(item.name)
+
+                # Delete all tracks
+                track_list = Track.filter()
+                for track in track_list:
+                    track.delete()
+
+                # Create new tracks
+                track_counter = 0
+                for legacy_t in reversed(v1_data.sequences[0].tracks):
+                    t = Track()
+                    t.data = {"number": track_counter, "y": 0, "label": legacy_t.name}
+                    t.save()
+
+                    track_counter += 1
+
+                # Loop through clips
+                track_counter = 0
+                for sequence in v1_data.sequences:
+                    for track in reversed(sequence.tracks):
+                        for clip in track.clips:
+                            # Get associated file for this clip
+                            if clip.file_object.unique_id in file_lookup:
+                                file = file_lookup[clip.file_object.unique_id]
+                            else:
+                                # Skip missing file
+                                log.info("Skipping importing missing file: %s" % clip.file_object.unique_id)
+                                continue
+
+                            # Create clip
+                            if (file.data["media_type"] == "video" or file.data["media_type"] == "image"):
+                                # Determine thumb path
+                                thumb_path = os.path.join(info.THUMBNAIL_PATH, "%s.png" % file.data["id"])
+                            else:
+                                # Audio file
+                                thumb_path = os.path.join(info.PATH, "images", "AudioThumbnail.svg")
+
+                            # Get file name
+                            filename = os.path.basename(file.data["path"])
+
+                            file_path = file.absolute_path()
+
+                            # Create clip object for this file
+                            c = openshot.Clip(file_path)
+
+                            # Append missing attributes to Clip JSON
+                            new_clip = json.loads(c.Json(), strict=False)
+                            new_clip["file_id"] = file.id
+                            new_clip["title"] = filename
+
+                            # Check for optional start and end attributes
+                            new_clip["start"] = clip.start_time
+                            new_clip["end"] = clip.end_time
+                            new_clip["position"] = clip.position_on_track
+                            new_clip["layer"] = track_counter
+
+                            # Clear alpha (if needed)
+                            if clip.video_fade_in or clip.video_fade_out:
+                                new_clip["alpha"]["Points"] = []
+
+                            # Video Fade IN
+                            if clip.video_fade_in:
+                                # Add keyframes
+                                start = openshot.Point(round(clip.start_time * fps_float) + 1, 0.0, openshot.BEZIER)
+                                start_object = json.loads(start.Json(), strict=False)
+                                end = openshot.Point(round((clip.start_time + clip.video_fade_in_amount) * fps_float) + 1, 1.0, openshot.BEZIER)
+                                end_object = json.loads(end.Json(), strict=False)
+                                new_clip["alpha"]["Points"].append(start_object)
+                                new_clip["alpha"]["Points"].append(end_object)
+
+                            # Video Fade OUT
+                            if clip.video_fade_out:
+                                # Add keyframes
+                                start = openshot.Point(round((clip.end_time - clip.video_fade_out_amount) * fps_float) + 1, 1.0, openshot.BEZIER)
+                                start_object = json.loads(start.Json(), strict=False)
+                                end = openshot.Point(round(clip.end_time * fps_float) + 1, 0.0, openshot.BEZIER)
+                                end_object = json.loads(end.Json(), strict=False)
+                                new_clip["alpha"]["Points"].append(start_object)
+                                new_clip["alpha"]["Points"].append(end_object)
+
+                            # Clear Audio (if needed)
+                            if clip.audio_fade_in or clip.audio_fade_out:
+                                new_clip["volume"]["Points"] = []
+                            else:
+                                p = openshot.Point(1, clip.volume / 100.0, openshot.BEZIER)
+                                p_object = json.loads(p.Json(), strict=False)
+                                new_clip["volume"] = {"Points": [p_object]}
+
+                            # Audio Fade IN
+                            if clip.audio_fade_in:
+                                # Add keyframes
+                                start = openshot.Point(round(clip.start_time * fps_float) + 1, 0.0, openshot.BEZIER)
+                                start_object = json.loads(start.Json(), strict=False)
+                                end = openshot.Point(round((clip.start_time + clip.video_fade_in_amount) * fps_float) + 1, clip.volume / 100.0, openshot.BEZIER)
+                                end_object = json.loads(end.Json(), strict=False)
+                                new_clip["volume"]["Points"].append(start_object)
+                                new_clip["volume"]["Points"].append(end_object)
+
+                            # Audio Fade OUT
+                            if clip.audio_fade_out:
+                                # Add keyframes
+                                start = openshot.Point(round((clip.end_time - clip.video_fade_out_amount) * fps_float) + 1, clip.volume / 100.0, openshot.BEZIER)
+                                start_object = json.loads(start.Json(), strict=False)
+                                end = openshot.Point(round(clip.end_time * fps_float) + 1, 0.0, openshot.BEZIER)
+                                end_object = json.loads(end.Json(), strict=False)
+                                new_clip["volume"]["Points"].append(start_object)
+                                new_clip["volume"]["Points"].append(end_object)
+
+                            # Save clip
+                            clip_object = Clip()
+                            clip_object.data = new_clip
+                            clip_object.save()
+
+                        # Loop through transitions
+                        for trans in track.transitions:
+                            # Fix default transition
+                            if not trans.resource or not os.path.exists(trans.resource):
+                                trans.resource = os.path.join(info.PATH, "transitions", "common", "fade.svg")
+
+                            # Open up QtImageReader for transition Image
+                            transition_reader = openshot.QtImageReader(trans.resource)
+
+                            trans_begin_value = 1.0
+                            trans_end_value = -1.0
+                            if trans.reverse:
+                                trans_begin_value = -1.0
+                                trans_end_value = 1.0
+
+                            brightness = openshot.Keyframe()
+                            brightness.AddPoint(1, trans_begin_value, openshot.BEZIER)
+                            brightness.AddPoint(round(trans.length * fps_float) + 1, trans_end_value, openshot.BEZIER)
+                            contrast = openshot.Keyframe(trans.softness * 10.0)
+
+                            # Create transition dictionary
+                            transitions_data = {
+                                "id": get_app().project.generate_id(),
+                                "layer": track_counter,
+                                "title": "Transition",
+                                "type": "Mask",
+                                "position": trans.position_on_track,
+                                "start": 0,
+                                "end": trans.length,
+                                "brightness": json.loads(brightness.Json(), strict=False),
+                                "contrast": json.loads(contrast.Json(), strict=False),
+                                "reader": json.loads(transition_reader.Json(), strict=False),
+                                "replace_image": False
+                            }
+
+                            # Save transition
+                            t = Transition()
+                            t.data = transitions_data
+                            t.save()
+
+                        # Increment track counter
+                        track_counter += 1
+
+            except Exception as ex:
+                # Error parsing legacy contents
+                msg = "Failed to load legacy project file %(path)s" % {"path": file_path}
+                log.error(msg, exc_info=1)
+                raise RuntimeError(msg) from ex
+
+        # Show warning if some files failed to load
+        if failed_files:
+            # Throw exception
+            raise RuntimeError("Failed to load the following files:\n%s" % ", ".join(failed_files))
+
+        # Return mostly empty project_data dict (with just the current version #)
+        log.info("Successfully loaded legacy project file: %s", file_path)
+        return project_data
+
+    def upgrade_project_data_structures(self):
+        """Fix any issues with old project files (if any)"""
+        openshot_version = self._data["version"]["openshot-qt"]
+        libopenshot_version = self._data["version"]["libopenshot"]
+
+        log.info("Project data: openshot %s, libopenshot %s",
+                 openshot_version, libopenshot_version)
+
+        if openshot_version == "0.0.0":
+            # If version = 0.0.0, this is the beta of OpenShot
+            # Fix alpha values (they are now flipped)
+            for clip in self._data["clips"]:
+                # Loop through keyframes for alpha
+                for point in clip["alpha"]["Points"]:
+                    # Flip the alpha value
+                    if "co" in point:
+                        point["co"]["Y"] = 1.0 - point["co"]["Y"]
+                    if "handle_left" in point:
+                        point["handle_left"]["Y"] = 1.0 - point["handle_left"]["Y"]
+                    if "handle_right" in point:
+                        point["handle_right"]["Y"] = 1.0 - point["handle_right"]["Y"]
+
+        elif openshot_version <= "2.1.0-dev":
+            # Fix handle_left and handle_right coordinates and default to ease in/out bezier curve
+            # using the new percent based keyframes
+            for clip_type in ["clips", "effects"]:
+                for clip in self._data[clip_type]:
+                    for object in [clip] + clip.get('effects', []):
+                        for item_key, item_data in object.items():
+                            # Does clip attribute have a {"Points": [...]} list
+                            if type(item_data) == dict and "Points" in item_data:
+                                for point in item_data.get("Points"):
+                                    # Convert to percent-based curves
+                                    if "handle_left" in point:
+                                        # Left handle
+                                        point.get("handle_left")["X"] = 0.5
+                                        point.get("handle_left")["Y"] = 1.0
+                                    if "handle_right" in point:
+                                        # Right handle
+                                        point.get("handle_right")["X"] = 0.5
+                                        point.get("handle_right")["Y"] = 0.0
+
+                            elif type(item_data) == dict and "red" in item_data:
+                                for color in ["red", "blue", "green", "alpha"]:
+                                    for point in item_data.get(color).get("Points"):
+                                        # Convert to percent-based curves
+                                        if "handle_left" in point:
+                                            # Left handle
+                                            point.get("handle_left")["X"] = 0.5
+                                            point.get("handle_left")["Y"] = 1.0
+                                        if "handle_right" in point:
+                                            # Right handle
+                                            point.get("handle_right")["X"] = 0.5
+                                            point.get("handle_right")["Y"] = 0.0
+
+        elif openshot_version.startswith("2.5."):
+            # Replace missing crop properties from 2.5.x
+            log.debug("Scanning OpenShot 2.5 project for legacy cropping")
+            for clip in self._data.get("clips", []):
+                # Loop through keyframes for alpha
+                crop_x = clip.pop("crop_x", {})
+                crop_y = clip.pop("crop_y", {})
+                crop_width = clip.pop("crop_width", {})
+                crop_height = clip.pop("crop_height", {})
+
+                if any([self.is_keyframe_valid(crop_x, 0.0),
+                        self.is_keyframe_valid(crop_y, 0.0),
+                        self.is_keyframe_valid(crop_width, 1.0),
+                        self.is_keyframe_valid(crop_height, 1.0),
+                       ]):
+                    # Apply crop effect to clip (which wasn't available in 2.5.x)
+                    log.info("Migrating OpenShot 2.5 crop properties for clip %s", clip.get("id", "<unknown>"))
+                    from json import loads as jl
+                    effect = openshot.EffectInfo().CreateEffect("Crop")
+                    effect.Id(get_app().project.generate_id())
+                    effect_json = jl(effect.Json())
+
+                    # Attach previous clip crop values
+                    effect_json.update({
+                        "x": crop_x or jl(openshot.Keyframe(0.0).Json()),
+                        "y": crop_y or jl(openshot.Keyframe(0.0).Json()),
+                        "right": crop_width or jl(openshot.Keyframe(1.0).Json()),
+                        "bottom": crop_height or jl(openshot.Keyframe(1.0).Json()),
+                    })
+
+                    # Reverse values on right & bottom
+                    for prop in ["right", "bottom"]:
+                        for point in effect_json[prop].get("Points", []):
+                            point["co"]["Y"] = 1.0 - point.get("co", {}).get("Y", 0.0)
+
+                    # Append effect JSON to clip
+                    clip["effects"].append(effect_json)
+
+
+        elif openshot_version <= "3.1.1":
+
+            # Reverse alpha value for Tracker & Object Detector tracked boxes
+            log.debug("Scanning OpenShot project for legacy TrackedObjectBBox (background_alpha, stroke_alpha)")
+
+            for clip in self._data.get("clips", []):
+                for effect in clip.get("effects", []):
+                    if effect.get("name") in ["Tracker", "Object Detector"]:
+
+                        # Update display_box_text
+                        if "display_box_text" in effect:
+                            log.info("Migrating legacy Object Detector display_box_text property "
+                                     "for clip %s", clip.get("id", "<unknown>"))
+                            display_box_text_points = effect.get("display_box_text", {}).get("Points", [])
+                            for point in display_box_text_points:
+                                if "co" in point:
+                                    display_box_text = point.get("co", {}).get("Y", 1.0)
+                                    point["co"]["Y"] = 1.0 - display_box_text
+                            if not display_box_text_points:
+                                # Default to text visible
+                                display_box_text_points.append(json.loads(openshot.Point(1.0).Json()))
+
+                        # Update tracked objects
+                        objects = effect.get("objects", {})
+                        for tracked_key, tracked_data in objects.items():
+                            log.info("Migrating legacy TrackedObjectBBox alpha properties "
+                                     "for clip %s and tracked object: %s", clip.get("id", "<unknown>"), tracked_key)
+
+                            # Update Child Clip ID to Parent property (if any)
+                            child_clip_id = tracked_data.get("child_clip_id")
+                            if child_clip_id:
+                                for child_clip in self._data.get("clips", []):
+                                    if child_clip.get("id") == child_clip_id:
+                                        log.info(f"Migrating child_clip_id {child_clip_id} to parent property for tracked object {tracked_key}")
+                                        child_clip["parentObjectId"] = tracked_key
+
+                            # Update background_alpha points directly
+                            background_alpha_points = tracked_data.get("background_alpha", {}).get("Points", [])
+                            for point in background_alpha_points:
+                                if "co" in point:
+                                    background_alpha = point.get("co", {}).get("Y", 1.0)
+                                    point["co"]["Y"] = 1.0 - background_alpha
+
+                            # Update stroke_alpha points directly
+                            stroke_alpha_points = tracked_data.get("stroke_alpha", {}).get("Points", [])
+                            for point in stroke_alpha_points:
+                                if "co" in point:
+                                    stroke_alpha = point.get("co", {}).get("Y", 1.0)
+                                    point["co"]["Y"] = 1.0 - stroke_alpha
+
+        # Released pre-4.0 projects used canvas-relative locations in every
+        # scale mode. Preserve those units without rewriting animation curves.
+        if (
+            self._version_at_most(libopenshot_version, "0.7.0")
+            and self._numeric_version(openshot_version) < (4, 0, 0)
+            and "-" not in openshot_version
+        ):
+            self._preserve_location_coordinate_system("canvas")
+
+        # OpenShot 4.0.0 used geometry-relative locations in every scale mode.
+        # Retain its saved appearance, including animation and image resizing.
+        if (
+            self._numeric_version(openshot_version) == (4, 0, 0)
+            and "-" not in openshot_version
+        ):
+            self._preserve_location_coordinate_system("geometry")
+
+        # Fix default project id (if found)
+        if self._data.get("id") == "T0":
+            self._data["id"] = self.generate_id()
+
+    @staticmethod
+    def _numeric_version(value):
+        """Return three numeric components from a release-like version."""
+        numbers = [int(part) for part in re.findall(r"\d+", str(value))[:3]]
+        return tuple((numbers + [0, 0, 0])[:3])
+
+    @classmethod
+    def _version_at_most(cls, version, cutoff):
+        """Compare the numeric components of release-like version strings."""
+        return cls._numeric_version(version) <= cls._numeric_version(cutoff)
+
+    def _preserve_location_coordinate_system(self, coordinate_system):
+        # Keep the original curves, including Bezier handles and animation of
+        # scale/margin. The renderer knows the actual image size at every frame;
+        # a load-time conversion cannot reproduce it for every reader/preview.
+        # Tag every clip so changing its scale mode still uses the convention
+        # of the release that authored these coordinates.
+        def preserve(clip):
+            if clip.get("location_coordinate_system") not in ("canvas", "geometry"):
+                clip["location_coordinate_system"] = coordinate_system
+
+        for clip in self._data.get("clips", []):
+            preserve(clip)
+        # Undoing a deletion (or redoing an insertion) can recreate a clip
+        # entirely from a saved history snapshot, including clips absent above.
+        for actions in self._data.get("history", {}).values():
+            for action in actions:
+                key = action.get("key", [])
+                if not key or key[0] != "clips" or len(key) > 2:
+                    continue
+                for field in ("value", "old_values"):
+                    value = action.get(field)
+                    snapshots = value if isinstance(value, list) else [value]
+                    for clip in snapshots:
+                        if isinstance(clip, dict) and "id" in clip:
+                            preserve(clip)
+
+    def is_keyframe_valid(self, keyframe, default_value):
+        """Check if a keyframe is not empty (i.e. > 1 point, or a non default_value)"""
+        points = keyframe.get("Points", [])
+        if not points or not isinstance(points, list):
+            return False
+        return any([
+            len(points) > 1,
+            points[0].get("co", {}).get("Y", default_value) != default_value,
+        ])
+
+    def save(self, file_path, backup_only=False):
+        """ Save project file to disk """
+        import openshot
+
+        log.info("Saving project file: %s", file_path)
+        self._restore_clip_file_references()
+
+        # Move all temp files (i.e. Blender Animations, Titles, Thumbnails, Protobuf files) to the project folder
+        if not backup_only:
+            self.move_temp_paths_to_project_folder(
+                file_path, previous_path=self.current_filepath)
+
+        # Append version info
+        self._data["version"] = {"openshot-qt": info.VERSION,
+                                 "libopenshot": openshot.OPENSHOT_VERSION_FULL}
+
+        # Try to save project settings file, will raise error on failure
+        save_data = self._data
+        if backup_only:
+            save_data = dict(self._data, runtime_assets_path=os.path.dirname(info.TITLE_PATH))
+        self.write_to_file(
+            file_path,
+            save_data,
+            path_mode="ignore" if backup_only else "relative",
+            previous_path=self.current_filepath if not backup_only else None)
+
+        if not backup_only:
+            # On success, save current filepath
+            self.current_filepath = file_path
+
+            # Update info paths to assets folders
+            info.ASSETS_PATH = get_assets_path(self.current_filepath)
+            info.THUMBNAIL_PATH = os.path.join(get_assets_path(self.current_filepath), "thumbnail")
+            info.TITLE_PATH = os.path.join(get_assets_path(self.current_filepath), "title")
+            info.BLENDER_PATH = os.path.join(get_assets_path(self.current_filepath), "blender")
+            info.PROTOBUF_DATA_PATH = os.path.join(get_assets_path(self.current_filepath), "protobuf_data")
+            info.CLIPBOARD_PATH = os.path.join(get_assets_path(self.current_filepath), "clipboard")
+            info.COMFYUI_OUTPUT_PATH = os.path.join(get_assets_path(self.current_filepath), "comfyui-output")
+            info.PROXY_PATH = os.path.join(get_assets_path(self.current_filepath), "optimized")
+
+            self.add_to_recent_files(file_path)
+            self.has_unsaved_changes = False
+
+    @staticmethod
+    def _paths_match(path_a, path_b):
+        """Return True when both paths resolve to the same local filesystem path."""
+        if not path_a or not path_b:
+            return False
+        return os.path.normcase(os.path.abspath(path_a)) == os.path.normcase(os.path.abspath(path_b))
+
+    @staticmethod
+    def _path_relative_to_root(path, root):
+        """Return a safe relative path when path is contained by root."""
+        if not path or not root:
+            return None
+        path_abs = os.path.normcase(os.path.abspath(path))
+        root_abs = os.path.normcase(os.path.abspath(root))
+        try:
+            if os.path.commonpath([path_abs, root_abs]) != root_abs:
+                return None
+        except ValueError:
+            return None
+        return os.path.relpath(os.path.abspath(path), os.path.abspath(root))
+
+    def _should_move_runtime_assets(self, source_root, default_name):
+        """Return True when a source root is the active runtime temp directory."""
+        default_root = info.get_default_path(default_name)
+        return self._paths_match(source_root, default_root)
+
+    def _sync_asset_entry(self, source_path, target_path, move=False, replace_existing=False):
+        """Copy or move a file/folder into the target asset tree."""
+        if not os.path.exists(source_path):
+            return
+
+        if os.path.isdir(source_path):
+            if os.path.exists(target_path) and not os.path.isdir(target_path):
+                os.remove(target_path)
+
+            if replace_existing and os.path.isdir(target_path):
+                shutil.rmtree(target_path, True)
+
+            if not os.path.exists(target_path):
+                parent_path = os.path.dirname(target_path)
+                if parent_path:
+                    os.makedirs(parent_path, exist_ok=True)
+                if move:
+                    shutil.move(source_path, target_path)
+                else:
+                    shutil.copytree(source_path, target_path)
+                return
+
+            for child_name in os.listdir(source_path):
+                self._sync_asset_entry(
+                    os.path.join(source_path, child_name),
+                    os.path.join(target_path, child_name),
+                    move=move,
+                    replace_existing=replace_existing,
+                )
+
+            if move and os.path.isdir(source_path) and not os.listdir(source_path):
+                os.rmdir(source_path)
+            return
+
+        if os.path.exists(target_path):
+            if replace_existing:
+                if os.path.isdir(target_path):
+                    shutil.rmtree(target_path, True)
+                else:
+                    os.remove(target_path)
+            elif move:
+                os.remove(source_path)
+                return
+            else:
+                return
+
+        parent_path = os.path.dirname(target_path)
+        if parent_path:
+            os.makedirs(parent_path, exist_ok=True)
+        if move:
+            shutil.move(source_path, target_path)
+        else:
+            shutil.copy2(source_path, target_path)
+
+    def _sync_asset_root(self, source_root, target_root, move=False, replace_existing=False):
+        """Copy or move all entries from a source asset root into a target root."""
+        if not source_root or not os.path.exists(source_root):
+            return
+        if self._paths_match(source_root, target_root):
+            return
+
+        os.makedirs(target_root, exist_ok=True)
+        for entry_name in os.listdir(source_root):
+            self._sync_asset_entry(
+                os.path.join(source_root, entry_name),
+                os.path.join(target_root, entry_name),
+                move=move,
+                replace_existing=replace_existing,
+            )
+
+    @staticmethod
+    def _copy_recording_asset(source_path, target_path):
+        """Publish a complete recording copy before relocating its reader paths."""
+        if os.path.exists(target_path) or not os.path.exists(source_path):
+            return
+        parent_path = os.path.dirname(target_path)
+        os.makedirs(parent_path, exist_ok=True)
+        descriptor, temporary_path = tempfile.mkstemp(prefix=".recording-", dir=parent_path)
+        os.close(descriptor)
+        try:
+            shutil.copy2(source_path, temporary_path)
+            os.replace(temporary_path, target_path)
+        finally:
+            if os.path.exists(temporary_path):
+                os.remove(temporary_path)
+
+    def _relocate_history_assets(self, asset_roots):
+        """Keep detached undo/redo snapshots usable after assets move on save."""
+        path_keys = {"image", "path", "resource", "protobuf_data_path", "lut_path"}
+
+        def relocate(value, key=None):
+            if isinstance(value, dict):
+                for child_key, child in value.items():
+                    value[child_key] = relocate(child, child_key)
+            elif isinstance(value, list):
+                for index, child in enumerate(value):
+                    value[index] = relocate(child)
+            elif key in path_keys and isinstance(value, str) and os.path.isabs(value):
+                for source_root, target_root in asset_roots:
+                    relative = self._path_relative_to_root(value, source_root)
+                    if relative is None:
+                        continue
+                    destination = os.path.join(target_root, relative)
+                    if self._paths_match(value, destination):
+                        return value
+                    # Deleted/undone recordings may exist only in history, so
+                    # preserve those too. Never remove the history's source.
+                    try:
+                        self._copy_recording_asset(value, destination)
+                    except OSError:
+                        log.warning("Unable to copy history asset %s", value, exc_info=True)
+                    return destination if os.path.exists(destination) else value
+            return value
+
+        # History serialized before saving is independent of the active manager.
+        for actions in self._data.get("history", {}).values():
+            for action in actions:
+                key = action.get("key", [])
+                path_key = key[-1] if key and isinstance(key[-1], str) else None
+                for field in ("value", "old_values"):
+                    if field in action:
+                        action[field] = relocate(action[field], path_key)
+
+        app = get_app()
+        if app.project is self:
+            updates = app.updates
+            actions = list(updates.actionHistory) + list(updates.redoHistory)
+            if updates.pending_action is not None:
+                actions.append(updates.pending_action)
+            for action in actions:
+                path_key = action.key[-1] if action.key and isinstance(action.key[-1], str) else None
+                action.values = relocate(action.values, path_key)
+                action.old_values = relocate(action.old_values, path_key)
+
+    def move_temp_paths_to_project_folder(self, file_path, previous_path=None):
+        """ Move all temp files (such as Thumbnails, Titles, and Blender animations) to the project asset folder. """
+        # Fail the save before relocating media or writing the project when its
+        # asset directory cannot be created (permissions, disk full, etc.).
+        asset_path = get_assets_path(file_path)
+        if not asset_path:
+            raise OSError("Unable to create project assets for %s" % file_path)
+        history_asset_roots = []
+        try:
+            # Resolve destination folders before moving assets.
+            target_thumb_path = os.path.join(asset_path, "thumbnail")
+            target_title_path = os.path.join(asset_path, "title")
+            target_blender_path = os.path.join(asset_path, "blender")
+            target_protobuf_path = os.path.join(asset_path, "protobuf_data")
+            target_clipboard_path = os.path.join(asset_path, "clipboard")
+            target_comfy_output_path = os.path.join(asset_path, "comfyui-output")
+            target_proxy_path = os.path.join(asset_path, "optimized")
+            target_recording_path = os.path.join(asset_path, "recordings")
+
+            # Create any missing target paths
+            try:
+                for target_dir in [asset_path, target_thumb_path, target_title_path,
+                                   target_blender_path, target_protobuf_path,
+                                   target_clipboard_path, target_comfy_output_path,
+                                   target_proxy_path, target_recording_path]:
+                    if not os.path.exists(target_dir):
+                        os.mkdir(target_dir)
+            except OSError:
+                pass
+
+            # Update paths (if a previous path exists)
+            #   /Project1/ to /Project2/ for example
+            if previous_path:
+                previous_asset_path = get_assets_path(previous_path)
+                info.THUMBNAIL_PATH = os.path.join(previous_asset_path, "thumbnail")
+                info.TITLE_PATH = os.path.join(previous_asset_path, "title")
+                info.BLENDER_PATH = os.path.join(previous_asset_path, "blender")
+                info.PROTOBUF_DATA_PATH = os.path.join(previous_asset_path, "protobuf_data")
+                info.CLIPBOARD_PATH = os.path.join(previous_asset_path, "clipboard")
+                info.COMFYUI_OUTPUT_PATH = os.path.join(previous_asset_path, "comfyui-output")
+                info.PROXY_PATH = os.path.join(previous_asset_path, "optimized")
+
+            # Track assets we copy/update
+            copied_assets = {
+                "blender": set(),
+                "title": set(),
+                "clipboard": set(),
+                "comfyui_output": set(),
+                "proxy": set(),
+            }
+            reader_paths = {}
+            recording_roots = [
+                (os.path.join(info.USER_PATH, "recordings"), True),
+            ]
+            active_recordings = os.path.join(info.ASSETS_PATH, "recordings")
+            if not self._paths_match(active_recordings, recording_roots[0][0]):
+                recording_roots.append((
+                    active_recordings,
+                    not previous_path and self._should_move_runtime_assets(info.ASSETS_PATH, "ASSETS_PATH"),
+                ))
+            if previous_path:
+                previous_recording_path = os.path.join(
+                    get_assets_path(previous_path), "recordings")
+                if not self._paths_match(previous_recording_path, recording_roots[0][0]):
+                    recording_roots.append((previous_recording_path, False))
+
+            history_asset_roots = [
+                (info.THUMBNAIL_PATH, target_thumb_path),
+                (info.TITLE_PATH, target_title_path),
+                (info.BLENDER_PATH, target_blender_path),
+                (info.PROTOBUF_DATA_PATH, target_protobuf_path),
+                (info.CLIPBOARD_PATH, target_clipboard_path),
+                (info.COMFYUI_OUTPUT_PATH, target_comfy_output_path),
+                (info.PROXY_PATH, target_proxy_path),
+            ] + [(root, target_recording_path) for root, _move in recording_roots]
+
+            def relocate_effect_protobuf(effect):
+                if not isinstance(effect, dict) or "protobuf_data_path" not in effect:
+                    return
+                old_protobuf_path = effect["protobuf_data_path"]
+                old_protobuf_dir, protobuf_name = os.path.split(old_protobuf_path)
+                if not protobuf_name:
+                    return
+                new_protobuf_path = os.path.join(target_protobuf_path, protobuf_name)
+                if os.path.abspath(old_protobuf_dir) != os.path.abspath(target_protobuf_path):
+                    self._sync_asset_entry(old_protobuf_path, new_protobuf_path)
+                    effect["protobuf_data_path"] = new_protobuf_path
+                    log.info("Copied protobuf %s to %s", old_protobuf_path, target_protobuf_path)
+
+            self._sync_asset_root(
+                info.THUMBNAIL_PATH,
+                target_thumb_path,
+                move=self._should_move_runtime_assets(info.THUMBNAIL_PATH, "THUMBNAIL_PATH"),
+            )
+            self._sync_asset_root(
+                info.TITLE_PATH,
+                target_title_path,
+                move=self._should_move_runtime_assets(info.TITLE_PATH, "TITLE_PATH"),
+            )
+            self._sync_asset_root(
+                info.BLENDER_PATH,
+                target_blender_path,
+                move=self._should_move_runtime_assets(info.BLENDER_PATH, "BLENDER_PATH"),
+            )
+            self._sync_asset_root(
+                info.CLIPBOARD_PATH,
+                target_clipboard_path,
+                move=self._should_move_runtime_assets(info.CLIPBOARD_PATH, "CLIPBOARD_PATH"),
+            )
+            self._sync_asset_root(
+                info.COMFYUI_OUTPUT_PATH,
+                target_comfy_output_path,
+                move=self._should_move_runtime_assets(info.COMFYUI_OUTPUT_PATH, "COMFYUI_OUTPUT_PATH"),
+                replace_existing=True,
+            )
+            self._sync_asset_root(
+                info.PROTOBUF_DATA_PATH,
+                target_protobuf_path,
+                move=self._should_move_runtime_assets(info.PROTOBUF_DATA_PATH, "PROTOBUF_DATA_PATH"),
+            )
+            self._sync_asset_root(
+                info.PROXY_PATH,
+                target_proxy_path,
+                move=self._should_move_runtime_assets(info.PROXY_PATH, "PROXY_PATH"),
+            )
+
+            # Copy any necessary assets for File records
+            for file in self._data["files"]:
+                if file.get("type") == "QtTextReader":
+                    continue
+                path = file["path"]
+                file_id = file["id"]
+
+                # For now, store thumbnail path for backwards compatibility
+                file["image"] = os.path.join(target_thumb_path, f"{file_id}.png")
+
+                # Assets which need to be copied
+                new_asset_path = None
+                for recording_root, move_recording in recording_roots:
+                    relative_recording_path = self._path_relative_to_root(path, recording_root)
+                    if relative_recording_path is None:
+                        continue
+                    recording_asset_path = os.path.join(
+                        target_recording_path, relative_recording_path)
+                    relocated_recording = not self._paths_match(path, recording_asset_path)
+                    if relocated_recording:
+                        # Keep same-filesystem moves cheap. Save As must still
+                        # copy assets owned by the previous project.
+                        if move_recording and os.path.exists(path) and not os.path.exists(recording_asset_path):
+                            os.makedirs(os.path.dirname(recording_asset_path), exist_ok=True)
+                            try:
+                                os.rename(path, recording_asset_path)
+                            except OSError as ex:
+                                if ex.errno != errno.EXDEV and getattr(ex, "winerror", None) != 32:
+                                    raise
+                        # Readers may still hold the recording open on Windows.
+                        # Copy it before attempting to remove the runtime file so
+                        # a sharing violation cannot prevent path relocation.
+                        self._copy_recording_asset(path, recording_asset_path)
+                        if move_recording and os.path.isfile(recording_asset_path) and os.path.exists(path):
+                            try:
+                                os.remove(path)
+                            except OSError as ex:
+                                if getattr(ex, "winerror", None) != 32:
+                                    raise
+                                log.debug("Retaining open runtime recording: %s", path)
+                                move_recording = False
+                    if os.path.exists(recording_asset_path):
+                        new_asset_path = recording_asset_path
+                        if relocated_recording:
+                            log.info(
+                                "%s recording %s to %s",
+                                "Moved" if move_recording else "Copied",
+                                path,
+                                recording_asset_path,
+                            )
+                    break
+
+                if info.BLENDER_PATH in path:
+                    path_abs = os.path.abspath(path)
+                    blender_root_abs = os.path.abspath(info.BLENDER_PATH)
+                    if path_abs.startswith(blender_root_abs + os.sep):
+                        relative_blender_path = os.path.relpath(path_abs, blender_root_abs)
+                        blender_root_name = relative_blender_path.split(os.sep, 1)[0]
+                        if blender_root_name and blender_root_name not in copied_assets["blender"]:
+                            source_blender_dir = os.path.join(info.BLENDER_PATH, blender_root_name)
+                            if os.path.abspath(source_blender_dir) != os.path.abspath(target_blender_path):
+                                copied_assets["blender"].add(blender_root_name)
+                                log.info("Copied dir %s to %s", blender_root_name, target_blender_path)
+                        new_asset_path = os.path.join(target_blender_path, relative_blender_path)
+
+                if info.TITLE_PATH in path:
+                    # Copy title files into assets folder
+                    old_dir, asset_name = os.path.split(path)
+                    if asset_name not in copied_assets["title"]:
+                        # Copy title into assets title folder
+                        if os.path.abspath(old_dir) != os.path.abspath(target_title_path):
+                            copied_assets["title"].add(asset_name)
+                            log.info("Copied title %s to %s", asset_name, target_title_path)
+                    new_asset_path = os.path.join(target_title_path, asset_name)
+
+                if info.CLIPBOARD_PATH in path:
+                    old_dir, asset_name = os.path.split(path)
+                    if asset_name not in copied_assets["clipboard"]:
+                        if os.path.abspath(old_dir) != os.path.abspath(target_clipboard_path):
+                            copied_assets["clipboard"].add(asset_name)
+                            log.info("Copied clipboard %s to %s", asset_name, target_clipboard_path)
+                    new_asset_path = os.path.join(target_clipboard_path, asset_name)
+
+                comfy_output_abs = os.path.abspath(info.COMFYUI_OUTPUT_PATH)
+                path_abs = os.path.abspath(path)
+                if path_abs.startswith(comfy_output_abs + os.sep):
+                    if os.path.abspath(os.path.dirname(path)) != os.path.abspath(target_comfy_output_path):
+                        relative_output_path = os.path.relpath(path_abs, comfy_output_abs)
+                        if relative_output_path not in copied_assets["comfyui_output"]:
+                            copied_assets["comfyui_output"].add(relative_output_path)
+                            log.info("Copied ComfyUI output %s to %s", relative_output_path, target_comfy_output_path)
+                        new_asset_path = os.path.join(target_comfy_output_path, relative_output_path)
+
+                # Update path in File object to new location
+                if new_asset_path:
+                    file["path"] = new_asset_path
+                    reader_paths[file_id] = new_asset_path
+                    log.info("Set file %s path to %s", file_id, new_asset_path)
+
+                proxy_reader = file.get("proxy_reader")
+                proxy_path = proxy_reader.get("path") if isinstance(proxy_reader, dict) else ""
+                if proxy_path and info.PROXY_PATH in proxy_path:
+                    proxy_dir, proxy_name = os.path.split(proxy_path)
+                    if proxy_name not in copied_assets["proxy"]:
+                        if os.path.abspath(proxy_dir) != os.path.abspath(target_proxy_path):
+                            copied_assets["proxy"].add(proxy_name)
+                            source_proxy = os.path.join(proxy_dir, proxy_name)
+                            target_proxy = os.path.join(target_proxy_path, proxy_name)
+                            if os.path.isdir(source_proxy):
+                                if os.path.exists(target_proxy):
+                                    shutil.rmtree(target_proxy, True)
+                                shutil.copytree(source_proxy, target_proxy)
+                            elif os.path.exists(source_proxy):
+                                shutil.copy2(source_proxy, target_proxy)
+                            log.info("Copied proxy %s to %s", proxy_name, target_proxy_path)
+                    proxy_reader["path"] = os.path.join(target_proxy_path, proxy_name)
+
+            # Copy top-level effect protobuf assets and update paths.
+            for effect in self._data.get("effects", []):
+                relocate_effect_protobuf(effect)
+
+            # Copy all Clip thumbnails and update reader paths
+            for clip in self._data["clips"]:
+                file_id = clip.get("file_id") or (clip.get("reader") or {}).get("id")
+                clip_id = clip["id"]
+
+                # Text rasters belong to the clip, without a shared File record.
+                # The title folder was copied above, including immutable history images.
+                if clip.get("direct_text"):
+                    path = (clip.get("reader") or {}).get("path", "")
+                    relative = self._path_relative_to_root(path, info.TITLE_PATH)
+                    if relative is not None:
+                        target = os.path.join(target_title_path, relative)
+                        if os.path.exists(target):
+                            clip["reader"]["path"] = target
+                            clip["image"] = target
+                            # Relocation bypasses updates; discard stale query paths.
+                            from classes.query import QueryObject
+                            QueryObject._cache_version = None
+
+                # For now, store thumbnail path for backwards compatibility
+                if file_id:
+                    clip["image"] = os.path.join(target_thumb_path, f"{file_id}.png")
+
+                log.info("Checking clip %s path for file %s", clip_id, file_id)
+                # Update paths to files stored in our working space or old path structure
+                # (should have already been copied during previous File stage)
+                if file_id and file_id in reader_paths:
+                    clip["reader"]["path"] = reader_paths[file_id]
+                    log.info("Updated clip %s path for file %s", clip_id, file_id)
+
+                log.info("Checking effects in clip %s path for protobuf files" % clip_id)
+                for effect in clip.get("effects", []):
+                    relocate_effect_protobuf(effect)
+
+        except Exception:
+            log.error(
+                "Error while moving temp paths to project assets folder %s",
+                asset_path, exc_info=1)
+        finally:
+            # Some assets may already have moved even if a later copy failed.
+            self._relocate_history_assets(history_asset_roots)
+
+    def add_to_recent_files(self, file_path):
+        """ Add this project to the recent files list """
+        if not file_path or file_path is info.BACKUP_FILE:
+            # Ignore backup recovery project
+            return
+
+        s = get_app().get_settings()
+        recent_projects = s.get("recent_projects")
+
+        normalized_path = normalized_local_path(file_path)
+        normalized_key = comparable_local_path(normalized_path)
+
+        # Remove existing project entries, including mixed-separator duplicates.
+        recent_projects = [
+            normalized_local_path(existing_path)
+            for existing_path in recent_projects
+            if comparable_local_path(existing_path) != normalized_key
+        ]
+
+        # Remove oldest item (if needed)
+        if len(recent_projects) >= 10:
+            del recent_projects[0]
+
+        # Append file path to end of recent files
+        recent_projects.append(normalized_path)
+
+        # Save setting
+        s.set("recent_projects", recent_projects)
+        s.save()
+
+    def _restore_clip_file_references(self):
+        """Recover orphaned media references before saving or validating paths.
+
+        Clips contain a full reader even when their Project Files entry is
+        absent. Reuse a matching file, or restore that entry from the reader,
+        so path validation can locate missing media instead of deleting a
+        playable clip just because its file ID is unknown.
+        """
+        files = self._data.setdefault("files", [])
+        by_id = {file.get("id"): file for file in files}
+        by_path = {comparable_local_path(file.get("path")): file for file in files
+                   if file.get("path")}
+        for clip in self._data.get("clips", []):
+            reader = clip.get("reader")
+            if not isinstance(reader, dict):
+                continue
+            file_id = clip.get("file_id") or reader.get("id")
+            path = reader.get("path")
+            if not file_id or file_id in by_id or not path:
+                continue
+            file = by_path.get(comparable_local_path(path))
+            if file is None:
+                file = copy.deepcopy(reader)
+                file["id"] = file_id
+                if not file.get("media_type"):
+                    file["media_type"] = get_media_type(dict(
+                        file, has_video=file.get("has_video", True),
+                        has_audio=file.get("has_audio", False)))
+                file["image"] = clip.get("image") or os.path.join(
+                    info.THUMBNAIL_PATH, "%s.png" % file_id)
+                files.append(file)
+                by_id[file_id] = file
+                by_path[comparable_local_path(path)] = file
+                log.warning("Restored missing project file %s from clip %s", file_id, clip.get("id"))
+            clip["file_id"] = file["id"]
+            reader["id"] = file["id"]
+            if file.get("image"):
+                clip["image"] = file["image"]
+
+    def check_if_paths_are_valid(self):
+        """Check if all paths are valid, and prompt to update them if needed"""
+        app = get_app()
+        settings = app.get_settings()
+        # Get translation method
+        _ = app._tr
+
+        self._restore_clip_file_references()
+
+        log.info("checking project files...")
+        prompt_state = {"cancelled": False, "missing_path_decisions": {}}
+
+        def _path_is_missing(path):
+            return bool(path) and "%" not in path and not os.path.exists(path)
+
+        def _resolve_missing_path(path):
+            """Prompt to locate a missing path, returning resolved path or empty when skipped."""
+            if not _path_is_missing(path):
+                return path, False
+
+            # Reuse prior decision for this exact missing path in this load pass.
+            # This avoids duplicate prompts when the same asset path appears in
+            # multiple places (e.g. top-level effect + clip effect).
+            missing_path_decisions = prompt_state.setdefault("missing_path_decisions", {})
+            if path in missing_path_decisions:
+                cached_path = missing_path_decisions[path]
+                if cached_path:
+                    return cached_path, False
+                return "", True
+
+            found_path, is_modified, is_skipped = find_missing_file(path, prompt_state)
+            if found_path and is_modified and not is_skipped:
+                settings.setDefaultPath(settings.actionType.IMPORT, found_path)
+                missing_path_decisions[path] = found_path
+                return found_path, False
+            if is_skipped:
+                missing_path_decisions[path] = ""
+                skip_mode = prompt_state.get("last_skip")
+                if skip_mode == "all":
+                    skip_detail = " (user selected Skip All)"
+                else:
+                    skip_detail = " (user selected Skip File)"
+                # Use warning level so this is visible even when info logs are filtered.
+                log.warning(
+                    "Missing path skipped during project load%s: %s",
+                    skip_detail,
+                    path,
+                )
+            return "", True
+
+        def _collect_effect_path_refs(effect):
+            """Collect mutable refs to path-like fields used by effects."""
+            refs = []
+            seen = set()
+
+            self._drop_obsolete_effect_resource(effect)
+
+            def _add_ref(container, key):
+                if not isinstance(container, dict):
+                    return
+                value = container.get(key, "")
+                if not isinstance(value, str) or not value:
+                    return
+                ref_id = (id(container), key)
+                if ref_id in seen:
+                    return
+                seen.add(ref_id)
+                refs.append((container, key, value))
+
+            def _walk(obj, parent_key=""):
+                if isinstance(obj, dict):
+                    for key, value in obj.items():
+                        if isinstance(value, dict):
+                            if isinstance(value.get("path"), str) and "reader" in key.lower():
+                                _add_ref(value, "path")
+                            _walk(value, key)
+                        elif isinstance(value, list):
+                            _walk(value, key)
+                        elif isinstance(value, str):
+                            if key in {"resource", "protobuf_data_path", "lut_path", "image"}:
+                                _add_ref(obj, key)
+                            elif key == "path" and "reader" in parent_key.lower():
+                                _add_ref(obj, key)
+                elif isinstance(obj, list):
+                    for item in obj:
+                        _walk(item, parent_key)
+
+            _walk(effect)
+            return refs
+
+        def _first_missing_effect_path(effect):
+            for _, _, path in _collect_effect_path_refs(effect):
+                if _path_is_missing(path):
+                    return path
+            return ""
+
+        def _repair_effect_paths(effect):
+            """Prompt for missing paths on an effect-like dict."""
+            if not isinstance(effect, dict):
+                return False
+
+            path_refs = _collect_effect_path_refs(effect)
+            missing_paths = []
+            for _, _, path in path_refs:
+                if _path_is_missing(path) and path not in missing_paths:
+                    missing_paths.append(path)
+
+            for missing_path in missing_paths:
+                resolved_path, should_remove = _resolve_missing_path(missing_path)
+                if should_remove:
+                    log.warning(
+                        "Removing effect with unresolved path. effect_id=%s missing_path=%s",
+                        effect.get("id", ""),
+                        missing_path,
+                    )
+                    return False
+                for container, key, current_path in path_refs:
+                    if current_path == missing_path:
+                        container[key] = resolved_path
+
+            return True
+
+        # Generated text sources are defined by JSON, never by filesystem paths.
+        # Upgrade earlier experimental clip-owned text and synchronize instances.
+        from classes.direct_text import (reader_data, initialize_text_curves, sync_text_fps,
+                                         upgrade_style_names, RENAMED_STYLE)
+        text_assets = {f["id"]: f for f in self._data["files"] if f.get("type") == "QtTextReader"}
+        for asset in text_assets.values():
+            if upgrade_style_names(asset) and asset.get("direct_text"):
+                for key in RENAMED_STYLE:
+                    asset.pop(key, None)
+                asset.update(reader_data(asset["direct_text"], self._data.get("fps")))
+        for clip in self._data["clips"]:
+            if not clip.get("direct_text"):
+                continue
+            upgrade_style_names(clip)
+            asset = text_assets.get(clip.get("file_id"))
+            if asset is None:
+                asset = reader_data(clip["direct_text"], self._data.get("fps"))
+                asset.update(id=self.generate_id(), name=clip.get("title") or "Text")
+                self._data["files"].append(asset)
+                text_assets[asset["id"]] = asset
+            clip["file_id"] = asset["id"]
+            clip["reader"] = copy.deepcopy(asset)
+            clip["direct_text"] = copy.deepcopy(asset["direct_text"])
+            initialize_text_curves(clip)
+        sync_text_fps(self._data)
+
+        # Loop through each files in natural-sorted filename order
+        files_sorted = sorted(
+            self._data["files"],
+            key=lambda f: os.path.basename(f.get("path", "")).lower()
+        )
+        for file in files_sorted:
+            if file.get("type") == "QtTextReader":
+                continue
+            path = file["path"]
+            parent_path, file_name_with_ext = os.path.split(path)
+
+            log.info("checking file %s", path)
+            if not os.path.exists(path) and "%" not in path:
+                # File is missing - prompt/resolve using the shared path-decision cache.
+                resolved_path, should_remove = _resolve_missing_path(path)
+                if should_remove:
+                    log.info('Removed missing file: %s', file_name_with_ext)
+                    self._data["files"].remove(file)
+                elif resolved_path and resolved_path != path:
+                    file["path"] = resolved_path
+                    settings.setDefaultPath(settings.actionType.IMPORT, resolved_path)
+                    log.info("Auto-updated missing file: %s", resolved_path)
+
+        # Build a lookup of valid file IDs after any removals/updates
+        file_paths_by_id = {file.get("id"): file.get("path") for file in self._data["files"]}
+
+        # Loop through each clip (in reverse order). Don't prompt for clips.
+        for clip in reversed(self._data["clips"]):
+            file_id = clip.get("file_id") or clip.get("reader", {}).get("id")
+            if file_id and file_id in file_paths_by_id:
+                # Keep clip reader path in sync with its File path
+                reader = clip.get("reader")
+                if not isinstance(reader, dict):
+                    reader = {}
+                    clip["reader"] = reader
+                reader["path"] = file_paths_by_id[file_id]
+
+            path = clip.get("reader", {}).get("path", "")
+
+            if file_id and file_id not in file_paths_by_id:
+                # Remove clips with invalid/missing files
+                file_name_with_ext = os.path.basename(path) if path else ""
+                log.info('Removed missing clip: %s', file_name_with_ext)
+                self._data["clips"].remove(clip)
+                continue
+
+            if path and not os.path.exists(path) and "%" not in path:
+                # Remove missing clip without prompting
+                file_name_with_ext = os.path.basename(path)
+                log.info('Removed missing clip: %s', file_name_with_ext)
+                self._data["clips"].remove(clip)
+
+        # Loop through top-level effects/transitions and prompt for missing reader/resource paths.
+        for effect in reversed(self._data["effects"]):
+            self._drop_obsolete_effect_resource(effect)
+            if not _repair_effect_paths(effect):
+                missing_path = _first_missing_effect_path(effect)
+                effect_name = os.path.basename(missing_path) if missing_path else effect.get("id", "")
+                log.info("Removed missing effect: %s", effect_name)
+                self._data["effects"].remove(effect)
+
+        # Some clip effects can also carry reader/resource paths (e.g. mask/image-driven effects).
+        for clip in self._data["clips"]:
+            effects = clip.get("effects")
+            if not isinstance(effects, list):
+                continue
+            for effect in reversed(effects):
+                self._drop_obsolete_effect_resource(effect)
+                if not _repair_effect_paths(effect):
+                    missing_path = _first_missing_effect_path(effect)
+                    effect_name = os.path.basename(missing_path) if missing_path else effect.get("id", "")
+                    log.info("Removed missing clip effect on %s: %s", clip.get("id", ""), effect_name)
+                    effects.remove(effect)
+
+    def changed(self, action):
+        """ This method is invoked by the UpdateManager each time a change happens (i.e UpdateInterface) """
+        updates = get_app().updates
+
+        def mark_dirty():
+            if not self.has_unsaved_changes:
+                log.debug(
+                    "Project dirty flag set: action=%s key=%s ignore_history=%s values=%s",
+                    action.type,
+                    action.key,
+                    updates.ignore_history,
+                    action.values,
+                )
+            self.has_unsaved_changes = True
+
+        if action.type == "insert":
+            # Insert new item
+            old_vals = self._set(action.key, action.values, add=True)
+            action.set_old_values(old_vals)  # Save previous values to reverse this action
+            mark_dirty()
+
+        elif action.type == "update":
+            # Update existing item
+            old_vals = self._set(action.key, action.values)
+            action.set_old_values(old_vals)  # Save previous values to reverse this action
+            mark_dirty()
+
+            if len(action.key) == 1 and action.key[0] in ["fps"]:
+                # FPS changed (apply profile)
+                profile_key = self._data.get("profile")
+                if updates._is_processing_history:
+                    # Undo reverses FPS before the profile-name action. Looking
+                    # up the still-new name here would overwrite the restored
+                    # FPS and make undo silently retain the new frame rate.
+                    profile = openshot.Profile()
+                    profile.SetJson(json.dumps(dict(self._data, description=profile_key)))
+                else:
+                    profile = self.get_profile(profile_key)
+                if profile:
+                    # Get current FPS (prior to changing)
+                    new_fps = self._data.get("fps")
+                    new_fps_float = float(new_fps["num"]) / float(new_fps["den"])
+                    old_fps_float = float(old_vals["num"]) / float(old_vals["den"])
+                    fps_factor = float(new_fps_float / old_fps_float)
+
+                    if fps_factor != 1.0:
+                        log.info(f"Convert {old_fps_float} FPS to {new_fps_float} FPS (profile: {profile.ShortName()})")
+                        # Snap to new FPS grid (start, end, duration)
+                        change_profile(self._data["clips"] + self._data["effects"], profile)
+
+                        # Rescale keyframes to match new FPS
+                        self.rescale_keyframes(fps_factor)
+
+                        # Text readers follow the project frame rate, like their curves
+                        from classes.direct_text import sync_text_fps
+                        from classes.query import QueryObject
+                        sync_text_fps(self._data)
+                        QueryObject._cache_version = None
+
+                    # Update size of audio-only files
+                    for file in self._data.get("files", []):
+                        # Check for audio-only files
+                        if file.get("has_audio") and not file.get("has_video"):
+                            # Audio-only file should match the current project size and FPS
+                            file["width"] = profile.info.width
+                            file["height"] = profile.info.height
+                            file["display_ratio"]["num"] = profile.info.display_ratio.num
+                            file["display_ratio"]["den"] = profile.info.display_ratio.den
+
+                            # Change all related clips
+                            for clip in self._data.get("clips", []):
+                                if clip.get("reader", {}).get("id") == file.get("id"):
+                                    clip["reader"] = file
+
+                    # Broadcast this change out
+                    get_app().updates.load(self._data, reset_history=False)
+                else:
+                    log.warning(f"No profile found for {profile_key}")
+
+        elif action.type == "delete":
+            # Delete existing item
+            old_vals = self._set(action.key, remove=True)
+            action.set_old_values(old_vals)  # Save previous values to reverse this action
+            mark_dirty()
+
+        elif action.type == "load":
+            # Don't track unsaved changes when loading a project
+            pass
+
+    # Utility methods
+    def generate_id(self, digits=10):
+        """ Generate random alphanumeric ids """
+
+        chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        id = ""
+        for i in range(digits):
+            c_index = random.randint(0, len(chars) - 1)
+            id += (chars[c_index])
+        return id
+
+    def apply_default_audio_settings(self):
+        """Apply the default preferences for sampleRate and channels to
+        the current project data, to force playback at a specific rate and for
+        a specific # of audio channels and channel layout."""
+        s = get_app().get_settings()
+
+        # Get the default audio settings for the timeline (and preview playback)
+        default_sample_rate = int(s.get("default-samplerate"))
+        default_channel_layout = s.get("default-channellayout")
+
+        channels = 2
+        channel_layout = openshot.LAYOUT_STEREO
+        if default_channel_layout == "LAYOUT_MONO":
+            channels = 1
+            channel_layout = openshot.LAYOUT_MONO
+        elif default_channel_layout == "LAYOUT_STEREO":
+            channels = 2
+            channel_layout = openshot.LAYOUT_STEREO
+        elif default_channel_layout == "LAYOUT_SURROUND":
+            channels = 3
+            channel_layout = openshot.LAYOUT_SURROUND
+        elif default_channel_layout == "LAYOUT_5POINT1":
+            channels = 6
+            channel_layout = openshot.LAYOUT_5POINT1
+        elif default_channel_layout == "LAYOUT_7POINT1":
+            channels = 8
+            channel_layout = openshot.LAYOUT_7POINT1
+
+        # Set default samplerate and channels
+        self._data["sample_rate"] = default_sample_rate
+        self._data["channels"] = channels
+        self._data["channel_layout"] = channel_layout
+
+        log.info("Apply default audio playback settings: %s, %s channels" % (self._data["sample_rate"], self._data["channels"]))

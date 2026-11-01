@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:21
+msgid "Import & Export"
+msgstr "Flytja inn og flytja út"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:23
+msgid ""
+"Video editing projects (including tracks, clips, and keyframes) can be "
+"**imported** and **exported** from OpenShot Video Editor in widely supported "
+"formats (**EDL**: Edit Decision Lists, and **XML**: Final Cut Pro format). "
+"For example, if you start editing a video in a different program (Adobe "
+"Premier, Final Cut Pro, etc...), but later need to move all your edits to "
+"OpenShot (or vice versa)."
+msgstr ""
+"Myndbandsklippingarverkefni (þar með talið rásir, klippur og lykilramma) er "
+"hægt að **flytja inn** og **flytja út** úr OpenShot Video Editor í víðtækt "
+"studdum sniðum (**EDL**: Edit Decision Lists, og **XML**: Final Cut Pro "
+"snið). Til dæmis, ef þú byrjar að klippa myndband í öðru forriti (Adobe "
+"Premiere, Final Cut Pro o.s.frv.), en þarft síðar að flytja öll klippingar "
+"þínar yfir í OpenShot (eða öfugt)."
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:29
+msgid "EDL (Edit Decision Lists)"
+msgstr "EDL (Edit Decision Lists)"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:30
+msgid ""
+"The following features are supported when importing and exporting an EDL "
+"file with OpenShot."
+msgstr ""
+"Eftirfarandi eiginleikar eru studdir við innflutning og útflutning á EDL "
+"skrá með OpenShot."
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:36
+msgid "EDL Option Name"
+msgstr "Nafn EDL valkosts"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:36 ../import_export.rst:122
+msgid "Description"
+msgstr "Lýsing"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:38
+msgid "EDL Format"
+msgstr "EDL snið"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:38
+msgid "CMX-3600 (a very widely supported variation)"
+msgstr "CMX-3600 (mjög víða studd útgáfa)"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:39
+msgid "Single Track"
+msgstr "Einföld rás"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:39
+msgid ""
+"Only a single track can be imported at a time (this is a limitation of the "
+"EDL format)"
+msgstr ""
+"Aðeins ein rás er hægt að flytja inn í einu (þetta er takmörkun á EDL "
+"sniðinu)"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:40
+msgid "Tape Name"
+msgstr "Nafn á spólu"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:40
+msgid "Only **AX** and **BL** tape names are currently supported in OpenShot"
+msgstr "Aðeins eru **AX** og **BL** spólunöfn studd í OpenShot núna"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:41
+msgid "Edits (V and A)"
+msgstr "Klippingar (V og A)"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:41
+msgid "Only edits are currently supported (transitions are not yet supported)"
+msgstr "Aðeins klippingar eru studdar núna (skipti eru ekki studd ennþá)"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:42 ../import_export.rst:127
+msgid "Opacity"
+msgstr "Ógegndræpi"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:42 ../import_export.rst:127
+msgid "Opacity keyframes are supported"
+msgstr "Lykilrammar fyrir ógegndræpi eru studdir"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:43 ../import_export.rst:128
+msgid "Audio Levels"
+msgstr "Hljóðstyrkur"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:43 ../import_export.rst:128
+msgid "Volume keyframes are supported"
+msgstr "Lykilrammar fyrir hljóðstyrk eru studdir"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:47
+msgid "Example EDL Output"
+msgstr "Dæmi um EDL úttak"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:49
+msgid ""
+"OpenShot follows the CMX 3600 layout for event lines and uses comment lines "
+"(`* ...`) to carry keyframes. CMX 3600 does not define units or "
+"interpolation in comments, so our exporter adds readable values and "
+"interpolation names, and our importer is very forgiving: it accepts units "
+"with or without spaces, mixed case, optional interpolation tokens, and "
+"ignores unknown trailing text/reel tags to maximize compatibility."
+msgstr ""
+"OpenShot fylgir CMX 3600 uppsetningu fyrir atburðalínur og notar "
+"athugasemdarlínur (`* ...`) til að bera lykilramma. CMX 3600 skilgreinir "
+"ekki einingar eða milligöngu í athugasemdum, svo útflutningsforritið okkar "
+"bætir við læsilegum gildum og nöfnum milligöngu, og innflutningsforritið "
+"okkar er mjög umburðarlynt: það samþykkir einingar með eða án bils, "
+"blandaðan stafastíl, valfrjálsa milligöngu og hunsar óþekkt eftirfarandi "
+"texta/spólu merkimiða til að hámarka samhæfni."
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:109
+msgid "XML (Final Cut Pro format)"
+msgstr "XML (Final Cut Pro snið)"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:110
+msgid ""
+"The following features are supported when importing and exporting an XML "
+"file with OpenShot. This XML format is supported in many video editors (not "
+"just Final Cut Pro). In fact, most commercial video editors have some "
+"support for importing and exporting this same XML format."
+msgstr ""
+"Eftirfarandi eiginleikar eru studdir við innflutning og útflutning á XML "
+"skrá með OpenShot. Þetta XML snið er stutt í mörgum myndbandsklippiforritum "
+"(ekki bara Final Cut Pro). Reyndar styðja flest viðskiptaforrit inn- og "
+"útflutning á þessu sama XML sniði."
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:114
+msgid ""
+"OpenShot uses the legacy Final Cut Pro XML Interchange Format (**xmeml**) "
+"from Final Cut Pro 7. Our exporter writes `<!DOCTYPE xmeml>` projects that "
+"follow the Final Cut Pro XML DTD v1.0, and is compatible with the v4 and v5 "
+"schema versions of that interchange format (the DTDs shipped with Final Cut "
+"Pro 7)."
+msgstr ""
+"OpenShot notar hið gömlu Final Cut Pro XML skiptisnið (**xmeml**) frá Final "
+"Cut Pro 7. Útflutningsforritið okkar skrifar `<!DOCTYPE xmeml>` verkefni sem "
+"fylgja Final Cut Pro XML DTD v1.0 og eru samhæf við v4 og v5 skemaútgáfur "
+"þessa skiptisniðs (DTD-skjöl sem fylgja með Final Cut Pro 7)."
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:122
+msgid "XML Option Name"
+msgstr "Nafn XML valkosts"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:124
+msgid "XML Format"
+msgstr "XML snið"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:124
+msgid ""
+"Final Cut Pro format (but most commercial video editors also support this "
+"format)"
+msgstr "Final Cut Pro snið (en flest viðskiptaforrit styðja einnig þetta snið)"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:125
+msgid "All Tracks"
+msgstr "Allar rásir"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:125
+msgid "All video and audio tracks are supported"
+msgstr "Allar myndbands- og hljóðrásir eru studdar"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:126
+msgid "Edits"
+msgstr "Klippingar"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:126
+msgid ""
+"All clips on all tracks are supported (video, image, and audio files). "
+"Transitions are not yet supported."
+msgstr ""
+"Allar klippur á öllum rásum eru studdar (myndband, myndir og hljóðskrár). "
+"Skipti eru ekki studd ennþá."
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:132
+msgid "Example XML Output (tree view)"
+msgstr "Dæmi um XML úttak (tré-sýn)"

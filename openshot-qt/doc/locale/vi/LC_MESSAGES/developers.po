@@ -1,0 +1,587 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:21
+msgid "Developers"
+msgstr "Nhà phát triển"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:23
+msgid ""
+"If you are a programmer (or want to become a programmer), and are interested"
+" in developing new features, fixing bugs, or improving the user interface "
+"for OpenShot, the following sections will explain how to get started and get"
+" involved!"
+msgstr ""
+"Nếu bạn là lập trình viên (hoặc muốn trở thành lập trình viên), và quan tâm "
+"đến việc phát triển tính năng mới, sửa lỗi, hoặc cải thiện giao diện người "
+"dùng cho OpenShot, các phần sau sẽ giải thích cách bắt đầu và tham gia!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:28
+msgid "The Big Picture"
+msgstr "Tổng quan"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:29
+msgid ""
+"OpenShot Video Editor has 3 main components, a Python & PyQt user interface "
+"(:openshot-github:`openshot-qt`), a C++ audio library (:openshot-"
+"github:`libopenshot-audio`) and a C++ video library (:openshot-"
+"github:`libopenshot`). If you are not familiar with Python, PyQt, or C++, "
+"those would be great topics to research and learn more about at this point."
+msgstr ""
+"OpenShot Video Editor có 3 thành phần chính: giao diện người dùng Python & "
+"PyQt (:openshot-github:`openshot-qt`), thư viện âm thanh C++ (:openshot-"
+"github:`libopenshot-audio`) và thư viện video C++ (:openshot-"
+"github:`libopenshot`). Nếu bạn chưa quen với Python, PyQt hoặc C++, đây sẽ "
+"là những chủ đề tuyệt vời để nghiên cứu và tìm hiểu thêm."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:35
+msgid ""
+"However, many bugs can be fixed and new features added with only Python "
+"knowledge, since the C++ components are not involved in the user interface "
+"at all. Python is an amazing language, and is super fun to learn, and is the"
+" only prerequisite skill needed to become an OpenShot developer!"
+msgstr ""
+"Tuy nhiên, nhiều lỗi có thể được sửa và tính năng mới có thể được thêm chỉ "
+"với kiến thức Python, vì các thành phần C++ không tham gia vào giao diện "
+"người dùng. Python là một ngôn ngữ tuyệt vời, rất thú vị để học, và là kỹ "
+"năng tiên quyết duy nhất để trở thành nhà phát triển OpenShot!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:42
+msgid ""
+"The instructions that follow are for Ubuntu Linux, which is the easiest "
+"environment to configure for OpenShot development. If you are using another "
+"OS, I suggest running a virtual machine with Ubuntu LTS before continuing "
+"any further."
+msgstr ""
+"Các hướng dẫn sau dành cho Ubuntu Linux, môi trường dễ cấu hình nhất để phát"
+" triển OpenShot. Nếu bạn dùng hệ điều hành khác, tôi đề nghị chạy máy ảo với"
+" Ubuntu LTS trước khi tiếp tục."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:47
+msgid ""
+"If you must use a Windows or Mac system for development, start by referring "
+"to the build notes in the ``libopenshot`` wiki. Building the library with "
+"all of its dependencies is the most challenging part of the process."
+msgstr ""
+"Nếu bạn phải dùng hệ thống Windows hoặc Mac để phát triển, hãy bắt đầu bằng "
+"cách tham khảo ghi chú xây dựng trong wiki ``libopenshot``. Việc xây dựng "
+"thư viện cùng tất cả các phụ thuộc là phần khó nhất của quá trình."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:51
+msgid ""
+":libopenshot-wiki:`Windows Build Instructions <Windows-Build-Instructions>`"
+msgstr ""
+":libopenshot-wiki:`Hướng dẫn xây dựng Windows <Windows-Build-Instructions>`"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:52
+msgid ":libopenshot-wiki:`Mac Build Instructions <Mac-Build-Instructions>`"
+msgstr ":libopenshot-wiki:`Hướng dẫn xây dựng Mac <Mac-Build-Instructions>`"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:55
+msgid "Getting the Latest Source Code"
+msgstr "Lấy mã nguồn mới nhất"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:56
+msgid ""
+"Before we can fix any bugs or add any features, we need to get the source "
+"code onto your computer."
+msgstr ""
+"Trước khi sửa lỗi hoặc thêm tính năng, chúng ta cần lấy mã nguồn về máy tính"
+" của bạn."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:59
+msgid "Use git to clone our 3 repositories:"
+msgstr "Dùng git để sao chép 3 kho lưu trữ của chúng tôi:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:68
+msgid "Configuring your Development Environment"
+msgstr "Cấu hình môi trường phát triển của bạn"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:69
+msgid ""
+"In order to actually compile or run OpenShot, we need to install some "
+"dependencies on your system. The easiest way to accomplish this is with our "
+"`Daily PPA <https://www.openshot.org/ppa/>`_. A PPA is an unofficial Ubuntu "
+"repository, which has our software packages available to download and "
+"install."
+msgstr ""
+"Để biên dịch hoặc chạy OpenShot, chúng ta cần cài đặt một số phụ thuộc trên "
+"hệ thống. Cách dễ nhất là dùng `Daily PPA <https://www.openshot.org/ppa/>`_ "
+"của chúng tôi. PPA là kho lưu trữ Ubuntu không chính thức, có các gói phần "
+"mềm của chúng tôi để tải về và cài đặt."
+
+#: ../developers.rst:110
+msgid ""
+"OpenShot supports PyQt5, PyQt6, and PySide6. libopenshot must be built "
+"against the correct Qt version for the binding you are using (Qt5: PyQt5, "
+"Qt6: PyQt6 or PySide6)."
+msgstr ""
+"OpenShot hỗ trợ PyQt5, PyQt6 và PySide6. libopenshot phải được xây dựng dựa "
+"trên phiên bản Qt chính xác cho binding mà bạn đang sử dụng (Qt5: PyQt5, "
+"Qt6: PyQt6 hoặc PySide6)."
+
+#: ../developers.rst:114
+msgid "For PySide6 (Qt6) bindings, install these packages:"
+msgstr "Đối với binding PySide6 (Qt6), hãy cài đặt các gói sau:"
+
+#: ../developers.rst:127
+msgid "For PyQt6, install these packages:"
+msgstr "Đối với PyQt6, hãy cài đặt các gói sau:"
+
+#: ../developers.rst:137
+msgid ""
+"The PyQt6 runtime must provide ``QtCore``, ``QtGui``, ``QtWidgets``, "
+"``QtSvg``, ``QtStateMachine``, and ``uic``. Some distributions split these "
+"modules into separate packages. In particular, Ubuntu 24.04's "
+"``python3-pyqt6`` package does not include ``QtStateMachine``. On that "
+"release, use the PySide6 packages above or install the complete PyQt6 wheel "
+"in a Python virtual environment:"
+msgstr ""
+"Thời gian chạy PyQt6 phải cung cấp ``QtCore``, ``QtGui``, ``QtWidgets``, "
+"``QtSvg``, ``QtStateMachine`` và ``uic``. Một số bản phân phối tách các mô-"
+"đun này thành các gói riêng biệt. Cụ thể, gói ``python3-pyqt6`` của Ubuntu "
+"24.04 không bao gồm ``QtStateMachine``. Trên phiên bản đó, hãy sử dụng các "
+"gói PySide6 ở trên hoặc cài đặt đầy đủ PyQt6 wheel trong môi trường ảo "
+"Python:"
+
+#: ../developers.rst:149
+msgid ""
+"Verify the selected Qt binding and its required modules before launching "
+"OpenShot:"
+msgstr ""
+"Xác minh binding Qt đã chọn và các mô-đun cần thiết trước khi khởi chạy "
+"OpenShot:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:157
+msgid ""
+"At this point, you should have all 3 OpenShot components source code cloned "
+"into local folders, the OpenShot daily PPA installed, and all of the "
+"required development and runtime dependencies installed. This is a great "
+"start, and we are now ready to start compiling some code!"
+msgstr ""
+"Ở bước này, bạn nên đã sao chép mã nguồn của cả 3 thành phần OpenShot vào "
+"thư mục cục bộ, cài đặt PPA hàng ngày của OpenShot, và cài đặt tất cả các "
+"phụ thuộc phát triển và chạy cần thiết. Đây là khởi đầu tuyệt vời, và bây "
+"giờ chúng ta sẵn sàng biên dịch mã!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:162
+msgid "libopenshot-audio (Build Instructions)"
+msgstr "libopenshot-audio (Hướng dẫn xây dựng)"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:163
+msgid ""
+"This library is required for audio playback and audio effects. It is based "
+"on the JUCE audio framework. Here are the commands to build it:"
+msgstr ""
+"Thư viện này cần thiết cho phát âm thanh và hiệu ứng âm thanh. Nó dựa trên "
+"framework âm thanh JUCE. Dưới đây là các lệnh để xây dựng:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:176
+msgid ""
+"Essentially, we are switching to the ``libopenshot-audio/build`` folder, "
+"then running ``cmake ..`` on the parent folder. This finds dependencies and "
+"creates all the needed Makefiles used to compile this library. Then ``make``"
+" uses those Makefiles to compile this library, and ``make install`` installs"
+" them in the location we specified. If ``CMAKE_INSTALL_PREFIX`` isn't set, "
+"the files will install to ``/usr/local/`` (by default) and ``make install`` "
+"will require administrative privileges to run."
+msgstr ""
+"Về cơ bản, chúng ta chuyển đến thư mục ``libopenshot-audio/build``, sau đó "
+"chạy ``cmake ..`` trên thư mục cha. Lệnh này tìm các phụ thuộc và tạo tất cả"
+" các Makefile cần thiết để biên dịch thư viện này. Sau đó ``make`` dùng các "
+"Makefile đó để biên dịch thư viện, và ``make install`` cài đặt chúng vào vị "
+"trí đã chỉ định. Nếu ``CMAKE_INSTALL_PREFIX`` không được đặt, các tệp sẽ "
+"được cài đặt vào ``/usr/local/`` (mặc định) và ``make install`` sẽ yêu cầu "
+"quyền quản trị để chạy."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:184
+msgid "libopenshot (Build Instructions)"
+msgstr "libopenshot (Hướng dẫn xây dựng)"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:185
+msgid ""
+"This library is required for video decoding, encoding, animation, and just "
+"about everything else. It does all the heavy lifting of video editing and "
+"video playback. Here are the commands to build it:"
+msgstr ""
+"Thư viện này cần thiết cho giải mã, mã hóa video, hoạt hình, và hầu hết mọi "
+"thứ khác. Nó thực hiện phần lớn công việc nặng của chỉnh sửa và phát video. "
+"Dưới đây là các lệnh để xây dựng:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:197
+msgid ""
+"Essentially, we are switching to the ``libopenshot/build`` folder, then "
+"running ``cmake ..`` on the parent folder. This finds dependencies and "
+"creates all the needed Makefiles used to compile this library. Then ``make``"
+" uses those Makefiles to compile this library. Because we provided the "
+"location of our compiled ``libopenshot-audio`` installation, that version of"
+" the library will be used instead of the system version (if any)."
+msgstr ""
+"Về cơ bản, chúng ta chuyển đến thư mục ``libopenshot/build``, sau đó chạy "
+"``cmake ..`` trên thư mục cha. Lệnh này tìm các phụ thuộc và tạo tất cả các "
+"Makefile cần thiết để biên dịch thư viện này. Sau đó ``make`` dùng các "
+"Makefile đó để biên dịch thư viện. Vì chúng ta đã cung cấp vị trí cài đặt "
+"``libopenshot-audio`` đã biên dịch, phiên bản thư viện đó sẽ được dùng thay "
+"cho phiên bản hệ thống (nếu có)."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:204
+msgid ""
+"We don't install our ``libopenshot`` after building, because we don't need "
+"to. For testing purposes, we can tell OpenShot to use ``libopenshot`` right "
+"from our ``build`` directory."
+msgstr ""
+"Chúng tôi không cài đặt ``libopenshot`` sau khi xây dựng vì không cần thiết."
+" Để thử nghiệm, chúng ta có thể bảo OpenShot sử dụng ``libopenshot`` trực "
+"tiếp từ thư mục ``build``."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:208
+msgid "Language Bindings"
+msgstr "Ràng buộc ngôn ngữ"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:209
+msgid ""
+"The ``libopenshot`` API is available in several languages through SWIG "
+"bindings.  Python is used by the OpenShot user interface, and we also "
+"provide Ruby and Java bindings.  Experimental support for Godot **4.4** is "
+"included for developers who wish to integrate video editing features into "
+"the Godot game engine.  All of these bindings map to the same C++ codebase "
+"so you can edit video from the environment you prefer."
+msgstr ""
+"API ``libopenshot`` có sẵn trong nhiều ngôn ngữ thông qua các ràng buộc "
+"SWIG. Python được giao diện OpenShot sử dụng, và chúng tôi cũng cung cấp "
+"ràng buộc Ruby và Java. Hỗ trợ thử nghiệm cho Godot **4.4** được bao gồm cho"
+" các nhà phát triển muốn tích hợp tính năng chỉnh sửa video vào engine game "
+"Godot. Tất cả các ràng buộc này đều ánh xạ đến cùng một mã nguồn C++ để bạn "
+"có thể chỉnh sửa video từ môi trường bạn thích."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:215
+msgid "openshot-qt (Launch Instructions)"
+msgstr "openshot-qt (Hướng dẫn khởi chạy)"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:216
+msgid ""
+"This is our main PyQt Python application. Because it is written in Python, "
+"it does not require any compiling to run. To launch OpenShot from the source"
+" code with our newly-built ``libopenshot-audio`` and ``libopenshot`` "
+"libraries, use the following commands:"
+msgstr ""
+"Đây là ứng dụng chính PyQt Python của chúng tôi. Vì được viết bằng Python, "
+"nó không cần biên dịch để chạy. Để khởi chạy OpenShot từ mã nguồn với các "
+"thư viện ``libopenshot-audio`` và ``libopenshot`` mới xây dựng, sử dụng các "
+"lệnh sau:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:227
+msgid ""
+"This should launch the OpenShot user interface. Any changes you have made to"
+" the source code files (``*.py`` Python files, ``*.ui`` PyQt UI files, "
+"etc...) will be included. This requires the ``libopenshot-audio`` and "
+"``libopenshot`` libraries, and if anything went wrong with the steps above, "
+"OpenShot will likely not launch."
+msgstr ""
+"Điều này sẽ khởi chạy giao diện người dùng OpenShot. Bất kỳ thay đổi nào bạn"
+" đã thực hiện đối với các tệp mã nguồn (tệp Python ``*.py``, tệp giao diện "
+"PyQt ``*.ui``, v.v...) sẽ được bao gồm. Điều này yêu cầu các thư viện "
+"``libopenshot-audio`` và ``libopenshot``, và nếu có điều gì đó sai sót trong"
+" các bước trên, OpenShot có thể sẽ không khởi chạy."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:233
+msgid ""
+"If OpenShot launches at this point, congratulations! You now have a working "
+"local version of OpenShot, which is running off your local source code. Try "
+"making some changes to the source code and re-launch OpenShot... you should "
+"now see your changes!"
+msgstr ""
+"Nếu OpenShot khởi chạy tại thời điểm này, chúc mừng bạn! Bây giờ bạn đã có "
+"một phiên bản OpenShot hoạt động cục bộ, chạy từ mã nguồn cục bộ của bạn. "
+"Hãy thử thực hiện một số thay đổi trong mã nguồn và khởi chạy lại "
+"OpenShot... bạn sẽ thấy các thay đổi của mình!"
+
+#: ../developers.rst:239
+msgid "Command-Line Options"
+msgstr "Tùy chọn Dòng lệnh"
+
+#: ../developers.rst:241
+msgid ""
+"These options work with the installed OpenShot application, including "
+"``openshot-qt.exe`` on Windows. When running from source, use ``python3 "
+"src/launch.py`` in place of the application name. Put options before any "
+"file paths you want OpenShot to open."
+msgstr ""
+"Các tùy chọn này hoạt động với ứng dụng OpenShot đã cài đặt, bao gồm "
+"``openshot-qt.exe`` trên Windows. Khi chạy từ mã nguồn, sử dụng ``python3 "
+"src/launch.py`` thay cho tên ứng dụng. Đặt các tùy chọn trước bất kỳ đường "
+"dẫn tệp nào bạn muốn OpenShot mở."
+
+#: ../developers.rst:246
+msgid "OpenShot command-line options"
+msgstr "Tùy chọn dòng lệnh OpenShot"
+
+#: ../developers.rst:250
+msgid "Option"
+msgstr "Tùy chọn"
+
+#: ../developers.rst:251
+msgid "What it does"
+msgstr "Chức năng"
+
+#: ../developers.rst:252
+msgid "``-h``, ``--help``"
+msgstr "``-h``, ``--help``"
+
+#: ../developers.rst:253
+msgid "Show the available options and exit."
+msgstr "Hiển thị các tùy chọn có sẵn và thoát."
+
+#: ../developers.rst:254
+msgid "``-V``, ``--version``"
+msgstr "``-V``, ``--version``"
+
+#: ../developers.rst:255
+msgid "Print the OpenShot version and exit."
+msgstr "In phiên bản OpenShot và thoát."
+
+#: ../developers.rst:256
+msgid "``-l CODE``, ``--lang CODE``"
+msgstr "``-l CODE``, ``--lang CODE``"
+
+#: ../developers.rst:257
+msgid ""
+"Use the chosen interface language for this launch. The code must be one of "
+"those shown by ``--list-languages``."
+msgstr ""
+"Sử dụng ngôn ngữ giao diện đã chọn cho lần khởi động này. Mã phải là một "
+"trong những mã được hiển thị bởi ``--list-languages``."
+
+#: ../developers.rst:259
+msgid "``--list-languages``"
+msgstr "``--list-languages``"
+
+#: ../developers.rst:260
+msgid "List supported language codes and exit."
+msgstr "Liệt kê các mã ngôn ngữ được hỗ trợ và thoát."
+
+#: ../developers.rst:261
+msgid "``--path FOLDER``"
+msgstr "``--path FOLDER``"
+
+#: ../developers.rst:262
+msgid ""
+"Add a folder to the Python module search path. You can repeat this option to"
+" add more than one folder."
+msgstr ""
+"Thêm một thư mục vào đường dẫn tìm kiếm module Python. Bạn có thể lặp lại "
+"tùy chọn này để thêm nhiều thư mục hơn."
+
+#: ../developers.rst:264
+msgid "``--feedback-preview``"
+msgstr "``--feedback-preview``"
+
+#: ../developers.rst:265
+msgid ""
+"Show the feedback notice on launch without marking the invitation as shown "
+"in saved settings."
+msgstr ""
+"Hiển thị thông báo phản hồi khi khởi động mà không đánh dấu lời mời đã hiển "
+"thị trong cài đặt đã lưu."
+
+#: ../developers.rst:267
+msgid "``--update-preview``"
+msgstr "``--update-preview``"
+
+#: ../developers.rst:268
+msgid ""
+"Show the update notice on launch. Both preview options can be used together."
+msgstr ""
+"Hiển thị thông báo cập nhật khi khởi động. Cả hai tùy chọn xem trước có thể "
+"được sử dụng cùng nhau."
+
+#: ../developers.rst:269
+msgid "``--test-models``"
+msgstr "``--test-models``"
+
+#: ../developers.rst:270
+msgid ""
+"Enable Qt's data model tester for development (requires Qt 5.11 or later)."
+msgstr ""
+"Bật trình kiểm tra mô hình dữ liệu của Qt cho phát triển (yêu cầu Qt 5.11 "
+"trở lên)."
+
+#: ../developers.rst:271
+msgid "``-d``, ``--debug``, ``--debug-ui``"
+msgstr "``-d``, ``--debug``, ``--debug-ui``"
+
+#: ../developers.rst:272
+msgid "Add detailed interface messages to its log file and the terminal."
+msgstr "Thêm các thông điệp giao diện chi tiết vào tệp nhật ký và terminal."
+
+#: ../developers.rst:273
+msgid "``--debug-engine``"
+msgstr "``--debug-engine``"
+
+#: ../developers.rst:274
+msgid ""
+"Add detailed video and audio engine messages to its log file and the "
+"terminal."
+msgstr ""
+"Thêm các thông điệp chi tiết của động cơ video và âm thanh vào tệp nhật ký "
+"và terminal."
+
+#: ../developers.rst:275
+msgid "``--log-level LEVEL``"
+msgstr "``--log-level LEVEL``"
+
+#: ../developers.rst:276
+msgid ""
+"Set the logging level for both parts of OpenShot, in files and the terminal."
+msgstr ""
+"Đặt mức ghi nhật ký cho cả hai phần của OpenShot, trong tệp và terminal."
+
+#: ../developers.rst:277
+msgid "``--log-file-level LEVEL``"
+msgstr "``--log-file-level LEVEL``"
+
+#: ../developers.rst:278
+msgid "Set the logging level in both log files."
+msgstr "Đặt mức ghi nhật ký trong cả hai tệp nhật ký."
+
+#: ../developers.rst:279
+msgid "``--log-console-level LEVEL``"
+msgstr "``--log-console-level LEVEL``"
+
+#: ../developers.rst:280
+msgid "Set the logging level in the terminal for both parts of OpenShot."
+msgstr "Đặt mức ghi nhật ký trong terminal cho cả hai phần của OpenShot."
+
+#: ../developers.rst:281
+msgid "``--debug-file``"
+msgstr "``--debug-file``"
+
+#: ../developers.rst:282
+msgid ""
+"Add detailed interface messages to its log file only. This older option is "
+"accepted but is not shown by ``--help``."
+msgstr ""
+"Chỉ thêm các thông điệp giao diện chi tiết vào tệp nhật ký của nó. Tùy chọn "
+"cũ này được chấp nhận nhưng không được hiển thị bởi ``--help``."
+
+#: ../developers.rst:284
+msgid "``--debug-console``"
+msgstr "``--debug-console``"
+
+#: ../developers.rst:285
+msgid ""
+"Add detailed interface messages to the terminal only. This older option is "
+"accepted but is not shown by ``--help``."
+msgstr ""
+"Chỉ thêm các thông điệp giao diện chi tiết vào terminal. Tùy chọn cũ này "
+"được chấp nhận nhưng không được hiển thị bởi ``--help``."
+
+#: ../developers.rst:287
+msgid "``PROJECT.osp`` or media file paths"
+msgstr "``PROJECT.osp`` hoặc đường dẫn tệp phương tiện"
+
+#: ../developers.rst:288
+msgid ""
+"Open a project when the first file path ends in ``.osp``. Otherwise, start a"
+" new project and import the supplied media files."
+msgstr ""
+"Mở một dự án khi đường dẫn tệp đầu tiên kết thúc bằng ``.osp``. Nếu không, "
+"bắt đầu một dự án mới và nhập các tệp phương tiện được cung cấp."
+
+#: ../developers.rst:291
+msgid ""
+"For ``LEVEL``, use ``debug``, ``info``, ``warning``, ``error``, "
+"``critical``, or ``off``. See :ref:`logging_ref` for log file locations, "
+"examples, and more about choosing logging options."
+msgstr ""
+"Đối với ``LEVEL``, sử dụng ``debug``, ``info``, ``warning``, ``error``, "
+"``critical``, hoặc ``off``. Xem :ref:`logging_ref` để biết vị trí tệp nhật "
+"ký, ví dụ và thêm về cách chọn tùy chọn ghi nhật ký."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:296
+msgid "GitHub Issues"
+msgstr "Các Vấn Đề trên GitHub"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:297
+msgid ""
+"Now that you have successfully compiled and launched OpenShot Video Editor "
+"from source code, be sure to check out our list of bug reports on GitHub: "
+"`OpenShot Issues`_. Also, you are encouraged to fill out our quick "
+"`contributor form <https://forms.gle/CRqkS5tLMJE1V36V8>`_ and introduce "
+"yourself!"
+msgstr ""
+"Bây giờ bạn đã biên dịch và khởi chạy thành công OpenShot Video Editor từ mã"
+" nguồn, hãy chắc chắn xem danh sách báo cáo lỗi của chúng tôi trên GitHub: "
+"`OpenShot Issues`_. Ngoài ra, bạn được khuyến khích điền vào `biểu mẫu đóng "
+"góp <https://forms.gle/CRqkS5tLMJE1V36V8>`_ nhanh của chúng tôi và giới "
+"thiệu về bản thân!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:303
+msgid "Share your Changes"
+msgstr "Chia sẻ Thay đổi của bạn"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:304
+msgid ""
+"Once you have fixed a bug or added an amazing new feature, be sure to share "
+"it with the OpenShot team. Ideally, we can merge this into our main source "
+"code branch. The easiest way to share your changes is by creating a fork of "
+"our repo, pushing your changes back to GitHub, and creating a `Pull "
+"Request`_. A Pull Request lets the OpenShot team know you have changes ready"
+" to be merged. Then we can review things, give feedback, and hopefully merge"
+" your changes into the main branch."
+msgstr ""
+"Khi bạn đã sửa một lỗi hoặc thêm một tính năng mới tuyệt vời, hãy chắc chắn "
+"chia sẻ nó với nhóm OpenShot. Lý tưởng nhất, chúng tôi có thể hợp nhất nó "
+"vào nhánh mã nguồn chính của chúng tôi. Cách dễ nhất để chia sẻ thay đổi của"
+" bạn là tạo một bản fork của kho lưu trữ, đẩy các thay đổi của bạn lên "
+"GitHub và tạo một `Pull Request`_. Pull Request cho nhóm OpenShot biết bạn "
+"đã sẵn sàng để hợp nhất các thay đổi. Sau đó, chúng tôi có thể xem xét, đưa "
+"ra phản hồi và hy vọng hợp nhất các thay đổi của bạn vào nhánh chính."

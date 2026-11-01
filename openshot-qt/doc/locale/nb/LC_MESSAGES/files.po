@@ -1,0 +1,994 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:23
+msgid "Files"
+msgstr "Filer"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:25
+msgid ""
+"To create a video, we need to make media files available to our project by "
+"importing files into OpenShot. Most media file types are recognized, such as "
+"videos, images, and audio files. Files can be viewed and managed in the "
+"**Project Files** panel."
+msgstr ""
+"For å lage en video må vi gjøre mediefiler tilgjengelige for prosjektet vårt "
+"ved å importere filer til OpenShot. De fleste mediefiltyper gjenkjennes, som "
+"videoer, bilder og lydfiler. Filer kan vises og administreres i "
+"**Prosjektfiler**-panelet."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:29
+msgid ""
+"Note that imported files are not copied anywhere, they remain in the "
+"physical location they were before and are simply being made available to "
+"your video project. So, they must not be deleted, renamed, or moved after "
+"adding them to your project. The \"Show All\", \"Video\", \"Audio\", "
+"\"Image\" filters above the files allows you to only see the file types you "
+"are interested in. You can also toggle the view between :guilabel:`details` "
+"and :guilabel:`thumbnails` view of your files."
+msgstr ""
+"Merk at importerte filer ikke kopieres noe sted, de forblir på den fysiske "
+"plasseringen de var før og gjøres bare tilgjengelige for videoprosjektet "
+"ditt. Derfor må de ikke slettes, gis nytt navn eller flyttes etter at de er "
+"lagt til i prosjektet ditt. Filtrene \"Vis alle\", \"Video\", \"Lyd\", "
+"\"Bilde\" over filene lar deg bare se filtypene du er interessert i. Du kan "
+"også bytte visning mellom :guilabel:`detaljer` og :guilabel:`miniatyrbilder` "
+"for filene dine."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:39
+msgid "Import Files"
+msgstr "Importer filer"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:40
+msgid ""
+"There are many different ways to import media files into an OpenShot "
+"project. When a file is imported successfully, it will be automatically "
+"selected and scrolled into view (in the **Project Files** panel). Also, if "
+"the **Project Files** panel is not currently visible, OpenShot will "
+"automatically display the panel."
+msgstr ""
+"Det finnes mange måter å importere mediefiler til et OpenShot-prosjekt på. "
+"Når en fil importeres vellykket, blir den automatisk valgt og rullet inn i "
+"visningen (i **Prosjektfiler**-panelet). Hvis **Prosjektfiler**-panelet ikke "
+"er synlig, vil OpenShot automatisk vise panelet."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:48
+msgid "Import File Method"
+msgstr "Metode for filimport"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:48 ../files.rst:85 ../files.rst:142 ../files.rst:182
+#: ../files.rst:216 ../files.rst:240
+msgid "Description"
+msgstr "Beskrivelse"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:50
+msgid "Drag and Drop"
+msgstr "Dra og slipp"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:50
+msgid ""
+"Drag and drop the files from your file manager (file explorer, finder, "
+"etc...)."
+msgstr ""
+"Dra og slipp filene fra filbehandleren din (filutforsker, Finder, osv...)."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:51
+msgid "Context menu (`File Menu`_)"
+msgstr "Kontekstmeny (`Fil-meny`_)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:51
+msgid ""
+"Right click anywhere in the **Project Files** panel and choose :guilabel:"
+"`Import Files`."
+msgstr ""
+"Høyreklikk hvor som helst i **Prosjektfiler**-panelet og velg :guilabel:"
+"`Importer filer`."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:52
+msgid "Main Menu"
+msgstr "Hovedmeny"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:52
+msgid "In the main menu choose: :guilabel:`File\\→Import Files`."
+msgstr "I hovedmenyen velg: :guilabel:`Fil\\→Importer filer`."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:53
+msgid "Toolbar button"
+msgstr "Verktøylinjeknapp"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:53
+msgid "Click the :guilabel:`+` toolbar button in the main toolbar."
+msgstr "Klikk på :guilabel:`+`-knappen i hovedverktøylinjen."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:54
+msgid "Keyboard shortcut"
+msgstr "Tastatursnarvei"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:54
+msgid "Press :kbd:`Ctrl-F` (:kbd:`Cmd-F` on Mac)."
+msgstr "Trykk :kbd:`Ctrl-F` (:kbd:`Cmd-F` på Mac)."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:55 ../files.rst:63
+msgid "Paste from Clipboard"
+msgstr "Lim inn fra utklippstavle"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:55
+msgid ""
+"Press :kbd:`Ctrl-V` (:kbd:`Cmd-V` on Mac) to paste copied files from your "
+"clipboard. See :ref:`paste_from_clipboard_ref`."
+msgstr ""
+"Trykk :kbd:`Ctrl-V` (:kbd:`Cmd-V` på Mac) for å lime inn kopierte filer fra "
+"utklippstavlen. Se :ref:`paste_from_clipboard_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:64
+msgid ""
+"You can paste files and clipboard media straight into OpenShot. If you "
+"copied one or more files in your file manager, switch to OpenShot and press :"
+"kbd:`Ctrl-V` in the **Project Files** panel to add them, just like importing."
+msgstr ""
+"Du kan lime inn filer og medieinnhold fra utklippstavlen direkte i OpenShot. "
+"Hvis du kopierte én eller flere filer i filbehandleren, bytt til OpenShot og "
+"trykk :kbd:`Ctrl-V` i **Prosjektfiler**-panelet for å legge dem til, akkurat "
+"som ved import."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:67
+msgid ""
+"If you copied media **data** (for example, **Copy Image** in a web browser, "
+"a pasted frame from another app, or other image/audio/video clipboard data), "
+"press :kbd:`Ctrl-V` in OpenShot to create a file for that clipboard content. "
+"OpenShot saves a copy in a temporary folder: ``.openshot_qt/clipboard/``. "
+"The new file is then added to your project and appears in **Project Files**."
+msgstr ""
+"Hvis du kopierte medie**data** (for eksempel **Kopier bilde** i en "
+"nettleser, et limt bilde fra en annen app, eller annen bilde-/lyd-/video-"
+"data fra utklippstavlen), trykk :kbd:`Ctrl-V` i OpenShot for å opprette en "
+"fil for det innholdet. OpenShot lagrer en kopi i en midlertidig mappe: ``."
+"openshot_qt/clipboard/``. Den nye filen legges deretter til i prosjektet "
+"ditt og vises i **Prosjektfiler**."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:74
+msgid "File Menu"
+msgstr "Filmeny"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:75
+msgid ""
+"To view the file menu, right click on a file (in the **Project Files** "
+"panel). Here are the actions you can use from the file menu."
+msgstr ""
+"For å se filmenyen, høyreklikk på en fil (i **Prosjektfiler**-panelet). Her "
+"er handlingene du kan bruke fra filmenyen."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:84
+msgid "File Context Option"
+msgstr "Filkontekstvalg"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:86
+msgid "Import Files..."
+msgstr "Importer filer..."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:87
+msgid "Import files into your project"
+msgstr "Importer filer til prosjektet ditt"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:88
+msgid "Create with AI / Enhance with AI (Optional)"
+msgstr "Opprett med AI / Forbedre med AI (valgfritt)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:89
+msgid ""
+"AI menu actions for generating or enhancing media files. These options are "
+"shown only when AI is enabled and the selected file type supports the "
+"workflow. See :ref:`ai_ref`."
+msgstr ""
+"AI-menyhandlinger for å generere eller forbedre mediefiler. Disse "
+"alternativene vises bare når AI er aktivert og den valgte filtypen støtter "
+"arbeidsflyten. Se :ref:`ai_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:90
+msgid "Details View"
+msgstr "Detaljvisning"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:91
+msgid "Switch the Project Files panel to details view"
+msgstr "Bytt Prosjektfiler-panelet til detaljvisning"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:92 ../files.rst:114
+msgid "Preview File"
+msgstr "Forhåndsvis fil"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:93
+msgid "Preview a media file"
+msgstr "Forhåndsvis en mediefil"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:94 ../files.rst:170
+msgid "Split File"
+msgstr "Del fil"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:95
+msgid ""
+"Split a file into many smaller files. The new trimmed files appear in the "
+"Project Files list."
+msgstr ""
+"Del en fil i mange mindre filer. De nye trimmede filene vises i listen over "
+"prosjektfiler."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:96 ../files.rst:193
+msgid "Export Files"
+msgstr "Eksporter filer"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:97
+msgid "Export selected files (and split segments) to a destination folder"
+msgstr "Eksporter valgte filer (og delte segmenter) til en destinasjonsmappe"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:98 ../files.rst:205
+msgid "Add to Timeline"
+msgstr "Legg til i tidslinje"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:99
+msgid ""
+"Add many files to the timeline in one step, including transitions or "
+"alternating tracks."
+msgstr ""
+"Legg til mange filer i tidslinjen i ett trinn, inkludert overganger eller "
+"vekslende spor."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:100
+msgid "Choose Profile"
+msgstr "Velg profil"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:101
+msgid ""
+"Change the current project profile to match the selected file. If the file's "
+"profile does not match a known profile, it will give you the option to "
+"create a custom profile."
+msgstr ""
+"Endre gjeldende prosjektprofil for å matche den valgte filen. Hvis filens "
+"profil ikke samsvarer med en kjent profil, får du mulighet til å lage en "
+"egendefinert profil."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:102 ../files.rst:242
+msgid "File Properties"
+msgstr "Filegenskaper"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:103
+msgid "View the properties of a file, such as frame rate, size, etc..."
+msgstr "Se egenskapene til en fil, som bildefrekvens, størrelse osv..."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:104 ../files.rst:125
+msgid "Optimize"
+msgstr "Optimaliser"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:105
+msgid ""
+"Create, link, unlink, or delete optimized preview files for the selected "
+"video files."
+msgstr ""
+"Opprett, koble til, koble fra eller slett optimaliserte "
+"forhåndsvisningsfiler for de valgte videofilene."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:106 ../files.rst:250
+msgid "Remove from Project"
+msgstr "Fjern fra prosjekt"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:107
+msgid "Remove a file from the project"
+msgstr "Fjern en fil fra prosjektet"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:108
+msgid "Edit Title"
+msgstr "Rediger tittel"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:109
+msgid "Edit an existing title SVG file (shown when an SVG title is selected)"
+msgstr ""
+"Rediger en eksisterende tittel-SVG-fil (vises når en SVG-tittel er valgt)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:110
+msgid "Duplicate Title"
+msgstr "Dupliser tittel"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:111
+#, fuzzy
+msgid ""
+"Make a copy, and then edit the copied title SVG file (shown when an SVG "
+"title is selected)"
+msgstr "Lag en kopi, og rediger deretter den kopierte tittel-SVG-filen"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:115
+msgid ""
+"The :guilabel:`Preview File` action opens the Preview dialog for the "
+"selected file from :guilabel:`Project Files`. Simply double check a file to "
+"open this dialog."
+msgstr ""
+"Handling :guilabel:`Forhåndsvis fil` åpner forhåndsvisningsdialogen for den "
+"valgte filen fra :guilabel:`Prosjektfiler`. Bare dobbeltklikk en fil for å "
+"åpne denne dialogen."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:118
+msgid "Playback starts automatically."
+msgstr "Avspilling starter automatisk."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:119
+msgid "Loop is enabled by default."
+msgstr "Løkke er aktivert som standard."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:120
+msgid "Press :kbd:`Space` to toggle play/pause."
+msgstr "Trykk :kbd:`Mellomrom` for å veksle mellom spill av/pause."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:121
+msgid "Use the mouse scroll wheel to zoom in/out."
+msgstr "Bruk mushjulet for å zoome inn/ut."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:122
+msgid ""
+"A :guilabel:`Reset Zoom` button appears when zoom is not 100%, and resets to "
+"100%."
+msgstr ""
+"En :guilabel:`Tilbakestill zoom`-knapp vises når zoom ikke er 100 %, og "
+"tilbakestiller til 100 %."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:126
+msgid ""
+"Optimized preview files are lower-resolution copies of your source video "
+"files (sometimes referred to as proxy files), used to improve editing "
+"responsiveness without changing the original media. They are especially "
+"helpful with large formats such as 4K, high frame rate, or high bitrate "
+"footage."
+msgstr ""
+"Optimaliserte forhåndsvisningsfiler er kopier med lavere oppløsning av dine "
+"originale videofiler (noen ganger kalt proxy-filer), brukt for å forbedre "
+"redigeringsrespons uten å endre det originale mediet. De er spesielt nyttige "
+"for store formater som 4K, høy bildefrekvens eller høy bithastighet."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:130
+msgid ""
+"For video files, the file context menu includes an :guilabel:`Optimize` "
+"submenu. This feature creates or links smaller preview copies of your source "
+"clips, which can improve playback and scrubbing on slower systems or with "
+"high-resolution footage. Optimizing also pre-loads thumbnails to further "
+"improve the editing smoothness when zooming into the timeline."
+msgstr ""
+"For videofiler inkluderer filens kontekstmeny en :guilabel:`Optimaliser` "
+"undermeny. Denne funksjonen oppretter eller kobler til mindre "
+"forhåndsvisningskopier av dine originale klipp, noe som kan forbedre "
+"avspilling og skrubbing på tregere systemer eller med høyoppløselig "
+"materiale. Optimalisering forbelaster også miniatyrbilder for å ytterligere "
+"forbedre redigeringsflyten når du zoomer inn i tidslinjen."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:135
+msgid "The :guilabel:`Optimize` submenu contains these actions:"
+msgstr "Undermenyen :guilabel:`Optimaliser` inneholder disse handlingene:"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:141
+msgid "Action"
+msgstr "Handling"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:143
+msgid "Optimize Video"
+msgstr "Optimaliser video"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:144
+msgid ""
+"Create an optimized preview file for each selected video file. OpenShot "
+"stores these files in the project's ``optimized`` assets folder."
+msgstr ""
+"Opprett en optimalisert forhåndsvisningsfil for hver valgte videofil. "
+"OpenShot lagrer disse filene i prosjektets ``optimized`` ressursmappe."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:145
+msgid "Link to Existing..."
+msgstr "Koble til eksisterende..."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:146
+msgid ""
+"Choose a folder containing already-created optimized files and link the best "
+"matching files to the selected source clips. This supports common proxy "
+"naming styles, known proxy suffixes, file ID suffixes, and extension changes."
+msgstr ""
+"Velg en mappe som inneholder allerede opprettede optimaliserte filer, og "
+"koble de best matchende filene til de valgte kildeklippene. Dette støtter "
+"vanlige proxy-navnestiler, kjente proxy-endelser, fil-ID-endelser og "
+"endringer i filtype."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:147
+msgid "Unlink"
+msgstr "Koble fra"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:148
+msgid ""
+"Remove the optimized preview link from the selected file without deleting "
+"the optimized file from disk."
+msgstr ""
+"Fjern den optimaliserte forhåndsvisningskoblingen fra den valgte filen uten "
+"å slette den optimaliserte filen fra disken."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:149
+msgid "Delete & Unlink"
+msgstr "Slett og koble fra"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:150
+msgid ""
+"Delete the linked optimized file from disk, then remove the link from the "
+"selected file."
+msgstr ""
+"Slett den tilknyttede optimaliserte filen fra disken, og fjern deretter "
+"koblingen fra den valgte filen."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:152
+msgid ""
+"When optimization is in progress, the submenu changes to a single :guilabel:"
+"`Cancel` action for the selected file(s). Optimized preview files are used "
+"only for editing and preview playback. Your final export still uses the "
+"original source files."
+msgstr ""
+"Når optimalisering pågår, endres undermenyen til en enkelt :guilabel:"
+"`Avbryt`-handling for den valgte filen eller filene. Optimaliserte "
+"forhåndsvisningsfiler brukes kun til redigering og forhåndsvisning. Din "
+"endelige eksport bruker fortsatt de originale kildefilene."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:155
+msgid ""
+"When you use :guilabel:`Link to Existing...`, OpenShot tries to match each "
+"selected source clip to an existing optimized file in a safe order. It first "
+"looks for the same base filename with a different video extension, then for "
+"common proxy-style names such as ``_proxy``, ``_preview``, ``_optimized``, "
+"``_lowres``, resolution tags such as ``_720p`` or ``_1080p``, and camera/"
+"editor-style variants such as ``_p``. It also supports names that add the "
+"OpenShot file ID after a known proxy suffix, such as ``clip001_proxy_F1."
+"mp4``, and it can still match files named only by file ID, such as ``F1."
+"mp4``."
+msgstr ""
+"Når du bruker :guilabel:`Koble til eksisterende...`, prøver OpenShot å "
+"matche hvert valgt kildeklipp med en eksisterende optimalisert fil i en "
+"sikker rekkefølge. Den søker først etter samme grunnleggende filnavn med en "
+"annen videoendelse, deretter etter vanlige proxy-navn som ``_proxy``, "
+"``_preview``, ``_optimized``, ``_lowres``, oppløsningsmerker som ``_720p`` "
+"eller ``_1080p``, og kamera-/redigeringsvarianter som ``_p``. Den støtter "
+"også navn som legger til OpenShot fil-ID etter en kjent proxy-endelse, som "
+"``clip001_proxy_F1.mp4``, og kan fortsatt matche filer som kun er navngitt "
+"med fil-ID, som ``F1.mp4``."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:162
+msgid ""
+"Best practice when bringing your own optimized files is to keep the same "
+"base filename as the source clip and add a clear proxy-style suffix, for "
+"example ``clip001_proxy.mp4`` or ``clip001_proxy.mov``. If you need to avoid "
+"filename collisions, append the OpenShot file ID after the proxy suffix, for "
+"example ``clip001_proxy_F1.mp4``. Avoid unrelated suffixes such as "
+"``_final`` or ``_reviewcopy``, because OpenShot does not treat those as safe "
+"proxy naming patterns."
+msgstr ""
+"Beste praksis når du bruker egne optimaliserte filer er å beholde samme "
+"grunnleggende filnavn som kildeklippet og legge til en tydelig proxy-"
+"lignende endelse, for eksempel ``clip001_proxy.mp4`` eller ``clip001_proxy."
+"mov``. Hvis du må unngå filnavnkollisjoner, legg til OpenShot fil-ID etter "
+"proxy-endelsen, for eksempel ``clip001_proxy_F1.mp4``. Unngå urelaterte "
+"endelser som ``_final`` eller ``_reviewcopy``, fordi OpenShot ikke anser "
+"disse som sikre proxy-navnemønstre."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:171
+msgid ""
+"If you need to cut a large video file into many smaller files before "
+"editing, the **Split File** dialog is built exactly for this purpose. Right "
+"click on a file, and choose :guilabel:`Split File`. Use this dialog to "
+"quickly separate a large file into many smaller segments. For each segment, "
+"you can select the starting and ending frame, and a title. Each segment "
+"appears as a new file in the Project Files dialog."
+msgstr ""
+"Hvis du trenger å kutte en stor videofil i mange mindre filer før "
+"redigering, er **Del fil**-dialogen laget nettopp for dette formålet. "
+"Høyreklikk på en fil, og velg :guilabel:`Del fil`. Bruk denne dialogen for "
+"raskt å dele en stor fil i mange mindre segmenter. For hvert segment kan du "
+"velge start- og sluttbilde, samt en tittel. Hvert segment vises som en ny "
+"fil i dialogen for prosjektfiler."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:182 ../files.rst:216 ../files.rst:240
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:182 ../files.rst:216 ../files.rst:240
+msgid "Name"
+msgstr "Navn"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:184 ../files.rst:218 ../files.rst:242
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:184
+msgid "Start of File"
+msgstr "Start av fil"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:184
+msgid "Choose the starting frame of your file by clicking this button"
+msgstr "Velg startbildet i filen ved å klikke på denne knappen"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:185 ../files.rst:219 ../files.rst:243
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:185
+msgid "End of File"
+msgstr "Slutt på fil"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:185
+msgid "Choose the ending frame of your file by clicking this button"
+msgstr "Velg sluttbildet for filen din ved å klikke på denne knappen"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:186 ../files.rst:220
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:186
+msgid "Name of File"
+msgstr "Filnavn"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:186
+msgid "Enter an optional name"
+msgstr "Skriv inn et valgfritt navn"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:187 ../files.rst:221
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:187
+msgid "Create Button"
+msgstr "Opprett-knapp"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:187
+msgid ""
+"Create the file (which resets this dialog, so you can repeat these steps for "
+"each segment)"
+msgstr ""
+"Opprett filen (som tilbakestiller denne dialogen, slik at du kan gjenta "
+"disse trinnene for hvert segment)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:190
+msgid ""
+"Please refer to the section :ref:`clips_cutting_slicing_ref` for more ways "
+"to cut and slice clips directly in the timeline."
+msgstr ""
+"Se seksjonen :ref:`clips_cutting_slicing_ref` for flere måter å klippe og "
+"dele klipp direkte i tidslinjen."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:194
+msgid ""
+"If you want your split file segments available outside of your OpenShot "
+"project, or want to copy all your video assets to one place, you can do this "
+"with the **Export Files** dialog. Simply :kbd:`Ctrl+Click` to select all the "
+"files you like, then :kbd:`Right Click` and choose :guilabel:`Export Files`. "
+"In the dialog that appears, choose a destination folder, and click :guilabel:"
+"`Export`."
+msgstr ""
+"Hvis du vil ha tilgang til de delte filsegmentene utenfor OpenShot-"
+"prosjektet ditt, eller ønsker å kopiere alle videoressursene dine til ett "
+"sted, kan du gjøre dette med dialogen **Eksporter filer**. Bare :kbd:"
+"`Ctrl+klikk` for å velge alle filene du ønsker, deretter :kbd:`høyreklikk` "
+"og velg :guilabel:`Eksporter filer`. I dialogen som vises, velg en "
+"destinasjonsmappe og klikk :guilabel:`Eksporter`."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:199
+msgid ""
+"NOTE: This will export each file or file segment using its **original video "
+"profile** (width, height, framerate, aspect ratio, etc...). It also supports "
+"any :ref:`split_clip_ref` (described above). For example, if you have split "
+"a long video file into many different segments (and named them), you can now "
+"export all the segments as separate video files (using the original file's "
+"video profile)."
+msgstr ""
+"MERK: Dette vil eksportere hver fil eller filsegment med sitt **opprinnelige "
+"videoprofil** (bredde, høyde, bildefrekvens, sideforhold osv.). Det støtter "
+"også alle :ref:`split_clip_ref` (beskrevet ovenfor). For eksempel, hvis du "
+"har delt en lang videofil i mange forskjellige segmenter (og gitt dem navn), "
+"kan du nå eksportere alle segmentene som separate videofiler (ved bruk av "
+"den opprinnelige filens videoprofil)."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:206
+msgid ""
+"In certain cases, you might need to add many files to the timeline at the "
+"same time. For example, a photo slideshow, or a large number of short video "
+"clips. The **Add to Timeline** dialog can automate this task for you. First, "
+"select all files you need to add, right click, and choose Add to Timeline."
+msgstr ""
+"I enkelte tilfeller kan det være nødvendig å legge til mange filer i "
+"tidslinjen samtidig. For eksempel et bildefremvisning eller et stort antall "
+"korte videoklipp. Dialogen **Legg til i tidslinje** kan automatisere denne "
+"oppgaven for deg. Først velger du alle filene du vil legge til, høyreklikker "
+"og velger Legg til i tidslinje."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:218
+msgid "Selected Files"
+msgstr "Valgte filer"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:218
+msgid "The list of selected files that need to be added to the timeline"
+msgstr "Listen over valgte filer som må legges til i tidslinjen"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:219
+msgid "Order of Files"
+msgstr "Filrekkefølge"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:219
+msgid ""
+"Use these buttons to reorder the list of files (move up, move down, "
+"randomize, remove)"
+msgstr ""
+"Bruk disse knappene for å endre rekkefølgen på filene (flytt opp, flytt ned, "
+"tilfeldig, fjern)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:220
+msgid "Timeline Position"
+msgstr "Tidslinjeposisjon"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:220
+msgid ""
+"Choose the starting position and track where these files need to be inserted "
+"on the timeline"
+msgstr ""
+"Velg startposisjon og spor hvor disse filene skal settes inn i tidslinjen"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:221
+msgid "Fade Options"
+msgstr "Fade-alternativer"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:221
+msgid ""
+"Fade in, fade out, both, or none (only affects the image, and not audio)"
+msgstr ""
+"Fade inn, fade ut, begge deler, eller ingen (påvirker kun bildet, ikke lyden)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:222
+msgid "5"
+msgstr "5"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:222
+msgid "Zoom Options"
+msgstr "Zoom-alternativer"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:222
+msgid "Zoom in, zoom out, or none"
+msgstr "Zoom inn, zoom ut, eller ingen"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:223
+msgid "6"
+msgstr "6"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:223
+msgid "Transitions"
+msgstr "Overganger"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:223
+msgid ""
+"Choose a specific transition to use between files, random, or none (only "
+"affects the image, and not the audio)"
+msgstr ""
+"Velg en spesifikk overgang mellom filer, tilfeldig, eller ingen (påvirker "
+"kun bildet, ikke lyden)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:229
+msgid "Properties"
+msgstr "Egenskaper"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:230
+msgid ""
+"To view the properties of any imported file in your video project, right "
+"click on the file, and choose **File Properties**. This will launch the file "
+"properties dialog, which displays information about your media file. For "
+"certain types of images (i.e. image sequences), you can adjust the frame "
+"rate on this dialog also."
+msgstr ""
+"For å se egenskapene til en importert fil i videoprosjektet ditt, høyreklikk "
+"på filen og velg **Fil-egenskaper**. Dette åpner dialogen for filegenskaper, "
+"som viser informasjon om mediefilen din. For visse typer bilder (f.eks. "
+"bildesekvenser) kan du også justere bildefrekvensen i denne dialogen."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:242
+msgid ""
+"Select an image sequence in the **Project Files** panel, right click and "
+"choose **File Properties**"
+msgstr ""
+"Velg en bildesekvens i panelet **Prosjektfiler**, høyreklikk og velg **Fil-"
+"egenskaper**"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:243
+msgid "Frame Rate"
+msgstr "Bildefrekvens"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:243
+msgid ""
+"For image sequences, you can also adjust the frame rate of the animation"
+msgstr "For bildesekvenser kan du også justere animasjonens bildefrekvens"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:252
+msgid ""
+"This will remove a file from the project. It will not delete the underlying "
+"physical file though, so removing a file from the project merely makes it "
+"unavailable for this video project."
+msgstr ""
+"Dette vil fjerne en fil fra prosjektet. Det vil ikke slette den "
+"underliggende fysiske filen, så å fjerne en fil fra prosjektet gjør den bare "
+"utilgjengelig for dette videoprosjektet."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:257
+msgid "Project Assets Folder"
+msgstr "Prosjektressursmappe"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:258
+msgid ""
+"OpenShot creates and uses a few **temporary working folders** while you "
+"edit. These live under ``.openshot_qt/`` in your user profile and hold "
+"project-specific files that OpenShot generates for you:"
+msgstr ""
+"OpenShot oppretter og bruker noen få **midlertidige arbeidsmapper** mens du "
+"redigerer. Disse ligger under ``.openshot_qt/`` i brukerprofilen din og "
+"inneholder prosjektspesifikke filer som OpenShot genererer for deg:"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:261
+msgid ""
+"``.openshot_qt/blender/`` - Blender animation renders created by the "
+"Animated Title dialog"
+msgstr ""
+"``.openshot_qt/blender/`` - Blender-animasjonsrenderinger opprettet av "
+"dialogen for animerte titler"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:262
+msgid "``.openshot_qt/title/`` - SVG title files created by the Title dialog"
+msgstr "``.openshot_qt/title/`` - SVG-titelfiler opprettet av tittel-dialogen"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:263
+msgid ""
+"``.openshot_qt/thumbnail/`` - Thumbnails generated for Project Files and "
+"Timeline"
+msgstr ""
+"``.openshot_qt/thumbnail/`` - Miniatyrbilder generert for prosjektfiler og "
+"tidslinje"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:264
+msgid ""
+"``.openshot_qt/clipboard/`` - Media created from clipboard pastes (images, "
+"audio, or video that must be saved to disk first)"
+msgstr ""
+"``.openshot_qt/clipboard/`` - Media opprettet fra utklippstavleinnliminger "
+"(bilder, lyd eller video som må lagres på disk først)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:265
+msgid ""
+"``.openshot_qt/optimized/`` - Optimized preview files created for smoother "
+"editing"
+msgstr ""
+"``.openshot_qt/optimized/`` - Optimaliserte forhåndsvisningsfiler opprettet "
+"for jevnere redigering"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:266
+msgid "``.openshot_qt/protobuf_data`` - Tracking and object detection data"
+msgstr "``.openshot_qt/protobuf_data`` - Data for sporing og objektdeteksjon"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:268
+msgid ""
+"When you choose **File→Save As**, OpenShot copies these folders into your "
+"project directory, inside a single folder named ``PROJECTNAME_Assets``. For "
+"example: ``MyProject_Assets/clipboard`` will contain any media you pasted "
+"from the clipboard, and ``MyProject_Assets/optimized`` will contain any "
+"optimized preview files linked to the project."
+msgstr ""
+"Når du velger **Fil→Lagre som**, kopierer OpenShot disse mappene til "
+"prosjektmappen din, inne i en enkelt mappe kalt ``PROJECTNAME_Assets``. For "
+"eksempel vil ``MyProject_Assets/clipboard`` inneholde media du limte inn fra "
+"utklippstavlen, og ``MyProject_Assets/optimized`` vil inneholde eventuelle "
+"optimaliserte forhåndsvisningsfiler knyttet til prosjektet."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:272
+#, fuzzy
+msgid ""
+"As part of this process, all paths inside your ``*.osp`` project file are "
+"updated to be **relative** to your project folder."
+msgstr ""
+"Som en del av denne prosessen oppdateres alle stier i prosjektfilen din ``*."
+"osp`` til å være **relative** til prosjektmappen din. Dette holder alt "
+"selvstendig og enkelt å flytte eller sikkerhetskopiere som én mappe."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:275
+msgid "Missing Files"
+msgstr "Manglende filer"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:277
+msgid ""
+"When you create and save a project in OpenShot, any files imported into the "
+"software (such as videos, audio, and images) must remain accessible "
+"throughout the project's duration. This means that these imported files "
+"should not be renamed, deleted, or moved to different folders. Additionally, "
+"the full path where these files are located should not be renamed either. "
+"This principle applies to other video editing software as well."
+msgstr ""
+"Når du oppretter og lagrer et prosjekt i OpenShot, må alle filer importert "
+"til programvaren (som videoer, lyd og bilder) forbli tilgjengelige gjennom "
+"hele prosjektets varighet. Dette betyr at disse importerte filene ikke skal "
+"gis nytt navn, slettes eller flyttes til andre mapper. I tillegg skal ikke "
+"hele banen der disse filene ligger gis nytt navn. Dette prinsippet gjelder "
+"også for annen videoredigeringsprogramvare."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:282
+msgid ""
+"For example, users might move or delete folders, unplug their USB devices, "
+"or move or delete their project files. Any of these examples cause a :"
+"guilabel:`Missing File` message, in which OpenShot prompts you to locate the "
+"folder of the missing file(s). Depending on the number of files you added to "
+"your project, OpenShot could prompt you many times to find the missing files."
+msgstr ""
+"For eksempel kan brukere flytte eller slette mapper, koble fra USB-enheter, "
+"eller flytte eller slette prosjektfilene sine. Noen av disse handlingene vil "
+"føre til en :guilabel:`Manglende fil`-melding, hvor OpenShot ber deg om å "
+"finne mappen til den manglende filen eller filene. Avhengig av hvor mange "
+"filer du har lagt til i prosjektet, kan OpenShot be deg om å finne de "
+"manglende filene flere ganger."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:286
+msgid ""
+"When OpenShot saves a project, all file paths are converted to **relative** "
+"file paths. As long as you keep all assets organized in the same parent "
+"folder (including the \\*.osp project file), you will be able to move your "
+"project folder without triggering any missing file(s) prompts. You can even "
+"move a self-contained project folder to another computer without any issues."
+msgstr ""
+"Når OpenShot lagrer et prosjekt, konverteres alle filbaner til **relative** "
+"filbaner. Så lenge du holder alle ressurser organisert i samme overordnede "
+"mappe (inkludert \\*.osp prosjektfilen), kan du flytte prosjektmappen uten "
+"at det utløses noen meldinger om manglende filer. Du kan til og med flytte "
+"en selvstendig prosjektmappe til en annen datamaskin uten problemer."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:290
+msgid ""
+"Everyone has their unique way of organizing files, and it's crucial to "
+"remember not to make changes to file paths, rename files, or delete files "
+"when working with video editors, as it can lead to missing file issues. For "
+"a detailed guide on missing file(s), see `The Case of “Missing Files”! "
+"<https://github.com/OpenShot/openshot-qt/wiki/Missing-File-Prompt>`_"
+msgstr ""
+"Alle har sin egen måte å organisere filer på, og det er viktig å huske på å "
+"ikke endre filbaner, gi filer nytt navn eller slette filer når man jobber "
+"med videoredigerere, da dette kan føre til problemer med manglende filer. "
+"For en detaljert veiledning om manglende filer, se `The Case of “Missing "
+"Files”! <https://github.com/OpenShot/openshot-qt/wiki/Missing-File-Prompt>`_."

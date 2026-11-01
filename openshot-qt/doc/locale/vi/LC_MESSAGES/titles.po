@@ -1,0 +1,1118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:23
+msgid "Text & Titles"
+msgstr "Văn bản & Tiêu đề"
+
+#: ../titles.rst:25
+msgid ""
+"Adding text overlays, lower thirds, and titles is an important aspect of "
+"video editing, and OpenShot comes with an easy-to-use Title Editor. Use the "
+"Title menu (located in the main menu of OpenShot) to launch the Title "
+"Editor. You can also use the keyboard shortcut :kbd:`Ctrl+T`."
+msgstr ""
+"Thêm lớp phủ văn bản, phần ba dưới và tiêu đề là một khía cạnh quan trọng "
+"của chỉnh sửa video, và OpenShot đi kèm với Trình chỉnh sửa Tiêu đề dễ sử "
+"dụng. Sử dụng menu Tiêu đề (nằm trong menu chính của OpenShot) để khởi chạy "
+"Trình chỉnh sửa Tiêu đề. Bạn cũng có thể sử dụng phím tắt :kbd:`Ctrl+T`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:29
+msgid ""
+"Titles are simply vector image files with transparent backgrounds "
+"(``*.svg``). OpenShot comes with many easy-to-use templates, but you can "
+"also create your own or import new templates into OpenShot. These templates "
+"allow you to quickly change the text, font, size, color, and background "
+"color. You can also launch an advanced, external SVG editor for further "
+"customizations (if needed). Once the title is added to your project, drag "
+"and drop the title on a Track above a video clip. The transparent background"
+" will allow the video below to appear behind the text."
+msgstr ""
+"Tiêu đề chỉ đơn giản là các tệp hình ảnh vector với nền trong suốt "
+"(``*.svg``). OpenShot đi kèm với nhiều mẫu dễ sử dụng, nhưng bạn cũng có thể"
+" tạo mẫu riêng hoặc nhập mẫu mới vào OpenShot. Những mẫu này cho phép bạn "
+"nhanh chóng thay đổi văn bản, phông chữ, kích thước, màu sắc và màu nền. Bạn"
+" cũng có thể mở trình chỉnh sửa SVG nâng cao bên ngoài để tùy chỉnh thêm "
+"(nếu cần). Khi tiêu đề đã được thêm vào dự án, kéo và thả tiêu đề lên một "
+"Track phía trên clip video. Nền trong suốt sẽ cho phép video bên dưới hiển "
+"thị phía sau văn bản."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:36
+msgid "Overview"
+msgstr "Tổng quan"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:185
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:185
+msgid "Name"
+msgstr "Tên"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:63 ../titles.rst:185 ../titles.rst:204
+msgid "Description"
+msgstr "Mô tả"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46 ../titles.rst:187
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46 ../titles.rst:187
+msgid "Choose a Template"
+msgstr "Chọn Mẫu"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46
+msgid "Choose from any available vector title template"
+msgstr "Chọn từ bất kỳ mẫu tiêu đề vector có sẵn nào"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "Preview Title"
+msgstr "Xem Trước Tiêu đề"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "Preview your title as you make changes"
+msgstr "Xem trước tiêu đề khi bạn thực hiện thay đổi"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48 ../titles.rst:189
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48 ../titles.rst:189
+msgid "Title Properties"
+msgstr "Thuộc tính Tiêu đề"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48
+msgid ""
+"Change the text, font, size, colors, or edit in an advanced, external SVG "
+"image editor (such as Inkscape)"
+msgstr ""
+"Thay đổi văn bản, phông chữ, kích thước, màu sắc, hoặc chỉnh sửa trong trình"
+" chỉnh sửa hình ảnh SVG nâng cao bên ngoài (như Inkscape)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49 ../titles.rst:190
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49
+msgid "Save"
+msgstr "Lưu"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49
+msgid "Save and add the title to your project"
+msgstr "Lưu và thêm tiêu đề vào dự án của bạn"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:53
+msgid "Title Templates"
+msgstr "Mẫu Tiêu đề"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:55
+msgid ""
+"OpenShot includes a variety of vector title templates that can be used to "
+"enhance your video projects. Below is a table listing the available titles "
+"and their descriptions:"
+msgstr ""
+"OpenShot bao gồm nhiều mẫu tiêu đề vector có thể dùng để nâng cao dự án "
+"video của bạn. Dưới đây là bảng liệt kê các tiêu đề có sẵn và mô tả của "
+"chúng:"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:62
+msgid "Title Name"
+msgstr "Tên Tiêu đề"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:64
+msgid "Bar 1"
+msgstr "Thanh 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:65
+msgid "A simple bar with text centered."
+msgstr "Một thanh đơn giản với văn bản căn giữa."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:66
+msgid "Bar 2"
+msgstr "Thanh 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:67
+msgid "A simple bar, centered, with 2 lines of text."
+msgstr "Một thanh đơn giản, căn giữa, với 2 dòng văn bản."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:68
+msgid "Bar 3"
+msgstr "Thanh 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:69
+msgid "Another variation of a simple bar with text, for lower 3rds."
+msgstr ""
+"Một biến thể khác của thanh đơn giản với văn bản, dành cho phần dưới ba phần"
+" tư màn hình."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:70
+msgid "Box"
+msgstr "Hộp"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:71
+#, fuzzy
+msgid "A simple boxed title layout for centered text."
+msgstr "Một thanh đơn giản với văn bản căn giữa."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:72
+msgid "Bubbles 1"
+msgstr "Bong bóng 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:73
+msgid "A title with bubble graphics for a playful look."
+msgstr "Tiêu đề với đồ họa bong bóng tạo vẻ vui nhộn."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:74
+msgid "Bubbles 2"
+msgstr "Bong bóng 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:75
+msgid "A different bubble design for a fun and creative title."
+msgstr "Một thiết kế bong bóng khác cho tiêu đề vui nhộn và sáng tạo."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:76
+msgid "Camera Border"
+msgstr "Viền Máy ảnh"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:77
+msgid "A border that mimics a camera viewfinder with centered text."
+msgstr "Một viền mô phỏng khung ngắm máy ảnh với văn bản căn giữa."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:78
+msgid "Cloud 1"
+msgstr "Đám mây 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:79
+msgid "A title with a playful cloud graphic and text."
+msgstr "Tiêu đề với đồ họa đám mây vui nhộn và văn bản."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:80
+msgid "Cloud 2"
+msgstr "Đám mây 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:81
+msgid "Another playful cloud design with 3 clouds and text."
+msgstr "Một thiết kế đám mây vui nhộn khác với 3 đám mây và văn bản."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:82
+msgid "Creative Commons 1"
+msgstr "Creative Commons 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:83
+msgid "Contains text and icons for Creative Commons attribution."
+msgstr "Chứa văn bản và biểu tượng cho việc ghi nhận Creative Commons."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:84
+msgid "Creative Commons 2"
+msgstr "Creative Commons 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:85
+msgid ""
+"Another Creative Commons design with different styling plus website text."
+msgstr ""
+"Một thiết kế Creative Commons khác với kiểu dáng khác và văn bản trang web."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:86
+msgid "Film Rating 1"
+msgstr "Xếp hạng Phim 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:87
+msgid "Displays a film rating for all audiences."
+msgstr "Hiển thị xếp hạng phim dành cho mọi khán giả."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:88
+msgid "Film Rating 2"
+msgstr "Xếp hạng Phim 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:89
+msgid "Displays a film rating of \"R\" restricted."
+msgstr "Hiển thị xếp hạng phim \"R\" giới hạn."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:90
+msgid "Film Rating 3"
+msgstr "Xếp hạng Phim 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:91
+msgid "Displays a film rating of \"G\" for general audiences."
+msgstr "Hiển thị xếp hạng phim \"G\" dành cho khán giả chung."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:92
+msgid "Film Rating 4"
+msgstr "Xếp hạng Phim 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:93
+msgid "Displays a film rating of \"PG-13\", parents strongly cautioned."
+msgstr "Hiển thị xếp hạng phim \"PG-13\", phụ huynh nên thận trọng."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:94
+#, fuzzy
+msgid "Flare"
+msgstr "Chói Sáng"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:95
+#, fuzzy
+msgid "A title with a bright flare effect for a cinematic look."
+msgstr "Tiêu đề với hiệu ứng khói tạo vẻ ấn tượng."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:96
+msgid "Flames"
+msgstr "Ngọn lửa"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:97
+msgid "A title with flame graphics for a fiery effect."
+msgstr "Tiêu đề với đồ họa ngọn lửa tạo hiệu ứng rực lửa."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:98
+msgid "Footer 1"
+msgstr "Chân trang 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:99
+msgid "A footer bar for lower thirds (left aligned)."
+msgstr "Thanh chân trang cho phần dưới ba phần tư màn hình (căn trái)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:100
+msgid "Footer 2"
+msgstr "Chân trang 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:101
+msgid "A footer bar for lower thirds (center aligned)."
+msgstr "Thanh chân trang cho phần dưới ba phần tư màn hình (căn giữa)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:102
+msgid "Footer 3"
+msgstr "Chân trang 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:103
+msgid "A footer bar for lower thirds (right aligned)."
+msgstr "Thanh chân trang cho phần dưới ba phần tư màn hình (căn phải)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:104
+msgid "Gold 1"
+msgstr "Vàng 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:105
+msgid "A title with a gold color scheme, centered with one line of text."
+msgstr "Tiêu đề với tông màu vàng, căn giữa với một dòng văn bản."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:106
+msgid "Gold 2"
+msgstr "Vàng 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:107
+msgid "Another gold-themed title, centered with two lines of text."
+msgstr "Một tiêu đề khác theo chủ đề vàng, căn giữa với hai dòng văn bản."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:108
+msgid "Gold Bottom"
+msgstr "Vàng Dưới"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:109
+msgid "Gold title positioned at the bottom of the screen."
+msgstr "Tiêu đề màu vàng đặt ở dưới cùng màn hình."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:110
+msgid "Gold Top"
+msgstr "Vàng Trên"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:111
+msgid "Gold title positioned at the top of the screen."
+msgstr "Tiêu đề màu vàng đặt ở trên cùng màn hình."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:112
+msgid "Gray Box 1"
+msgstr "Hộp Xám 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:113
+msgid ""
+"A simple gray box for highlighting text (one line of text, top-left "
+"aligned)."
+msgstr ""
+"Một hộp xám đơn giản để làm nổi bật văn bản (một dòng văn bản, căn trên "
+"trái)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:114
+msgid "Gray Box 2"
+msgstr "Hộp Xám 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:115
+msgid ""
+"A simple gray box for highlighting text (two lins of text, top-left "
+"aligned)."
+msgstr ""
+"Một hộp xám đơn giản để làm nổi bật văn bản (hai dòng văn bản, căn trên "
+"trái)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:116
+msgid "Gray Box 3"
+msgstr "Hộp Xám 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:117
+msgid ""
+"A simple gray box for highlighting text (one line of text, bottom-right "
+"aligned)."
+msgstr ""
+"Một hộp màu xám đơn giản để làm nổi bật văn bản (một dòng văn bản, căn dưới "
+"bên phải)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:118
+msgid "Gray Box 4"
+msgstr "Hộp Xám 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:119
+msgid ""
+"A simple gray box for highlighting text (two lines of text, bottom-right "
+"aligned)."
+msgstr ""
+"Một hộp màu xám đơn giản để làm nổi bật văn bản (hai dòng văn bản, căn dưới "
+"bên phải)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:120
+msgid "Header 1"
+msgstr "Tiêu đề 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:121
+msgid "A header bar for titles or section headers (top-left aligned)."
+msgstr "Thanh tiêu đề cho tiêu đề hoặc phần đầu mục (căn trên bên trái)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:122
+msgid "Header 2"
+msgstr "Tiêu đề 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:123
+msgid "A header bar for titles or section headers (center aligned)."
+msgstr "Thanh tiêu đề cho tiêu đề hoặc phần đầu mục (căn giữa)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:124
+msgid "Header 3"
+msgstr "Tiêu đề 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:125
+msgid "A header bar for titles or section headers (top-right aligned)."
+msgstr "Thanh tiêu đề cho tiêu đề hoặc phần đầu mục (căn trên bên phải)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:126
+msgid "OpenShot"
+msgstr "OpenShot"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:127
+msgid "A title featuring OpenShot branding."
+msgstr "Một tiêu đề có thương hiệu OpenShot."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:128
+msgid "Oval 1"
+msgstr "Hình Bầu Dục 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:129
+msgid "An oval shape for highlighting or decorative purposes, text centered."
+msgstr "Hình bầu dục để làm nổi bật hoặc trang trí, văn bản căn giữa."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:130
+msgid "Oval 2"
+msgstr "Hình Bầu Dục 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:131
+msgid "Another oval design with a different style, text centered."
+msgstr "Một thiết kế hình bầu dục khác với phong cách khác, văn bản căn giữa."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:132
+msgid "Oval 3"
+msgstr "Hình Bầu Dục 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:133
+msgid ""
+"Another oval design with two-lines of text, one at the top, one at the "
+"bottom."
+msgstr ""
+"Một thiết kế hình bầu dục khác với hai dòng văn bản, một dòng trên, một dòng"
+" dưới."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:134
+msgid "Oval 4"
+msgstr "Hình Bầu Dục 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:135
+msgid "Yet another oval design, with text centered plus refection."
+msgstr "Một thiết kế hình bầu dục khác, văn bản căn giữa kèm phản chiếu."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:136
+msgid "Post it"
+msgstr "Ghi chú dán"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:137
+msgid "Mimics a sticky note for annotations or reminders."
+msgstr "Mô phỏng ghi chú dán để chú thích hoặc nhắc nhở."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:138
+msgid "Ribbon 1"
+msgstr "Ruy băng 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:139
+msgid "A ribbon graphic with text."
+msgstr "Đồ họa ruy băng kèm văn bản."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:140
+msgid "Ribbon 2"
+msgstr "Ruy băng 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:141
+msgid "Another ribbon design with text."
+msgstr "Một thiết kế ruy băng khác kèm văn bản."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:142
+msgid "Ribbon 3"
+msgstr "Ruy băng 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:143
+msgid "A third variation of a ribbon design with text."
+msgstr "Biến thể thứ ba của thiết kế ruy băng kèm văn bản."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:144
+msgid "Smoke 1"
+msgstr "Khói 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:145
+msgid "A title with smoke effects for a dramatic look."
+msgstr "Tiêu đề với hiệu ứng khói tạo vẻ ấn tượng."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:146
+msgid "Smoke 2"
+msgstr "Khói 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:147
+msgid "Another smoke design with a different style."
+msgstr "Một thiết kế khói khác với phong cách khác."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:148
+msgid "Smoke 3"
+msgstr "Khói 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:149
+msgid "A third variation of smoke effects."
+msgstr "Biến thể thứ ba của hiệu ứng khói."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:150
+msgid "Solid Color"
+msgstr "Màu Đặc"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:151
+msgid "A full-screen color background for various uses."
+msgstr "Nền màu toàn màn hình cho nhiều mục đích sử dụng."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:152
+msgid "Standard 1"
+msgstr "Tiêu chuẩn 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:153
+msgid "A standard title design for general purposes (two lines centered)."
+msgstr "Thiết kế tiêu đề tiêu chuẩn cho mục đích chung (hai dòng căn giữa)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:154
+msgid "Standard 2"
+msgstr "Tiêu chuẩn 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:155
+msgid ""
+"Another standard title with a different style (one line of text plus "
+"reflection)."
+msgstr ""
+"Một tiêu đề tiêu chuẩn khác với phong cách khác (một dòng văn bản kèm phản "
+"chiếu)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:156
+msgid "Standard 3"
+msgstr "Tiêu chuẩn 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:157
+msgid "A third variation of a standard title (three lines of text)."
+msgstr "Biến thể thứ ba của tiêu đề tiêu chuẩn (ba dòng văn bản)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:158
+msgid "Standard 4"
+msgstr "Tiêu chuẩn 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:159
+msgid "Yet another standard title design (four lines of text)."
+msgstr "Một thiết kế tiêu đề tiêu chuẩn khác (bốn dòng văn bản)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:160
+msgid "Sunset"
+msgstr "Hoàng hôn"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:161
+msgid "A title with sunset gradient for a warm, end-of-day theme."
+msgstr ""
+"Tiêu đề với hiệu ứng chuyển màu hoàng hôn tạo cảm giác ấm áp, kết thúc ngày."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:162
+msgid "TV Rating"
+msgstr "Xếp hạng TV"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:163
+msgid ""
+"Displays TV ratings badge such as \"G\" and \"PG\" (for the corner of the "
+"screen)."
+msgstr "Hiển thị huy hiệu xếp hạng TV như \"G\" và \"PG\" (cho góc màn hình)."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:167
+msgid "Custom Title Templates"
+msgstr "Mẫu Tiêu đề Tùy chỉnh"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:168
+msgid ""
+"OpenShot can use any vector SVG image file as a custom title template in the"
+" :guilabel:`Title Editor` dialog. Just add an SVG image file to your "
+"``~/.openshot_qt/title_templates/`` folder, and it will appear the next time"
+" you launch the :guilabel:`Title Editor` dialog. You can also right click on"
+" any SVG files in your **Project Files** panel, and choose **Edit Title** or"
+" **Duplicate Title**."
+msgstr ""
+"OpenShot có thể sử dụng bất kỳ tệp hình ảnh vector SVG nào làm mẫu tiêu đề "
+"tùy chỉnh trong hộp thoại :guilabel:`Title Editor`. Chỉ cần thêm tệp SVG vào"
+" thư mục ``~/.openshot_qt/title_templates/``, và nó sẽ xuất hiện lần tiếp "
+"theo bạn mở hộp thoại :guilabel:`Title Editor`. Bạn cũng có thể nhấp chuột "
+"phải vào bất kỳ tệp SVG nào trong bảng **Project Files**, và chọn **Edit "
+"Title** hoặc **Duplicate Title**."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:172
+msgid ""
+"Note: These SVG templates are only used by the :guilabel:`Title Editor` "
+"dialog, and not :guilabel:`Animated Title` dialog."
+msgstr ""
+"Lưu ý: Các mẫu SVG này chỉ được sử dụng trong hộp thoại :guilabel:`Title "
+"Editor`, không phải trong hộp thoại :guilabel:`Animated Title`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:177
+msgid "3D Animated Titles"
+msgstr "Tiêu đề Hoạt hình 3D"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:178
+msgid ""
+"Adding a 3D animated title is just as easy, using our **Animated Title** "
+"dialog. Use the Title menu (located in the main menu of OpenShot) to launch "
+"the Animated Title editor. You can also use the keyboard shortcut "
+"**Ctrl+B**. Note: Blender must be installed and configured before this "
+"feature will work in OpenShot. See :ref:`blender_install_ref`."
+msgstr ""
+"Thêm tiêu đề hoạt hình 3D cũng rất dễ dàng, sử dụng hộp thoại **Animated "
+"Title**. Dùng menu Title (trong menu chính của OpenShot) để mở trình chỉnh "
+"sửa Animated Title. Bạn cũng có thể dùng phím tắt **Ctrl+B**. Lưu ý: Blender"
+" phải được cài đặt và cấu hình trước khi tính năng này hoạt động trong "
+"OpenShot. Xem :ref:`blender_install_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:187
+msgid "Choose from any available 3D title templates"
+msgstr "Chọn từ bất kỳ mẫu tiêu đề 3D nào có sẵn"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:189
+msgid "Change the text, colors, and advanced properties"
+msgstr "Thay đổi văn bản, màu sắc và các thuộc tính nâng cao"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:190
+msgid "Render"
+msgstr "Kết xuất"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:190
+msgid "Render the 3D animation, and add it to your project"
+msgstr "Kết xuất hoạt hình 3D và thêm vào dự án của bạn"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:194
+msgid "3D Animated Templates"
+msgstr "Mẫu Hoạt hình 3D"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:196
+msgid ""
+"OpenShot includes a variety of 3D animated templates that can be used to add"
+" dynamic and engaging elements to your video projects. Below is a table "
+"listing the available templates and their descriptions:"
+msgstr ""
+"OpenShot bao gồm nhiều mẫu hoạt hình 3D khác nhau có thể dùng để thêm các "
+"yếu tố động và hấp dẫn vào dự án video của bạn. Dưới đây là bảng liệt kê các"
+" mẫu có sẵn và mô tả của chúng:"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:203
+msgid "Template Name"
+msgstr "Tên Mẫu"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:205
+msgid "Blinds (Two Titles)"
+msgstr "Rèm (Hai Tiêu đề)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:206
+msgid "An animation featuring a blinds effect."
+msgstr "Một hoạt hình với hiệu ứng rèm cửa."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:207
+msgid "Blur"
+msgstr "Làm mờ"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:208
+msgid ""
+"A template that blurs text in and out, providing a smooth transition effect."
+msgstr "Mẫu làm mờ văn bản vào và ra, tạo hiệu ứng chuyển tiếp mượt mà."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:209
+msgid "Color Tiles"
+msgstr "Gạch Màu"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:210
+msgid ""
+"An animation with changing colors, suitable for vibrant and dynamic titles."
+msgstr ""
+"Hoạt hình với màu sắc thay đổi, phù hợp cho tiêu đề sống động và năng động."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:211
+msgid "Dissolving Text"
+msgstr "Văn bản Tan Biến"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:212
+msgid ""
+"A dissolve effect that turns any text into particles which get blown away by"
+" the wind."
+msgstr "Hiệu ứng tan biến biến văn bản thành các hạt nhỏ bị gió thổi bay."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:213
+msgid "World Map"
+msgstr "Bản Đồ Thế Giới"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:214
+msgid "A template featuring a rotating Earth between 2 locations."
+msgstr "Mẫu có hình Trái Đất quay giữa 2 vị trí."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:215
+msgid "Exploding Text"
+msgstr "Chữ Nổ"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:216
+msgid ""
+"An animation where the title explode into pieces, adding dramatic impact."
+msgstr ""
+"Một hoạt ảnh trong đó tiêu đề nổ thành từng mảnh, tạo hiệu ứng kịch tính."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:217
+msgid "Fly Towards Camera"
+msgstr "Bay Về Phía Máy Quay"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:218
+msgid "A fly-by animation with a single title zooming past the screen."
+msgstr ""
+"Một hoạt ảnh bay qua với một tiêu đề duy nhất phóng nhanh qua màn hình."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:219
+msgid "Fly Towards Camera (Two Titles)"
+msgstr "Bay Về Phía Máy Quay (Hai Tiêu Đề)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:220
+msgid "Similar to Fly By 1, but with two titles flying by."
+msgstr "Tương tự như Bay Qua 1, nhưng với hai tiêu đề bay qua."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:221
+msgid "Glare"
+msgstr "Chói Sáng"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:222
+msgid "An animation with a glare effect, adding a bright, reflective look."
+msgstr "Một hoạt ảnh với hiệu ứng chói sáng, tạo vẻ sáng bóng phản chiếu."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:223
+msgid "Glass Slider"
+msgstr "Thanh Trượt Kính"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:224
+msgid "A sliding glass effect, providing a modern and sleek transition."
+msgstr "Hiệu ứng kính trượt, tạo chuyển cảnh hiện đại và mượt mà."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:225
+msgid "Lens Flare"
+msgstr "Lóa Ống Kính"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:226
+msgid "An animation featuring a lens flare, adding a cinematic touch."
+msgstr "Một hoạt ảnh có hiệu ứng lóe ống kính, thêm nét điện ảnh."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:227
+msgid "Magic Wand"
+msgstr "Đũa Phép"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:228
+msgid "A whimsical magic wand effect, ideal for magical or fantasy themes."
+msgstr "Hiệu ứng đũa phép kỳ ảo, lý tưởng cho chủ đề ma thuật hoặc giả tưởng."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:229
+msgid "Neon Curves"
+msgstr "Đường Cong Neon"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:230
+msgid "An animation with neon curves, creating a futuristic and vibrant look."
+msgstr ""
+"Một hoạt ảnh với các đường cong neon, tạo vẻ ngoài tương lai và sống động."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:231
+msgid "Picture Frames (4 pictures)"
+msgstr "Khung Ảnh (4 hình)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:232
+msgid ""
+"A template featuring four picture frames, suitable for showcasing images or "
+"video clips."
+msgstr "Mẫu với bốn khung ảnh, phù hợp để trình bày hình ảnh hoặc đoạn video."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:233
+msgid "Rotate 360"
+msgstr "Xoay 360"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:234
+msgid "A 360-degree rotation effect, providing a dynamic title animation."
+msgstr "Hiệu ứng xoay 360 độ, tạo hoạt ảnh tiêu đề năng động."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:235
+msgid "Slide Left to Right"
+msgstr "Trượt Từ Trái Sang Phải"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:236
+msgid "A sliding effect where titles move from left to right."
+msgstr "Hiệu ứng trượt, tiêu đề di chuyển từ trái sang phải."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:237
+msgid "Snow"
+msgstr "Tuyết"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:238
+msgid ""
+"An animation with falling snow particles, perfect for winter or holiday "
+"themes."
+msgstr ""
+"Một hoạt ảnh với các hạt tuyết rơi, hoàn hảo cho chủ đề mùa đông hoặc lễ "
+"hội."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:239
+msgid "Space Movie Intro"
+msgstr "Mở Đầu Phim Không Gian"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:240
+msgid "A cinematic space-themed intro, ideal for epic or sci-fi projects."
+msgstr ""
+"Mở đầu theo chủ đề không gian điện ảnh, lý tưởng cho dự án sử thi hoặc khoa "
+"học viễn tưởng."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:241
+msgid "Wireframe Text"
+msgstr "Chữ Khung Dây"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:242
+msgid "An animation with wireframe text, adding a technical or digital look."
+msgstr "Một hoạt ảnh với chữ khung dây, tạo vẻ kỹ thuật hoặc số hóa."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:243
+msgid "Zoom to Clapboard"
+msgstr "Phóng To Đến Bảng Quay"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:244
+msgid ""
+"A zoom title with a clapboard, perfect for film or video production themes."
+msgstr ""
+"Tiêu đề phóng to với bảng quay, phù hợp cho chủ đề sản xuất phim hoặc video."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:247
+msgid "Importing Text"
+msgstr "Nhập Văn Bản"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:249
+msgid ""
+"You can generate text & titles in many different programs, such as Blender, "
+"Inkscape, Krita, Gimp, etc... Before you can import text into OpenShot, you "
+"must first export the text from these programs into a compatible image "
+"format that contains a **transparent background** and **alpha** channel."
+msgstr ""
+"Bạn có thể tạo văn bản & tiêu đề trong nhiều chương trình khác nhau, như "
+"Blender, Inkscape, Krita, Gimp, v.v... Trước khi nhập văn bản vào OpenShot, "
+"bạn phải xuất văn bản từ các chương trình này sang định dạng hình ảnh tương "
+"thích có **nền trong suốt** và kênh **alpha**."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:253
+msgid ""
+"The ``SVG`` format is a great choice for vector graphics (curves, shapes, "
+"text effects and paths), however it is **not** always 100% compatible with "
+"OpenShot. Thus, we recommend using ``PNG`` format, which is a great web-"
+"based image format that can include a transparent background and alpha "
+"channel. A transparent background and alpha channel are needed for OpenShot "
+"to allow the text to not cover up videos and images on the timeline below "
+"them."
+msgstr ""
+"Định dạng ``SVG`` là lựa chọn tuyệt vời cho đồ họa vector (đường cong, hình "
+"dạng, hiệu ứng chữ và đường dẫn), tuy nhiên nó **không** phải lúc nào cũng "
+"tương thích 100% với OpenShot. Do đó, chúng tôi khuyên dùng định dạng "
+"``PNG``, một định dạng hình ảnh web tuyệt vời có thể bao gồm nền trong suốt "
+"và kênh alpha. Nền trong suốt và kênh alpha cần thiết để OpenShot cho phép "
+"văn bản không che phủ video và hình ảnh trên timeline bên dưới."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:258
+msgid ""
+"For information on importing animated sequences into OpenShot, please see "
+":ref:`animation_image_seq_ref`."
+msgstr ""
+"Để biết thông tin về nhập chuỗi hoạt ảnh vào OpenShot, vui lòng xem "
+":ref:`animation_image_seq_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:261
+msgid "Installing Inkscape"
+msgstr "Cài Đặt Inkscape"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:263
+msgid ""
+"The :guilabel:`Advanced Editor` feature in the :guilabel:`Title Editor` "
+"dialog requires the latest version of Inkscape "
+"(https://inkscape.org/release/) be installed and the OpenShot "
+"**Preferences** updated with the correct path to the Inkscape executable. "
+"See the :ref:`preferences_general_ref` tab in Preferences."
+msgstr ""
+"Tính năng :guilabel:`Trình chỉnh sửa nâng cao` trong hộp thoại "
+":guilabel:`Trình chỉnh sửa tiêu đề` yêu cầu cài đặt phiên bản mới nhất của "
+"Inkscape (https://inkscape.org/release/) và cập nhật **Tùy chọn** OpenShot "
+"với đường dẫn chính xác đến tệp thực thi Inkscape. Xem tab "
+":ref:`preferences_general_ref` trong Tùy chọn."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:270
+msgid "Installing Blender"
+msgstr "Cài Đặt Blender"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:272
+msgid ""
+"The :guilabel:`Animated Title` feature in OpenShot requires the latest "
+"version of Blender (https://www.blender.org/download/) be installed and the "
+"OpenShot **Preferences** updated with the correct path to the Blender "
+"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE:"
+" The minimum supported version of Blender is 5.0+. Older versions of Blender"
+" are not compatible with OpenShot Video Editor."
+msgstr ""
+"Tính năng :guilabel:`Tiêu đề hoạt hình` trong OpenShot yêu cầu cài đặt phiên"
+" bản mới nhất của Blender (https://www.blender.org/download/) và cập nhật "
+"**Tùy chọn** OpenShot với đường dẫn chính xác đến tệp thực thi Blender. Xem "
+"tab :ref:`preferences_general_ref` trong Tùy chọn. LƯU Ý: Phiên bản Blender "
+"được hỗ trợ tối thiểu là 5.0+. Các phiên bản Blender cũ hơn không tương "
+"thích với OpenShot Video Editor."
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:278
+msgid ""
+"For a detailed guide on how to install these dependencies, see `Blender & "
+"Inkscape Guide <https://github.com/OpenShot/openshot-qt/wiki/Blender-and-"
+"Inkscape-Guide>`_."
+msgstr ""
+"Để có hướng dẫn chi tiết về cách cài đặt các phụ thuộc này, xem `Hướng dẫn "
+"Blender & Inkscape <https://github.com/OpenShot/openshot-qt/wiki/Blender-"
+"and-Inkscape-Guide>`_."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Adding text and titles is an important aspect of video editing, and OpenShot"
+#~ " comes with an easy-to-use Title Editor. Use the Title menu (located in the "
+#~ "main menu of OpenShot) to launch the Title Editor. You can also use the "
+#~ "keyboard shortcut :kbd:`Ctrl+T`."
+#~ msgstr ""
+#~ "Thêm văn bản và tiêu đề là một khía cạnh quan trọng của chỉnh sửa video, và "
+#~ "OpenShot đi kèm với Trình chỉnh sửa Tiêu đề dễ sử dụng. Sử dụng menu Tiêu đề"
+#~ " (nằm trong menu chính của OpenShot) để mở Trình chỉnh sửa Tiêu đề. Bạn cũng"
+#~ " có thể sử dụng phím tắt :kbd:`Ctrl+T`."

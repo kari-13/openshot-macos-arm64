@@ -1,0 +1,509 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:23
+msgid "Animation"
+msgstr "انیمیشن"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:25
+msgid ""
+"OpenShot has been designed specifically with animation in mind. The powerful"
+" curve-based animation framework can handle most jobs with ease, and is "
+"flexible enough to create just about any animation. Key frames specify "
+"values at certain points on a clip, and OpenShot does the hard work of "
+"interpolating the in-between values."
+msgstr ""
+"OpenShot به طور خاص با هدف انیمیشن طراحی شده است. چارچوب قدرتمند انیمیشن "
+"مبتنی بر منحنی می‌تواند بیشتر کارها را به راحتی انجام دهد و به اندازه کافی "
+"انعطاف‌پذیر است تا تقریباً هر انیمیشنی را ایجاد کند. فریم‌های کلیدی مقادیر "
+"را در نقاط خاصی از کلیپ مشخص می‌کنند و OpenShot کار سخت میان‌یابی مقادیر بین"
+" آنها را انجام می‌دهد."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:30
+msgid "Overview"
+msgstr "بررسی اجمالی"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:38 ../animation.rst:141
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:38 ../animation.rst:141
+msgid "Name"
+msgstr "نام"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:38 ../animation.rst:65 ../animation.rst:141
+msgid "Description"
+msgstr "توضیحات"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:40 ../animation.rst:41 ../animation.rst:143
+msgid "1"
+msgstr "۱"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:40
+msgid "Green Property"
+msgstr "ویژگی سبز"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:40
+msgid "When the play-head is on a key frame, the property appears green"
+msgstr "وقتی سر پخش روی یک فریم کلیدی است، ویژگی به رنگ سبز نمایش داده می‌شود"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:41
+msgid "Blue Property"
+msgstr "ویژگی آبی"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:41
+msgid ""
+"When the play-head is on an interpolated value, the property appears blue"
+msgstr ""
+"وقتی سر پخش روی یک مقدار میان‌یابی شده است، ویژگی به رنگ آبی نمایش داده "
+"می‌شود"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:42 ../animation.rst:144
+msgid "2"
+msgstr "۲"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:42
+msgid "Value Slider"
+msgstr "لغزنده مقدار"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:42
+msgid ""
+"Click and drag your mouse to adjust the value (this automatically creates a "
+"key frame if needed)"
+msgstr ""
+"برای تنظیم مقدار کلیک کرده و ماوس را بکشید (در صورت نیاز به طور خودکار یک "
+"فریم کلیدی ایجاد می‌شود)"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:43
+msgid "3"
+msgstr "۳"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:43
+msgid "Play-head"
+msgstr "سر پخش"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:43
+msgid "Position the play-head over a clip where you need a key frame"
+msgstr "سر پخش را روی کلیپی که نیاز به فریم کلیدی دارد قرار دهید"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:44
+msgid "4"
+msgstr "۴"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:44
+msgid "Key frame Markers"
+msgstr "نشانگرهای فریم کلیدی"
+
+#: ../animation.rst:44
+msgid ""
+"Colorful icons line the bottom of the clip for every keyframe "
+"(`circle=Bézier`, `diamond=linear`, `square=constant`). Each icon matches "
+"the color of its clip, effect, or transition. The selected item's keyframe "
+"icons are shown brighter. Filtering the property list also filters these "
+"icons. Click any icon to jump the play-head, load its properties, and select"
+" its clip, effect, or transition. Drag an icon left or right to move the "
+"keyframe and fine‑tune your animation timing. The play-head moves to the "
+"keyframe's new position when you finish dragging."
+msgstr ""
+"آیکون‌های رنگارنگ در پایین کلیپ برای هر کلید فریم قرار دارند "
+"(`circle=Bézier`، `diamond=linear`، `square=constant`). هر آیکون با رنگ "
+"کلیپ، افکت یا انتقال آن مطابقت دارد. آیکون‌های کلید فریم آیتم انتخاب شده "
+"روشن‌تر نمایش داده می‌شوند. فیلتر کردن لیست ویژگی‌ها همچنین این آیکون‌ها را "
+"فیلتر می‌کند. روی هر آیکون کلیک کنید تا به موقعیت پخش بروید، ویژگی‌های آن "
+"بارگذاری شود و کلیپ، افکت یا انتقال آن انتخاب شود. آیکون را به چپ یا راست "
+"بکشید تا کلید فریم جابجا شود و زمان‌بندی انیمیشن خود را دقیق‌تر تنظیم کنید. "
+"پس از اتمام کشیدن، موقعیت پخش به موقعیت جدید کلید فریم منتقل می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:48
+msgid "Key Frames"
+msgstr "فریم‌های کلیدی"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:49
+msgid ""
+"To create a key frame in OpenShot, simply position the play-head (i.e. "
+"playback position) at any point over a clip, and edit properties in the "
+"property dialog. If the property supports key frames, it will turn green, "
+"and a small icon (`circle=Bézier, diamond=linear, square=constant`) will "
+"appear on the bottom of your clip at that position. Move your play-head to "
+"another point over that clip, and adjust the properties again. All "
+"animations require at least 2 key frames, but can support an unlimited "
+"number of them."
+msgstr ""
+"برای ایجاد یک فریم کلیدی در OpenShot، کافی است سر پخش (یعنی موقعیت پخش) را "
+"در هر نقطه‌ای از کلیپ قرار دهید و ویژگی‌ها را در پنجره ویژگی‌ها ویرایش کنید."
+" اگر ویژگی از فریم‌های کلیدی پشتیبانی کند، به رنگ سبز در می‌آید و یک آیکون "
+"کوچک (`circle=Bézier, diamond=linear, square=constant`) در پایین کلیپ در آن "
+"موقعیت ظاهر می‌شود. سر پخش را به نقطه دیگری روی همان کلیپ منتقل کرده و "
+"دوباره ویژگی‌ها را تنظیم کنید. همه انیمیشن‌ها حداقل به ۲ فریم کلیدی نیاز "
+"دارند، اما می‌توانند تعداد نامحدودی از آنها را پشتیبانی کنند."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:55
+msgid ""
+"Use the :guilabel:`Next Marker` and :guilabel:`Previous Marker` toolbar "
+"buttons to step through the selected item's keyframes. They follow whichever"
+" clip, effect, or transition is selected. When an effect is selected, "
+"navigation also stops at the start and end of its parent clip."
+msgstr ""
+"از دکمه‌های نوار ابزار :guilabel:`Next Marker` و :guilabel:`Previous Marker`"
+" برای حرکت بین فریم‌های کلیدی آیتم انتخاب شده استفاده کنید. این دکمه‌ها "
+"دنبال‌کننده کلیپ، افکت یا انتقال انتخاب شده هستند. وقتی یک افکت انتخاب شده "
+"باشد، ناوبری همچنین در ابتدا و انتهای کلیپ والد آن متوقف می‌شود."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:59
+msgid ""
+"To adjust the **interpolation mode**, right click on the small graph icon "
+"next to a property value."
+msgstr ""
+"برای تنظیم **حالت میان‌یابی**، روی آیکون کوچک نمودار کنار مقدار ویژگی "
+"راست‌کلیک کنید."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:65
+msgid "Key-frame Interpolation"
+msgstr "میان‌یابی فریم کلیدی"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:67
+msgid "Bézier"
+msgstr "بزیر"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:67
+msgid ""
+"Interpolated values use a quadratic curve, and ease-in and ease-out. Icon: "
+":guilabel:`Circle`."
+msgstr ""
+"مقادیر میان‌یابی شده از منحنی درجه دوم استفاده می‌کنند و دارای تسهیل ورود و "
+"خروج هستند. آیکون: :guilabel:`Circle`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:68
+msgid "Linear"
+msgstr "خطی"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:68
+msgid ""
+"Interpolated values are calculated linear (each step value is equal). Icon: "
+":guilabel:`Diamond`."
+msgstr ""
+"مقادیر میان‌یابی شده به صورت خطی محاسبه می‌شوند (هر مقدار مرحله برابر است). "
+"آیکون: :guilabel:`Diamond`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:69
+msgid "Constant"
+msgstr "ثابت"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:69
+msgid ""
+"Interpolated values stay the same until the next key frame, and jump to the "
+"new value. Icon: :guilabel:`Square`."
+msgstr ""
+"مقادیر میان‌یابی شده تا فریم کلیدی بعدی ثابت می‌مانند و سپس به مقدار جدید "
+"جهش می‌کنند. آیکون: :guilabel:`Square`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:72
+#, fuzzy
+msgid ""
+"For more info on creating key frames for location, rotation, scale, shear, "
+"and origin, see :ref:`clip_transform_ref`."
+msgstr ""
+"برای اطلاعات بیشتر درباره ایجاد فریم‌های کلیدی برای موقعیت، چرخش، مقیاس، برش"
+" و موقعیت، به :ref:`clip_transform_ref` مراجعه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:73
+msgid "For more info on preset animations, see :ref:`clip_presets_ref`."
+msgstr ""
+"برای اطلاعات بیشتر درباره انیمیشن‌های پیش‌فرض، به :ref:`clip_presets_ref` "
+"مراجعه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:74
+msgid "For a full list of key frames, see :ref:`clip_properties_ref`."
+msgstr ""
+"برای فهرست کامل فریم‌های کلیدی، به :ref:`clip_properties_ref` مراجعه کنید."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:77
+msgid "Timing"
+msgstr "زمان‌بندی"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:78
+msgid ""
+"Changing how fast a clip plays is done with the :guilabel:`Time` property "
+"and the :guilabel:`Timing` tool."
+msgstr ""
+"تغییر سرعت پخش یک کلیپ با ویژگی :guilabel:`Time` و ابزار :guilabel:`Timing` "
+"انجام می‌شود."
+
+#: ../animation.rst:80
+msgid ""
+"The :guilabel:`Speed` menu offers presets such as normal, fast, slow, "
+"freeze, reverse, and repeat. See details in :ref:`clip_time_ref`."
+msgstr ""
+"منوی :guilabel:`Speed` پیش‌تنظیم‌هایی مانند عادی، سریع، کند، توقف، معکوس و "
+"تکرار را ارائه می‌دهد. جزئیات را در :ref:`clip_time_ref` ببینید."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:81
+msgid ""
+"The :guilabel:`Timing` tool lets you drag a clip’s edges to speed it up or "
+"slow it down. OpenShot adds the needed Time keyframes and **scales your "
+"other keyframes** so your animations stay aligned. Shorter clips play "
+"faster, longer clips play slower. See more: :ref:`clip_time_ref`."
+msgstr ""
+"ابزار :guilabel:`Timing` به شما اجازه می‌دهد لبه‌های کلیپ را بکشید تا سرعت "
+"آن را افزایش یا کاهش دهید. OpenShot فریم‌های کلیدی زمان لازم را اضافه می‌کند"
+" و **فریم‌های کلیدی دیگر شما را مقیاس‌بندی می‌کند** تا انیمیشن‌هایتان هماهنگ"
+" بمانند. کلیپ‌های کوتاه‌تر سریع‌تر پخش می‌شوند و کلیپ‌های بلندتر کندتر. "
+"جزئیات بیشتر: :ref:`clip_time_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:86
+msgid "Repeating"
+msgstr "تکرار"
+
+#: ../animation.rst:87
+msgid ""
+"To play a clip multiple times, use :guilabel:`Right-Click → Speed → Repeat`."
+msgstr ""
+"برای پخش چندباره یک کلیپ، از :guilabel:`کلیک راست → Speed → Repeat` استفاده "
+"کنید."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:89
+msgid ":guilabel:`Loop` repeats in one direction (forward or reverse)."
+msgstr ":guilabel:`Loop` در یک جهت (جلو یا عقب) تکرار می‌کند."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:90
+msgid ""
+":guilabel:`Ping-Pong` alternates direction (forward then backward, etc.)."
+msgstr ":guilabel:`Ping-Pong` جهت را تغییر می‌دهد (ابتدا جلو سپس عقب و غیره)."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:91
+msgid ""
+":guilabel:`Custom` can add a short pause between passes, speed up or slow "
+"down each pass, including keyframes."
+msgstr ""
+":guilabel:`Custom` می‌تواند مکث کوتاهی بین عبورها اضافه کند، سرعت هر عبور را"
+" افزایش یا کاهش دهد، شامل فریم‌های کلیدی."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:93
+msgid ""
+"OpenShot writes the :guilabel:`Time` curve for you, and you can edit those "
+"keyframes just like any other. See more: :ref:`clip_time_repeat_ref`."
+msgstr ""
+"OpenShot منحنی :guilabel:`Time` را برای شما می‌نویسد و می‌توانید آن فریم‌های"
+" کلیدی را مانند سایر فریم‌ها ویرایش کنید. جزئیات بیشتر: "
+":ref:`clip_time_repeat_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:97
+msgid "Bézier Presets"
+msgstr "پیش‌تنظیم‌های بزیر"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:98
+msgid ""
+"When using a Bézier curve for animation, OpenShot includes more than 20 "
+"curve presets (which affect the shape of the curve). For example, **Ease-"
+"In** has a more gradual slope at the beginning, making an animation move "
+"slower at the beginning, and faster at the end. **Ease-In/Out (Back)** has a"
+" gradual beginning and ending, but actually goes past the expected value and"
+" then back (producing a bounce effect)."
+msgstr ""
+"هنگام استفاده از منحنی بزیه برای انیمیشن، OpenShot بیش از ۲۰ پیش‌تنظیم منحنی"
+" (که شکل منحنی را تحت تأثیر قرار می‌دهند) ارائه می‌دهد. به عنوان مثال، "
+"**Ease-In** شیب ملایکتری در ابتدا دارد که باعث می‌شود انیمیشن در ابتدا کندتر"
+" و در انتها سریع‌تر حرکت کند. **Ease-In/Out (Back)** شروع و پایان ملایمی "
+"دارد، اما در واقع از مقدار مورد انتظار عبور کرده و سپس بازمی‌گردد (که اثر "
+"پرش ایجاد می‌کند)."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:103
+msgid ""
+"To choose a curve preset, right click on the small graph icon next to a key "
+"frame."
+msgstr ""
+"برای انتخاب یک پیش‌تنظیم منحنی، روی آیکون کوچک نمودار کنار یک کلید فریم "
+"راست‌کلیک کنید."
+
+#: ../animation.rst:110
+msgid "Ken Burns Effect"
+msgstr "اثر کن برنز"
+
+#: ../animation.rst:111
+msgid ""
+"The **Ken Burns effect** is a pan-and-zoom animation technique — named after"
+" documentary filmmaker Ken Burns — that brings still images or video clips "
+"to life with slow, deliberate camera movement. In OpenShot, use "
+":guilabel:`Right-Click → Motion → Camera` presets for one-click Ken Burns "
+"animations (Zoom In, Zoom Out, Pan, Zoom & Pan with Auto Direction), or set "
+"keyframes on :guilabel:`Location X/Y` and :guilabel:`Scale X/Y` manually for"
+" full control. See :ref:`clip_presets_ref`."
+msgstr ""
+"اثر **Ken Burns** یک تکنیک انیمیشن حرکت و بزرگ‌نمایی است — که به نام فیلمساز"
+" مستند کن برنز نامگذاری شده — که تصاویر ثابت یا کلیپ‌های ویدئویی را با حرکت "
+"آهسته و هدفمند دوربین زنده می‌کند. در OpenShot، از پیش‌تنظیم‌های "
+":guilabel:`کلیک راست → Motion → Camera` برای انیمیشن‌های Ken Burns با یک "
+"کلیک (بزرگ‌نمایی، کوچک‌نمایی، حرکت، بزرگ‌نمایی و حرکت با جهت خودکار) استفاده"
+" کنید، یا برای کنترل کامل، به صورت دستی کلیدهای فریم را روی "
+":guilabel:`Location X/Y` و :guilabel:`Scale X/Y` تنظیم کنید. جزئیات را در "
+":ref:`clip_presets_ref` ببینید."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:120
+msgid "Image Sequences"
+msgstr "دنباله‌های تصویری"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:121
+msgid ""
+"If you have a sequence of similarly named images (such as, cat001.png, "
+"cat002.png, cat003.png, etc...), you can simply drag and drop one of them "
+"into OpenShot, and you will be prompted to import the entire sequence. "
+"OpenShot will playback these sequential images rapidly, as if they are "
+"frames in a video. The rate or speed in which these images are displayed is "
+"based on their frame rate."
+msgstr ""
+"اگر دنباله‌ای از تصاویر با نام‌های مشابه دارید (مانند cat001.png، "
+"cat002.png، cat003.png و غیره)، می‌توانید به سادگی یکی از آن‌ها را به "
+"OpenShot بکشید و رها کنید، و از شما خواسته می‌شود کل دنباله را وارد کنید. "
+"OpenShot این تصاویر متوالی را به سرعت پخش می‌کند، گویی که فریم‌های یک ویدیو "
+"هستند. نرخ یا سرعت نمایش این تصاویر بر اساس نرخ فریم آن‌ها است."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:126
+msgid ""
+"**NOTE:** Be sure your image sequence starts at 0 or 1, or you will likely "
+"receive an error when importing it into OpenShot. For example, if your "
+"sequence starts at cat222.png, or has missing images in the sequence, "
+"OpenShot will struggle to understand the sequence. An easy work-around is to"
+" renumber the images so they start with 1."
+msgstr ""
+"**توجه:** مطمئن شوید دنباله تصاویر شما از ۰ یا ۱ شروع می‌شود، در غیر این "
+"صورت احتمالاً هنگام وارد کردن آن به OpenShot با خطا مواجه خواهید شد. به "
+"عنوان مثال، اگر دنباله شما از cat222.png شروع شود یا تصاویر در دنباله ناقص "
+"باشند، OpenShot در درک دنباله مشکل خواهد داشت. یک راه‌حل ساده این است که "
+"تصاویر را دوباره شماره‌گذاری کنید تا از ۱ شروع شوند."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:132
+msgid ""
+"To adjust the frame rate of the animation, right click and choose **File "
+"Properties** in the **Project Files** panel, and adjust the frame rate. Once"
+" you have set the correct frame rate, drag the animation onto the timeline."
+msgstr ""
+"برای تنظیم نرخ فریم انیمیشن، در پنل **Project Files** راست‌کلیک کرده و "
+"**File Properties** را انتخاب کنید، سپس نرخ فریم را تنظیم کنید. پس از تنظیم "
+"نرخ فریم صحیح، انیمیشن را به جدول زمانی بکشید."
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:143
+msgid "File Properties"
+msgstr "خصوصیات فایل"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:143
+msgid ""
+"Select an image sequence in the **Project Files** panel, right click and "
+"choose **File Properties**"
+msgstr ""
+"یک دنباله تصویری را در پنل **Project Files** انتخاب کنید، راست‌کلیک کرده و "
+"**File Properties** را انتخاب کنید"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:144
+msgid "Frame Rate"
+msgstr "نرخ فریم"
+
+# Translated with gpt-4.1-mini
+#: ../animation.rst:144
+msgid ""
+"Adjust the frame rate of the animation. Typically, hand-drawn animations use"
+" 12 frames per second."
+msgstr ""
+"نرخ فریم انیمیشن را تنظیم کنید. معمولاً انیمیشن‌های دستی از ۱۲ فریم در ثانیه"
+" استفاده می‌کنند."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Colorful icons line the bottom of the clip for every keyframe "
+#~ "(`circle=Bézier`, `diamond=linear`, `square=constant`). Each icon matches "
+#~ "the color of its clip, effect, or transition. The selected item's keyframe "
+#~ "icons are shown brighter. Filtering the property list also filters these "
+#~ "icons. Click any icon to jump the play-head, load its properties, and select"
+#~ " its clip, effect, or transition. Drag an icon left or right to move the "
+#~ "keyframe and fine‑tune your animation timing."
+#~ msgstr ""
+#~ "آیکون‌های رنگی در پایین کلیپ برای هر فریم کلیدی قرار دارند (`circle=Bézier`،"
+#~ " `diamond=linear`، `square=constant`). هر آیکون با رنگ کلیپ، افکت یا انتقال "
+#~ "خود مطابقت دارد. آیکون‌های فریم کلیدی مورد انتخاب روشن‌تر نمایش داده "
+#~ "می‌شوند. فیلتر کردن لیست ویژگی‌ها این آیکون‌ها را نیز فیلتر می‌کند. روی هر "
+#~ "آیکون کلیک کنید تا سر پخش به آنجا برود، ویژگی‌های آن بارگذاری شود و کلیپ، "
+#~ "افکت یا انتقال آن انتخاب شود. آیکون را به چپ یا راست بکشید تا فریم کلیدی "
+#~ "جابجا شده و زمان‌بندی انیمیشن خود را دقیق‌تر تنظیم کنید."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The :guilabel:`Time` menu offers presets such as normal, fast, slow, freeze,"
+#~ " and reverse. See details in :ref:`clip_time_ref`."
+#~ msgstr ""
+#~ "منوی :guilabel:`Time` پیش‌تنظیم‌هایی مانند عادی، سریع، کند، توقف و معکوس را "
+#~ "ارائه می‌دهد. جزئیات را در :ref:`clip_time_ref` ببینید."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "To play a clip multiple times, use :guilabel:`Right-Click → Time → Repeat`."
+#~ msgstr ""
+#~ "برای پخش چندباره یک کلیپ، از :guilabel:`کلیک راست → زمان → تکرار` استفاده "
+#~ "کنید."

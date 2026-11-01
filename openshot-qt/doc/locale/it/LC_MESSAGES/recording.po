@@ -1,0 +1,1171 @@
+# Italian translations for OpenShot Video Editor package.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: 2026-08-30 16:50-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../recording.rst:23
+msgid "Recording"
+msgstr "Registrazione"
+
+#: ../recording.rst:25
+msgid ""
+"OpenShot can record a microphone, the desktop, and a webcam directly into "
+"the current project. You can enable one source or combine several in a "
+"synchronized recording session. Each source remains an independent media "
+"file and timeline clip, making it easy to adjust microphone volume, crop a "
+"webcam, or edit the screen capture separately."
+msgstr ""
+"OpenShot può registrare un microfono, il desktop e una webcam direttamente "
+"nel progetto corrente. Puoi abilitare una sorgente o combinarne diverse in "
+"una sessione di registrazione sincronizzata. Ogni sorgente rimane un file "
+"multimediale indipendente e un clip sulla timeline, rendendo facile regolare"
+" il volume del microfono, ritagliare una webcam o modificare separatamente "
+"la cattura dello schermo."
+
+# Main-window terminology review, 2026-09-26.
+#: ../recording.rst:29
+msgid ""
+"Open the dedicated layout with :guilabel:`View → Recording View`, or show "
+"only the dock with :guilabel:`View → Docks → Recording`."
+msgstr ""
+"Apri il layout dedicato con :guilabel:`Visualizza → Vista registrazione`, "
+"oppure mostra solo il dock con :guilabel:`Visualizza → Dock → "
+"Registrazione`."
+
+#: ../recording.rst:-1
+msgid "OpenShot Recording View with the microphone source selected by default"
+msgstr ""
+"Vista Registrazione di OpenShot con la sorgente microfono selezionata di "
+"default"
+
+#: ../recording.rst:36
+msgid "Quick Start"
+msgstr "Avvio Rapido"
+
+#: ../recording.rst:38
+msgid ""
+"Move the timeline playhead to the point where the recording should begin."
+msgstr ""
+"Sposta il cursore della timeline nel punto in cui deve iniziare la "
+"registrazione."
+
+# Main-window terminology review, 2026-09-26.
+#: ../recording.rst:39
+msgid "Open :guilabel:`View → Recording View`."
+msgstr "Apri :guilabel:`Visualizza → Vista registrazione`."
+
+#: ../recording.rst:40
+msgid ""
+"Enable :guilabel:`Mic`, :guilabel:`Screen`, :guilabel:`Webcam`, or any "
+"combination of them."
+msgstr ""
+"Abilita :guilabel:`Microfono`, :guilabel:`Schermo`, :guilabel:`Webcam` o "
+"qualsiasi combinazione di essi."
+
+#: ../recording.rst:41
+msgid ""
+"Select the destination :guilabel:`Track`. Multiple sources use adjacent "
+"tracks automatically. Select :guilabel:`No Track` to add completed "
+"recordings to :guilabel:`Project Files` without creating live previews or "
+"clips on the timeline. Choose whether the timeline :guilabel:`Preview` "
+"should play during Mic or Webcam recording."
+msgstr ""
+"Seleziona la :guilabel:`Traccia` di destinazione. Più sorgenti usano "
+"automaticamente tracce adiacenti. Seleziona :guilabel:`Nessuna Traccia` per "
+"aggiungere le registrazioni completate a :guilabel:`File di Progetto` senza "
+"creare anteprime live o clip sulla timeline. Scegli se la "
+":guilabel:`Anteprima` della timeline deve essere riprodotta durante la "
+"registrazione da Microfono o Webcam."
+
+#: ../recording.rst:44
+msgid ""
+"Open each source's :guilabel:`Advanced` section and verify its device and "
+"quality options."
+msgstr ""
+"Apri la sezione :guilabel:`Avanzate` di ogni sorgente e verifica le opzioni "
+"di dispositivo e qualità."
+
+#: ../recording.rst:45
+msgid ""
+"Click :guilabel:`Start Recording`. Perform the narration or action you want "
+"to capture."
+msgstr ""
+"Clicca su :guilabel:`Avvia Registrazione`. Esegui la narrazione o l'azione "
+"che vuoi catturare."
+
+#: ../recording.rst:46
+msgid ""
+"Click :guilabel:`Stop Recording`, either in the dock or from the recording "
+"status control."
+msgstr ""
+"Clicca su :guilabel:`Ferma Registrazione`, sia nel dock che dal controllo di"
+" stato della registrazione."
+
+#: ../recording.rst:47
+msgid ""
+"Wait briefly while OpenShot finishes the files. They are imported into "
+":guilabel:`Project Files` and, unless :guilabel:`No Track` is selected, "
+"placed on the timeline."
+msgstr ""
+"Attendi brevemente mentre OpenShot completa i file. Vengono importati in "
+":guilabel:`File di Progetto` e, a meno che non sia selezionato "
+":guilabel:`Nessuna Traccia`, posizionati sulla timeline."
+
+#: ../recording.rst:51
+msgid "Quick Audio Commentary"
+msgstr "Commento Audio Rapido"
+
+# Main-window terminology review, 2026-09-26.
+#: ../recording.rst:53
+msgid ""
+"To begin commentary at an existing clip, right-click the clip and choose "
+":guilabel:`Audio → Record`. OpenShot moves the playhead to the clip's first "
+"frame, opens the Recording dock, and selects the first available unlocked "
+"track below the clip. Verify that :guilabel:`Mic` is enabled, then click "
+":guilabel:`Start Recording`. The full :guilabel:`View → Recording View` "
+"remains the general entry point for screen, webcam, microphone, and combined"
+" recording sessions."
+msgstr ""
+"Per iniziare un commento su un clip esistente, clicca con il tasto destro "
+"sul clip e scegli :guilabel:`Audio → Registra`. OpenShot sposta il cursore "
+"sulla prima immagine del clip, apre il dock di registrazione e seleziona la "
+"prima traccia disponibile e sbloccata sotto il clip. Verifica che "
+":guilabel:`Microfono` sia abilitato, quindi clicca su :guilabel:`Avvia "
+"Registrazione`. La vista completa :guilabel:`Visualizza → Vista "
+"registrazione` rimane il punto di accesso generale per sessioni di "
+"registrazione di schermo, webcam, microfono e combinate."
+
+#: ../recording.rst:60
+msgid "Recording Sources"
+msgstr "Sorgenti di Registrazione"
+
+#: ../recording.rst:62
+msgid ""
+"The source cards at the top of the dock can be enabled independently. An "
+"unavailable card indicates that the required device, operating-system "
+"capture service, or libopenshot feature was not detected."
+msgstr ""
+"Le schede sorgente in cima al dock possono essere abilitate "
+"indipendentemente. Una scheda non disponibile indica che il dispositivo "
+"richiesto, il servizio di acquisizione del sistema operativo o la "
+"funzionalità libopenshot non sono stati rilevati."
+
+#: ../recording.rst:65
+msgid "Recorded sources and outputs"
+msgstr "Sorgenti e output registrati"
+
+#: ../recording.rst:69 ../recording.rst:107
+msgid "Source"
+msgstr "Sorgente"
+
+#: ../recording.rst:70
+msgid "Recorded File"
+msgstr "File Registrato"
+
+#: ../recording.rst:71
+msgid "Audio"
+msgstr "Audio"
+
+#: ../recording.rst:72
+msgid "Typical Use"
+msgstr "Uso Tipico"
+
+#: ../recording.rst:73 ../recording.rst:111 ../recording.rst:272
+msgid "Mic"
+msgstr "Microfono"
+
+#: ../recording.rst:74
+msgid "``Mic-<timestamp>``"
+msgstr "``Mic-<timestamp>``"
+
+#: ../recording.rst:75
+msgid "Microphone only"
+msgstr "Solo microfono"
+
+#: ../recording.rst:76
+msgid "Narration, voice-over, commentary, or interviews."
+msgstr "Narrazione, doppiaggio, commento o interviste."
+
+#: ../recording.rst:77 ../recording.rst:110 ../recording.rst:194
+#: ../recording.rst:275
+msgid "Screen"
+msgstr "Schermo"
+
+#: ../recording.rst:78
+msgid "``Screen-<timestamp>.mp4``"
+msgstr "``Screen-<timestamp>.mp4``"
+
+#: ../recording.rst:79
+msgid "Optional system audio"
+msgstr "Audio di sistema opzionale"
+
+#: ../recording.rst:80
+msgid "Tutorials, demonstrations, presentations, or games."
+msgstr "Tutorial, dimostrazioni, presentazioni o giochi."
+
+#: ../recording.rst:81 ../recording.rst:109
+msgid "Webcam"
+msgstr "Webcam"
+
+#: ../recording.rst:82
+msgid "``Webcam-<timestamp>.mp4``"
+msgstr "``Webcam-<timestamp>.mp4``"
+
+#: ../recording.rst:83
+msgid "No audio"
+msgstr "Nessun audio"
+
+#: ../recording.rst:84
+msgid "Presenter video or a picture-in-picture camera."
+msgstr "Video del presentatore o una telecamera picture-in-picture."
+
+#: ../recording.rst:86
+msgid ""
+"When Mic and Screen are enabled together, microphone audio is kept in its "
+"own file while system audio is embedded in the screen video. This separation"
+" is intentional: it lets you independently adjust, mute, fade, or process "
+"the voice and computer audio during editing. Webcam video has no audio, "
+"avoiding a duplicate microphone track and echo."
+msgstr ""
+"Quando Microfono e Schermo sono abilitati insieme, l'audio del microfono "
+"viene mantenuto in un file separato mentre l'audio di sistema è incorporato "
+"nel video dello schermo. Questa separazione è intenzionale: permette di "
+"regolare, silenziare, dissolvere o elaborare indipendentemente la voce e "
+"l'audio del computer durante la modifica. Il video della webcam non ha "
+"audio, evitando tracce microfono duplicate ed eco."
+
+#: ../recording.rst:91
+msgid "Live Feedback and Timeline Placement"
+msgstr "Feedback in tempo reale e posizionamento sulla timeline"
+
+#: ../recording.rst:93
+msgid ""
+"The microphone meter responds before and during recording, which helps "
+"confirm that the selected input is working. During recording, OpenShot draws"
+" a temporary clip and live microphone waveform on the timeline. The "
+"completed files replace these previews after recording stops."
+msgstr ""
+"Il misuratore del microfono risponde prima e durante la registrazione, "
+"aiutando a confermare che l'ingresso selezionato funziona. Durante la "
+"registrazione, OpenShot disegna un clip temporaneo e un'onda sonora del "
+"microfono in tempo reale sulla timeline. I file completati sostituiscono "
+"queste anteprime dopo che la registrazione si ferma."
+
+#: ../recording.rst:97
+msgid ""
+"Select :guilabel:`No Track` in the Track list when you want to capture media"
+" without adding live objects or completed clips to the timeline. The "
+"finished recordings are still imported into :guilabel:`Project Files`, ready"
+" to preview, organize, or add to the timeline later. This is useful when "
+"recording several takes before choosing which one to edit."
+msgstr ""
+"Seleziona :guilabel:`Nessuna Traccia` nella lista delle tracce quando vuoi "
+"acquisire media senza aggiungere oggetti live o clip completati alla "
+"timeline. Le registrazioni finite vengono comunque importate in "
+":guilabel:`File di Progetto`, pronte per essere visualizzate, organizzate o "
+"aggiunte alla timeline in seguito. Questo è utile quando si registrano più "
+"take prima di scegliere quale modificare."
+
+#: ../recording.rst:101
+msgid ""
+"All enabled sources start at the same timeline position. OpenShot stacks "
+"them in a useful compositing order:"
+msgstr ""
+"Tutte le sorgenti abilitate iniziano nella stessa posizione sulla timeline. "
+"OpenShot le impila in un ordine di composizione utile:"
+
+#: ../recording.rst:103
+msgid "Default source stack"
+msgstr "Impilamento sorgenti predefinito"
+
+#: ../recording.rst:107
+msgid "Placement"
+msgstr "Posizionamento"
+
+#: ../recording.rst:109
+msgid "Highest assigned track, so a corner camera appears on top."
+msgstr ""
+"Traccia assegnata più alta, così una telecamera angolare appare sopra."
+
+#: ../recording.rst:110
+msgid "Below the webcam and above microphone audio."
+msgstr "Sotto la webcam e sopra l'audio del microfono."
+
+#: ../recording.rst:111
+msgid "Lowest assigned track because it contains audio only."
+msgstr "Traccia assegnata più bassa perché contiene solo audio."
+
+#: ../recording.rst:114
+msgid ""
+"If there are not enough tracks below the selected track, OpenShot creates or"
+" selects additional tracks as needed. Recordings are also added to "
+":guilabel:`Project Files`, so they can be reused even if you remove their "
+"first timeline clips."
+msgstr ""
+"Se non ci sono tracce sufficienti sotto la traccia selezionata, OpenShot "
+"crea o seleziona tracce aggiuntive secondo necessità. Le registrazioni "
+"vengono inoltre aggiunte a :guilabel:`File di Progetto`, così possono essere"
+" riutilizzate anche se rimuovi i loro primi clip dalla timeline."
+
+#: ../recording.rst:119
+msgid "Timeline Preview During Recording"
+msgstr "Anteprima della Timeline Durante la Registrazione"
+
+#: ../recording.rst:121
+msgid ""
+"The :guilabel:`Preview` control beside :guilabel:`Track` can play the "
+"project from the current playhead while a Mic, Webcam, or combined Mic + "
+"Webcam recording is captured. This is useful for voice-over, commentary, and"
+" reaction videos. Stopping the recording also stops timeline playback when "
+"the recorder started it."
+msgstr ""
+"Il controllo :guilabel:`Anteprima` accanto a :guilabel:`Traccia` può "
+"riprodurre il progetto dalla posizione corrente del cursore mentre viene "
+"effettuata una registrazione da Microfono, Webcam o Microfono + Webcam "
+"combinati. Questo è utile per doppiaggi, commenti e video di reazione. "
+"Interrompere la registrazione ferma anche la riproduzione della timeline se "
+"è stata avviata dal registratore."
+
+#: ../recording.rst:125
+msgid "Preview options"
+msgstr "Opzioni di anteprima"
+
+#: ../recording.rst:129 ../recording.rst:152 ../recording.rst:192
+#: ../recording.rst:242
+msgid "Option"
+msgstr "Opzione"
+
+#: ../recording.rst:129
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: ../recording.rst:131
+msgid "Off"
+msgstr "Disattivato"
+
+#: ../recording.rst:131
+msgid "Records without starting timeline playback."
+msgstr "Registra senza avviare la riproduzione della timeline."
+
+#: ../recording.rst:132
+msgid "Full"
+msgstr "Completo"
+
+#: ../recording.rst:132
+msgid "Plays the timeline using the normal preview resolution."
+msgstr "Riproduce la timeline usando la risoluzione normale di anteprima."
+
+#: ../recording.rst:133
+msgid "Half"
+msgstr "Metà"
+
+#: ../recording.rst:133
+msgid "Reduces preview rendering resolution to improve recording performance."
+msgstr ""
+"Riduce la risoluzione di rendering dell'anteprima per migliorare le "
+"prestazioni di registrazione."
+
+#: ../recording.rst:134
+msgid "Quarter"
+msgstr "Un quarto"
+
+#: ../recording.rst:134
+msgid ""
+"Uses the lowest preview resolution for demanding projects or slower "
+"computers."
+msgstr ""
+"Usa la risoluzione di anteprima più bassa per progetti impegnativi o "
+"computer più lenti."
+
+#: ../recording.rst:137
+msgid ""
+"Preview resolution changes only the temporary OpenShot preview. It does not "
+"reduce the resolution or quality of the recorded Mic or Webcam files. Use "
+"headphones when the timeline contains audio so the microphone does not "
+"record the speakers. When :guilabel:`Screen` is selected, Preview is forced "
+"to :guilabel:`Off` and disabled; deselecting Screen restores the previous "
+"choice."
+msgstr ""
+"La risoluzione dell'anteprima modifica solo l'anteprima temporanea di "
+"OpenShot. Non riduce la risoluzione o la qualità dei file registrati da "
+"Microfono o Webcam. Usa le cuffie quando la timeline contiene audio per "
+"evitare che il microfono registri gli altoparlanti. Quando è selezionato "
+":guilabel:`Schermo`, l'anteprima viene forzata su :guilabel:`Disattivato` e "
+"disabilitata; deselezionare Schermo ripristina la scelta precedente."
+
+#: ../recording.rst:143
+msgid "Microphone Recording"
+msgstr "Registrazione Microfono"
+
+#: ../recording.rst:145
+msgid ""
+"Enable :guilabel:`Mic` to record narration as a separate audio file. Use the"
+" Mono/Stereo control beside the level meter for the common channel choice, "
+"and open :guilabel:`Advanced` for all settings."
+msgstr ""
+"Abilita :guilabel:`Microfono` per registrare la narrazione come file audio "
+"separato. Usa il controllo Mono/Stereo accanto al misuratore di livello per "
+"la scelta comune del canale, e apri :guilabel:`Avanzate` per tutte le "
+"impostazioni."
+
+#: ../recording.rst:148
+msgid "Microphone options"
+msgstr "Opzioni microfono"
+
+#: ../recording.rst:152
+msgid "Typical Default"
+msgstr "Predefinito Tipico"
+
+#: ../recording.rst:152 ../recording.rst:175 ../recording.rst:192
+#: ../recording.rst:242
+msgid "Description"
+msgstr "Descrizione"
+
+#: ../recording.rst:154 ../recording.rst:244
+msgid "Input"
+msgstr "Ingresso"
+
+#: ../recording.rst:154
+msgid "System input"
+msgstr "Ingresso di sistema"
+
+#: ../recording.rst:154
+msgid "Selects the microphone or audio-input device."
+msgstr "Seleziona il microfono o il dispositivo di ingresso audio."
+
+#: ../recording.rst:155
+msgid "Format"
+msgstr "Formato"
+
+#: ../recording.rst:155
+msgid "FLAC"
+msgstr "FLAC"
+
+#: ../recording.rst:155
+msgid ""
+"Chooses WAV, FLAC, or MP3. FLAC is lossless with smaller files than WAV."
+msgstr ""
+"Sceglie tra WAV, FLAC o MP3. FLAC è lossless con file più piccoli rispetto a"
+" WAV."
+
+#: ../recording.rst:156
+msgid "Sample Rate"
+msgstr "Frequenza di campionamento"
+
+#: ../recording.rst:156
+msgid "48000 Hz"
+msgstr "48000 Hz"
+
+#: ../recording.rst:156
+msgid ""
+"Sets the recording sample rate. Match the device and project when possible."
+msgstr ""
+"Imposta la frequenza di campionamento della registrazione. Abbina il "
+"dispositivo e il progetto quando possibile."
+
+#: ../recording.rst:157
+msgid "Channels"
+msgstr "Canali"
+
+#: ../recording.rst:157
+msgid "Mono"
+msgstr "Mono"
+
+#: ../recording.rst:157
+msgid ""
+"Records one or two input channels. Mono is usually best for one microphone."
+msgstr ""
+"Registra uno o due canali di ingresso. Mono è solitamente il migliore per un"
+" solo microfono."
+
+#: ../recording.rst:160
+msgid ""
+"Aim for a healthy meter response without clipping. A quiet waveform should "
+"remain visually quiet; OpenShot no longer normalizes every newly generated "
+"waveform to full height. The lighter peak envelope highlights transients "
+"while the solid RMS envelope summarizes sustained energy. Their detail is "
+"controlled by :guilabel:`Edit → Preferences → Timeline → Waveform Samples "
+"(per second)`. See :ref:`clip_presets_ref` for waveform display and audio "
+"volume controls after recording."
+msgstr ""
+"Punta a una risposta del misuratore sana senza clipping. Un'onda silenziosa "
+"dovrebbe rimanere visivamente silenziosa; OpenShot non normalizza più ogni "
+"nuova forma d'onda generata all'altezza massima. L'inviluppo di picco più "
+"chiaro evidenzia i transienti mentre l'inviluppo RMS solido riassume "
+"l'energia sostenuta. Il loro dettaglio è controllato da :guilabel:`Modifica "
+"→ Preferenze → Timeline → Campioni Forma d'Onda (per secondo)`. Vedi "
+":ref:`clip_presets_ref` per la visualizzazione della forma d'onda e i "
+"controlli del volume audio dopo la registrazione."
+
+#: ../recording.rst:167
+msgid "Screen Recording"
+msgstr "Registrazione Schermo"
+
+#: ../recording.rst:169
+msgid "Enable :guilabel:`Screen`, then choose a capture mode:"
+msgstr ""
+"Abilita :guilabel:`Schermo`, quindi scegli una modalità di acquisizione:"
+
+#: ../recording.rst:171
+msgid "Screen capture modes"
+msgstr "Modalità di acquisizione schermo"
+
+#: ../recording.rst:175
+msgid "Mode"
+msgstr "Modalità"
+
+#: ../recording.rst:177
+msgid "Full Screen"
+msgstr "Schermo Intero"
+
+#: ../recording.rst:177
+msgid "Captures the selected display or combined desktop area."
+msgstr "Acquisisce il display selezionato o l'area desktop combinata."
+
+#: ../recording.rst:178
+msgid "Window"
+msgstr "Finestra"
+
+#: ../recording.rst:178
+msgid ""
+"Click a window to capture its bounds. Availability and exact behavior depend"
+" on the platform."
+msgstr ""
+"Clicca una finestra per acquisirne i confini. Disponibilità e comportamento "
+"esatto dipendono dalla piattaforma."
+
+#: ../recording.rst:179
+msgid "Region"
+msgstr "Regione"
+
+#: ../recording.rst:179
+msgid ""
+"Drag or select a rectangular desktop area. Availability depends on the "
+"platform."
+msgstr ""
+"Trascina o seleziona un'area rettangolare del desktop. La disponibilità "
+"dipende dalla piattaforma."
+
+#: ../recording.rst:182
+msgid ""
+"On Wayland desktops, the operating system's sharing portal asks which screen"
+" or window to share when recording starts. The numeric window and region "
+"controls are hidden because selection belongs to that portal."
+msgstr ""
+"Nei desktop Wayland, il portale di condivisione del sistema operativo chiede"
+" quale schermo o finestra condividere all'avvio della registrazione. I "
+"controlli numerici per finestra e regione sono nascosti perché la selezione "
+"appartiene a quel portale."
+
+#: ../recording.rst:186
+msgid "Screen Advanced Options"
+msgstr "Opzioni Avanzate Schermo"
+
+#: ../recording.rst:188
+msgid "Screen options"
+msgstr "Opzioni schermo"
+
+#: ../recording.rst:192
+msgid "Default"
+msgstr "Predefinito"
+
+#: ../recording.rst:194
+msgid "Primary display"
+msgstr "Display principale"
+
+#: ../recording.rst:194
+msgid "Selects a display or the complete desktop when supported."
+msgstr "Seleziona un display o l'intero desktop quando supportato."
+
+#: ../recording.rst:195
+msgid "Offset"
+msgstr "Offset"
+
+#: ../recording.rst:195 ../recording.rst:196
+msgid "Selected bounds"
+msgstr "Confini selezionati"
+
+#: ../recording.rst:195
+msgid "Sets the capture area's X and Y desktop coordinates."
+msgstr "Imposta le coordinate X e Y dell'area di acquisizione sul desktop."
+
+#: ../recording.rst:196 ../recording.rst:248
+msgid "Size"
+msgstr "Dimensione"
+
+#: ../recording.rst:196
+msgid ""
+"Sets capture width and height. OpenShot uses encoder-safe even dimensions."
+msgstr ""
+"Imposta larghezza e altezza di acquisizione. OpenShot usa dimensioni pari "
+"sicure per l'encoder."
+
+#: ../recording.rst:197
+msgid "FPS"
+msgstr "FPS"
+
+#: ../recording.rst:197
+msgid "30"
+msgstr "30"
+
+#: ../recording.rst:197
+msgid "Sets the screen recording frame rate: 15, 24, 30, or 60 FPS."
+msgstr ""
+"Imposta il frame rate della registrazione schermo: 15, 24, 30 o 60 FPS."
+
+#: ../recording.rst:198 ../recording.rst:211
+msgid "System Audio"
+msgstr "Audio di sistema"
+
+#: ../recording.rst:198 ../recording.rst:199
+msgid "On"
+msgstr "Attivato"
+
+#: ../recording.rst:198
+msgid "Embeds computer playback audio in the screen MP4 when supported."
+msgstr ""
+"Incorpora l'audio di riproduzione del computer nel video MP4 dello schermo "
+"quando supportato."
+
+#: ../recording.rst:199
+msgid "Cursor"
+msgstr "Cursore"
+
+#: ../recording.rst:199
+msgid "Includes the mouse pointer in the screen recording."
+msgstr "Include il puntatore del mouse nella registrazione dello schermo."
+
+#: ../recording.rst:200
+msgid "Hide OpenShot"
+msgstr "Nascondi OpenShot"
+
+#: ../recording.rst:200
+msgid "No"
+msgstr "No"
+
+#: ../recording.rst:200
+msgid ""
+"Temporarily hides OpenShot during selection and recording when enabled."
+msgstr ""
+"Nasconde temporaneamente OpenShot durante la selezione e la registrazione "
+"quando abilitato."
+
+#: ../recording.rst:205
+msgid ""
+"On some Windows systems using high-DPI display scaling, the mouse pointer "
+"may be displaced or missing from screen recordings made on a scaled display."
+" If pointer visibility is important, record on a display configured at 100% "
+"scaling, temporarily set the target display to 100%, or use a separate "
+"screen-capture application. Screen video is still recorded normally, and "
+"setting :guilabel:`Cursor` to :guilabel:`Off` avoids the affected pointer "
+"overlay."
+msgstr ""
+"Su alcuni sistemi Windows con scaling del display ad alta DPI, il puntatore "
+"del mouse può essere spostato o mancare nelle registrazioni dello schermo "
+"effettuate su un display scalato. Se la visibilità del puntatore è "
+"importante, registra su un display configurato al 100% di scaling, imposta "
+"temporaneamente il display di destinazione al 100% o usa un'applicazione "
+"separata per la cattura dello schermo. Il video dello schermo viene comunque"
+" registrato normalmente, e impostare :guilabel:`Cursor` su :guilabel:`Off` "
+"evita la sovrapposizione del puntatore interessata."
+
+#: ../recording.rst:213
+msgid ""
+":guilabel:`System Audio` is enabled by default on supported capture "
+"backends. It records sound playing through the computer—such as a game, "
+"browser, media player, or presentation—inside the screen recording. It does "
+"not replace the Mic source. Enable both sources when you want system audio "
+"and commentary on independently editable clips."
+msgstr ""
+":guilabel:`Audio di sistema` è abilitato di default sui backend di "
+"acquisizione supportati. Registra il suono riprodotto dal computer—come un "
+"gioco, browser, lettore multimediale o presentazione—dentro la registrazione"
+" dello schermo. Non sostituisce la sorgente Microfono. Abilita entrambe le "
+"sorgenti quando vuoi audio di sistema e commento su clip modificabili "
+"indipendentemente."
+
+#: ../recording.rst:217
+msgid ""
+"If the control is disabled, the active platform or libopenshot build does "
+"not provide system-audio capture. OpenShot forces the option Off rather than"
+" producing a misleading silent audio track. Operating-system privacy "
+"settings and audio-routing configuration can also affect capture."
+msgstr ""
+"Se il controllo è disabilitato, la piattaforma attiva o la build di "
+"libopenshot non forniscono la cattura dell'audio di sistema. OpenShot forza "
+"l'opzione su Off piuttosto che produrre una traccia audio silenziosa "
+"fuorviante. Le impostazioni di privacy del sistema operativo e la "
+"configurazione del routing audio possono influenzare la cattura."
+
+#: ../recording.rst:223
+msgid ""
+"System Audio recording is not currently available on macOS. Screen video, "
+"microphone, and webcam recording remain available, but the :guilabel:`System"
+" Audio` option is disabled and forced to :guilabel:`Off`."
+msgstr ""
+"La registrazione dell'audio di sistema non è attualmente disponibile su "
+"macOS. La registrazione del video dello schermo, del microfono e della "
+"webcam rimane disponibile, ma l'opzione :guilabel:`Audio di sistema` è "
+"disabilitata e forzata su :guilabel:`Off`."
+
+#: ../recording.rst:228
+msgid ""
+"Avoid playing captured system audio through speakers while also recording a "
+"microphone unless that sound is intentional. Headphones reduce echo and "
+"prevent the microphone from recording the speakers a second time."
+msgstr ""
+"Evita di riprodurre l'audio di sistema catturato attraverso gli altoparlanti"
+" mentre registri anche il microfono, a meno che quel suono non sia "
+"intenzionale. Le cuffie riducono l'eco e impediscono al microfono di "
+"registrare gli altoparlanti una seconda volta."
+
+#: ../recording.rst:232
+msgid "Webcam Recording"
+msgstr "Registrazione Webcam"
+
+#: ../recording.rst:234
+msgid ""
+"Enable :guilabel:`Webcam` to record a camera as a silent video clip. A live "
+"preview helps verify framing before you start. When Screen is also enabled, "
+"the default layout is a rounded, 30% camera in the bottom-right corner. When"
+" the webcam is recorded alone, it defaults to full size."
+msgstr ""
+"Abilita :guilabel:`Webcam` per registrare una videocamera come clip video "
+"silenziosa. Una anteprima live aiuta a verificare l'inquadratura prima di "
+"iniziare. Quando anche lo Schermo è abilitato, il layout predefinito è una "
+"videocamera arrotondata al 30% nell'angolo in basso a destra. Quando la "
+"webcam è registrata da sola, è impostata di default a dimensione intera."
+
+#: ../recording.rst:238
+msgid "Webcam options"
+msgstr "Opzioni Webcam"
+
+#: ../recording.rst:244
+msgid "Selects an available webcam or video-capture device."
+msgstr "Seleziona una webcam o dispositivo di acquisizione video disponibile."
+
+#: ../recording.rst:245
+msgid "Resolution"
+msgstr "Risoluzione"
+
+#: ../recording.rst:245
+msgid "Selects a resolution reported by the camera."
+msgstr "Seleziona una risoluzione riportata dalla videocamera."
+
+#: ../recording.rst:246
+msgid "Record FPS"
+msgstr "FPS di registrazione"
+
+#: ../recording.rst:246
+msgid "Selects a frame rate supported at the chosen resolution."
+msgstr "Seleziona un frame rate supportato alla risoluzione scelta."
+
+#: ../recording.rst:247
+msgid "Layout"
+msgstr "Layout"
+
+#: ../recording.rst:247
+msgid ""
+"Chooses Bottom/Top Left/Right, Left, Right, Center, or Full Size placement."
+msgstr ""
+"Sceglie la posizione in basso/alto sinistra/destra, sinistra, destra, centro"
+" o dimensione intera."
+
+#: ../recording.rst:248
+msgid "Sets a corner camera to 20%, 30%, or 40% of the project frame."
+msgstr ""
+"Imposta una videocamera angolare al 20%, 30% o 40% del fotogramma del "
+"progetto."
+
+#: ../recording.rst:249
+msgid "Corners"
+msgstr "Angoli"
+
+#: ../recording.rst:249
+msgid "Uses Rectangle, Rounded, or Oval camera corners."
+msgstr "Usa angoli della videocamera rettangolari, arrotondati o ovali."
+
+#: ../recording.rst:252
+msgid ""
+"Layout choices are applied as ordinary clip properties. After recording, use"
+" :guilabel:`Gravity`, :guilabel:`Scale X`, :guilabel:`Scale Y`, "
+":guilabel:`Margin`, and :guilabel:`Corner Radius` to refine the result. See "
+":ref:`clip_properties_ref`."
+msgstr ""
+"Le scelte di layout sono applicate come normali proprietà della clip. Dopo "
+"la registrazione, usa :guilabel:`Gravity`, :guilabel:`Scale X`, "
+":guilabel:`Scale Y`, :guilabel:`Margin` e :guilabel:`Corner Radius` per "
+"perfezionare il risultato. Vedi :ref:`clip_properties_ref`."
+
+#: ../recording.rst:257
+msgid "Combining Sources"
+msgstr "Combinazione delle sorgenti"
+
+#: ../recording.rst:259
+msgid ""
+"The Recording View keeps all enabled source controls together while leaving "
+"the preview and timeline visible."
+msgstr ""
+"La Vista di Registrazione mantiene tutti i controlli delle sorgenti "
+"abilitate insieme lasciando visibili anteprima e timeline."
+
+#: ../recording.rst:-1
+msgid ""
+"OpenShot Recording View with microphone, screen, and webcam sources selected"
+msgstr ""
+"Vista di Registrazione OpenShot con sorgenti microfono, schermo e webcam "
+"selezionate"
+
+#: ../recording.rst:264
+msgid "Useful recording combinations"
+msgstr "Combinazioni di registrazione utili"
+
+#: ../recording.rst:268
+msgid "Workflow"
+msgstr "Flusso di lavoro"
+
+#: ../recording.rst:269
+msgid "Enable"
+msgstr "Abilita"
+
+#: ../recording.rst:270
+msgid "Result"
+msgstr "Risultato"
+
+#: ../recording.rst:271
+msgid "Voice-over"
+msgstr "Doppiaggio"
+
+#: ../recording.rst:273
+msgid "One editable narration file."
+msgstr "Un file di narrazione modificabile."
+
+#: ../recording.rst:274
+msgid "Silent tutorial"
+msgstr "Tutorial silenzioso"
+
+#: ../recording.rst:276
+msgid "Screen MP4; turn System Audio Off if silence is desired."
+msgstr ""
+"MP4 dello schermo; disattiva Audio di sistema se desideri il silenzio."
+
+#: ../recording.rst:277
+msgid "Game commentary"
+msgstr "Commento di gioco"
+
+#: ../recording.rst:278
+msgid "Mic + Screen"
+msgstr "Microfono + Schermo"
+
+#: ../recording.rst:279
+msgid "Separate mic clip plus screen video with game audio."
+msgstr "Clip microfono separata più video dello schermo con audio di gioco."
+
+#: ../recording.rst:280
+msgid "Presenter camera"
+msgstr "Videocamera presentatore"
+
+#: ../recording.rst:281
+msgid "Mic + Webcam"
+msgstr "Microfono + Webcam"
+
+#: ../recording.rst:282
+msgid "Separate voice and silent camera video."
+msgstr "Voce separata e video della videocamera silenzioso."
+
+#: ../recording.rst:283
+msgid "Tutorial with camera"
+msgstr "Tutorial con videocamera"
+
+#: ../recording.rst:284
+msgid "Mic + Screen + Webcam"
+msgstr "Microfono + Schermo + Webcam"
+
+#: ../recording.rst:285
+msgid "Three synchronized clips with webcam above the screen."
+msgstr "Tre clip sincronizzate con la webcam sopra lo schermo."
+
+#: ../recording.rst:288
+msgid "Where Recordings Are Saved"
+msgstr "Dove vengono salvate le registrazioni"
+
+#: ../recording.rst:290
+msgid ""
+"Recordings are saved in the project's assets folder under ``recordings``. If"
+" the project has not been saved yet, OpenShot uses its user-data location. "
+"Filenames contain the source name and a timestamp; another numeric suffix "
+"avoids overwriting a file created during the same second."
+msgstr ""
+"Le registrazioni sono salvate nella cartella assets del progetto sotto "
+"``recordings``. Se il progetto non è ancora stato salvato, OpenShot usa la "
+"sua posizione dati utente. I nomi dei file contengono il nome della sorgente"
+" e un timestamp; un altro suffisso numerico evita di sovrascrivere un file "
+"creato nello stesso secondo."
+
+#: ../recording.rst:294
+msgid ""
+"Save the project before a long or important session so its recording "
+"destination is predictable. Do not move or rename recorded files outside "
+"OpenShot while the project is using them."
+msgstr ""
+"Salva il progetto prima di una sessione lunga o importante affinché la "
+"destinazione della registrazione sia prevedibile. Non spostare o rinominare "
+"i file registrati al di fuori di OpenShot mentre il progetto li sta usando."
+
+#: ../recording.rst:298
+msgid "Permissions and Platform Behavior"
+msgstr "Autorizzazioni e comportamento della piattaforma"
+
+#: ../recording.rst:300
+msgid ""
+"Screen and camera capture depend on operating-system services, hardware, and"
+" build support. The controls in the dock adapt to the available backend."
+msgstr ""
+"La cattura dello schermo e della fotocamera dipende dai servizi del sistema "
+"operativo, dall'hardware e dal supporto di compilazione. I controlli nel "
+"dock si adattano al backend disponibile."
+
+#: ../recording.rst:303
+msgid ""
+"**Linux/X11:** Full-screen, window, and numeric region capture are available"
+" when the X11 capture backend is built."
+msgstr ""
+"**Linux/X11:** La cattura a schermo intero, della finestra e di una regione "
+"numerica è disponibile quando il backend di cattura X11 è compilato."
+
+#: ../recording.rst:304
+msgid ""
+"**Linux/Wayland:** The desktop sharing portal chooses the capture source "
+"after recording starts."
+msgstr ""
+"**Linux/Wayland:** Il portale di condivisione del desktop sceglie la "
+"sorgente di cattura dopo l'inizio della registrazione."
+
+#: ../recording.rst:305
+msgid ""
+"**Windows:** Desktop capture uses the available Windows screen backend; "
+"camera devices use Windows capture services."
+msgstr ""
+"**Windows:** La cattura del desktop utilizza il backend dello schermo "
+"Windows disponibile; i dispositivi della fotocamera utilizzano i servizi di "
+"cattura di Windows."
+
+#: ../recording.rst:306
+msgid ""
+"**macOS:** Screen capture uses the supported macOS backend, with window and "
+"region choices represented as cropped screen bounds when required. System "
+"Audio recording is not currently supported; microphone recording remains "
+"available as a separate audio source."
+msgstr ""
+"**macOS:** La cattura dello schermo utilizza il backend macOS supportato, "
+"con scelte di finestra e regione rappresentate come limiti dello schermo "
+"ritagliati quando necessario. La registrazione dell'audio di sistema non è "
+"attualmente supportata; la registrazione del microfono rimane disponibile "
+"come sorgente audio separata."
+
+#: ../recording.rst:310
+msgid ""
+"The first recording may trigger Screen Recording, Microphone, Camera, or "
+"desktop-sharing permission prompts. Approve the requested source, then "
+"restart OpenShot if the operating system requires it. A disabled source card"
+" or option is preferable to a recording that silently omits an unsupported "
+"source."
+msgstr ""
+"La prima registrazione può attivare richieste di autorizzazione per "
+"Registrazione Schermo, Microfono, Fotocamera o condivisione desktop. Approva"
+" la sorgente richiesta, quindi riavvia OpenShot se il sistema operativo lo "
+"richiede. Una scheda o opzione sorgente disabilitata è preferibile a una "
+"registrazione che omette silenziosamente una sorgente non supportata."
+
+#: ../recording.rst:315
+msgid "Troubleshooting Recording"
+msgstr "Risoluzione dei problemi di registrazione"
+
+#: ../recording.rst:317
+msgid "Common recording problems"
+msgstr "Problemi comuni di registrazione"
+
+#: ../recording.rst:321
+msgid "Problem"
+msgstr "Problema"
+
+#: ../recording.rst:321
+msgid "What to Check"
+msgstr "Cosa controllare"
+
+#: ../recording.rst:323
+msgid "Mic meter does not move"
+msgstr "Il misuratore del microfono non si muove"
+
+#: ../recording.rst:323
+msgid ""
+"Select the correct Input, verify OS microphone permission, and check "
+"mute/gain."
+msgstr ""
+"Seleziona l'ingresso corretto, verifica le autorizzazioni del microfono nel "
+"sistema operativo e controlla muto/guadagno."
+
+#: ../recording.rst:324
+msgid "Mic clips or distorts"
+msgstr "Il microfono satura o distorce"
+
+#: ../recording.rst:324
+msgid "Lower hardware/input gain and keep peaks below full scale."
+msgstr ""
+"Abbassa il guadagno hardware/ingresso e mantieni i picchi sotto il livello "
+"massimo."
+
+#: ../recording.rst:325
+msgid "Mic is very quiet"
+msgstr "Il microfono è molto silenzioso"
+
+#: ../recording.rst:325
+msgid ""
+"Raise input gain near the device; timeline waveform height does not change "
+"audio."
+msgstr ""
+"Aumenta il guadagno di ingresso vicino al dispositivo; l'altezza dell'onda "
+"nella timeline non modifica l'audio."
+
+#: ../recording.rst:326
+msgid "System Audio is disabled"
+msgstr "L'audio di sistema è disabilitato"
+
+#: ../recording.rst:326
+msgid ""
+"The active screen backend/build does not support it; check platform audio "
+"routing."
+msgstr ""
+"Il backend/build dello schermo attivo non lo supporta; controlla il routing "
+"audio della piattaforma."
+
+#: ../recording.rst:327
+msgid "System Audio is silent"
+msgstr "L'audio di sistema è silenzioso"
+
+#: ../recording.rst:327
+msgid ""
+"Play audio before testing, verify the output device, and inspect OS "
+"privacy/routing."
+msgstr ""
+"Riproduci audio prima del test, verifica il dispositivo di uscita e "
+"controlla privacy/routing del sistema operativo."
+
+#: ../recording.rst:328
+msgid "Voice contains game echo"
+msgstr "La voce contiene eco del gioco"
+
+#: ../recording.rst:328
+msgid "Use headphones so the mic does not capture speaker playback."
+msgstr ""
+"Usa le cuffie in modo che il microfono non catturi la riproduzione dagli "
+"altoparlanti."
+
+#: ../recording.rst:329
+msgid "Screen source is incorrect"
+msgstr "La sorgente dello schermo è errata"
+
+#: ../recording.rst:329
+msgid ""
+"Re-select Full Screen/Window/Region; on Wayland, choose again in the portal."
+msgstr ""
+"Seleziona nuovamente Schermo intero/Finestra/Regione; su Wayland, scegli di "
+"nuovo nel portale."
+
+#: ../recording.rst:330
+msgid "Cursor missing on Windows"
+msgstr "Cursore mancante su Windows"
+
+#: ../recording.rst:330
+msgid ""
+"High-DPI scaling can affect the pointer overlay; try the target display at "
+"100%."
+msgstr ""
+"La scalatura High-DPI può influenzare la sovrapposizione del puntatore; "
+"prova il display di destinazione al 100%."
+
+#: ../recording.rst:331
+msgid "Webcam is unavailable"
+msgstr "La webcam non è disponibile"
+
+#: ../recording.rst:331
+msgid ""
+"Check camera permission, close other camera apps, and reconnect the device."
+msgstr ""
+"Controlla le autorizzazioni della fotocamera, chiudi altre app della "
+"fotocamera e ricollega il dispositivo."
+
+#: ../recording.rst:332
+msgid "Recording is choppy"
+msgstr "La registrazione è a scatti"
+
+#: ../recording.rst:332
+msgid ""
+"Lower screen/camera FPS or resolution and close CPU-intensive applications."
+msgstr ""
+"Abbassa FPS o risoluzione dello schermo/fotocamera e chiudi applicazioni che"
+" usano intensamente la CPU."
+
+#: ../recording.rst:333
+msgid "Clips appear on wrong track"
+msgstr "I clip appaiono sulla traccia sbagliata"
+
+#: ../recording.rst:333
+msgid ""
+"Choose the top destination Track before recording, then move clips if "
+"needed."
+msgstr ""
+"Scegli la traccia di destinazione principale prima della registrazione, poi "
+"sposta i clip se necessario."
+
+#: ../recording.rst:337
+msgid "After Recording"
+msgstr "Dopo la registrazione"
+
+#: ../recording.rst:339
+msgid ""
+"Recorded clips behave like imported media. You can trim, slice, move, mute, "
+"fade, add effects, and adjust volume or layout with the standard editing "
+"tools. Useful next topics are:"
+msgstr ""
+"I clip registrati si comportano come media importati. Puoi tagliare, "
+"affettare, spostare, silenziare, dissolvere, aggiungere effetti e regolare "
+"volume o layout con gli strumenti di editing standard. I prossimi argomenti "
+"utili sono:"
+
+#: ../recording.rst:342
+msgid ":ref:`clips_cutting_slicing_ref` for trimming and slicing."
+msgstr ":ref:`clips_cutting_slicing_ref` per tagliare e affettare."
+
+#: ../recording.rst:343
+msgid ""
+":ref:`clip_presets_ref` for waveform, volume, fade, and other clip actions."
+msgstr ""
+":ref:`clip_presets_ref` per forma d'onda, volume, dissolvenza e altre azioni"
+" sui clip."
+
+#: ../recording.rst:344
+msgid ""
+":ref:`clip_properties_ref` for webcam placement and detailed adjustments."
+msgstr ""
+":ref:`clip_properties_ref` per il posizionamento della webcam e regolazioni "
+"dettagliate."
+
+#: ../recording.rst:345
+msgid ":ref:`playback_ref` for playback and audio troubleshooting."
+msgstr ""
+":ref:`playback_ref` per la riproduzione e la risoluzione dei problemi audio."

@@ -1,0 +1,436 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:21
+msgid "Video Editing Basics"
+msgstr "비디오 편집 기초"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:23
+msgid ""
+"You do not need to be a trained videographer to understand how to create "
+"videos well. Simple editing can keep your viewers engaged longer, and add a "
+"professional feel, even if you are not a professional video editor."
+msgstr ""
+"비디오를 잘 만드는 데 전문 비디오그래퍼가 될 필요는 없습니다. 간단한 편집만으로도 시청자의 관심을 더 오래 유지하고, 전문 비디오 "
+"편집자가 아니더라도 전문적인 느낌을 더할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:27
+msgid ""
+"Basically, video editing is taking footage, cutting it up, removing the "
+"pieces you do not want, and keeping the bits you do. Back in the old days, "
+"editing was slicing reels of film and piecing it together. Thankfully "
+"software makes the whole process much more manageable."
+msgstr ""
+"기본적으로 비디오 편집은 영상을 가져와서 자르고, 원하지 않는 부분을 제거하며, 필요한 부분을 유지하는 작업입니다. 예전에는 필름 릴을 "
+"자르고 이어 붙이는 방식이었지만, 다행히도 소프트웨어 덕분에 이 과정이 훨씬 수월해졌습니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:32
+msgid "There are three main jobs of video editing:"
+msgstr "비디오 편집의 세 가지 주요 작업은 다음과 같습니다:"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:34
+msgid "Remove mistakes or unwanted sections"
+msgstr "실수나 원하지 않는 부분 제거"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:35
+msgid "Keep the video moving at an engaging pace"
+msgstr "비디오가 흥미로운 속도로 진행되도록 유지"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:36
+msgid "Insert supporting footage, audio, or titles"
+msgstr "보조 영상, 오디오 또는 타이틀 삽입"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:38
+msgid "Use these three points as a checklist as you edit."
+msgstr "편집할 때 이 세 가지를 체크리스트로 사용하세요."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:41
+msgid "Computer"
+msgstr "컴퓨터"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:42
+msgid ""
+"Video editing does not require an expensive machine, especially if you are a"
+" beginner. However, it would be best if you had a more recent monitor and "
+"graphics card. If you have an older computer, check your system "
+"specifications against OpenShot's :ref:`min_system_req_ref` to make sure it "
+"works for video editing. Unfortunately, many older computers are not fast "
+"enough for video editing, and you should upgrade your whole system, if "
+"possible."
+msgstr ""
+"비디오 편집은 특히 초보자라면 고가의 기기가 필요하지 않습니다. 다만 최신 모니터와 그래픽 카드가 있으면 좋습니다. 오래된 컴퓨터를 사용"
+" 중이라면 OpenShot의 :ref:`min_system_req_ref` 와 시스템 사양을 비교하여 비디오 편집에 적합한지 확인하세요."
+" 안타깝게도 많은 구형 컴퓨터는 비디오 편집에 충분히 빠르지 않으므로 가능하면 전체 시스템을 업그레이드하는 것이 좋습니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:50
+msgid "Accessories"
+msgstr "액세서리"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:51
+msgid ""
+"Before beginning a video project, ensure there is enough storage space on "
+"your computer to save all the necessary clips. For example, one hour of "
+"1080i video, such as from a mini-DV camcorder, takes up nearly 11 GB of "
+"storage. If your computer's internal storage device cannot store all the "
+"clips, the solution is to buy an external drive."
+msgstr ""
+"비디오 프로젝트를 시작하기 전에 필요한 모든 클립을 저장할 충분한 저장 공간이 컴퓨터에 있는지 확인하세요. 예를 들어, 미니 DV "
+"캠코더에서 촬영한 1080i 비디오 1시간 분량은 약 11GB의 저장 공간을 차지합니다. 컴퓨터 내부 저장 장치에 모든 클립을 저장할 수"
+" 없다면 외장 드라이브를 구입하는 것이 해결책입니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:57
+msgid ""
+"It would help if you had several cables, usually Firewire or USB, to connect"
+" your computer, external hard drive, and a camera. Different computers and "
+"cameras accept other connectors, so check your manuals before buying "
+"anything."
+msgstr ""
+"컴퓨터, 외장 하드 드라이브, 카메라를 연결하려면 보통 Firewire 또는 USB 케이블 여러 개가 필요합니다. 컴퓨터와 카메라마다 "
+"지원하는 커넥터가 다르므로 구매 전에 매뉴얼을 확인하세요."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:63
+msgid "Practical Tips"
+msgstr "실용적인 팁"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:64
+msgid ""
+"Becoming a great video editor isn’t effortless, but with practice and "
+"patience, you’ll be editing like a professional in no time. Here are a few "
+"of the essential tips and techniques you need to know to become a skilled "
+"video editor."
+msgstr ""
+"훌륭한 비디오 편집자가 되는 것은 쉽지 않지만, 연습과 인내로 곧 전문가처럼 편집할 수 있습니다. 숙련된 비디오 편집자가 되기 위해 "
+"알아야 할 몇 가지 필수 팁과 기술을 소개합니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:69
+msgid "Pick the Right Computer"
+msgstr "적합한 컴퓨터 선택하기"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:70
+msgid ""
+"While having a great computer won’t necessarily make you a great video "
+"editor, a faster computer will allow you to focus more of your time on the "
+"story you’re trying to tell rather than your computer rendering. Everyone "
+"has their own opinions about what computer is best for editing, but it all "
+"depends on your own preferences."
+msgstr ""
+"좋은 컴퓨터가 반드시 훌륭한 비디오 편집자를 만드는 것은 아니지만, 빠른 컴퓨터는 렌더링에 시간을 덜 쓰고 이야기 전달에 더 집중할 수 "
+"있게 해줍니다. 편집에 가장 좋은 컴퓨터에 대한 의견은 다양하지만, 결국 개인 취향에 달려 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:77
+msgid "Keep Shooting"
+msgstr "계속 촬영하기"
+
+# Main-window terminology review, 2026-09-26.
+#: ../getting_started.rst:78
+msgid ""
+"Record more video and audio than you think you will need for your project. "
+"Include video that enhances the scene, sets a mood, or tells a story. You "
+"can use the extra video for smooth transitions in your project. If your "
+"project requires voice overs, narration, screen capture, or webcam footage, "
+"you can use :guilabel:`View->Recording View` to open OpenShot's recording "
+"tools. For more details, including microphone, system audio, screen, and "
+"webcam options, see :ref:`recording_ref`. For more specialized capture "
+"workflows, you can still record with an external application and import the "
+"finished media into OpenShot."
+msgstr ""
+"프로젝트에 필요할 것보다 더 많은 비디오와 오디오를 녹화하세요. 장면을 강화하거나 분위기를 조성하거나 이야기를 전달하는 비디오를 "
+"포함하세요. 추가 비디오는 프로젝트에서 부드러운 전환에 사용할 수 있습니다. 프로젝트에 음성 해설, 내레이션, 화면 캡처 또는 웹캠 "
+"영상이 필요한 경우 :guilabel:`View->녹음/녹화 보기`를 사용하여 OpenShot의 녹화 도구를 열 수 있습니다. 마이크, "
+"시스템 오디오, 화면 및 웹캠 옵션에 대한 자세한 내용은 :ref:`recording_ref`를 참조하세요. 보다 전문화된 캡처 작업 "
+"흐름의 경우 외부 애플리케이션으로 녹화한 후 완성된 미디어를 OpenShot으로 가져올 수도 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:88
+msgid "Organize Your Project Files"
+msgstr "프로젝트 파일 정리하기"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:89
+msgid ""
+"Composition is the key to success, whether you are running Linux, on a Mac, "
+"or a Windows machine. Be sure to label video files, audio files, and even "
+"still images clearly and keep all your clips on the same device and in the "
+"same folder for easy access. OpenShot tries to keep up with your clips, but "
+"if you move them after your project is saved, you could lose your entire "
+"project. Organizing before you begin editing can be very advantageous."
+msgstr ""
+"Linux, Mac, Windows 어느 환경에서든 구성은 성공의 열쇠입니다. 비디오 파일, 오디오 파일, 정지 이미지에 명확한 라벨을 "
+"붙이고 모든 클립을 같은 장치와 폴더에 보관하여 쉽게 접근할 수 있도록 하세요. OpenShot은 클립을 추적하려 하지만, 프로젝트 저장"
+" 후 클립을 이동하면 프로젝트 전체를 잃을 수 있습니다. 편집을 시작하기 전에 정리하는 것이 매우 유리합니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:98
+msgid "Watch Everything"
+msgstr "모든 것을 시청하기"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:99
+msgid ""
+"Watching everything is the first step in the editing process. Writer and "
+"filmmaker David Andrew Stoler says there is gold in the most unlikely of "
+"places: \"Some of the most beautiful expressions you're going to get from "
+"the actors are after the cut.\""
+msgstr ""
+"모든 영상을 보는 것이 편집 과정의 첫 단계입니다. 작가이자 영화감독인 David Andrew Stoler는 가장 예상치 못한 곳에 "
+"보물이 있다고 말합니다: \"배우들이 가장 아름다운 표정을 짓는 순간은 컷 이후입니다.\""
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:105
+msgid "Edit for a Story"
+msgstr "이야기를 위한 편집"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:106
+msgid ""
+"Remember that as you edit, you are telling a story. Editing is so much more "
+"than merely cutting footage and adding effects. It is an opportunity to take"
+" your audience on a journey. Whether you are editing a complex narrative "
+"film or only putting together a personal video, you tell a more in-depth "
+"story."
+msgstr ""
+"편집할 때는 이야기를 전달하고 있다는 점을 기억하세요. 편집은 단순히 영상을 자르고 효과를 추가하는 것을 넘어, 관객을 여정으로 이끄는 "
+"기회입니다. 복잡한 내러티브 영화든 개인 영상이든 더 깊이 있는 이야기를 전달합니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:113
+msgid "Keyboard Shortcuts"
+msgstr "키보드 단축키"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:114
+msgid ""
+"One of the easiest ways to tell the difference between and professional "
+"video editor and a novice is to simply look at how much they use the "
+"keyboard. Editors that have been in the business for some time know that a "
+"few seconds saved add up over the length of the project."
+msgstr ""
+"전문 비디오 편집자와 초보자를 구분하는 가장 쉬운 방법 중 하나는 키보드 사용량을 보는 것입니다. 경험 많은 편집자는 몇 초를 절약하는 "
+"것이 프로젝트 전체 시간에 큰 차이를 만든다는 것을 압니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:120
+msgid "Learn the Lingo"
+msgstr "용어 배우기"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:121
+msgid ""
+"Video editing is not just a hobby or a profession; it is an industry. And "
+"just like any industry, there is a ton of jargon to learn. Practically "
+"speaking, you do not need to know all the terms on the :ref:`glossary_ref` "
+"to become a better video editor, but a fundamental knowledge of the terms "
+"may help you communicate better with other video editors or clients."
+msgstr ""
+"비디오 편집은 단순한 취미나 직업이 아니라 산업입니다. 모든 산업과 마찬가지로 배워야 할 전문 용어가 많습니다. 실제로 더 나은 비디오 "
+"편집자가 되기 위해 :ref:`glossary_ref` 에 있는 모든 용어를 알 필요는 없지만, 기본적인 용어 지식은 다른 편집자나 "
+"클라이언트와의 소통에 도움이 됩니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:129
+msgid "Assemble, Then Make a Rough Cut"
+msgstr "조립한 후 러프 컷 만들기"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:130
+msgid ""
+"Drag and drop all your video footage into a timeline and make sure your "
+"frame size and frame rates are consistent. Begin a new timeline and drag-"
+"and-drop the best clips into what becomes your assembly cut. Remember to "
+"save your work frequently, and notate the date and time of each version."
+msgstr ""
+"모든 비디오 영상을 타임라인에 드래그 앤 드롭하고 프레임 크기와 프레임 속도가 일치하는지 확인하세요. 새 타임라인을 시작하고 최고의 "
+"클립을 드래그 앤 드롭하여 어셈블리 컷을 만드세요. 작업을 자주 저장하고 각 버전의 날짜와 시간을 기록하는 것을 잊지 마세요."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:136
+msgid "Refine Your Video"
+msgstr "비디오 다듬기"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:137
+msgid ""
+"In this phase, your rough cut begins to resemble a cohesive project. Adjust "
+"the sound and color, make sure the dialog is audible, and add music, titles,"
+" or graphics in this phase. Color correction is the process of setting your "
+"footage to a color baseline. No matter how great your subject looks on set, "
+"you will almost always need to do some basic post-processing for a "
+"consistent video."
+msgstr ""
+"이 단계에서는 러프 컷이 하나의 완성된 프로젝트처럼 보이기 시작합니다. 사운드와 색상을 조정하고, 대사가 잘 들리는지 확인하며, 음악, "
+"타이틀 또는 그래픽을 추가하세요. 색 보정은 영상의 색상을 기준선에 맞추는 과정입니다. 촬영 현장에서 피사체가 아무리 좋아 보여도 일관된"
+" 영상을 위해 기본적인 후처리가 거의 항상 필요합니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:145
+msgid "Refine Some More"
+msgstr "더 다듬기"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:146
+msgid ""
+"A slow scene can set the mood and add tension or it can bore an audience. A "
+"fast scene can add adrenaline to your audience’s systems or it can give them"
+" headaches. Some editors cut their projects several different ways before "
+"they find the right pace. Do not let cutting your project several times "
+"discourage you."
+msgstr ""
+"느린 장면은 분위기를 조성하고 긴장감을 더할 수 있지만 관객을 지루하게 할 수도 있습니다. 빠른 장면은 관객에게 아드레날린을 불어넣을 수"
+" 있지만 두통을 유발할 수도 있습니다. 일부 편집자는 적절한 속도를 찾기 위해 여러 번 프로젝트를 편집합니다. 여러 번 편집한다고 "
+"낙담하지 마세요."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:153
+msgid "Exporting"
+msgstr "내보내기"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:154
+msgid ""
+"People view most of their projects on phones, tablets, or computers, so it "
+"is essential to know how to export for the web. The goal when exporting a "
+"video for the web is to create the highest quality possible with the "
+"smallest file size. Four main factors determine the file size of your "
+"finished video:"
+msgstr ""
+"대부분의 사용자가 휴대폰, 태블릿 또는 컴퓨터에서 프로젝트를 보기 때문에 웹용 내보내기 방법을 아는 것이 중요합니다. 웹용 비디오를 "
+"내보낼 때 목표는 가능한 최고 품질을 가장 작은 파일 크기로 만드는 것입니다. 완성된 비디오의 파일 크기를 결정하는 네 가지 주요 요소는"
+" 다음과 같습니다:"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:160
+msgid "Codec"
+msgstr "코덱"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:161
+msgid ""
+"A codec determines the type of file format (MP4, AVI, MOV). The more "
+"compression performed by the codec, the smaller your video’s size. Videos "
+"that are smaller in file size tend to be lower in visual quality."
+msgstr ""
+"코덱은 파일 형식(MP4, AVI, MOV)을 결정합니다. 코덱이 더 많은 압축을 수행할수록 비디오 크기는 작아집니다. 파일 크기가 작은"
+" 비디오는 시각적 품질이 낮은 경향이 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:166
+msgid "Resolution"
+msgstr "해상도"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:167
+msgid ""
+"Resolution refers to the number of horizontal and vertical pixels (dots on "
+"display) your video contains. For example, a 4K UHD (2160P) video has four "
+"times the resolution of FHD (1080P) video. A higher resolution means more "
+"information to store so that you will have larger file sizes."
+msgstr ""
+"해상도는 비디오가 포함하는 가로 및 세로 픽셀(디스플레이의 점) 수를 의미합니다. 예를 들어, 4K UHD(2160P) 비디오는 "
+"FHD(1080P) 비디오보다 네 배 더 높은 해상도를 가집니다. 해상도가 높을수록 저장할 정보가 많아져 파일 크기가 커집니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:173
+msgid "Bit Rate"
+msgstr "비트 전송률"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:174
+msgid ""
+"The Bit Rate is the measure of the speed of data processing of your video. A"
+" higher bit rate means higher-quality video and larger files. OpenShot "
+"allows you to manually set the Bit Rate / Quality in the Advanced tab of the"
+" Export Video window."
+msgstr ""
+"비트 전송률은 비디오 데이터 처리 속도를 나타냅니다. 비트 전송률이 높을수록 영상 품질이 높고 파일 크기도 커집니다. "
+"OpenShot에서는 내보내기 비디오 창의 고급 탭에서 비트 전송률/품질을 수동으로 설정할 수 있습니다."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:180
+msgid "Frame Rate"
+msgstr "프레임 속도"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:181
+msgid ""
+"The frequency (in Hz) at which consecutive images, called frames, appear on "
+"the display is the Frame Rate. Typically, you export your video in the film "
+"standard (24fps) or the TV broadcast standard of 30fps (or 25fps in PAL). "
+"While there is not much wiggle room here, you should note that if you decide"
+" to export your video in 48fps, 50fps, or 60fps, your file size doubles."
+msgstr ""
+"연속된 이미지(프레임)가 디스플레이에 나타나는 빈도(Hz)를 프레임 속도라고 합니다. 일반적으로 비디오는 영화 표준인 24fps 또는 "
+"TV 방송 표준인 30fps(또는 PAL의 경우 25fps)로 내보냅니다. 조정 여지는 많지 않지만, 48fps, 50fps, "
+"60fps로 내보내면 파일 크기가 두 배가 된다는 점을 유의하세요."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:188
+msgid "Conclusion"
+msgstr "결론"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:189
+msgid ""
+"In conclusion, video editing is an accessible skill that can elevate your "
+"video content even if you're not a professional videographer. With the "
+"ability to trim, arrange, and enhance footage, you can create engaging "
+"videos that captivate your audience. Whether you're a beginner or on your "
+"way to becoming a skilled video editor, remember to focus on storytelling, "
+"efficient organization, and refining your project's details. From selecting "
+"the right computer to mastering keyboard shortcuts and understanding "
+"technical aspects like codecs and resolutions, your journey in video editing"
+" can lead to polished and impactful results. As you venture into the world "
+"of video editing, keep in mind that practice, patience, and a commitment to "
+"learning are key to achieving excellence in this creative endeavor."
+msgstr ""
+"결론적으로, 비디오 편집은 전문 비디오그래퍼가 아니더라도 비디오 콘텐츠를 향상시킬 수 있는 접근 가능한 기술입니다. 영상을 자르고 "
+"배열하며 향상시키는 능력을 통해 관객을 사로잡는 매력적인 비디오를 만들 수 있습니다. 초보자이든 숙련된 편집자가 되기 위한 과정에 있든,"
+" 스토리텔링, 효율적인 조직, 프로젝트 세부 사항 다듬기에 집중하는 것이 중요합니다. 적절한 컴퓨터 선택부터 키보드 단축키 숙달, 코덱과"
+" 해상도 같은 기술적 측면 이해에 이르기까지, 비디오 편집 여정은 세련되고 강력한 결과로 이어질 수 있습니다. 비디오 편집의 세계에 "
+"뛰어들면서 연습, 인내, 학습에 대한 헌신이 이 창의적 작업에서 탁월함을 이루는 열쇠임을 기억하세요."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Record more video and audio than you think you will need for your project. "
+#~ "Include video that enhances the scene, sets a mood, or tells a story. You "
+#~ "can use the extra video for smooth transitions in your project. If your "
+#~ "project requires voice overs or narration, we suggest using an external "
+#~ "application to record your microphone (since OpenShot does not include any "
+#~ "recording capabilities yet)."
+#~ msgstr ""
+#~ "프로젝트에 필요할 것보다 더 많은 비디오와 오디오를 녹화하세요. 장면을 강화하거나 분위기를 조성하거나 이야기를 전달하는 영상을 "
+#~ "포함하세요. 추가 영상은 프로젝트에서 부드러운 전환에 사용할 수 있습니다. 프로젝트에 보이스오버나 내레이션이 필요하면, OpenShot에"
+#~ " 녹음 기능이 없으므로 외부 애플리케이션을 사용해 마이크를 녹음할 것을 권장합니다."

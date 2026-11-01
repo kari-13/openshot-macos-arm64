@@ -1,0 +1,303 @@
+<?xml version="1.0" ?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>940</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Split File</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../../../images/openshot.qrc">
+    <normaloff>:/openshot.svg</normaloff>
+   </iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>10</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="lblInstructions">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="transportGrid" columnstretch="1,0,1">
+     <item row="0" column="0">
+      <layout class="QHBoxLayout" name="timeLayout">
+       <item>
+        <widget class="QLabel" name="lblVideoTime">
+         <property name="text">
+          <string>00:00:00:00</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblSourceDuration">
+         <property name="text">
+          <string>/ 00:00:00:00</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="timeSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QToolButton" name="btnRangeStart">
+         <property name="toolTip">
+          <string>Go to Start</string>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="btnPlay">
+         <property name="icon">
+          <iconset theme="media-playback-start"/>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
+         </property>
+         <property name="toolTip">
+          <string>Play / Pause</string>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="btnRangeEnd">
+         <property name="toolTip">
+          <string>Go to End</string>
+         </property>
+         <property name="autoRaise">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="2">
+      <layout class="QHBoxLayout" name="loopLayout">
+       <item>
+        <spacer name="loopSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QSlider" name="sliderVideo">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="widgetControls">
+     <layout class="QHBoxLayout" name="rangeControlsLayout">
+      <property name="spacing">
+       <number>14</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="startColumn">
+        <item>
+         <widget class="QLabel" name="startLabel">
+          <property name="text">
+           <string>Start</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="startFields">
+          <item>
+           <widget class="QToolButton" name="btnStart">
+            <property name="text">
+             <string>In</string>
+            </property>
+            <property name="autoRaise">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="endColumn">
+        <item>
+         <widget class="QLabel" name="endLabel">
+          <property name="text">
+           <string>End</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="endFields">
+          <item>
+           <widget class="QToolButton" name="btnEnd">
+            <property name="text">
+             <string>Out</string>
+            </property>
+            <property name="autoRaise">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="durationColumn">
+        <item>
+         <widget class="QLabel" name="durationTitle">
+          <property name="text">
+           <string>Duration</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="range_duration">
+          <property name="text">
+           <string>00:00:00:00</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="spacer117">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnClear">
+        <property name="text">
+         <string>Reset Range</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnAddClip">
+        <property name="text">
+         <string>Create Split File</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="footerLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Name:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="txtName">
+       <property name="placeholderText">
+        <string>Split name (optional)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="spacer139">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Close</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+  <action name="actionPlay">
+   <property name="icon">
+    <iconset theme="media-playback-start"/>
+   </property>
+   <property name="text">
+    <string>Play</string>
+   </property>
+   <property name="toolTip">
+    <string>Play</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>184</x>
+     <y>234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>184</x>
+     <y>228</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,496 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:21
+msgid "Video Editing Basics"
+msgstr "Videonmuokkauksen perusteet"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:23
+msgid ""
+"You do not need to be a trained videographer to understand how to create "
+"videos well. Simple editing can keep your viewers engaged longer, and add a "
+"professional feel, even if you are not a professional video editor."
+msgstr ""
+"Videon tekemisen ymmärtämiseen ei tarvitse olla koulutettu videokuvaaja. "
+"Yksinkertainen editointi voi pitää katsojat pidempään kiinnostuneina ja "
+"lisätä ammattimaisen vaikutelman, vaikka et olisi "
+"ammattilaisvideonmuokkaaja."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:27
+msgid ""
+"Basically, video editing is taking footage, cutting it up, removing the "
+"pieces you do not want, and keeping the bits you do. Back in the old days, "
+"editing was slicing reels of film and piecing it together. Thankfully "
+"software makes the whole process much more manageable."
+msgstr ""
+"Periaatteessa videonmuokkaus tarkoittaa materiaalin ottamista, leikkaamista,"
+" ei-toivottujen osien poistamista ja haluttujen osien säilyttämistä. "
+"Vanhoina aikoina muokkaus tarkoitti filmikelan leikkaamista ja yhteen "
+"liittämistä. Onneksi ohjelmisto tekee koko prosessista paljon "
+"hallittavamman."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:32
+msgid "There are three main jobs of video editing:"
+msgstr "Videonmuokkauksella on kolme päätehtävää:"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:34
+msgid "Remove mistakes or unwanted sections"
+msgstr "Poista virheet tai ei-toivotut osat"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:35
+msgid "Keep the video moving at an engaging pace"
+msgstr "Pidä video kiinnostavalla tahdilla liikkeessä"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:36
+msgid "Insert supporting footage, audio, or titles"
+msgstr "Lisää tukimateriaalia, ääntä tai tekstejä"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:38
+msgid "Use these three points as a checklist as you edit."
+msgstr "Käytä näitä kolmea kohtaa tarkistuslistana muokatessasi."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:41
+msgid "Computer"
+msgstr "Tietokone"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:42
+msgid ""
+"Video editing does not require an expensive machine, especially if you are a"
+" beginner. However, it would be best if you had a more recent monitor and "
+"graphics card. If you have an older computer, check your system "
+"specifications against OpenShot's :ref:`min_system_req_ref` to make sure it "
+"works for video editing. Unfortunately, many older computers are not fast "
+"enough for video editing, and you should upgrade your whole system, if "
+"possible."
+msgstr ""
+"Videonmuokkaus ei vaadi kallista konetta, erityisesti aloittelijalle. "
+"Kuitenkin on suositeltavaa, että sinulla on uudempi näyttö ja näytönohjain. "
+"Jos sinulla on vanhempi tietokone, tarkista järjestelmävaatimukset "
+"OpenShotin :ref:`min_system_req_ref` mukaan varmistaaksesi, että se sopii "
+"videonmuokkaukseen. Valitettavasti monet vanhemmat tietokoneet eivät ole "
+"tarpeeksi nopeita videonmuokkaukseen, ja jos mahdollista, sinun kannattaa "
+"päivittää koko järjestelmäsi."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:50
+msgid "Accessories"
+msgstr "Lisälaitteet"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:51
+msgid ""
+"Before beginning a video project, ensure there is enough storage space on "
+"your computer to save all the necessary clips. For example, one hour of "
+"1080i video, such as from a mini-DV camcorder, takes up nearly 11 GB of "
+"storage. If your computer's internal storage device cannot store all the "
+"clips, the solution is to buy an external drive."
+msgstr ""
+"Ennen videoprojektin aloittamista varmista, että tietokoneellasi on "
+"tarpeeksi tallennustilaa kaikkien tarvittavien leikkeiden tallentamiseen. "
+"Esimerkiksi yksi tunti 1080i-videota, kuten mini-DV-kamerasta, vie lähes 11 "
+"Gt tallennustilaa. Jos tietokoneesi sisäinen tallennuslaite ei pysty "
+"tallentamaan kaikkia leikkeitä, ratkaisu on ostaa ulkoinen levy."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:57
+msgid ""
+"It would help if you had several cables, usually Firewire or USB, to connect"
+" your computer, external hard drive, and a camera. Different computers and "
+"cameras accept other connectors, so check your manuals before buying "
+"anything."
+msgstr ""
+"Tarvitset useita kaapeleita, yleensä Firewire- tai USB-kaapeleita, "
+"yhdistääksesi tietokoneesi, ulkoisen kovalevyn ja kameran. Eri tietokoneet "
+"ja kamerat käyttävät erilaisia liittimiä, joten tarkista käyttöohjeet ennen "
+"ostamista."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:63
+msgid "Practical Tips"
+msgstr "Käytännön vinkkejä"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:64
+msgid ""
+"Becoming a great video editor isn’t effortless, but with practice and "
+"patience, you’ll be editing like a professional in no time. Here are a few "
+"of the essential tips and techniques you need to know to become a skilled "
+"video editor."
+msgstr ""
+"Hyväksi videonmuokkaajaksi tuleminen ei ole helppoa, mutta harjoittelun ja "
+"kärsivällisyyden avulla muokkaat pian kuin ammattilainen. Tässä on muutamia "
+"olennaisia vinkkejä ja tekniikoita, jotka sinun tulee tietää tullaksesi "
+"taitavaksi videonmuokkaajaksi."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:69
+msgid "Pick the Right Computer"
+msgstr "Valitse oikea tietokone"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:70
+msgid ""
+"While having a great computer won’t necessarily make you a great video "
+"editor, a faster computer will allow you to focus more of your time on the "
+"story you’re trying to tell rather than your computer rendering. Everyone "
+"has their own opinions about what computer is best for editing, but it all "
+"depends on your own preferences."
+msgstr ""
+"Vaikka hyvä tietokone ei välttämättä tee sinusta erinomaista "
+"videonmuokkaajaa, nopeampi tietokone antaa sinun keskittyä enemmän "
+"kertomaasi tarinaan kuin tietokoneen renderöintiin. Jokaisella on oma "
+"mielipiteensä siitä, mikä tietokone on paras muokkaukseen, mutta kaikki "
+"riippuu omista mieltymyksistäsi."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:77
+msgid "Keep Shooting"
+msgstr "Jatka kuvaamista"
+
+#: ../getting_started.rst:78
+msgid ""
+"Record more video and audio than you think you will need for your project. "
+"Include video that enhances the scene, sets a mood, or tells a story. You "
+"can use the extra video for smooth transitions in your project. If your "
+"project requires voice overs, narration, screen capture, or webcam footage, "
+"you can use :guilabel:`View->Recording View` to open OpenShot's recording "
+"tools. For more details, including microphone, system audio, screen, and "
+"webcam options, see :ref:`recording_ref`. For more specialized capture "
+"workflows, you can still record with an external application and import the "
+"finished media into OpenShot."
+msgstr ""
+"Tallenna enemmän videota ja ääntä kuin uskot tarvitsevasi projektiisi. "
+"Sisällytä videoita, jotka parantavat kohtauksen tunnelmaa, luovat mielialan "
+"tai kertovat tarinan. Voit käyttää ylimääräistä videota sujuvien siirtymien "
+"tekemiseen projektissasi. Jos projektisi vaatii ääninäyttelyä, kerrontaa, "
+"näytön tallennusta tai webkameran kuvaa, voit käyttää "
+":guilabel:`Näkymä->Tallennusnäkymä` avataksesi OpenShotin tallennustyökalut."
+" Lisätietoja mikrofonin, järjestelmääänen, näytön ja webkameran asetuksista "
+"löydät kohdasta :ref:`recording_ref`. Erikoistuneempia tallennustyönkulkuja "
+"varten voit edelleen tallentaa ulkoisella sovelluksella ja tuoda valmiin "
+"median OpenShotiin."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:88
+msgid "Organize Your Project Files"
+msgstr "Järjestä projektitiedostosi"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:89
+msgid ""
+"Composition is the key to success, whether you are running Linux, on a Mac, "
+"or a Windows machine. Be sure to label video files, audio files, and even "
+"still images clearly and keep all your clips on the same device and in the "
+"same folder for easy access. OpenShot tries to keep up with your clips, but "
+"if you move them after your project is saved, you could lose your entire "
+"project. Organizing before you begin editing can be very advantageous."
+msgstr ""
+"Kokoaminen on avain menestykseen, olitpa sitten Linuxilla, Macilla tai "
+"Windowsilla. Varmista, että merkitset videotiedostot, äänitiedostot ja jopa "
+"kuvat selkeästi ja pidät kaikki leikkeesi samassa laitteessa ja kansiossa "
+"helppoa käyttöä varten. OpenShot yrittää seurata leikkeitäsi, mutta jos "
+"siirrät niitä projektin tallentamisen jälkeen, voit menettää koko "
+"projektisi. Järjestäminen ennen muokkaamisen aloittamista voi olla erittäin "
+"hyödyllistä."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:98
+msgid "Watch Everything"
+msgstr "Katso kaikki"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:99
+msgid ""
+"Watching everything is the first step in the editing process. Writer and "
+"filmmaker David Andrew Stoler says there is gold in the most unlikely of "
+"places: \"Some of the most beautiful expressions you're going to get from "
+"the actors are after the cut.\""
+msgstr ""
+"Kaiken katsominen on ensimmäinen askel muokkausprosessissa. Kirjailija ja "
+"elokuvantekijä David Andrew Stoler sanoo, että kultaa löytyy kaikkein "
+"epätodennäköisimmistä paikoista: \"Jotkut kauneimmista ilmeistä, joita saat "
+"näyttelijöiltä, ovat leikkauksen jälkeen.\""
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:105
+msgid "Edit for a Story"
+msgstr "Muokkaa tarinaa varten"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:106
+msgid ""
+"Remember that as you edit, you are telling a story. Editing is so much more "
+"than merely cutting footage and adding effects. It is an opportunity to take"
+" your audience on a journey. Whether you are editing a complex narrative "
+"film or only putting together a personal video, you tell a more in-depth "
+"story."
+msgstr ""
+"Muista, että muokatessasi kerrot tarinaa. Muokkaus on paljon enemmän kuin "
+"pelkkää materiaalin leikkaamista ja efektien lisäämistä. Se on tilaisuus "
+"viedä yleisösi matkalle. Olitpa muokkaamassa monimutkaista kertovaa elokuvaa"
+" tai kokoamassa henkilökohtaista videota, kerrot syvällisemmän tarinan."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:113
+msgid "Keyboard Shortcuts"
+msgstr "Pikanäppäimet"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:114
+msgid ""
+"One of the easiest ways to tell the difference between and professional "
+"video editor and a novice is to simply look at how much they use the "
+"keyboard. Editors that have been in the business for some time know that a "
+"few seconds saved add up over the length of the project."
+msgstr ""
+"Yksi helpoimmista tavoista erottaa ammattilaisvideonmuokkaaja aloittelijasta"
+" on katsoa, kuinka paljon he käyttävät näppäimistöä. Alalla jonkin aikaa "
+"olleet muokkaajat tietävät, että muutaman sekunnin säästö kertautuu "
+"projektin aikana."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:120
+msgid "Learn the Lingo"
+msgstr "Opi alan termit"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:121
+msgid ""
+"Video editing is not just a hobby or a profession; it is an industry. And "
+"just like any industry, there is a ton of jargon to learn. Practically "
+"speaking, you do not need to know all the terms on the :ref:`glossary_ref` "
+"to become a better video editor, but a fundamental knowledge of the terms "
+"may help you communicate better with other video editors or clients."
+msgstr ""
+"Videonmuokkaus ei ole pelkkä harrastus tai ammatti; se on ala. Ja kuten "
+"kaikilla aloilla, on paljon ammattisanastoa opittavana. Käytännössä sinun ei"
+" tarvitse tietää kaikkia termejä :ref:`glossary_ref` tullaksesi paremmaksi "
+"videonmuokkaajaksi, mutta perustietämys termeistä voi auttaa sinua "
+"kommunikoimaan paremmin muiden videonmuokkaajien tai asiakkaiden kanssa."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:129
+msgid "Assemble, Then Make a Rough Cut"
+msgstr "Kokoa ensin, tee sitten karkea leikkaus"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:130
+msgid ""
+"Drag and drop all your video footage into a timeline and make sure your "
+"frame size and frame rates are consistent. Begin a new timeline and drag-"
+"and-drop the best clips into what becomes your assembly cut. Remember to "
+"save your work frequently, and notate the date and time of each version."
+msgstr ""
+"Vedä ja pudota kaikki videosi aikajanalle ja varmista, että kuvakoko ja "
+"kuvataajuudet ovat yhtenäiset. Aloita uusi aikajana ja vedä parhaat leikkeet"
+" siihen, mikä muodostuu kokoonpanoleikkaukseksi. Muista tallentaa työsi "
+"usein ja merkitä kunkin version päivämäärä ja kellonaika."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:136
+msgid "Refine Your Video"
+msgstr "Hio videosi"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:137
+msgid ""
+"In this phase, your rough cut begins to resemble a cohesive project. Adjust "
+"the sound and color, make sure the dialog is audible, and add music, titles,"
+" or graphics in this phase. Color correction is the process of setting your "
+"footage to a color baseline. No matter how great your subject looks on set, "
+"you will almost always need to do some basic post-processing for a "
+"consistent video."
+msgstr ""
+"Tässä vaiheessa raakaleikkaus alkaa muistuttaa yhtenäistä projektia. Säädä "
+"ääntä ja värejä, varmista että dialogi kuuluu selvästi, ja lisää musiikkia, "
+"otsikoita tai grafiikkaa tässä vaiheessa. Värikorjaus on prosessi, jossa "
+"videosi värit asetetaan peruslinjalle. Riippumatta siitä, kuinka hyvältä "
+"kohteesi näyttää kuvauspaikalla, lähes aina tarvitset jonkin verran "
+"jälkikäsittelyä yhtenäisen videon saamiseksi."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:145
+msgid "Refine Some More"
+msgstr "Hio vielä lisää"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:146
+msgid ""
+"A slow scene can set the mood and add tension or it can bore an audience. A "
+"fast scene can add adrenaline to your audience’s systems or it can give them"
+" headaches. Some editors cut their projects several different ways before "
+"they find the right pace. Do not let cutting your project several times "
+"discourage you."
+msgstr ""
+"Hidas kohtaus voi luoda tunnelmaa ja lisätä jännitettä tai tylsistyttää "
+"yleisön. Nopea kohtaus voi lisätä yleisön adrenaliinitasoja tai aiheuttaa "
+"päänsärkyä. Jotkut leikkaajat tekevät projektistaan useita eri versioita "
+"ennen kuin löytävät oikean rytmin. Älä anna useiden leikkausten lannistaa "
+"sinua."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:153
+msgid "Exporting"
+msgstr "Vienti"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:154
+msgid ""
+"People view most of their projects on phones, tablets, or computers, so it "
+"is essential to know how to export for the web. The goal when exporting a "
+"video for the web is to create the highest quality possible with the "
+"smallest file size. Four main factors determine the file size of your "
+"finished video:"
+msgstr ""
+"Useimmat katsovat projektejaan puhelimilla, tableteilla tai tietokoneilla, "
+"joten on tärkeää osata viedä video verkkoon. Tavoitteena verkkovideon "
+"viennissä on luoda mahdollisimman korkea laatu pienimmällä tiedostokoolla. "
+"Neljä päätekijää määräävät valmiin videon tiedostokoon:"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:160
+msgid "Codec"
+msgstr "Koodekki"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:161
+msgid ""
+"A codec determines the type of file format (MP4, AVI, MOV). The more "
+"compression performed by the codec, the smaller your video’s size. Videos "
+"that are smaller in file size tend to be lower in visual quality."
+msgstr ""
+"Koodekki määrittää tiedostomuodon tyypin (MP4, AVI, MOV). Mitä enemmän "
+"koodekki pakkaa, sitä pienempi videosi koko on. Pienemmät tiedostokoot "
+"yleensä tarkoittavat heikompaa kuvanlaatua."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:166
+msgid "Resolution"
+msgstr "Resoluutio"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:167
+msgid ""
+"Resolution refers to the number of horizontal and vertical pixels (dots on "
+"display) your video contains. For example, a 4K UHD (2160P) video has four "
+"times the resolution of FHD (1080P) video. A higher resolution means more "
+"information to store so that you will have larger file sizes."
+msgstr ""
+"Resoluutio tarkoittaa vaakasuorien ja pystysuorien pikselien (näytöllä "
+"näkyvien pisteiden) määrää videossasi. Esimerkiksi 4K UHD (2160P) -video "
+"sisältää neljä kertaa enemmän resoluutiota kuin FHD (1080P) -video. "
+"Korkeampi resoluutio tarkoittaa enemmän tallennettavaa tietoa, joten "
+"tiedostokoot ovat suurempia."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:173
+msgid "Bit Rate"
+msgstr "Bitnopeus"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:174
+msgid ""
+"The Bit Rate is the measure of the speed of data processing of your video. A"
+" higher bit rate means higher-quality video and larger files. OpenShot "
+"allows you to manually set the Bit Rate / Quality in the Advanced tab of the"
+" Export Video window."
+msgstr ""
+"Bitnopeus mittaa videosi datan käsittelynopeutta. Korkeampi bitnopeus "
+"tarkoittaa parempilaatuista videota ja suurempia tiedostoja. OpenShotissa "
+"voit asettaa bitnopeuden/laadun manuaalisesti viennin Lisäasetukset-"
+"välilehdellä."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:180
+msgid "Frame Rate"
+msgstr "Kuvataajuus"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:181
+msgid ""
+"The frequency (in Hz) at which consecutive images, called frames, appear on "
+"the display is the Frame Rate. Typically, you export your video in the film "
+"standard (24fps) or the TV broadcast standard of 30fps (or 25fps in PAL). "
+"While there is not much wiggle room here, you should note that if you decide"
+" to export your video in 48fps, 50fps, or 60fps, your file size doubles."
+msgstr ""
+"Kuvataajuus on taajuus (Hz), jolla peräkkäiset kuvat eli kehykset näkyvät "
+"näytöllä. Tyypillisesti viet videosi elokuvastandardin (24 fps) tai TV-"
+"lähetysstandardin mukaisesti (30 fps tai PAL:issa 25 fps). Vaikka tässä ei "
+"ole paljon liikkumavaraa, huomaa, että jos viet videosi 48, 50 tai 60 "
+"fps:llä, tiedostokoko kaksinkertaistuu."
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:188
+msgid "Conclusion"
+msgstr "Yhteenveto"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:189
+msgid ""
+"In conclusion, video editing is an accessible skill that can elevate your "
+"video content even if you're not a professional videographer. With the "
+"ability to trim, arrange, and enhance footage, you can create engaging "
+"videos that captivate your audience. Whether you're a beginner or on your "
+"way to becoming a skilled video editor, remember to focus on storytelling, "
+"efficient organization, and refining your project's details. From selecting "
+"the right computer to mastering keyboard shortcuts and understanding "
+"technical aspects like codecs and resolutions, your journey in video editing"
+" can lead to polished and impactful results. As you venture into the world "
+"of video editing, keep in mind that practice, patience, and a commitment to "
+"learning are key to achieving excellence in this creative endeavor."
+msgstr ""
+"Yhteenvetona videon editointi on helposti lähestyttävä taito, joka voi "
+"nostaa videosisältösi uudelle tasolle, vaikka et olisi "
+"ammattilaisvideokuvaaja. Leikkaamalla, järjestämällä ja parantamalla "
+"materiaalia voit luoda kiinnostavia videoita, jotka vangitsevat yleisösi. "
+"Olitpa aloittelija tai matkalla taitavaksi videoeditoriksi, muista keskittyä"
+" tarinankerrontaan, tehokkaaseen organisointiin ja projektisi "
+"yksityiskohtien hiomiseen. Oikean tietokoneen valinnasta näppäinoikoteiden "
+"hallintaan ja teknisten asioiden, kuten koodekkien ja resoluutioiden, "
+"ymmärtämiseen, videon editointimatkasi voi johtaa viimeisteltyihin ja "
+"vaikuttaviin tuloksiin. Kun astut videon editoinnin maailmaan, muista, että "
+"harjoittelu, kärsivällisyys ja oppimisen sitoutuminen ovat avain "
+"menestykseen tässä luovassa työssä."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Record more video and audio than you think you will need for your project. "
+#~ "Include video that enhances the scene, sets a mood, or tells a story. You "
+#~ "can use the extra video for smooth transitions in your project. If your "
+#~ "project requires voice overs or narration, we suggest using an external "
+#~ "application to record your microphone (since OpenShot does not include any "
+#~ "recording capabilities yet)."
+#~ msgstr ""
+#~ "Tallenna enemmän videota ja ääntä kuin luulet tarvitsevasi projektiisi. "
+#~ "Sisällytä videoita, jotka parantavat kohtauksen tunnelmaa tai kertovat "
+#~ "tarinaa. Voit käyttää ylimääräistä videota sujuviin siirtymiin "
+#~ "projektissasi. Jos projektiisi tarvitaan ääninäyttelyä tai kerrontaa, "
+#~ "suosittelemme käyttämään ulkoista sovellusta mikrofonin tallentamiseen "
+#~ "(koska OpenShot ei vielä sisällä tallennusominaisuuksia)."

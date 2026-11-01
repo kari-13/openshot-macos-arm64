@@ -1,0 +1,452 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:23
+msgid "Playback"
+msgstr "Pemutaran"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:24
+msgid ""
+"The preview window is where video & audio playback takes place in OpenShot "
+"Video Editor. The preview window utilizes real-time video rendering, "
+"caching, re-sampling, and image scaling. This is the primary area for "
+"watching back (and listening to) your edits, giving you the feedback needed "
+"to make adjustments. It is also one of the most costly operations to your "
+"CPU, and requires a modern computer and some reasonable assumptions and "
+"factors (listed below)."
+msgstr ""
+"Jendela pratinjau adalah tempat pemutaran video & audio berlangsung di "
+"OpenShot Video Editor. Jendela pratinjau menggunakan rendering video waktu "
+"nyata, caching, re-sampling, dan penskalaan gambar. Ini adalah area utama "
+"untuk menonton kembali (dan mendengarkan) suntingan Anda, memberikan umpan "
+"balik yang diperlukan untuk melakukan penyesuaian. Ini juga merupakan salah "
+"satu operasi yang paling membebani CPU Anda, dan memerlukan komputer modern "
+"serta beberapa asumsi dan faktor yang masuk akal (tercantum di bawah)."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:30
+msgid "Real-Time Preview"
+msgstr "Pratinjau Waktu Nyata"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:31
+msgid ""
+"Many factors affect how smoothly the **real-time video preview** can "
+"playback on your computer. This requires a fast, modern multi-threaded CPU, "
+"lots of RAM (memory), and a modern GPU. We have listed many of the important "
+"factors below."
+msgstr ""
+"Banyak faktor memengaruhi seberapa lancar **pratinjau video waktu nyata** "
+"dapat diputar di komputer Anda. Ini memerlukan CPU multi-threaded yang cepat "
+"dan modern, banyak RAM (memori), dan GPU modern. Kami telah mencantumkan "
+"banyak faktor penting di bawah ini."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38
+msgid "Factor"
+msgstr "Faktor"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38 ../playback.rst:97
+msgid "Description"
+msgstr "Deskripsi"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid "CPU"
+msgstr "CPU"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid ""
+"If your CPU is too slow or has too few cores, you will likely experience a "
+"slow, choppy preview. We recommend installing OpenShot on fairly modern "
+"computer. See :ref:`min_system_req_ref` for more details on the hardware "
+"requirements for OpenShot Video Editor."
+msgstr ""
+"Jika CPU Anda terlalu lambat atau memiliki terlalu sedikit inti, Anda "
+"kemungkinan akan mengalami pratinjau yang lambat dan patah-patah. Kami "
+"menyarankan menginstal OpenShot pada komputer yang cukup modern. Lihat :ref:"
+"`min_system_req_ref` untuk detail lebih lanjut tentang persyaratan perangkat "
+"keras untuk OpenShot Video Editor."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid "Memory"
+msgstr "Memori"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid ""
+"If your available RAM memory is too limited, you will likely see huge drops "
+"in real-time performance, and your entire system will lag. We recommend "
+"installing additional RAM in your computer, if possible. See :ref:"
+"`min_system_req_ref`."
+msgstr ""
+"Jika memori RAM yang tersedia terlalu terbatas, Anda kemungkinan akan "
+"melihat penurunan besar dalam kinerja waktu nyata, dan seluruh sistem Anda "
+"akan melambat. Kami menyarankan menambah RAM di komputer Anda, jika "
+"memungkinkan. Lihat :ref:`min_system_req_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid "Cache"
+msgstr "Cache"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid ""
+"Your cache settings in the OpenShot Preferences are very important for "
+"determining how many frames to processes in advance. A value too low or too "
+"high can cause lag during the real-time video preview. The cache is also "
+"related to the available RAM. The higher the cache values, the more RAM and "
+"CPU is needed. We recommend experimenting with the Cache Preferences in "
+"OpenShot if you are experiencing issues with smooth playback. This same "
+"caching system also prepares frames ahead of time during export, speeding up "
+"the final render. See :ref:`preferences_cache_ref`."
+msgstr ""
+"Pengaturan cache Anda di Preferensi OpenShot sangat penting untuk menentukan "
+"berapa banyak frame yang diproses sebelumnya. Nilai yang terlalu rendah atau "
+"terlalu tinggi dapat menyebabkan lag selama pratinjau video waktu nyata. "
+"Cache juga terkait dengan RAM yang tersedia. Semakin tinggi nilai cache, "
+"semakin banyak RAM dan CPU yang dibutuhkan. Kami menyarankan bereksperimen "
+"dengan Preferensi Cache di OpenShot jika Anda mengalami masalah dengan "
+"pemutaran yang lancar. Sistem caching yang sama juga menyiapkan frame "
+"sebelumnya saat ekspor, mempercepat render akhir. Lihat :ref:"
+"`preferences_cache_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid "Preview Size"
+msgstr "Ukuran Pratinjau"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid ""
+"The height x width of your preview dock (widget) is very important for "
+"smooth real-time previews. The larger the window size, the more pixels must "
+"be rendered per frame, and the more CPU and RAM are required. It is "
+"recommended to keep reducing the preview window size until you achieve "
+"smooth video playback. On a slower computer, the preview window size might "
+"need to be very small for real-time previews (i.e. 320 x 240)."
+msgstr ""
+"Tinggi x lebar dock pratinjau (widget) Anda sangat penting untuk pratinjau "
+"waktu nyata yang lancar. Semakin besar ukuran jendela, semakin banyak piksel "
+"yang harus dirender per frame, dan semakin banyak CPU dan RAM yang "
+"dibutuhkan. Disarankan untuk terus mengurangi ukuran jendela pratinjau "
+"sampai Anda mencapai pemutaran video yang lancar. Pada komputer yang lebih "
+"lambat, ukuran jendela pratinjau mungkin harus sangat kecil untuk pratinjau "
+"waktu nyata (misalnya 320 x 240)."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid "Profile"
+msgstr "Profil"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid ""
+"Your project profile determines which size (width x height) and frame rate "
+"(FPS) are used during both playback and exporting. For example, if you are "
+"using a FHD 1920x1080 sized profile, you can also choose a smaller profile "
+"with the same aspect ratio (``16x9`` in this example), to improve the "
+"preview speed on slower computers. See :ref:`profiles_ref` for more "
+"information on available profiles."
+msgstr ""
+"Profil proyek Anda menentukan ukuran (lebar x tinggi) dan laju frame (FPS) "
+"yang digunakan selama pemutaran dan ekspor. Misalnya, jika Anda menggunakan "
+"profil berukuran FHD 1920x1080, Anda juga dapat memilih profil yang lebih "
+"kecil dengan rasio aspek yang sama (``16x9`` dalam contoh ini), untuk "
+"meningkatkan kecepatan pratinjau pada komputer yang lebih lambat. Lihat :ref:"
+"`profiles_ref` untuk informasi lebih lanjut tentang profil yang tersedia."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid "FPS (Frame Rate)"
+msgstr "FPS (Laju Frame)"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid ""
+"The FPS of your project is also very important, and a large factor for "
+"smooth video playback. For example, a 60 FPS video must render twice the "
+"number of frames, compared to a 30 FPS video. If you are experiencing slow "
+"downs in real-time performance, it can be helpful to reduce your project's "
+"FPS to a lower value, such as 30 or 24."
+msgstr ""
+"FPS proyek Anda juga sangat penting, dan merupakan faktor besar untuk "
+"pemutaran video yang lancar. Misalnya, video 60 FPS harus merender dua kali "
+"jumlah frame dibandingkan video 30 FPS. Jika Anda mengalami perlambatan "
+"dalam kinerja waktu nyata, mengurangi FPS proyek Anda ke nilai yang lebih "
+"rendah, seperti 30 atau 24, bisa membantu."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid "Matching Rates"
+msgstr "Menyamakan Laju"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid ""
+"It is very important to match your source assets FPS and Sample Rate with "
+"your Project FPS and Project sample rate. If either rate does not match "
+"exactly, it requires lots of additional CPU and RAM for OpenShot to "
+"normalize the mismatching rates. This can lead to audio pops, mis-"
+"alignments, duplicate frames, and extra lag in the real-time video preview. "
+"You can right-click a file and choose :guilabel:`File Properties`, to "
+"inspect the source asset rates, and ensure they match your Project settings "
+"(shown at the top of OpenShot). See :ref:`file_properties_ref`."
+msgstr ""
+"Sangat penting untuk menyamakan FPS dan Sample Rate aset sumber Anda dengan "
+"FPS dan sample rate Proyek Anda. Jika salah satu laju tidak cocok secara "
+"tepat, OpenShot memerlukan banyak CPU dan RAM tambahan untuk menormalkan "
+"laju yang tidak cocok tersebut. Ini dapat menyebabkan suara pecah, "
+"ketidaksesuaian, frame duplikat, dan lag ekstra dalam pratinjau video waktu "
+"nyata. Anda dapat klik kanan pada file dan memilih :guilabel:`File "
+"Properties`, untuk memeriksa laju aset sumber, dan memastikan mereka cocok "
+"dengan pengaturan Proyek Anda (ditampilkan di bagian atas OpenShot). Lihat :"
+"ref:`file_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid "Source Assets"
+msgstr "Aset Sumber"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid ""
+"For example, if you are editing 4K 60 FPS source assets, this is likely "
+"going to put a strain on your system. A common solution is using another "
+"tool (such as FFmpeg) to create a copy (or proxy) of all your source assets, "
+"at a lower resolution (and maybe even a lower FPS). It is recommended to "
+"keep these proxy video files in their own folder, separate from the original "
+"video files. Once you have completed your video editing with the proxy "
+"files, simply copy/paste your `*.osp` project file back into the original "
+"folder, and export the higher quality, original files."
+msgstr ""
+"Misalnya, jika Anda mengedit aset sumber 4K 60 FPS, ini kemungkinan akan "
+"membebani sistem Anda. Solusi umum adalah menggunakan alat lain (seperti "
+"FFmpeg) untuk membuat salinan (atau proxy) dari semua aset sumber Anda, "
+"dengan resolusi lebih rendah (dan mungkin juga FPS lebih rendah). Disarankan "
+"untuk menyimpan file video proxy ini di folder terpisah, terpisah dari file "
+"video asli. Setelah Anda menyelesaikan pengeditan video dengan file proxy, "
+"cukup salin/tempel file proyek `*.osp` Anda kembali ke folder asli, dan "
+"ekspor file asli dengan kualitas lebih tinggi."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77 ../playback.rst:101
+msgid "Audio Device"
+msgstr "Perangkat Audio"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77
+msgid ""
+"If you are still having issues with audio lag or sync, please verify you are "
+"using the correct :guilabel:`Playback Audio Device` for playback (in the "
+"OpenShot Preferences). See :ref:`preferences_preview_ref`. Verify your "
+"default audio device (on your operating system) is using the same sample "
+"rate and all *Audio Enhancements* are disabled. On certain operating systems "
+"(such as Windows), mismatching sample rates or audio enhancements can cause "
+"severe audio / video sync problems. Lastly, try adjusting the :guilabel:"
+"`Playback Audio Buffer Size` (lower values will playback audio with less "
+"delay, higher values will playback audio with a larger delay). OpenShot "
+"defaults to a buffer size of 512, which is reasonable for most systems, "
+"however on some systems you might need to lower (or raise) this value for "
+"smooth and lag-free audio playback. Be sure to restart OpenShot after "
+"changing the audio playback settings."
+msgstr ""
+"Jika Anda masih mengalami masalah dengan keterlambatan atau sinkronisasi "
+"audio, pastikan Anda menggunakan :guilabel:`Perangkat Audio Playback` yang "
+"benar untuk pemutaran (di Preferensi OpenShot). Lihat :ref:"
+"`preferences_preview_ref`. Pastikan perangkat audio default Anda (di sistem "
+"operasi Anda) menggunakan laju sampel yang sama dan semua *Peningkatan "
+"Audio* dinonaktifkan. Pada beberapa sistem operasi (seperti Windows), "
+"perbedaan laju sampel atau peningkatan audio dapat menyebabkan masalah "
+"sinkronisasi audio/video yang parah. Terakhir, coba sesuaikan :guilabel:"
+"`Ukuran Buffer Audio Playback` (nilai lebih rendah akan memutar audio dengan "
+"keterlambatan lebih sedikit, nilai lebih tinggi akan memutar audio dengan "
+"keterlambatan lebih besar). OpenShot menggunakan ukuran buffer default 512, "
+"yang masuk akal untuk sebagian besar sistem, namun pada beberapa sistem Anda "
+"mungkin perlu menurunkan (atau menaikkan) nilai ini agar pemutaran audio "
+"lancar dan tanpa lag. Pastikan untuk memulai ulang OpenShot setelah mengubah "
+"pengaturan pemutaran audio."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:89
+msgid "Audio Troubleshooting"
+msgstr "Pemecahan Masalah Audio"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:90
+msgid ""
+"If you are still experiencing audio related issues, and the above real-time "
+"playback factors did not resolve your issue, here are some additional "
+"troubleshooting steps you can take."
+msgstr ""
+"Jika Anda masih mengalami masalah terkait audio, dan faktor pemutaran waktu "
+"nyata di atas tidak menyelesaikan masalah Anda, berikut beberapa langkah "
+"pemecahan masalah tambahan yang dapat Anda coba."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:97
+msgid "Step"
+msgstr "Langkah"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid "Latest Daily Build"
+msgstr "Build Harian Terbaru"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid ""
+"Verify you are running the latest daily build of OpenShot: https://www."
+"openshot.org/download#daily"
+msgstr ""
+"Pastikan Anda menjalankan build harian terbaru dari OpenShot: https://www."
+"openshot.org/download#daily"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "Clean Install"
+msgstr "Instalasi Bersih"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "See :ref:`preferences_reset_ref` for a clean install"
+msgstr "Lihat :ref:`preferences_reset_ref` untuk instalasi bersih"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:101
+msgid ""
+"Check that the Playback Audio Device is set correctly for your sound output "
+"under Preferences in the Preview tab. Restart OpenShot after changing the "
+"settings. You can also try a different audio device (USB, audio over HDMI "
+"from the video card, headphones, etc.) to rule out other audio issues. "
+"Disable `automatic sound suppression` for voice calls during microphone "
+"activity, and disable `Audio Enhancements` under the advanced settings tab "
+"of your audio device (not all audio devices have these settings). See :ref:"
+"`preferences_preview_ref`."
+msgstr ""
+"Periksa bahwa Perangkat Audio Playback telah diatur dengan benar untuk "
+"output suara Anda di Preferensi pada tab Pratinjau. Mulai ulang OpenShot "
+"setelah mengubah pengaturan. Anda juga dapat mencoba perangkat audio lain "
+"(USB, audio melalui HDMI dari kartu video, headphone, dll.) untuk "
+"mengesampingkan masalah audio lain. Nonaktifkan `penekanan suara otomatis` "
+"untuk panggilan suara selama aktivitas mikrofon, dan nonaktifkan "
+"`Peningkatan Audio` di tab pengaturan lanjutan perangkat audio Anda (tidak "
+"semua perangkat audio memiliki pengaturan ini). Lihat :ref:"
+"`preferences_preview_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid "Audio Buffer Size"
+msgstr "Ukuran Buffer Audio"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid ""
+"The audio buffer size is the amount of audio samples which must first be "
+"buffered in OpenShot before audio playback can begin. If this value is too "
+"low, you might experience audio break-up / crackle / popping. If this value "
+"is too high, you might experience delays or lag before audio playback "
+"begins. OpenShot defaults this value to 512, which is a reasonable default "
+"for most systems, which should provide smooth audio playback with minimal "
+"noticeable lag or delay. However, on some systems this value might need to "
+"be adjusted up or down, for in-sync and lag-free audio playback. The range "
+"is 128 to 4096."
+msgstr ""
+"Ukuran buffer audio adalah jumlah sampel audio yang harus terlebih dahulu "
+"disimpan di OpenShot sebelum pemutaran audio dapat dimulai. Jika nilai ini "
+"terlalu rendah, Anda mungkin mengalami audio terputus-putus / berderak / "
+"meletup. Jika nilai ini terlalu tinggi, Anda mungkin mengalami keterlambatan "
+"atau lag sebelum pemutaran audio dimulai. OpenShot menggunakan nilai default "
+"512, yang merupakan nilai wajar untuk sebagian besar sistem, yang seharusnya "
+"memberikan pemutaran audio yang lancar dengan lag atau keterlambatan yang "
+"minimal. Namun, pada beberapa sistem nilai ini mungkin perlu disesuaikan "
+"naik atau turun, agar pemutaran audio sinkron dan tanpa lag. Rentangnya "
+"adalah 128 hingga 4096."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid "Sample Rate"
+msgstr "Laju Sampel"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid ""
+"Ensure that the `Default Audio Sample Rate` and `Default Audio Channels` on "
+"the Preview tab of the Preferences window match your hardware. You can also "
+"check these settings in the operating system control panel (i.e. Windows "
+"Sound Control Panel). See :ref:`preferences_preview_ref`."
+msgstr ""
+"Pastikan bahwa `Laju Sampel Audio Default` dan `Saluran Audio Default` pada "
+"tab Pratinjau di jendela Preferensi sesuai dengan perangkat keras Anda. Anda "
+"juga dapat memeriksa pengaturan ini di panel kontrol sistem operasi "
+"(misalnya Panel Kontrol Suara Windows). Lihat :ref:`preferences_preview_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid "Volume"
+msgstr "Volume"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid ""
+"Ensure that the volume does not exceed 100% on overlapping clips (such as an "
+"audio track combined with a video track). Lower the volume on individual "
+"clips if needed. See :ref:`clip_volume_mixing_ref`."
+msgstr ""
+"Pastikan volume tidak melebihi 100% pada klip yang tumpang tindih (seperti "
+"trek audio yang digabung dengan trek video). Turunkan volume pada klip "
+"individual jika diperlukan. Lihat :ref:`clip_volume_mixing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid "Headphones"
+msgstr "Headphone"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid ""
+"If you're using headphones, plug them in before starting OpenShot. Launching "
+"OpenShot with no speakers, headphones, or valid audio playback device can "
+"cause OpenShot to freeze during playback."
+msgstr ""
+"Jika Anda menggunakan headphone, colokkan sebelum memulai OpenShot. "
+"Menjalankan OpenShot tanpa speaker, headphone, atau perangkat pemutaran "
+"audio yang valid dapat menyebabkan OpenShot membeku saat pemutaran."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid "OS Updates"
+msgstr "Pembaruan OS"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid ""
+"Update your operating system and any pending security updates. Some audio "
+"issues, especially audio device specific issues, can be resolved with an "
+"operating system update."
+msgstr ""
+"Perbarui sistem operasi Anda dan semua pembaruan keamanan yang tertunda. "
+"Beberapa masalah audio, terutama masalah spesifik perangkat audio, dapat "
+"diselesaikan dengan pembaruan sistem operasi."

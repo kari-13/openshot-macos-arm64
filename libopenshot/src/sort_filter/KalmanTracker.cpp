@@ -1,0 +1,164 @@
+// © OpenShot Studios, LLC
+//
+// SPDX-License-Identifier: LGPL-3.0-or-later
+
+///////////////////////////////////////////////////////////////////////////////
+// KalmanTracker.cpp: KalmanTracker Class Implementation Declaration
+
+#include "KalmanTracker.h"
+#include <ctime>
+#include <algorithm>
+
+using namespace std;
+using namespace cv;
+
+// initialize Kalman filter
+void KalmanTracker::init_kf(
+	StateType stateMat)
+{
+	int stateNum = 8;
+	int measureNum = 4;
+	kf = KalmanFilter(stateNum, measureNum, 0);
+
+	measurement = Mat::zeros(measureNum, 1, CV_32F);
+
+	kf.transitionMatrix = (Mat_<float>(8, 8) << 1, 0, 0, 0, 1, 0, 0, 0,
+
+						   0, 1, 0, 0, 0, 1, 0, 0,
+						   0, 0, 1, 0, 0, 0, 1, 0,
+						   0, 0, 0, 1, 0, 0, 0, 1,
+						   0, 0, 0, 0, 1, 0, 0, 0,
+						   0, 0, 0, 0, 0, 1, 0, 0,
+						   0, 0, 0, 0, 0, 0, 1, 0,
+						   0, 0, 0, 0, 0, 0, 0, 1);
+
+	setIdentity(kf.measurementMatrix);
+	setIdentity(kf.processNoiseCov, Scalar::all(1e-1));
+	kf.processNoiseCov.at<float>(2, 2) = 1e0; // higher noise for area (s) to adapt to size changes
+	kf.processNoiseCov.at<float>(3, 3) = 1e0; // higher noise for aspect ratio (r)
+	setIdentity(kf.measurementNoiseCov, Scalar::all(1e-4));
+	setIdentity(kf.errorCovPost, Scalar::all(1e-2));
+
+	// initialize state vector with bounding box in [cx,cy,s,r] style
+	kf.statePost.at<float>(0, 0) = stateMat.x + stateMat.width / 2;
+	kf.statePost.at<float>(1, 0) = stateMat.y + stateMat.height / 2;
+	kf.statePost.at<float>(2, 0) = stateMat.area();
+	kf.statePost.at<float>(3, 0) = stateMat.width / stateMat.height;
+	kf.statePost.at<float>(4, 0) = 0.0f;
+	kf.statePost.at<float>(5, 0) = 0.0f;
+	kf.statePost.at<float>(6, 0) = 0.0f;
+	kf.statePost.at<float>(7, 0) = 0.0f;
+}
+
+// Predict the estimated bounding box.
+StateType KalmanTracker::predict()
+{
+	// predict
+	Mat p = kf.predict();
+	m_age += 1;
+
+	if (m_time_since_update > 0)
+		m_hit_streak = 0;
+	m_time_since_update += 1;
+
+	StateType predictBox = get_rect_xysr(p.at<float>(0, 0), p.at<float>(1, 0), p.at<float>(2, 0), p.at<float>(3, 0));
+
+	m_history.push_back(predictBox);
+	return m_history.back();
+}
+
+StateType KalmanTracker::predict2()
+{
+	// predict
+	Mat p = kf.predict();
+
+	StateType predictBox = get_rect_xysr(p.at<float>(0, 0), p.at<float>(1, 0), p.at<float>(2, 0), p.at<float>(3, 0));
+
+	return predictBox;
+}
+
+// Update the state vector with observed bounding box.
+void KalmanTracker::update(
+	StateType stateMat)
+{
+	m_time_since_update = 0;
+	m_history.clear();
+	m_hits += 1;
+	m_hit_streak += 1;
+
+	// measurement
+	measurement.at<float>(0, 0) = stateMat.x + stateMat.width / 2;
+	measurement.at<float>(1, 0) = stateMat.y + stateMat.height / 2;
+	measurement.at<float>(2, 0) = stateMat.area();
+	measurement.at<float>(3, 0) = stateMat.width / stateMat.height;
+
+	// update
+	kf.correct(measurement);
+	// time_t now = time(0);
+	// convert now to string form
+
+	// detect_times.push_back(dt);
+}
+
+void KalmanTracker::update_class_scores(const std::vector<ClassScore>& classScores, int fallbackClassId, float fallbackConfidence)
+{
+	const double decay = 0.82;
+	const double update_weight = 1.0 - decay;
+	const bool had_history = !classScoreHistory.empty();
+
+	for (auto it = classScoreHistory.begin(); it != classScoreHistory.end();) {
+		it->second *= decay;
+		if (it->second < 0.0001)
+			it = classScoreHistory.erase(it);
+		else
+			++it;
+	}
+
+	const double candidate_weight = had_history ? update_weight : 1.0;
+	if (classScores.empty()) {
+		classScoreHistory[fallbackClassId] += fallbackConfidence * candidate_weight;
+	} else {
+		for (const auto& candidate : classScores) {
+			if (candidate.classId < 0 || candidate.score <= 0.0f)
+				continue;
+			classScoreHistory[candidate.classId] += candidate.score * candidate_weight;
+		}
+	}
+
+	if (classScoreHistory.empty()) {
+		classId = fallbackClassId;
+		return;
+	}
+
+	auto best = std::max_element(
+		classScoreHistory.begin(), classScoreHistory.end(),
+		[](const auto& a, const auto& b) { return a.second < b.second; });
+	classId = best->first;
+}
+
+// Return the current state vector
+StateType KalmanTracker::get_state()
+{
+	Mat s = kf.statePost;
+	return get_rect_xysr(s.at<float>(0, 0), s.at<float>(1, 0), s.at<float>(2, 0), s.at<float>(3, 0));
+}
+
+// Convert bounding box from [cx,cy,s,r] to [x,y,w,h] style.
+StateType KalmanTracker::get_rect_xysr(
+	float cx,
+	float cy,
+	float s,
+	float r)
+{
+	float w = sqrt(s * r);
+	float h = s / w;
+	float x = (cx - w / 2);
+	float y = (cy - h / 2);
+
+	if (x < 0 && cx > 0)
+		x = 0;
+	if (y < 0 && cy > 0)
+		y = 0;
+
+	return StateType(x, y, w, h);
+}

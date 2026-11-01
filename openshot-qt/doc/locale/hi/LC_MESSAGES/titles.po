@@ -1,0 +1,1128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:23
+msgid "Text & Titles"
+msgstr "पाठ और शीर्षक"
+
+#: ../titles.rst:25
+msgid ""
+"Adding text overlays, lower thirds, and titles is an important aspect of "
+"video editing, and OpenShot comes with an easy-to-use Title Editor. Use the "
+"Title menu (located in the main menu of OpenShot) to launch the Title "
+"Editor. You can also use the keyboard shortcut :kbd:`Ctrl+T`."
+msgstr ""
+"टेक्स्ट ओवरले, लोअर थर्ड्स, और टाइटल जोड़ना वीडियो संपादन का एक महत्वपूर्ण "
+"पहलू है, और OpenShot एक उपयोग में आसान टाइटल एडिटर के साथ आता है। टाइटल "
+"एडिटर लॉन्च करने के लिए टाइटल मेनू (जो OpenShot के मुख्य मेनू में स्थित है) "
+"का उपयोग करें। आप कीबोर्ड शॉर्टकट :kbd:`Ctrl+T` का भी उपयोग कर सकते हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:29
+msgid ""
+"Titles are simply vector image files with transparent backgrounds "
+"(``*.svg``). OpenShot comes with many easy-to-use templates, but you can "
+"also create your own or import new templates into OpenShot. These templates "
+"allow you to quickly change the text, font, size, color, and background "
+"color. You can also launch an advanced, external SVG editor for further "
+"customizations (if needed). Once the title is added to your project, drag "
+"and drop the title on a Track above a video clip. The transparent background"
+" will allow the video below to appear behind the text."
+msgstr ""
+"शीर्षक केवल पारदर्शी पृष्ठभूमि वाले वेक्टर छवि फ़ाइलें (``*.svg``) हैं। "
+"OpenShot के साथ कई उपयोग में आसान टेम्पलेट आते हैं, लेकिन आप अपने स्वयं के "
+"टेम्पलेट भी बना सकते हैं या नए टेम्पलेट OpenShot में आयात कर सकते हैं। ये "
+"टेम्पलेट आपको जल्दी से पाठ, फ़ॉन्ट, आकार, रंग, और पृष्ठभूमि का रंग बदलने की "
+"अनुमति देते हैं। आप आगे की कस्टमाइज़ेशन के लिए एक उन्नत, बाहरी SVG संपादक भी"
+" लॉन्च कर सकते हैं (यदि आवश्यक हो)। एक बार शीर्षक आपके प्रोजेक्ट में जोड़ "
+"दिया गया, तो शीर्षक को वीडियो क्लिप के ऊपर किसी ट्रैक पर ड्रैग और ड्रॉप "
+"करें। पारदर्शी पृष्ठभूमि वीडियो को पाठ के पीछे दिखने देगी।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:36
+msgid "Overview"
+msgstr "समीक्षा"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:185
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:185
+msgid "Name"
+msgstr "नाम"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:44 ../titles.rst:63 ../titles.rst:185 ../titles.rst:204
+msgid "Description"
+msgstr "विवरण"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46 ../titles.rst:187
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46 ../titles.rst:187
+msgid "Choose a Template"
+msgstr "एक टेम्पलेट चुनें"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:46
+msgid "Choose from any available vector title template"
+msgstr "किसी भी उपलब्ध वेक्टर शीर्षक टेम्पलेट में से चुनें"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "Preview Title"
+msgstr "शीर्षक पूर्वावलोकन"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:47 ../titles.rst:188
+msgid "Preview your title as you make changes"
+msgstr "जैसे-जैसे आप परिवर्तन करते हैं, अपने शीर्षक का पूर्वावलोकन करें"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48 ../titles.rst:189
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48 ../titles.rst:189
+msgid "Title Properties"
+msgstr "शीर्षक गुण"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:48
+msgid ""
+"Change the text, font, size, colors, or edit in an advanced, external SVG "
+"image editor (such as Inkscape)"
+msgstr ""
+"पाठ, फ़ॉन्ट, आकार, रंग बदलें, या उन्नत, बाहरी SVG छवि संपादक (जैसे Inkscape)"
+" में संपादित करें"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49 ../titles.rst:190
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49
+msgid "Save"
+msgstr "सहेजें"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:49
+msgid "Save and add the title to your project"
+msgstr "सहेजें और शीर्षक को अपने प्रोजेक्ट में जोड़ें"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:53
+msgid "Title Templates"
+msgstr "शीर्षक टेम्पलेट"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:55
+msgid ""
+"OpenShot includes a variety of vector title templates that can be used to "
+"enhance your video projects. Below is a table listing the available titles "
+"and their descriptions:"
+msgstr ""
+"OpenShot में विभिन्न वेक्टर शीर्षक टेम्पलेट शामिल हैं जिन्हें आप अपने वीडियो"
+" प्रोजेक्ट्स को बेहतर बनाने के लिए उपयोग कर सकते हैं। नीचे उपलब्ध शीर्षकों "
+"और उनके विवरणों की एक तालिका दी गई है:"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:62
+msgid "Title Name"
+msgstr "शीर्षक नाम"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:64
+msgid "Bar 1"
+msgstr "बार 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:65
+msgid "A simple bar with text centered."
+msgstr "एक सरल बार जिसमें पाठ केंद्रित है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:66
+msgid "Bar 2"
+msgstr "बार 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:67
+msgid "A simple bar, centered, with 2 lines of text."
+msgstr "एक सरल बार, केंद्रित, जिसमें 2 पंक्तियाँ पाठ हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:68
+msgid "Bar 3"
+msgstr "बार 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:69
+msgid "Another variation of a simple bar with text, for lower 3rds."
+msgstr "पाठ के साथ एक सरल बार का एक और संस्करण, लोअर थर्ड्स के लिए।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:70
+msgid "Box"
+msgstr "बॉक्स"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:71
+#, fuzzy
+msgid "A simple boxed title layout for centered text."
+msgstr "एक सरल बार जिसमें पाठ केंद्रित है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:72
+msgid "Bubbles 1"
+msgstr "बबल्स 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:73
+msgid "A title with bubble graphics for a playful look."
+msgstr "खेलपूर्ण दिखावट के लिए बबल ग्राफिक्स वाला शीर्षक।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:74
+msgid "Bubbles 2"
+msgstr "बबल्स 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:75
+msgid "A different bubble design for a fun and creative title."
+msgstr "मज़ेदार और रचनात्मक शीर्षक के लिए एक अलग बबल डिज़ाइन।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:76
+msgid "Camera Border"
+msgstr "कैमरा बॉर्डर"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:77
+msgid "A border that mimics a camera viewfinder with centered text."
+msgstr ""
+"एक बॉर्डर जो कैमरा व्यूफ़ाइंडर की नकल करता है, जिसमें केंद्रित पाठ होता है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:78
+msgid "Cloud 1"
+msgstr "क्लाउड 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:79
+msgid "A title with a playful cloud graphic and text."
+msgstr "खेलपूर्ण बादल ग्राफिक और पाठ वाला शीर्षक।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:80
+msgid "Cloud 2"
+msgstr "क्लाउड 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:81
+msgid "Another playful cloud design with 3 clouds and text."
+msgstr "3 बादलों और पाठ के साथ एक और खेलपूर्ण बादल डिज़ाइन।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:82
+msgid "Creative Commons 1"
+msgstr "क्रिएटिव कॉमन्स 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:83
+msgid "Contains text and icons for Creative Commons attribution."
+msgstr "क्रिएटिव कॉमन्स श्रेय के लिए पाठ और आइकन शामिल हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:84
+msgid "Creative Commons 2"
+msgstr "क्रिएटिव कॉमन्स 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:85
+msgid ""
+"Another Creative Commons design with different styling plus website text."
+msgstr ""
+"एक और क्रिएटिव कॉमन्स डिज़ाइन जिसमें अलग शैली और वेबसाइट पाठ शामिल है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:86
+msgid "Film Rating 1"
+msgstr "फिल्म रेटिंग 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:87
+msgid "Displays a film rating for all audiences."
+msgstr "सभी दर्शकों के लिए फिल्म रेटिंग दिखाता है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:88
+msgid "Film Rating 2"
+msgstr "फिल्म रेटिंग 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:89
+msgid "Displays a film rating of \"R\" restricted."
+msgstr "फिल्म रेटिंग \"R\" प्रतिबंधित दिखाता है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:90
+msgid "Film Rating 3"
+msgstr "फिल्म रेटिंग 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:91
+msgid "Displays a film rating of \"G\" for general audiences."
+msgstr "सामान्य दर्शकों के लिए फिल्म रेटिंग \"G\" दिखाता है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:92
+msgid "Film Rating 4"
+msgstr "फिल्म रेटिंग 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:93
+msgid "Displays a film rating of \"PG-13\", parents strongly cautioned."
+msgstr ""
+"फिल्म रेटिंग \"PG-13\" दिखाता है, माता-पिता को कड़ाई से सावधान किया गया है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:94
+#, fuzzy
+msgid "Flare"
+msgstr "चमक"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:95
+#, fuzzy
+msgid "A title with a bright flare effect for a cinematic look."
+msgstr "नाटकीय दिखावट के लिए धुंआ प्रभाव के साथ एक शीर्षक।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:96
+msgid "Flames"
+msgstr "लपटें"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:97
+msgid "A title with flame graphics for a fiery effect."
+msgstr "आग की लपटों के ग्राफिक्स के साथ एक शीर्षक।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:98
+msgid "Footer 1"
+msgstr "फूटर 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:99
+msgid "A footer bar for lower thirds (left aligned)."
+msgstr "लोअर थर्ड्स के लिए एक फूटर बार (बाएं संरेखित)।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:100
+msgid "Footer 2"
+msgstr "फूटर 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:101
+msgid "A footer bar for lower thirds (center aligned)."
+msgstr "लोअर थर्ड्स के लिए एक फूटर बार (केंद्र संरेखित)।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:102
+msgid "Footer 3"
+msgstr "फूटर 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:103
+msgid "A footer bar for lower thirds (right aligned)."
+msgstr "लोअर थर्ड्स के लिए एक फूटर बार (दाएं संरेखित)।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:104
+msgid "Gold 1"
+msgstr "गोल्ड 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:105
+msgid "A title with a gold color scheme, centered with one line of text."
+msgstr "एक स्वर्ण रंग योजना वाला शीर्षक, एक पंक्ति के पाठ के साथ केंद्रित।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:106
+msgid "Gold 2"
+msgstr "गोल्ड 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:107
+msgid "Another gold-themed title, centered with two lines of text."
+msgstr "एक और स्वर्ण-थीम वाला शीर्षक, दो पंक्तियों के पाठ के साथ केंद्रित।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:108
+msgid "Gold Bottom"
+msgstr "गोल्ड बॉटम"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:109
+msgid "Gold title positioned at the bottom of the screen."
+msgstr "स्क्रीन के नीचे स्थित स्वर्ण शीर्षक।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:110
+msgid "Gold Top"
+msgstr "गोल्ड टॉप"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:111
+msgid "Gold title positioned at the top of the screen."
+msgstr "स्क्रीन के ऊपर स्थित स्वर्ण शीर्षक।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:112
+msgid "Gray Box 1"
+msgstr "ग्रे बॉक्स 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:113
+msgid ""
+"A simple gray box for highlighting text (one line of text, top-left "
+"aligned)."
+msgstr ""
+"पाठ को हाइलाइट करने के लिए एक सरल ग्रे बॉक्स (एक पंक्ति का पाठ, ऊपर-बाएं "
+"संरेखित)।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:114
+msgid "Gray Box 2"
+msgstr "ग्रे बॉक्स 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:115
+msgid ""
+"A simple gray box for highlighting text (two lins of text, top-left "
+"aligned)."
+msgstr ""
+"पाठ को हाइलाइट करने के लिए एक सरल ग्रे बॉक्स (दो पंक्तियों का पाठ, ऊपर-बाएं "
+"संरेखित)।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:116
+msgid "Gray Box 3"
+msgstr "ग्रे बॉक्स 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:117
+msgid ""
+"A simple gray box for highlighting text (one line of text, bottom-right "
+"aligned)."
+msgstr ""
+"पाठ को हाइलाइट करने के लिए एक सरल ग्रे बॉक्स (एक पंक्ति का पाठ, नीचे-दाएं "
+"संरेखित)।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:118
+msgid "Gray Box 4"
+msgstr "ग्रे बॉक्स 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:119
+msgid ""
+"A simple gray box for highlighting text (two lines of text, bottom-right "
+"aligned)."
+msgstr ""
+"पाठ को हाइलाइट करने के लिए एक सरल ग्रे बॉक्स (दो पंक्तियों का पाठ, नीचे-दाएं"
+" संरेखित)।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:120
+msgid "Header 1"
+msgstr "हेडर 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:121
+msgid "A header bar for titles or section headers (top-left aligned)."
+msgstr "शीर्षक या अनुभाग हेडर के लिए एक हेडर बार (ऊपर-बाएं संरेखित)।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:122
+msgid "Header 2"
+msgstr "हेडर 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:123
+msgid "A header bar for titles or section headers (center aligned)."
+msgstr "शीर्षक या अनुभाग हेडर के लिए एक हेडर बार (केंद्र में संरेखित)।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:124
+msgid "Header 3"
+msgstr "हेडर 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:125
+msgid "A header bar for titles or section headers (top-right aligned)."
+msgstr "शीर्षक या अनुभाग हेडर के लिए एक हेडर बार (ऊपर-दाएं संरेखित)।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:126
+msgid "OpenShot"
+msgstr "OpenShot"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:127
+msgid "A title featuring OpenShot branding."
+msgstr "OpenShot ब्रांडिंग वाला एक शीर्षक।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:128
+msgid "Oval 1"
+msgstr "ओवल 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:129
+msgid "An oval shape for highlighting or decorative purposes, text centered."
+msgstr "हाइलाइट या सजावटी उद्देश्यों के लिए एक अंडाकार आकृति, पाठ केंद्रित।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:130
+msgid "Oval 2"
+msgstr "ओवल 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:131
+msgid "Another oval design with a different style, text centered."
+msgstr "एक अलग शैली के साथ एक और अंडाकार डिज़ाइन, पाठ केंद्रित।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:132
+msgid "Oval 3"
+msgstr "ओवल 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:133
+msgid ""
+"Another oval design with two-lines of text, one at the top, one at the "
+"bottom."
+msgstr "एक और अंडाकार डिज़ाइन जिसमें दो पंक्तियाँ हैं, एक ऊपर और एक नीचे।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:134
+msgid "Oval 4"
+msgstr "ओवल 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:135
+msgid "Yet another oval design, with text centered plus refection."
+msgstr "एक और अंडाकार डिज़ाइन, जिसमें पाठ केंद्रित है और परावर्तन भी है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:136
+msgid "Post it"
+msgstr "पोस्ट-इट"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:137
+msgid "Mimics a sticky note for annotations or reminders."
+msgstr "टिप्पणियों या अनुस्मारकों के लिए एक स्टिकी नोट की नकल करता है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:138
+msgid "Ribbon 1"
+msgstr "रिबन 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:139
+msgid "A ribbon graphic with text."
+msgstr "पाठ के साथ एक रिबन ग्राफिक।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:140
+msgid "Ribbon 2"
+msgstr "रिबन 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:141
+msgid "Another ribbon design with text."
+msgstr "पाठ के साथ एक और रिबन डिज़ाइन।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:142
+msgid "Ribbon 3"
+msgstr "रिबन 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:143
+msgid "A third variation of a ribbon design with text."
+msgstr "पाठ के साथ रिबन डिज़ाइन का तीसरा संस्करण।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:144
+msgid "Smoke 1"
+msgstr "स्मोक 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:145
+msgid "A title with smoke effects for a dramatic look."
+msgstr "नाटकीय दिखावट के लिए धुंआ प्रभाव के साथ एक शीर्षक।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:146
+msgid "Smoke 2"
+msgstr "स्मोक 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:147
+msgid "Another smoke design with a different style."
+msgstr "एक अलग शैली के साथ एक और स्मोक डिज़ाइन।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:148
+msgid "Smoke 3"
+msgstr "स्मोक 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:149
+msgid "A third variation of smoke effects."
+msgstr "धुंआ प्रभाव का तीसरा संस्करण।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:150
+msgid "Solid Color"
+msgstr "ठोस रंग"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:151
+msgid "A full-screen color background for various uses."
+msgstr "विभिन्न उपयोगों के लिए पूर्ण-स्क्रीन रंग पृष्ठभूमि।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:152
+msgid "Standard 1"
+msgstr "स्टैंडर्ड 1"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:153
+msgid "A standard title design for general purposes (two lines centered)."
+msgstr ""
+"सामान्य उद्देश्यों के लिए एक मानक शीर्षक डिज़ाइन (दो पंक्तियाँ केंद्रित)।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:154
+msgid "Standard 2"
+msgstr "स्टैंडर्ड 2"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:155
+msgid ""
+"Another standard title with a different style (one line of text plus "
+"reflection)."
+msgstr "एक अलग शैली के साथ एक और मानक शीर्षक (एक पंक्ति पाठ और परावर्तन)।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:156
+msgid "Standard 3"
+msgstr "स्टैंडर्ड 3"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:157
+msgid "A third variation of a standard title (three lines of text)."
+msgstr "एक मानक शीर्षक का तीसरा संस्करण (तीन पंक्तियाँ पाठ)।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:158
+msgid "Standard 4"
+msgstr "स्टैंडर्ड 4"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:159
+msgid "Yet another standard title design (four lines of text)."
+msgstr "एक और मानक शीर्षक डिज़ाइन (चार पंक्तियाँ पाठ)।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:160
+msgid "Sunset"
+msgstr "सूर्यास्त"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:161
+msgid "A title with sunset gradient for a warm, end-of-day theme."
+msgstr "गर्म, दिन के अंत के विषय के लिए सूर्यास्त ग्रेडिएंट के साथ एक शीर्षक।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:162
+msgid "TV Rating"
+msgstr "टीवी रेटिंग"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:163
+msgid ""
+"Displays TV ratings badge such as \"G\" and \"PG\" (for the corner of the "
+"screen)."
+msgstr "स्क्रीन के कोने के लिए \"G\" और \"PG\" जैसे टीवी रेटिंग बैज दिखाता है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:167
+msgid "Custom Title Templates"
+msgstr "कस्टम शीर्षक टेम्पलेट्स"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:168
+msgid ""
+"OpenShot can use any vector SVG image file as a custom title template in the"
+" :guilabel:`Title Editor` dialog. Just add an SVG image file to your "
+"``~/.openshot_qt/title_templates/`` folder, and it will appear the next time"
+" you launch the :guilabel:`Title Editor` dialog. You can also right click on"
+" any SVG files in your **Project Files** panel, and choose **Edit Title** or"
+" **Duplicate Title**."
+msgstr ""
+"OpenShot किसी भी वेक्टर SVG इमेज फ़ाइल को :guilabel:`Title Editor` संवाद में"
+" कस्टम शीर्षक टेम्पलेट के रूप में उपयोग कर सकता है। बस अपनी "
+"``~/.openshot_qt/title_templates/`` फ़ोल्डर में एक SVG इमेज फ़ाइल जोड़ें, और"
+" यह अगली बार जब आप :guilabel:`Title Editor` संवाद खोलेंगे तो दिखाई देगा। आप "
+"अपने **Project Files** पैनल में किसी भी SVG फ़ाइल पर राइट-क्लिक करके **Edit "
+"Title** या **Duplicate Title** भी चुन सकते हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:172
+msgid ""
+"Note: These SVG templates are only used by the :guilabel:`Title Editor` "
+"dialog, and not :guilabel:`Animated Title` dialog."
+msgstr ""
+"ध्यान दें: ये SVG टेम्पलेट केवल :guilabel:`Title Editor` संवाद में उपयोग किए"
+" जाते हैं, और :guilabel:`Animated Title` संवाद में नहीं।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:177
+msgid "3D Animated Titles"
+msgstr "3D एनिमेटेड शीर्षक"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:178
+msgid ""
+"Adding a 3D animated title is just as easy, using our **Animated Title** "
+"dialog. Use the Title menu (located in the main menu of OpenShot) to launch "
+"the Animated Title editor. You can also use the keyboard shortcut "
+"**Ctrl+B**. Note: Blender must be installed and configured before this "
+"feature will work in OpenShot. See :ref:`blender_install_ref`."
+msgstr ""
+"3D एनिमेटेड शीर्षक जोड़ना उतना ही आसान है, हमारे **Animated Title** संवाद का"
+" उपयोग करके। Animated Title संपादक खोलने के लिए Title मेनू (जो OpenShot के "
+"मुख्य मेनू में है) का उपयोग करें। आप कीबोर्ड शॉर्टकट **Ctrl+B** भी उपयोग कर "
+"सकते हैं। ध्यान दें: इस सुविधा के काम करने के लिए Blender स्थापित और "
+"कॉन्फ़िगर होना आवश्यक है। देखें :ref:`blender_install_ref`।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:187
+msgid "Choose from any available 3D title templates"
+msgstr "किसी भी उपलब्ध 3D शीर्षक टेम्पलेट में से चुनें"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:189
+msgid "Change the text, colors, and advanced properties"
+msgstr "पाठ, रंग, और उन्नत गुण बदलें"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:190
+msgid "Render"
+msgstr "रेंडर करें"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:190
+msgid "Render the 3D animation, and add it to your project"
+msgstr "3D एनिमेशन रेंडर करें, और इसे अपने प्रोजेक्ट में जोड़ें"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:194
+msgid "3D Animated Templates"
+msgstr "3D एनिमेटेड टेम्पलेट्स"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:196
+msgid ""
+"OpenShot includes a variety of 3D animated templates that can be used to add"
+" dynamic and engaging elements to your video projects. Below is a table "
+"listing the available templates and their descriptions:"
+msgstr ""
+"OpenShot में कई प्रकार के 3D एनिमेटेड टेम्पलेट शामिल हैं जिन्हें आप अपने "
+"वीडियो प्रोजेक्ट्स में गतिशील और आकर्षक तत्व जोड़ने के लिए उपयोग कर सकते "
+"हैं। नीचे उपलब्ध टेम्पलेट्स और उनके विवरणों की एक तालिका है:"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:203
+msgid "Template Name"
+msgstr "टेम्पलेट नाम"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:205
+msgid "Blinds (Two Titles)"
+msgstr "ब्लाइंड्स (दो शीर्षक)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:206
+msgid "An animation featuring a blinds effect."
+msgstr "ब्लाइंड्स प्रभाव वाली एक एनिमेशन।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:207
+msgid "Blur"
+msgstr "ब्लर"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:208
+msgid ""
+"A template that blurs text in and out, providing a smooth transition effect."
+msgstr ""
+"एक टेम्पलेट जो पाठ को धुंधला करता है, एक चिकनी संक्रमण प्रभाव प्रदान करता "
+"है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:209
+msgid "Color Tiles"
+msgstr "रंगीन टाइल्स"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:210
+msgid ""
+"An animation with changing colors, suitable for vibrant and dynamic titles."
+msgstr "रंग बदलने वाली एक एनिमेशन, जीवंत और गतिशील शीर्षकों के लिए उपयुक्त।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:211
+msgid "Dissolving Text"
+msgstr "घुलता हुआ पाठ"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:212
+msgid ""
+"A dissolve effect that turns any text into particles which get blown away by"
+" the wind."
+msgstr ""
+"एक घुलने वाला प्रभाव जो किसी भी पाठ को कणों में बदल देता है जो हवा से उड़ "
+"जाते हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:213
+msgid "World Map"
+msgstr "विश्व मानचित्र"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:214
+msgid "A template featuring a rotating Earth between 2 locations."
+msgstr "दो स्थानों के बीच घूमती पृथ्वी को दर्शाने वाला टेम्पलेट।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:215
+msgid "Exploding Text"
+msgstr "फटता हुआ टेक्स्ट"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:216
+msgid ""
+"An animation where the title explode into pieces, adding dramatic impact."
+msgstr ""
+"एक एनीमेशन जिसमें शीर्षक टुकड़ों में फटता है, जो नाटकीय प्रभाव जोड़ता है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:217
+msgid "Fly Towards Camera"
+msgstr "कैमरे की ओर उड़ान"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:218
+msgid "A fly-by animation with a single title zooming past the screen."
+msgstr ""
+"एक फ्लाई-बाय एनीमेशन जिसमें एक शीर्षक स्क्रीन के सामने ज़ूम करता हुआ गुजरता "
+"है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:219
+msgid "Fly Towards Camera (Two Titles)"
+msgstr "कैमरे की ओर उड़ान (दो शीर्षक)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:220
+msgid "Similar to Fly By 1, but with two titles flying by."
+msgstr "फ्लाई बाय 1 के समान, लेकिन दो शीर्षक उड़ते हुए गुजरते हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:221
+msgid "Glare"
+msgstr "चमक"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:222
+msgid "An animation with a glare effect, adding a bright, reflective look."
+msgstr ""
+"एक एनीमेशन जिसमें चमक प्रभाव होता है, जो एक उज्ज्वल, परावर्तक रूप जोड़ता है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:223
+msgid "Glass Slider"
+msgstr "ग्लास स्लाइडर"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:224
+msgid "A sliding glass effect, providing a modern and sleek transition."
+msgstr ""
+"एक स्लाइडिंग ग्लास प्रभाव, जो एक आधुनिक और चिकना संक्रमण प्रदान करता है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:225
+msgid "Lens Flare"
+msgstr "लेंस फ्लेयर"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:226
+msgid "An animation featuring a lens flare, adding a cinematic touch."
+msgstr ""
+"एक एनीमेशन जिसमें लेंस फ्लेयर होता है, जो एक सिनेमाई स्पर्श जोड़ता है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:227
+msgid "Magic Wand"
+msgstr "मैजिक वांड"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:228
+msgid "A whimsical magic wand effect, ideal for magical or fantasy themes."
+msgstr "एक मनमोहक मैजिक वांड प्रभाव, जादुई या फैंटेसी थीम के लिए आदर्श।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:229
+msgid "Neon Curves"
+msgstr "नियोन कर्व्स"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:230
+msgid "An animation with neon curves, creating a futuristic and vibrant look."
+msgstr ""
+"एक एनीमेशन जिसमें नियोन कर्व्स होते हैं, जो एक भविष्यवादी और जीवंत रूप बनाते"
+" हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:231
+msgid "Picture Frames (4 pictures)"
+msgstr "चित्र फ्रेम (4 चित्र)"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:232
+msgid ""
+"A template featuring four picture frames, suitable for showcasing images or "
+"video clips."
+msgstr ""
+"एक टेम्पलेट जिसमें चार चित्र फ्रेम होते हैं, जो छवियों या वीडियो क्लिप्स को "
+"प्रदर्शित करने के लिए उपयुक्त है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:233
+msgid "Rotate 360"
+msgstr "360 डिग्री घुमाएं"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:234
+msgid "A 360-degree rotation effect, providing a dynamic title animation."
+msgstr ""
+"एक 360-डिग्री घुमाव प्रभाव, जो एक गतिशील शीर्षक एनीमेशन प्रदान करता है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:235
+msgid "Slide Left to Right"
+msgstr "बाएं से दाएं स्लाइड करें"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:236
+msgid "A sliding effect where titles move from left to right."
+msgstr "एक स्लाइडिंग प्रभाव जिसमें शीर्षक बाएं से दाएं चलते हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:237
+msgid "Snow"
+msgstr "बर्फ"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:238
+msgid ""
+"An animation with falling snow particles, perfect for winter or holiday "
+"themes."
+msgstr ""
+"एक एनीमेशन जिसमें गिरती हुई बर्फ के कण होते हैं, जो सर्दियों या छुट्टियों के"
+" थीम के लिए उपयुक्त है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:239
+msgid "Space Movie Intro"
+msgstr "स्पेस मूवी इंट्रो"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:240
+msgid "A cinematic space-themed intro, ideal for epic or sci-fi projects."
+msgstr ""
+"एक सिनेमाई अंतरिक्ष-थीम वाला इंट्रो, महाकाव्य या साइंस-फिक्शन परियोजनाओं के "
+"लिए आदर्श।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:241
+msgid "Wireframe Text"
+msgstr "वायरफ्रेम टेक्स्ट"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:242
+msgid "An animation with wireframe text, adding a technical or digital look."
+msgstr ""
+"एक एनीमेशन जिसमें वायरफ्रेम टेक्स्ट होता है, जो एक तकनीकी या डिजिटल रूप "
+"जोड़ता है।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:243
+msgid "Zoom to Clapboard"
+msgstr "क्लैपबोर्ड की ओर ज़ूम करें"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:244
+msgid ""
+"A zoom title with a clapboard, perfect for film or video production themes."
+msgstr ""
+"क्लैपबोर्ड के साथ एक ज़ूम शीर्षक, फिल्म या वीडियो प्रोडक्शन थीम के लिए "
+"उपयुक्त।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:247
+msgid "Importing Text"
+msgstr "टेक्स्ट आयात करना"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:249
+msgid ""
+"You can generate text & titles in many different programs, such as Blender, "
+"Inkscape, Krita, Gimp, etc... Before you can import text into OpenShot, you "
+"must first export the text from these programs into a compatible image "
+"format that contains a **transparent background** and **alpha** channel."
+msgstr ""
+"आप कई अलग-अलग प्रोग्रामों में टेक्स्ट और शीर्षक बना सकते हैं, जैसे Blender, "
+"Inkscape, Krita, Gimp, आदि... OpenShot में टेक्स्ट आयात करने से पहले, आपको "
+"इन प्रोग्रामों से टेक्स्ट को एक संगत इमेज फॉर्मेट में निर्यात करना होगा "
+"जिसमें **पारदर्शी पृष्ठभूमि** और **अल्फा** चैनल हो।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:253
+msgid ""
+"The ``SVG`` format is a great choice for vector graphics (curves, shapes, "
+"text effects and paths), however it is **not** always 100% compatible with "
+"OpenShot. Thus, we recommend using ``PNG`` format, which is a great web-"
+"based image format that can include a transparent background and alpha "
+"channel. A transparent background and alpha channel are needed for OpenShot "
+"to allow the text to not cover up videos and images on the timeline below "
+"them."
+msgstr ""
+"``SVG`` फॉर्मेट वेक्टर ग्राफिक्स (कर्व्स, शेप्स, टेक्स्ट इफेक्ट्स और पाथ्स) "
+"के लिए एक अच्छा विकल्प है, लेकिन यह हमेशा OpenShot के साथ 100% संगत नहीं "
+"होता है। इसलिए, हम ``PNG`` फॉर्मेट का उपयोग करने की सलाह देते हैं, जो एक "
+"बेहतरीन वेब-आधारित इमेज फॉर्मेट है और इसमें पारदर्शी पृष्ठभूमि और अल्फा चैनल"
+" शामिल हो सकते हैं। OpenShot में टेक्स्ट को नीचे की टाइमलाइन पर वीडियो और "
+"इमेजेज़ को ढकने से रोकने के लिए पारदर्शी पृष्ठभूमि और अल्फा चैनल आवश्यक हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:258
+msgid ""
+"For information on importing animated sequences into OpenShot, please see "
+":ref:`animation_image_seq_ref`."
+msgstr ""
+"OpenShot में एनिमेटेड अनुक्रम आयात करने की जानकारी के लिए, कृपया "
+":ref:`animation_image_seq_ref` देखें।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:261
+msgid "Installing Inkscape"
+msgstr "Inkscape स्थापित करना"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:263
+msgid ""
+"The :guilabel:`Advanced Editor` feature in the :guilabel:`Title Editor` "
+"dialog requires the latest version of Inkscape "
+"(https://inkscape.org/release/) be installed and the OpenShot "
+"**Preferences** updated with the correct path to the Inkscape executable. "
+"See the :ref:`preferences_general_ref` tab in Preferences."
+msgstr ""
+":guilabel:`Title Editor` संवाद में :guilabel:`Advanced Editor` फीचर के लिए "
+"Inkscape का नवीनतम संस्करण (https://inkscape.org/release/) स्थापित होना "
+"आवश्यक है और OpenShot की **Preferences** में Inkscape executable का सही पथ "
+"अपडेट किया जाना चाहिए। Preferences में :ref:`preferences_general_ref` टैब "
+"देखें।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:270
+msgid "Installing Blender"
+msgstr "Blender स्थापित करना"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:272
+msgid ""
+"The :guilabel:`Animated Title` feature in OpenShot requires the latest "
+"version of Blender (https://www.blender.org/download/) be installed and the "
+"OpenShot **Preferences** updated with the correct path to the Blender "
+"executable. See the :ref:`preferences_general_ref` tab in Preferences. NOTE:"
+" The minimum supported version of Blender is 5.0+. Older versions of Blender"
+" are not compatible with OpenShot Video Editor."
+msgstr ""
+"OpenShot में :guilabel:`Animated Title` फीचर के लिए Blender का नवीनतम "
+"संस्करण (https://www.blender.org/download/) स्थापित होना आवश्यक है और "
+"OpenShot की **Preferences** में Blender executable का सही पथ अपडेट किया जाना"
+" चाहिए। Preferences में :ref:`preferences_general_ref` टैब देखें। नोट: "
+"Blender का न्यूनतम समर्थित संस्करण 5.0+ है। पुराने संस्करण OpenShot Video "
+"Editor के साथ संगत नहीं हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../titles.rst:278
+msgid ""
+"For a detailed guide on how to install these dependencies, see `Blender & "
+"Inkscape Guide <https://github.com/OpenShot/openshot-qt/wiki/Blender-and-"
+"Inkscape-Guide>`_."
+msgstr ""
+"इन निर्भरताओं को स्थापित करने के लिए विस्तृत मार्गदर्शिका के लिए, `Blender &"
+" Inkscape Guide <https://github.com/OpenShot/openshot-qt/wiki/Blender-and-"
+"Inkscape-Guide>`_ देखें।"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Adding text and titles is an important aspect of video editing, and OpenShot"
+#~ " comes with an easy-to-use Title Editor. Use the Title menu (located in the "
+#~ "main menu of OpenShot) to launch the Title Editor. You can also use the "
+#~ "keyboard shortcut :kbd:`Ctrl+T`."
+#~ msgstr ""
+#~ "पाठ और शीर्षक जोड़ना वीडियो संपादन का एक महत्वपूर्ण पहलू है, और OpenShot के "
+#~ "साथ एक उपयोग में आसान शीर्षक संपादक आता है। शीर्षक संपादक लॉन्च करने के लिए "
+#~ "शीर्षक मेनू (OpenShot के मुख्य मेनू में स्थित) का उपयोग करें। आप कीबोर्ड "
+#~ "शॉर्टकट :kbd:`Ctrl+T` का भी उपयोग कर सकते हैं।"

@@ -1,0 +1,1149 @@
+# Ukrainian translations for OpenShot Video Editor package.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: 2026-08-30 16:50-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../recording.rst:23
+msgid "Recording"
+msgstr "Запис"
+
+#: ../recording.rst:25
+msgid ""
+"OpenShot can record a microphone, the desktop, and a webcam directly into "
+"the current project. You can enable one source or combine several in a "
+"synchronized recording session. Each source remains an independent media "
+"file and timeline clip, making it easy to adjust microphone volume, crop a "
+"webcam, or edit the screen capture separately."
+msgstr ""
+"OpenShot може записувати звук з мікрофона, робочий стіл і вебкамеру "
+"безпосередньо у поточний проєкт. Ви можете увімкнути одне джерело або "
+"поєднати кілька у синхронізованій сесії запису. Кожне джерело залишається "
+"незалежним медіафайлом і кліпом на часовій шкалі, що дозволяє легко "
+"регулювати гучність мікрофона, обрізати вебкамеру або редагувати запис "
+"екрану окремо."
+
+#: ../recording.rst:29
+msgid ""
+"Open the dedicated layout with :guilabel:`View → Recording View`, or show "
+"only the dock with :guilabel:`View → Docks → Recording`."
+msgstr ""
+"Відкрийте спеціальний макет за допомогою :guilabel:`Вигляд → Вигляд запису`,"
+" або покажіть лише панель за допомогою :guilabel:`Вигляд → Панелі → Запис`."
+
+#: ../recording.rst:-1
+msgid "OpenShot Recording View with the microphone source selected by default"
+msgstr ""
+"Вигляд запису OpenShot із вибраним за замовчуванням джерелом мікрофона"
+
+#: ../recording.rst:36
+msgid "Quick Start"
+msgstr "Швидкий старт"
+
+#: ../recording.rst:38
+msgid ""
+"Move the timeline playhead to the point where the recording should begin."
+msgstr ""
+"Перемістіть індикатор відтворення на часовій шкалі до точки, з якої має "
+"початися запис."
+
+#: ../recording.rst:39
+msgid "Open :guilabel:`View → Recording View`."
+msgstr "Відкрийте :guilabel:`Вигляд → Вигляд запису`."
+
+#: ../recording.rst:40
+msgid ""
+"Enable :guilabel:`Mic`, :guilabel:`Screen`, :guilabel:`Webcam`, or any "
+"combination of them."
+msgstr ""
+"Увімкніть :guilabel:`Мікрофон`, :guilabel:`Екран`, :guilabel:`Вебкамера` або"
+" будь-яку їх комбінацію."
+
+#: ../recording.rst:41
+msgid ""
+"Select the destination :guilabel:`Track`. Multiple sources use adjacent "
+"tracks automatically. Select :guilabel:`No Track` to add completed "
+"recordings to :guilabel:`Project Files` without creating live previews or "
+"clips on the timeline. Choose whether the timeline :guilabel:`Preview` "
+"should play during Mic or Webcam recording."
+msgstr ""
+"Виберіть цільову :guilabel:`Доріжку`. Кілька джерел автоматично "
+"використовують суміжні доріжки. Виберіть :guilabel:`Без доріжки`, щоб додати"
+" завершені записи до :guilabel:`Файлів проєкту` без створення живих "
+"попередніх переглядів або кліпів на часовій шкалі. Визначте, чи має "
+"відтворюватися :guilabel:`Попередній перегляд` на часовій шкалі під час "
+"запису з мікрофона або вебкамери."
+
+#: ../recording.rst:44
+msgid ""
+"Open each source's :guilabel:`Advanced` section and verify its device and "
+"quality options."
+msgstr ""
+"Відкрийте розділ :guilabel:`Додатково` кожного джерела та перевірте "
+"параметри пристрою та якості."
+
+#: ../recording.rst:45
+msgid ""
+"Click :guilabel:`Start Recording`. Perform the narration or action you want "
+"to capture."
+msgstr ""
+"Натисніть :guilabel:`Почати запис`. Виконайте озвучення або дію, яку хочете "
+"зафіксувати."
+
+#: ../recording.rst:46
+msgid ""
+"Click :guilabel:`Stop Recording`, either in the dock or from the recording "
+"status control."
+msgstr ""
+"Натисніть :guilabel:`Зупинити запис` у панелі або в елементі керування "
+"станом запису."
+
+#: ../recording.rst:47
+msgid ""
+"Wait briefly while OpenShot finishes the files. They are imported into "
+":guilabel:`Project Files` and, unless :guilabel:`No Track` is selected, "
+"placed on the timeline."
+msgstr ""
+"Зачекайте кілька моментів, поки OpenShot завершує обробку файлів. Вони "
+"імпортуються у :guilabel:`Файли проєкту` і, якщо не вибрано :guilabel:`Без "
+"доріжки`, розміщуються на часовій шкалі."
+
+#: ../recording.rst:51
+msgid "Quick Audio Commentary"
+msgstr "Швидкий аудіокоментар"
+
+#: ../recording.rst:53
+msgid ""
+"To begin commentary at an existing clip, right-click the clip and choose "
+":guilabel:`Audio → Record`. OpenShot moves the playhead to the clip's first "
+"frame, opens the Recording dock, and selects the first available unlocked "
+"track below the clip. Verify that :guilabel:`Mic` is enabled, then click "
+":guilabel:`Start Recording`. The full :guilabel:`View → Recording View` "
+"remains the general entry point for screen, webcam, microphone, and combined"
+" recording sessions."
+msgstr ""
+"Щоб почати коментар до існуючого кліпу, клацніть його правою кнопкою миші та"
+" виберіть :guilabel:`Аудіо → Запис`. OpenShot перемістить індикатор "
+"відтворення на перший кадр кліпу, відкриє панель запису та вибере першу "
+"доступну розблоковану доріжку під кліпом. Переконайтеся, що "
+":guilabel:`Мікрофон` увімкнено, потім натисніть :guilabel:`Почати запис`. "
+"Повний :guilabel:`Вигляд → Вигляд запису` залишається основним входом для "
+"запису екрану, вебкамери, мікрофона та комбінованих сесій."
+
+#: ../recording.rst:60
+msgid "Recording Sources"
+msgstr "Джерела запису"
+
+#: ../recording.rst:62
+msgid ""
+"The source cards at the top of the dock can be enabled independently. An "
+"unavailable card indicates that the required device, operating-system "
+"capture service, or libopenshot feature was not detected."
+msgstr ""
+"Картки джерел у верхній частині панелі можна увімкнути окремо. Недоступна "
+"картка означає, що потрібний пристрій, служба захоплення операційної системи"
+" або функція libopenshot не були виявлені."
+
+#: ../recording.rst:65
+msgid "Recorded sources and outputs"
+msgstr "Записані джерела та вихідні файли"
+
+#: ../recording.rst:69 ../recording.rst:107
+msgid "Source"
+msgstr "Джерело"
+
+#: ../recording.rst:70
+msgid "Recorded File"
+msgstr "Записаний файл"
+
+#: ../recording.rst:71
+msgid "Audio"
+msgstr "Аудіо"
+
+#: ../recording.rst:72
+msgid "Typical Use"
+msgstr "Типове використання"
+
+#: ../recording.rst:73 ../recording.rst:111 ../recording.rst:272
+msgid "Mic"
+msgstr "Мікрофон"
+
+#: ../recording.rst:74
+msgid "``Mic-<timestamp>``"
+msgstr "``Mic-<timestamp>``"
+
+#: ../recording.rst:75
+msgid "Microphone only"
+msgstr "Тільки мікрофон"
+
+#: ../recording.rst:76
+msgid "Narration, voice-over, commentary, or interviews."
+msgstr "Озвучення, голос за кадром, коментарі або інтерв’ю."
+
+#: ../recording.rst:77 ../recording.rst:110 ../recording.rst:194
+#: ../recording.rst:275
+msgid "Screen"
+msgstr "Екран"
+
+#: ../recording.rst:78
+msgid "``Screen-<timestamp>.mp4``"
+msgstr "``Screen-<timestamp>.mp4``"
+
+#: ../recording.rst:79
+msgid "Optional system audio"
+msgstr "Опційне системне аудіо"
+
+#: ../recording.rst:80
+msgid "Tutorials, demonstrations, presentations, or games."
+msgstr "Навчальні відео, демонстрації, презентації або ігри."
+
+#: ../recording.rst:81 ../recording.rst:109
+msgid "Webcam"
+msgstr "Вебкамера"
+
+#: ../recording.rst:82
+msgid "``Webcam-<timestamp>.mp4``"
+msgstr "``Webcam-<timestamp>.mp4``"
+
+#: ../recording.rst:83
+msgid "No audio"
+msgstr "Без аудіо"
+
+#: ../recording.rst:84
+msgid "Presenter video or a picture-in-picture camera."
+msgstr "Відео ведучого або камера «картинка в картинці»."
+
+#: ../recording.rst:86
+msgid ""
+"When Mic and Screen are enabled together, microphone audio is kept in its "
+"own file while system audio is embedded in the screen video. This separation"
+" is intentional: it lets you independently adjust, mute, fade, or process "
+"the voice and computer audio during editing. Webcam video has no audio, "
+"avoiding a duplicate microphone track and echo."
+msgstr ""
+"Коли одночасно увімкнені Мікрофон і Екран, аудіо з мікрофона зберігається у "
+"власному файлі, а системне аудіо вбудовується у відео екрану. Це розділення "
+"зроблено навмисно: воно дозволяє незалежно регулювати, вимикати, затухати "
+"або обробляти голос і комп’ютерне аудіо під час редагування. Відео з "
+"вебкамери не має аудіо, щоб уникнути дублювання доріжки мікрофона та ефекту "
+"ехо."
+
+#: ../recording.rst:91
+msgid "Live Feedback and Timeline Placement"
+msgstr "Живий зворотний зв’язок і розміщення на часовій шкалі"
+
+#: ../recording.rst:93
+msgid ""
+"The microphone meter responds before and during recording, which helps "
+"confirm that the selected input is working. During recording, OpenShot draws"
+" a temporary clip and live microphone waveform on the timeline. The "
+"completed files replace these previews after recording stops."
+msgstr ""
+"Індикатор мікрофона реагує до і під час запису, що допомагає підтвердити "
+"роботу вибраного входу. Під час запису OpenShot створює тимчасовий кліп і "
+"відображає живу форму хвилі мікрофона на часовій шкалі. Після зупинки запису"
+" ці попередні перегляди замінюються готовими файлами."
+
+#: ../recording.rst:97
+msgid ""
+"Select :guilabel:`No Track` in the Track list when you want to capture media"
+" without adding live objects or completed clips to the timeline. The "
+"finished recordings are still imported into :guilabel:`Project Files`, ready"
+" to preview, organize, or add to the timeline later. This is useful when "
+"recording several takes before choosing which one to edit."
+msgstr ""
+"Виберіть :guilabel:`Без доріжки` у списку доріжок, якщо хочете захопити "
+"медіа без додавання живих об’єктів або готових кліпів на часову шкалу. "
+"Готові записи все одно імпортуються у :guilabel:`Файли проєкту`, готові до "
+"перегляду, організації або додавання на часову шкалу пізніше. Це корисно при"
+" записі кількох дублів перед вибором того, який редагувати."
+
+#: ../recording.rst:101
+msgid ""
+"All enabled sources start at the same timeline position. OpenShot stacks "
+"them in a useful compositing order:"
+msgstr ""
+"Усі увімкнені джерела починаються з однієї позиції на часовій шкалі. "
+"OpenShot розташовує їх у корисному порядку композитингу:"
+
+#: ../recording.rst:103
+msgid "Default source stack"
+msgstr "Стандартний стек джерел"
+
+#: ../recording.rst:107
+msgid "Placement"
+msgstr "Розміщення"
+
+#: ../recording.rst:109
+msgid "Highest assigned track, so a corner camera appears on top."
+msgstr "Найвища призначена доріжка, щоб камера у куті була зверху."
+
+#: ../recording.rst:110
+msgid "Below the webcam and above microphone audio."
+msgstr "Під вебкамерою і над аудіо мікрофона."
+
+#: ../recording.rst:111
+msgid "Lowest assigned track because it contains audio only."
+msgstr "Найнижча призначена доріжка, оскільки містить лише аудіо."
+
+#: ../recording.rst:114
+msgid ""
+"If there are not enough tracks below the selected track, OpenShot creates or"
+" selects additional tracks as needed. Recordings are also added to "
+":guilabel:`Project Files`, so they can be reused even if you remove their "
+"first timeline clips."
+msgstr ""
+"Якщо під вибраною доріжкою недостатньо доріжок, OpenShot створює або вибирає"
+" додаткові доріжки за потребою. Записи також додаються до :guilabel:`Файли "
+"проекту`, щоб їх можна було повторно використовувати навіть після видалення "
+"перших кліпів на часовій шкалі."
+
+#: ../recording.rst:119
+msgid "Timeline Preview During Recording"
+msgstr "Попередній перегляд часової шкали під час запису"
+
+#: ../recording.rst:121
+msgid ""
+"The :guilabel:`Preview` control beside :guilabel:`Track` can play the "
+"project from the current playhead while a Mic, Webcam, or combined Mic + "
+"Webcam recording is captured. This is useful for voice-over, commentary, and"
+" reaction videos. Stopping the recording also stops timeline playback when "
+"the recorder started it."
+msgstr ""
+"Керування :guilabel:`Попередній перегляд` поруч із :guilabel:`Доріжка` може "
+"відтворювати проект з поточної позиції відтворювача під час запису з "
+"мікрофона, вебкамери або їх комбінації. Це корисно для озвучення, коментарів"
+" і реакційних відео. Зупинка запису також зупиняє відтворення часової шкали,"
+" якщо його почав рекордер."
+
+#: ../recording.rst:125
+msgid "Preview options"
+msgstr "Параметри попереднього перегляду"
+
+#: ../recording.rst:129 ../recording.rst:152 ../recording.rst:192
+#: ../recording.rst:242
+msgid "Option"
+msgstr "Опція"
+
+#: ../recording.rst:129
+msgid "Behavior"
+msgstr "Поводження"
+
+#: ../recording.rst:131
+msgid "Off"
+msgstr "Вимкнено"
+
+#: ../recording.rst:131
+msgid "Records without starting timeline playback."
+msgstr "Записує без запуску відтворення часової шкали."
+
+#: ../recording.rst:132
+msgid "Full"
+msgstr "Повний"
+
+#: ../recording.rst:132
+msgid "Plays the timeline using the normal preview resolution."
+msgstr ""
+"Відтворює часову шкалу з нормальною роздільною здатністю попереднього "
+"перегляду."
+
+#: ../recording.rst:133
+msgid "Half"
+msgstr "Половина"
+
+#: ../recording.rst:133
+msgid "Reduces preview rendering resolution to improve recording performance."
+msgstr ""
+"Зменшує роздільну здатність рендерингу попереднього перегляду для покращення"
+" продуктивності запису."
+
+#: ../recording.rst:134
+msgid "Quarter"
+msgstr "Чверть"
+
+#: ../recording.rst:134
+msgid ""
+"Uses the lowest preview resolution for demanding projects or slower "
+"computers."
+msgstr ""
+"Використовує найнижчу роздільну здатність попереднього перегляду для "
+"вимогливих проектів або повільніших комп’ютерів."
+
+#: ../recording.rst:137
+msgid ""
+"Preview resolution changes only the temporary OpenShot preview. It does not "
+"reduce the resolution or quality of the recorded Mic or Webcam files. Use "
+"headphones when the timeline contains audio so the microphone does not "
+"record the speakers. When :guilabel:`Screen` is selected, Preview is forced "
+"to :guilabel:`Off` and disabled; deselecting Screen restores the previous "
+"choice."
+msgstr ""
+"Зміна роздільної здатності попереднього перегляду впливає лише на тимчасовий"
+" попередній перегляд OpenShot. Вона не знижує роздільну здатність або якість"
+" записаних файлів з мікрофона чи вебкамери. Використовуйте навушники, коли "
+"на часовій шкалі є аудіо, щоб мікрофон не записував динаміки. Коли вибрано "
+":guilabel:`Екран`, попередній перегляд примусово вимикається "
+"(:guilabel:`Вимкнено`) і деактивується; скасування вибору Екрану відновлює "
+"попередній вибір."
+
+#: ../recording.rst:143
+msgid "Microphone Recording"
+msgstr "Запис з мікрофона"
+
+#: ../recording.rst:145
+msgid ""
+"Enable :guilabel:`Mic` to record narration as a separate audio file. Use the"
+" Mono/Stereo control beside the level meter for the common channel choice, "
+"and open :guilabel:`Advanced` for all settings."
+msgstr ""
+"Увімкніть :guilabel:`Мікрофон`, щоб записувати озвучення як окремий "
+"аудіофайл. Використовуйте керування Моно/Стерео поруч із індикатором рівня "
+"для вибору каналу, а для всіх налаштувань відкрийте :guilabel:`Додатково`."
+
+#: ../recording.rst:148
+msgid "Microphone options"
+msgstr "Параметри мікрофона"
+
+#: ../recording.rst:152
+msgid "Typical Default"
+msgstr "Типове за замовчуванням"
+
+#: ../recording.rst:152 ../recording.rst:175 ../recording.rst:192
+#: ../recording.rst:242
+msgid "Description"
+msgstr "Опис"
+
+#: ../recording.rst:154 ../recording.rst:244
+msgid "Input"
+msgstr "Вхід"
+
+#: ../recording.rst:154
+msgid "System input"
+msgstr "Системний вхід"
+
+#: ../recording.rst:154
+msgid "Selects the microphone or audio-input device."
+msgstr "Вибирає мікрофон або пристрій аудіовходу."
+
+#: ../recording.rst:155
+msgid "Format"
+msgstr "Формат"
+
+#: ../recording.rst:155
+msgid "FLAC"
+msgstr "FLAC"
+
+#: ../recording.rst:155
+msgid ""
+"Chooses WAV, FLAC, or MP3. FLAC is lossless with smaller files than WAV."
+msgstr ""
+"Вибирає WAV, FLAC або MP3. FLAC — без втрат, з меншим розміром файлів, ніж "
+"WAV."
+
+#: ../recording.rst:156
+msgid "Sample Rate"
+msgstr "Частота дискретизації"
+
+#: ../recording.rst:156
+msgid "48000 Hz"
+msgstr "48000 Гц"
+
+#: ../recording.rst:156
+msgid ""
+"Sets the recording sample rate. Match the device and project when possible."
+msgstr ""
+"Встановлює частоту дискретизації запису. По можливості узгоджуйте з "
+"пристроєм і проектом."
+
+#: ../recording.rst:157
+msgid "Channels"
+msgstr "Канали"
+
+#: ../recording.rst:157
+msgid "Mono"
+msgstr "Моно"
+
+#: ../recording.rst:157
+msgid ""
+"Records one or two input channels. Mono is usually best for one microphone."
+msgstr ""
+"Записує один або два вхідні канали. Моно зазвичай найкраще для одного "
+"мікрофона."
+
+# Main-window terminology review, 2026-09-26.
+#: ../recording.rst:160
+msgid ""
+"Aim for a healthy meter response without clipping. A quiet waveform should "
+"remain visually quiet; OpenShot no longer normalizes every newly generated "
+"waveform to full height. The lighter peak envelope highlights transients "
+"while the solid RMS envelope summarizes sustained energy. Their detail is "
+"controlled by :guilabel:`Edit → Preferences → Timeline → Waveform Samples "
+"(per second)`. See :ref:`clip_presets_ref` for waveform display and audio "
+"volume controls after recording."
+msgstr ""
+"Намагайтеся отримати нормальний рівень сигналу без обрізання. Тиха хвиля має"
+" залишатися візуально тихою; OpenShot більше не нормалізує кожну нову хвилю "
+"до повної висоти. Світліший піковий контур підкреслює транзієнти, тоді як "
+"суцільний RMS-контур підсумовує постійну енергію. Їх деталізація керується "
+"через :guilabel:`Редагувати → Параметри → Монтажний стіл → Зразки хвиль (за "
+"секунду)`. Див. :ref:`clip_presets_ref` для відображення хвиль і керування "
+"гучністю після запису."
+
+#: ../recording.rst:167
+msgid "Screen Recording"
+msgstr "Запис екрану"
+
+#: ../recording.rst:169
+msgid "Enable :guilabel:`Screen`, then choose a capture mode:"
+msgstr "Увімкніть :guilabel:`Екран`, а потім виберіть режим захоплення:"
+
+#: ../recording.rst:171
+msgid "Screen capture modes"
+msgstr "Режими захоплення екрану"
+
+#: ../recording.rst:175
+msgid "Mode"
+msgstr "Режим"
+
+#: ../recording.rst:177
+msgid "Full Screen"
+msgstr "Повний екран"
+
+#: ../recording.rst:177
+msgid "Captures the selected display or combined desktop area."
+msgstr "Захоплює вибраний дисплей або об’єднану область робочого столу."
+
+#: ../recording.rst:178
+msgid "Window"
+msgstr "Вікно"
+
+#: ../recording.rst:178
+msgid ""
+"Click a window to capture its bounds. Availability and exact behavior depend"
+" on the platform."
+msgstr ""
+"Клацніть вікно, щоб захопити його межі. Доступність і точна поведінка "
+"залежать від платформи."
+
+#: ../recording.rst:179
+msgid "Region"
+msgstr "Регіон"
+
+#: ../recording.rst:179
+msgid ""
+"Drag or select a rectangular desktop area. Availability depends on the "
+"platform."
+msgstr ""
+"Перетягніть або виберіть прямокутну область робочого столу. Доступність "
+"залежить від платформи."
+
+#: ../recording.rst:182
+msgid ""
+"On Wayland desktops, the operating system's sharing portal asks which screen"
+" or window to share when recording starts. The numeric window and region "
+"controls are hidden because selection belongs to that portal."
+msgstr ""
+"На робочих столах Wayland портал спільного доступу операційної системи "
+"запитує, який екран або вікно ділитися при початку запису. Числові керування"
+" вікном і регіоном приховані, оскільки вибір належить цьому порталу."
+
+#: ../recording.rst:186
+msgid "Screen Advanced Options"
+msgstr "Розширені параметри екрану"
+
+#: ../recording.rst:188
+msgid "Screen options"
+msgstr "Параметри екрану"
+
+#: ../recording.rst:192
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: ../recording.rst:194
+msgid "Primary display"
+msgstr "Основний дисплей"
+
+#: ../recording.rst:194
+msgid "Selects a display or the complete desktop when supported."
+msgstr "Вибирає дисплей або весь робочий стіл, якщо підтримується."
+
+#: ../recording.rst:195
+msgid "Offset"
+msgstr "Зсув"
+
+#: ../recording.rst:195 ../recording.rst:196
+msgid "Selected bounds"
+msgstr "Вибрані межі"
+
+#: ../recording.rst:195
+msgid "Sets the capture area's X and Y desktop coordinates."
+msgstr "Встановлює координати X і Y області захоплення на робочому столі."
+
+#: ../recording.rst:196 ../recording.rst:248
+msgid "Size"
+msgstr "Розмір"
+
+#: ../recording.rst:196
+msgid ""
+"Sets capture width and height. OpenShot uses encoder-safe even dimensions."
+msgstr ""
+"Встановлює ширину і висоту захоплення. OpenShot використовує парні розміри, "
+"безпечні для кодувальника."
+
+#: ../recording.rst:197
+msgid "FPS"
+msgstr "Кадрів за секунду"
+
+#: ../recording.rst:197
+msgid "30"
+msgstr "30"
+
+#: ../recording.rst:197
+msgid "Sets the screen recording frame rate: 15, 24, 30, or 60 FPS."
+msgstr ""
+"Встановлює частоту кадрів запису екрану: 15, 24, 30 або 60 кадрів за "
+"секунду."
+
+#: ../recording.rst:198 ../recording.rst:211
+msgid "System Audio"
+msgstr "Системний звук"
+
+#: ../recording.rst:198 ../recording.rst:199
+msgid "On"
+msgstr "Увімкнено"
+
+#: ../recording.rst:198
+msgid "Embeds computer playback audio in the screen MP4 when supported."
+msgstr ""
+"Вбудовує звук відтворення комп’ютера у відеоекран MP4, якщо це "
+"підтримується."
+
+#: ../recording.rst:199
+msgid "Cursor"
+msgstr "Курсор"
+
+#: ../recording.rst:199
+msgid "Includes the mouse pointer in the screen recording."
+msgstr "Включає вказівник миші у запис екрану."
+
+#: ../recording.rst:200
+msgid "Hide OpenShot"
+msgstr "Приховати OpenShot"
+
+#: ../recording.rst:200
+msgid "No"
+msgstr "Ні"
+
+#: ../recording.rst:200
+msgid ""
+"Temporarily hides OpenShot during selection and recording when enabled."
+msgstr "Тимчасово приховує OpenShot під час вибору та запису, коли увімкнено."
+
+#: ../recording.rst:205
+msgid ""
+"On some Windows systems using high-DPI display scaling, the mouse pointer "
+"may be displaced or missing from screen recordings made on a scaled display."
+" If pointer visibility is important, record on a display configured at 100% "
+"scaling, temporarily set the target display to 100%, or use a separate "
+"screen-capture application. Screen video is still recorded normally, and "
+"setting :guilabel:`Cursor` to :guilabel:`Off` avoids the affected pointer "
+"overlay."
+msgstr ""
+"На деяких системах Windows із масштабуванням дисплея високої роздільної "
+"здатності вказівник миші може бути зміщений або відсутній у записах екрану, "
+"зроблених на масштабованому дисплеї. Якщо видимість вказівника важлива, "
+"записуйте на дисплеї з масштабуванням 100%, тимчасово встановіть цільовий "
+"дисплей на 100% або використовуйте окрему програму для захоплення екрану. "
+"Відео екрану записується нормально, а встановлення :guilabel:`Cursor` у "
+":guilabel:`Off` уникає накладання вказівника."
+
+#: ../recording.rst:213
+msgid ""
+":guilabel:`System Audio` is enabled by default on supported capture "
+"backends. It records sound playing through the computer—such as a game, "
+"browser, media player, or presentation—inside the screen recording. It does "
+"not replace the Mic source. Enable both sources when you want system audio "
+"and commentary on independently editable clips."
+msgstr ""
+":guilabel:`Системний звук` за замовчуванням увімкнено на підтримуваних "
+"бекендах захоплення. Він записує звук, що відтворюється через комп’ютер — "
+"наприклад, гру, браузер, медіаплеєр або презентацію — у запис екрану. Він не"
+" замінює джерело мікрофона. Увімкніть обидва джерела, якщо хочете мати "
+"системний звук і коментарі на окремо редагованих кліпах."
+
+#: ../recording.rst:217
+msgid ""
+"If the control is disabled, the active platform or libopenshot build does "
+"not provide system-audio capture. OpenShot forces the option Off rather than"
+" producing a misleading silent audio track. Operating-system privacy "
+"settings and audio-routing configuration can also affect capture."
+msgstr ""
+"Якщо цей елемент керування вимкнено, активна платформа або збірка "
+"libopenshot не підтримує захоплення системного звуку. OpenShot примусово "
+"встановлює опцію у Вимкнено, щоб уникнути помилкового беззвучного "
+"аудіотреку. Налаштування конфіденційності операційної системи та "
+"конфігурація маршрутизації аудіо також можуть впливати на захоплення."
+
+#: ../recording.rst:223
+msgid ""
+"System Audio recording is not currently available on macOS. Screen video, "
+"microphone, and webcam recording remain available, but the :guilabel:`System"
+" Audio` option is disabled and forced to :guilabel:`Off`."
+msgstr ""
+"Запис системного звуку наразі недоступний на macOS. Запис відео екрану, "
+"мікрофона та вебкамери залишається доступним, але опція :guilabel:`Системний"
+" звук` вимкнена і примусово встановлена у :guilabel:`Вимкнено`."
+
+#: ../recording.rst:228
+msgid ""
+"Avoid playing captured system audio through speakers while also recording a "
+"microphone unless that sound is intentional. Headphones reduce echo and "
+"prevent the microphone from recording the speakers a second time."
+msgstr ""
+"Уникайте відтворення захопленого системного звуку через динаміки під час "
+"запису з мікрофона, якщо цей звук не є навмисним. Навушники зменшують ехо і "
+"запобігають повторному запису динаміків мікрофоном."
+
+#: ../recording.rst:232
+msgid "Webcam Recording"
+msgstr "Запис з вебкамери"
+
+#: ../recording.rst:234
+msgid ""
+"Enable :guilabel:`Webcam` to record a camera as a silent video clip. A live "
+"preview helps verify framing before you start. When Screen is also enabled, "
+"the default layout is a rounded, 30% camera in the bottom-right corner. When"
+" the webcam is recorded alone, it defaults to full size."
+msgstr ""
+"Увімкніть :guilabel:`Вебкамера` для запису камери як беззвучного відеокліпу."
+" Живий перегляд допомагає перевірити кадрування перед початком. Коли також "
+"увімкнено екран, за замовчуванням камера з округленими кутами займає 30% у "
+"нижньому правому куті. Коли вебкамера записується окремо, вона за "
+"замовчуванням у повному розмірі."
+
+#: ../recording.rst:238
+msgid "Webcam options"
+msgstr "Параметри вебкамери"
+
+#: ../recording.rst:244
+msgid "Selects an available webcam or video-capture device."
+msgstr "Вибирає доступну вебкамеру або пристрій захоплення відео."
+
+#: ../recording.rst:245
+msgid "Resolution"
+msgstr "Роздільна здатність"
+
+#: ../recording.rst:245
+msgid "Selects a resolution reported by the camera."
+msgstr "Вибирає роздільну здатність, яку підтримує камера."
+
+#: ../recording.rst:246
+msgid "Record FPS"
+msgstr "Кадри за секунду (FPS)"
+
+#: ../recording.rst:246
+msgid "Selects a frame rate supported at the chosen resolution."
+msgstr "Вибирає частоту кадрів, підтримувану обраною роздільною здатністю."
+
+#: ../recording.rst:247
+msgid "Layout"
+msgstr "Розташування"
+
+#: ../recording.rst:247
+msgid ""
+"Chooses Bottom/Top Left/Right, Left, Right, Center, or Full Size placement."
+msgstr ""
+"Вибирає розташування: знизу/зверху ліворуч/праворуч, ліворуч, праворуч, по "
+"центру або повний розмір."
+
+#: ../recording.rst:248
+msgid "Sets a corner camera to 20%, 30%, or 40% of the project frame."
+msgstr ""
+"Встановлює розмір камери в куті на 20%, 30% або 40% від кадру проєкту."
+
+#: ../recording.rst:249
+msgid "Corners"
+msgstr "Кути"
+
+#: ../recording.rst:249
+msgid "Uses Rectangle, Rounded, or Oval camera corners."
+msgstr "Використовує прямокутні, округлені або овальні кути камери."
+
+#: ../recording.rst:252
+msgid ""
+"Layout choices are applied as ordinary clip properties. After recording, use"
+" :guilabel:`Gravity`, :guilabel:`Scale X`, :guilabel:`Scale Y`, "
+":guilabel:`Margin`, and :guilabel:`Corner Radius` to refine the result. See "
+":ref:`clip_properties_ref`."
+msgstr ""
+"Вибір розташування застосовується як звичайні властивості кліпу. Після "
+"запису використовуйте :guilabel:`Gravity`, :guilabel:`Scale X`, "
+":guilabel:`Scale Y`, :guilabel:`Margin` та :guilabel:`Corner Radius` для "
+"уточнення результату. Див. :ref:`clip_properties_ref`."
+
+#: ../recording.rst:257
+msgid "Combining Sources"
+msgstr "Комбінування джерел"
+
+#: ../recording.rst:259
+msgid ""
+"The Recording View keeps all enabled source controls together while leaving "
+"the preview and timeline visible."
+msgstr ""
+"Вікно запису збирає всі увімкнені елементи керування джерелами разом, "
+"залишаючи видимими попередній перегляд і часову шкалу."
+
+#: ../recording.rst:-1
+msgid ""
+"OpenShot Recording View with microphone, screen, and webcam sources selected"
+msgstr ""
+"Вікно запису OpenShot із вибраними джерелами мікрофона, екрану та вебкамери"
+
+#: ../recording.rst:264
+msgid "Useful recording combinations"
+msgstr "Корисні комбінації запису"
+
+#: ../recording.rst:268
+msgid "Workflow"
+msgstr "Робочий процес"
+
+#: ../recording.rst:269
+msgid "Enable"
+msgstr "Увімкнути"
+
+#: ../recording.rst:270
+msgid "Result"
+msgstr "Результат"
+
+#: ../recording.rst:271
+msgid "Voice-over"
+msgstr "Озвучення"
+
+#: ../recording.rst:273
+msgid "One editable narration file."
+msgstr "Один редагований файл озвучення."
+
+#: ../recording.rst:274
+msgid "Silent tutorial"
+msgstr "Беззвучний урок"
+
+#: ../recording.rst:276
+msgid "Screen MP4; turn System Audio Off if silence is desired."
+msgstr "Екран у форматі MP4; вимкніть системний звук, якщо потрібна тиша."
+
+#: ../recording.rst:277
+msgid "Game commentary"
+msgstr "Коментар до гри"
+
+#: ../recording.rst:278
+msgid "Mic + Screen"
+msgstr "Мікрофон + екран"
+
+#: ../recording.rst:279
+msgid "Separate mic clip plus screen video with game audio."
+msgstr "Окремий кліп мікрофона плюс відео екрану з ігровим звуком."
+
+#: ../recording.rst:280
+msgid "Presenter camera"
+msgstr "Камера ведучого"
+
+#: ../recording.rst:281
+msgid "Mic + Webcam"
+msgstr "Мікрофон + вебкамера"
+
+#: ../recording.rst:282
+msgid "Separate voice and silent camera video."
+msgstr "Окремий голос і беззвучне відео з камери."
+
+#: ../recording.rst:283
+msgid "Tutorial with camera"
+msgstr "Урок з камерою"
+
+#: ../recording.rst:284
+msgid "Mic + Screen + Webcam"
+msgstr "Мікрофон + екран + вебкамера"
+
+#: ../recording.rst:285
+msgid "Three synchronized clips with webcam above the screen."
+msgstr "Три синхронізовані кліпи з вебкамерою над екраном."
+
+#: ../recording.rst:288
+msgid "Where Recordings Are Saved"
+msgstr "Де зберігаються записи"
+
+#: ../recording.rst:290
+msgid ""
+"Recordings are saved in the project's assets folder under ``recordings``. If"
+" the project has not been saved yet, OpenShot uses its user-data location. "
+"Filenames contain the source name and a timestamp; another numeric suffix "
+"avoids overwriting a file created during the same second."
+msgstr ""
+"Записи зберігаються у папці ресурсів проєкту в підпапці ``recordings``. Якщо"
+" проєкт ще не збережено, OpenShot використовує розташування даних "
+"користувача. Імена файлів містять назву джерела та часову позначку; "
+"додатковий числовий суфікс запобігає перезапису файлу, створеного в ту ж "
+"секунду."
+
+#: ../recording.rst:294
+msgid ""
+"Save the project before a long or important session so its recording "
+"destination is predictable. Do not move or rename recorded files outside "
+"OpenShot while the project is using them."
+msgstr ""
+"Збережіть проєкт перед тривалою або важливою сесією, щоб місце збереження "
+"записів було передбачуваним. Не переміщуйте і не перейменовуйте записані "
+"файли поза OpenShot, поки проєкт їх використовує."
+
+#: ../recording.rst:298
+msgid "Permissions and Platform Behavior"
+msgstr "Дозволи та поведінка платформи"
+
+#: ../recording.rst:300
+msgid ""
+"Screen and camera capture depend on operating-system services, hardware, and"
+" build support. The controls in the dock adapt to the available backend."
+msgstr ""
+"Захоплення екрана та камери залежить від служб операційної системи, "
+"апаратного забезпечення та підтримки збірки. Елементи керування в доку "
+"адаптуються до доступного бекенду."
+
+#: ../recording.rst:303
+msgid ""
+"**Linux/X11:** Full-screen, window, and numeric region capture are available"
+" when the X11 capture backend is built."
+msgstr ""
+"**Linux/X11:** Доступне захоплення повноекранного режиму, вікна та числової "
+"області, коли побудовано бекенд захоплення X11."
+
+#: ../recording.rst:304
+msgid ""
+"**Linux/Wayland:** The desktop sharing portal chooses the capture source "
+"after recording starts."
+msgstr ""
+"**Linux/Wayland:** Портал спільного доступу до робочого столу вибирає "
+"джерело захоплення після початку запису."
+
+#: ../recording.rst:305
+msgid ""
+"**Windows:** Desktop capture uses the available Windows screen backend; "
+"camera devices use Windows capture services."
+msgstr ""
+"**Windows:** Захоплення робочого столу використовує доступний бекенд екрану "
+"Windows; камери використовують служби захоплення Windows."
+
+#: ../recording.rst:306
+msgid ""
+"**macOS:** Screen capture uses the supported macOS backend, with window and "
+"region choices represented as cropped screen bounds when required. System "
+"Audio recording is not currently supported; microphone recording remains "
+"available as a separate audio source."
+msgstr ""
+"**macOS:** Захоплення екрана використовує підтримуваний бекенд macOS, з "
+"вибором вікна та області, представлених як обрізані межі екрана за потреби. "
+"Запис системного аудіо наразі не підтримується; запис мікрофона залишається "
+"доступним як окреме аудіоджерело."
+
+#: ../recording.rst:310
+msgid ""
+"The first recording may trigger Screen Recording, Microphone, Camera, or "
+"desktop-sharing permission prompts. Approve the requested source, then "
+"restart OpenShot if the operating system requires it. A disabled source card"
+" or option is preferable to a recording that silently omits an unsupported "
+"source."
+msgstr ""
+"Перший запис може викликати запити на дозвіл для запису екрана, мікрофона, "
+"камери або спільного доступу до робочого столу. Схваліть запитане джерело, а"
+" потім перезапустіть OpenShot, якщо це вимагає операційна система. Вимкнена "
+"картка джерела або опція кращі за запис, який тихо ігнорує непідтримуване "
+"джерело."
+
+#: ../recording.rst:315
+msgid "Troubleshooting Recording"
+msgstr "Вирішення проблем із записом"
+
+#: ../recording.rst:317
+msgid "Common recording problems"
+msgstr "Поширені проблеми із записом"
+
+#: ../recording.rst:321
+msgid "Problem"
+msgstr "Проблема"
+
+#: ../recording.rst:321
+msgid "What to Check"
+msgstr "Що перевірити"
+
+#: ../recording.rst:323
+msgid "Mic meter does not move"
+msgstr "Індикатор мікрофона не рухається"
+
+#: ../recording.rst:323
+msgid ""
+"Select the correct Input, verify OS microphone permission, and check "
+"mute/gain."
+msgstr ""
+"Виберіть правильне джерело вводу, перевірте дозвіл мікрофона в ОС та "
+"перевірте вимкнення звуку/підсилення."
+
+#: ../recording.rst:324
+msgid "Mic clips or distorts"
+msgstr "Мікрофон обрізає або спотворює звук"
+
+#: ../recording.rst:324
+msgid "Lower hardware/input gain and keep peaks below full scale."
+msgstr ""
+"Зменшіть підсилення апаратного забезпечення/входу та тримайте піки нижче "
+"повного масштабу."
+
+#: ../recording.rst:325
+msgid "Mic is very quiet"
+msgstr "Мікрофон дуже тихий"
+
+#: ../recording.rst:325
+msgid ""
+"Raise input gain near the device; timeline waveform height does not change "
+"audio."
+msgstr ""
+"Підвищте підсилення на вході біля пристрою; висота форми хвилі на часовій "
+"шкалі не змінює звук."
+
+#: ../recording.rst:326
+msgid "System Audio is disabled"
+msgstr "Системне аудіо вимкнено"
+
+#: ../recording.rst:326
+msgid ""
+"The active screen backend/build does not support it; check platform audio "
+"routing."
+msgstr ""
+"Активний бекенд/збірка екрану не підтримує це; перевірте маршрутизацію аудіо"
+" платформи."
+
+#: ../recording.rst:327
+msgid "System Audio is silent"
+msgstr "Системне аудіо мовчить"
+
+#: ../recording.rst:327
+msgid ""
+"Play audio before testing, verify the output device, and inspect OS "
+"privacy/routing."
+msgstr ""
+"Відтворіть аудіо перед тестуванням, перевірте вихідний пристрій та огляньте "
+"налаштування конфіденційності/маршрутизації ОС."
+
+#: ../recording.rst:328
+msgid "Voice contains game echo"
+msgstr "Голос містить відлуння гри"
+
+#: ../recording.rst:328
+msgid "Use headphones so the mic does not capture speaker playback."
+msgstr ""
+"Використовуйте навушники, щоб мікрофон не захоплював відтворення через "
+"динаміки."
+
+#: ../recording.rst:329
+msgid "Screen source is incorrect"
+msgstr "Джерело екрана неправильне"
+
+#: ../recording.rst:329
+msgid ""
+"Re-select Full Screen/Window/Region; on Wayland, choose again in the portal."
+msgstr ""
+"Повторно виберіть Повноекранний режим/Вікно/Область; на Wayland виберіть "
+"знову в порталі."
+
+#: ../recording.rst:330
+msgid "Cursor missing on Windows"
+msgstr "Курсор відсутній у Windows"
+
+#: ../recording.rst:330
+msgid ""
+"High-DPI scaling can affect the pointer overlay; try the target display at "
+"100%."
+msgstr ""
+"Масштабування з високим DPI може впливати на накладення вказівника; "
+"спробуйте цільовий дисплей на 100%."
+
+#: ../recording.rst:331
+msgid "Webcam is unavailable"
+msgstr "Вебкамера недоступна"
+
+#: ../recording.rst:331
+msgid ""
+"Check camera permission, close other camera apps, and reconnect the device."
+msgstr ""
+"Перевірте дозвіл камери, закрийте інші програми камери та перепідключіть "
+"пристрій."
+
+#: ../recording.rst:332
+msgid "Recording is choppy"
+msgstr "Запис переривчастий"
+
+#: ../recording.rst:332
+msgid ""
+"Lower screen/camera FPS or resolution and close CPU-intensive applications."
+msgstr ""
+"Зменшіть FPS або роздільну здатність екрана/камери та закрийте ресурсоємні "
+"програми."
+
+#: ../recording.rst:333
+msgid "Clips appear on wrong track"
+msgstr "Кліпи з’являються на неправильній доріжці"
+
+#: ../recording.rst:333
+msgid ""
+"Choose the top destination Track before recording, then move clips if "
+"needed."
+msgstr ""
+"Виберіть верхню цільову доріжку перед записом, потім перемістіть кліпи за "
+"потреби."
+
+#: ../recording.rst:337
+msgid "After Recording"
+msgstr "Після запису"
+
+#: ../recording.rst:339
+msgid ""
+"Recorded clips behave like imported media. You can trim, slice, move, mute, "
+"fade, add effects, and adjust volume or layout with the standard editing "
+"tools. Useful next topics are:"
+msgstr ""
+"Записані кліпи поводяться як імпортовані медіа. Ви можете обрізати, "
+"розрізати, переміщувати, вимикати звук, затемнювати, додавати ефекти та "
+"регулювати гучність або розташування за допомогою стандартних інструментів "
+"редагування. Корисні наступні теми:"
+
+#: ../recording.rst:342
+msgid ":ref:`clips_cutting_slicing_ref` for trimming and slicing."
+msgstr ":ref:`clips_cutting_slicing_ref` для обрізання та розрізання."
+
+#: ../recording.rst:343
+msgid ""
+":ref:`clip_presets_ref` for waveform, volume, fade, and other clip actions."
+msgstr ""
+":ref:`clip_presets_ref` для форми хвилі, гучності, затемнення та інших дій з"
+" кліпом."
+
+#: ../recording.rst:344
+msgid ""
+":ref:`clip_properties_ref` for webcam placement and detailed adjustments."
+msgstr ""
+":ref:`clip_properties_ref` для розміщення вебкамери та детальних "
+"налаштувань."
+
+#: ../recording.rst:345
+msgid ":ref:`playback_ref` for playback and audio troubleshooting."
+msgstr ":ref:`playback_ref` для відтворення та усунення проблем з аудіо."

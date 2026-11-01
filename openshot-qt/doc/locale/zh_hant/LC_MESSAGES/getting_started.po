@@ -1,0 +1,401 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:21
+msgid "Video Editing Basics"
+msgstr "影片剪輯基礎"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:23
+msgid ""
+"You do not need to be a trained videographer to understand how to create "
+"videos well. Simple editing can keep your viewers engaged longer, and add a "
+"professional feel, even if you are not a professional video editor."
+msgstr "你不需要成為受過訓練的攝影師也能了解如何製作優質影片。簡單的剪輯可以讓觀眾更長時間投入，並增添專業感，即使你不是專業的影片剪輯師。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:27
+msgid ""
+"Basically, video editing is taking footage, cutting it up, removing the "
+"pieces you do not want, and keeping the bits you do. Back in the old days, "
+"editing was slicing reels of film and piecing it together. Thankfully "
+"software makes the whole process much more manageable."
+msgstr "基本上，影片剪輯是將素材剪裁、移除不需要的部分，保留想要的片段。過去剪輯是切割膠捲並拼接起來，幸好現在軟體讓整個過程更容易操作。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:32
+msgid "There are three main jobs of video editing:"
+msgstr "影片剪輯有三大主要任務："
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:34
+msgid "Remove mistakes or unwanted sections"
+msgstr "移除錯誤或不需要的片段"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:35
+msgid "Keep the video moving at an engaging pace"
+msgstr "保持影片節奏吸引人"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:36
+msgid "Insert supporting footage, audio, or titles"
+msgstr "插入輔助畫面、音訊或標題"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:38
+msgid "Use these three points as a checklist as you edit."
+msgstr "剪輯時可將這三點作為檢查清單。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:41
+msgid "Computer"
+msgstr "電腦"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:42
+msgid ""
+"Video editing does not require an expensive machine, especially if you are a"
+" beginner. However, it would be best if you had a more recent monitor and "
+"graphics card. If you have an older computer, check your system "
+"specifications against OpenShot's :ref:`min_system_req_ref` to make sure it "
+"works for video editing. Unfortunately, many older computers are not fast "
+"enough for video editing, and you should upgrade your whole system, if "
+"possible."
+msgstr ""
+"影片剪輯不一定需要昂貴的機器，尤其是初學者。不過，建議使用較新的螢幕和顯示卡。如果你的電腦較舊，請參考 OpenShot 的 "
+":ref:`min_system_req_ref` 檢查系統規格，確保能順利剪輯。不幸的是，許多舊電腦速度不足，若可能應考慮升級整套系統。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:50
+msgid "Accessories"
+msgstr "配件"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:51
+msgid ""
+"Before beginning a video project, ensure there is enough storage space on "
+"your computer to save all the necessary clips. For example, one hour of "
+"1080i video, such as from a mini-DV camcorder, takes up nearly 11 GB of "
+"storage. If your computer's internal storage device cannot store all the "
+"clips, the solution is to buy an external drive."
+msgstr ""
+"開始影片專案前，請確保電腦有足夠的儲存空間來保存所有必要的片段。例如，一小時的 1080i 影片（如 mini-DV 攝影機錄製）約需 11 GB "
+"空間。如果電腦內部儲存裝置無法容納所有片段，建議購買外接硬碟。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:57
+msgid ""
+"It would help if you had several cables, usually Firewire or USB, to connect"
+" your computer, external hard drive, and a camera. Different computers and "
+"cameras accept other connectors, so check your manuals before buying "
+"anything."
+msgstr "你需要幾條線材，通常是 Firewire 或 USB，用來連接電腦、外接硬碟和攝影機。不同電腦和攝影機使用不同接頭，購買前請先確認說明書。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:63
+msgid "Practical Tips"
+msgstr "實用技巧"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:64
+msgid ""
+"Becoming a great video editor isn’t effortless, but with practice and "
+"patience, you’ll be editing like a professional in no time. Here are a few "
+"of the essential tips and techniques you need to know to become a skilled "
+"video editor."
+msgstr "成為優秀的影片剪輯師並非輕而易舉，但透過練習與耐心，你很快就能像專業人士一樣剪輯。以下是成為熟練剪輯師必須知道的一些重要技巧與方法。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:69
+msgid "Pick the Right Computer"
+msgstr "選擇合適的電腦"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:70
+msgid ""
+"While having a great computer won’t necessarily make you a great video "
+"editor, a faster computer will allow you to focus more of your time on the "
+"story you’re trying to tell rather than your computer rendering. Everyone "
+"has their own opinions about what computer is best for editing, but it all "
+"depends on your own preferences."
+msgstr ""
+"擁有好電腦不一定讓你成為優秀剪輯師，但較快的電腦能讓你將更多時間專注於敘述故事，而非等待電腦渲染。每個人對最佳剪輯電腦的看法不同，最終還是取決於個人偏好。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:77
+msgid "Keep Shooting"
+msgstr "持續拍攝"
+
+#: ../getting_started.rst:78
+msgid ""
+"Record more video and audio than you think you will need for your project. "
+"Include video that enhances the scene, sets a mood, or tells a story. You "
+"can use the extra video for smooth transitions in your project. If your "
+"project requires voice overs, narration, screen capture, or webcam footage, "
+"you can use :guilabel:`View->Recording View` to open OpenShot's recording "
+"tools. For more details, including microphone, system audio, screen, and "
+"webcam options, see :ref:`recording_ref`. For more specialized capture "
+"workflows, you can still record with an external application and import the "
+"finished media into OpenShot."
+msgstr ""
+"錄製比您預期專案所需更多的影片和音訊。包含能增強場景、營造氛圍或講述故事的影片。您可以使用額外的影片來實現專案中的平滑轉場。如果您的專案需要配音、旁白、螢幕錄製或網路攝影機畫面，您可以使用"
+" :guilabel:`檢視->錄製檢視` 來開啟 OpenShot 的錄製工具。更多細節，包括麥克風、系統音訊、螢幕和網路攝影機選項，請參閱 "
+":ref:`recording_ref`。對於更專業的擷取工作流程，您仍然可以使用外部應用程式錄製，然後將完成的媒體匯入 OpenShot。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:88
+msgid "Organize Your Project Files"
+msgstr "整理你的專案檔案"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:89
+msgid ""
+"Composition is the key to success, whether you are running Linux, on a Mac, "
+"or a Windows machine. Be sure to label video files, audio files, and even "
+"still images clearly and keep all your clips on the same device and in the "
+"same folder for easy access. OpenShot tries to keep up with your clips, but "
+"if you move them after your project is saved, you could lose your entire "
+"project. Organizing before you begin editing can be very advantageous."
+msgstr ""
+"組織是成功的關鍵，無論你使用 Linux、Mac 或 "
+"Windows。請確保清楚標示影片檔、音訊檔甚至靜態圖片，並將所有片段保存在同一裝置及資料夾中以便存取。OpenShot "
+"會追蹤你的片段，但若專案儲存後移動檔案，可能會導致整個專案遺失。開始剪輯前先整理檔案非常有幫助。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:98
+msgid "Watch Everything"
+msgstr "觀看所有素材"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:99
+msgid ""
+"Watching everything is the first step in the editing process. Writer and "
+"filmmaker David Andrew Stoler says there is gold in the most unlikely of "
+"places: \"Some of the most beautiful expressions you're going to get from "
+"the actors are after the cut.\""
+msgstr ""
+"觀看所有素材是剪輯過程的第一步。作家兼電影製作人 David Andrew Stoler "
+"說，最不可能的地方藏有寶藏：「演員最美的表情往往是在剪接後出現。」"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:105
+msgid "Edit for a Story"
+msgstr "為故事而剪輯"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:106
+msgid ""
+"Remember that as you edit, you are telling a story. Editing is so much more "
+"than merely cutting footage and adding effects. It is an opportunity to take"
+" your audience on a journey. Whether you are editing a complex narrative "
+"film or only putting together a personal video, you tell a more in-depth "
+"story."
+msgstr ""
+"請記得，剪輯時你是在講述一個故事。剪輯不只是簡單地剪裁素材和添加特效，而是帶領觀眾展開一段旅程。無論你是在剪輯複雜的敘事影片，或只是製作個人影片，你都在講述更深刻的故事。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:113
+msgid "Keyboard Shortcuts"
+msgstr "鍵盤快速鍵"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:114
+msgid ""
+"One of the easiest ways to tell the difference between and professional "
+"video editor and a novice is to simply look at how much they use the "
+"keyboard. Editors that have been in the business for some time know that a "
+"few seconds saved add up over the length of the project."
+msgstr "判斷專業剪輯師與新手的簡單方法之一，就是看他們使用鍵盤的頻率。從業多年的剪輯師知道，節省的幾秒鐘會在整個專案中累積成大量時間。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:120
+msgid "Learn the Lingo"
+msgstr "學習術語"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:121
+msgid ""
+"Video editing is not just a hobby or a profession; it is an industry. And "
+"just like any industry, there is a ton of jargon to learn. Practically "
+"speaking, you do not need to know all the terms on the :ref:`glossary_ref` "
+"to become a better video editor, but a fundamental knowledge of the terms "
+"may help you communicate better with other video editors or clients."
+msgstr ""
+"影片剪輯不僅是興趣或職業，更是一個產業。和任何產業一樣，有大量術語需要學習。實際上，你不必了解 :ref:`glossary_ref` "
+"中所有術語才能成為更好的剪輯師，但基本術語知識有助於與其他剪輯師或客戶更好溝通。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:129
+msgid "Assemble, Then Make a Rough Cut"
+msgstr "組合素材，然後製作粗剪"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:130
+msgid ""
+"Drag and drop all your video footage into a timeline and make sure your "
+"frame size and frame rates are consistent. Begin a new timeline and drag-"
+"and-drop the best clips into what becomes your assembly cut. Remember to "
+"save your work frequently, and notate the date and time of each version."
+msgstr ""
+"將所有影片素材拖放到時間軸中，並確保畫面大小和幀率一致。開始一個新的時間軸，將最佳剪輯拖放到組裝剪輯中。請記得經常保存您的工作，並註明每個版本的日期和時間。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:136
+msgid "Refine Your Video"
+msgstr "精煉您的影片"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:137
+msgid ""
+"In this phase, your rough cut begins to resemble a cohesive project. Adjust "
+"the sound and color, make sure the dialog is audible, and add music, titles,"
+" or graphics in this phase. Color correction is the process of setting your "
+"footage to a color baseline. No matter how great your subject looks on set, "
+"you will almost always need to do some basic post-processing for a "
+"consistent video."
+msgstr ""
+"在此階段，您的粗剪開始呈現出連貫的專案。調整聲音和色彩，確保對話清晰可聞，並加入音樂、標題或圖形。色彩校正是將素材設定為色彩基準的過程。無論拍攝對象多麼出色，您幾乎總是需要進行基本的後製處理以確保影片一致性。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:145
+msgid "Refine Some More"
+msgstr "進一步精煉"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:146
+msgid ""
+"A slow scene can set the mood and add tension or it can bore an audience. A "
+"fast scene can add adrenaline to your audience’s systems or it can give them"
+" headaches. Some editors cut their projects several different ways before "
+"they find the right pace. Do not let cutting your project several times "
+"discourage you."
+msgstr ""
+"緩慢的場景可以營造氛圍並增加張力，也可能讓觀眾感到無聊。快速的場景可以激發觀眾的腎上腺素，也可能讓他們頭痛。有些剪輯師會以多種方式剪輯專案，直到找到合適的節奏。不要因為多次剪輯而氣餒。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:153
+msgid "Exporting"
+msgstr "匯出"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:154
+msgid ""
+"People view most of their projects on phones, tablets, or computers, so it "
+"is essential to know how to export for the web. The goal when exporting a "
+"video for the web is to create the highest quality possible with the "
+"smallest file size. Four main factors determine the file size of your "
+"finished video:"
+msgstr ""
+"大多數人會在手機、平板或電腦上觀看專案，因此了解如何為網路匯出影片非常重要。為網路匯出影片的目標是以最小的檔案大小達到最高的品質。完成影片的檔案大小由四個主要因素決定："
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:160
+msgid "Codec"
+msgstr "編碼器"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:161
+msgid ""
+"A codec determines the type of file format (MP4, AVI, MOV). The more "
+"compression performed by the codec, the smaller your video’s size. Videos "
+"that are smaller in file size tend to be lower in visual quality."
+msgstr "編碼器決定檔案格式類型（MP4、AVI、MOV）。編碼器壓縮越多，影片檔案越小。檔案較小的影片通常視覺品質較低。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:166
+msgid "Resolution"
+msgstr "解析度"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:167
+msgid ""
+"Resolution refers to the number of horizontal and vertical pixels (dots on "
+"display) your video contains. For example, a 4K UHD (2160P) video has four "
+"times the resolution of FHD (1080P) video. A higher resolution means more "
+"information to store so that you will have larger file sizes."
+msgstr ""
+"解析度指影片包含的水平和垂直像素數（顯示點數）。例如，4K "
+"UHD（2160P）影片的解析度是FHD（1080P）影片的四倍。較高的解析度意味著需要儲存更多資訊，因此檔案大小會較大。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:173
+msgid "Bit Rate"
+msgstr "位元率"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:174
+msgid ""
+"The Bit Rate is the measure of the speed of data processing of your video. A"
+" higher bit rate means higher-quality video and larger files. OpenShot "
+"allows you to manually set the Bit Rate / Quality in the Advanced tab of the"
+" Export Video window."
+msgstr ""
+"位元率是衡量影片資料處理速度的指標。較高的位元率代表較高的影片品質和較大的檔案。OpenShot 允許您在匯出影片視窗的進階標籤中手動設定位元率／品質。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:180
+msgid "Frame Rate"
+msgstr "幀率"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:181
+msgid ""
+"The frequency (in Hz) at which consecutive images, called frames, appear on "
+"the display is the Frame Rate. Typically, you export your video in the film "
+"standard (24fps) or the TV broadcast standard of 30fps (or 25fps in PAL). "
+"While there is not much wiggle room here, you should note that if you decide"
+" to export your video in 48fps, 50fps, or 60fps, your file size doubles."
+msgstr ""
+"連續影像（稱為幀）在顯示器上出現的頻率（以赫茲為單位）稱為幀率。通常，您會以電影標準（24fps）或電視廣播標準30fps（PAL制式為25fps）匯出影片。雖然此處調整空間不大，但若您選擇以48fps、50fps或60fps匯出，檔案大小將會加倍。"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:188
+msgid "Conclusion"
+msgstr "結論"
+
+# Translated with gpt-4.1-mini
+#: ../getting_started.rst:189
+msgid ""
+"In conclusion, video editing is an accessible skill that can elevate your "
+"video content even if you're not a professional videographer. With the "
+"ability to trim, arrange, and enhance footage, you can create engaging "
+"videos that captivate your audience. Whether you're a beginner or on your "
+"way to becoming a skilled video editor, remember to focus on storytelling, "
+"efficient organization, and refining your project's details. From selecting "
+"the right computer to mastering keyboard shortcuts and understanding "
+"technical aspects like codecs and resolutions, your journey in video editing"
+" can lead to polished and impactful results. As you venture into the world "
+"of video editing, keep in mind that practice, patience, and a commitment to "
+"learning are key to achieving excellence in this creative endeavor."
+msgstr ""
+"總結來說，影片剪輯是一項人人可學的技能，即使您不是專業攝影師，也能提升您的影片內容。透過剪裁、排列和強化素材，您可以創作出吸引觀眾的精彩影片。無論您是初學者或正邁向熟練的影片剪輯師，請記得專注於故事敘述、高效組織及精煉專案細節。從選擇合適的電腦、掌握快捷鍵，到理解編碼器和解析度等技術面，您的影片剪輯之路將帶來精緻且有影響力的成果。踏入影片剪輯的世界時，請記住，練習、耐心與持續學習是達成卓越的關鍵。"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Record more video and audio than you think you will need for your project. "
+#~ "Include video that enhances the scene, sets a mood, or tells a story. You "
+#~ "can use the extra video for smooth transitions in your project. If your "
+#~ "project requires voice overs or narration, we suggest using an external "
+#~ "application to record your microphone (since OpenShot does not include any "
+#~ "recording capabilities yet)."
+#~ msgstr ""
+#~ "錄製比你預期需要更多的影片和音訊。包含能增強場景、營造氛圍或敘述故事的畫面。多餘的影片可用於專案中的平滑轉場。如果專案需要配音或旁白，建議使用外部應用程式錄製麥克風聲音（因為"
+#~ " OpenShot 尚未具備錄音功能）。"

@@ -1,0 +1,597 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:21
+msgid "Developers"
+msgstr "Pengembang"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:23
+msgid ""
+"If you are a programmer (or want to become a programmer), and are interested"
+" in developing new features, fixing bugs, or improving the user interface "
+"for OpenShot, the following sections will explain how to get started and get"
+" involved!"
+msgstr ""
+"Jika Anda seorang programmer (atau ingin menjadi programmer), dan tertarik "
+"mengembangkan fitur baru, memperbaiki bug, atau meningkatkan antarmuka "
+"pengguna untuk OpenShot, bagian berikut akan menjelaskan cara memulai dan "
+"terlibat!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:28
+msgid "The Big Picture"
+msgstr "Gambaran Besar"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:29
+msgid ""
+"OpenShot Video Editor has 3 main components, a Python & PyQt user interface "
+"(:openshot-github:`openshot-qt`), a C++ audio library (:openshot-"
+"github:`libopenshot-audio`) and a C++ video library (:openshot-"
+"github:`libopenshot`). If you are not familiar with Python, PyQt, or C++, "
+"those would be great topics to research and learn more about at this point."
+msgstr ""
+"OpenShot Video Editor memiliki 3 komponen utama, antarmuka pengguna Python &"
+" PyQt (:openshot-github:`openshot-qt`), perpustakaan audio C++ (:openshot-"
+"github:`libopenshot-audio`) dan perpustakaan video C++ (:openshot-"
+"github:`libopenshot`). Jika Anda belum familiar dengan Python, PyQt, atau "
+"C++, ini adalah topik yang bagus untuk diteliti dan dipelajari lebih lanjut "
+"saat ini."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:35
+msgid ""
+"However, many bugs can be fixed and new features added with only Python "
+"knowledge, since the C++ components are not involved in the user interface "
+"at all. Python is an amazing language, and is super fun to learn, and is the"
+" only prerequisite skill needed to become an OpenShot developer!"
+msgstr ""
+"Namun, banyak bug dapat diperbaiki dan fitur baru ditambahkan hanya dengan "
+"pengetahuan Python, karena komponen C++ tidak terlibat sama sekali dalam "
+"antarmuka pengguna. Python adalah bahasa yang luar biasa, sangat "
+"menyenangkan untuk dipelajari, dan merupakan satu-satunya keterampilan "
+"prasyarat yang dibutuhkan untuk menjadi pengembang OpenShot!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:42
+msgid ""
+"The instructions that follow are for Ubuntu Linux, which is the easiest "
+"environment to configure for OpenShot development. If you are using another "
+"OS, I suggest running a virtual machine with Ubuntu LTS before continuing "
+"any further."
+msgstr ""
+"Instruksi berikut ditujukan untuk Ubuntu Linux, yang merupakan lingkungan "
+"termudah untuk dikonfigurasi dalam pengembangan OpenShot. Jika Anda "
+"menggunakan OS lain, saya sarankan menjalankan mesin virtual dengan Ubuntu "
+"LTS sebelum melanjutkan."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:47
+msgid ""
+"If you must use a Windows or Mac system for development, start by referring "
+"to the build notes in the ``libopenshot`` wiki. Building the library with "
+"all of its dependencies is the most challenging part of the process."
+msgstr ""
+"Jika Anda harus menggunakan sistem Windows atau Mac untuk pengembangan, "
+"mulailah dengan merujuk pada catatan build di wiki ``libopenshot``. "
+"Membangun perpustakaan beserta semua dependensinya adalah bagian paling "
+"menantang dari proses ini."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:51
+msgid ""
+":libopenshot-wiki:`Windows Build Instructions <Windows-Build-Instructions>`"
+msgstr ""
+":libopenshot-wiki:`Instruksi Build Windows <Windows-Build-Instructions>`"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:52
+msgid ":libopenshot-wiki:`Mac Build Instructions <Mac-Build-Instructions>`"
+msgstr ":libopenshot-wiki:`Instruksi Build Mac <Mac-Build-Instructions>`"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:55
+msgid "Getting the Latest Source Code"
+msgstr "Mendapatkan Kode Sumber Terbaru"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:56
+msgid ""
+"Before we can fix any bugs or add any features, we need to get the source "
+"code onto your computer."
+msgstr ""
+"Sebelum kita dapat memperbaiki bug atau menambahkan fitur, kita perlu "
+"mendapatkan kode sumber ke komputer Anda."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:59
+msgid "Use git to clone our 3 repositories:"
+msgstr "Gunakan git untuk mengkloning 3 repositori kami:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:68
+msgid "Configuring your Development Environment"
+msgstr "Mengonfigurasi Lingkungan Pengembangan Anda"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:69
+msgid ""
+"In order to actually compile or run OpenShot, we need to install some "
+"dependencies on your system. The easiest way to accomplish this is with our "
+"`Daily PPA <https://www.openshot.org/ppa/>`_. A PPA is an unofficial Ubuntu "
+"repository, which has our software packages available to download and "
+"install."
+msgstr ""
+"Untuk benar-benar mengompilasi atau menjalankan OpenShot, kita perlu "
+"menginstal beberapa dependensi di sistem Anda. Cara termudah untuk "
+"melakukannya adalah dengan `Daily PPA <https://www.openshot.org/ppa/>`_ "
+"kami. PPA adalah repositori Ubuntu tidak resmi, yang menyediakan paket "
+"perangkat lunak kami untuk diunduh dan diinstal."
+
+#: ../developers.rst:110
+msgid ""
+"OpenShot supports PyQt5, PyQt6, and PySide6. libopenshot must be built "
+"against the correct Qt version for the binding you are using (Qt5: PyQt5, "
+"Qt6: PyQt6 or PySide6)."
+msgstr ""
+"OpenShot mendukung PyQt5, PyQt6, dan PySide6. libopenshot harus dibangun "
+"dengan versi Qt yang benar untuk binding yang Anda gunakan (Qt5: PyQt5, Qt6:"
+" PyQt6 atau PySide6)."
+
+#: ../developers.rst:114
+msgid "For PySide6 (Qt6) bindings, install these packages:"
+msgstr "Untuk binding PySide6 (Qt6), pasang paket-paket ini:"
+
+#: ../developers.rst:127
+msgid "For PyQt6, install these packages:"
+msgstr "Untuk PyQt6, pasang paket-paket ini:"
+
+#: ../developers.rst:137
+msgid ""
+"The PyQt6 runtime must provide ``QtCore``, ``QtGui``, ``QtWidgets``, "
+"``QtSvg``, ``QtStateMachine``, and ``uic``. Some distributions split these "
+"modules into separate packages. In particular, Ubuntu 24.04's "
+"``python3-pyqt6`` package does not include ``QtStateMachine``. On that "
+"release, use the PySide6 packages above or install the complete PyQt6 wheel "
+"in a Python virtual environment:"
+msgstr ""
+"Runtime PyQt6 harus menyediakan ``QtCore``, ``QtGui``, ``QtWidgets``, "
+"``QtSvg``, ``QtStateMachine``, dan ``uic``. Beberapa distribusi memisahkan "
+"modul-modul ini ke dalam paket terpisah. Khususnya, paket ``python3-pyqt6`` "
+"di Ubuntu 24.04 tidak menyertakan ``QtStateMachine``. Pada rilis tersebut, "
+"gunakan paket PySide6 di atas atau pasang wheel PyQt6 lengkap di lingkungan "
+"virtual Python:"
+
+#: ../developers.rst:149
+msgid ""
+"Verify the selected Qt binding and its required modules before launching "
+"OpenShot:"
+msgstr ""
+"Verifikasi binding Qt yang dipilih dan modul-modul yang dibutuhkan sebelum "
+"menjalankan OpenShot:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:157
+msgid ""
+"At this point, you should have all 3 OpenShot components source code cloned "
+"into local folders, the OpenShot daily PPA installed, and all of the "
+"required development and runtime dependencies installed. This is a great "
+"start, and we are now ready to start compiling some code!"
+msgstr ""
+"Pada titik ini, Anda seharusnya sudah mengkloning kode sumber ketiga "
+"komponen OpenShot ke folder lokal, menginstal PPA harian OpenShot, dan "
+"menginstal semua dependensi pengembangan dan runtime yang diperlukan. Ini "
+"adalah awal yang bagus, dan sekarang kita siap mulai mengompilasi kode!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:162
+msgid "libopenshot-audio (Build Instructions)"
+msgstr "libopenshot-audio (Instruksi Build)"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:163
+msgid ""
+"This library is required for audio playback and audio effects. It is based "
+"on the JUCE audio framework. Here are the commands to build it:"
+msgstr ""
+"Perpustakaan ini diperlukan untuk pemutaran audio dan efek audio. Ini "
+"berbasis pada kerangka kerja audio JUCE. Berikut adalah perintah untuk "
+"membangunnya:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:176
+msgid ""
+"Essentially, we are switching to the ``libopenshot-audio/build`` folder, "
+"then running ``cmake ..`` on the parent folder. This finds dependencies and "
+"creates all the needed Makefiles used to compile this library. Then ``make``"
+" uses those Makefiles to compile this library, and ``make install`` installs"
+" them in the location we specified. If ``CMAKE_INSTALL_PREFIX`` isn't set, "
+"the files will install to ``/usr/local/`` (by default) and ``make install`` "
+"will require administrative privileges to run."
+msgstr ""
+"Pada dasarnya, kita beralih ke folder ``libopenshot-audio/build``, lalu "
+"menjalankan ``cmake ..`` pada folder induk. Ini mencari dependensi dan "
+"membuat semua Makefile yang diperlukan untuk mengompilasi perpustakaan ini. "
+"Kemudian ``make`` menggunakan Makefile tersebut untuk mengompilasi "
+"perpustakaan ini, dan ``make install`` menginstalnya di lokasi yang kita "
+"tentukan. Jika ``CMAKE_INSTALL_PREFIX`` tidak disetel, file akan diinstal ke"
+" ``/usr/local/`` (secara default) dan ``make install`` memerlukan hak "
+"administratif untuk dijalankan."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:184
+msgid "libopenshot (Build Instructions)"
+msgstr "libopenshot (Instruksi Build)"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:185
+msgid ""
+"This library is required for video decoding, encoding, animation, and just "
+"about everything else. It does all the heavy lifting of video editing and "
+"video playback. Here are the commands to build it:"
+msgstr ""
+"Perpustakaan ini diperlukan untuk decoding video, encoding, animasi, dan "
+"hampir semua hal lainnya. Ini melakukan semua pekerjaan berat pengeditan "
+"video dan pemutaran video. Berikut adalah perintah untuk membangunnya:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:197
+msgid ""
+"Essentially, we are switching to the ``libopenshot/build`` folder, then "
+"running ``cmake ..`` on the parent folder. This finds dependencies and "
+"creates all the needed Makefiles used to compile this library. Then ``make``"
+" uses those Makefiles to compile this library. Because we provided the "
+"location of our compiled ``libopenshot-audio`` installation, that version of"
+" the library will be used instead of the system version (if any)."
+msgstr ""
+"Pada dasarnya, kita beralih ke folder ``libopenshot/build``, lalu "
+"menjalankan ``cmake ..`` pada folder induk. Ini mencari dependensi dan "
+"membuat semua Makefile yang diperlukan untuk mengompilasi perpustakaan ini. "
+"Kemudian ``make`` menggunakan Makefile tersebut untuk mengompilasi "
+"perpustakaan ini. Karena kita menyediakan lokasi instalasi ``libopenshot-"
+"audio`` yang sudah dikompilasi, versi perpustakaan tersebut akan digunakan "
+"menggantikan versi sistem (jika ada)."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:204
+msgid ""
+"We don't install our ``libopenshot`` after building, because we don't need "
+"to. For testing purposes, we can tell OpenShot to use ``libopenshot`` right "
+"from our ``build`` directory."
+msgstr ""
+"Kami tidak menginstal ``libopenshot`` setelah membangunnya, karena tidak "
+"perlu. Untuk tujuan pengujian, kita dapat memberitahu OpenShot untuk "
+"menggunakan ``libopenshot`` langsung dari direktori ``build`` kami."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:208
+msgid "Language Bindings"
+msgstr "Binding Bahasa"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:209
+msgid ""
+"The ``libopenshot`` API is available in several languages through SWIG "
+"bindings.  Python is used by the OpenShot user interface, and we also "
+"provide Ruby and Java bindings.  Experimental support for Godot **4.4** is "
+"included for developers who wish to integrate video editing features into "
+"the Godot game engine.  All of these bindings map to the same C++ codebase "
+"so you can edit video from the environment you prefer."
+msgstr ""
+"API ``libopenshot`` tersedia dalam beberapa bahasa melalui binding SWIG. "
+"Python digunakan oleh antarmuka pengguna OpenShot, dan kami juga menyediakan"
+" binding Ruby dan Java. Dukungan eksperimental untuk Godot **4.4** "
+"disertakan bagi pengembang yang ingin mengintegrasikan fitur pengeditan "
+"video ke dalam mesin game Godot. Semua binding ini memetakan ke basis kode "
+"C++ yang sama sehingga Anda dapat mengedit video dari lingkungan yang Anda "
+"pilih."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:215
+msgid "openshot-qt (Launch Instructions)"
+msgstr "openshot-qt (Instruksi Peluncuran)"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:216
+msgid ""
+"This is our main PyQt Python application. Because it is written in Python, "
+"it does not require any compiling to run. To launch OpenShot from the source"
+" code with our newly-built ``libopenshot-audio`` and ``libopenshot`` "
+"libraries, use the following commands:"
+msgstr ""
+"Ini adalah aplikasi utama PyQt Python kami. Karena ditulis dalam Python, "
+"tidak memerlukan kompilasi untuk dijalankan. Untuk meluncurkan OpenShot dari"
+" kode sumber dengan perpustakaan ``libopenshot-audio`` dan ``libopenshot`` "
+"yang baru dibangun, gunakan perintah berikut:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:227
+msgid ""
+"This should launch the OpenShot user interface. Any changes you have made to"
+" the source code files (``*.py`` Python files, ``*.ui`` PyQt UI files, "
+"etc...) will be included. This requires the ``libopenshot-audio`` and "
+"``libopenshot`` libraries, and if anything went wrong with the steps above, "
+"OpenShot will likely not launch."
+msgstr ""
+"Ini akan meluncurkan antarmuka pengguna OpenShot. Setiap perubahan yang Anda"
+" buat pada file kode sumber (file Python ``*.py``, file UI PyQt ``*.ui``, "
+"dll...) akan disertakan. Ini memerlukan pustaka ``libopenshot-audio`` dan "
+"``libopenshot``, dan jika ada yang salah dengan langkah-langkah di atas, "
+"OpenShot kemungkinan tidak akan meluncur."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:233
+msgid ""
+"If OpenShot launches at this point, congratulations! You now have a working "
+"local version of OpenShot, which is running off your local source code. Try "
+"making some changes to the source code and re-launch OpenShot... you should "
+"now see your changes!"
+msgstr ""
+"Jika OpenShot meluncur pada titik ini, selamat! Anda sekarang memiliki versi"
+" lokal OpenShot yang berfungsi, yang berjalan dari kode sumber lokal Anda. "
+"Cobalah membuat beberapa perubahan pada kode sumber dan luncurkan kembali "
+"OpenShot... Anda sekarang harus melihat perubahan Anda!"
+
+#: ../developers.rst:239
+msgid "Command-Line Options"
+msgstr "Opsi Baris Perintah"
+
+#: ../developers.rst:241
+msgid ""
+"These options work with the installed OpenShot application, including "
+"``openshot-qt.exe`` on Windows. When running from source, use ``python3 "
+"src/launch.py`` in place of the application name. Put options before any "
+"file paths you want OpenShot to open."
+msgstr ""
+"Opsi ini bekerja dengan aplikasi OpenShot yang terpasang, termasuk "
+"``openshot-qt.exe`` di Windows. Saat menjalankan dari sumber, gunakan "
+"``python3 src/launch.py`` menggantikan nama aplikasi. Letakkan opsi sebelum "
+"jalur file apa pun yang ingin Anda buka dengan OpenShot."
+
+#: ../developers.rst:246
+msgid "OpenShot command-line options"
+msgstr "Opsi baris perintah OpenShot"
+
+#: ../developers.rst:250
+msgid "Option"
+msgstr "Opsi"
+
+#: ../developers.rst:251
+msgid "What it does"
+msgstr "Fungsinya"
+
+#: ../developers.rst:252
+msgid "``-h``, ``--help``"
+msgstr "``-h``, ``--help``"
+
+#: ../developers.rst:253
+msgid "Show the available options and exit."
+msgstr "Tampilkan opsi yang tersedia dan keluar."
+
+#: ../developers.rst:254
+msgid "``-V``, ``--version``"
+msgstr "``-V``, ``--version``"
+
+#: ../developers.rst:255
+msgid "Print the OpenShot version and exit."
+msgstr "Tampilkan versi OpenShot dan keluar."
+
+#: ../developers.rst:256
+msgid "``-l CODE``, ``--lang CODE``"
+msgstr "``-l CODE``, ``--lang CODE``"
+
+#: ../developers.rst:257
+msgid ""
+"Use the chosen interface language for this launch. The code must be one of "
+"those shown by ``--list-languages``."
+msgstr ""
+"Gunakan bahasa antarmuka yang dipilih untuk peluncuran ini. Kode harus salah"
+" satu yang ditampilkan oleh ``--list-languages``."
+
+#: ../developers.rst:259
+msgid "``--list-languages``"
+msgstr "``--list-languages``"
+
+#: ../developers.rst:260
+msgid "List supported language codes and exit."
+msgstr "Daftar kode bahasa yang didukung dan keluar."
+
+#: ../developers.rst:261
+msgid "``--path FOLDER``"
+msgstr "``--path FOLDER``"
+
+#: ../developers.rst:262
+msgid ""
+"Add a folder to the Python module search path. You can repeat this option to"
+" add more than one folder."
+msgstr ""
+"Tambahkan folder ke jalur pencarian modul Python. Anda dapat mengulangi opsi"
+" ini untuk menambahkan lebih dari satu folder."
+
+#: ../developers.rst:264
+msgid "``--feedback-preview``"
+msgstr "``--feedback-preview``"
+
+#: ../developers.rst:265
+msgid ""
+"Show the feedback notice on launch without marking the invitation as shown "
+"in saved settings."
+msgstr ""
+"Tampilkan pemberitahuan umpan balik saat peluncuran tanpa menandai undangan "
+"sebagai sudah ditampilkan dalam pengaturan yang disimpan."
+
+#: ../developers.rst:267
+msgid "``--update-preview``"
+msgstr "``--update-preview``"
+
+#: ../developers.rst:268
+msgid ""
+"Show the update notice on launch. Both preview options can be used together."
+msgstr ""
+"Tampilkan pemberitahuan pembaruan saat peluncuran. Kedua opsi pratinjau "
+"dapat digunakan bersama."
+
+#: ../developers.rst:269
+msgid "``--test-models``"
+msgstr "``--test-models``"
+
+#: ../developers.rst:270
+msgid ""
+"Enable Qt's data model tester for development (requires Qt 5.11 or later)."
+msgstr ""
+"Aktifkan penguji model data Qt untuk pengembangan (memerlukan Qt 5.11 atau "
+"lebih baru)."
+
+#: ../developers.rst:271
+msgid "``-d``, ``--debug``, ``--debug-ui``"
+msgstr "``-d``, ``--debug``, ``--debug-ui``"
+
+#: ../developers.rst:272
+msgid "Add detailed interface messages to its log file and the terminal."
+msgstr "Tambahkan pesan antarmuka terperinci ke file log dan terminal."
+
+#: ../developers.rst:273
+msgid "``--debug-engine``"
+msgstr "``--debug-engine``"
+
+#: ../developers.rst:274
+msgid ""
+"Add detailed video and audio engine messages to its log file and the "
+"terminal."
+msgstr ""
+"Tambahkan pesan mesin video dan audio terperinci ke file log dan terminal."
+
+#: ../developers.rst:275
+msgid "``--log-level LEVEL``"
+msgstr "``--log-level LEVEL``"
+
+#: ../developers.rst:276
+msgid ""
+"Set the logging level for both parts of OpenShot, in files and the terminal."
+msgstr ""
+"Atur tingkat pencatatan untuk kedua bagian OpenShot, di file dan terminal."
+
+#: ../developers.rst:277
+msgid "``--log-file-level LEVEL``"
+msgstr "``--log-file-level LEVEL``"
+
+#: ../developers.rst:278
+msgid "Set the logging level in both log files."
+msgstr "Atur tingkat pencatatan di kedua file log."
+
+#: ../developers.rst:279
+msgid "``--log-console-level LEVEL``"
+msgstr "``--log-console-level LEVEL``"
+
+#: ../developers.rst:280
+msgid "Set the logging level in the terminal for both parts of OpenShot."
+msgstr "Atur tingkat pencatatan di terminal untuk kedua bagian OpenShot."
+
+#: ../developers.rst:281
+msgid "``--debug-file``"
+msgstr "``--debug-file``"
+
+#: ../developers.rst:282
+msgid ""
+"Add detailed interface messages to its log file only. This older option is "
+"accepted but is not shown by ``--help``."
+msgstr ""
+"Tambahkan pesan antarmuka terperinci hanya ke file log. Opsi lama ini "
+"diterima tetapi tidak ditampilkan oleh ``--help``."
+
+#: ../developers.rst:284
+msgid "``--debug-console``"
+msgstr "``--debug-console``"
+
+#: ../developers.rst:285
+msgid ""
+"Add detailed interface messages to the terminal only. This older option is "
+"accepted but is not shown by ``--help``."
+msgstr ""
+"Tambahkan pesan antarmuka terperinci hanya ke terminal. Opsi lama ini "
+"diterima tetapi tidak ditampilkan oleh ``--help``."
+
+#: ../developers.rst:287
+msgid "``PROJECT.osp`` or media file paths"
+msgstr "``PROJECT.osp`` atau jalur file media"
+
+#: ../developers.rst:288
+msgid ""
+"Open a project when the first file path ends in ``.osp``. Otherwise, start a"
+" new project and import the supplied media files."
+msgstr ""
+"Buka proyek ketika jalur file pertama berakhiran ``.osp``. Jika tidak, mulai"
+" proyek baru dan impor file media yang disediakan."
+
+#: ../developers.rst:291
+msgid ""
+"For ``LEVEL``, use ``debug``, ``info``, ``warning``, ``error``, "
+"``critical``, or ``off``. See :ref:`logging_ref` for log file locations, "
+"examples, and more about choosing logging options."
+msgstr ""
+"Untuk ``LEVEL``, gunakan ``debug``, ``info``, ``warning``, ``error``, "
+"``critical``, atau ``off``. Lihat :ref:`logging_ref` untuk lokasi file log, "
+"contoh, dan informasi lebih lanjut tentang memilih opsi pencatatan."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:296
+msgid "GitHub Issues"
+msgstr "Masalah GitHub"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:297
+msgid ""
+"Now that you have successfully compiled and launched OpenShot Video Editor "
+"from source code, be sure to check out our list of bug reports on GitHub: "
+"`OpenShot Issues`_. Also, you are encouraged to fill out our quick "
+"`contributor form <https://forms.gle/CRqkS5tLMJE1V36V8>`_ and introduce "
+"yourself!"
+msgstr ""
+"Sekarang setelah Anda berhasil mengompilasi dan meluncurkan OpenShot Video "
+"Editor dari kode sumber, pastikan untuk memeriksa daftar laporan bug kami di"
+" GitHub: `Masalah OpenShot`_. Selain itu, Anda dianjurkan untuk mengisi "
+"`formulir kontributor <https://forms.gle/CRqkS5tLMJE1V36V8>`_ kami yang "
+"singkat dan memperkenalkan diri Anda!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:303
+msgid "Share your Changes"
+msgstr "Bagikan Perubahan Anda"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:304
+msgid ""
+"Once you have fixed a bug or added an amazing new feature, be sure to share "
+"it with the OpenShot team. Ideally, we can merge this into our main source "
+"code branch. The easiest way to share your changes is by creating a fork of "
+"our repo, pushing your changes back to GitHub, and creating a `Pull "
+"Request`_. A Pull Request lets the OpenShot team know you have changes ready"
+" to be merged. Then we can review things, give feedback, and hopefully merge"
+" your changes into the main branch."
+msgstr ""
+"Setelah Anda memperbaiki bug atau menambahkan fitur baru yang luar biasa, "
+"pastikan untuk membagikannya dengan tim OpenShot. Idealnya, kami dapat "
+"menggabungkannya ke cabang kode sumber utama kami. Cara termudah untuk "
+"membagikan perubahan Anda adalah dengan membuat fork dari repositori kami, "
+"mendorong perubahan Anda kembali ke GitHub, dan membuat `Pull Request`_. "
+"Pull Request memberi tahu tim OpenShot bahwa Anda memiliki perubahan yang "
+"siap digabungkan. Kemudian kami dapat meninjau, memberikan umpan balik, dan "
+"semoga menggabungkan perubahan Anda ke cabang utama."

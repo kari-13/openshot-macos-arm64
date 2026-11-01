@@ -1,0 +1,2190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:21
+msgid "Main Window"
+msgstr "Cửa Sổ Chính"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:23
+msgid ""
+"OpenShot Video Editor has one main window which contains most of the "
+"information, buttons, and menus needed to edit your video project."
+msgstr ""
+"OpenShot Video Editor có một cửa sổ chính chứa hầu hết thông tin, nút bấm và"
+" menu cần thiết để chỉnh sửa dự án video của bạn."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:27
+msgid "Overview"
+msgstr "Tổng Quan"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:35 ../main_window.rst:80 ../main_window.rst:101
+msgid "#"
+msgstr "Số"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:35 ../main_window.rst:80
+msgid "Name"
+msgstr "Tên"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:35 ../main_window.rst:80 ../main_window.rst:103
+#: ../main_window.rst:237 ../main_window.rst:367 ../main_window.rst:396
+msgid "Description"
+msgstr "Mô Tả"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:37 ../main_window.rst:82 ../main_window.rst:104
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:37
+msgid "Main Toolbar"
+msgstr "Thanh Công Cụ Chính"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:37
+msgid "Contains buttons to open, save, and export your video project."
+msgstr "Chứa các nút để mở, lưu và xuất dự án video của bạn."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:38 ../main_window.rst:83 ../main_window.rst:107
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:38
+msgid "Function Tabs"
+msgstr "Các Tab Chức Năng"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:38
+msgid "Switch between Project Files, Transitions, Effects, and Emojis."
+msgstr ""
+"Chuyển đổi giữa Tệp Dự Án, Chuyển Cảnh, Hiệu Ứng và Biểu Tượng Cảm Xúc."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:39 ../main_window.rst:84 ../main_window.rst:110
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:39 ../main_window.rst:411
+msgid "Project Files"
+msgstr "Tệp Dự Án"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:39
+msgid ""
+"All audio, video, and image files that have been imported into your project."
+msgstr ""
+"Tất cả các tệp âm thanh, video và hình ảnh đã được nhập vào dự án của bạn."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:40 ../main_window.rst:113
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:40
+msgid "Preview Window"
+msgstr "Cửa Sổ Xem Trước"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:40
+msgid "This is the area that the video will playback on the screen."
+msgstr "Đây là khu vực video sẽ phát lại trên màn hình."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:41 ../main_window.rst:116
+msgid "5"
+msgstr "5"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:41 ../main_window.rst:90
+msgid "Timeline Toolbar"
+msgstr "Thanh Công Cụ Dòng Thời Gian"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:41
+msgid ""
+"This toolbar contains buttons used for snapping, inserting markers, slicing "
+"razor, jumping between markers, and centering the timeline on the playhead. "
+"See :ref:`timeline_toolbar_ref`."
+msgstr ""
+"Thanh công cụ này chứa các nút dùng để bật/tắt tính năng dính, chèn dấu, cắt"
+" bằng dao cạo, nhảy giữa các dấu và căn giữa dòng thời gian theo vị trí "
+"phát. Xem :ref:`timeline_toolbar_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:42 ../main_window.rst:119
+msgid "6"
+msgstr "6"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:42 ../main_window.rst:120
+msgid "Zoom Slider"
+msgstr "Thanh Trượt Thu Phóng"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:42
+msgid ""
+"This slider will adjust the time-scale of your timeline. Drag the left or "
+"right edge to zoom in or out. Drag the blue area to scroll the timeline left"
+" or right. Clips and transitions are displayed as simple rectangles, to give"
+" you context for adjusting the zoom to specific clips."
+msgstr ""
+"Thanh trượt này điều chỉnh tỷ lệ thời gian của dòng thời gian. Kéo cạnh trái"
+" hoặc phải để phóng to hoặc thu nhỏ. Kéo vùng màu xanh để cuộn dòng thời "
+"gian sang trái hoặc phải. Các clip và chuyển cảnh được hiển thị dưới dạng "
+"hình chữ nhật đơn giản, giúp bạn điều chỉnh thu phóng cho các clip cụ thể."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:43 ../main_window.rst:122
+msgid "7"
+msgstr "7"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:43
+msgid "Play-head / Ruler"
+msgstr "Đầu Phát / Thước Đo"
+
+#: ../main_window.rst:43
+msgid ""
+"The ruler shows the time-scale, and the line is the play-head. The play-head"
+" represents the current playback position. The current timecode can be "
+"clicked to enter an exact timecode. Hold :kbd:`Shift` key while dragging the"
+" playhead to snap to nearby clips."
+msgstr ""
+"Thước đo hiển thị thang thời gian, và đường thẳng là đầu phát. Đầu phát đại "
+"diện cho vị trí phát hiện tại. Có thể nhấp vào mã thời gian hiện tại để nhập"
+" mã thời gian chính xác. Giữ phím :kbd:`Shift` khi kéo đầu phát để tự động "
+"căn chỉnh với các clip gần đó."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:44
+msgid "8"
+msgstr "8"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:44
+msgid "Timeline"
+msgstr "Dòng Thời Gian"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:44
+msgid ""
+"The timeline visualizes your video project, and each clip and transition in "
+"your project. You can drag the mouse to select, move, or delete multiple "
+"items."
+msgstr ""
+"Dòng thời gian trực quan hóa dự án video của bạn, cùng với từng clip và "
+"chuyển cảnh trong dự án. Bạn có thể kéo chuột để chọn, di chuyển hoặc xóa "
+"nhiều mục."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:45
+msgid "9"
+msgstr "9"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:45
+msgid "Filter"
+msgstr "Bộ Lọc"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:45
+msgid ""
+"Filter the list of items shown (project files, transitions, effects, and "
+"emojis) by using these buttons and filter textbox. Enter a few letters of "
+"what you are looking for, and the results will be shown."
+msgstr ""
+"Lọc danh sách các mục hiển thị (tệp dự án, chuyển cảnh, hiệu ứng và biểu "
+"tượng cảm xúc) bằng các nút và hộp lọc này. Nhập vài chữ cái của mục bạn "
+"tìm, kết quả sẽ được hiển thị."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:46
+msgid "10"
+msgstr "10"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:46
+msgid "Playback"
+msgstr "Phát"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:46
+msgid ""
+"Left to Right: Jump to Start, Rewind, Play/Pause, Fast Forward, and Jump to "
+"End"
+msgstr ""
+"Từ trái sang phải: Nhảy đến đầu, tua lại, Phát/Tạm dừng, tua nhanh và nhảy "
+"đến cuối"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:47
+#, fuzzy
+msgid "11"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:47
+msgid "Track"
+msgstr "Dòng"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:47
+msgid ""
+"Track area containing the track name, track menu, and per-track controls "
+"such as lock and keyframe panel icons."
+msgstr ""
+"Khu vực dòng chứa tên dòng, menu dòng và các điều khiển riêng cho từng dòng "
+"như biểu tượng khóa và bảng điều khiển khung khóa."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:50
+msgid ""
+"For step-by-step instructions on the basic usage of OpenShot, be sure to "
+"read the :ref:`quick_tutorial_ref`."
+msgstr ""
+"Để có hướng dẫn từng bước về cách sử dụng cơ bản OpenShot, hãy chắc chắn đọc"
+" :ref:`quick_tutorial_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:54
+msgid "Built-in Tutorial"
+msgstr "Hướng Dẫn Tích Hợp"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:55
+msgid ""
+"When you first launch OpenShot, you will be presented with a friendly built-"
+"in tutorial. It will demonstrate and explain the basics. Clicking "
+":guilabel:`Next` will jump to the next topic. You can always view this "
+"tutorial again from the :guilabel:`Help→Tutorial` menu."
+msgstr ""
+"Khi bạn khởi động OpenShot lần đầu, bạn sẽ được trình bày với một hướng dẫn "
+"tích hợp thân thiện. Nó sẽ trình bày và giải thích các kiến thức cơ bản. "
+"Nhấn :guilabel:`Next` để chuyển đến chủ đề tiếp theo. Bạn luôn có thể xem "
+"lại hướng dẫn này từ menu :guilabel:`Help→Tutorial`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:63
+msgid "Tracks & Layers"
+msgstr "Các Track & Lớp"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:65
+msgid ""
+"OpenShot uses tracks to layer videos and images. The top most track is the "
+"top layer, and the bottom track is the bottom layer. If you are familiar "
+"with layers in a photo editing application, then you should be quite "
+"familiar with this concept. OpenShot will stack the layers and mix each one "
+"together, just like a photo editing application. You can have an unlimited "
+"number of tracks, but typically a simple video project will not need more "
+"than 5 tracks."
+msgstr ""
+"OpenShot sử dụng các track để xếp lớp video và hình ảnh. Track trên cùng là "
+"lớp trên cùng, và track dưới cùng là lớp dưới cùng. Nếu bạn quen thuộc với "
+"các lớp trong ứng dụng chỉnh sửa ảnh, bạn sẽ khá quen với khái niệm này. "
+"OpenShot sẽ xếp chồng các lớp và trộn chúng lại với nhau, giống như một ứng "
+"dụng chỉnh sửa ảnh. Bạn có thể có số lượng track không giới hạn, nhưng "
+"thường một dự án video đơn giản không cần quá 5 track."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:72
+msgid "For example, imagine a 3 track video project"
+msgstr "Ví dụ, hãy tưởng tượng một dự án video có 3 track"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:82
+msgid "Top Track"
+msgstr "Track Trên Cùng"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:82
+msgid ""
+"Clips on this track will always be on top and visible. Often watermarks and "
+"titles are placed on higher tracks."
+msgstr ""
+"Các clip trên track này luôn ở trên cùng và hiển thị. Thường các watermark "
+"và tiêu đề được đặt trên các track cao hơn."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:83
+msgid "Middle Track"
+msgstr "Track Giữa"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:83
+msgid ""
+"Clips in the middle (might or might not be visible, depending on what is "
+"above them)"
+msgstr ""
+"Các clip ở giữa (có thể hiển thị hoặc không, tùy thuộc vào những gì nằm trên"
+" chúng)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:84
+msgid "Bottom Track"
+msgstr "Track Dưới Cùng"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:84
+msgid ""
+"Clips on this track will always be on the bottom. Often audio clips are "
+"placed on lower tracks."
+msgstr ""
+"Các clip trên track này luôn ở dưới cùng. Thường các clip âm thanh được đặt "
+"trên các track thấp hơn."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:94
+msgid ""
+"For a beginner-friendly overview of timeline editing (selection, tracks, "
+"keyframes, and common workflows), see :ref:`timeline_ref`."
+msgstr ""
+"Để có cái nhìn tổng quan thân thiện với người mới về chỉnh sửa dòng thời "
+"gian (lựa chọn, dòng, khung khóa và các quy trình làm việc phổ biến), xem "
+":ref:`timeline_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:102
+msgid "Control Group"
+msgstr "Nhóm điều khiển"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:105 ../main_window.rst:144
+msgid "Add Track"
+msgstr "Thêm Track"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:106
+msgid ""
+"Add a new track to the timeline. New projects start with 5 tracks by "
+"default."
+msgstr ""
+"Thêm một track mới vào dòng thời gian. Các dự án mới mặc định bắt đầu với 5 "
+"track."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:108
+msgid "Undo / Redo"
+msgstr "Hoàn tác / Làm lại"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:109
+msgid "Undo or redo your latest timeline edits."
+msgstr "Hoàn tác hoặc làm lại các chỉnh sửa dòng thời gian gần đây của bạn."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:111
+msgid "Snap, Retime, Razor"
+msgstr "Bắt điểm, Thay đổi thời gian, Dao cạo"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:112
+msgid ""
+"Snapping toggles magnetic alignment. Timing Tool enables retiming by "
+"dragging clip edges. The :ref:`razor_tool_ref` previews and cuts at the "
+"guide position; press :kbd:`Esc` to exit."
+msgstr ""
+"Chế độ bắt điểm bật/tắt căn chỉnh từ tính. Công cụ đổi tốc độ cho phép điều "
+"chỉnh thời gian bằng cách kéo các cạnh clip. :ref:`razor_tool_ref` xem trước"
+" và cắt tại vị trí hướng dẫn; nhấn :kbd:`Esc` để thoát."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:114
+msgid "Add Marker, Next/Prev Marker"
+msgstr "Thêm dấu, Dấu tiếp theo/trước"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:115
+msgid ""
+"Add a marker at the playhead and jump to previous or next marker/clip "
+"boundaries."
+msgstr ""
+"Thêm dấu tại vị trí phát và chuyển đến dấu hoặc ranh giới đoạn clip trước "
+"hoặc tiếp theo."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:117 ../main_window.rst:148
+msgid "Center on Playhead"
+msgstr "Căn Giữa Theo Playhead"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:118
+msgid "Center the visible timeline area around the current playhead position."
+msgstr "Căn giữa khu vực dòng thời gian hiển thị quanh vị trí phát hiện tại."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:121
+msgid ""
+"Control the visible timeline range. Drag handles to zoom in/out, drag center"
+" to pan, and double-click to fit timeline. You can also use "
+":kbd:`Ctrl+Scroll Wheel`, or on the QWidget timeline hold :kbd:`Ctrl` and "
+"drag with the middle mouse button for smooth zooming."
+msgstr ""
+"Điều khiển phạm vi dòng thời gian hiển thị. Kéo các tay cầm để phóng to/thu "
+"nhỏ, kéo trung tâm để di chuyển, và nhấp đúp để vừa với dòng thời gian. Bạn "
+"cũng có thể sử dụng :kbd:`Ctrl+Scroll Wheel`, hoặc trên dòng thời gian "
+"QWidget giữ :kbd:`Ctrl` và kéo bằng nút chuột giữa để phóng to mượt mà."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:123
+msgid "Track toggles (Lock, Keyframe Panel)"
+msgstr "Chuyển đổi dòng (Khóa, Bảng khung khóa)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:124
+msgid "Per-track controls such as lock and keyframe panel visibility."
+msgstr ""
+"Các điều khiển riêng cho từng dòng như khóa và hiển thị bảng khung khóa."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:129
+msgid "Keyboard Shortcuts"
+msgstr "Phím Tắt Bàn Phím"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:130
+msgid ""
+"Here is a list of the default keyboard shortcuts supported by OpenShot. You "
+"can configure these shortcuts in the Preferences window, which is opened by "
+"selecting :guilabel:`Edit→Preferences` from the OpenShot menu bar. (On "
+"macOS, choose :guilabel:`OpenShot Video Editor→Preferences`.) Learning a few"
+" of these shortcuts can save you a bunch of time!"
+msgstr ""
+"Dưới đây là danh sách các phím tắt mặc định được OpenShot hỗ trợ. Bạn có thể"
+" cấu hình các phím tắt này trong cửa sổ Tùy chọn, mở bằng cách chọn "
+":guilabel:`Chỉnh sửa→Tùy chọn` từ thanh menu OpenShot. (Trên macOS, chọn "
+":guilabel:`OpenShot Video Editor→Preferences`.) Học một vài phím tắt này có "
+"thể giúp bạn tiết kiệm rất nhiều thời gian!"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Action"
+msgstr "Hành Động"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Shortcut 1"
+msgstr "Phím Tắt 1"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Shortcut 2"
+msgstr "Phím Tắt 2"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Shortcut 3"
+msgstr "Phím Tắt 3"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:142 ../main_window.rst:294
+msgid "About OpenShot"
+msgstr "Giới Thiệu OpenShot"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:142
+msgid ":kbd:`Ctrl+H`"
+msgstr ":kbd:`Ctrl+H`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:143
+msgid "Add Marker"
+msgstr "Thêm Đánh Dấu"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:143
+msgid ":kbd:`M`"
+msgstr ":kbd:`M`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:144
+msgid ":kbd:`Ctrl+Y`"
+msgstr ":kbd:`Ctrl+Y`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:145
+msgid "Add to Timeline"
+msgstr "Thêm vào Timeline"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:145
+msgid ":kbd:`Ctrl+Alt+A`"
+msgstr ":kbd:`Ctrl+Alt+A`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:146
+msgid "Animated Title"
+msgstr "Tiêu Đề Hoạt Hình"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:146
+msgid ":kbd:`Ctrl+Shift+T`"
+msgstr ":kbd:`Ctrl+Shift+T`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:147
+msgid "Ask a Question..."
+msgstr "Đặt Câu Hỏi..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:147
+msgid ":kbd:`F4`"
+msgstr ":kbd:`F4`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:148
+msgid ":kbd:`Shift+C`"
+msgstr ":kbd:`Shift+C`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:148
+msgid ":kbd:`Alt+Up`"
+msgstr ":kbd:`Alt+Up`"
+
+#: ../main_window.rst:149 ../main_window.rst:329
+msgid "Color View"
+msgstr "Chế Độ Màu"
+
+#: ../main_window.rst:149
+msgid ":kbd:`Alt+Shift+2`"
+msgstr ":kbd:`Alt+Shift+2`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:150
+msgid "Choose Profile"
+msgstr "Chọn Hồ Sơ"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:150
+msgid ":kbd:`Ctrl+Alt+P`"
+msgstr ":kbd:`Ctrl+Alt+P`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:151
+msgid "Clear All Cache"
+msgstr "Xóa Toàn Bộ Bộ Nhớ Đệm"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:151
+msgid ":kbd:`Ctrl+Shift+ESC`"
+msgstr ":kbd:`Ctrl+Shift+ESC`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:152
+msgid "Clear History"
+msgstr "Xóa Lịch Sử"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:152
+msgid ":kbd:`Ctrl+Shift+H`"
+msgstr ":kbd:`Ctrl+Shift+H`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:153
+msgid "Delete Optimized Videos"
+msgstr "Xóa Video Đã Tối Ưu"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:153
+msgid ":kbd:`Ctrl+Shift+O`"
+msgstr ":kbd:`Ctrl+Shift+O`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:154
+msgid "Clear Waveform Display Data"
+msgstr "Xóa Dữ Liệu Hiển Thị Sóng Âm"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:154
+msgid ":kbd:`Ctrl+Shift+W`"
+msgstr ":kbd:`Ctrl+Shift+W`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:155
+msgid "Copy"
+msgstr "Sao Chép"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:155
+msgid ":kbd:`Ctrl+C`"
+msgstr ":kbd:`Ctrl+C`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:156
+msgid "Cut"
+msgstr "Cắt"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:156
+msgid ":kbd:`Ctrl+X`"
+msgstr ":kbd:`Ctrl+X`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:157
+msgid "Delete Item"
+msgstr "Xóa Mục"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:157
+msgid ":kbd:`Delete`"
+msgstr ":kbd:`Delete`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:157
+msgid ":kbd:`Backspace`"
+msgstr ":kbd:`Backspace`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:158
+msgid "Delete Item (Ripple)"
+msgstr "Xóa Mục (Gợn Sóng)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:158
+msgid ":kbd:`Shift+Delete`"
+msgstr ":kbd:`Shift+Delete`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:159
+msgid "Details View"
+msgstr "Chế Độ Xem Chi Tiết"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:159
+msgid ":kbd:`Ctrl+Page Up`"
+msgstr ":kbd:`Ctrl+Page Up`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:160
+msgid "Donate"
+msgstr "Ủng Hộ"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:160
+msgid ":kbd:`F7`"
+msgstr ":kbd:`F7`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:161
+msgid "Duplicate"
+msgstr "Nhân Bản"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:161
+msgid ":kbd:`Ctrl+Shift+/`"
+msgstr ":kbd:`Ctrl+Shift+/`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:162
+msgid "Edit Title"
+msgstr "Chỉnh Sửa Tiêu Đề"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:162
+msgid ":kbd:`Alt+T`"
+msgstr ":kbd:`Alt+T`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:163
+msgid "Export Selected Files"
+msgstr "Xuất Các Tệp Đã Chọn"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:163
+msgid ":kbd:`Ctrl+Shift+E`"
+msgstr ":kbd:`Ctrl+Shift+E`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:164
+msgid "Export Video / Media"
+msgstr "Xuất Video / Media"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:164
+msgid ":kbd:`Ctrl+E`"
+msgstr ":kbd:`Ctrl+E`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:164
+msgid ":kbd:`Ctrl+M`"
+msgstr ":kbd:`Ctrl+M`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:165
+msgid "Fast Forward"
+msgstr "Tua Nhanh"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:165
+msgid ":kbd:`L`"
+msgstr ":kbd:`L`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:166
+msgid "File Properties"
+msgstr "Thuộc Tính Tệp"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:166
+msgid ":kbd:`Alt+I`"
+msgstr ":kbd:`Alt+I`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:166
+msgid ":kbd:`Ctrl+Double Click`"
+msgstr ":kbd:`Ctrl+Double Click`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:167
+msgid "Fullscreen"
+msgstr "Toàn Màn Hình"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:167
+msgid ":kbd:`F11`"
+msgstr ":kbd:`F11`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:168
+msgid "Import Files..."
+msgstr "Nhập Tệp..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:168
+msgid ":kbd:`Ctrl+I`"
+msgstr ":kbd:`Ctrl+I`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:169
+msgid "Insert Keyframe"
+msgstr "Chèn Keyframe"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:169
+msgid ":kbd:`Alt+Shift+K`"
+msgstr ":kbd:`Alt+Shift+K`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:170
+msgid "Join our Community..."
+msgstr "Tham gia Cộng đồng của chúng tôi..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:170
+msgid ":kbd:`F5`"
+msgstr ":kbd:`F5`"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:171
+msgid "Jump To End"
+msgstr "Đến cuối"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:171
+msgid ":kbd:`End`"
+msgstr ":kbd:`End`"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:172
+msgid "Jump To Start"
+msgstr "Đến đầu"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:172
+msgid ":kbd:`Home`"
+msgstr ":kbd:`Home`"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:173
+msgid "Launch Tutorial"
+msgstr "Khởi chạy hướng dẫn"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:173
+msgid ":kbd:`F2`"
+msgstr ":kbd:`F2`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:174
+msgid "New Project"
+msgstr "Dự án Mới"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:174
+msgid ":kbd:`Ctrl+N`"
+msgstr ":kbd:`Ctrl+N`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:175
+msgid "Next Frame"
+msgstr "Khung Tiếp theo"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:175
+msgid ":kbd:`Right`"
+msgstr ":kbd:`Phải`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:175
+msgid ":kbd:`.`"
+msgstr ":kbd:`.`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:176
+msgid "Next Marker"
+msgstr "Đánh Dấu Tiếp Theo"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:176
+msgid ":kbd:`Shift+M`"
+msgstr ":kbd:`Shift+M`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:176
+msgid ":kbd:`Alt+Right`"
+msgstr ":kbd:`Alt+Phải`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:177
+msgid "Nudge left (1 Frame)"
+msgstr "Dịch sang trái (1 Khung)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:177
+msgid ":kbd:`Ctrl+Left`"
+msgstr ":kbd:`Ctrl+Trái`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:178
+msgid "Nudge left (5 Frames)"
+msgstr "Dịch sang trái (5 Khung)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:178
+msgid ":kbd:`Shift+Ctrl+Left`"
+msgstr ":kbd:`Shift+Ctrl+Trái`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:179
+msgid "Nudge right (1 Frame)"
+msgstr "Dịch sang phải (1 Khung)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:179
+msgid ":kbd:`Ctrl+Right`"
+msgstr ":kbd:`Ctrl+Phải`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:180
+msgid "Nudge right (5 Frames)"
+msgstr "Dịch sang phải (5 Khung)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:180
+msgid ":kbd:`Shift+Ctrl+Right`"
+msgstr ":kbd:`Shift+Ctrl+Phải`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:181
+msgid "Open Help Contents"
+msgstr "Mở Nội dung Trợ giúp"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:181
+msgid ":kbd:`F1`"
+msgstr ":kbd:`F1`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:182
+msgid "Open Project..."
+msgstr "Mở Dự án..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:182
+msgid ":kbd:`Ctrl+O`"
+msgstr ":kbd:`Ctrl+O`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:183
+msgid "Paste"
+msgstr "Dán"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:183
+msgid ":kbd:`Ctrl+V`"
+msgstr ":kbd:`Ctrl+V`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid "Play/Pause Toggle"
+msgstr "Chuyển đổi Phát/Tạm dừng"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid ":kbd:`Space`"
+msgstr ":kbd:`Dấu cách`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid ":kbd:`Up`"
+msgstr ":kbd:`Lên`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid ":kbd:`Down`"
+msgstr ":kbd:`Xuống`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:185
+msgid "Preferences"
+msgstr "Tùy chọn"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:185
+msgid ":kbd:`Ctrl+P`"
+msgstr ":kbd:`Ctrl+P`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:186
+msgid "Preview File"
+msgstr "Xem trước Tệp"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:186
+msgid ":kbd:`Alt+P`"
+msgstr ":kbd:`Alt+P`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:186 ../main_window.rst:223
+msgid ":kbd:`Double Click`"
+msgstr ":kbd:`Nhấp đúp`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:187
+msgid "Previous Frame"
+msgstr "Khung Trước"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:187
+msgid ":kbd:`Left`"
+msgstr ":kbd:`Trái`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:187
+msgid ":kbd:`,`"
+msgstr ":kbd:`,`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:188
+msgid "Previous Marker"
+msgstr "Đánh Dấu Trước"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:188
+msgid ":kbd:`Ctrl+Shift+M`"
+msgstr ":kbd:`Ctrl+Shift+M`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:188
+msgid ":kbd:`Alt+Left`"
+msgstr ":kbd:`Alt+Trái`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:189 ../main_window.rst:413
+msgid "Properties"
+msgstr "Thuộc tính"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:189
+msgid ":kbd:`U`"
+msgstr ":kbd:`U`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:190
+msgid "Quit"
+msgstr "Thoát"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:190
+msgid ":kbd:`Ctrl+Q`"
+msgstr ":kbd:`Ctrl+Q`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid "Razor Toggle"
+msgstr "Chuyển đổi Dao cạo"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid ":kbd:`C`"
+msgstr ":kbd:`C`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid ":kbd:`B`"
+msgstr ":kbd:`B`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid ":kbd:`R`"
+msgstr ":kbd:`R`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:192
+msgid "Redo"
+msgstr "Làm lại"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:192
+msgid ":kbd:`Ctrl+Shift+Z`"
+msgstr ":kbd:`Ctrl+Shift+Z`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:193
+msgid "Report a Bug..."
+msgstr "Báo lỗi..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:193
+msgid ":kbd:`F3`"
+msgstr ":kbd:`F3`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:194
+msgid "Rewind"
+msgstr "Tua lại"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:194
+msgid ":kbd:`J`"
+msgstr ":kbd:`J`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:195 ../main_window.rst:196
+msgid "Save Current Frame"
+msgstr "Lưu Khung Hiện tại"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:195 ../main_window.rst:196
+msgid ":kbd:`Ctrl+Shift+Y`"
+msgstr ":kbd:`Ctrl+Shift+Y`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:197
+msgid "Save Project"
+msgstr "Lưu Dự án"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:197
+msgid ":kbd:`Ctrl+S`"
+msgstr ":kbd:`Ctrl+S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:198
+msgid "Save Project As..."
+msgstr "Lưu Dự án thành..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:198
+msgid ":kbd:`Ctrl+Shift+S`"
+msgstr ":kbd:`Ctrl+Shift+S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:199
+msgid "Select All"
+msgstr "Chọn Tất cả"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:199
+msgid ":kbd:`Ctrl+A`"
+msgstr ":kbd:`Ctrl+A`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:200
+msgid "Select Item (Ripple)"
+msgstr "Chọn Mục (Gợn sóng)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:200
+msgid ":kbd:`Alt+A`"
+msgstr ":kbd:`Alt+A`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:200
+msgid ":kbd:`Alt+Click`"
+msgstr ":kbd:`Alt+Nhấp`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:201
+msgid "Select None"
+msgstr "Bỏ chọn Tất cả"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:201
+msgid ":kbd:`Ctrl+Shift+A`"
+msgstr ":kbd:`Ctrl+Shift+A`"
+
+#: ../main_window.rst:202
+msgid "Share Feedback..."
+msgstr "Chia sẻ Phản hồi..."
+
+#: ../main_window.rst:202
+msgid ":kbd:`F8`"
+msgstr ":kbd:`F8`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:203 ../main_window.rst:322
+msgid "Simple View"
+msgstr "Chế độ xem Đơn giản"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:203
+msgid ":kbd:`Alt+Shift+0`"
+msgstr ":kbd:`Alt+Shift+0`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:204
+msgid "Slice All: Keep Both Sides"
+msgstr "Cắt Tất cả: Giữ cả Hai Bên"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:204
+msgid ":kbd:`Ctrl+Shift+K`"
+msgstr ":kbd:`Ctrl+Shift+K`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:205
+msgid "Slice All: Keep Left Side"
+msgstr "Cắt Tất cả: Giữ Bên Trái"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:205
+msgid ":kbd:`Ctrl+Shift+J`"
+msgstr ":kbd:`Ctrl+Shift+J`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:206
+msgid "Slice All: Keep Right Side"
+msgstr "Cắt Tất cả: Giữ Bên Phải"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:206
+msgid ":kbd:`Ctrl+Shift+L`"
+msgstr ":kbd:`Ctrl+Shift+L`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:207
+msgid "Slice Selected: Keep Both Sides"
+msgstr "Cắt Đã chọn: Giữ cả Hai Bên"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:207
+msgid ":kbd:`Ctrl+K`"
+msgstr ":kbd:`Ctrl+K`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:208
+msgid "Slice Selected: Keep Left Side"
+msgstr "Cắt Đã chọn: Giữ Bên Trái"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:208
+msgid ":kbd:`Ctrl+J`"
+msgstr ":kbd:`Ctrl+J`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:209
+msgid "Slice Selected: Keep Right Side"
+msgstr "Cắt Đã chọn: Giữ Bên Phải"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:209
+msgid ":kbd:`Ctrl+L`"
+msgstr ":kbd:`Ctrl+L`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:210
+msgid "Slice Selected: Keep Left (Ripple)"
+msgstr "Cắt Đã chọn: Giữ Bên Trái (Gợn sóng)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:210
+msgid ":kbd:`W`"
+msgstr ":kbd:`W`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:211
+msgid "Slice Selected: Keep Right (Ripple)"
+msgstr "Cắt Đã chọn: Giữ Bên Phải (Gợn sóng)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:211
+msgid ":kbd:`Q`"
+msgstr ":kbd:`Q`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:212
+msgid "Snapping Toggle"
+msgstr "Chuyển đổi Bắt điểm"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:212
+msgid ":kbd:`S`"
+msgstr ":kbd:`S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:213
+msgid "Split File"
+msgstr "Chia Tệp"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:213
+msgid ":kbd:`Alt+S`"
+msgstr ":kbd:`Alt+S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:213
+msgid ":kbd:`Shift+Double Click`"
+msgstr ":kbd:`Shift+Nhấp đúp`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:214
+msgid "Thumbnail View"
+msgstr "Chế độ xem Thu nhỏ"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:214
+msgid ":kbd:`Ctrl+Page Down`"
+msgstr ":kbd:`Ctrl+Page Down`"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:215
+msgid "Timing Toggle"
+msgstr "Bật/tắt công cụ đổi tốc độ"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:215
+msgid ":kbd:`T`"
+msgstr ":kbd:`T`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:216 ../main_window.rst:257
+msgid "Title"
+msgstr "Tiêu đề"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:216
+msgid ":kbd:`Ctrl+T`"
+msgstr ":kbd:`Ctrl+T`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:217
+msgid "Translate this Application..."
+msgstr "Dịch Ứng dụng này..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:217
+msgid ":kbd:`F6`"
+msgstr ":kbd:`F6`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:218
+msgid "Undo"
+msgstr "Hoàn tác"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:218
+msgid ":kbd:`Ctrl+Z`"
+msgstr ":kbd:`Ctrl+Z`"
+
+#: ../main_window.rst:219
+msgid "Update Available"
+msgstr "Có bản Cập nhật"
+
+#: ../main_window.rst:219
+msgid ":kbd:`F9`"
+msgstr ":kbd:`F9`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:220
+msgid "View Toolbar"
+msgstr "Hiển thị Thanh công cụ"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:220
+msgid ":kbd:`Ctrl+Shift+B`"
+msgstr ":kbd:`Ctrl+Shift+B`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:221
+msgid "Zoom In"
+msgstr "Phóng to"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:221
+msgid ":kbd:`=`"
+msgstr ":kbd:`=`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:221
+msgid ":kbd:`Ctrl+=`"
+msgstr ":kbd:`Ctrl+=`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:222
+msgid "Zoom Out"
+msgstr "Thu nhỏ"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:222
+msgid ":kbd:`-`"
+msgstr ":kbd:`-`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:222
+msgid ":kbd:`Ctrl+-`"
+msgstr ":kbd:`Ctrl+-`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:223
+msgid "Zoom to Timeline"
+msgstr "Phóng to Dòng thời gian"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:223
+msgid ":kbd:`\\\\`"
+msgstr ":kbd:`\\\\`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:223
+msgid ":kbd:`Shift+\\\\`"
+msgstr ":kbd:`Shift+\\\\`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:227
+msgid "Menu"
+msgstr "Menu"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:228
+msgid ""
+"The following menu options are available on the main window on OpenShot. "
+"Most of these options can be accessed by the keyboard shortcuts mentioned "
+"above. On some Operating Systems (such as macOS) a few of these options are "
+"renamed and/or rearranged."
+msgstr ""
+"Các tùy chọn menu sau có sẵn trên cửa sổ chính của OpenShot. Hầu hết các tùy"
+" chọn này có thể truy cập bằng các phím tắt bàn phím đã đề cập ở trên. Trên "
+"một số hệ điều hành (như macOS), một vài tùy chọn này được đổi tên và/hoặc "
+"sắp xếp lại."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:236
+msgid "Menu Name"
+msgstr "Tên Menu"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:238
+msgid "File"
+msgstr "Tệp"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:240
+msgid ":guilabel:`New Project` Create a blank new project."
+msgstr ":guilabel:`Dự án Mới` Tạo một dự án mới trống."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:241
+msgid ":guilabel:`Open Project` Open an existing project."
+msgstr ":guilabel:`Mở Dự án` Mở một dự án hiện có."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:242
+msgid ":guilabel:`Recent Projects` Access recently opened projects."
+msgstr ":guilabel:`Dự án Gần đây` Truy cập các dự án đã mở gần đây."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:243
+msgid ""
+":guilabel:`Recovery` Restore a previously saved version of your current "
+"project."
+msgstr ""
+":guilabel:`Phục hồi` Khôi phục phiên bản đã lưu trước đó của dự án hiện tại."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:244
+msgid ":guilabel:`Save Project` Save the current project."
+msgstr ":guilabel:`Lưu Dự án` Lưu dự án hiện tại."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:245
+msgid ":guilabel:`Import Files` Import media files into the project."
+msgstr ":guilabel:`Nhập Tệp` Nhập các tệp phương tiện vào dự án."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:246
+msgid ""
+":guilabel:`Choose Profile` Select a project profile (*i.e. 1080p @ 30fps, "
+"720p @ 24fps, ...*)."
+msgstr ""
+":guilabel:`Chọn Hồ sơ` Chọn hồ sơ dự án (*ví dụ: 1080p @ 30fps, 720p @ "
+"24fps, ...*)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:247
+msgid ""
+":guilabel:`Save Current Frame` Save the current preview video frame as an "
+"image (sometimes represented with a camera icon)."
+msgstr ""
+":guilabel:`Lưu Khung Hiện tại` Lưu khung video xem trước hiện tại dưới dạng "
+"hình ảnh (đôi khi được biểu thị bằng biểu tượng máy ảnh)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:248
+msgid ""
+":guilabel:`Import Project` Import another project into the current project "
+"(*Adobe and Final Cut Pro formats partially supported*)."
+msgstr ""
+":guilabel:`Nhập Dự án` Nhập một dự án khác vào dự án hiện tại (*hỗ trợ một "
+"phần định dạng Adobe và Final Cut Pro*)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:249
+msgid ""
+":guilabel:`Export Project` Export the current project to a specified format "
+"(*EDL, Adobe, and Final Cut Pro formats partially supported*)."
+msgstr ""
+":guilabel:`Xuất Dự án` Xuất dự án hiện tại sang định dạng được chỉ định (*hỗ"
+" trợ một phần định dạng EDL, Adobe và Final Cut Pro*)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:250
+msgid ":guilabel:`Quit` Exit the application."
+msgstr ":guilabel:`Thoát` Thoát ứng dụng."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:251
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:253
+msgid ":guilabel:`Undo` Undo the last action."
+msgstr ":guilabel:`Hoàn tác` Hoàn tác hành động cuối cùng."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:254
+msgid ":guilabel:`Redo` Redo the last undone action."
+msgstr ":guilabel:`Làm lại` Làm lại hành động vừa hoàn tác."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:255
+msgid ""
+":guilabel:`Clear` Clear the current history or waveform cached data. This "
+"makes the `.osp project` file a much smaller file size."
+msgstr ""
+":guilabel:`Xóa` Xóa lịch sử hiện tại hoặc dữ liệu bộ nhớ đệm dạng sóng. Điều"
+" này làm cho tệp dự án `.osp` có kích thước nhỏ hơn nhiều."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:256
+msgid ""
+":guilabel:`Preferences` Open the preferences dialog to customize settings."
+msgstr ":guilabel:`Tùy chọn` Mở hộp thoại tùy chọn để tùy chỉnh cài đặt."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:259
+msgid ""
+":guilabel:`Title` Add a SVG vector title to the project. See "
+":ref:`text_and_titles_ref`."
+msgstr ""
+":guilabel:`Tiêu đề` Thêm tiêu đề vector SVG vào dự án. Xem "
+":ref:`text_and_titles_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:260
+msgid ""
+":guilabel:`Animated Title` Add an animated title to the project. See "
+":ref:`animated_titles_ref`."
+msgstr ""
+":guilabel:`Tiêu đề Hoạt hình` Thêm tiêu đề hoạt hình vào dự án. Xem "
+":ref:`animated_titles_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:261
+msgid "View"
+msgstr "Xem"
+
+#: ../main_window.rst:263
+msgid ""
+":guilabel:`Simple View` and :guilabel:`Color View` switch or reset the main "
+"window layout."
+msgstr ""
+":guilabel:`Chế Độ Đơn Giản` và :guilabel:`Chế Độ Màu` chuyển đổi hoặc đặt "
+"lại bố cục cửa sổ chính."
+
+#: ../main_window.rst:264
+msgid ""
+":guilabel:`My Views` Save, load, update, and delete your own named layouts. "
+"See :ref:`my_views_ref`."
+msgstr ""
+":guilabel:`Chế Độ Của Tôi` Lưu, tải, cập nhật và xóa các bố cục đặt tên của "
+"riêng bạn. Xem :ref:`my_views_ref`."
+
+#: ../main_window.rst:265
+msgid ":guilabel:`Docks` Show or hide various dockable panels."
+msgstr ":guilabel:`Dock` Hiện hoặc ẩn các bảng có thể ghim khác nhau."
+
+#: ../main_window.rst:266
+msgid ""
+":guilabel:`Scopes` Show or hide scope docks, or open all scopes at once."
+msgstr ""
+":guilabel:`Scopes` Hiện hoặc ẩn các dock scope, hoặc mở tất cả các scope "
+"cùng lúc."
+
+#: ../main_window.rst:267
+msgid ""
+":guilabel:`Window` Show or hide the main window toolbar, or toggle "
+"fullscreen mode."
+msgstr ""
+":guilabel:`Cửa Sổ` Hiện hoặc ẩn thanh công cụ cửa sổ chính, hoặc chuyển đổi "
+"chế độ toàn màn hình."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:268
+msgid "Help"
+msgstr "Trợ giúp"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:270
+msgid ":guilabel:`Contents` Open the user guide online."
+msgstr ":guilabel:`Nội dung` Mở hướng dẫn sử dụng trực tuyến."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:271
+msgid ":guilabel:`Tutorial` Access the built-in tutorial for new users."
+msgstr ":guilabel:`Hướng dẫn` Truy cập hướng dẫn tích hợp cho người dùng mới."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:272
+msgid ":guilabel:`Report a Bug` Report a bug or issue."
+msgstr ":guilabel:`Báo lỗi` Báo cáo lỗi hoặc sự cố."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:273
+msgid ":guilabel:`Ask a Question` Ask a question about the software."
+msgstr ":guilabel:`Hỏi` Đặt câu hỏi về phần mềm."
+
+#: ../main_window.rst:274
+msgid ""
+":guilabel:`Share Feedback` Open a survey about your experience with "
+"OpenShot."
+msgstr ""
+":guilabel:`Chia sẻ Phản hồi` Mở khảo sát về trải nghiệm của bạn với "
+"OpenShot."
+
+#: ../main_window.rst:275
+msgid ""
+":guilabel:`Update Available` Open the download page when a newer version is "
+"available."
+msgstr ""
+":guilabel:`Có bản Cập nhật` Mở trang tải xuống khi có phiên bản mới hơn."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:276
+msgid ":guilabel:`Translate` Contribute to translations of the software."
+msgstr ":guilabel:`Dịch` Đóng góp vào bản dịch phần mềm."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:277
+msgid ":guilabel:`Donate` Make a donation to support the project."
+msgstr ":guilabel:`Ủng hộ` Quyên góp để hỗ trợ dự án."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:278
+msgid ""
+":guilabel:`About` View information about the software (version, "
+"contributors, translators, changelog, and supporters)."
+msgstr ""
+":guilabel:`Giới thiệu` Xem thông tin về phần mềm (phiên bản, người đóng góp,"
+" người dịch, nhật ký thay đổi và người ủng hộ)."
+
+#: ../main_window.rst:281
+msgid "Notifications"
+msgstr "Thông báo"
+
+#: ../main_window.rst:283
+msgid ""
+"OpenShot may show a notice near the top of the window when a newer version "
+"is available. Choose :guilabel:`Upgrade` to open the download page, or close"
+" the notice to hide it for that version. You can still open the download "
+"page from :guilabel:`Help → Update Available` or press :kbd:`F9` when an "
+"update is available."
+msgstr ""
+"OpenShot có thể hiển thị thông báo gần đầu cửa sổ khi có phiên bản mới hơn. "
+"Chọn :guilabel:`Nâng cấp` để mở trang tải xuống, hoặc đóng thông báo để ẩn "
+"nó cho phiên bản đó. Bạn vẫn có thể mở trang tải xuống từ :guilabel:`Trợ "
+"giúp → Có bản Cập nhật` hoặc nhấn :kbd:`F9` khi có bản cập nhật."
+
+#: ../main_window.rst:288
+msgid ""
+"After you have spent some time editing, OpenShot may also invite you to "
+"share feedback. The survey is optional. You can open it from the notice or "
+"dismiss the invitation. At any time, choose :guilabel:`Help → Share "
+"Feedback` or press :kbd:`F8` to share your thoughts."
+msgstr ""
+"Sau khi bạn đã dành một thời gian chỉnh sửa, OpenShot cũng có thể mời bạn "
+"chia sẻ phản hồi. Khảo sát là tùy chọn. Bạn có thể mở nó từ thông báo hoặc "
+"từ chối lời mời. Bất cứ lúc nào, chọn :guilabel:`Trợ giúp → Chia sẻ Phản "
+"hồi` hoặc nhấn :kbd:`F8` để chia sẻ ý kiến của bạn."
+
+#: ../main_window.rst:295
+msgid ""
+"Use :guilabel:`Help→About OpenShot` to check your OpenShot version. Click "
+":guilabel:`Copy` next to the version number to copy a short version and "
+"system details report, including how OpenShot was installed. This is a "
+"useful way to share the information when reporting a bug or asking for help."
+msgstr ""
+"Sử dụng :guilabel:`Trợ giúp→Giới thiệu về OpenShot` để kiểm tra phiên bản "
+"OpenShot của bạn. Nhấn :guilabel:`Sao chép` bên cạnh số phiên bản để sao "
+"chép báo cáo phiên bản ngắn và chi tiết hệ thống, bao gồm cách OpenShot được"
+" cài đặt. Đây là cách hữu ích để chia sẻ thông tin khi báo lỗi hoặc yêu cầu "
+"trợ giúp."
+
+#: ../main_window.rst:300
+msgid "Example output:"
+msgstr "Ví dụ đầu ra:"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:315
+msgid "Views"
+msgstr "Giao diện"
+
+#: ../main_window.rst:317
+msgid ""
+"The OpenShot main window is composed of multiple **docks**. These **docks** "
+"are arranged and snapped together into a grouping that we call a **View**. "
+"OpenShot includes :guilabel:`Simple View`, :guilabel:`Color View`, and "
+":guilabel:`My Views` (user-defined layouts)."
+msgstr ""
+"Cửa sổ chính của OpenShot bao gồm nhiều **dock**. Các **dock** này được sắp "
+"xếp và ghép lại thành một nhóm mà chúng tôi gọi là **Chế Độ**. OpenShot bao "
+"gồm :guilabel:`Chế Độ Đơn Giản`, :guilabel:`Chế Độ Màu`, và :guilabel:`Chế "
+"Độ Của Tôi` (bố cục do người dùng định nghĩa)."
+
+#: ../main_window.rst:323
+msgid ""
+"This is the **default** view, and is designed to be easy-to-use, especially "
+"for first-time users. It contains :guilabel:`Project Files` on the top left,"
+" :guilabel:`Preview Window` on the top right, and :guilabel:`Timeline` on "
+"the bottom. If you accidentally close or move a dock, you can quickly reset "
+"all the docks back to their default location using the "
+":guilabel:`View->Simple View` menu at the top of the screen."
+msgstr ""
+"Đây là chế độ **mặc định**, được thiết kế dễ sử dụng, đặc biệt cho người "
+"dùng lần đầu. Nó chứa :guilabel:`Tệp Dự Án` ở góc trên bên trái, "
+":guilabel:`Cửa Sổ Xem Trước` ở góc trên bên phải, và :guilabel:`Dòng Thời "
+"Gian` ở dưới cùng. Nếu bạn vô tình đóng hoặc di chuyển một dock, bạn có thể "
+"nhanh chóng đặt lại tất cả các dock về vị trí mặc định bằng cách sử dụng "
+"menu :guilabel:`Xem->Chế Độ Đơn Giản` ở đầu màn hình."
+
+#: ../main_window.rst:330
+msgid ""
+"This view is focused on color correction and scopes. It enlarges the video "
+"preview, hides file-management docks, keeps the timeline and properties "
+"visible, places the :guilabel:`Color Wheels` dock on the right, and tabifies"
+" the :guilabel:`Luma Waveform` and :guilabel:`Histogram` docks together "
+"below it."
+msgstr ""
+"Chế độ này tập trung vào chỉnh màu và các scope. Nó phóng to cửa sổ xem "
+"trước video, ẩn các dock quản lý tệp, giữ cho dòng thời gian và thuộc tính "
+"hiển thị, đặt dock :guilabel:`Bánh Xe Màu` bên phải, và gom dock "
+":guilabel:`Luma Waveform` và :guilabel:`Histogram` thành các tab bên dưới."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:335
+msgid "Recording View"
+msgstr "Chế độ xem ghi âm và ghi hình"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:336
+msgid ""
+"This view is focused on creating new recordings inside OpenShot. It shows "
+":guilabel:`Project Files`, :guilabel:`Video Preview`, :guilabel:`Timeline`, "
+"and the :guilabel:`Recording` dock. The :guilabel:`Properties` dock is "
+"grouped with :guilabel:`Project Files` as a tab, so you can show it from "
+":guilabel:`View->Docks->Properties` without disrupting the recording layout."
+msgstr ""
+"Chế độ này tập trung vào việc tạo các bản ghi mới trong OpenShot. Nó hiển "
+"thị :guilabel:`Tệp Dự Án`, :guilabel:`Xem Trước Video`, :guilabel:`Dòng Thời"
+" Gian`, và dock :guilabel:`Ghi âm và ghi hình`. Dock :guilabel:`Thuộc Tính` "
+"được nhóm cùng với :guilabel:`Tệp Dự Án` dưới dạng tab, vì vậy bạn có thể "
+"hiển thị nó từ :guilabel:`Xem->Dock->Thuộc Tính` mà không làm gián đoạn bố "
+"cục ghi hình."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:341
+msgid ""
+"The :guilabel:`Recording` dock can record microphone audio, screen capture, "
+"webcam video, or combinations of those sources. When screen and webcam are "
+"recorded together, OpenShot can place the webcam as a corner picture-in-"
+"picture clip. Those corner camera clips use normal clip properties after "
+"they are added to the timeline: :guilabel:`Gravity` chooses the corner, "
+":guilabel:`Scale X` and :guilabel:`Scale Y` set the corner size, "
+":guilabel:`Margin` creates the inset layout area that keeps the camera away "
+"from the screen edge, and :guilabel:`Corner Radius` rounds the camera clip "
+"without adding a separate Mask effect. See :ref:`clip_properties_ref` for "
+"details. See :ref:`recording_ref` for the complete recording workflow and "
+"all source options."
+msgstr ""
+"Dock :guilabel:`Ghi âm và ghi hình` có thể ghi âm từ micro, quay màn hình, "
+"video webcam, hoặc kết hợp các nguồn đó. Khi ghi màn hình và webcam cùng "
+"lúc, OpenShot có thể đặt webcam dưới dạng clip hình trong hình ở góc. Các "
+"clip camera góc này sử dụng các thuộc tính clip bình thường sau khi được "
+"thêm vào dòng thời gian: :guilabel:`Trọng Lực` chọn góc, :guilabel:`Tỉ Lệ X`"
+" và :guilabel:`Tỉ Lệ Y` đặt kích thước góc, :guilabel:`Lề` tạo vùng bố cục "
+"lùi vào giữ camera cách mép màn hình, và :guilabel:`Bán Kính Góc` làm tròn "
+"clip camera mà không cần thêm hiệu ứng Mặt Nạ riêng. Xem "
+":ref:`clip_properties_ref` để biết chi tiết. Xem :ref:`recording_ref` để "
+"biết quy trình ghi hình đầy đủ và tất cả tùy chọn nguồn."
+
+#: ../main_window.rst:352
+msgid "My Views"
+msgstr "Chế Độ Của Tôi"
+
+#: ../main_window.rst:353
+msgid ""
+"**My Views** lets you save any dock arrangement as a named layout and recall"
+" it instantly. This is ideal for workflows that require switching between "
+"different editing modes — for example, a detailed audio mix layout and a "
+"focused color grading layout — without manually repositioning docks each "
+"time."
+msgstr ""
+"**Chế Độ Của Tôi** cho phép bạn lưu bất kỳ bố trí dock nào dưới dạng bố cục "
+"được đặt tên và gọi lại ngay lập tức. Điều này lý tưởng cho các quy trình "
+"làm việc cần chuyển đổi giữa các chế độ chỉnh sửa khác nhau — ví dụ, bố cục "
+"trộn âm thanh chi tiết và bố cục chỉnh màu tập trung — mà không phải di "
+"chuyển dock thủ công mỗi lần."
+
+#: ../main_window.rst:357
+msgid ""
+"Each saved view captures the position, size, and visibility of every dock, "
+"as well as the timeline height. Saved views are stored in your project "
+"settings and persist across sessions."
+msgstr ""
+"Mỗi chế độ đã lưu ghi lại vị trí, kích thước và trạng thái hiển thị của từng"
+" dock, cũng như chiều cao dòng thời gian. Các chế độ đã lưu được lưu trong "
+"cài đặt dự án của bạn và tồn tại qua các phiên làm việc."
+
+#: ../main_window.rst:360
+msgid "**View → My Views** menu options:"
+msgstr "Các tùy chọn menu **Xem → Chế Độ Của Tôi**:"
+
+#: ../main_window.rst:366
+msgid "Menu Item"
+msgstr "Mục Menu"
+
+#: ../main_window.rst:368
+msgid "List of user-defined views"
+msgstr "Danh sách các chế độ do người dùng định nghĩa"
+
+#: ../main_window.rst:369
+msgid ""
+"Click to restore that layout. The currently active view shows a checkmark."
+msgstr ""
+"Nhấp để khôi phục bố cục đó. Chế độ đang hoạt động sẽ hiển thị dấu kiểm."
+
+#: ../main_window.rst:370
+msgid "Update \"*[name]*\""
+msgstr "Cập nhật \"*[name]*\""
+
+#: ../main_window.rst:371
+msgid "Save your current dock arrangement over the active view, replacing it."
+msgstr ""
+"Lưu bố trí dock hiện tại của bạn lên chế độ đang hoạt động, thay thế nó."
+
+#: ../main_window.rst:372
+msgid "Delete \"*[name]*\""
+msgstr "Xóa \"*[name]*\""
+
+#: ../main_window.rst:373
+msgid "Remove the active view (asks for confirmation first)."
+msgstr "Xóa chế độ đang hoạt động (sẽ hỏi xác nhận trước)."
+
+#: ../main_window.rst:374
+msgid "Save Current View As..."
+msgstr "Lưu Chế Độ Hiện Tại Dưới Dạng..."
+
+#: ../main_window.rst:375
+msgid "Name and save your current dock arrangement as a new view."
+msgstr "Đặt tên và lưu bố trí dock hiện tại của bạn dưới dạng chế độ mới."
+
+#: ../main_window.rst:377
+msgid "**Typical workflow:**"
+msgstr "**Quy trình làm việc điển hình:**"
+
+#: ../main_window.rst:379
+msgid "Arrange your docks exactly how you like them."
+msgstr "Sắp xếp các dock theo đúng ý bạn."
+
+#: ../main_window.rst:380
+msgid ""
+"Open :guilabel:`View → My Views → Save Current View As...` and enter a name "
+"(e.g. *\"Audio Mix\"*)."
+msgstr ""
+"Mở :guilabel:`Xem → Chế Độ Của Tôi → Lưu Chế Độ Hiện Tại Dưới Dạng...` và "
+"nhập tên (ví dụ *\"Trộn Âm Thanh\"*)."
+
+#: ../main_window.rst:381
+msgid ""
+"Later, open :guilabel:`View → My Views` and click the view name to restore "
+"that layout instantly."
+msgstr ""
+"Sau đó, mở :guilabel:`Xem → Chế Độ Của Tôi` và nhấp vào tên chế độ để khôi "
+"phục bố cục đó ngay lập tức."
+
+#: ../main_window.rst:382
+msgid ""
+"If you adjust the layout and want to keep the changes, choose "
+":guilabel:`Update \"Audio Mix\"` to overwrite it."
+msgstr ""
+"Nếu bạn điều chỉnh bố cục và muốn giữ các thay đổi, chọn :guilabel:`Cập nhật"
+" \"Trộn Âm Thanh\"` để ghi đè lên nó."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:385
+msgid "Docks"
+msgstr "Dock"
+
+#: ../main_window.rst:386
+msgid ""
+"Each widget on the OpenShot main window is contained in a **dock**. These "
+"docks can be dragged and snapped around the main window, and even grouped "
+"together (into tabs). OpenShot will always save your main window dock layout"
+" when you exit the program. Re-launching OpenShot will restore your custom "
+"dock layout automatically. Scope docks are grouped under "
+":guilabel:`View->Scopes`."
+msgstr ""
+"Mỗi tiện ích trên cửa sổ chính của OpenShot được chứa trong một **dock**. "
+"Các dock này có thể được kéo và gắn quanh cửa sổ chính, thậm chí có thể nhóm"
+" lại với nhau (thành các tab). OpenShot sẽ luôn lưu bố cục dock cửa sổ chính"
+" của bạn khi bạn thoát chương trình. Khởi động lại OpenShot sẽ tự động khôi "
+"phục bố cục dock tùy chỉnh của bạn. Các dock phạm vi được nhóm dưới "
+":guilabel:`View->Scopes`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:395
+msgid "Dock Name"
+msgstr "Tên Dock"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:397
+msgid "Captions"
+msgstr "Phụ đề"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:398
+msgid ""
+"Manage and add captions or subtitles to your video project. Allows you to "
+"create, edit, and manage caption data. See :ref:`caption_effect_ref` effect."
+msgstr ""
+"Quản lý và thêm phụ đề vào dự án video của bạn. Cho phép bạn tạo, chỉnh sửa "
+"và quản lý dữ liệu phụ đề. Xem hiệu ứng :ref:`caption_effect_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:399
+msgid "Effects"
+msgstr "Hiệu ứng"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:400
+msgid ""
+"Browse and apply video and audio effects to your video clips. Includes "
+"filters, color adjustments, and special effects. See :ref:`effects_ref`."
+msgstr ""
+"Duyệt và áp dụng hiệu ứng video và âm thanh cho các clip video của bạn. Bao "
+"gồm bộ lọc, điều chỉnh màu sắc và hiệu ứng đặc biệt. Xem :ref:`effects_ref`."
+
+#: ../main_window.rst:401
+msgid "Color Wheels"
+msgstr "Bánh Xe Màu"
+
+#: ../main_window.rst:402
+msgid ""
+"Edit Color Grade wheel controls for global, shadows, midtones, and "
+"highlights from a dedicated right-side dock."
+msgstr ""
+"Chỉnh sửa các điều khiển bánh xe Độ màu cho toàn cục, bóng tối, tông trung "
+"và vùng sáng từ một dock riêng biệt bên phải."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:403
+msgid "Emojis"
+msgstr "Biểu tượng cảm xúc"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:404
+msgid ""
+"Add emoji graphics to your video project. Choose from a variety of emojis to"
+" enhance your video content."
+msgstr ""
+"Thêm hình ảnh biểu tượng cảm xúc vào dự án video của bạn. Chọn từ nhiều biểu"
+" tượng cảm xúc để tăng cường nội dung video."
+
+#: ../main_window.rst:405
+msgid "Histogram"
+msgstr "Biểu Đồ Phổ"
+
+#: ../main_window.rst:406
+msgid ""
+"Analyze the tonal and channel distribution of the current preview frame."
+msgstr "Phân tích phân bố tông màu và kênh của khung xem trước hiện tại."
+
+#: ../main_window.rst:407
+msgid "Luma Waveform"
+msgstr "Sóng Luma"
+
+#: ../main_window.rst:408
+msgid "Analyze brightness distribution across the current preview frame."
+msgstr "Phân tích phân bố độ sáng trên khung xem trước hiện tại."
+
+#: ../main_window.rst:409
+msgid "Audio Levels"
+msgstr "Mức Âm Thanh"
+
+#: ../main_window.rst:410
+msgid "Monitor audio level scope data for the current preview frame."
+msgstr "Giám sát dữ liệu phạm vi mức âm thanh cho khung xem trước hiện tại."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:412
+msgid ""
+"View and manage all the media files imported into your project. Organize, "
+"filter, and tag video, audio, and image files. See :ref:`files_ref`."
+msgstr ""
+"Xem và quản lý tất cả các tệp phương tiện đã nhập vào dự án của bạn. Sắp "
+"xếp, lọc và gắn thẻ các tệp video, âm thanh và hình ảnh. Xem "
+":ref:`files_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:414
+msgid ""
+"View and edit the properties of a selected effect, transition, or clip. "
+"Adjust settings such as duration, size, position, etc... See "
+":ref:`clip_properties_ref`."
+msgstr ""
+"Xem và chỉnh sửa thuộc tính của hiệu ứng, chuyển cảnh hoặc clip được chọn. "
+"Điều chỉnh các thiết lập như thời lượng, kích thước, vị trí, v.v... Xem "
+":ref:`clip_properties_ref`."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:415
+msgid "Recording"
+msgstr "Ghi âm và ghi hình"
+
+#: ../main_window.rst:416
+msgid ""
+"Record microphone audio, screen video, webcam video, or combined recordings."
+" See :ref:`recording_ref`."
+msgstr ""
+"Ghi âm âm thanh từ micro, video màn hình, video webcam hoặc các bản ghi kết "
+"hợp. Xem :ref:`recording_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:417
+msgid "Transitions"
+msgstr "Chuyển cảnh"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:418
+msgid ""
+"Browse and apply transitions between video clips. Choose from a variety of "
+"transition wipes to create smooth changes between scenes. See "
+":ref:`transitions_ref`."
+msgstr ""
+"Duyệt và áp dụng các chuyển cảnh giữa các clip video. Chọn từ nhiều hiệu ứng"
+" chuyển cảnh để tạo sự chuyển đổi mượt mà giữa các cảnh. Xem "
+":ref:`transitions_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:419
+msgid "Video Preview"
+msgstr "Xem Trước Video"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:420
+msgid ""
+"Preview the current state of your video project. Allows you to play back and"
+" review your edits in real-time. See :ref:`playback_ref`."
+msgstr ""
+"Xem trước trạng thái hiện tại của dự án video. Cho phép bạn phát lại và xem "
+"xét các chỉnh sửa theo thời gian thực. Xem :ref:`playback_ref`."
+
+#: ../main_window.rst:422
+msgid ""
+"If you have accidentally closed or moved a dock and can no longer find it, "
+"there are a couple easy solutions. First, you can use the "
+":guilabel:`View->Simple View` menu option at the top of the screen, to "
+"restore the view back to its default. Or you can use the "
+":guilabel:`View->Docks->...` menu to show or hide specific dock widgets on "
+"the main window."
+msgstr ""
+"Nếu bạn vô tình đóng hoặc di chuyển một dock và không thể tìm thấy nó nữa, "
+"có một vài giải pháp đơn giản. Đầu tiên, bạn có thể sử dụng tùy chọn menu "
+":guilabel:`View->Simple View` ở đầu màn hình để khôi phục giao diện về mặc "
+"định. Hoặc bạn có thể sử dụng menu :guilabel:`View->Docks->...` để hiển thị "
+"hoặc ẩn các widget dock cụ thể trên cửa sổ chính."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Snapping toggles magnetic alignment. Timing Tool enables retiming by "
+#~ "dragging clip edges. Razor Tool cuts clips at the clicked position."
+#~ msgstr ""
+#~ "Bật/tắt bắt điểm để căn chỉnh từ tính. Công cụ Thời gian cho phép thay đổi "
+#~ "thời gian bằng cách kéo các cạnh đoạn clip. Công cụ Dao cạo cắt đoạn clip "
+#~ "tại vị trí nhấp."
+
+#~ msgid ""
+#~ "Use :guilabel:`Help→About OpenShot` to check your OpenShot version. Click "
+#~ ":guilabel:`Copy` next to the version number to copy a short version and "
+#~ "system details report, which is the preferred way to share this information "
+#~ "when reporting a bug or asking for help."
+#~ msgstr ""
+#~ "Sử dụng :guilabel:`Trợ Giúp→Giới Thiệu OpenShot` để kiểm tra phiên bản "
+#~ "OpenShot của bạn. Nhấp vào :guilabel:`Sao Chép` bên cạnh số phiên bản để sao"
+#~ " chép báo cáo phiên bản ngắn và chi tiết hệ thống, đây là cách ưu tiên để "
+#~ "chia sẻ thông tin khi báo lỗi hoặc yêu cầu trợ giúp."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The ruler shows the time-scale, and the red line is the play-head. The play-"
+#~ "head represents the current playback position. Hold :kbd:`Shift` key while "
+#~ "dragging the playhead to snap to nearby clips."
+#~ msgstr ""
+#~ "Thước đo hiển thị tỷ lệ thời gian, và đường màu đỏ là đầu phát. Đầu phát "
+#~ "biểu thị vị trí phát hiện tại. Giữ phím :kbd:`Shift` khi kéo đầu phát để "
+#~ "dính vào các clip gần đó."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Freeze View"
+#~ msgstr "Đóng Băng Chế Độ Xem"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+F`"
+#~ msgstr ":kbd:`Ctrl+F`"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Show All Docks"
+#~ msgstr "Hiển thị Tất cả Dock"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+Shift+D`"
+#~ msgstr ":kbd:`Ctrl+Shift+D`"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Un-Freeze View"
+#~ msgstr "Bỏ Đóng Băng Giao Diện"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+Shift+F`"
+#~ msgstr ":kbd:`Ctrl+Shift+F`"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":guilabel:`Toolbar` Show or hide the main window toolbar."
+#~ msgstr ""
+#~ ":guilabel:`Thanh công cụ` Hiển thị hoặc ẩn thanh công cụ cửa sổ chính."
+
+# Translated with gpt-4.1-mini
+#~ msgid ":guilabel:`Fullscreen` Toggle fullscreen mode."
+#~ msgstr ":guilabel:`Toàn màn hình` Chuyển đổi chế độ toàn màn hình."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Views` Switch or reset the main window layout (*Simple, Advanced,"
+#~ " Freeze, Show All*)."
+#~ msgstr ""
+#~ ":guilabel:`Giao diện` Chuyển đổi hoặc đặt lại bố cục cửa sổ chính (*Đơn "
+#~ "giản, Nâng cao, Đóng băng, Hiển thị tất cả*)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Docks` Show or hide various dockable panels (*Captions, Effects, "
+#~ "Emojis, Project Files, Properties, Transitions, Video Preview*)."
+#~ msgstr ""
+#~ ":guilabel:`Dock` Hiển thị hoặc ẩn các bảng có thể ghim khác nhau (*Chú "
+#~ "thích, Hiệu ứng, Biểu tượng cảm xúc, Tệp dự án, Thuộc tính, Chuyển tiếp, Xem"
+#~ " trước video*)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "This is the **default** view, and is designed to be easy-to-use, especially "
+#~ "for first-time users. It contains :guilabel:`Project Files` on the top left,"
+#~ " :guilabel:`Preview Window` on the top right, and :guilabel:`Timeline` on "
+#~ "the bottom. If you accidentally close or move a dock, you can quickly reset "
+#~ "all the docks back to their default location using the "
+#~ ":guilabel:`View->Views->Simple View` menu at the top of the screen."
+#~ msgstr ""
+#~ "Đây là chế độ xem **mặc định**, được thiết kế để dễ sử dụng, đặc biệt dành "
+#~ "cho người dùng lần đầu. Nó chứa :guilabel:`Tệp Dự Án` ở góc trên bên trái, "
+#~ ":guilabel:`Cửa Sổ Xem Trước` ở góc trên bên phải, và :guilabel:`Dòng Thời "
+#~ "Gian` ở phía dưới. Nếu bạn vô tình đóng hoặc di chuyển một dock, bạn có thể "
+#~ "nhanh chóng đặt lại tất cả các dock về vị trí mặc định bằng cách sử dụng "
+#~ "menu :guilabel:`Xem->Chế Độ Xem->Chế Độ Đơn Giản` ở đầu màn hình."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Each widget on the OpenShot main window is contained in a **dock**. These "
+#~ "docks can be dragged and snapped around the main window, and even grouped "
+#~ "together (into tabs). OpenShot will always save your main window dock layout"
+#~ " when you exit the program. Re-launching OpenShot will restore your custom "
+#~ "dock layout automatically."
+#~ msgstr ""
+#~ "Mỗi widget trên cửa sổ chính của OpenShot được chứa trong một **dock**. Các "
+#~ "dock này có thể được kéo và gắn quanh cửa sổ chính, thậm chí nhóm lại với "
+#~ "nhau (thành các tab). OpenShot sẽ luôn lưu bố cục dock cửa sổ chính khi bạn "
+#~ "thoát chương trình. Khởi động lại OpenShot sẽ tự động khôi phục bố cục dock "
+#~ "tùy chỉnh của bạn."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "If you have accidentally closed or moved a dock and can no longer find it, "
+#~ "there are a couple easy solutions. First, you can use the "
+#~ ":guilabel:`View->Views->Simple View` menu option at the top of the screen, "
+#~ "to restore the view back to its default. Or you can use the "
+#~ ":guilabel:`View->Views->Docks->...` menu to show or hide specific dock "
+#~ "widgets on the main window."
+#~ msgstr ""
+#~ "Nếu bạn vô tình đóng hoặc di chuyển một dock và không thể tìm thấy nó, có "
+#~ "một vài giải pháp đơn giản. Đầu tiên, bạn có thể sử dụng tùy chọn menu "
+#~ ":guilabel:`Xem->Chế Độ Xem->Chế Độ Đơn Giản` ở đầu màn hình để khôi phục chế"
+#~ " độ xem về mặc định. Hoặc bạn có thể sử dụng menu :guilabel:`Xem->Chế Độ "
+#~ "Xem->Dock->...` để hiển thị hoặc ẩn các widget dock cụ thể trên cửa sổ "
+#~ "chính."

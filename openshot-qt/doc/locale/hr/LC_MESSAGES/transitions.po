@@ -1,0 +1,680 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:23
+msgid "Transitions"
+msgstr "Prijelazi"
+
+#: ../transitions.rst:25
+msgid ""
+"A transition is used to gradually fade (also called a **cross dissolve** or "
+"**crossfade**) or wipe between two clip images. In OpenShot, transitions are"
+" represented by blue, rounded rectangles on the timeline. They are "
+"automatically created when you overlap two clips, and can be added manually "
+"by dragging one onto the timeline from the **Transitions** panel. A "
+"transition must be placed on top of a clip (overlapping it), with the most "
+"common location being the beginning or end of a clip."
+msgstr ""
+"Prijelaz se koristi za postupno izblijedjivanje (također nazvano **cross "
+"dissolve** ili **crossfade**) ili brisanje između dviju slika isječaka. U "
+"OpenShotu, prijelazi su predstavljeni plavim, zaobljenim pravokutnicima na "
+"vremenskoj liniji. Automatski se stvaraju kada preklopite dva isječka, a "
+"mogu se dodati i ručno povlačenjem na vremensku liniju iz panela "
+"**Transitions**. Prijelaz mora biti postavljen preko isječka (preklapajući "
+"ga), a najčešće mjesto je početak ili kraj isječka."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:31
+msgid ""
+"NOTE: Transitions **do not** affect **audio**, so if you are intending to "
+"fade in/out the audio volume of a clip, you must adjust the ``volume`` clip "
+"property. See :ref:`clip_properties_ref`"
+msgstr ""
+"NAPOMENA: Prijelazi **ne utječu** na **zvuk**, pa ako želite postupno "
+"pojačavati ili smanjivati glasnoću zvuka isječka, morate prilagoditi "
+"svojstvo ``volume`` isječka. Pogledajte :ref:`clip_properties_ref`"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:35
+msgid "Overview"
+msgstr "Pregled"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:40
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:40
+msgid "Name"
+msgstr "Naziv"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:40 ../transitions.rst:105
+msgid "Description"
+msgstr "Opis"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:42
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:42
+msgid "Clip 1"
+msgstr "Isječak 1"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:42
+msgid "A video clip"
+msgstr "Video isječak"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:43
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:43
+msgid "Transition"
+msgstr "Prijelaz"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:43
+msgid ""
+"A gradual fade transition between the 2 clip images, created automatically "
+"by overlapping the clips (does not affect the audio)"
+msgstr ""
+"Postupni prijelaz izblijedjivanja između dviju slika isječaka, automatski "
+"stvoren preklapanjem isječaka (ne utječe na zvuk)"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:44
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:44
+msgid "Clip 2"
+msgstr "Isječak 2"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:44
+msgid "An image clip"
+msgstr "Slika isječka"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:48
+msgid "Direction"
+msgstr "Smjer"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:49
+msgid ""
+"Transitions adjust the alpha/transparency of the overlapping clip image "
+"(i.e. the clip under the transition), and can either fade from opaque to "
+"transparent, or transparent to opaque (does not affect the audio). Right "
+"click and choose :guilabel:`Reverse Transition` to change the direction of "
+"the fade. You can also manually adjust the **Brightness** curve, animating "
+"the visual fade in any way you wish."
+msgstr ""
+"Prijelazi podešavaju alfa/prozirnost slike preklapajućeg isječka (tj. "
+"isječka ispod prijelaza) i mogu izblijedjeti od neprozirnog do prozirnog ili"
+" od prozirnog do neprozirnog (ne utječe na zvuk). Desni klik i odaberite "
+":guilabel:`Reverse Transition` za promjenu smjera izblijedjivanja. Također "
+"možete ručno prilagoditi krivulju **Svjetline**, animirajući vizualno "
+"izblijedjivanje na bilo koji način koji želite."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:56
+msgid "Transparency"
+msgstr "Prozirnost"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:57
+msgid ""
+"If transitions are used on images or videos that contain transparency (*i.e."
+" alpha channel*) this will result in the original clip disappearing abruptly"
+" (or popping out of existence), since OpenShot's transition system expects "
+"the 2nd clip to fully cover up the first clip. For example, if the 2nd clip "
+"does not fully cover the first clip, a transition might not be the best tool"
+" to use. Instead, you should consider adjusting the ``alpha`` property of "
+"the first clip to make it fade out where needed, see "
+":ref:`clip_properties_ref` or :ref:`clip_presets_ref`. Alternatively, you "
+"can combine a transition and ``alpha`` fade when using transparent clips to "
+"more smoothly fade between then."
+msgstr ""
+"Ako se prijelazi koriste na slikama ili videozapisima koji sadrže prozirnost"
+" (*tj. alfa kanal*), to će rezultirati naglim nestankom izvornog isječka "
+"(ili njegovim izbacivanjem iz postojanja), jer OpenShotov sustav prijelaza "
+"očekuje da drugi isječak potpuno prekrije prvi isječak. Na primjer, ako "
+"drugi isječak ne pokriva u potpunosti prvi isječak, prijelaz možda nije "
+"najbolji alat za korištenje. Umjesto toga, trebali biste razmotriti "
+"prilagodbu svojstva ``alpha`` prvog isječka kako bi se izblijedio tamo gdje "
+"je potrebno, pogledajte :ref:`clip_properties_ref` ili "
+":ref:`clip_presets_ref`. Alternativno, možete kombinirati prijelaz i "
+"``alpha`` izblijedjivanje pri korištenju prozirnih isječaka za glatkije "
+"izblijedjivanje između njih."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:65
+msgid "Cutting & Slicing"
+msgstr "Rezanje i sječenje"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:66
+msgid ""
+"OpenShot has many easy ways to adjust the start and end trim positions of a "
+"transition (otherwise known as cutting or trimming). The most common method "
+"is simply grabbing the left (or right) edge of the transition and dragging. "
+"For a complete guide to slicing and all available keyboard shortcuts, see "
+"the :ref:`clips_cutting_slicing_ref` and :ref:`keyboard_shortcut_ref` "
+"sections."
+msgstr ""
+"OpenShot ima mnogo jednostavnih načina za podešavanje početnih i završnih "
+"pozicija rezanja prijelaza (poznatog i kao rezanje ili trimanje). Najčešći "
+"način je jednostavno hvatanje lijevog (ili desnog) ruba prijelaza i "
+"povlačenje. Za potpuni vodič o sječenju i svim dostupnim tipkovničkim "
+"prečacima, pogledajte odjeljke :ref:`clips_cutting_slicing_ref` i "
+":ref:`keyboard_shortcut_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:71
+msgid "Mask"
+msgstr "Maska"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:72
+msgid ""
+"In video editing, masks are powerful tools that allow you to selectively "
+"display specific areas of a video clip. Similar to masking in image editing,"
+" video masks define a region where changes will be applied while leaving "
+"other parts of the video unaffected."
+msgstr ""
+"U video montaži, maske su moćni alati koji vam omogućuju selektivno "
+"prikazivanje određenih područja video isječka. Slično maskiranju u "
+"uređivanju slika, video maske definiraju područje na kojem će se primijeniti"
+" promjene, dok ostali dijelovi videa ostaju nepromijenjeni."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:76
+msgid ""
+"A mask can be thought of as a shape or path that outlines the area you want "
+"to target. Commonly used shapes include rectangles, circles, and freeform "
+"paths. The masked area is referred to as the \"masked region.\""
+msgstr ""
+"Masku se može smatrati oblikom ili putem koji obuhvaća područje koje želite "
+"ciljati. Uobičajeni oblici uključuju pravokutnike, krugove i slobodne "
+"oblike. Područje koje je maskirano naziva se \"maskirano područje\"."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:79
+msgid ""
+"Masks can be animated, allowing you to change the shape or position over "
+"time. This enables dynamic effects like revealing hidden elements or "
+"transitioning between different visual states. In OpenShot, you can convert "
+"a transition to a mask, by customizing the :guilabel:`Brightness` key-frame "
+"curve. Keeping a static (unchanging) value of brightness, will maintain a "
+"fixed mask location. Combine this with custom transition images, or even "
+"custom image sequences, to create animated, complex masks."
+msgstr ""
+"Maske se mogu animirati, što vam omogućuje promjenu oblika ili položaja "
+"tijekom vremena. To omogućuje dinamičke efekte poput otkrivanja skrivenih "
+"elemenata ili prijelaza između različitih vizualnih stanja. U OpenShotu "
+"možete pretvoriti prijelaz u masku prilagođavanjem krivulje ključnog okvira "
+":guilabel:`Brightness`. Održavanje statične (nepromjenjive) vrijednosti "
+"svjetline održat će fiksnu lokaciju maske. Kombinirajte to s prilagođenim "
+"slikama prijelaza ili čak prilagođenim nizovima slika za stvaranje "
+"animiranih, složenih maski."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:86
+msgid "Custom Transition"
+msgstr "Prilagođeni prijelaz"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:87
+msgid ""
+"Any greyscale image can be used as a transition (or mask), by adding it to "
+"your ``~/.openshot_qt/transitions/`` folder. Just be sure to name your file "
+"something that is easily recognizable, and restart OpenShot. Your custom "
+"transition/mask will now show up in the list of transitions."
+msgstr ""
+"Bilo koja slika u sivim tonovima može se koristiti kao prijelaz (ili maska) "
+"dodavanjem u mapu ``~/.openshot_qt/transitions/``. Samo pazite da datoteku "
+"nazovete nečim lako prepoznatljivim i ponovno pokrenite OpenShot. Vaš "
+"prilagođeni prijelaz/maska sada će se pojaviti na popisu prijelaza."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:92
+msgid "Transition Properties"
+msgstr "Svojstva prijelaza"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:93
+msgid ""
+"Below is a list of transition properties which can be edited, and in most "
+"cases, animated over time. To view a transition's properties, right click "
+"and choose :guilabel:`Properties`. The property editor will appear, where "
+"you can change these properties. NOTE: Pay close attention to where the "
+"play-head (i.e. red playback line) is. Key frames are automatically created "
+"at the current playback position, to help create animations."
+msgstr ""
+"Ispod je popis svojstava prijelaza koja se mogu uređivati, a u većini "
+"slučajeva i animirati tijekom vremena. Za pregled svojstava prijelaza, "
+"kliknite desnom tipkom i odaberite :guilabel:`Properties`. Pojavit će se "
+"uređivač svojstava gdje možete mijenjati ta svojstva. NAPOMENA: Obratite "
+"pažnju na položaj play-heada (tj. crvene linije reprodukcije). Ključni "
+"okviri se automatski stvaraju na trenutnoj poziciji reprodukcije kako bi "
+"pomogli u stvaranju animacija."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:98
+msgid ""
+"NOTE: Transitions do not affect audio, so if you are intending to fade "
+"in/out the audio volume of a clip, you must adjust the ``volume`` clip "
+"property. See :ref:`clip_properties_ref`."
+msgstr ""
+"NAPOMENA: Prijelazi ne utječu na zvuk, pa ako želite postupno pojačavati ili"
+" smanjivati glasnoću zvuka isječka, morate prilagoditi svojstvo ``volume`` "
+"isječka. Pogledajte :ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:105
+msgid "Transition Property Name"
+msgstr "Naziv svojstva prijelaza"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:105
+msgid "Type"
+msgstr "Vrsta"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:107
+msgid "Brightness"
+msgstr "Svjetlina"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:107 ../transitions.rst:108
+msgid "Key-frame"
+msgstr "Ključni okvir"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:107
+msgid ""
+"Curve representing the brightness of the transition image, which affects the"
+" fade/wipe (-1 to 1)"
+msgstr ""
+"Krivulja koja predstavlja svjetlinu slike prijelaza, što utječe na "
+"izblijedjivanje/brisanje (-1 do 1)"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:108
+msgid "Contrast"
+msgstr "Kontrast"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:108
+msgid ""
+"Curve representing the contrast of the transition image, which affects the "
+"softness/hardness of the fade/wipe (0 to 20)"
+msgstr ""
+"Krivulja koja predstavlja kontrast slike prijelaza, što utječe na "
+"mekoću/čvrstoću izblijedjivanja/brisanja (0 do 20)"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:109 ../transitions.rst:124
+msgid "Duration"
+msgstr "Trajanje"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:117
+#: ../transitions.rst:119
+msgid "Float"
+msgstr "Decimalni broj"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:109
+msgid "The length of the transition (in seconds). Read-only property."
+msgstr "Duljina prijelaza (u sekundama). Svojstvo samo za čitanje."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:110 ../transitions.rst:132
+msgid "End"
+msgstr "Kraj"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:110
+msgid "The end trimming position of the transition (in seconds)."
+msgstr "Pozicija završnog rezanja prijelaza (u sekundama)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:111 ../transitions.rst:140
+msgid "ID"
+msgstr "ID"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:111 ../transitions.rst:116
+msgid "String"
+msgstr "Niz znakova"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:111
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"transition. Read-only property."
+msgstr ""
+"Nasumično generirani GUID (globalno jedinstveni identifikator) dodijeljen "
+"svakom prijelazu. Svojstvo samo za čitanje."
+
+#: ../transitions.rst:112
+msgid "Mask: Invert"
+msgstr "Maska: Inverzija"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:112 ../transitions.rst:113 ../transitions.rst:118
+msgid "Bool"
+msgstr "Bool"
+
+#: ../transitions.rst:112
+msgid ""
+"Invert the mask source so light areas become dark and dark areas become "
+"light."
+msgstr ""
+"Invertirajte izvor maske tako da svijetla područja postanu tamna, a tamna "
+"svijetla."
+
+#: ../transitions.rst:113
+msgid "Mask: Loop"
+msgstr "Maska: Petlja"
+
+#: ../transitions.rst:113
+msgid ""
+"Loop an animated mask source when the transition is longer than the source."
+msgstr "Ponovite animirani izvor maske kada je prijelaz duži od izvora."
+
+#: ../transitions.rst:114
+msgid "Mask: Source"
+msgstr "Maska: Izvor"
+
+#: ../transitions.rst:114
+msgid "Reader"
+msgstr "Čitač"
+
+#: ../transitions.rst:114
+msgid ""
+"The image, image sequence, or video used as the transition's grayscale mask "
+"source."
+msgstr ""
+"Slika, niz slika ili video koji se koristi kao izvor prijelazne maske u "
+"nijansama sive."
+
+#: ../transitions.rst:115
+msgid "Mask: Time Mode"
+msgstr "Maska: Način vremena"
+
+#: ../transitions.rst:115
+msgid "Enum"
+msgstr "Enum"
+
+#: ../transitions.rst:115
+msgid "Controls how OpenShot maps transition time to an animated mask source."
+msgstr ""
+"Kontrolira kako OpenShot preslikava vrijeme prijelaza na animirani izvor "
+"maske."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:116
+msgid "Parent"
+msgstr "Roditelj"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:116
+msgid ""
+"The parent object to this transition, which makes many of these keyframe "
+"values initialize to the parent value."
+msgstr ""
+"Roditeljski objekt ovog prijelaza, zbog čega se mnoge vrijednosti ključnih "
+"okvira inicijaliziraju na vrijednost roditelja."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:117
+msgid "Position"
+msgstr "Pozicija"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:117
+msgid "The position of the transition on the timeline (in seconds)."
+msgstr "Pozicija prijelaza na vremenskoj liniji (u sekundama)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:118
+msgid "Replace Image"
+msgstr "Zamijeni sliku"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:118
+msgid ""
+"For debugging a problem, this property displays the transition image "
+"(instead of becoming a transparency)."
+msgstr ""
+"Za otklanjanje pogrešaka, ovo svojstvo prikazuje sliku prijelaza (umjesto da"
+" postane prozirnost)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:119
+msgid "Start"
+msgstr "Početak"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:119
+msgid "The start trimming position of the transition (in seconds)."
+msgstr "Pozicija početnog rezanja prijelaza (u sekundama)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:120 ../transitions.rst:158
+msgid "Track"
+msgstr "Sloj"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:120
+msgid "Int"
+msgstr "Cijeli broj"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:120
+msgid ""
+"The layer which holds the transition (higher tracks are rendered on top of "
+"lower tracks)."
+msgstr "Sloj koji drži prijelaz (viši slojevi se prikazuju iznad nižih)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:125
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the transition in seconds. This is a Read-only property. This is calculated "
+"by: End - Start. To modify duration, you must edit the :guilabel:`Start` "
+"and/or :guilabel:`End` transition properties."
+msgstr ""
+"Svojstvo :guilabel:`Trajanje` je decimalna vrijednost koja označava duljinu "
+"prijelaza u sekundama. Ovo je svojstvo samo za čitanje. Izračunava se kao: "
+"Kraj - Početak. Za promjenu trajanja morate urediti svojstva prijelaza "
+":guilabel:`Početak` i/ili :guilabel:`Kraj`."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:128
+msgid ""
+"**Usage Example:** Inspect the duration of a transition to ensure it fits a "
+"specific time slot in the project."
+msgstr ""
+"**Primjer upotrebe:** Provjerite trajanje prijelaza kako biste osigurali da "
+"odgovara određenom vremenskom okviru u projektu."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:129
+msgid ""
+"**Tip:** Consider using the \"Duration\" property for transitions that need "
+"to match specific time intervals, such as dialogue or scenes."
+msgstr ""
+"**Savjet:** Razmotrite korištenje svojstva \"Trajanje\" za prijelaze koji "
+"trebaju odgovarati određenim vremenskim intervalima, poput dijaloga ili "
+"scena."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:133
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"transition in seconds, allowing you to control how much of the transition is"
+" visible in the timeline. Changing this property will impact the "
+":guilabel:`Duration` transition property."
+msgstr ""
+"Svojstvo :guilabel:`Kraj` definira točku rezanja na kraju prijelaza u "
+"sekundama, što vam omogućuje kontrolu koliko je prijelaza vidljivo na "
+"vremenskoj liniji. Promjena ovog svojstva utjecat će na svojstvo prijelaza "
+":guilabel:`Trajanje`."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:136
+msgid ""
+"**Usage Example:** Trimming the end of a transition to align with another "
+"clip or trimming off unwanted sections of the transition."
+msgstr ""
+"**Primjer upotrebe:** Rezanje kraja prijelaza kako bi se uskladio s drugim "
+"isječkom ili uklanjanje neželjenih dijelova prijelaza."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:137
+msgid ""
+"**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
+"the visible portion of the transition."
+msgstr ""
+"**Savjet:** Kombinirajte svojstva \"Početak\" i \"Kraj\" za preciznu "
+"kontrolu vidljivog dijela prijelaza."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:141
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique"
+" Identifier) assigned to each transition, ensuring its uniqueness. This is a"
+" Read-only property, and assigned by OpenShot when a transition is created."
+msgstr ""
+"Svojstvo :guilabel:`ID` sadrži nasumično generirani GUID (globalno "
+"jedinstveni identifikator) dodijeljen svakom prijelazu, osiguravajući "
+"njegovu jedinstvenost. Ovo je svojstvo samo za čitanje i dodjeljuje ga "
+"OpenShot prilikom stvaranja prijelaza."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:144
+msgid ""
+"**Usage Example:** Referencing specific transitions within custom scripts or"
+" automation tasks."
+msgstr ""
+"**Primjer upotrebe:** Referenciranje određenih prijelaza unutar prilagođenih"
+" skripti ili automatizacijskih zadataka."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:145
+msgid ""
+"**Tip:** While typically managed behind the scenes, understanding transition"
+" IDs can aid in advanced project customization."
+msgstr ""
+"**Savjet:** Iako se obično upravlja u pozadini, razumijevanje ID-ova "
+"prijelaza može pomoći u naprednoj prilagodbi projekta."
+
+#: ../transitions.rst:148
+msgid "Mask Properties"
+msgstr "Svojstva maske"
+
+#: ../transitions.rst:149
+msgid ""
+"The :guilabel:`Mask: Source`, :guilabel:`Mask: Time Mode`, :guilabel:`Mask: "
+"Loop`, and :guilabel:`Mask: Invert` properties control the grayscale mask "
+"used by a transition. Static masks use a single image. Animated masks can "
+"use video or image sequences, with time mapping and looping options "
+"determining which source frame is used at each point in the transition."
+msgstr ""
+"Svojstva :guilabel:`Maska: Izvor`, :guilabel:`Maska: Način vremena`, "
+":guilabel:`Maska: Petlja` i :guilabel:`Maska: Inverzija` kontroliraju masku "
+"u nijansama sive koju koristi prijelaz. Statične maske koriste jednu sliku. "
+"Animirane maske mogu koristiti video ili nizove slika, pri čemu opcije "
+"preslikavanja vremena i petljanja određuju koji se izvorni kadar koristi u "
+"svakom trenutku prijelaza."
+
+#: ../transitions.rst:154
+msgid ""
+"**Usage Example:** Use :guilabel:`Mask: Invert` when the visible and hidden "
+"areas of a custom mask are reversed."
+msgstr ""
+"**Primjer upotrebe:** Koristite :guilabel:`Maska: Inverzija` kada su "
+"vidljiva i skrivena područja prilagođene maske zamijenjena."
+
+#: ../transitions.rst:155
+msgid ""
+"**Tip:** When using an animated mask, trim the mask source carefully before "
+"enabling loop behavior."
+msgstr ""
+"**Savjet:** Prilikom korištenja animirane maske, pažljivo obrežite izvor "
+"maske prije uključivanja petljanja."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:159
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the transition is placed. Transitions on higher tracks are rendered above "
+"those on lower tracks."
+msgstr ""
+"Svojstvo :guilabel:`Sloj` je cijeli broj koji označava sloj na kojem je "
+"prijelaz postavljen. Prijelazi na višim slojevima prikazuju se iznad onih na"
+" nižim slojevima."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:162
+msgid ""
+"**Usage Example:** Arranging transitions in different layers for creating "
+"visual depth and complexity."
+msgstr ""
+"**Primjer upotrebe:** Raspoređivanje prijelaza u različite slojeve radi "
+"stvaranja vizualne dubine i složenosti."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:163
+msgid ""
+"**Tip:** Use higher tracks for elements that need to appear above others, "
+"like text overlays or graphics."
+msgstr ""
+"**Savjet:** Koristite više slojeve za elemente koji trebaju biti iznad "
+"drugih, poput tekstualnih slojeva ili grafike."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "A transition is used to gradually fade (or wipe) between two clip images. In"
+#~ " OpenShot, transitions are represented by blue, rounded rectangles on the "
+#~ "timeline. They are automatically created when you overlap two clips, and can"
+#~ " be added manually by dragging one onto the timeline from the "
+#~ "**Transitions** panel. A transition must be placed on top of a clip "
+#~ "(overlapping it), with the most common location being the beginning or end "
+#~ "of a clip."
+#~ msgstr ""
+#~ "Prijelaz se koristi za postupno izblijedjivanje (ili brisanje) između dviju "
+#~ "slika isječaka. U OpenShotu, prijelazi su predstavljeni plavim, zaobljenim "
+#~ "pravokutnicima na vremenskoj liniji. Automatski se stvaraju kada preklopite "
+#~ "dva isječka, a mogu se dodati i ručno povlačenjem na vremensku liniju iz "
+#~ "panela **Prijelazi**. Prijelaz mora biti postavljen preko isječka "
+#~ "(preklapajući ga), a najčešće mjesto je početak ili kraj isječka."

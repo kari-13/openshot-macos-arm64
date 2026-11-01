@@ -1,0 +1,761 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:21
+msgid "Export"
+msgstr "निर्यात करें"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:23
+msgid ""
+"Exporting converts your OpenShot project (clips, effects, animations, "
+"titles) into a single video output file (using a process called ``video "
+"encoding``). By using the default settings, the exported video will be "
+"compatible with most media players (such as VLC) and websites (such as "
+"YouTube, Vimeo, Facebook) and creates a ``MP4 (h.264 + AAC)`` formatted "
+"video file. See :ref:`profiles_mp4_h264_ref`."
+msgstr ""
+"निर्यात करने से आपका OpenShot प्रोजेक्ट (क्लिप्स, इफेक्ट्स, एनीमेशन, "
+"टाइटल्स) एक एकल वीडियो आउटपुट फ़ाइल में परिवर्तित हो जाता है (जिसे ``वीडियो "
+"एन्कोडिंग`` कहा जाता है)। डिफ़ॉल्ट सेटिंग्स का उपयोग करने पर, निर्यातित "
+"वीडियो अधिकांश मीडिया प्लेयर (जैसे VLC) और वेबसाइटों (जैसे YouTube, Vimeo, "
+"Facebook) के साथ संगत होगा और एक ``MP4 (h.264 + AAC)`` फॉर्मेटेड वीडियो "
+"फ़ाइल बनाएगा। देखें :ref:`profiles_mp4_h264_ref`।"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:28
+msgid ""
+"Click on the :guilabel:`Export Video` icon at the top of the screen (or use "
+"the :guilabel:`File→Export Video` menu). The default values will work fine, "
+"so just click the :guilabel:`Export Video` button to render your new video. "
+"You can also create your own custom export profiles, see "
+":ref:`profiles_ref`."
+msgstr ""
+"स्क्रीन के शीर्ष पर :guilabel:`Export Video` आइकन पर क्लिक करें (या "
+":guilabel:`File→Export Video` मेनू का उपयोग करें)। डिफ़ॉल्ट मान ठीक काम "
+"करेंगे, इसलिए बस :guilabel:`Export Video` बटन पर क्लिक करें ताकि आपका नया "
+"वीडियो रेंडर हो सके। आप अपने कस्टम एक्सपोर्ट प्रोफाइल भी बना सकते हैं, देखें"
+" :ref:`profiles_ref`।"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:33
+msgid "Simple Mode"
+msgstr "सरल मोड"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:35
+msgid ""
+"While video encoding is very complicated, with dozens of interrelated "
+"settings and options, OpenShot makes it easy, with sensible defaults, and "
+"most of this complexity hidden away behind our `Simple` tab, which is the "
+"default export view."
+msgstr ""
+"वीडियो एन्कोडिंग बहुत जटिल है, जिसमें दर्जनों परस्पर संबंधित सेटिंग्स और "
+"विकल्प होते हैं, लेकिन OpenShot इसे आसान बनाता है, समझदारी से चुने गए "
+"डिफ़ॉल्ट विकल्पों के साथ, और इस जटिलता का अधिकांश हिस्सा हमारे `Simple` टैब "
+"के पीछे छुपा होता है, जो डिफ़ॉल्ट निर्यात दृश्य है।"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:45
+msgid "Simple Setting"
+msgstr "सरल सेटिंग"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:45 ../export.rst:69 ../export.rst:96 ../export.rst:117
+#: ../export.rst:131 ../export.rst:147
+msgid "Description"
+msgstr "विवरण"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:47 ../export.rst:79 ../export.rst:98
+msgid "Profile"
+msgstr "प्रोफ़ाइल"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:47
+msgid ""
+"Common presets (combinations of presets and video profiles grouped by "
+"category, for example: **Web**)"
+msgstr ""
+"सामान्य प्रीसेट (प्रीसेट्स और वीडियो प्रोफाइल्स के संयोजन जो श्रेणी द्वारा "
+"समूहित होते हैं, उदाहरण के लिए: **Web**)"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:48 ../export.rst:168
+msgid "Target"
+msgstr "लक्ष्य"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:48
+msgid ""
+"Target presets related to the current profile (collections of common "
+"formats, codecs, and quality settings, see :ref:`preset_list_ref`)"
+msgstr ""
+"वर्तमान प्रोफ़ाइल से संबंधित लक्ष्य प्रीसेट (सामान्य फॉर्मेट, कोडेक्स, और "
+"गुणवत्ता सेटिंग्स का संग्रह, देखें :ref:`preset_list_ref`)"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:49 ../export.rst:169
+msgid "Video Profile"
+msgstr "वीडियो प्रोफ़ाइल"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:49
+msgid ""
+"Video profiles related to the current target (collections of common size, "
+"frame rate, and aspect ratios, see :ref:`profile_list_ref` or create your "
+"own :ref:`profiles_ref`)"
+msgstr ""
+"वर्तमान लक्ष्य से संबंधित वीडियो प्रोफाइल (सामान्य आकार, फ्रेम दर, और "
+"आस्पेक्ट रेशियो का संग्रह, देखें :ref:`profile_list_ref` या अपना खुद का "
+"बनाएं :ref:`profiles_ref`)"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:50
+msgid "Quality"
+msgstr "गुणवत्ता"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:50
+msgid ""
+"Quality settings (low, med, high), which relate to various video and audio "
+"bitrates."
+msgstr ""
+"गुणवत्ता सेटिंग्स (कम, मध्यम, उच्च), जो विभिन्न वीडियो और ऑडियो बिटरेट से "
+"संबंधित हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:54
+msgid "Advanced Mode"
+msgstr "उन्नत मोड"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:56
+msgid ""
+"Most users will never need to switch to the `Advanced` tab, but if you need "
+"to customize any of the video encoding settings, for example, custom "
+"bitrates, different codecs, or limiting the range of frames exported, this "
+"is the tab for you."
+msgstr ""
+"अधिकांश उपयोगकर्ताओं को कभी भी `Advanced` टैब पर स्विच करने की आवश्यकता नहीं"
+" होगी, लेकिन यदि आपको वीडियो एन्कोडिंग सेटिंग्स को कस्टमाइज़ करना है, जैसे "
+"कस्टम बिटरेट, अलग कोडेक्स, या निर्यात किए जाने वाले फ्रेम की सीमा निर्धारित "
+"करना, तो यह टैब आपके लिए है।"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:61
+msgid "Advanced Options"
+msgstr "उन्नत विकल्प"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:69
+msgid "Advanced Setting"
+msgstr "उन्नत सेटिंग"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:71
+msgid "Export To"
+msgstr "निर्यात करें"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:71
+msgid ""
+"Export both `video & audio`, `only audio`, `only video`, or an `image "
+"sequence`"
+msgstr ""
+"`वीडियो और ऑडियो`, `केवल ऑडियो`, `केवल वीडियो`, या `इमेज सीक्वेंस` में से "
+"किसी एक को निर्यात करें"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:72
+msgid "Start Frame"
+msgstr "प्रारंभ फ्रेम"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:72
+msgid "The first frame to export (default is 1)"
+msgstr "निर्यात करने के लिए पहला फ्रेम (डिफ़ॉल्ट 1 है)"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:73
+msgid "End Frame"
+msgstr "अंतिम फ्रेम"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:73
+msgid ""
+"The final frame to export (default is the last frame in your project to "
+"contain a clip)"
+msgstr ""
+"निर्यात करने के लिए अंतिम फ्रेम (डिफ़ॉल्ट आपके प्रोजेक्ट में क्लिप वाला "
+"अंतिम फ्रेम है)"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:74
+msgid "Start at First Clip"
+msgstr "पहली क्लिप से शुरू करें"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:74
+msgid ""
+"This checkbox will toggle the **Start Frame** between `0.0` and the `start` "
+"of the first clip/transition position."
+msgstr ""
+"यह चेकबॉक्स **Start Frame** को `0.0` और पहली क्लिप/ट्रांज़िशन की `शुरुआत` के"
+" बीच टॉगल करेगा।"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:75
+msgid "End at Last Clip"
+msgstr "अंतिम क्लिप पर समाप्त करें"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:75
+msgid ""
+"This checkbox will toggle the **End Frame** between the `end` of the "
+"furthest clip/transition and the full `project duration`. The project "
+"duration can be adjusted by dragging the right edge of any track. You will "
+"need to zoom out (:guilabel:`Ctrl+Scroll Wheel`) of the timeline before you "
+"can drag the right edge of a track."
+msgstr ""
+"यह चेकबॉक्स **End Frame** को सबसे दूर की क्लिप/ट्रांज़िशन के `अंत` और पूरे "
+"`प्रोजेक्ट की अवधि` के बीच टॉगल करेगा। प्रोजेक्ट की अवधि किसी भी ट्रैक के "
+"दाहिने किनारे को खींचकर समायोजित की जा सकती है। ट्रैक के दाहिने किनारे को "
+"खींचने से पहले आपको टाइमलाइन को ज़ूम आउट (:guilabel:`Ctrl+Scroll Wheel`) "
+"करना होगा।"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:81
+msgid ""
+"A video profile is a collection of common video settings (*size, frame rate,"
+" aspect ratio*). Profiles are used during editing, previewing, and exporting"
+" to provide a quick way to switch between common combinations of these "
+"settings. The :guilabel:`Export Dialog` will **default** to the same profile"
+" used by the project."
+msgstr ""
+"एक वीडियो प्रोफ़ाइल सामान्य वीडियो सेटिंग्स (*आकार, फ्रेम दर, आस्पेक्ट "
+"रेशियो*) का संग्रह होती है। प्रोफ़ाइल्स का उपयोग संपादन, पूर्वावलोकन, और "
+"निर्यात के दौरान इन सेटिंग्स के सामान्य संयोजनों के बीच जल्दी स्विच करने के "
+"लिए किया जाता है। :guilabel:`Export Dialog` डिफ़ॉल्ट रूप से प्रोजेक्ट द्वारा"
+" उपयोग की गई उसी प्रोफ़ाइल का उपयोग करेगा।"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:85
+msgid ""
+"*NOTE: It is important to choose a **Profile** with the same **aspect "
+"ratio** used when editing your project. If you are exporting at a "
+"**different aspect ratio**, it might stretch the image, crop the image, add "
+"black bars, or otherwise introduce an issue which changes the exported "
+"video, making it appear differently than the :guilabel:`Preview` inside "
+"OpenShot.*"
+msgstr ""
+"*ध्यान दें: यह महत्वपूर्ण है कि आप अपनी परियोजना को संपादित करते समय उपयोग "
+"किए गए समान **आस्पेक्ट रेशियो** वाली **प्रोफ़ाइल** चुनें। यदि आप एक **भिन्न "
+"आस्पेक्ट रेशियो** पर निर्यात कर रहे हैं, तो यह छवि को खींच सकता है, छवि को "
+"क्रॉप कर सकता है, काले बार जोड़ सकता है, या अन्यथा एक समस्या उत्पन्न कर सकता"
+" है जो निर्यातित वीडियो को बदल देता है, जिससे यह OpenShot के अंदर "
+":guilabel:`Preview` से अलग दिखाई देता है।*"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:96
+msgid "Profile Setting"
+msgstr "प्रोफ़ाइल सेटिंग"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:98
+msgid ""
+"The video profile to use during export (collection of size, frame rate, and "
+"aspect ratios, see :ref:`profile_list_ref`)"
+msgstr ""
+"निर्यात के दौरान उपयोग करने के लिए वीडियो प्रोफ़ाइल (आकार, फ्रेम दर, और "
+"आस्पेक्ट रेशियो का संग्रह, देखें :ref:`profile_list_ref`)"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:99
+msgid "Width"
+msgstr "चौड़ाई"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:99
+msgid "The width of the video export (in pixels)"
+msgstr "वीडियो निर्यात की चौड़ाई (पिक्सेल में)"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:100
+msgid "Height"
+msgstr "ऊंचाई"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:100
+msgid "The height of the video export (in pixels)"
+msgstr "वीडियो निर्यात की ऊंचाई (पिक्सेल में)"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:101
+msgid "Aspect Ratio"
+msgstr "आस्पेक्ट रेशियो"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:101
+msgid ""
+"The aspect ratio of the final exported video. 1920×1080 reduces to 16:9. "
+"This also takes into account the pixel ratio, for example 2:1 rectangular "
+"pixels will affect the aspect ratio."
+msgstr ""
+"अंतिम निर्यातित वीडियो का आस्पेक्ट रेशियो। 1920×1080 को 16:9 में घटाया जाता "
+"है। यह पिक्सेल रेशियो को भी ध्यान में रखता है, उदाहरण के लिए 2:1 आयताकार "
+"पिक्सेल आस्पेक्ट रेशियो को प्रभावित करेंगे।"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:102
+msgid "Pixel Ratio"
+msgstr "पिक्सेल रेशियो"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:102
+msgid ""
+"The ratio representing pixel shape. Most video profiles use a 1:1 square "
+"pixel shape, but others will use rectangular pixels."
+msgstr ""
+"पिक्सेल के आकार का अनुपात। अधिकांश वीडियो प्रोफ़ाइल 1:1 वर्ग पिक्सेल आकार का"
+" उपयोग करती हैं, लेकिन कुछ आयताकार पिक्सेल का उपयोग करते हैं।"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:103
+msgid "Frame Rate"
+msgstr "फ्रेम दर"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:103
+msgid "The frequency that the frames will be displayed at."
+msgstr "जिस आवृत्ति पर फ्रेम प्रदर्शित होंगे।"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:104
+msgid "Interlaced"
+msgstr "इंटरलेस्ड"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:104
+msgid ""
+"Is this format used on alternating scan lines (i.e. broadcast and analog "
+"formats)"
+msgstr ""
+"क्या यह फॉर्मेट वैकल्पिक स्कैन लाइनों पर उपयोग होता है (जैसे प्रसारण और "
+"एनालॉग फॉर्मेट्स)"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:105
+msgid "Spherical"
+msgstr "स्फेरिकल"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:105
+msgid ""
+"When enabled, injects spherical 360° metadata (SV3D atom) into the exported "
+"file so compatible players immediately recognize it as a 360° video."
+msgstr ""
+"सक्रिय होने पर, निर्यातित फ़ाइल में गोलाकार 360° मेटाडेटा (SV3D एटम) "
+"सम्मिलित करता है ताकि संगत प्लेयर इसे तुरंत 360° वीडियो के रूप में पहचान "
+"सकें।"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:109
+msgid "Image Sequence Settings"
+msgstr "इमेज अनुक्रम सेटिंग्स"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:117
+msgid "Image Setting Name"
+msgstr "इमेज सेटिंग नाम"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:119
+msgid "Image Format"
+msgstr "इमेज फॉर्मेट"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:119
+msgid ""
+"The string format that represents the output file name in a sequence of "
+"images. For example, %05d.png would pad a number with 5 digits: 00001.png, "
+"00002.png."
+msgstr ""
+"वह स्ट्रिंग फॉर्मेट जो इमेज अनुक्रम में आउटपुट फ़ाइल नाम को दर्शाता है। "
+"उदाहरण के लिए, %05d.png एक संख्या को 5 अंकों से भरता है: 00001.png, "
+"00002.png।"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:123
+msgid "Video Settings"
+msgstr "वीडियो सेटिंग्स"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:131
+msgid "Video Setting Name"
+msgstr "वीडियो सेटिंग नाम"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:133
+msgid "Video Format"
+msgstr "वीडियो फॉर्मेट"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:133
+msgid ""
+"The name of the container format (``mp4``, ``mov``, ``avi``, ``webm``, "
+"etc...)"
+msgstr "कंटेनर फॉर्मेट का नाम (``mp4``, ``mov``, ``avi``, ``webm``, आदि...)"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:134
+msgid "Video Codec"
+msgstr "वीडियो कोडेक"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:134
+msgid ""
+"The name of the video codec used during video encoding (``libx264``, "
+"``mpeg4``, ``libaom-av1``, etc...)"
+msgstr ""
+"वीडियो एन्कोडिंग के दौरान उपयोग किए गए वीडियो कोडेक का नाम (``libx264``, "
+"``mpeg4``, ``libaom-av1``, आदि...)"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:135 ../export.rst:152
+msgid "Bit Rate / Quality"
+msgstr "बिट रेट / गुणवत्ता"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:135
+msgid ""
+"The bitrate to use for video encoding. Accepts the following formats: ``5 "
+"Mb/s``, ``96 kb/s``, ``23 crf``, etc..."
+msgstr ""
+"वीडियो एन्कोडिंग के लिए उपयोग किया जाने वाला बिटरेट। निम्नलिखित फॉर्मेट "
+"स्वीकार करता है: ``5 Mb/s``, ``96 kb/s``, ``23 crf``, आदि..."
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:139
+msgid "Audio Settings"
+msgstr "ऑडियो सेटिंग्स"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:147
+msgid "Audio Setting Name"
+msgstr "ऑडियो सेटिंग नाम"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:149
+msgid "Audio Codec"
+msgstr "ऑडियो कोडेक"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:149
+msgid ""
+"The name of the audio codec used during audio encoding (``aac``, ``mp2``, "
+"``libmp3lame``, etc...)"
+msgstr ""
+"ऑडियो एन्कोडिंग के दौरान उपयोग किए गए ऑडियो कोडेक का नाम (``aac``, ``mp2``, "
+"``libmp3lame``, आदि...)"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:150
+msgid "Sample Rate"
+msgstr "सैंपल रेट"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:150
+msgid ""
+"The number of audio samples per second. Common values are ``44100`` and "
+"``48000``."
+msgstr ""
+"प्रति सेकंड ऑडियो सैंपल की संख्या। सामान्य मान हैं ``44100`` और ``48000``।"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:151
+msgid "Channel Layout"
+msgstr "चैनल लेआउट"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:151
+msgid ""
+"The number and layout of audio channels (``Stereo``, ``Mono``, ``Surround``,"
+" etc...)"
+msgstr ""
+"ऑडियो चैनलों की संख्या और लेआउट (``Stereo``, ``Mono``, ``Surround``, आदि...)"
+
+# Translated with gpt-4.1-mini
+#: ../export.rst:152
+msgid ""
+"The bitrate to use for audio encoding. Accepts the following formats: ``96 "
+"kb/s``, ``128 kb/s``, ``192 kb/s``, etc..."
+msgstr ""
+"ऑडियो एन्कोडिंग के लिए उपयोग किया जाने वाला बिटरेट। निम्नलिखित फॉर्मेट "
+"स्वीकार करता है: ``96 kb/s``, ``128 kb/s``, ``192 kb/s``, आदि..."
+
+#: ../export.rst:158
+msgid "Social Media Quick Reference"
+msgstr "सोशल मीडिया त्वरित संदर्भ"
+
+#: ../export.rst:160
+msgid ""
+"The table below shows the recommended :guilabel:`Target` and "
+":guilabel:`Video Profile` settings for common social media platforms. Select"
+" these in the **Simple** tab of the Export dialog."
+msgstr ""
+"नीचे दी गई तालिका सामान्य सोशल मीडिया प्लेटफार्मों के लिए अनुशंसित "
+":guilabel:`Target` और :guilabel:`Video Profile` सेटिंग्स दिखाती है। इन्हें "
+"Export संवाद के **Simple** टैब में चुनें।"
+
+#: ../export.rst:167
+msgid "Platform"
+msgstr "प्लेटफ़ॉर्म"
+
+#: ../export.rst:170
+msgid "Notes"
+msgstr "टिप्पणियाँ"
+
+#: ../export.rst:171
+msgid "YouTube (landscape)"
+msgstr "YouTube (लैंडस्केप)"
+
+#: ../export.rst:172
+msgid "``YouTube``"
+msgstr "``YouTube``"
+
+#: ../export.rst:173 ../export.rst:189 ../export.rst:197 ../export.rst:201
+#: ../export.rst:205 ../export.rst:209
+msgid "``FHD 1080p 30 fps``"
+msgstr "``FHD 1080p 30 fps``"
+
+#: ../export.rst:174
+msgid "Use ``YouTube (4K)`` for 4K"
+msgstr "4K के लिए ``YouTube (4K)`` का उपयोग करें"
+
+#: ../export.rst:175
+msgid "YouTube Shorts (vertical)"
+msgstr "YouTube Shorts (वर्टिकल)"
+
+#: ../export.rst:176
+msgid "``YouTube Shorts``"
+msgstr "``YouTube Shorts``"
+
+#: ../export.rst:177 ../export.rst:181 ../export.rst:185 ../export.rst:193
+msgid "``FHD Vertical 1080p 30 fps``"
+msgstr "``FHD वर्टिकल 1080p 30 fps``"
+
+#: ../export.rst:178 ../export.rst:182 ../export.rst:186 ../export.rst:194
+msgid "Up to 60 fps"
+msgstr "60 fps तक"
+
+#: ../export.rst:179
+msgid "TikTok (vertical)"
+msgstr "TikTok (वर्टिकल)"
+
+#: ../export.rst:180
+msgid "``TikTok``"
+msgstr "``TikTok``"
+
+#: ../export.rst:183
+msgid "Instagram Reels (vertical)"
+msgstr "Instagram Reels (वर्टिकल)"
+
+#: ../export.rst:184
+msgid "``Instagram Reels``"
+msgstr "``Instagram Reels``"
+
+#: ../export.rst:187
+msgid "Instagram (landscape/square)"
+msgstr "Instagram (लैंडस्केप/स्क्वायर)"
+
+#: ../export.rst:188
+msgid "``Instagram``"
+msgstr "``Instagram``"
+
+#: ../export.rst:190
+msgid "Square (1:1) also available"
+msgstr "स्क्वायर (1:1) भी उपलब्ध है"
+
+#: ../export.rst:191
+msgid "Snapchat (vertical)"
+msgstr "Snapchat (वर्टिकल)"
+
+#: ../export.rst:192
+msgid "``Snapchat``"
+msgstr "``Snapchat``"
+
+#: ../export.rst:195
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../export.rst:196
+msgid "``Facebook``"
+msgstr "``Facebook``"
+
+#: ../export.rst:198
+msgid "Square and vertical also available"
+msgstr "स्क्वायर और वर्टिकल भी उपलब्ध हैं"
+
+#: ../export.rst:199
+msgid "LinkedIn (landscape)"
+msgstr "LinkedIn (लैंडस्केप)"
+
+#: ../export.rst:200
+msgid "``LinkedIn``"
+msgstr "``LinkedIn``"
+
+#: ../export.rst:202
+msgid "Square and 4:5 portrait also available"
+msgstr "स्क्वायर और 4:5 पोर्ट्रेट भी उपलब्ध हैं"
+
+#: ../export.rst:203
+msgid "Twitter / X"
+msgstr "Twitter / X"
+
+#: ../export.rst:204
+msgid "``Twitter / X``"
+msgstr "``Twitter / X``"
+
+#: ../export.rst:206
+msgid "Vertical also available"
+msgstr "वर्टिकल भी उपलब्ध है"
+
+#: ../export.rst:207
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ../export.rst:208
+msgid "``Vimeo``"
+msgstr "``Vimeo``"
+
+#: ../export.rst:210
+msgid "Use High quality setting"
+msgstr "उच्च गुणवत्ता सेटिंग का उपयोग करें"
+
+#: ../export.rst:215
+msgid "Hardware-Accelerated Export"
+msgstr "हार्डवेयर-त्वरित निर्यात"
+
+#: ../export.rst:217
+msgid ""
+"OpenShot supports GPU-accelerated video encoding on supported hardware, "
+"dramatically reducing export times. Hardware-accelerated targets are shown "
+"with a badge in the :guilabel:`Target` dropdown. Select the appropriate "
+"target for your hardware:"
+msgstr ""
+"OpenShot समर्थित हार्डवेयर पर GPU-त्वरित वीडियो एन्कोडिंग का समर्थन करता है,"
+" जिससे निर्यात समय में काफी कमी आती है। हार्डवेयर-त्वरित लक्ष्य "
+":guilabel:`Target` ड्रॉपडाउन में बैज के साथ दिखाए जाते हैं। अपने हार्डवेयर "
+"के लिए उपयुक्त लक्ष्य चुनें:"
+
+#: ../export.rst:225
+msgid "Target (Export Dialog)"
+msgstr "लक्ष्य (निर्यात संवाद)"
+
+#: ../export.rst:225
+msgid "Badge"
+msgstr "बैज"
+
+#: ../export.rst:225
+msgid "Requires"
+msgstr "आवश्यक है"
+
+#: ../export.rst:227
+msgid "``MP4 (h.264 nv)``"
+msgstr "``MP4 (h.264 nv)``"
+
+#: ../export.rst:227
+msgid "NVENC"
+msgstr "NVENC"
+
+#: ../export.rst:227
+msgid "NVIDIA GPU (Kepler or newer)"
+msgstr "NVIDIA GPU (Kepler या नया)"
+
+#: ../export.rst:228
+msgid "``MP4 (h.264 va)``"
+msgstr "``MP4 (h.264 va)``"
+
+#: ../export.rst:228 ../export.rst:232
+msgid "VA-API"
+msgstr "VA-API"
+
+#: ../export.rst:228
+msgid "Linux with AMD or Intel GPU (VAAPI driver)"
+msgstr "Linux AMD या Intel GPU (VAAPI ड्राइवर) के साथ"
+
+#: ../export.rst:229
+msgid "``MP4 (h.264 qsv)``"
+msgstr "``MP4 (h.264 qsv)``"
+
+#: ../export.rst:229
+msgid "QSV"
+msgstr "QSV"
+
+#: ../export.rst:229
+msgid "Intel GPU with Quick Sync Video"
+msgstr "Intel GPU Quick Sync Video के साथ"
+
+#: ../export.rst:230
+msgid "``MP4 (h.264 videotoolbox)``"
+msgstr "``MP4 (h.264 videotoolbox)``"
+
+#: ../export.rst:230
+msgid "VideoToolbox"
+msgstr "VideoToolbox"
+
+#: ../export.rst:230
+msgid "macOS with Apple or Intel GPU"
+msgstr "macOS Apple या Intel GPU के साथ"
+
+#: ../export.rst:231
+msgid "``MP4 (h.264 dx)``"
+msgstr "``MP4 (h.264 dx)``"
+
+#: ../export.rst:231
+msgid "DirectX"
+msgstr "DirectX"
+
+#: ../export.rst:231
+msgid "Windows with DirectX-compatible GPU"
+msgstr "Windows DirectX-संगत GPU के साथ"
+
+#: ../export.rst:232
+msgid "``MP4 (HEVC va)``"
+msgstr "``MP4 (HEVC va)``"
+
+#: ../export.rst:232
+msgid "Linux VA-API — produces smaller HEVC files"
+msgstr "Linux VA-API — छोटे HEVC फ़ाइलें बनाता है"
+
+#: ../export.rst:235
+msgid ""
+"MKV variants (``MKV (h.264 nv)``, ``MKV (h.264 va)``, etc.) are also "
+"available for each accelerator. If none of these targets appear or export "
+"fails, your system either lacks the required driver or the hardware encoder "
+"is not supported — fall back to the standard ``MP4 (h.264 + AAC)`` target, "
+"which uses the CPU-based ``libx264`` encoder and works on all systems."
+msgstr ""
+"प्रत्येक त्वरक के लिए MKV संस्करण (``MKV (h.264 nv)``, ``MKV (h.264 va)``, "
+"आदि) भी उपलब्ध हैं। यदि इनमें से कोई लक्ष्य दिखाई नहीं देता या निर्यात विफल "
+"होता है, तो आपके सिस्टम में आवश्यक ड्राइवर नहीं है या हार्डवेयर एन्कोडर "
+"समर्थित नहीं है — मानक ``MP4 (h.264 + AAC)`` लक्ष्य पर वापस जाएं, जो CPU-"
+"आधारित ``libx264`` एन्कोडर का उपयोग करता है और सभी सिस्टम पर काम करता है।"

@@ -1,0 +1,1362 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:23
+msgid "Preferences"
+msgstr "Einstellungen"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:25
+msgid ""
+"The Preferences window contains many important settings and configuration "
+"options for OpenShot. They can be found in the top menu under "
+":guilabel:`Edit→Preferences`. Many settings will require OpenShot to be "
+"restarted after your changes are applied."
+msgstr ""
+"Das Einstellungsfenster enthält viele wichtige Einstellungen und "
+"Konfigurationsoptionen für OpenShot. Sie sind im oberen Menü unter "
+":guilabel:`Bearbeiten→Einstellungen` zu finden. Für viele Einstellungen ist "
+"ein Neustart von OpenShot erforderlich, nachdem Ihre Änderungen übernommen "
+"wurden."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:29
+msgid ""
+"NOTE: Some features such as `Animated Titles` and `external SVG editing` "
+"require setting the paths for **Blender** and **Inkscape** under the General"
+" tab. And if you notice audio playback issues, such as audio drift, you may "
+"need to adjust the audio settings under the Preview tab."
+msgstr ""
+"HINWEIS: Einige Funktionen wie `Animierte Titel` und `externe SVG-"
+"Bearbeitung` erfordern das Festlegen der Pfade für **Blender** und "
+"**Inkscape** unter dem Reiter Allgemein. Wenn Sie Probleme mit der "
+"Audiowiedergabe bemerken, wie z. B. Audio-Drift, müssen Sie möglicherweise "
+"die Audioeinstellungen unter dem Reiter Vorschau anpassen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:36
+msgid "General"
+msgstr "Allgemein"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:40
+msgid ""
+"The General tab of the Preferences window allows you to modify the settings "
+"that apply to OpenShot as a whole."
+msgstr ""
+"Der Reiter Allgemein im Einstellungsfenster ermöglicht es Ihnen, die "
+"Einstellungen zu ändern, die für OpenShot insgesamt gelten."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:46 ../preferences.rst:109 ../preferences.rst:132
+#: ../preferences.rst:157 ../preferences.rst:204 ../preferences.rst:234
+#: ../preferences.rst:290 ../preferences.rst:329
+msgid "Setting"
+msgstr "Einstellung"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:47 ../preferences.rst:50 ../preferences.rst:109
+#: ../preferences.rst:132 ../preferences.rst:134 ../preferences.rst:157
+#: ../preferences.rst:330
+msgid "Default"
+msgstr "Standard"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:48 ../preferences.rst:109 ../preferences.rst:132
+#: ../preferences.rst:204 ../preferences.rst:235 ../preferences.rst:290
+#: ../preferences.rst:310 ../preferences.rst:331
+msgid "Description"
+msgstr "Beschreibung"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:49
+msgid "Language"
+msgstr "Sprache"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:51
+msgid "Choose your preferred language for OpenShot menus and windows"
+msgstr "Wählen Sie Ihre bevorzugte Sprache für OpenShot-Menüs und -Fenster"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:52
+msgid "Default Theme"
+msgstr "Standardthema"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:53
+msgid "Cosmic Dusk"
+msgstr "Kosmische Dämmerung"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:54
+#, fuzzy
+msgid "Choose your theme for OpenShot"
+msgstr "Wählen Sie Ihr Thema für OpenShot: Hell, Dunkel oder Keines"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:55
+msgid "User Interface Scale"
+msgstr "Benutzeroberflächen-Skalierung"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:56
+msgid "100%"
+msgstr "100%"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:57
+msgid ""
+"Choose a preset UI scaling factor for larger or smaller interface elements"
+msgstr ""
+"Wählen Sie einen voreingestellten UI-Skalierungsfaktor für größere oder "
+"kleinere Interface-Elemente"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:58
+#, fuzzy
+msgid "Default Profile"
+msgstr "Standard-Video-Profil"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:59
+#, fuzzy
+msgid "HD 720p 30 fps"
+msgstr "HD 720P 30 fps"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:60
+#, fuzzy
+msgid "Select the default profile for new projects and exports"
+msgstr "Profil für Vorschau- und Export-Standards auswählen"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:61
+msgid "Blender Command (path)"
+msgstr "Blender-Befehl (Pfad)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:62
+msgid "blender"
+msgstr "Blender"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:63
+msgid "The path to the binary for Blender (version 5.0+)"
+msgstr "Der Pfad zur ausführbaren Datei von Blender (Version 5.0+)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:64
+msgid "Advanced Title Editor (path)"
+msgstr "Erweiterter Titel-Editor (Pfad)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:65
+msgid "inkscape"
+msgstr "Inkscape"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:66
+msgid "The path to the binary for Inkscape"
+msgstr "Der Pfad zur ausführbaren Datei von Inkscape"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:69
+msgid "Themes"
+msgstr "Themen"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:70
+msgid ""
+"OpenShot comes with 3 standard themes, which change the look and feel of the"
+" program."
+msgstr ""
+"OpenShot wird mit 3 Standardthemen geliefert, die das Aussehen und die "
+"Bedienung des Programms verändern."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:72
+#, fuzzy
+msgid ""
+"**Cosmic Dusk:** [Default Theme] A bluish theme with a more modern UI "
+"design, enhancing the visual aesthetics of the editor. This theme features "
+"shades of blue and purple, giving the interface a contemporary and dynamic "
+"feel. It combines modern aesthetics with functionality, offering a fresh and"
+" visually appealing workspace for video editing."
+msgstr ""
+"**Cosmic Dusk:** Ein bläuliches Thema mit modernerem UI-Design, das die "
+"visuelle Ästhetik des Editors verbessert. Dieses Thema verwendet Blau- und "
+"Lilatöne und verleiht der Oberfläche ein zeitgemäßes und dynamisches Gefühl."
+" Es verbindet moderne Ästhetik mit Funktionalität und bietet einen frischen "
+"und optisch ansprechenden Arbeitsbereich für die Videobearbeitung."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:73
+msgid ""
+"**Humanity Dark:** A dark theme with dark gray tones, providing a modern and"
+" sleek look. This theme is designed for users who prefer working in low-"
+"light conditions or who enjoy a more subdued and professional appearance. "
+"The dark gray background reduces glare and eye strain, making it suitable "
+"for extended editing sessions."
+msgstr ""
+"**Humanity Dark:** Ein dunkles Thema mit dunkelgrauen Tönen, das ein "
+"modernes und elegantes Aussehen bietet. Dieses Thema ist für Benutzer "
+"gedacht, die bevorzugt bei schlechten Lichtverhältnissen arbeiten oder ein "
+"zurückhaltenderes und professionelleres Erscheinungsbild bevorzugen. Der "
+"dunkelgraue Hintergrund reduziert Blendung und Augenbelastung, was es für "
+"längere Bearbeitungssitzungen geeignet macht."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:74
+msgid ""
+"**Retro:** A light theme that offers a classic and clean appearance. This "
+"theme uses light gray and white tones, making it ideal for users who prefer "
+"a bright and high-contrast interface. It provides a traditional look that is"
+" easy on the eyes, especially in well-lit environments."
+msgstr ""
+"**Retro:** Ein helles Thema mit klassischem und sauberem Erscheinungsbild. "
+"Dieses Thema verwendet hellgraue und weiße Töne und ist ideal für Benutzer, "
+"die eine helle und kontrastreiche Oberfläche bevorzugen. Es bietet ein "
+"traditionelles Aussehen, das besonders in gut beleuchteten Umgebungen "
+"angenehm für die Augen ist."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:79
+msgid "Restoring Defaults"
+msgstr "Standardeinstellungen wiederherstellen"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:80
+msgid ""
+"In OpenShot, each preferences category (or tab) in the Preferences window "
+"has a **Restore Defaults** button that allows you to easily reset the values"
+" for that specific category. This feature is particularly useful if you want"
+" to reset only certain parts of your preferences, like keyboard shortcuts, "
+"without affecting the rest of your custom settings."
+msgstr ""
+"In OpenShot hat jede Einstellungskategorie (oder Reiter) im "
+"Einstellungsfenster eine **Standardeinstellungen "
+"wiederherstellen**-Schaltfläche, mit der Sie die Werte für diese spezifische"
+" Kategorie einfach zurücksetzen können. Diese Funktion ist besonders "
+"nützlich, wenn Sie nur bestimmte Teile Ihrer Einstellungen, wie "
+"Tastenkürzel, zurücksetzen möchten, ohne die übrigen benutzerdefinierten "
+"Einstellungen zu beeinflussen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:84
+msgid ""
+"**Where to Find the Restore Defaults Button:** Each category or tab in the "
+"Preferences window has a **Restore Defaults** button located in the bottom "
+"left corner of the screen. The name of the button updates based on the "
+"category you’re viewing. For example, if you're in the \"Keyboard\" tab, the"
+" button will say **Restore Defaults: Keyboard**."
+msgstr ""
+"**Wo Sie die Schaltfläche zum Wiederherstellen der Standardeinstellungen "
+"finden:** Jede Kategorie oder jeder Reiter im Einstellungsfenster hat eine "
+"**Standardeinstellungen wiederherstellen**-Schaltfläche unten links im "
+"Bildschirm. Der Name der Schaltfläche passt sich der aktuell angezeigten "
+"Kategorie an. Wenn Sie beispielsweise im Reiter „Tastatur“ sind, lautet die "
+"Schaltfläche **Standardeinstellungen wiederherstellen: Tastatur**."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:89
+msgid ""
+"**How It Works:** Only the settings in the currently selected category will "
+"be restored to their default values. This selective restoration makes it "
+"easy to reset certain preferences without affecting others."
+msgstr ""
+"**Funktionsweise:** Es werden nur die Einstellungen der aktuell ausgewählten"
+" Kategorie auf die Standardwerte zurückgesetzt. Diese selektive "
+"Wiederherstellung erleichtert das Zurücksetzen bestimmter Einstellungen, "
+"ohne andere zu beeinflussen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:93
+msgid ""
+"**Tip for Beginners:** - If you're not sure about a change you've made in a "
+"particular category, don’t hesitate to use the **Restore Defaults** button. "
+"It’s a simple way to undo changes and get back to the default settings for "
+"that specific category without affecting your overall setup."
+msgstr ""
+"**Tipp für Anfänger:** - Wenn Sie sich bei einer Änderung in einer "
+"bestimmten Kategorie unsicher sind, zögern Sie nicht, die "
+"**Standardeinstellungen wiederherstellen**-Schaltfläche zu verwenden. Es ist"
+" eine einfache Möglichkeit, Änderungen rückgängig zu machen und zu den "
+"Standardwerten dieser Kategorie zurückzukehren, ohne Ihre gesamte "
+"Konfiguration zu beeinflussen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:99
+msgid "Timeline"
+msgstr "Zeitleiste"
+
+#: ../preferences.rst:103
+msgid ""
+"The Timeline tab controls default timeline behavior and clip/transition "
+"insertion defaults."
+msgstr ""
+"Die Registerkarte Zeitachse steuert das Standardverhalten der Zeitachse "
+"sowie die Standardwerte für das Einfügen von Clips/Übergängen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:111
+msgid "Thumbnail Style"
+msgstr "Miniaturansicht-Stil"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:111
+msgid "Entire Clip"
+msgstr "Gesamter Clip"
+
+#: ../preferences.rst:111
+msgid "Thumbnail density for the timeline"
+msgstr "Miniaturbilddichte für die Zeitachse"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:112
+msgid "Image Length (seconds)"
+msgstr "Bilddauer (Sekunden)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:112 ../preferences.rst:113
+msgid "10.00"
+msgstr "10,00"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:112
+msgid "Default duration for still images added to the timeline"
+msgstr "Standarddauer für Standbilder, die zur Zeitleiste hinzugefügt werden"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:113
+#, fuzzy
+msgid "Transition Length (seconds)"
+msgstr "Bilddauer (Sekunden)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:113
+msgid "Default duration for newly added transitions"
+msgstr "Standarddauer für neu hinzugefügte Übergänge"
+
+#: ../preferences.rst:114
+msgid "Waveform Samples (per second)"
+msgstr "Wellenform-Samples (pro Sekunde)"
+
+#: ../preferences.rst:114
+msgid "200"
+msgstr "200"
+
+#: ../preferences.rst:114
+msgid "Detail stored for new peak/RMS timeline waveforms (20–400)"
+msgstr ""
+"Detailgrad, der für neue Peak-/RMS-Zeitachsenwellenformen gespeichert wird "
+"(20–400)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:115
+msgid "Auto-Transition (overlap clips)"
+msgstr "Automatischer Übergang (Clips überlappen)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:115 ../preferences.rst:159 ../preferences.rst:342
+#: ../preferences.rst:348
+msgid "Enabled"
+msgstr "Aktiviert"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:115
+msgid "Automatically create transitions when clips overlap"
+msgstr "Übergänge automatisch erstellen, wenn sich Clips überlappen"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:121
+msgid "Preview"
+msgstr "Vorschau"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:125
+msgid ""
+"The Preview tab of the Preferences window controls real-time preview audio "
+"behavior, including device selection, sample rate, channels, buffering, "
+"playback volume, and optimized preview behavior."
+msgstr ""
+"Der Vorschau-Tab im Einstellungsfenster steuert das Echtzeit-Vorschau-"
+"Audioverhalten, einschließlich Gerätauswahl, Abtastrate, Kanäle, Pufferung, "
+"Wiedergabelautstärke und optimiertes Vorschauverhalten."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:134
+msgid "Playback Audio Device"
+msgstr "Audiowiedergabegerät"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:134
+msgid "Audio output device used during preview playback"
+msgstr "Während der Vorschau-Wiedergabe verwendetes Audioausgabegerät"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:135
+msgid "Default Audio Sample Rate"
+msgstr "Standard-Audioabtastrate"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:135
+#, fuzzy
+msgid "48000"
+msgstr "44100"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:135
+#, fuzzy
+msgid "Default preview sample rate"
+msgstr "Standard-Audioabtastrate"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:136
+msgid "Default Audio Channels"
+msgstr "Standard-Audiokanäle"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:136
+msgid "Stereo (2 Channel)"
+msgstr "Stereo (2 Kanäle)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:136
+msgid "Default preview channel layout"
+msgstr "Standard-Vorschau-Kanalbelegung"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:137
+msgid "Playback Audio Buffer Size"
+msgstr "Puffergröße für die Audiowiedergabe"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:137
+msgid "512"
+msgstr "512"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:137
+msgid "Audio samples buffered before playback begins (128 to 4096)"
+msgstr ""
+"Audio-Samples, die vor Wiedergabebeginn gepuffert werden (128 bis 4096)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:138
+msgid "Volume"
+msgstr "Lautstärke"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:138
+msgid "75"
+msgstr "75"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:138
+msgid "Preview playback volume percentage"
+msgstr "Vorschau-Wiedergabelautstärke in Prozent"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:139
+msgid "Concurrent Optimize Jobs"
+msgstr "Gleichzeitige Optimierungsaufträge"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:139
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:139
+msgid "Number of video files OpenShot can optimize at the same time"
+msgstr "Anzahl der Videodateien, die OpenShot gleichzeitig optimieren kann"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:140
+msgid "Optimized Preview Resolution"
+msgstr "Optimierte Vorschauauflösung"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:140
+msgid "1280x720"
+msgstr "1280x720"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:140
+msgid "Maximum resolution used when creating optimized preview files"
+msgstr ""
+"Maximale Auflösung, die bei der Erstellung optimierter Vorschaudateien "
+"verwendet wird"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:141
+msgid "Thumbnail Preload Rate / second"
+msgstr "Vorschaubild-Vorladerate pro Sekunde"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:141
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:141
+msgid ""
+"How many thumbnail preview frames per second are pre-generated while "
+"optimizing video"
+msgstr ""
+"Wie viele Vorschaubilder pro Sekunde während der Videooptimierung vorab "
+"generiert werden"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:145
+msgid "Autosave"
+msgstr "Automatisches Speichern"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:149
+msgid ""
+"Autosave is a feature in OpenShot which automatically saves the current "
+"changes to your project after a specific number of minutes, helping to "
+"reduce the risk or impact of data loss in case of a crash, freeze or user "
+"error."
+msgstr ""
+"Automatisches Speichern ist eine Funktion in OpenShot, die die aktuellen "
+"Änderungen an Ihrem Projekt nach einer bestimmten Anzahl von Minuten "
+"automatisch speichert, um das Risiko oder die Auswirkungen von "
+"Datenverlusten bei einem Absturz, Einfrieren oder Benutzerfehler zu "
+"verringern."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:159
+msgid "Enable Autosave"
+msgstr "Automatisches Speichern aktivieren"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:160
+msgid "Autosave Interval (minutes)"
+msgstr "Intervall für automatisches Speichern (Minuten)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:160
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:161
+msgid "History Limit (# of undo/redo)"
+msgstr "Verlaufslimit (Anzahl der Rückgängig/Wiederherstellen)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:161
+msgid "15"
+msgstr "15"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:162
+msgid "Recovery Limit (# of project copies)"
+msgstr "Wiederherstellungslimit (Anzahl der Projektkopien)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:162
+msgid "30"
+msgstr "30"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:166
+msgid "Recovery"
+msgstr "Wiederherstellung"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:168
+msgid ""
+"**Before each save**, a compressed ``*.zip`` copy of the current project is "
+"saved in the recovery folder, to further reduce the risk of data loss. The "
+"recovery folder is located at ``~/.openshot_qt/recovery/`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\recovery``."
+msgstr ""
+"**Vor jedem Speichern** wird eine komprimierte ``*.zip``-Kopie des aktuellen"
+" Projekts im Wiederherstellungsordner gespeichert, um das Risiko von "
+"Datenverlusten weiter zu verringern. Der Wiederherstellungsordner befindet "
+"sich unter ``~/.openshot_qt/recovery/`` oder "
+"``C:\\Users\\USERNAME\\.openshot_qt\\recovery``."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:172
+msgid ""
+"To recover a corrupt or broken ``*.osp`` project file, use the "
+":guilabel:`File->Recovery` menu on the main window after opening your "
+"project. If available, a list of matching project versions from the recovery"
+" folder are listed in chronological order (most recent one at the top). This"
+" will automatically rename your current project file to ``{project-"
+"name}-{time}-backup.osp``, and replace it with the recovery project file. "
+"You can repeat this process until you find the correct recovery project. "
+"NOTE: If for some unexpected reason the recovery process fails, you can "
+"always rename the \"-backup.osp\" file to the original project file name to "
+"restore it."
+msgstr ""
+"Um eine beschädigte oder defekte ``*.osp``-Projektdatei wiederherzustellen, "
+"verwenden Sie nach dem Öffnen Ihres Projekts das Menü "
+":guilabel:`Datei->Wiederherstellung` im Hauptfenster. Falls verfügbar, wird "
+"eine Liste passender Projektversionen aus dem Wiederherstellungsordner in "
+"chronologischer Reihenfolge angezeigt (die neueste oben). Dies benennt Ihre "
+"aktuelle Projektdatei automatisch in ``{project-name}-{time}-backup.osp`` um"
+" und ersetzt sie durch die Wiederherstellungsprojektdatei. Sie können diesen"
+" Vorgang wiederholen, bis Sie das richtige Wiederherstellungsprojekt "
+"gefunden haben. HINWEIS: Falls der Wiederherstellungsprozess aus "
+"unerwarteten Gründen fehlschlägt, können Sie die Datei \"-backup.osp\" "
+"jederzeit in den ursprünglichen Projektnamen umbenennen, um sie "
+"wiederherzustellen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:180
+msgid ""
+"To **manually** recover a corrupt or broken ``*.osp`` project file, please "
+"find the most recent copy in the recovery folder, and copy/paste the file "
+"into your original project folder location (i.e. the folder that contains "
+"your broken project). If the recovery file has been zipped (``*.zip``), you "
+"must first extract the ``*.osp``, and then copy it into your project folder."
+" Recovery files are named ``{time}-{project-name}``. You can also use the "
+"**Date Modified** on the file to select the version you are interested in "
+"recovering."
+msgstr ""
+"Um eine beschädigte oder defekte ``*.osp``-Projektdatei **manuell** "
+"wiederherzustellen, suchen Sie bitte die aktuellste Kopie im "
+"Wiederherstellungsordner und kopieren Sie die Datei in den ursprünglichen "
+"Projektordner (also den Ordner, der Ihr defektes Projekt enthält). Wenn die "
+"Wiederherstellungsdatei gezippt ist (``*.zip``), müssen Sie zuerst die "
+"``*.osp`` extrahieren und dann in Ihren Projektordner kopieren. "
+"Wiederherstellungsdateien sind nach dem Muster ``{time}-{project-name}`` "
+"benannt. Sie können auch das **Änderungsdatum** der Datei verwenden, um die "
+"Version auszuwählen, die Sie wiederherstellen möchten."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:190
+msgid "Cache"
+msgstr "Cache"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:194
+msgid ""
+"Cache settings can be adjusted to make real-time playback faster or less CPU"
+" intensive. The cache is used to store image and audio data for each frame "
+"of video requested. The more frames that are cached, the smoother the real-"
+"time playback will be. However, the more that needs to be cached requires "
+"more CPU to generate the cache. There is a balance, and the default settings"
+" provide a generally sane set of cache values, which should allow most "
+"computers to playback video and audio smoothly. See :ref:`playback_ref`."
+msgstr ""
+"Die Cache-Einstellungen können angepasst werden, um die Echtzeitwiedergabe "
+"schneller oder weniger CPU-intensiv zu machen. Der Cache wird verwendet, um "
+"Bild- und Audiodaten für jeden angeforderten Videoframe zu speichern. Je "
+"mehr Frames zwischengespeichert werden, desto flüssiger ist die "
+"Echtzeitwiedergabe. Allerdings erfordert das Zwischenspeichern mehr Frames "
+"auch mehr CPU-Leistung zur Erstellung des Caches. Es gibt ein Gleichgewicht,"
+" und die Standardeinstellungen bieten eine allgemein sinnvolle Cache-"
+"Konfiguration, die den meisten Computern eine flüssige Wiedergabe von Video "
+"und Audio ermöglichen sollte. Siehe :ref:`playback_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:206
+msgid "Cache Mode"
+msgstr "Cache-Modus"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:206
+msgid ""
+"Choose between Memory or Disk caching (memory caching is preferred). Disk "
+"caching writes image data to the hard disk for later retrieving, and works "
+"best with an SSD."
+msgstr ""
+"Wählen Sie zwischen Speicher- oder Festplatten-Cache (Speicher-Cache wird "
+"bevorzugt). Festplatten-Cache schreibt Bilddaten auf die Festplatte zur "
+"späteren Verwendung und funktioniert am besten mit einer SSD."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:207
+msgid "Cache Limit (MB)"
+msgstr "Cache-Limit (MB)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:207
+msgid ""
+"How many MB are set aside for cache related data. Larger numbers are not "
+"always better, since it takes more CPU to generate more frames to fill the "
+"cache."
+msgstr ""
+"Wie viele MB für cachebezogene Daten reserviert sind. Größere Zahlen sind "
+"nicht immer besser, da mehr CPU-Leistung benötigt wird, um mehr Frames für "
+"den Cache zu erzeugen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:208
+msgid "Image Format (Disk Only)"
+msgstr "Bildformat (nur Festplatte)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:208
+msgid "Image format to store disk cache image data"
+msgstr "Bildformat zur Speicherung der Festplatten-Cache-Bilddaten"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:209
+msgid "Scale Factor (Disk Only)"
+msgstr "Skalierungsfaktor (nur Festplatte)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:209
+msgid ""
+"Percentage (0.1 to 1.0) to reduce the size of disk based image files stored "
+"in the disk cache. Smaller numbers make writing and reading cached image "
+"files faster."
+msgstr ""
+"Prozentsatz (0,1 bis 1,0) zur Verkleinerung der Größe der auf der Festplatte"
+" gespeicherten Bilddateien im Cache. Kleinere Werte beschleunigen das "
+"Schreiben und Lesen der zwischengespeicherten Bilddateien."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:210
+msgid "Image Quality (Disk Only)"
+msgstr "Bildqualität (nur Festplatte)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:210
+msgid ""
+"Quality of the image files used in disk cache. The higher compression can "
+"cause more slowness, but results in smaller file sizes."
+msgstr ""
+"Qualität der im Festplatten-Cache verwendeten Bilddateien. Höhere "
+"Kompression kann zu mehr Verzögerungen führen, ergibt aber kleinere "
+"Dateigrößen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:211
+msgid "Cache Pre-roll: Min Frames:"
+msgstr "Cache Vorlauf: Minimale Frames:"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:211
+msgid ""
+"Minimum # of frames that must be cached before playback begins. The larger "
+"the #, the larger the wait before playback begins."
+msgstr ""
+"Minimale Anzahl an Frames, die zwischengespeichert sein müssen, bevor die "
+"Wiedergabe beginnt. Je größer die Anzahl, desto länger die Wartezeit vor "
+"Wiedergabebeginn."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:212
+msgid "Cache Pre-roll: Max Frames:"
+msgstr "Cache Vorlauf: Maximale Frames:"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:212
+msgid ""
+"Maximum # of frames that can be cached during playback (in front of the "
+"playhead). The larger the #, the more CPU is required to cache ahead - vs "
+"display the already cached frames."
+msgstr ""
+"Maximale Anzahl von Frames, die während der Wiedergabe zwischengespeichert "
+"werden können (vor dem Wiedergabekopf). Je größer die Anzahl, desto mehr CPU"
+" wird benötigt, um voraus zu cachen, anstatt bereits zwischengespeicherte "
+"Frames anzuzeigen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:213
+msgid "Cache Ahead (Percent):"
+msgstr "Voraus-Cache (Prozent):"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:213
+msgid ""
+"Between 0.0 and 1.0. This represents how much % we cache ahead of the "
+"playhead. For example, 0.5 would cache 50% behind and 50% ahead of the "
+"playhead. 0.8 would cache 20% behind and 80% ahead of the playhead."
+msgstr ""
+"Zwischen 0,0 und 1,0. Dies gibt an, wie viel Prozent wir vor dem "
+"Wiedergabekopf zwischenspeichern. Zum Beispiel würde 0,5 50 % hinter und 50 "
+"% vor dem Wiedergabekopf zwischenspeichern. 0,8 würde 20 % hinter und 80 % "
+"vor dem Wiedergabekopf zwischenspeichern."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:214
+msgid "Cache Max Frames:"
+msgstr "Maximale Anzahl der zwischengespeicherten Frames:"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:214
+#, fuzzy
+msgid ""
+"This is an override on the total allowed frames that can be cached by our "
+"caching thread. It defaults to 900 frames, but even if you give a huge "
+"amount of RAM to OpenShot's cache size, this will override the max # of "
+"frames cached. The reason is... sometimes when the preview window is very "
+"small, and the cache size is set very high, OpenShot might calculate that we"
+" can cache 30,000 frames, or something silly which will take a huge amount "
+"of CPU, lagging the system. This setting is designed to clamp the upper "
+"limit of the cache to something reasonable... even on systems that give "
+"OpenShot huge amounts of RAM to work with."
+msgstr ""
+"Dies überschreibt die insgesamt erlaubte Anzahl von Frames, die von unserem "
+"Cache-Thread zwischengespeichert werden können. Standardmäßig sind es 600 "
+"Frames, aber selbst wenn Sie OpenShot eine große Menge RAM für den Cache "
+"zuweisen, wird diese Einstellung die maximale Anzahl der "
+"zwischengespeicherten Frames überschreiben. Der Grund ist... manchmal, wenn "
+"das Vorschaufenster sehr klein ist und die Cache-Größe sehr hoch eingestellt"
+" ist, könnte OpenShot berechnen, dass wir 30.000 Frames oder mehr "
+"zwischenspeichern können, was eine enorme CPU-Belastung verursacht und das "
+"System verlangsamt. Diese Einstellung soll die obere Grenze des Caches auf "
+"einen vernünftigen Wert begrenzen... auch auf Systemen, die OpenShot große "
+"Mengen RAM zur Verfügung stellen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:217
+msgid ""
+"OpenShot's default cache settings now target a balanced preview experience: "
+"roughly **50% behind / 50% ahead** of the playhead, **768 MB** cache memory,"
+" and **900** max frames. In practice, this improves scrubbing and seek "
+"behavior while reducing stale preview frames on slower systems."
+msgstr ""
+"Die Standard-Cache-Einstellungen von OpenShot zielen jetzt auf ein "
+"ausgewogenes Vorschauerlebnis ab: etwa **50 % hinter / 50 % vor** dem "
+"Abspielkopf, **768 MB** Cache-Speicher und maximal **900** Frames. In der "
+"Praxis verbessert dies das Scrubbing und Suchverhalten und reduziert "
+"veraltete Vorschaubilder auf langsameren Systemen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:223
+msgid "Performance"
+msgstr "Leistung"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:226
+msgid ""
+"Please keep in mind that GPU hardware acceleration is experimental at the "
+"moment. OpenShot supports both decoding and encoding acceleration. For more "
+"information take a look at our `Github HW-ACCEL Doc "
+"<https://github.com/OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_. "
+"NOTE: On systems with older graphics cards, hardware acceleration may not "
+"always be faster than CPU encoding."
+msgstr ""
+"Bitte beachten Sie, dass die GPU-Hardwarebeschleunigung derzeit "
+"experimentell ist. OpenShot unterstützt sowohl die Beschleunigung von "
+"Decodierung als auch Kodierung. Für weitere Informationen siehe unser "
+"`Github HW-ACCEL Doc "
+"<https://github.com/OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_. "
+"HINWEIS: Auf Systemen mit älteren Grafikkarten ist die "
+"Hardwarebeschleunigung möglicherweise nicht immer schneller als die CPU-"
+"Kodierung."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:236
+msgid "Hardware Decoder Mode"
+msgstr "Hardware-Dekodiermodus"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:237
+msgid ""
+"Select the hardware decoding backend to use. Use :guilabel:`Test` to verify "
+"the selected decoder mode."
+msgstr ""
+"Wählen Sie das zu verwendende Hardware-Dekodier-Backend. Verwenden Sie "
+":guilabel:`Test`, um den ausgewählten Dekodiermodus zu überprüfen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:238
+msgid "Hardware Decoder Graphics Card"
+msgstr "Grafikkarte für Hardware-Dekodierung"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:239
+msgid "Choose which GPU device is used for hardware decoding."
+msgstr "Wählen Sie, welche GPU für die Hardware-Dekodierung verwendet wird."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:240
+msgid "Hardware Encoder Graphics Card"
+msgstr "Grafikkarte für Hardware-Kodierung"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:241
+msgid "Choose which GPU device is used for hardware encoding."
+msgstr "Wählen Sie, welche GPU für die Hardware-Kodierung verwendet wird."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:242
+msgid "OMP Threads"
+msgstr "OMP-Threads"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:243
+msgid ""
+"Number of OpenMP worker threads used by performance-sensitive processing."
+msgstr ""
+"Anzahl der OpenMP-Arbeitsthreads, die für leistungsintensive Verarbeitung "
+"verwendet werden."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:244
+msgid "FFmpeg Threads"
+msgstr "FFmpeg-Threads"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:245
+msgid "Number of FFmpeg threads used for decoding/encoding."
+msgstr ""
+"Anzahl der FFmpeg-Threads, die für das Dekodieren/Encodieren verwendet "
+"werden."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:246
+msgid "Hardware Decoder Max Width (0 = Default)"
+msgstr "Maximale Breite für Hardware-Dekodierung (0 = Standard)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:247
+msgid ""
+"Optional maximum width for hardware decoding. Use ``0`` for no explicit "
+"limit."
+msgstr ""
+"Optionale maximale Breite für die Hardware-Dekodierung. Verwenden Sie ``0`` "
+"für keine explizite Begrenzung."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:248
+msgid "Hardware Decoder Max Height (0 = Default)"
+msgstr "Maximale Höhe für Hardware-Dekodierung (0 = Standard)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:249
+msgid ""
+"Optional maximum height for hardware decoding. Use ``0`` for no explicit "
+"limit."
+msgstr ""
+"Optionale maximale Höhe für die Hardware-Dekodierung. Verwenden Sie ``0`` "
+"für keine explizite Begrenzung."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:250
+msgid "Use Blender GPU rendering for Animated Titles"
+msgstr "Blender-GPU-Rendering für animierte Titel verwenden"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:251
+msgid "Enable GPU rendering for Blender-based animated titles."
+msgstr "GPU-Rendering für Blender-basierte animierte Titel aktivieren."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:256
+msgid "Keyboard"
+msgstr "Tastatur"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:259
+msgid ""
+"This section allows you to view and customize hotkeys for various actions in"
+" the application. Here, you can assign and manage multiple shortcuts for the"
+" same action and restore default shortcuts if needed."
+msgstr ""
+"Dieser Abschnitt ermöglicht es Ihnen, Tastenkürzel für verschiedene Aktionen"
+" in der Anwendung anzusehen und anzupassen. Hier können Sie mehrere Kürzel "
+"für dieselbe Aktion zuweisen und bei Bedarf die Standardkürzel "
+"wiederherstellen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:262
+msgid ""
+"**Assign Multiple Shortcuts**: You can assign multiple keyboard shortcuts to"
+" the same action by separating them with a pipe (``|``) delimiter. This "
+"flexibility allows you to configure as many shortcuts as you need for each "
+"action."
+msgstr ""
+"**Mehrere Kürzel zuweisen**: Sie können mehrere Tastenkürzel für dieselbe "
+"Aktion zuweisen, indem Sie diese mit einem senkrechten Strich (``|``) "
+"trennen. Diese Flexibilität ermöglicht es Ihnen, so viele Kürzel wie nötig "
+"für jede Aktion zu konfigurieren."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:265
+msgid ""
+"**Immediate Application**: No restart is required after adjusting keyboard "
+"shortcuts. Changes are applied immediately, so you can start using your "
+"updated shortcuts right away."
+msgstr ""
+"**Sofortige Anwendung**: Nach der Anpassung der Tastenkürzel ist kein "
+"Neustart erforderlich. Änderungen werden sofort übernommen, sodass Sie Ihre "
+"aktualisierten Kürzel sofort verwenden können."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:268
+msgid ""
+"**Restore Default Shortcuts**: If needed, you can reset all keyboard "
+"shortcuts to their default settings by clicking on the :guilabel:`Restore "
+"Defaults: Keyboard` button located in the bottom-left corner of the "
+"Preferences screen."
+msgstr ""
+"**Standardkürzel wiederherstellen**: Bei Bedarf können Sie alle Tastenkürzel"
+" auf die Standardeinstellungen zurücksetzen, indem Sie auf die Schaltfläche "
+":guilabel:`Standard wiederherstellen: Tastatur` unten links im "
+"Einstellungsfenster klicken."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:271
+msgid ""
+"**Unique Shortcuts**: Each keyboard shortcut must be unique. If there are "
+"any duplicate shortcuts, they will be highlighted in **red** and will not "
+"function until the conflict is resolved."
+msgstr ""
+"**Eindeutige Kürzel**: Jedes Tastenkürzel muss eindeutig sein. Bei doppelten"
+" Kürzeln werden diese rot hervorgehoben und funktionieren nicht, bis der "
+"Konflikt behoben ist."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:275
+msgid ""
+"For more detailed information on how to use and customize keyboard "
+"shortcuts, see :ref:`keyboard_shortcut_ref`."
+msgstr ""
+"Für detailliertere Informationen zur Verwendung und Anpassung von "
+"Tastenkürzeln siehe :ref:`keyboard_shortcut_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:278
+msgid "Location"
+msgstr "Speicherort"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:282
+msgid ""
+"Default file path locations for saving/opening projects, importing files, "
+"and exporting videos can be configured here. This can save you time by "
+"defaulting the open/save file dialogs to the most appropriate starting "
+"folder (options described below)."
+msgstr ""
+"Standard-Dateipfade für das Speichern/Öffnen von Projekten, Importieren von "
+"Dateien und Exportieren von Videos können hier konfiguriert werden. Dies "
+"spart Zeit, indem die Öffnen/Speichern-Dialoge standardmäßig im jeweils "
+"passendsten Startordner geöffnet werden (Optionen unten beschrieben)."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:292
+msgid "File Import"
+msgstr "Dateiimport"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:292
+msgid "Default folder to choose when importing a file"
+msgstr "Standardordner für den Dateiimport"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:293
+msgid "Save or Open Project"
+msgstr "Projekt speichern oder öffnen"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:293
+msgid "Default folder to choose when saving or opening a project file"
+msgstr "Standardordner für das Speichern oder Öffnen eines Projektordners"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:294
+msgid "Video Export"
+msgstr "Videoexport"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:294
+msgid "Default folder to choose when exporting a video"
+msgstr "Standardordner für den Videoexport"
+
+#: ../preferences.rst:295
+msgid "Unsaved Project Assets Folder"
+msgstr "Ordner für nicht gespeicherte Projektressourcen"
+
+#: ../preferences.rst:295
+msgid "Folder for assets created before a project is saved (restart required)"
+msgstr ""
+"Ordner für Ressourcen, die vor dem Speichern eines Projekts erstellt wurden "
+"(Neustart erforderlich)"
+
+#: ../preferences.rst:298
+msgid ""
+"On Linux, the unsaved assets folder defaults to ``~/Videos/.openshot-tmp`` "
+"when ``~/Videos`` exists and the hidden child folder is writable. Otherwise,"
+" OpenShot uses ``~/.openshot_qt``, which is also the default on other "
+"platforms. You can choose a different folder in Preferences. Saving a "
+"project relocates its assets into the project's ``<project>_assets`` folder;"
+" subsequent titles and animations use that folder. These assets can include "
+"media needed by an unsaved project or crash recovery, so do not delete the "
+"folder as ordinary disposable cache data."
+msgstr ""
+"Unter Linux ist der Ordner für nicht gespeicherte Ressourcen standardmäßig "
+"``~/Videos/.openshot-tmp``, wenn ``~/Videos`` existiert und der versteckte "
+"Unterordner beschreibbar ist. Andernfalls verwendet OpenShot "
+"``~/.openshot_qt``, was auch auf anderen Plattformen der Standard ist. Sie "
+"können in den Einstellungen einen anderen Ordner wählen. Beim Speichern "
+"eines Projekts werden dessen Ressourcen in den Ordner ``<project>_assets`` "
+"des Projekts verschoben; nachfolgende Titel und Animationen verwenden diesen"
+" Ordner. Diese Ressourcen können Medien enthalten, die für ein nicht "
+"gespeichertes Projekt oder zur Wiederherstellung nach einem Absturz benötigt"
+" werden, daher löschen Sie den Ordner nicht als gewöhnlichen temporären "
+"Cache."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:310
+msgid "Values"
+msgstr "Werte"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:312
+msgid "**Recent Folder**"
+msgstr "**Zuletzt verwendeter Ordner**"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:312
+msgid ""
+"The last folder used for this same operation. Project folders, Import "
+"folders, and Export folders are tracked separately."
+msgstr ""
+"Der zuletzt für dieselbe Operation verwendete Ordner. Projektordner, "
+"Importordner und Exportordner werden separat verfolgt."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:313
+msgid "**Project Folder**"
+msgstr "**Projektordner**"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:313
+msgid ""
+"The current project folder (or the user's home folder, if the project is not"
+" yet saved)"
+msgstr ""
+"Der aktuelle Projektordner (oder der Benutzer-Home-Ordner, falls das Projekt"
+" noch nicht gespeichert wurde)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:319
+msgid "Advanced"
+msgstr "Erweitert"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:323
+msgid "The Advanced tab includes ComfyUI integration and debugging options."
+msgstr ""
+"Der Reiter Erweitert enthält ComfyUI-Integration und Debugging-Optionen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:332
+msgid "Comfy UI URL"
+msgstr "Comfy UI URL"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:333
+msgid "``http://127.0.0.1:8188``"
+msgstr "``http://127.0.0.1:8188``"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:334
+msgid "URL of your local or remote ComfyUI server"
+msgstr "URL Ihres lokalen oder entfernten ComfyUI-Servers"
+
+#: ../preferences.rst:335
+msgid "User Interface Debug Logging"
+msgstr "Debug-Protokollierung der Benutzeroberfläche"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:336 ../preferences.rst:339 ../preferences.rst:345
+#, fuzzy
+msgid "Disabled"
+msgstr "Aktiviert"
+
+#: ../preferences.rst:337
+msgid ""
+"Record interface and project details in ``openshot-qt.log``. The matching "
+"``--debug-ui`` (or ``--debug``) argument enables these details for one "
+"launch, including terminal output. See :ref:`logging_ref`."
+msgstr ""
+"Zeichnet Schnittstellen- und Projektdetails in ``openshot-qt.log`` auf. Das "
+"entsprechende Argument ``--debug-ui`` (oder ``--debug``) aktiviert diese "
+"Details für einen Start, einschließlich Terminalausgabe. Siehe "
+":ref:`logging_ref`."
+
+#: ../preferences.rst:338
+msgid "Video & Audio Engine Debug Logging"
+msgstr "Debug-Protokollierung der Video- und Audio-Engine"
+
+#: ../preferences.rst:340
+msgid ""
+"Record video and audio processing details in ``libopenshot.log``. The "
+"matching ``--debug-engine`` argument enables these details for one launch, "
+"including terminal output. Logs can grow quickly; turn off when finished. "
+"See :ref:`logging_ref`."
+msgstr ""
+"Zeichnet Details zur Video- und Audiobearbeitung in ``libopenshot.log`` auf."
+" Das entsprechende Argument ``--debug-engine`` aktiviert diese Details für "
+"einen Start, einschließlich Terminalausgabe. Protokolle können schnell "
+"wachsen; schalten Sie sie aus, wenn Sie fertig sind. Siehe "
+":ref:`logging_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:341
+msgid "Send Anonymous Metrics and Errors"
+msgstr "Anonyme Metriken und Fehler senden"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:343
+msgid "Send anonymous telemetry and error reports"
+msgstr "Anonyme Telemetrie- und Fehlerberichte senden"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:344
+msgid "Show Playback Performance (FPS)"
+msgstr "Wiedergabeleistung anzeigen (FPS)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:346
+msgid "Display live FPS in preview playback"
+msgstr "Live-FPS in der Vorschau-Wiedergabe anzeigen"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:347
+msgid "Show Export Dialog when Finished"
+msgstr "Exportdialog nach Abschluss anzeigen"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:349
+msgid "Display the Export Video window when export completes"
+msgstr ""
+"Das Fenster 'Video exportieren' anzeigen, wenn der Export abgeschlossen ist"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:351
+msgid ""
+"The ComfyUI **Check** button updates an inline status icon: green checkmark "
+"for success, red icon for failure. If OpenShot cannot reach this server, AI "
+"context menu options are hidden. See :ref:`ai_ref` for setup details, "
+"requirements, and workflow options."
+msgstr ""
+"Die ComfyUI-**Prüfen**-Schaltfläche aktualisiert ein Inline-Statussymbol: "
+"grünes Häkchen für Erfolg, rotes Symbol für Fehler. Wenn OpenShot diesen "
+"Server nicht erreichen kann, werden AI-Kontextmenüoptionen ausgeblendet. "
+"Siehe :ref:`ai_ref` für Einrichtungsdetails, Anforderungen und Workflow-"
+"Optionen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:358
+msgid "Reset (Default Values)"
+msgstr "Zurücksetzen (Standardwerte)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:360
+msgid ""
+"To reset **all** preferences to their default values, please delete the "
+"``openshot.settings`` file and re-launch OpenShot. The settings file can be "
+"located at this path: ``~/.openshot_qt/openshot.settings`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\openshot.settings``. When OpenShot is "
+"re-launched, it will create the missing ``openshot.settings`` file with "
+"default values."
+msgstr ""
+"Um **alle** Einstellungen auf die Standardwerte zurückzusetzen, löschen Sie "
+"bitte die Datei ``openshot.settings`` und starten OpenShot neu. Die "
+"Einstellungsdatei befindet sich unter folgendem Pfad: "
+"``~/.openshot_qt/openshot.settings`` oder "
+"``C:\\Users\\BENUTZERNAME\\.openshot_qt\\openshot.settings``. Beim Neustart "
+"erstellt OpenShot die fehlende ``openshot.settings``-Datei mit "
+"Standardwerten."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:365
+msgid ""
+"Optionally, you can delete the entire ``.openshot_qt/`` folder and re-launch"
+" OpenShot. However, please make a **backup** of any customized folders: "
+"**emojis, presets, profiles, recovery, title_templates, transitions, or "
+"yolo**. For example, your ``/recovery/`` sub-folder contains backup copies "
+"of all your existing projects (``*.osp`` files)."
+msgstr ""
+"Optional können Sie den gesamten Ordner ``.openshot_qt/`` löschen und "
+"OpenShot neu starten. Bitte erstellen Sie jedoch eine **Sicherungskopie** "
+"aller angepassten Ordner: **emojis, presets, profiles, recovery, "
+"title_templates, transitions oder yolo**. Zum Beispiel enthält Ihr "
+"Unterordner ``/recovery/`` Sicherungskopien aller vorhandenen Projekte "
+"(``*.osp``-Dateien)."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:370
+msgid ""
+"Deleting the ``.openshot_qt/`` folder is the quickest method to restore "
+"OpenShot preferences and settings to their Default values (i.e. also called "
+"a `clean install`). When OpenShot is re-launched, it will create any missing"
+" folders (i.e. ``.openshot_qt/``) and settings files. See our `step-by-step "
+"guide <https://github.com/OpenShot/openshot-qt/wiki/Clean-Installation-of-"
+"OpenShot>`_ for more information about **clean installs** of OpenShot."
+msgstr ""
+"Das Löschen des Ordners ``.openshot_qt/`` ist die schnellste Methode, um die"
+" OpenShot-Einstellungen und -Voreinstellungen auf die Standardwerte "
+"zurückzusetzen (auch als „Clean Install“ bezeichnet). Wenn OpenShot neu "
+"gestartet wird, erstellt es alle fehlenden Ordner (z. B. ``.openshot_qt/``) "
+"und Einstellungsdateien. Siehe unseren `Schritt-für-Schritt-Leitfaden "
+"<https://github.com/OpenShot/openshot-qt/wiki/Clean-Installation-of-"
+"OpenShot>`_ für weitere Informationen zu **Clean Installs** von OpenShot."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Debug Mode (Port)"
+#~ msgstr "Debug-Modus (Port)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "5556"
+#~ msgstr "5556"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Port used by debug logging features"
+#~ msgstr "Port, der von Debug-Logging-Funktionen verwendet wird"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Debug Mode (Verbose)"
+#~ msgstr "Debug-Modus (ausführlich)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Enable verbose debugging output"
+#~ msgstr "Ausführliche Debug-Ausgabe aktivieren"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The Timeline tab controls default timeline behavior, clip/transition "
+#~ "insertion defaults, and whether to use the new timeline backend or the "
+#~ "legacy web-based timeline."
+#~ msgstr ""
+#~ "Der Zeitleisten-Reiter steuert das Standardverhalten der Zeitleiste, die "
+#~ "Standardwerte für das Einfügen von Clips/Übergängen und ob das neue "
+#~ "Zeitleisten-Backend oder die alte webbasierte Zeitleiste verwendet wird."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Thumbnail density for the new timeline backend"
+#~ msgstr "Miniaturansicht-Dichte für das neue Zeitleisten-Backend"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Enable Legacy Timeline (web-based)"
+#~ msgstr "Alte Zeitleiste aktivieren (webbasiert)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Use the legacy web timeline (WebEngine/WebKit auto-select)"
+#~ msgstr ""
+#~ "Die alte webbasierte Zeitleiste verwenden (WebEngine/WebKit automatische "
+#~ "Auswahl)"

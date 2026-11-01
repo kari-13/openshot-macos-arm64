@@ -1,0 +1,449 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:23
+msgid "Playback"
+msgstr "Oynatma"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:24
+msgid ""
+"The preview window is where video & audio playback takes place in OpenShot "
+"Video Editor. The preview window utilizes real-time video rendering, "
+"caching, re-sampling, and image scaling. This is the primary area for "
+"watching back (and listening to) your edits, giving you the feedback needed "
+"to make adjustments. It is also one of the most costly operations to your "
+"CPU, and requires a modern computer and some reasonable assumptions and "
+"factors (listed below)."
+msgstr ""
+"Önizleme penceresi, OpenShot Video Editor'da video ve ses oynatımının "
+"gerçekleştiği yerdir. Önizleme penceresi gerçek zamanlı video işleme, "
+"önbellekleme, yeniden örnekleme ve görüntü ölçeklendirme kullanır. "
+"Düzenlemelerinizi izleyip dinleyebileceğiniz birincil alandır ve ayarlamalar "
+"yapmanız için gerekli geri bildirimi sağlar. Ayrıca CPU'nuz için en "
+"maliyetli işlemlerden biridir ve modern bir bilgisayar ile bazı makul "
+"varsayımlar ve faktörler gerektirir (aşağıda listelenmiştir)."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:30
+msgid "Real-Time Preview"
+msgstr "Gerçek Zamanlı Önizleme"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:31
+msgid ""
+"Many factors affect how smoothly the **real-time video preview** can "
+"playback on your computer. This requires a fast, modern multi-threaded CPU, "
+"lots of RAM (memory), and a modern GPU. We have listed many of the important "
+"factors below."
+msgstr ""
+"Birçok faktör, **gerçek zamanlı video önizlemesinin** bilgisayarınızda ne "
+"kadar akıcı oynatılacağını etkiler. Bu, hızlı, modern çok çekirdekli bir "
+"CPU, bol miktarda RAM (bellek) ve modern bir GPU gerektirir. Önemli "
+"faktörlerden birçoğunu aşağıda listeledik."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38
+msgid "Factor"
+msgstr "Faktör"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38 ../playback.rst:97
+msgid "Description"
+msgstr "Açıklama"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid "CPU"
+msgstr "CPU"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid ""
+"If your CPU is too slow or has too few cores, you will likely experience a "
+"slow, choppy preview. We recommend installing OpenShot on fairly modern "
+"computer. See :ref:`min_system_req_ref` for more details on the hardware "
+"requirements for OpenShot Video Editor."
+msgstr ""
+"CPU'nuz çok yavaşsa veya çekirdek sayısı azsa, muhtemelen yavaş ve takılmalı "
+"bir önizleme yaşarsınız. OpenShot'u oldukça modern bir bilgisayara kurmanızı "
+"öneririz. OpenShot Video Editor için donanım gereksinimleri hakkında daha "
+"fazla bilgi için :ref:`min_system_req_ref` adresine bakınız."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid "Memory"
+msgstr "Bellek"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid ""
+"If your available RAM memory is too limited, you will likely see huge drops "
+"in real-time performance, and your entire system will lag. We recommend "
+"installing additional RAM in your computer, if possible. See :ref:"
+"`min_system_req_ref`."
+msgstr ""
+"Kullanılabilir RAM belleğiniz çok sınırlıysa, gerçek zamanlı performansta "
+"büyük düşüşler görebilir ve tüm sisteminiz yavaşlayabilir. Mümkünse "
+"bilgisayarınıza ek RAM takmanızı öneririz. :ref:`min_system_req_ref` "
+"adresine bakınız."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid "Cache"
+msgstr "Önbellek"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid ""
+"Your cache settings in the OpenShot Preferences are very important for "
+"determining how many frames to processes in advance. A value too low or too "
+"high can cause lag during the real-time video preview. The cache is also "
+"related to the available RAM. The higher the cache values, the more RAM and "
+"CPU is needed. We recommend experimenting with the Cache Preferences in "
+"OpenShot if you are experiencing issues with smooth playback. This same "
+"caching system also prepares frames ahead of time during export, speeding up "
+"the final render. See :ref:`preferences_cache_ref`."
+msgstr ""
+"OpenShot Tercihlerindeki önbellek ayarlarınız, kaç kareyi önceden "
+"işleyeceğinizi belirlemek için çok önemlidir. Çok düşük veya çok yüksek bir "
+"değer, gerçek zamanlı video önizlemesinde gecikmeye neden olabilir. Önbellek "
+"aynı zamanda kullanılabilir RAM ile ilişkilidir. Önbellek değerleri ne kadar "
+"yüksekse, o kadar fazla RAM ve CPU gerekir. Akıcı oynatma sorunları "
+"yaşıyorsanız, OpenShot'taki Önbellek Tercihleri ile denemeler yapmanızı "
+"öneririz. Aynı önbellekleme sistemi, dışa aktarma sırasında da kareleri "
+"önceden hazırlar ve son render süresini hızlandırır. :ref:"
+"`preferences_cache_ref` adresine bakınız."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid "Preview Size"
+msgstr "Önizleme Boyutu"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid ""
+"The height x width of your preview dock (widget) is very important for "
+"smooth real-time previews. The larger the window size, the more pixels must "
+"be rendered per frame, and the more CPU and RAM are required. It is "
+"recommended to keep reducing the preview window size until you achieve "
+"smooth video playback. On a slower computer, the preview window size might "
+"need to be very small for real-time previews (i.e. 320 x 240)."
+msgstr ""
+"Önizleme panelinizin (widget) yükseklik x genişlik boyutu, akıcı gerçek "
+"zamanlı önizlemeler için çok önemlidir. Pencere boyutu ne kadar büyükse, "
+"kare başına o kadar çok piksel işlenmeli ve daha fazla CPU ile RAM gerekir. "
+"Akıcı video oynatma sağlanana kadar önizleme penceresi boyutunu küçültmeye "
+"devam etmeniz önerilir. Daha yavaş bilgisayarlarda, gerçek zamanlı "
+"önizlemeler için önizleme penceresi boyutu çok küçük olabilir (örneğin 320 x "
+"240)."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid "Profile"
+msgstr "Profil"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid ""
+"Your project profile determines which size (width x height) and frame rate "
+"(FPS) are used during both playback and exporting. For example, if you are "
+"using a FHD 1920x1080 sized profile, you can also choose a smaller profile "
+"with the same aspect ratio (``16x9`` in this example), to improve the "
+"preview speed on slower computers. See :ref:`profiles_ref` for more "
+"information on available profiles."
+msgstr ""
+"Proje profiliniz, hem oynatma hem de dışa aktarma sırasında kullanılacak "
+"boyut (genişlik x yükseklik) ve kare hızını (FPS) belirler. Örneğin, FHD "
+"1920x1080 boyutunda bir profil kullanıyorsanız, daha yavaş bilgisayarlarda "
+"önizleme hızını artırmak için aynı en-boy oranına sahip (bu örnekte "
+"``16x9``) daha küçük bir profil seçebilirsiniz. Mevcut profiller hakkında "
+"daha fazla bilgi için :ref:`profiles_ref` adresine bakınız."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid "FPS (Frame Rate)"
+msgstr "FPS (Kare Hızı)"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid ""
+"The FPS of your project is also very important, and a large factor for "
+"smooth video playback. For example, a 60 FPS video must render twice the "
+"number of frames, compared to a 30 FPS video. If you are experiencing slow "
+"downs in real-time performance, it can be helpful to reduce your project's "
+"FPS to a lower value, such as 30 or 24."
+msgstr ""
+"Projenizin FPS değeri de çok önemlidir ve akıcı video oynatma için büyük bir "
+"etkendir. Örneğin, 60 FPS bir video, 30 FPS bir videoya kıyasla iki kat kare "
+"işlenmelidir. Gerçek zamanlı performansta yavaşlama yaşıyorsanız, projenizin "
+"FPS değerini 30 veya 24 gibi daha düşük bir değere düşürmek faydalı olabilir."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid "Matching Rates"
+msgstr "Oranların Uyuşması"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid ""
+"It is very important to match your source assets FPS and Sample Rate with "
+"your Project FPS and Project sample rate. If either rate does not match "
+"exactly, it requires lots of additional CPU and RAM for OpenShot to "
+"normalize the mismatching rates. This can lead to audio pops, mis-"
+"alignments, duplicate frames, and extra lag in the real-time video preview. "
+"You can right-click a file and choose :guilabel:`File Properties`, to "
+"inspect the source asset rates, and ensure they match your Project settings "
+"(shown at the top of OpenShot). See :ref:`file_properties_ref`."
+msgstr ""
+"Kaynak varlıklarınızın FPS ve Örnekleme Hızını, Proje FPS ve Proje Örnekleme "
+"Hızı ile eşleştirmek çok önemlidir. Oranlardan biri tam olarak eşleşmezse, "
+"OpenShot'un uyumsuz oranları normalize etmesi için çok fazla ek CPU ve RAM "
+"gerekir. Bu, ses patlamalarına, hizalanma hatalarına, yinelenen karelere ve "
+"gerçek zamanlı video önizlemesinde ekstra gecikmeye yol açabilir. Bir "
+"dosyaya sağ tıklayıp :guilabel:`Dosya Özellikleri` ni seçerek kaynak varlık "
+"oranlarını inceleyebilir ve Proje ayarlarınızla eşleştiğinden emin "
+"olabilirsiniz (OpenShot'un üst kısmında gösterilir). :ref:"
+"`file_properties_ref` adresine bakınız."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid "Source Assets"
+msgstr "Kaynak Varlıklar"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid ""
+"For example, if you are editing 4K 60 FPS source assets, this is likely "
+"going to put a strain on your system. A common solution is using another "
+"tool (such as FFmpeg) to create a copy (or proxy) of all your source assets, "
+"at a lower resolution (and maybe even a lower FPS). It is recommended to "
+"keep these proxy video files in their own folder, separate from the original "
+"video files. Once you have completed your video editing with the proxy "
+"files, simply copy/paste your `*.osp` project file back into the original "
+"folder, and export the higher quality, original files."
+msgstr ""
+"Örneğin, 4K 60 FPS kaynak varlıkları düzenliyorsanız, bu muhtemelen "
+"sisteminize yük bindirecektir. Yaygın bir çözüm, FFmpeg gibi başka bir araç "
+"kullanarak tüm kaynak varlıklarınızın daha düşük çözünürlükte (ve belki daha "
+"düşük FPS'te) bir kopyasını (veya vekilini) oluşturmaktır. Bu vekil video "
+"dosyalarını, orijinal video dosyalarından ayrı kendi klasörlerinde tutmanız "
+"önerilir. Vekil dosyalarla video düzenlemenizi tamamladıktan sonra, `*.osp` "
+"proje dosyanızı orijinal klasöre kopyalayıp yapıştırarak daha yüksek "
+"kaliteli orijinal dosyaları dışa aktarabilirsiniz."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77 ../playback.rst:101
+msgid "Audio Device"
+msgstr "Ses Aygıtı"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77
+msgid ""
+"If you are still having issues with audio lag or sync, please verify you are "
+"using the correct :guilabel:`Playback Audio Device` for playback (in the "
+"OpenShot Preferences). See :ref:`preferences_preview_ref`. Verify your "
+"default audio device (on your operating system) is using the same sample "
+"rate and all *Audio Enhancements* are disabled. On certain operating systems "
+"(such as Windows), mismatching sample rates or audio enhancements can cause "
+"severe audio / video sync problems. Lastly, try adjusting the :guilabel:"
+"`Playback Audio Buffer Size` (lower values will playback audio with less "
+"delay, higher values will playback audio with a larger delay). OpenShot "
+"defaults to a buffer size of 512, which is reasonable for most systems, "
+"however on some systems you might need to lower (or raise) this value for "
+"smooth and lag-free audio playback. Be sure to restart OpenShot after "
+"changing the audio playback settings."
+msgstr ""
+"Ses gecikmesi veya senkronizasyon sorunları yaşamaya devam ediyorsanız, "
+"lütfen doğru :guilabel:`Playback Audio Device` (Oynatma Ses Cihazı) "
+"kullandığınızdan emin olun (OpenShot Tercihleri içinde). Bkz. :ref:"
+"`preferences_preview_ref`. Varsayılan ses cihazınızın (işletim sisteminizde) "
+"aynı örnekleme hızını kullandığını ve tüm *Ses İyileştirmelerinin* devre "
+"dışı olduğunu doğrulayın. Bazı işletim sistemlerinde (örneğin Windows), "
+"örnekleme hızlarının uyuşmaması veya ses iyileştirmeleri ciddi ses / video "
+"senkronizasyon sorunlarına neden olabilir. Son olarak, :guilabel:`Playback "
+"Audio Buffer Size` (Oynatma Ses Arabellek Boyutu) ayarını değiştirin (daha "
+"düşük değerler sesi daha az gecikmeyle oynatır, daha yüksek değerler ise "
+"daha fazla gecikmeyle oynatır). OpenShot varsayılan olarak 512 arabellek "
+"boyutunu kullanır, bu çoğu sistem için uygundur, ancak bazı sistemlerde "
+"sorunsuz ve gecikmesiz ses oynatımı için bu değeri düşürmeniz veya "
+"yükseltmeniz gerekebilir. Ses oynatma ayarlarını değiştirdikten sonra "
+"OpenShot'u yeniden başlatmayı unutmayın."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:89
+msgid "Audio Troubleshooting"
+msgstr "Ses Sorun Giderme"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:90
+msgid ""
+"If you are still experiencing audio related issues, and the above real-time "
+"playback factors did not resolve your issue, here are some additional "
+"troubleshooting steps you can take."
+msgstr ""
+"Sesle ilgili sorunlar yaşamaya devam ediyorsanız ve yukarıdaki gerçek "
+"zamanlı oynatma faktörleri sorununuzu çözmediyse, işte uygulayabileceğiniz "
+"bazı ek sorun giderme adımları."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:97
+msgid "Step"
+msgstr "Adım"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid "Latest Daily Build"
+msgstr "En Son Günlük Sürüm"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid ""
+"Verify you are running the latest daily build of OpenShot: https://www."
+"openshot.org/download#daily"
+msgstr ""
+"OpenShot'un en son günlük sürümünü kullandığınızdan emin olun: https://www."
+"openshot.org/download#daily"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "Clean Install"
+msgstr "Temiz Kurulum"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "See :ref:`preferences_reset_ref` for a clean install"
+msgstr "Temiz kurulum için bkz. :ref:`preferences_reset_ref`"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:101
+msgid ""
+"Check that the Playback Audio Device is set correctly for your sound output "
+"under Preferences in the Preview tab. Restart OpenShot after changing the "
+"settings. You can also try a different audio device (USB, audio over HDMI "
+"from the video card, headphones, etc.) to rule out other audio issues. "
+"Disable `automatic sound suppression` for voice calls during microphone "
+"activity, and disable `Audio Enhancements` under the advanced settings tab "
+"of your audio device (not all audio devices have these settings). See :ref:"
+"`preferences_preview_ref`."
+msgstr ""
+"Önizleme sekmesindeki Tercihler altında, Ses Çıkışınız için Oynatma Ses "
+"Cihazının doğru ayarlandığını kontrol edin. Ayarları değiştirdikten sonra "
+"OpenShot'u yeniden başlatın. Diğer ses sorunlarını elemek için farklı bir "
+"ses cihazı (USB, video kartından HDMI üzerinden ses, kulaklık vb.) "
+"deneyebilirsiniz. Mikrofon etkinliği sırasında sesli aramalar için `otomatik "
+"ses bastırmayı` devre dışı bırakın ve ses cihazınızın gelişmiş ayarlar "
+"sekmesinde `Ses İyileştirmeleri` ni kapatın (tüm ses cihazlarında bu ayarlar "
+"olmayabilir). Bkz. :ref:`preferences_preview_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid "Audio Buffer Size"
+msgstr "Ses Arabellek Boyutu"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid ""
+"The audio buffer size is the amount of audio samples which must first be "
+"buffered in OpenShot before audio playback can begin. If this value is too "
+"low, you might experience audio break-up / crackle / popping. If this value "
+"is too high, you might experience delays or lag before audio playback "
+"begins. OpenShot defaults this value to 512, which is a reasonable default "
+"for most systems, which should provide smooth audio playback with minimal "
+"noticeable lag or delay. However, on some systems this value might need to "
+"be adjusted up or down, for in-sync and lag-free audio playback. The range "
+"is 128 to 4096."
+msgstr ""
+"Ses arabellek boyutu, ses oynatımının başlamasından önce OpenShot'ta önceden "
+"tamponlanması gereken ses örneklerinin miktarıdır. Bu değer çok düşükse, "
+"sesin kopması / çatırdaması / patlaması gibi sorunlar yaşayabilirsiniz. Bu "
+"değer çok yüksekse, ses oynatımı başlamadan önce gecikme veya lag "
+"yaşayabilirsiniz. OpenShot bu değeri çoğu sistem için makul olan 512 olarak "
+"varsayar; bu, fark edilir gecikme veya lag olmadan düzgün ses oynatımı "
+"sağlar. Ancak, bazı sistemlerde senkronize ve gecikmesiz ses oynatımı için "
+"bu değerin artırılması veya azaltılması gerekebilir. Aralık 128 ile 4096 "
+"arasındadır."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid "Sample Rate"
+msgstr "Örnekleme Hızı"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid ""
+"Ensure that the `Default Audio Sample Rate` and `Default Audio Channels` on "
+"the Preview tab of the Preferences window match your hardware. You can also "
+"check these settings in the operating system control panel (i.e. Windows "
+"Sound Control Panel). See :ref:`preferences_preview_ref`."
+msgstr ""
+"Tercihler penceresindeki Önizleme sekmesinde bulunan `Varsayılan Ses "
+"Örnekleme Hızı` ve `Varsayılan Ses Kanalları` nın donanımınızla "
+"eşleştiğinden emin olun. Bu ayarları işletim sistemi kontrol panelinde "
+"(örneğin Windows Ses Kontrol Paneli) de kontrol edebilirsiniz. Bkz. :ref:"
+"`preferences_preview_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid "Volume"
+msgstr "Ses Seviyesi"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid ""
+"Ensure that the volume does not exceed 100% on overlapping clips (such as an "
+"audio track combined with a video track). Lower the volume on individual "
+"clips if needed. See :ref:`clip_volume_mixing_ref`."
+msgstr ""
+"Üst üste binen kliplerde (örneğin bir ses parçası ile video parçasının "
+"birleşimi) ses seviyesinin %100'ü aşmadığından emin olun. Gerekirse bireysel "
+"kliplerin ses seviyesini düşürün. Bkz. :ref:`clip_volume_mixing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid "Headphones"
+msgstr "Kulaklık"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid ""
+"If you're using headphones, plug them in before starting OpenShot. Launching "
+"OpenShot with no speakers, headphones, or valid audio playback device can "
+"cause OpenShot to freeze during playback."
+msgstr ""
+"Kulaklık kullanıyorsanız, OpenShot'u başlatmadan önce takın. Hoparlör, "
+"kulaklık veya geçerli bir ses oynatma cihazı olmadan OpenShot'u başlatmak, "
+"oynatma sırasında OpenShot'un donmasına neden olabilir."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid "OS Updates"
+msgstr "İşletim Sistemi Güncellemeleri"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid ""
+"Update your operating system and any pending security updates. Some audio "
+"issues, especially audio device specific issues, can be resolved with an "
+"operating system update."
+msgstr ""
+"İşletim sisteminizi ve bekleyen güvenlik güncellemelerini yapın. Bazı ses "
+"sorunları, özellikle ses cihazına özgü sorunlar, işletim sistemi "
+"güncellemesi ile çözülebilir."

@@ -1,0 +1,594 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:21
+msgid "Developers"
+msgstr "Kehittäjät"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:23
+msgid ""
+"If you are a programmer (or want to become a programmer), and are interested"
+" in developing new features, fixing bugs, or improving the user interface "
+"for OpenShot, the following sections will explain how to get started and get"
+" involved!"
+msgstr ""
+"Jos olet ohjelmoija (tai haluat tulla ohjelmoijaksi) ja olet kiinnostunut "
+"kehittämään uusia ominaisuuksia, korjaamaan virheitä tai parantamaan "
+"OpenShotin käyttöliittymää, seuraavat osiot selittävät, miten pääset alkuun "
+"ja osallistut!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:28
+msgid "The Big Picture"
+msgstr "Kokonaiskuva"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:29
+msgid ""
+"OpenShot Video Editor has 3 main components, a Python & PyQt user interface "
+"(:openshot-github:`openshot-qt`), a C++ audio library (:openshot-"
+"github:`libopenshot-audio`) and a C++ video library (:openshot-"
+"github:`libopenshot`). If you are not familiar with Python, PyQt, or C++, "
+"those would be great topics to research and learn more about at this point."
+msgstr ""
+"OpenShot Video Editorilla on kolme pääkomponenttia: Python- ja PyQt-"
+"käyttöliittymä (:openshot-github:`openshot-qt`), C++-äänikirjasto "
+"(:openshot-github:`libopenshot-audio`) ja C++-videokirjasto (:openshot-"
+"github:`libopenshot`). Jos et ole perehtynyt Pythoniin, PyQtiin tai C++:aan,"
+" nämä ovat hyviä aiheita tutkia ja oppia lisää tässä vaiheessa."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:35
+msgid ""
+"However, many bugs can be fixed and new features added with only Python "
+"knowledge, since the C++ components are not involved in the user interface "
+"at all. Python is an amazing language, and is super fun to learn, and is the"
+" only prerequisite skill needed to become an OpenShot developer!"
+msgstr ""
+"Monia virheitä voidaan kuitenkin korjata ja uusia ominaisuuksia lisätä "
+"pelkällä Python-osaamisella, koska C++-komponentit eivät osallistu lainkaan "
+"käyttöliittymään. Python on upea kieli, sen oppiminen on todella hauskaa, ja"
+" se on ainoa edellytys OpenShot-kehittäjäksi ryhtymiseen!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:42
+msgid ""
+"The instructions that follow are for Ubuntu Linux, which is the easiest "
+"environment to configure for OpenShot development. If you are using another "
+"OS, I suggest running a virtual machine with Ubuntu LTS before continuing "
+"any further."
+msgstr ""
+"Seuraavat ohjeet ovat Ubuntu Linuxille, joka on helpoin ympäristö "
+"konfiguroida OpenShot-kehitystä varten. Jos käytät toista "
+"käyttöjärjestelmää, suosittelen ajamaan virtuaalikoneen Ubuntu LTS:llä ennen"
+" jatkamista."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:47
+msgid ""
+"If you must use a Windows or Mac system for development, start by referring "
+"to the build notes in the ``libopenshot`` wiki. Building the library with "
+"all of its dependencies is the most challenging part of the process."
+msgstr ""
+"Jos kehitykseen on pakko käyttää Windows- tai Mac-järjestelmää, aloita "
+"tutustumalla ``libopenshot``-wikissä oleviin rakennusohjeisiin. Kirjaston "
+"rakentaminen kaikkine riippuvuuksineen on prosessin haastavin osa."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:51
+msgid ""
+":libopenshot-wiki:`Windows Build Instructions <Windows-Build-Instructions>`"
+msgstr ""
+":libopenshot-wiki:`Windowsin rakennusohjeet <Windows-Build-Instructions>`"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:52
+msgid ":libopenshot-wiki:`Mac Build Instructions <Mac-Build-Instructions>`"
+msgstr ":libopenshot-wiki:`Macin rakennusohjeet <Mac-Build-Instructions>`"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:55
+msgid "Getting the Latest Source Code"
+msgstr "Uusimman lähdekoodin hankkiminen"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:56
+msgid ""
+"Before we can fix any bugs or add any features, we need to get the source "
+"code onto your computer."
+msgstr ""
+"Ennen kuin voimme korjata virheitä tai lisätä ominaisuuksia, meidän täytyy "
+"saada lähdekoodi tietokoneellesi."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:59
+msgid "Use git to clone our 3 repositories:"
+msgstr "Käytä git:iä kloonaamaan kolme arkistoamme:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:68
+msgid "Configuring your Development Environment"
+msgstr "Kehitysympäristön konfigurointi"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:69
+msgid ""
+"In order to actually compile or run OpenShot, we need to install some "
+"dependencies on your system. The easiest way to accomplish this is with our "
+"`Daily PPA <https://www.openshot.org/ppa/>`_. A PPA is an unofficial Ubuntu "
+"repository, which has our software packages available to download and "
+"install."
+msgstr ""
+"Jotta voimme kääntää tai ajaa OpenShottia, meidän täytyy asentaa joitakin "
+"riippuvuuksia järjestelmääsi. Helpoin tapa tehdä tämä on käyttää `Daily PPA "
+"<https://www.openshot.org/ppa/>`_ -varastoa. PPA on epävirallinen Ubuntu-"
+"varasto, josta ohjelmistopakettimme ovat ladattavissa ja asennettavissa."
+
+#: ../developers.rst:110
+msgid ""
+"OpenShot supports PyQt5, PyQt6, and PySide6. libopenshot must be built "
+"against the correct Qt version for the binding you are using (Qt5: PyQt5, "
+"Qt6: PyQt6 or PySide6)."
+msgstr ""
+"OpenShot tukee PyQt5:tä, PyQt6:ta ja PySide6:ta. libopenshot on rakennettava"
+" oikeaa Qt-versiota vasten käyttämäsi sidoksen mukaan (Qt5: PyQt5, Qt6: "
+"PyQt6 tai PySide6)."
+
+#: ../developers.rst:114
+msgid "For PySide6 (Qt6) bindings, install these packages:"
+msgstr "PySide6 (Qt6) -sidoksia varten asenna nämä paketit:"
+
+#: ../developers.rst:127
+msgid "For PyQt6, install these packages:"
+msgstr "PyQt6:ta varten asenna nämä paketit:"
+
+#: ../developers.rst:137
+msgid ""
+"The PyQt6 runtime must provide ``QtCore``, ``QtGui``, ``QtWidgets``, "
+"``QtSvg``, ``QtStateMachine``, and ``uic``. Some distributions split these "
+"modules into separate packages. In particular, Ubuntu 24.04's "
+"``python3-pyqt6`` package does not include ``QtStateMachine``. On that "
+"release, use the PySide6 packages above or install the complete PyQt6 wheel "
+"in a Python virtual environment:"
+msgstr ""
+"PyQt6-ajonaikaisen ympäristön on tarjottava ``QtCore``, ``QtGui``, "
+"``QtWidgets``, ``QtSvg``, ``QtStateMachine`` ja ``uic``. Jotkut jakelut "
+"jakavat nämä moduulit erillisiin paketteihin. Erityisesti Ubuntun 24.04 "
+"``python3-pyqt6`` -paketti ei sisällä ``QtStateMachine``-moduulia. Tässä "
+"julkaisussa käytä yllä mainittuja PySide6-paketteja tai asenna täydellinen "
+"PyQt6-wheel Pythonin virtuaaliympäristöön:"
+
+#: ../developers.rst:149
+msgid ""
+"Verify the selected Qt binding and its required modules before launching "
+"OpenShot:"
+msgstr ""
+"Varmista valittu Qt-sidos ja sen vaaditut moduulit ennen OpenShotin "
+"käynnistämistä:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:157
+msgid ""
+"At this point, you should have all 3 OpenShot components source code cloned "
+"into local folders, the OpenShot daily PPA installed, and all of the "
+"required development and runtime dependencies installed. This is a great "
+"start, and we are now ready to start compiling some code!"
+msgstr ""
+"Tässä vaiheessa sinulla pitäisi olla kaikki kolme OpenShot-komponenttien "
+"lähdekoodia kloonattuna paikallisiin kansioihin, OpenShotin päivittäinen PPA"
+" asennettuna sekä kaikki tarvittavat kehitys- ja ajonaikaiset riippuvuudet "
+"asennettuna. Tämä on loistava alku, ja olemme nyt valmiita aloittamaan "
+"koodin kääntämisen!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:162
+msgid "libopenshot-audio (Build Instructions)"
+msgstr "libopenshot-audio (Rakennusohjeet)"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:163
+msgid ""
+"This library is required for audio playback and audio effects. It is based "
+"on the JUCE audio framework. Here are the commands to build it:"
+msgstr ""
+"Tämä kirjasto tarvitaan äänen toistoon ja ääni-efekteihin. Se perustuu JUCE-"
+"äänikehykseen. Tässä ovat komennot sen rakentamiseen:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:176
+msgid ""
+"Essentially, we are switching to the ``libopenshot-audio/build`` folder, "
+"then running ``cmake ..`` on the parent folder. This finds dependencies and "
+"creates all the needed Makefiles used to compile this library. Then ``make``"
+" uses those Makefiles to compile this library, and ``make install`` installs"
+" them in the location we specified. If ``CMAKE_INSTALL_PREFIX`` isn't set, "
+"the files will install to ``/usr/local/`` (by default) and ``make install`` "
+"will require administrative privileges to run."
+msgstr ""
+"Käytännössä siirrymme ``libopenshot-audio/build``-kansioon ja suoritetaan "
+"``cmake ..`` yläkansiossa. Tämä löytää riippuvuudet ja luo kaikki "
+"tarvittavat Makefile-tiedostot kirjaston kääntämistä varten. Sitten ``make``"
+" käyttää näitä Makefilejä kirjaston kääntämiseen, ja ``make install`` "
+"asentaa ne määrittämäämme sijaintiin. Jos ``CMAKE_INSTALL_PREFIX`` ei ole "
+"asetettu, tiedostot asennetaan oletuksena ``/usr/local/``-kansioon, ja "
+"``make install`` vaatii järjestelmänvalvojan oikeudet."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:184
+msgid "libopenshot (Build Instructions)"
+msgstr "libopenshot (Rakennusohjeet)"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:185
+msgid ""
+"This library is required for video decoding, encoding, animation, and just "
+"about everything else. It does all the heavy lifting of video editing and "
+"video playback. Here are the commands to build it:"
+msgstr ""
+"Tämä kirjasto tarvitaan videon purkuun, koodaukseen, animaatioon ja lähes "
+"kaikkeen muuhun. Se hoitaa videon editoinnin ja toiston raskaan työn. Tässä "
+"ovat komennot sen rakentamiseen:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:197
+msgid ""
+"Essentially, we are switching to the ``libopenshot/build`` folder, then "
+"running ``cmake ..`` on the parent folder. This finds dependencies and "
+"creates all the needed Makefiles used to compile this library. Then ``make``"
+" uses those Makefiles to compile this library. Because we provided the "
+"location of our compiled ``libopenshot-audio`` installation, that version of"
+" the library will be used instead of the system version (if any)."
+msgstr ""
+"Käytännössä siirrymme ``libopenshot/build``-kansioon ja suoritetaan ``cmake "
+"..`` yläkansiossa. Tämä löytää riippuvuudet ja luo kaikki tarvittavat "
+"Makefile-tiedostot kirjaston kääntämistä varten. Sitten ``make`` käyttää "
+"näitä Makefilejä kirjaston kääntämiseen. Koska annoimme käännetyn "
+"``libopenshot-audio``-asennuksen sijainnin, tätä versiota kirjastosta "
+"käytetään järjestelmän version sijaan (jos sellainen on)."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:204
+msgid ""
+"We don't install our ``libopenshot`` after building, because we don't need "
+"to. For testing purposes, we can tell OpenShot to use ``libopenshot`` right "
+"from our ``build`` directory."
+msgstr ""
+"Emme asenna ``libopenshot``-kirjastoa rakentamisen jälkeen, koska se ei ole "
+"tarpeen. Testausta varten voimme kertoa OpenShotille käyttämään "
+"``libopenshot``-kirjastoa suoraan ``build``-kansiostamme."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:208
+msgid "Language Bindings"
+msgstr "Kielisidokset"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:209
+msgid ""
+"The ``libopenshot`` API is available in several languages through SWIG "
+"bindings.  Python is used by the OpenShot user interface, and we also "
+"provide Ruby and Java bindings.  Experimental support for Godot **4.4** is "
+"included for developers who wish to integrate video editing features into "
+"the Godot game engine.  All of these bindings map to the same C++ codebase "
+"so you can edit video from the environment you prefer."
+msgstr ""
+"``libopenshot``-API on saatavilla useilla kielillä SWIG-sidosten kautta. "
+"Pythonia käyttää OpenShotin käyttöliittymä, ja tarjoamme myös Ruby- ja Java-"
+"sidokset. Kokeellinen tuki Godot **4.4**:lle on mukana kehittäjille, jotka "
+"haluavat integroida videoeditointiominaisuuksia Godot-pelimoottoriin. Kaikki"
+" nämä sidokset perustuvat samaan C++-koodipohjaan, joten voit muokata "
+"videoita haluamassasi ympäristössä."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:215
+msgid "openshot-qt (Launch Instructions)"
+msgstr "openshot-qt (Käynnistysohjeet)"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:216
+msgid ""
+"This is our main PyQt Python application. Because it is written in Python, "
+"it does not require any compiling to run. To launch OpenShot from the source"
+" code with our newly-built ``libopenshot-audio`` and ``libopenshot`` "
+"libraries, use the following commands:"
+msgstr ""
+"Tämä on pääasiallinen PyQt Python -sovelluksemme. Koska se on kirjoitettu "
+"Pythonilla, sen suorittamiseen ei tarvita kääntämistä. Käynnistääksesi "
+"OpenShotin lähdekoodista käyttäen juuri rakennettuja ``libopenshot-audio`` "
+"ja ``libopenshot`` -kirjastoja, käytä seuraavia komentoja:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:227
+msgid ""
+"This should launch the OpenShot user interface. Any changes you have made to"
+" the source code files (``*.py`` Python files, ``*.ui`` PyQt UI files, "
+"etc...) will be included. This requires the ``libopenshot-audio`` and "
+"``libopenshot`` libraries, and if anything went wrong with the steps above, "
+"OpenShot will likely not launch."
+msgstr ""
+"Tämän pitäisi käynnistää OpenShot-käyttöliittymä. Kaikki tekemäsi muutokset "
+"lähdekooditiedostoihin (``*.py`` Python-tiedostot, ``*.ui`` PyQt-"
+"käyttöliittymätiedostot jne.) sisällytetään. Tämä vaatii ``libopenshot-"
+"audio`` ja ``libopenshot`` -kirjastot, ja jos yllä olevissa vaiheissa meni "
+"jotain pieleen, OpenShot ei todennäköisesti käynnisty."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:233
+msgid ""
+"If OpenShot launches at this point, congratulations! You now have a working "
+"local version of OpenShot, which is running off your local source code. Try "
+"making some changes to the source code and re-launch OpenShot... you should "
+"now see your changes!"
+msgstr ""
+"Jos OpenShot käynnistyy tässä vaiheessa, onnittelut! Sinulla on nyt toimiva "
+"paikallinen versio OpenShotista, joka käyttää paikallista lähdekoodiasi. "
+"Kokeile tehdä muutoksia lähdekoodiin ja käynnistä OpenShot uudelleen... "
+"sinun pitäisi nyt nähdä muutoksesi!"
+
+#: ../developers.rst:239
+msgid "Command-Line Options"
+msgstr "Komentorivivaihtoehdot"
+
+#: ../developers.rst:241
+msgid ""
+"These options work with the installed OpenShot application, including "
+"``openshot-qt.exe`` on Windows. When running from source, use ``python3 "
+"src/launch.py`` in place of the application name. Put options before any "
+"file paths you want OpenShot to open."
+msgstr ""
+"Nämä vaihtoehdot toimivat asennetun OpenShot-sovelluksen kanssa, mukaan "
+"lukien ``openshot-qt.exe`` Windowsissa. Kun suoritat lähdekoodista, käytä "
+"sovelluksen nimen sijaan komentoa ``python3 src/launch.py``. Aseta "
+"vaihtoehdot ennen tiedostopolkuja, jotka haluat OpenShotin avaavan."
+
+#: ../developers.rst:246
+msgid "OpenShot command-line options"
+msgstr "OpenShotin komentorivivaihtoehdot"
+
+#: ../developers.rst:250
+msgid "Option"
+msgstr "Vaihtoehto"
+
+#: ../developers.rst:251
+msgid "What it does"
+msgstr "Toiminto"
+
+#: ../developers.rst:252
+msgid "``-h``, ``--help``"
+msgstr "``-h``, ``--help``"
+
+#: ../developers.rst:253
+msgid "Show the available options and exit."
+msgstr "Näytä käytettävissä olevat vaihtoehdot ja poistu."
+
+#: ../developers.rst:254
+msgid "``-V``, ``--version``"
+msgstr "``-V``, ``--version``"
+
+#: ../developers.rst:255
+msgid "Print the OpenShot version and exit."
+msgstr "Tulosta OpenShotin versio ja poistu."
+
+#: ../developers.rst:256
+msgid "``-l CODE``, ``--lang CODE``"
+msgstr "``-l CODE``, ``--lang CODE``"
+
+#: ../developers.rst:257
+msgid ""
+"Use the chosen interface language for this launch. The code must be one of "
+"those shown by ``--list-languages``."
+msgstr ""
+"Käytä valittua käyttöliittymän kieltä tässä käynnistyksessä. Koodin on "
+"oltava yksi niistä, jotka näkyvät komennolla ``--list-languages``."
+
+#: ../developers.rst:259
+msgid "``--list-languages``"
+msgstr "``--list-languages``"
+
+#: ../developers.rst:260
+msgid "List supported language codes and exit."
+msgstr "Listaa tuetut kielikoodit ja poistu."
+
+#: ../developers.rst:261
+msgid "``--path FOLDER``"
+msgstr "``--path FOLDER``"
+
+#: ../developers.rst:262
+msgid ""
+"Add a folder to the Python module search path. You can repeat this option to"
+" add more than one folder."
+msgstr ""
+"Lisää kansio Python-moduulien hakupolkuun. Voit toistaa tämän vaihtoehdon "
+"lisätäksesi useamman kansion."
+
+#: ../developers.rst:264
+msgid "``--feedback-preview``"
+msgstr "``--feedback-preview``"
+
+#: ../developers.rst:265
+msgid ""
+"Show the feedback notice on launch without marking the invitation as shown "
+"in saved settings."
+msgstr ""
+"Näytä palautteeseen liittyvä ilmoitus käynnistyksen yhteydessä merkitsemättä"
+" kutsua näytetyksi tallennetuissa asetuksissa."
+
+#: ../developers.rst:267
+msgid "``--update-preview``"
+msgstr "``--update-preview``"
+
+#: ../developers.rst:268
+msgid ""
+"Show the update notice on launch. Both preview options can be used together."
+msgstr ""
+"Näytä päivitysilmoitus käynnistyksen yhteydessä. Molempia "
+"esikatseluvaihtoehtoja voi käyttää yhdessä."
+
+#: ../developers.rst:269
+msgid "``--test-models``"
+msgstr "``--test-models``"
+
+#: ../developers.rst:270
+msgid ""
+"Enable Qt's data model tester for development (requires Qt 5.11 or later)."
+msgstr ""
+"Ota käyttöön Qt:n datamallin testaaja kehitystä varten (vaatii Qt 5.11 tai "
+"uudemman)."
+
+#: ../developers.rst:271
+msgid "``-d``, ``--debug``, ``--debug-ui``"
+msgstr "``-d``, ``--debug``, ``--debug-ui``"
+
+#: ../developers.rst:272
+msgid "Add detailed interface messages to its log file and the terminal."
+msgstr ""
+"Lisää yksityiskohtaiset käyttöliittymäviestit lokitiedostoon ja "
+"terminaaliin."
+
+#: ../developers.rst:273
+msgid "``--debug-engine``"
+msgstr "``--debug-engine``"
+
+#: ../developers.rst:274
+msgid ""
+"Add detailed video and audio engine messages to its log file and the "
+"terminal."
+msgstr ""
+"Lisää yksityiskohtaiset video- ja äänimoottorin viestit lokitiedostoon ja "
+"terminaaliin."
+
+#: ../developers.rst:275
+msgid "``--log-level LEVEL``"
+msgstr "``--log-level LEVEL``"
+
+#: ../developers.rst:276
+msgid ""
+"Set the logging level for both parts of OpenShot, in files and the terminal."
+msgstr ""
+"Aseta lokitustaso molemmille OpenShotin osille, tiedostoissa ja "
+"terminaalissa."
+
+#: ../developers.rst:277
+msgid "``--log-file-level LEVEL``"
+msgstr "``--log-file-level LEVEL``"
+
+#: ../developers.rst:278
+msgid "Set the logging level in both log files."
+msgstr "Aseta lokitustaso molemmissa lokitiedostoissa."
+
+#: ../developers.rst:279
+msgid "``--log-console-level LEVEL``"
+msgstr "``--log-console-level LEVEL``"
+
+#: ../developers.rst:280
+msgid "Set the logging level in the terminal for both parts of OpenShot."
+msgstr "Aseta lokitustaso terminaalissa molemmille OpenShotin osille."
+
+#: ../developers.rst:281
+msgid "``--debug-file``"
+msgstr "``--debug-file``"
+
+#: ../developers.rst:282
+msgid ""
+"Add detailed interface messages to its log file only. This older option is "
+"accepted but is not shown by ``--help``."
+msgstr ""
+"Lisää yksityiskohtaiset käyttöliittymäviestit vain lokitiedostoon. Tämä "
+"vanhempi vaihtoehto hyväksytään, mutta sitä ei näytetä komennolla "
+"``--help``."
+
+#: ../developers.rst:284
+msgid "``--debug-console``"
+msgstr "``--debug-console``"
+
+#: ../developers.rst:285
+msgid ""
+"Add detailed interface messages to the terminal only. This older option is "
+"accepted but is not shown by ``--help``."
+msgstr ""
+"Lisää yksityiskohtaiset käyttöliittymäviestit vain terminaaliin. Tämä "
+"vanhempi vaihtoehto hyväksytään, mutta sitä ei näytetä komennolla "
+"``--help``."
+
+#: ../developers.rst:287
+msgid "``PROJECT.osp`` or media file paths"
+msgstr "``PROJECT.osp`` tai mediatiedostopolut"
+
+#: ../developers.rst:288
+msgid ""
+"Open a project when the first file path ends in ``.osp``. Otherwise, start a"
+" new project and import the supplied media files."
+msgstr ""
+"Avaa projekti, kun ensimmäinen tiedostopolku päättyy ``.osp``. Muussa "
+"tapauksessa aloita uusi projekti ja tuo annetut mediatiedostot."
+
+#: ../developers.rst:291
+msgid ""
+"For ``LEVEL``, use ``debug``, ``info``, ``warning``, ``error``, "
+"``critical``, or ``off``. See :ref:`logging_ref` for log file locations, "
+"examples, and more about choosing logging options."
+msgstr ""
+"Käytä arvona ``LEVEL``: ``debug``, ``info``, ``warning``, ``error``, "
+"``critical`` tai ``off``. Katso :ref:`logging_ref` lokitiedostojen "
+"sijainnit, esimerkit ja lisätietoja lokitusvaihtoehtojen valinnasta."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:296
+msgid "GitHub Issues"
+msgstr "GitHub-ongelmat"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:297
+msgid ""
+"Now that you have successfully compiled and launched OpenShot Video Editor "
+"from source code, be sure to check out our list of bug reports on GitHub: "
+"`OpenShot Issues`_. Also, you are encouraged to fill out our quick "
+"`contributor form <https://forms.gle/CRqkS5tLMJE1V36V8>`_ and introduce "
+"yourself!"
+msgstr ""
+"Nyt kun olet onnistuneesti kääntänyt ja käynnistänyt OpenShot Video Editorin"
+" lähdekoodista, muista tutustua GitHubissa olevaan virheraporttilistaamme: "
+"`OpenShot Issues`_. Lisäksi sinua kannustetaan täyttämään nopea `contributor"
+" form <https://forms.gle/CRqkS5tLMJE1V36V8>`_ ja esittelemään itsesi!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:303
+msgid "Share your Changes"
+msgstr "Jaa muutoksesi"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:304
+msgid ""
+"Once you have fixed a bug or added an amazing new feature, be sure to share "
+"it with the OpenShot team. Ideally, we can merge this into our main source "
+"code branch. The easiest way to share your changes is by creating a fork of "
+"our repo, pushing your changes back to GitHub, and creating a `Pull "
+"Request`_. A Pull Request lets the OpenShot team know you have changes ready"
+" to be merged. Then we can review things, give feedback, and hopefully merge"
+" your changes into the main branch."
+msgstr ""
+"Kun olet korjannut virheen tai lisännyt upean uuden ominaisuuden, muista "
+"jakaa se OpenShot-tiimin kanssa. Ihanteellisesti voimme yhdistää tämän "
+"pääasialliseen lähdekoodin haaraamme. Helpoin tapa jakaa muutoksesi on luoda"
+" haarukka (fork) repostamme, työntää muutoksesi takaisin GitHubiin ja luoda "
+"`Pull Request`_. Pull Request ilmoittaa OpenShot-tiimille, että sinulla on "
+"muutoksia valmiina yhdistettäväksi. Sitten voimme tarkistaa asiat, antaa "
+"palautetta ja toivottavasti yhdistää muutoksesi päähaaraan."

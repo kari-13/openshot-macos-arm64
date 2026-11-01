@@ -1,0 +1,325 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-22 12:37-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:23
+msgid "Quick Tutorial"
+msgstr "快速教程"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:25
+msgid ""
+"Using OpenShot is very easy, and this tutorial will take you through the "
+"basics in **under 5 minutes**. After this tutorial, you will be able to make"
+" a simple photo slide-show with music."
+msgstr "使用 OpenShot 非常简单，本教程将在**5分钟内** 带您了解基础知识。完成本教程后，您将能够制作带有音乐的简单照片幻灯片。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:30
+msgid "Basic Terminology"
+msgstr "基本术语"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:31
+msgid ""
+"To help understand the steps below, here are some definitions of a few basic"
+" terms used in this tutorial."
+msgstr "为了帮助理解以下步骤，这里是本教程中使用的一些基本术语的定义。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:38
+msgid "Term"
+msgstr "术语"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:38
+msgid "Description"
+msgstr "描述"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:40
+msgid "Project"
+msgstr "项目"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:40
+msgid ""
+"A **project** includes references to all the video files and edits "
+"(animations, titles, etc...), saved in a single file."
+msgstr "一个**项目** 包含所有视频文件和编辑（动画、标题等）的引用，保存在单个文件中。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:41
+msgid "Timeline"
+msgstr "时间轴"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:41
+msgid ""
+"The **timeline** is an editing user interface that represents edits and "
+"clips on a horizontal ruler. Time progresses from left to right."
+msgstr "**时间轴** 是一个编辑界面，表示水平标尺上的编辑和剪辑。时间从左向右推进。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:42
+msgid "Track"
+msgstr "轨道"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:42
+msgid ""
+"A separate **layer** on the timeline, which can hold clips. A timeline is "
+"made up of many tracks, stacked vertically."
+msgstr "时间轴上的一个独立**图层** ，可以容纳剪辑。时间轴由多个垂直堆叠的轨道组成。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:43
+msgid "Clip"
+msgstr "剪辑"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:43
+msgid ""
+"A **trimmed** portion of video, audio, or both positioned on a track, and at"
+" a specific position in time. When files are dropped on the timeline, they "
+"are represented as a Clip."
+msgstr "在轨道上并位于特定时间位置的**剪切** 视频、音频或两者的部分。当文件被拖放到时间轴时，它们以剪辑形式显示。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:44
+msgid "Transition"
+msgstr "转场"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:44
+msgid ""
+"A method to **blend** two images. Transitions can take many forms, including"
+" cuts, dissolves, and wipes."
+msgstr "将两张图像**融合** 的方法。转场可以有多种形式，包括切换、溶解和擦除。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:48
+msgid "Video Tutorials"
+msgstr "视频教程"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:50
+msgid ""
+"If you prefer to learn by **watching videos** instead of reading, we have "
+"many official video tutorials that cover a wide range of beginner and "
+"introductory topics. These videos are a great next step on your way to "
+"master OpenShot Video Editor!"
+msgstr ""
+"如果您更喜欢通过**观看视频** 而非阅读来学习，我们提供了许多官方视频教程，涵盖广泛的初学者和入门主题。这些视频是您掌握 OpenShot Video"
+" Editor 的绝佳下一步！"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:54
+msgid "`Video: Getting Started <https://youtu.be/1k-ISfd-YBE>`_"
+msgstr ""
+"`视频：入门指南 <https://youtu.be/1k-ISfd-YBE>`_ `Video: Getting Started "
+"<https://youtu.be/1k-ISfd-YBE>`_"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:55
+msgid "`Video: The Basics (Part 1) <https://youtu.be/VE6awGSr22Q>`_"
+msgstr ""
+"`视频：基础知识（第一部分） <https://youtu.be/VE6awGSr22Q>`_ `Video: The Basics (Part 1) "
+"<https://youtu.be/VE6awGSr22Q>`_"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:56
+msgid "`Video: The Basics (Part 2) <https://youtu.be/6PA98QL9tkw>`_"
+msgstr ""
+"`视频：基础知识（第二部分） <https://youtu.be/6PA98QL9tkw>`_ `Video: The Basics (Part 2) "
+"<https://youtu.be/6PA98QL9tkw>`_"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:57
+msgid "`Video: Basic Animation <https://youtu.be/P3zIprwr1rk>`_"
+msgstr ""
+"`视频：基础动画 <https://youtu.be/P3zIprwr1rk>`_ `Video: Basic Animation "
+"<https://youtu.be/P3zIprwr1rk>`_"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:58
+msgid "`Video: Trim, Slice, and Split <https://youtu.be/BQS2tmgD_Rk>`_"
+msgstr ""
+"`视频：修剪、切片和分割 <https://youtu.be/BQS2tmgD_Rk>`_ `Video: Trim, Slice, and Split"
+" <https://youtu.be/BQS2tmgD_Rk>`_"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:59
+msgid "`Video: Chroma Key <https://youtu.be/2sushecqMs4>`_"
+msgstr ""
+"`视频：色度键 <https://youtu.be/2sushecqMs4>`_ `Video: Chroma Key "
+"<https://youtu.be/2sushecqMs4>`_"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:60
+msgid "`Video: Masks & Transitions <https://youtu.be/Hd9k3x0diOo>`_"
+msgstr ""
+"`视频：蒙版与转场 <https://youtu.be/Hd9k3x0diOo>`_ `Video: Masks & Transitions "
+"<https://youtu.be/Hd9k3x0diOo>`_"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:61
+msgid "`Video: Backup & Recovery <https://youtu.be/5XaWBTBTpTo>`_"
+msgstr ""
+"`视频：备份与恢复 <https://youtu.be/5XaWBTBTpTo>`_ `Video: Backup & Recovery "
+"<https://youtu.be/5XaWBTBTpTo>`_"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:64
+msgid "Step 1 – Import Photos & Music"
+msgstr "步骤 1 – 导入照片和音乐"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:66
+msgid ""
+"Before we can begin making a video, we need to import media files into "
+"OpenShot. Most video, image and music file formats will work. Drag and drop "
+"a few videos or images and a music file from your Desktop to OpenShot. Be "
+"sure to drop the files where the arrow in the illustration is pointing to."
+msgstr ""
+"在开始制作视频之前，我们需要将媒体文件导入 OpenShot。大多数视频、图像和音乐文件格式均可使用。将几个视频或图像以及一个音乐文件从桌面拖放到 "
+"OpenShot。请确保将文件放置在插图中箭头指示的位置。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:73
+msgid ""
+"Alternative methods to add files to your projects are described in the "
+"section :ref:`import_files_ref`. The \"Show All\", \"Video\", \"Audio\", "
+"\"Image\" filters above the added files allows you to only see the file "
+"types you are interested in."
+msgstr ""
+"添加文件到项目的其他方法请参见章节 :ref:`import_files_ref` "
+"。已添加文件上方的“显示全部”、“视频”、“音频”、“图像”筛选器可让您仅查看感兴趣的文件类型。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:78
+msgid "Step 2 – Add Photos to Timeline"
+msgstr "步骤 2 – 将照片添加到时间轴"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:80
+msgid ""
+"Next, drag each video or photo onto a track in the timeline (as seen in the "
+"illustration). The timeline represents your final video, so arrange your "
+"photos (i.e. clips) in whatever sequence you want them to appear in your "
+"video. If you overlap two clips, OpenShot will automatically create a smooth"
+" fade between them (only affects the image, and not audio), displayed by "
+"blue rounded rectangles between the clips. Remember, you can rearrange the "
+"clips as many times as needed by simply dragging and dropping them."
+msgstr ""
+"接下来，将每个视频或照片拖到时间轴中的轨道上（如图所示）。时间轴代表您的最终视频，因此请按您希望它们在视频中出现的顺序排列照片（即剪辑）。如果两个剪辑重叠，OpenShot"
+" 会自动在它们之间创建平滑的淡入淡出效果（仅影响图像，不影响音频），用蓝色圆角矩形显示在剪辑之间。记住，您可以通过拖放随时多次重新排列剪辑。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:87
+msgid ""
+"You can also shorten or lengthen each clip, by clicking the left or right "
+"edge and dragging your mouse. For example, if you want a photo to last "
+"longer than 10 seconds (the default duration), simply grab the right edge of"
+" the photo (on the timeline), and drag it to the right (to increase the "
+"clip's duration on the timeline)."
+msgstr ""
+"您还可以通过点击剪辑的左边缘或右边缘并拖动鼠标来缩短或延长剪辑。例如，如果您希望照片持续时间超过默认的10秒，只需抓住照片（在时间轴上）的右边缘，向右拖动即可延长剪辑在时间轴上的持续时间。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:95
+msgid "Step 3 – Add Music to Timeline"
+msgstr "步骤 3 – 将音乐添加到时间轴"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:97
+msgid ""
+"To make our creation more interesting, we need to add some music. Click on "
+"the music file that you imported in step 1, and drag it onto the timeline. "
+"If the song is too long, grab the right edge of your music clip, and resize "
+"it smaller (that will make it end earlier). You could also insert the same "
+"file multiple times, if your music is too short."
+msgstr ""
+"为了让作品更有趣，我们需要添加一些音乐。点击您在步骤1中导入的音乐文件，并将其拖到时间轴上。如果歌曲太长，抓住音乐剪辑的右边缘，缩小它（这样会提前结束）。如果音乐太短，您也可以多次插入同一个文件。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:105
+msgid "Step 4 – Preview your Project"
+msgstr "步骤 4 – 预览您的项目"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:107
+msgid ""
+"To preview what our video looks & sounds like, click the :guilabel:`Play` "
+"button under the preview window. You can also pause, rewind, and fast-"
+"forward your video project by clicking the corresponding buttons."
+msgstr "要预览视频的画面和声音，请点击预览窗口下方的 :guilabel:`播放` 按钮。您还可以通过点击相应按钮来暂停、倒带和快进视频项目。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:114
+msgid "Step 5 – Export your Video"
+msgstr "步骤 5 – 导出您的视频"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:115
+msgid ""
+"Once you have edited your photo slide-show video, the last step is to export"
+" the project. Exporting converts your OpenShot project into a single video "
+"output file. By using the default settings, the video works on most media "
+"players (such as VLC) or websites (such as YouTube, Vimeo, …)."
+msgstr ""
+"编辑完照片幻灯片视频后，最后一步是导出项目。导出会将您的 OpenShot 项目转换为单个视频输出文件。使用默认设置，视频可在大多数媒体播放器（如 "
+"VLC）或网站（如 YouTube、Vimeo 等）上播放。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:120
+msgid ""
+"Click on the Export Video icon at the top of the screen (or use the "
+":guilabel:`File→Export Video` menu). The default values will work fine, so "
+"just click the :guilabel:`Export Video` button to render your new video."
+msgstr ""
+"点击屏幕顶部的导出视频图标（或使用 :guilabel:`文件→导出视频` 菜单）。默认值即可正常使用，因此只需点击 :guilabel:` 导出视频`"
+" 按钮即可渲染新视频。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:127
+msgid "Conclusion"
+msgstr "结论"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:128
+msgid ""
+"You should now have a basic understanding of how OpenShot works. Importing, "
+"Arranging, Previewing, and Exporting. Hopefully this tutorial took less than"
+" **5 minutes** for you to complete. Please read the rest of this guide for a"
+" more detailed understanding of OpenShot and its advanced features."
+msgstr ""
+"您现在应该对 OpenShot 的基本操作有了了解，包括导入、排列、预览和导出。希望本教程能让您在 **5 分钟** "
+"内完成。请继续阅读本指南，以更详细地了解 OpenShot 及其高级功能。"
+
+# Translated with gpt-4.1-mini
+#: ../quick_tutorial.rst:133
+msgid ""
+"If you have any questions after reading this User Guide, please consider "
+"joining our `Reddit User Community <https://openshot.org/forum>`_ to discuss"
+" topics, ask questions, and meet with other OpenShot users."
+msgstr ""
+"阅读本用户指南后如果有任何疑问，请考虑加入我们的 `Reddit 用户社区 <https://openshot.org/forum>`_ "
+"，讨论话题、提问并与其他 OpenShot 用户交流。 `Reddit User Community "
+"<https://openshot.org/forum>`_"

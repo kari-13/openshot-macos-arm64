@@ -1,0 +1,588 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:21
+msgid "Developers"
+msgstr "Programeri"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:23
+msgid ""
+"If you are a programmer (or want to become a programmer), and are interested"
+" in developing new features, fixing bugs, or improving the user interface "
+"for OpenShot, the following sections will explain how to get started and get"
+" involved!"
+msgstr ""
+"Ako ste programer (ili želite postati programer) i zanima vas razvoj novih "
+"značajki, ispravljanje pogrešaka ili poboljšanje korisničkog sučelja za "
+"OpenShot, sljedeći odjeljci objasnit će kako započeti i uključiti se!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:28
+msgid "The Big Picture"
+msgstr "Šira slika"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:29
+msgid ""
+"OpenShot Video Editor has 3 main components, a Python & PyQt user interface "
+"(:openshot-github:`openshot-qt`), a C++ audio library (:openshot-"
+"github:`libopenshot-audio`) and a C++ video library (:openshot-"
+"github:`libopenshot`). If you are not familiar with Python, PyQt, or C++, "
+"those would be great topics to research and learn more about at this point."
+msgstr ""
+"OpenShot Video Editor ima 3 glavne komponente: Python & PyQt korisničko "
+"sučelje (:openshot-github:`openshot-qt`), C++ audio biblioteku (:openshot-"
+"github:`libopenshot-audio`) i C++ video biblioteku (:openshot-"
+"github:`libopenshot`). Ako niste upoznati s Pythonom, PyQt-om ili C++, ovo "
+"su izvrsne teme za istraživanje i učenje u ovom trenutku."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:35
+msgid ""
+"However, many bugs can be fixed and new features added with only Python "
+"knowledge, since the C++ components are not involved in the user interface "
+"at all. Python is an amazing language, and is super fun to learn, and is the"
+" only prerequisite skill needed to become an OpenShot developer!"
+msgstr ""
+"Međutim, mnoge se pogreške mogu ispraviti i nove značajke dodati samo s "
+"poznavanjem Pythona, budući da C++ komponente uopće nisu uključene u "
+"korisničko sučelje. Python je izvanredan jezik, vrlo zabavan za učenje i "
+"jedina je preduvjetna vještina potrebna za postati OpenShot programer!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:42
+msgid ""
+"The instructions that follow are for Ubuntu Linux, which is the easiest "
+"environment to configure for OpenShot development. If you are using another "
+"OS, I suggest running a virtual machine with Ubuntu LTS before continuing "
+"any further."
+msgstr ""
+"Upute koje slijede namijenjene su za Ubuntu Linux, koji je najjednostavnije "
+"okruženje za konfiguraciju razvoja OpenShota. Ako koristite drugi operativni"
+" sustav, preporučujem pokretanje virtualnog stroja s Ubuntu LTS prije "
+"nastavka."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:47
+msgid ""
+"If you must use a Windows or Mac system for development, start by referring "
+"to the build notes in the ``libopenshot`` wiki. Building the library with "
+"all of its dependencies is the most challenging part of the process."
+msgstr ""
+"Ako morate koristiti Windows ili Mac sustav za razvoj, započnite pregledom "
+"bilješki o izgradnji u ``libopenshot`` wikiju. Izgradnja biblioteke sa svim "
+"njezinim ovisnostima najzahtjevniji je dio procesa."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:51
+msgid ""
+":libopenshot-wiki:`Windows Build Instructions <Windows-Build-Instructions>`"
+msgstr ""
+":libopenshot-wiki:`Upute za izgradnju na Windowsu <Windows-Build-"
+"Instructions>`"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:52
+msgid ":libopenshot-wiki:`Mac Build Instructions <Mac-Build-Instructions>`"
+msgstr ""
+":libopenshot-wiki:`Upute za izgradnju na Macu <Mac-Build-Instructions>`"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:55
+msgid "Getting the Latest Source Code"
+msgstr "Preuzimanje najnovijeg izvornog koda"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:56
+msgid ""
+"Before we can fix any bugs or add any features, we need to get the source "
+"code onto your computer."
+msgstr ""
+"Prije nego što možemo ispraviti pogreške ili dodati značajke, moramo "
+"preuzeti izvorni kod na vaš računalni sustav."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:59
+msgid "Use git to clone our 3 repositories:"
+msgstr "Koristite git za kloniranje naša 3 spremišta:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:68
+msgid "Configuring your Development Environment"
+msgstr "Konfiguriranje vašeg razvojog okruženja"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:69
+msgid ""
+"In order to actually compile or run OpenShot, we need to install some "
+"dependencies on your system. The easiest way to accomplish this is with our "
+"`Daily PPA <https://www.openshot.org/ppa/>`_. A PPA is an unofficial Ubuntu "
+"repository, which has our software packages available to download and "
+"install."
+msgstr ""
+"Da bismo mogli kompajlirati ili pokrenuti OpenShot, potrebno je instalirati "
+"neke ovisnosti na vaš sustav. Najlakši način za to je korištenje našeg "
+"`Daily PPA <https://www.openshot.org/ppa/>`_. PPA je neslužbeni Ubuntu "
+"repozitorij koji sadrži naše softverske pakete dostupne za preuzimanje i "
+"instalaciju."
+
+#: ../developers.rst:110
+msgid ""
+"OpenShot supports PyQt5, PyQt6, and PySide6. libopenshot must be built "
+"against the correct Qt version for the binding you are using (Qt5: PyQt5, "
+"Qt6: PyQt6 or PySide6)."
+msgstr ""
+"OpenShot podržava PyQt5, PyQt6 i PySide6. libopenshot mora biti izgrađen za "
+"ispravnu verziju Qt-a za vezu koju koristite (Qt5: PyQt5, Qt6: PyQt6 ili "
+"PySide6)."
+
+#: ../developers.rst:114
+msgid "For PySide6 (Qt6) bindings, install these packages:"
+msgstr "Za PySide6 (Qt6) veze, instalirajte ove pakete:"
+
+#: ../developers.rst:127
+msgid "For PyQt6, install these packages:"
+msgstr "Za PyQt6, instalirajte ove pakete:"
+
+#: ../developers.rst:137
+msgid ""
+"The PyQt6 runtime must provide ``QtCore``, ``QtGui``, ``QtWidgets``, "
+"``QtSvg``, ``QtStateMachine``, and ``uic``. Some distributions split these "
+"modules into separate packages. In particular, Ubuntu 24.04's "
+"``python3-pyqt6`` package does not include ``QtStateMachine``. On that "
+"release, use the PySide6 packages above or install the complete PyQt6 wheel "
+"in a Python virtual environment:"
+msgstr ""
+"PyQt6 runtime mora pružiti ``QtCore``, ``QtGui``, ``QtWidgets``, ``QtSvg``, "
+"``QtStateMachine`` i ``uic``. Neke distribucije dijele ove module u zasebne "
+"pakete. Konkretno, paket ``python3-pyqt6`` za Ubuntu 24.04 ne uključuje "
+"``QtStateMachine``. Na toj verziji koristite gore navedene PySide6 pakete "
+"ili instalirajte kompletan PyQt6 wheel u Python virtualnom okruženju:"
+
+#: ../developers.rst:149
+msgid ""
+"Verify the selected Qt binding and its required modules before launching "
+"OpenShot:"
+msgstr ""
+"Provjerite odabranu Qt vezu i potrebne module prije pokretanja OpenShot-a:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:157
+msgid ""
+"At this point, you should have all 3 OpenShot components source code cloned "
+"into local folders, the OpenShot daily PPA installed, and all of the "
+"required development and runtime dependencies installed. This is a great "
+"start, and we are now ready to start compiling some code!"
+msgstr ""
+"U ovom trenutku trebali biste imati kloniran izvorni kod svih 3 OpenShot "
+"komponenti u lokalne mape, instaliran OpenShot dnevni PPA i sve potrebne "
+"razvojne i runtime ovisnosti. To je izvrstan početak i sada smo spremni za "
+"kompajliranje koda!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:162
+msgid "libopenshot-audio (Build Instructions)"
+msgstr "libopenshot-audio (Upute za izgradnju)"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:163
+msgid ""
+"This library is required for audio playback and audio effects. It is based "
+"on the JUCE audio framework. Here are the commands to build it:"
+msgstr ""
+"Ova biblioteka je potrebna za reprodukciju zvuka i audio efekte. Temelji se "
+"na JUCE audio okviru. Evo naredbi za izgradnju:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:176
+msgid ""
+"Essentially, we are switching to the ``libopenshot-audio/build`` folder, "
+"then running ``cmake ..`` on the parent folder. This finds dependencies and "
+"creates all the needed Makefiles used to compile this library. Then ``make``"
+" uses those Makefiles to compile this library, and ``make install`` installs"
+" them in the location we specified. If ``CMAKE_INSTALL_PREFIX`` isn't set, "
+"the files will install to ``/usr/local/`` (by default) and ``make install`` "
+"will require administrative privileges to run."
+msgstr ""
+"U osnovi, prelazimo u mapu ``libopenshot-audio/build``, zatim pokrećemo "
+"``cmake ..`` u roditeljskoj mapi. To pronalazi ovisnosti i stvara sve "
+"potrebne Makefile-ove za kompajliranje ove biblioteke. Zatim ``make`` "
+"koristi te Makefile-ove za kompajliranje biblioteke, a ``make install`` ih "
+"instalira na mjesto koje smo naveli. Ako ``CMAKE_INSTALL_PREFIX`` nije "
+"postavljen, datoteke će se instalirati u ``/usr/local/`` (zadano) i za "
+"pokretanje ``make install`` bit će potrebne administratorske ovlasti."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:184
+msgid "libopenshot (Build Instructions)"
+msgstr "libopenshot (Upute za izgradnju)"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:185
+msgid ""
+"This library is required for video decoding, encoding, animation, and just "
+"about everything else. It does all the heavy lifting of video editing and "
+"video playback. Here are the commands to build it:"
+msgstr ""
+"Ova biblioteka je potrebna za dekodiranje, kodiranje, animaciju i gotovo sve"
+" ostalo vezano uz video. Obavlja sav teški posao video uređivanja i "
+"reprodukcije. Evo naredbi za izgradnju:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:197
+msgid ""
+"Essentially, we are switching to the ``libopenshot/build`` folder, then "
+"running ``cmake ..`` on the parent folder. This finds dependencies and "
+"creates all the needed Makefiles used to compile this library. Then ``make``"
+" uses those Makefiles to compile this library. Because we provided the "
+"location of our compiled ``libopenshot-audio`` installation, that version of"
+" the library will be used instead of the system version (if any)."
+msgstr ""
+"U osnovi, prelazimo u mapu ``libopenshot/build``, zatim pokrećemo ``cmake "
+"..`` u roditeljskoj mapi. To pronalazi ovisnosti i stvara sve potrebne "
+"Makefile-ove za kompajliranje ove biblioteke. Zatim ``make`` koristi te "
+"Makefile-ove za kompajliranje biblioteke. Budući da smo naveli lokaciju naše"
+" kompajlirane ``libopenshot-audio`` instalacije, ta će se verzija biblioteke"
+" koristiti umjesto sistemske (ako postoji)."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:204
+msgid ""
+"We don't install our ``libopenshot`` after building, because we don't need "
+"to. For testing purposes, we can tell OpenShot to use ``libopenshot`` right "
+"from our ``build`` directory."
+msgstr ""
+"Nakon izgradnje ne instaliramo naš ``libopenshot``, jer to nije potrebno. Za"
+" potrebe testiranja možemo reći OpenShotu da koristi ``libopenshot`` izravno"
+" iz naše ``build`` mape."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:208
+msgid "Language Bindings"
+msgstr "Poveznice za jezike"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:209
+msgid ""
+"The ``libopenshot`` API is available in several languages through SWIG "
+"bindings.  Python is used by the OpenShot user interface, and we also "
+"provide Ruby and Java bindings.  Experimental support for Godot **4.4** is "
+"included for developers who wish to integrate video editing features into "
+"the Godot game engine.  All of these bindings map to the same C++ codebase "
+"so you can edit video from the environment you prefer."
+msgstr ""
+"``libopenshot`` API dostupan je na nekoliko jezika putem SWIG poveznica. "
+"Python koristi korisničko sučelje OpenShota, a također pružamo Ruby i Java "
+"poveznice. Eksperimentalna podrška za Godot **4.4** uključena je za "
+"programere koji žele integrirati značajke uređivanja videa u Godot game "
+"engine. Sve ove poveznice mapiraju se na isti C++ kod, tako da možete "
+"uređivati video u okruženju koje preferirate."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:215
+msgid "openshot-qt (Launch Instructions)"
+msgstr "openshot-qt (Upute za pokretanje)"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:216
+msgid ""
+"This is our main PyQt Python application. Because it is written in Python, "
+"it does not require any compiling to run. To launch OpenShot from the source"
+" code with our newly-built ``libopenshot-audio`` and ``libopenshot`` "
+"libraries, use the following commands:"
+msgstr ""
+"Ovo je naša glavna PyQt Python aplikacija. Budući da je napisana u Pythonu, "
+"nije potrebna nikakva kompilacija za pokretanje. Za pokretanje OpenShota iz "
+"izvornog koda s našim novokomponiranim ``libopenshot-audio`` i "
+"``libopenshot`` bibliotekama, koristite sljedeće naredbe:"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:227
+msgid ""
+"This should launch the OpenShot user interface. Any changes you have made to"
+" the source code files (``*.py`` Python files, ``*.ui`` PyQt UI files, "
+"etc...) will be included. This requires the ``libopenshot-audio`` and "
+"``libopenshot`` libraries, and if anything went wrong with the steps above, "
+"OpenShot will likely not launch."
+msgstr ""
+"Ovo bi trebalo pokrenuti OpenShot korisničko sučelje. Sve promjene koje ste "
+"napravili u izvornoj kodnoj datoteci (``*.py`` Python datoteke, ``*.ui`` "
+"PyQt UI datoteke itd.) bit će uključene. Ovo zahtijeva biblioteke "
+"``libopenshot-audio`` i ``libopenshot``, a ako je nešto pošlo po zlu u "
+"prethodnim koracima, OpenShot se vjerojatno neće pokrenuti."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:233
+msgid ""
+"If OpenShot launches at this point, congratulations! You now have a working "
+"local version of OpenShot, which is running off your local source code. Try "
+"making some changes to the source code and re-launch OpenShot... you should "
+"now see your changes!"
+msgstr ""
+"Ako se OpenShot u ovom trenutku pokrene, čestitamo! Sada imate radnu lokalnu"
+" verziju OpenShota koja se izvodi iz vašeg lokalnog izvornog koda. Pokušajte"
+" napraviti neke promjene u izvornom kodu i ponovno pokrenuti OpenShot... "
+"sada biste trebali vidjeti svoje promjene!"
+
+#: ../developers.rst:239
+msgid "Command-Line Options"
+msgstr "Opcije naredbenog retka"
+
+#: ../developers.rst:241
+msgid ""
+"These options work with the installed OpenShot application, including "
+"``openshot-qt.exe`` on Windows. When running from source, use ``python3 "
+"src/launch.py`` in place of the application name. Put options before any "
+"file paths you want OpenShot to open."
+msgstr ""
+"Ove opcije rade s instaliranom OpenShot aplikacijom, uključujući ``openshot-"
+"qt.exe`` na Windowsu. Kada pokrećete iz izvornog koda, koristite ``python3 "
+"src/launch.py`` umjesto imena aplikacije. Opcije stavite ispred bilo kojih "
+"putanja do datoteka koje želite da OpenShot otvori."
+
+#: ../developers.rst:246
+msgid "OpenShot command-line options"
+msgstr "OpenShot opcije naredbenog retka"
+
+#: ../developers.rst:250
+msgid "Option"
+msgstr "Opcija"
+
+#: ../developers.rst:251
+msgid "What it does"
+msgstr "Što radi"
+
+#: ../developers.rst:252
+msgid "``-h``, ``--help``"
+msgstr "``-h``, ``--help``"
+
+#: ../developers.rst:253
+msgid "Show the available options and exit."
+msgstr "Prikaži dostupne opcije i izađi."
+
+#: ../developers.rst:254
+msgid "``-V``, ``--version``"
+msgstr "``-V``, ``--version``"
+
+#: ../developers.rst:255
+msgid "Print the OpenShot version and exit."
+msgstr "Ispiši verziju OpenShota i izađi."
+
+#: ../developers.rst:256
+msgid "``-l CODE``, ``--lang CODE``"
+msgstr "``-l CODE``, ``--lang CODE``"
+
+#: ../developers.rst:257
+msgid ""
+"Use the chosen interface language for this launch. The code must be one of "
+"those shown by ``--list-languages``."
+msgstr ""
+"Koristi odabrani jezik sučelja za ovo pokretanje. Kod mora biti jedan od "
+"onih prikazanih naredbom ``--list-languages``."
+
+#: ../developers.rst:259
+msgid "``--list-languages``"
+msgstr "``--list-languages``"
+
+#: ../developers.rst:260
+msgid "List supported language codes and exit."
+msgstr "Prikaži popis podržanih jezičnih kodova i izađi."
+
+#: ../developers.rst:261
+msgid "``--path FOLDER``"
+msgstr "``--path FOLDER``"
+
+#: ../developers.rst:262
+msgid ""
+"Add a folder to the Python module search path. You can repeat this option to"
+" add more than one folder."
+msgstr ""
+"Dodaj mapu u putanju pretraživanja Python modula. Ovu opciju možete ponoviti"
+" za dodavanje više mapa."
+
+#: ../developers.rst:264
+msgid "``--feedback-preview``"
+msgstr "``--feedback-preview``"
+
+#: ../developers.rst:265
+msgid ""
+"Show the feedback notice on launch without marking the invitation as shown "
+"in saved settings."
+msgstr ""
+"Prikaži obavijest o povratnoj informaciji pri pokretanju bez označavanja "
+"poziva kao prikazanog u spremljenim postavkama."
+
+#: ../developers.rst:267
+msgid "``--update-preview``"
+msgstr "``--update-preview``"
+
+#: ../developers.rst:268
+msgid ""
+"Show the update notice on launch. Both preview options can be used together."
+msgstr ""
+"Prikaži obavijest o ažuriranju pri pokretanju. Obje opcije pregleda mogu se "
+"koristiti zajedno."
+
+#: ../developers.rst:269
+msgid "``--test-models``"
+msgstr "``--test-models``"
+
+#: ../developers.rst:270
+msgid ""
+"Enable Qt's data model tester for development (requires Qt 5.11 or later)."
+msgstr ""
+"Omogući Qt-ov tester podataka modela za razvoj (zahtijeva Qt 5.11 ili "
+"noviji)."
+
+#: ../developers.rst:271
+msgid "``-d``, ``--debug``, ``--debug-ui``"
+msgstr "``-d``, ``--debug``, ``--debug-ui``"
+
+#: ../developers.rst:272
+msgid "Add detailed interface messages to its log file and the terminal."
+msgstr "Dodaj detaljne poruke sučelja u datoteku dnevnika i terminal."
+
+#: ../developers.rst:273
+msgid "``--debug-engine``"
+msgstr "``--debug-engine``"
+
+#: ../developers.rst:274
+msgid ""
+"Add detailed video and audio engine messages to its log file and the "
+"terminal."
+msgstr ""
+"Dodaj detaljne poruke video i audio motora u datoteku dnevnika i terminal."
+
+#: ../developers.rst:275
+msgid "``--log-level LEVEL``"
+msgstr "``--log-level LEVEL``"
+
+#: ../developers.rst:276
+msgid ""
+"Set the logging level for both parts of OpenShot, in files and the terminal."
+msgstr ""
+"Postavi razinu zapisivanja za oba dijela OpenShota, u datotekama i "
+"terminalu."
+
+#: ../developers.rst:277
+msgid "``--log-file-level LEVEL``"
+msgstr "``--log-file-level LEVEL``"
+
+#: ../developers.rst:278
+msgid "Set the logging level in both log files."
+msgstr "Postavi razinu zapisivanja u obje datoteke dnevnika."
+
+#: ../developers.rst:279
+msgid "``--log-console-level LEVEL``"
+msgstr "``--log-console-level LEVEL``"
+
+#: ../developers.rst:280
+msgid "Set the logging level in the terminal for both parts of OpenShot."
+msgstr "Postavi razinu zapisivanja u terminalu za oba dijela OpenShota."
+
+#: ../developers.rst:281
+msgid "``--debug-file``"
+msgstr "``--debug-file``"
+
+#: ../developers.rst:282
+msgid ""
+"Add detailed interface messages to its log file only. This older option is "
+"accepted but is not shown by ``--help``."
+msgstr ""
+"Dodaj detaljne poruke sučelja samo u datoteku dnevnika. Ova starija opcija "
+"je prihvaćena, ali nije prikazana naredbom ``--help``."
+
+#: ../developers.rst:284
+msgid "``--debug-console``"
+msgstr "``--debug-console``"
+
+#: ../developers.rst:285
+msgid ""
+"Add detailed interface messages to the terminal only. This older option is "
+"accepted but is not shown by ``--help``."
+msgstr ""
+"Dodaj detaljne poruke sučelja samo u terminal. Ova starija opcija je "
+"prihvaćena, ali nije prikazana naredbom ``--help``."
+
+#: ../developers.rst:287
+msgid "``PROJECT.osp`` or media file paths"
+msgstr "``PROJECT.osp`` ili putanje do medijskih datoteka"
+
+#: ../developers.rst:288
+msgid ""
+"Open a project when the first file path ends in ``.osp``. Otherwise, start a"
+" new project and import the supplied media files."
+msgstr ""
+"Otvori projekt ako prva putanja datoteke završava s ``.osp``. Inače, započni"
+" novi projekt i uvezi navedene medijske datoteke."
+
+#: ../developers.rst:291
+msgid ""
+"For ``LEVEL``, use ``debug``, ``info``, ``warning``, ``error``, "
+"``critical``, or ``off``. See :ref:`logging_ref` for log file locations, "
+"examples, and more about choosing logging options."
+msgstr ""
+"Za ``LEVEL`` koristite ``debug``, ``info``, ``warning``, ``error``, "
+"``critical`` ili ``off``. Pogledajte :ref:`logging_ref` za lokacije datoteka"
+" dnevnika, primjere i više o odabiru opcija zapisivanja."
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:296
+msgid "GitHub Issues"
+msgstr "GitHub Problemi"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:297
+msgid ""
+"Now that you have successfully compiled and launched OpenShot Video Editor "
+"from source code, be sure to check out our list of bug reports on GitHub: "
+"`OpenShot Issues`_. Also, you are encouraged to fill out our quick "
+"`contributor form <https://forms.gle/CRqkS5tLMJE1V36V8>`_ and introduce "
+"yourself!"
+msgstr ""
+"Sada kada ste uspješno kompajlirali i pokrenuli OpenShot Video Editor iz "
+"izvornog koda, svakako pogledajte naš popis prijava grešaka na GitHubu: "
+"`OpenShot Issues`_. Također, potičemo vas da ispunite naš brzi `obrazac za "
+"suradnike <https://forms.gle/CRqkS5tLMJE1V36V8>`_ i predstavite se!"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:303
+msgid "Share your Changes"
+msgstr "Podijelite svoje promjene"
+
+# Translated with gpt-4.1-mini
+#: ../developers.rst:304
+msgid ""
+"Once you have fixed a bug or added an amazing new feature, be sure to share "
+"it with the OpenShot team. Ideally, we can merge this into our main source "
+"code branch. The easiest way to share your changes is by creating a fork of "
+"our repo, pushing your changes back to GitHub, and creating a `Pull "
+"Request`_. A Pull Request lets the OpenShot team know you have changes ready"
+" to be merged. Then we can review things, give feedback, and hopefully merge"
+" your changes into the main branch."
+msgstr ""
+"Kada ispravite grešku ili dodate sjajnu novu značajku, svakako je podijelite"
+" s OpenShot timom. Idealno bi bilo da to spojimo u naš glavni izvorni kod. "
+"Najlakši način za dijeljenje vaših promjena je stvaranje forka našeg "
+"repozitorija, slanje vaših promjena natrag na GitHub i stvaranje `Pull "
+"Request`_. Pull Request obavještava OpenShot tim da imate promjene spremne "
+"za spajanje. Tada možemo pregledati, dati povratne informacije i nadamo se "
+"spojiti vaše promjene u glavni ogranak."

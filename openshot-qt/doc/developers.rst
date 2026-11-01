@@ -1,0 +1,323 @@
+.. Copyright (c) 2008-2026 OpenShot Studios, LLC
+ (http://www.openshotstudios.com). This file is part of
+ OpenShot Video Editor (http://www.openshot.org), an open-source project
+ dedicated to delivering high quality video editing and animation solutions
+ to the world.
+
+.. OpenShot Video Editor is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+.. OpenShot Video Editor is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+.. You should have received a copy of the GNU General Public License
+ along with OpenShot Library.  If not, see <http://www.gnu.org/licenses/>.
+
+Developers
+==========
+
+If you are a programmer (or want to become a programmer), and are interested in
+developing new features, fixing bugs, or improving the user interface for OpenShot,
+the following sections will explain how to get started and get involved!
+
+The Big Picture
+---------------
+OpenShot Video Editor has 3 main components, a Python & PyQt user interface
+(:openshot-github:`openshot-qt`), a C++ audio library
+(:openshot-github:`libopenshot-audio`) and a C++ video library
+(:openshot-github:`libopenshot`). If you are not familiar with Python,
+PyQt, or C++, those would be great topics to research and learn more about at this point.
+
+However, many bugs can be fixed and new features added with only Python knowledge, since the C++
+components are not involved in the user interface at all. Python is an amazing language, and
+is super fun to learn, and is the only prerequisite skill needed to become an OpenShot
+developer!
+
+.. warning::
+
+    The instructions that follow are for Ubuntu Linux,
+    which is the easiest environment to configure for OpenShot development.
+    If you are using another OS,
+    I suggest running a virtual machine with Ubuntu LTS before continuing any further.
+
+    If you must use a Windows or Mac system for development,
+    start by referring to the build notes in the ``libopenshot`` wiki.
+    Building the library with all of its dependencies is the most challenging part of the process.
+    
+    * :libopenshot-wiki:`Windows Build Instructions <Windows-Build-Instructions>`
+    * :libopenshot-wiki:`Mac Build Instructions <Mac-Build-Instructions>`
+
+Getting the Latest Source Code
+------------------------------
+Before we can fix any bugs or add any features, we need to get the source code onto your
+computer.
+
+Use git to clone our 3 repositories:
+
+.. code-block:: bash
+
+   git clone https://github.com/OpenShot/libopenshot-audio.git
+   git clone https://github.com/OpenShot/libopenshot.git
+   git clone https://github.com/OpenShot/openshot-qt.git
+
+Configuring your Development Environment
+-----------------------------------------
+In order to actually compile or run OpenShot, we need to install some dependencies on your system. The
+easiest way to accomplish this is with our `Daily PPA <https://www.openshot.org/ppa/>`_. A PPA is an
+unofficial Ubuntu repository, which has our software packages available to download and install.
+
+.. code-block:: bash
+
+   sudo add-apt-repository ppa:openshot.developers/libopenshot-daily
+   sudo apt-get update
+   sudo apt-get install openshot-qt \
+                        build-essential \
+                        cmake \
+                        catch2 \
+                        libx11-dev \
+                        libasound2-dev \
+                        libavcodec-dev \
+                        libavdevice-dev \
+                        libavfilter-dev \
+                        libavformat-dev \
+                        libavresample-dev \
+                        libavutil-dev \
+                        libfdk-aac-dev \
+                        libfreetype6-dev \
+                        libjsoncpp-dev \
+                        libmagick++-dev \
+                        libopenshot-audio-dev \
+                        libprotobuf-dev \
+                        libqt5svg5-dev \
+                        libswscale-dev \
+                        libunittest++-dev \
+                        libxcursor-dev \
+                        libxinerama-dev \
+                        libxrandr-dev \
+                        pkg-config \
+                        python3-dev \
+                        protobuf-compiler \
+                        qtbase5-dev \
+                        libqt5svg5-dev \
+                        libxcb-xfixes0-dev \
+                        qtmultimedia5-dev \
+                        swig
+
+OpenShot supports PyQt5, PyQt6, and PySide6. libopenshot must be built
+against the correct Qt version for the binding you are using
+(Qt5: PyQt5, Qt6: PyQt6 or PySide6).
+
+For PySide6 (Qt6) bindings, install these packages:
+
+.. code-block:: bash
+
+   sudo apt-get install \
+                        python3-pyside6.qtcore \
+                        python3-pyside6.qtgui \
+                        python3-pyside6.qtwidgets \
+                        python3-pyside6.qtstatemachine \
+                        python3-pyside6.qtsvg \
+                        python3-pyside6.qtuitools \
+                        shiboken6
+
+For PyQt6, install these packages:
+
+.. code-block:: bash
+
+   sudo apt-get install \
+                        qt6-base-dev \
+                        qt6-base-dev-tools \
+                        qt6-tools-dev \
+                        qt6-svg-dev
+
+The PyQt6 runtime must provide ``QtCore``, ``QtGui``, ``QtWidgets``,
+``QtSvg``, ``QtStateMachine``, and ``uic``. Some distributions split these
+modules into separate packages. In particular, Ubuntu 24.04's
+``python3-pyqt6`` package does not include ``QtStateMachine``. On that
+release, use the PySide6 packages above or install the complete PyQt6 wheel
+in a Python virtual environment:
+
+.. code-block:: bash
+
+   python3 -m venv .venv
+   .venv/bin/python -m pip install PyQt6
+
+Verify the selected Qt binding and its required modules before launching
+OpenShot:
+
+.. code-block:: bash
+
+   PYTHONPATH=src OPENSHOT_QT_API=pyqt6 .venv/bin/python -c \
+       "from qt_api import QT_API, QStateMachine; print(QT_API, QStateMachine)"
+
+At this point, you should have all 3 OpenShot components source code cloned into local folders, the OpenShot
+daily PPA installed, and all of the required development and runtime dependencies installed. This is a
+great start, and we are now ready to start compiling some code!
+
+libopenshot-audio (Build Instructions)
+--------------------------------------
+This library is required for audio playback and audio effects.
+It is based on the JUCE audio framework.
+Here are the commands to build it:
+
+.. code-block:: bash
+
+   cd libopenshot-audio
+   mkdir build
+   cd build
+   cmake -DCMAKE_INSTALL_PREFIX=dist ..
+   make
+   make install
+
+Essentially, we are switching to the ``libopenshot-audio/build`` folder,
+then running ``cmake ..`` on the parent folder.
+This finds dependencies and creates all the needed Makefiles used to compile this library.
+Then ``make`` uses those Makefiles to compile this library,
+and ``make install`` installs them in the location we specified.
+If ``CMAKE_INSTALL_PREFIX`` isn't set, the files will install to ``/usr/local/`` (by default) and ``make install`` will require administrative privileges to run.
+
+libopenshot (Build Instructions)
+--------------------------------
+This library is required for video decoding, encoding, animation, and just about everything else.
+It does all the heavy lifting of video editing and video playback.
+Here are the commands to build it:
+
+.. code-block:: bash
+
+   cd libopenshot
+   mkdir build
+   cd build
+   cmake -DLIBOPENSHOT_AUDIO_DIR=../../libopenshot-audio/build/dist ..
+   make
+
+Essentially, we are switching to the ``libopenshot/build`` folder,
+then running ``cmake ..`` on the parent folder.
+This finds dependencies and creates all the needed Makefiles used to compile this library.
+Then ``make`` uses those Makefiles to compile this library.
+Because we provided the location of our compiled ``libopenshot-audio`` installation,
+that version of the library will be used instead of the system version (if any).
+
+We don't install our ``libopenshot`` after building, because we don't need to.
+For testing purposes, we can tell OpenShot to use ``libopenshot`` right from our ``build`` directory.
+
+Language Bindings
+-----------------
+The ``libopenshot`` API is available in several languages through SWIG bindings.  Python is used by the
+OpenShot user interface, and we also provide Ruby and Java bindings.  Experimental support for Godot **4.4**
+is included for developers who wish to integrate video editing features into the Godot game engine.  All of
+these bindings map to the same C++ codebase so you can edit video from the environment you prefer.
+
+openshot-qt (Launch Instructions)
+---------------------------------
+This is our main PyQt Python application.
+Because it is written in Python, it does not require any compiling to run.
+To launch OpenShot from the source code with our newly-built
+``libopenshot-audio`` and ``libopenshot`` libraries, use the following commands:
+
+.. code-block:: bash
+
+   cd openshot-qt
+   PYTHONPATH=../libopenshot/build/src/bindings/python
+   python3 src/launch.py
+
+This should launch the OpenShot user interface.
+Any changes you have made to the source code files
+(``*.py`` Python files, ``*.ui`` PyQt UI files, etc...) will be included.
+This requires the ``libopenshot-audio`` and ``libopenshot`` libraries,
+and if anything went wrong with the steps above, OpenShot will likely not launch.
+
+If OpenShot launches at this point, congratulations!
+You now have a working local version of OpenShot, which is running off your local source code.
+Try making some changes to the source code and re-launch OpenShot...
+you should now see your changes!
+
+.. _launch_options_ref:
+
+Command-Line Launch Options
+---------------------------
+
+For editing, animation, batch changes, and exports from a terminal or script,
+see :ref:`cli_ref`. Start with ``openshot-qt --cli intro`` (or
+``python3 src/launch.py --cli intro`` from source). Put ``--cli`` first, followed
+by the editing command and its options.
+
+The launch options below work with the installed OpenShot application, including
+``openshot-qt-cmd.exe`` on Windows for visible terminal output. For Windows CLI
+usage, follow the console-executable guidance in :ref:`cli_ref`. When running
+from source, use
+``python3 src/launch.py`` in place of the application name. Put options before
+any file paths you want OpenShot to open.
+
+.. list-table:: OpenShot command-line options
+   :header-rows: 1
+   :widths: 38 62
+
+   * - Option
+     - What it does
+   * - ``--cli``
+     - Enter the :ref:`cli_ref`. Use ``--cli help`` for editing commands.
+   * - ``-h``, ``--help``
+     - Show application launch options and exit. Use ``--cli help`` for editing commands.
+   * - ``-V``, ``--version``
+     - Print the OpenShot version and exit.
+   * - ``-l CODE``, ``--lang CODE``
+     - Use the chosen interface language for this launch. The code must be one
+       of those shown by ``--list-languages``.
+   * - ``--list-languages``
+     - List supported language codes and exit.
+   * - ``--path FOLDER``
+     - Add a folder to the Python module search path. You can repeat this option
+       to add more than one folder.
+   * - ``--feedback-preview``
+     - Show the feedback notice on launch without marking the invitation as shown
+       in saved settings.
+   * - ``--update-preview``
+     - Show the update notice on launch. Both preview options can be used together.
+   * - ``--test-models``
+     - Enable Qt's data model tester for development (requires Qt 5.11 or later).
+   * - ``-d``, ``--debug``, ``--debug-ui``
+     - Add detailed interface messages to its log file and the terminal.
+   * - ``--debug-engine``
+     - Add detailed video and audio engine messages to its log file and the terminal.
+   * - ``--log-level LEVEL``
+     - Set the logging level for both parts of OpenShot, in files and the terminal.
+   * - ``--log-file-level LEVEL``
+     - Set the logging level in both log files.
+   * - ``--log-console-level LEVEL``
+     - Set the logging level in the terminal for both parts of OpenShot.
+   * - ``--debug-file``
+     - Add detailed interface messages to its log file only. This older option
+       is accepted but is not shown by ``--help``.
+   * - ``--debug-console``
+     - Add detailed interface messages to the terminal only. This older option
+       is accepted but is not shown by ``--help``.
+   * - ``PROJECT.osp`` or media file paths
+     - Open a project when the first file path ends in ``.osp``. Otherwise,
+       start a new project and import the supplied media files.
+
+For ``LEVEL``, use ``debug``, ``info``, ``warning``, ``error``, ``critical``, or
+``off``. See :ref:`logging_ref` for log file locations, examples, and more
+about choosing logging options.
+
+GitHub Issues
+-------------
+Now that you have successfully compiled and launched OpenShot Video Editor from source code,
+be sure to check out our list of bug reports on GitHub: `OpenShot Issues`_.
+Also, you are encouraged to fill out our quick `contributor form <https://forms.gle/CRqkS5tLMJE1V36V8>`_
+and introduce yourself!
+
+Share your Changes
+------------------
+Once you have fixed a bug or added an amazing new feature, be sure to share it with the OpenShot team.
+Ideally, we can merge this into our main source code branch.
+The easiest way to share your changes is by creating a fork of our repo,
+pushing your changes back to GitHub, and creating a `Pull Request`_.
+A Pull Request lets the OpenShot team know you have changes ready to be merged.
+Then we can review things, give feedback, and hopefully merge your changes into the main branch.
+
+.. _Pull Request: https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/proposing-changes-to-your-work-with-pull-requests
+.. _OpenShot Issues: https://github.com/OpenShot/openshot-qt/issues/

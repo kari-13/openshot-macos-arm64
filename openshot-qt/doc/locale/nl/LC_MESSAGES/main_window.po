@@ -1,0 +1,2218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:21
+msgid "Main Window"
+msgstr "Hoofdvenster"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:23
+msgid ""
+"OpenShot Video Editor has one main window which contains most of the "
+"information, buttons, and menus needed to edit your video project."
+msgstr ""
+"OpenShot Video Editor heeft één hoofdvenster dat het grootste deel van de "
+"informatie, knoppen en menu's bevat die nodig zijn om je videoproject te "
+"bewerken."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:27
+msgid "Overview"
+msgstr "Overzicht"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:35 ../main_window.rst:80 ../main_window.rst:101
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:35 ../main_window.rst:80
+msgid "Name"
+msgstr "Naam"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:35 ../main_window.rst:80 ../main_window.rst:103
+#: ../main_window.rst:237 ../main_window.rst:367 ../main_window.rst:396
+msgid "Description"
+msgstr "Beschrijving"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:37 ../main_window.rst:82 ../main_window.rst:104
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:37
+msgid "Main Toolbar"
+msgstr "Hoofdwerkbalk"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:37
+msgid "Contains buttons to open, save, and export your video project."
+msgstr ""
+"Bevat knoppen om je videoproject te openen, op te slaan en te exporteren."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:38 ../main_window.rst:83 ../main_window.rst:107
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:38
+msgid "Function Tabs"
+msgstr "Functietabbladen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:38
+msgid "Switch between Project Files, Transitions, Effects, and Emojis."
+msgstr "Schakel tussen Projectbestanden, Overgangen, Effecten en Emoji's."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:39 ../main_window.rst:84 ../main_window.rst:110
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:39 ../main_window.rst:411
+msgid "Project Files"
+msgstr "Projectbestanden"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:39
+msgid ""
+"All audio, video, and image files that have been imported into your project."
+msgstr ""
+"Alle audio-, video- en afbeeldingsbestanden die in je project zijn "
+"geïmporteerd."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:40 ../main_window.rst:113
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:40
+msgid "Preview Window"
+msgstr "Voorbeeldvenster"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:40
+msgid "This is the area that the video will playback on the screen."
+msgstr "Dit is het gebied waar de video op het scherm wordt afgespeeld."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:41 ../main_window.rst:116
+msgid "5"
+msgstr "5"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:41 ../main_window.rst:90
+msgid "Timeline Toolbar"
+msgstr "Tijdlijnwerkbalk"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:41
+msgid ""
+"This toolbar contains buttons used for snapping, inserting markers, slicing "
+"razor, jumping between markers, and centering the timeline on the playhead. "
+"See :ref:`timeline_toolbar_ref`."
+msgstr ""
+"Deze werkbalk bevat knoppen voor het vastklikken, invoegen van markers, "
+"snijmes, springen tussen markers en het centreren van de tijdlijn op de "
+"afspeelkop. Zie :ref:`timeline_toolbar_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:42 ../main_window.rst:119
+msgid "6"
+msgstr "6"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:42 ../main_window.rst:120
+msgid "Zoom Slider"
+msgstr "Zoomschuifregelaar"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:42
+msgid ""
+"This slider will adjust the time-scale of your timeline. Drag the left or "
+"right edge to zoom in or out. Drag the blue area to scroll the timeline left"
+" or right. Clips and transitions are displayed as simple rectangles, to give"
+" you context for adjusting the zoom to specific clips."
+msgstr ""
+"Met deze schuifregelaar pas je de tijdschaal van je tijdlijn aan. Sleep de "
+"linker- of rechterrand om in of uit te zoomen. Sleep het blauwe gebied om de"
+" tijdlijn naar links of rechts te scrollen. Clips en overgangen worden "
+"weergegeven als eenvoudige rechthoeken, zodat je context hebt bij het "
+"aanpassen van de zoom op specifieke clips."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:43 ../main_window.rst:122
+msgid "7"
+msgstr "7"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:43
+msgid "Play-head / Ruler"
+msgstr "Afspeelkop / Liniaal"
+
+#: ../main_window.rst:43
+msgid ""
+"The ruler shows the time-scale, and the line is the play-head. The play-head"
+" represents the current playback position. The current timecode can be "
+"clicked to enter an exact timecode. Hold :kbd:`Shift` key while dragging the"
+" playhead to snap to nearby clips."
+msgstr ""
+"De liniaal toont de tijdschaal en de lijn is de afspeelkop. De afspeelkop "
+"geeft de huidige afspeelpositie weer. Op de huidige tijdcode kan worden "
+"geklikt om een exacte tijdcode in te voeren. Houd de :kbd:`Shift`-toets "
+"ingedrukt terwijl u de afspeelkop sleept om vast te klampen aan nabijgelegen"
+" clips."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:44
+msgid "8"
+msgstr "8"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:44
+msgid "Timeline"
+msgstr "Tijdbalk"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:44
+msgid ""
+"The timeline visualizes your video project, and each clip and transition in "
+"your project. You can drag the mouse to select, move, or delete multiple "
+"items."
+msgstr ""
+"De tijdlijn visualiseert je videoproject en elke clip en overgang daarin. Je"
+" kunt met de muis slepen om meerdere items te selecteren, verplaatsen of "
+"verwijderen."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:45
+msgid "9"
+msgstr "9"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:45
+msgid "Filter"
+msgstr "Filter"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:45
+msgid ""
+"Filter the list of items shown (project files, transitions, effects, and "
+"emojis) by using these buttons and filter textbox. Enter a few letters of "
+"what you are looking for, and the results will be shown."
+msgstr ""
+"Filter de lijst met getoonde items (projectbestanden, overgangen, effecten "
+"en emoji's) met deze knoppen en het filtertekstvak. Voer een paar letters in"
+" van wat je zoekt, en de resultaten worden getoond."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:46
+msgid "10"
+msgstr "10"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:46
+msgid "Playback"
+msgstr "Afspelen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:46
+msgid ""
+"Left to Right: Jump to Start, Rewind, Play/Pause, Fast Forward, and Jump to "
+"End"
+msgstr ""
+"Van links naar rechts: Naar begin springen, Terugspoelen, Afspelen/Pauzeren,"
+" Snel vooruit, en Naar einde springen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:47
+#, fuzzy
+msgid "11"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:47
+msgid "Track"
+msgstr "Spoor"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:47
+msgid ""
+"Track area containing the track name, track menu, and per-track controls "
+"such as lock and keyframe panel icons."
+msgstr ""
+"Spoorgebied met de spoornaam, spoormenu en per-spoorbedieningselementen "
+"zoals vergrendel- en keyframe-paneeliconen."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:50
+msgid ""
+"For step-by-step instructions on the basic usage of OpenShot, be sure to "
+"read the :ref:`quick_tutorial_ref`."
+msgstr ""
+"Voor stapsgewijze instructies over het basisgebruik van OpenShot, lees zeker"
+" de :ref:`quick_tutorial_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:54
+msgid "Built-in Tutorial"
+msgstr "Ingebouwde tutorial"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:55
+msgid ""
+"When you first launch OpenShot, you will be presented with a friendly built-"
+"in tutorial. It will demonstrate and explain the basics. Clicking "
+":guilabel:`Next` will jump to the next topic. You can always view this "
+"tutorial again from the :guilabel:`Help→Tutorial` menu."
+msgstr ""
+"Wanneer je OpenShot voor het eerst start, krijg je een vriendelijke "
+"ingebouwde tutorial te zien. Deze demonstreert en legt de basisprincipes "
+"uit. Klikken op :guilabel:`Volgende` gaat naar het volgende onderwerp. Je "
+"kunt deze tutorial altijd opnieuw bekijken via het menu "
+":guilabel:`Help→Tutorial`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:63
+msgid "Tracks & Layers"
+msgstr "Sporen & Lagen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:65
+msgid ""
+"OpenShot uses tracks to layer videos and images. The top most track is the "
+"top layer, and the bottom track is the bottom layer. If you are familiar "
+"with layers in a photo editing application, then you should be quite "
+"familiar with this concept. OpenShot will stack the layers and mix each one "
+"together, just like a photo editing application. You can have an unlimited "
+"number of tracks, but typically a simple video project will not need more "
+"than 5 tracks."
+msgstr ""
+"OpenShot gebruikt sporen om video's en afbeeldingen te stapelen. Het "
+"bovenste spoor is de bovenste laag, en het onderste spoor is de onderste "
+"laag. Als je bekend bent met lagen in een fotobewerkingsprogramma, is dit "
+"concept herkenbaar. OpenShot stapelt de lagen en mengt ze samen, net als een"
+" fotobewerkingsprogramma. Je kunt een onbeperkt aantal sporen hebben, maar "
+"meestal heeft een eenvoudig videoproject niet meer dan 5 sporen nodig."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:72
+msgid "For example, imagine a 3 track video project"
+msgstr "Stel je bijvoorbeeld een videoproject met 3 sporen voor"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:82
+msgid "Top Track"
+msgstr "Bovenste spoor"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:82
+msgid ""
+"Clips on this track will always be on top and visible. Often watermarks and "
+"titles are placed on higher tracks."
+msgstr ""
+"Clips op dit spoor staan altijd bovenaan en zijn zichtbaar. Vaak worden "
+"watermerken en titels op hogere sporen geplaatst."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:83
+msgid "Middle Track"
+msgstr "Middelste spoor"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:83
+msgid ""
+"Clips in the middle (might or might not be visible, depending on what is "
+"above them)"
+msgstr ""
+"Clips in het midden (wel of niet zichtbaar, afhankelijk van wat er boven "
+"ligt)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:84
+msgid "Bottom Track"
+msgstr "Onderste spoor"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:84
+msgid ""
+"Clips on this track will always be on the bottom. Often audio clips are "
+"placed on lower tracks."
+msgstr ""
+"Clips op dit spoor staan altijd onderaan. Vaak worden audioclips op lagere "
+"sporen geplaatst."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:94
+msgid ""
+"For a beginner-friendly overview of timeline editing (selection, tracks, "
+"keyframes, and common workflows), see :ref:`timeline_ref`."
+msgstr ""
+"Voor een beginnersvriendelijk overzicht van tijdlijnbewerking (selectie, "
+"sporen, keyframes en veelvoorkomende workflows), zie :ref:`timeline_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:102
+msgid "Control Group"
+msgstr "Bedieningsgroep"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:105 ../main_window.rst:144
+msgid "Add Track"
+msgstr "Spoor toevoegen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:106
+msgid ""
+"Add a new track to the timeline. New projects start with 5 tracks by "
+"default."
+msgstr ""
+"Voeg een nieuw spoor toe aan de tijdlijn. Nieuwe projecten starten standaard"
+" met 5 sporen."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:108
+msgid "Undo / Redo"
+msgstr "Ongedaan maken / Opnieuw"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:109
+msgid "Undo or redo your latest timeline edits."
+msgstr "Maak je laatste tijdlijnbewerkingen ongedaan of opnieuw."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:111
+msgid "Snap, Retime, Razor"
+msgstr "Magnetisch, Her-timing, Scheermes"
+
+#: ../main_window.rst:112
+msgid ""
+"Snapping toggles magnetic alignment. Timing Tool enables retiming by "
+"dragging clip edges. The :ref:`razor_tool_ref` previews and cuts at the "
+"guide position; press :kbd:`Esc` to exit."
+msgstr ""
+"Magnetisch uitlijnen in- of uitschakelen met Snapping. De Timing Tool maakt "
+"het mogelijk om de timing aan te passen door de randen van clips te slepen. "
+"De :ref:`razor_tool_ref` toont een voorbeeld en knipt op de gidspositie; "
+"druk op :kbd:`Esc` om te stoppen."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:114
+msgid "Add Marker, Next/Prev Marker"
+msgstr "Marker toevoegen, Volgende/Vorige Marker"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:115
+msgid ""
+"Add a marker at the playhead and jump to previous or next marker/clip "
+"boundaries."
+msgstr ""
+"Voeg een marker toe bij de afspeelkop en spring naar de vorige of volgende "
+"marker/clipgrenzen."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:117 ../main_window.rst:148
+msgid "Center on Playhead"
+msgstr "Centreer op Afspeelkop"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:118
+msgid "Center the visible timeline area around the current playhead position."
+msgstr ""
+"Centreer het zichtbare tijdlijngebied rond de huidige afspeelkoppositie."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:121
+msgid ""
+"Control the visible timeline range. Drag handles to zoom in/out, drag center"
+" to pan, and double-click to fit timeline. You can also use "
+":kbd:`Ctrl+Scroll Wheel`, or on the QWidget timeline hold :kbd:`Ctrl` and "
+"drag with the middle mouse button for smooth zooming."
+msgstr ""
+"Beheer het zichtbare tijdlijnbereik. Sleep de handgrepen om in/uit te "
+"zoomen, sleep het midden om te pannen, en dubbelklik om de tijdlijn passend "
+"te maken. Je kunt ook :kbd:`Ctrl+Scroll Wheel` gebruiken, of op de QWidget-"
+"tijdlijn :kbd:`Ctrl` ingedrukt houden en met de middelste muisknop slepen "
+"voor vloeiend zoomen."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:123
+msgid "Track toggles (Lock, Keyframe Panel)"
+msgstr "Spoor-schakelaars (Vergrendelen, Keyframe-paneel)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:124
+msgid "Per-track controls such as lock and keyframe panel visibility."
+msgstr ""
+"Per-spoorbedieningselementen zoals vergrendeling en zichtbaarheid van het "
+"keyframe-paneel."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:129
+msgid "Keyboard Shortcuts"
+msgstr "Toetsenbord Sneltoetsen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:130
+msgid ""
+"Here is a list of the default keyboard shortcuts supported by OpenShot. You "
+"can configure these shortcuts in the Preferences window, which is opened by "
+"selecting :guilabel:`Edit→Preferences` from the OpenShot menu bar. (On "
+"macOS, choose :guilabel:`OpenShot Video Editor→Preferences`.) Learning a few"
+" of these shortcuts can save you a bunch of time!"
+msgstr ""
+"Hier is een lijst van de standaard toetsenbord sneltoetsen die OpenShot "
+"ondersteunt. Je kunt deze sneltoetsen configureren in het voorkeurenvenster,"
+" dat je opent door :guilabel:`Bewerken→Voorkeuren` te selecteren in de "
+"OpenShot menubalk. (Op macOS kies je :guilabel:`OpenShot Video "
+"Editor→Voorkeuren`.) Het leren van een paar van deze sneltoetsen kan je veel"
+" tijd besparen!"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Action"
+msgstr "Actie"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Shortcut 1"
+msgstr "Sneltoets 1"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Shortcut 2"
+msgstr "Sneltoets 2"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:140
+msgid "Shortcut 3"
+msgstr "Sneltoets 3"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:142 ../main_window.rst:294
+msgid "About OpenShot"
+msgstr "Over OpenShot"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:142
+msgid ":kbd:`Ctrl+H`"
+msgstr ":kbd:`Ctrl+H`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:143
+msgid "Add Marker"
+msgstr "Marker Toevoegen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:143
+msgid ":kbd:`M`"
+msgstr ":kbd:`M`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:144
+msgid ":kbd:`Ctrl+Y`"
+msgstr ":kbd:`Ctrl+Y`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:145
+msgid "Add to Timeline"
+msgstr "Toevoegen aan Tijdlijn"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:145
+msgid ":kbd:`Ctrl+Alt+A`"
+msgstr ":kbd:`Ctrl+Alt+A`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:146
+msgid "Animated Title"
+msgstr "Geanimeerde Titel"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:146
+msgid ":kbd:`Ctrl+Shift+T`"
+msgstr ":kbd:`Ctrl+Shift+T`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:147
+msgid "Ask a Question..."
+msgstr "Stel een Vraag..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:147
+msgid ":kbd:`F4`"
+msgstr ":kbd:`F4`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:148
+msgid ":kbd:`Shift+C`"
+msgstr ":kbd:`Shift+C`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:148
+msgid ":kbd:`Alt+Up`"
+msgstr ":kbd:`Alt+Omhoog`"
+
+#: ../main_window.rst:149 ../main_window.rst:329
+msgid "Color View"
+msgstr "Kleurweergave"
+
+#: ../main_window.rst:149
+msgid ":kbd:`Alt+Shift+2`"
+msgstr ":kbd:`Alt+Shift+2`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:150
+msgid "Choose Profile"
+msgstr "Kies Profiel"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:150
+msgid ":kbd:`Ctrl+Alt+P`"
+msgstr ":kbd:`Ctrl+Alt+P`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:151
+msgid "Clear All Cache"
+msgstr "Wis Alle Cache"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:151
+msgid ":kbd:`Ctrl+Shift+ESC`"
+msgstr ":kbd:`Ctrl+Shift+ESC`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:152
+msgid "Clear History"
+msgstr "Wis Geschiedenis"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:152
+msgid ":kbd:`Ctrl+Shift+H`"
+msgstr ":kbd:`Ctrl+Shift+H`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:153
+msgid "Delete Optimized Videos"
+msgstr "Geoptimaliseerde video's verwijderen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:153
+msgid ":kbd:`Ctrl+Shift+O`"
+msgstr ":kbd:`Ctrl+Shift+O`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:154
+msgid "Clear Waveform Display Data"
+msgstr "Wis Golfvormweergavegegevens"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:154
+msgid ":kbd:`Ctrl+Shift+W`"
+msgstr ":kbd:`Ctrl+Shift+W`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:155
+msgid "Copy"
+msgstr "Kopiëren"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:155
+msgid ":kbd:`Ctrl+C`"
+msgstr ":kbd:`Ctrl+C`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:156
+msgid "Cut"
+msgstr "Knippen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:156
+msgid ":kbd:`Ctrl+X`"
+msgstr ":kbd:`Ctrl+X`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:157
+msgid "Delete Item"
+msgstr "Item Verwijderen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:157
+msgid ":kbd:`Delete`"
+msgstr ":kbd:`Delete`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:157
+msgid ":kbd:`Backspace`"
+msgstr ":kbd:`Backspace`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:158
+msgid "Delete Item (Ripple)"
+msgstr "Item Verwijderen (Ripple)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:158
+msgid ":kbd:`Shift+Delete`"
+msgstr ":kbd:`Shift+Delete`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:159
+msgid "Details View"
+msgstr "Details Weergave"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:159
+msgid ":kbd:`Ctrl+Page Up`"
+msgstr ":kbd:`Ctrl+Page Up`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:160
+msgid "Donate"
+msgstr "Doneren"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:160
+msgid ":kbd:`F7`"
+msgstr ":kbd:`F7`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:161
+msgid "Duplicate"
+msgstr "Dupliceren"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:161
+msgid ":kbd:`Ctrl+Shift+/`"
+msgstr ":kbd:`Ctrl+Shift+/`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:162
+msgid "Edit Title"
+msgstr "Titel Bewerken"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:162
+msgid ":kbd:`Alt+T`"
+msgstr ":kbd:`Alt+T`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:163
+msgid "Export Selected Files"
+msgstr "Geselecteerde Bestanden Exporteren"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:163
+msgid ":kbd:`Ctrl+Shift+E`"
+msgstr ":kbd:`Ctrl+Shift+E`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:164
+msgid "Export Video / Media"
+msgstr "Video / Media Exporteren"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:164
+msgid ":kbd:`Ctrl+E`"
+msgstr ":kbd:`Ctrl+E`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:164
+msgid ":kbd:`Ctrl+M`"
+msgstr ":kbd:`Ctrl+M`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:165
+msgid "Fast Forward"
+msgstr "Sneller Vooruit"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:165
+msgid ":kbd:`L`"
+msgstr ":kbd:`L`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:166
+msgid "File Properties"
+msgstr "Bestandseigenschappen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:166
+msgid ":kbd:`Alt+I`"
+msgstr ":kbd:`Alt+I`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:166
+msgid ":kbd:`Ctrl+Double Click`"
+msgstr ":kbd:`Ctrl+Dubbelklik`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:167
+msgid "Fullscreen"
+msgstr "Volledig Scherm"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:167
+msgid ":kbd:`F11`"
+msgstr ":kbd:`F11`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:168
+msgid "Import Files..."
+msgstr "Bestanden Importeren..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:168
+msgid ":kbd:`Ctrl+I`"
+msgstr ":kbd:`Ctrl+I`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:169
+msgid "Insert Keyframe"
+msgstr "Keyframe Invoegen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:169
+msgid ":kbd:`Alt+Shift+K`"
+msgstr ":kbd:`Alt+Shift+K`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:170
+msgid "Join our Community..."
+msgstr "Word lid van onze community..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:170
+msgid ":kbd:`F5`"
+msgstr ":kbd:`F5`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:171
+msgid "Jump To End"
+msgstr "Ga naar het einde"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:171
+msgid ":kbd:`End`"
+msgstr ":kbd:`End`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:172
+msgid "Jump To Start"
+msgstr "Ga naar het begin"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:172
+msgid ":kbd:`Home`"
+msgstr ":kbd:`Home`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:173
+msgid "Launch Tutorial"
+msgstr "Start tutorial"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:173
+msgid ":kbd:`F2`"
+msgstr ":kbd:`F2`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:174
+msgid "New Project"
+msgstr "Nieuw project"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:174
+msgid ":kbd:`Ctrl+N`"
+msgstr ":kbd:`Ctrl+N`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:175
+msgid "Next Frame"
+msgstr "Volgend frame"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:175
+msgid ":kbd:`Right`"
+msgstr ":kbd:`Rechts`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:175
+msgid ":kbd:`.`"
+msgstr ":kbd:`.`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:176
+msgid "Next Marker"
+msgstr "Volgende Marker"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:176
+msgid ":kbd:`Shift+M`"
+msgstr ":kbd:`Shift+M`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:176
+msgid ":kbd:`Alt+Right`"
+msgstr ":kbd:`Alt+Rechts`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:177
+msgid "Nudge left (1 Frame)"
+msgstr "Verschuif naar links (1 frame)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:177
+msgid ":kbd:`Ctrl+Left`"
+msgstr ":kbd:`Ctrl+Links`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:178
+msgid "Nudge left (5 Frames)"
+msgstr "Verschuif naar links (5 frames)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:178
+msgid ":kbd:`Shift+Ctrl+Left`"
+msgstr ":kbd:`Shift+Ctrl+Links`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:179
+msgid "Nudge right (1 Frame)"
+msgstr "Verschuif naar rechts (1 frame)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:179
+msgid ":kbd:`Ctrl+Right`"
+msgstr ":kbd:`Ctrl+Rechts`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:180
+msgid "Nudge right (5 Frames)"
+msgstr "Verschuif naar rechts (5 frames)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:180
+msgid ":kbd:`Shift+Ctrl+Right`"
+msgstr ":kbd:`Shift+Ctrl+Rechts`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:181
+msgid "Open Help Contents"
+msgstr "Help-inhoud openen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:181
+msgid ":kbd:`F1`"
+msgstr ":kbd:`F1`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:182
+msgid "Open Project..."
+msgstr "Project openen..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:182
+msgid ":kbd:`Ctrl+O`"
+msgstr ":kbd:`Ctrl+O`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:183
+msgid "Paste"
+msgstr "Plakken"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:183
+msgid ":kbd:`Ctrl+V`"
+msgstr ":kbd:`Ctrl+V`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid "Play/Pause Toggle"
+msgstr "Afspelen/Pauzeren wisselen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid ":kbd:`Space`"
+msgstr ":kbd:`Spatie`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid ":kbd:`Up`"
+msgstr ":kbd:`Omhoog`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:184
+msgid ":kbd:`Down`"
+msgstr ":kbd:`Omlaag`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:185
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:185
+msgid ":kbd:`Ctrl+P`"
+msgstr ":kbd:`Ctrl+P`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:186
+msgid "Preview File"
+msgstr "Bestand bekijken"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:186
+msgid ":kbd:`Alt+P`"
+msgstr ":kbd:`Alt+P`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:186 ../main_window.rst:223
+msgid ":kbd:`Double Click`"
+msgstr ":kbd:`Dubbelklik`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:187
+msgid "Previous Frame"
+msgstr "Vorige frame"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:187
+msgid ":kbd:`Left`"
+msgstr ":kbd:`Links`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:187
+msgid ":kbd:`,`"
+msgstr ":kbd:`,`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:188
+msgid "Previous Marker"
+msgstr "Vorige Marker"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:188
+msgid ":kbd:`Ctrl+Shift+M`"
+msgstr ":kbd:`Ctrl+Shift+M`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:188
+msgid ":kbd:`Alt+Left`"
+msgstr ":kbd:`Alt+Links`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:189 ../main_window.rst:413
+msgid "Properties"
+msgstr "Eigenschappen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:189
+msgid ":kbd:`U`"
+msgstr ":kbd:`U`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:190
+msgid "Quit"
+msgstr "Afsluiten"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:190
+msgid ":kbd:`Ctrl+Q`"
+msgstr ":kbd:`Ctrl+Q`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid "Razor Toggle"
+msgstr "Scheermes wisselen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid ":kbd:`C`"
+msgstr ":kbd:`C`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid ":kbd:`B`"
+msgstr ":kbd:`B`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:191
+msgid ":kbd:`R`"
+msgstr ":kbd:`R`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:192
+msgid "Redo"
+msgstr "Opnieuw"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:192
+msgid ":kbd:`Ctrl+Shift+Z`"
+msgstr ":kbd:`Ctrl+Shift+Z`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:193
+msgid "Report a Bug..."
+msgstr "Meld een fout..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:193
+msgid ":kbd:`F3`"
+msgstr ":kbd:`F3`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:194
+msgid "Rewind"
+msgstr "Terugspoelen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:194
+msgid ":kbd:`J`"
+msgstr ":kbd:`J`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:195 ../main_window.rst:196
+msgid "Save Current Frame"
+msgstr "Huidig frame opslaan"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:195 ../main_window.rst:196
+msgid ":kbd:`Ctrl+Shift+Y`"
+msgstr ":kbd:`Ctrl+Shift+Y`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:197
+msgid "Save Project"
+msgstr "Project opslaan"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:197
+msgid ":kbd:`Ctrl+S`"
+msgstr ":kbd:`Ctrl+S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:198
+msgid "Save Project As..."
+msgstr "Project opslaan als..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:198
+msgid ":kbd:`Ctrl+Shift+S`"
+msgstr ":kbd:`Ctrl+Shift+S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:199
+msgid "Select All"
+msgstr "Alles selecteren"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:199
+msgid ":kbd:`Ctrl+A`"
+msgstr ":kbd:`Ctrl+A`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:200
+msgid "Select Item (Ripple)"
+msgstr "Item selecteren (rimpeling)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:200
+msgid ":kbd:`Alt+A`"
+msgstr ":kbd:`Alt+A`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:200
+msgid ":kbd:`Alt+Click`"
+msgstr ":kbd:`Alt+Klik`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:201
+msgid "Select None"
+msgstr "Niets selecteren"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:201
+msgid ":kbd:`Ctrl+Shift+A`"
+msgstr ":kbd:`Ctrl+Shift+A`"
+
+#: ../main_window.rst:202
+msgid "Share Feedback..."
+msgstr "Feedback delen..."
+
+#: ../main_window.rst:202
+msgid ":kbd:`F8`"
+msgstr ":kbd:`F8`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:203 ../main_window.rst:322
+msgid "Simple View"
+msgstr "Eenvoudige weergave"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:203
+msgid ":kbd:`Alt+Shift+0`"
+msgstr ":kbd:`Alt+Shift+0`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:204
+msgid "Slice All: Keep Both Sides"
+msgstr "Alles snijden: beide zijden behouden"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:204
+msgid ":kbd:`Ctrl+Shift+K`"
+msgstr ":kbd:`Ctrl+Shift+K`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:205
+msgid "Slice All: Keep Left Side"
+msgstr "Alles snijden: linkerkant behouden"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:205
+msgid ":kbd:`Ctrl+Shift+J`"
+msgstr ":kbd:`Ctrl+Shift+J`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:206
+msgid "Slice All: Keep Right Side"
+msgstr "Alles snijden: rechterkant behouden"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:206
+msgid ":kbd:`Ctrl+Shift+L`"
+msgstr ":kbd:`Ctrl+Shift+L`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:207
+msgid "Slice Selected: Keep Both Sides"
+msgstr "Geselecteerd snijden: beide zijden behouden"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:207
+msgid ":kbd:`Ctrl+K`"
+msgstr ":kbd:`Ctrl+K`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:208
+msgid "Slice Selected: Keep Left Side"
+msgstr "Geselecteerd snijden: linkerkant behouden"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:208
+msgid ":kbd:`Ctrl+J`"
+msgstr ":kbd:`Ctrl+J`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:209
+msgid "Slice Selected: Keep Right Side"
+msgstr "Geselecteerd snijden: rechterkant behouden"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:209
+msgid ":kbd:`Ctrl+L`"
+msgstr ":kbd:`Ctrl+L`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:210
+msgid "Slice Selected: Keep Left (Ripple)"
+msgstr "Geselecteerd snijden: links behouden (rimpeling)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:210
+msgid ":kbd:`W`"
+msgstr ":kbd:`W`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:211
+msgid "Slice Selected: Keep Right (Ripple)"
+msgstr "Geselecteerd snijden: rechts behouden (rimpeling)"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:211
+msgid ":kbd:`Q`"
+msgstr ":kbd:`Q`"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:212
+msgid "Snapping Toggle"
+msgstr "Vastklikken in-/uitschakelen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:212
+msgid ":kbd:`S`"
+msgstr ":kbd:`S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:213
+msgid "Split File"
+msgstr "Bestand splitsen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:213
+msgid ":kbd:`Alt+S`"
+msgstr ":kbd:`Alt+S`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:213
+msgid ":kbd:`Shift+Double Click`"
+msgstr ":kbd:`Shift+Dubbelklik`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:214
+msgid "Thumbnail View"
+msgstr "Miniatuurweergave"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:214
+msgid ":kbd:`Ctrl+Page Down`"
+msgstr ":kbd:`Ctrl+Page Down`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:215
+msgid "Timing Toggle"
+msgstr "Tijdschakeling Wisselen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:215
+msgid ":kbd:`T`"
+msgstr ":kbd:`T`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:216 ../main_window.rst:257
+msgid "Title"
+msgstr "Titel"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:216
+msgid ":kbd:`Ctrl+T`"
+msgstr ":kbd:`Ctrl+T`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:217
+msgid "Translate this Application..."
+msgstr "Vertaal deze applicatie..."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:217
+msgid ":kbd:`F6`"
+msgstr ":kbd:`F6`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:218
+msgid "Undo"
+msgstr "Ongedaan maken"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:218
+msgid ":kbd:`Ctrl+Z`"
+msgstr ":kbd:`Ctrl+Z`"
+
+#: ../main_window.rst:219
+msgid "Update Available"
+msgstr "Update beschikbaar"
+
+#: ../main_window.rst:219
+msgid ":kbd:`F9`"
+msgstr ":kbd:`F9`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:220
+msgid "View Toolbar"
+msgstr "Werkbalk Weergave"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:220
+msgid ":kbd:`Ctrl+Shift+B`"
+msgstr ":kbd:`Ctrl+Shift+B`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:221
+msgid "Zoom In"
+msgstr "Inzoomen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:221
+msgid ":kbd:`=`"
+msgstr ":kbd:`=`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:221
+msgid ":kbd:`Ctrl+=`"
+msgstr ":kbd:`Ctrl+=`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:222
+msgid "Zoom Out"
+msgstr "Uitzoomen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:222
+msgid ":kbd:`-`"
+msgstr ":kbd:`-`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:222
+msgid ":kbd:`Ctrl+-`"
+msgstr ":kbd:`Ctrl+-`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:223
+msgid "Zoom to Timeline"
+msgstr "Zoom naar Tijdlijn"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:223
+msgid ":kbd:`\\\\`"
+msgstr ":kbd:`\\\\`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:223
+msgid ":kbd:`Shift+\\\\`"
+msgstr ":kbd:`Shift+\\\\`"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:227
+msgid "Menu"
+msgstr "Menu"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:228
+msgid ""
+"The following menu options are available on the main window on OpenShot. "
+"Most of these options can be accessed by the keyboard shortcuts mentioned "
+"above. On some Operating Systems (such as macOS) a few of these options are "
+"renamed and/or rearranged."
+msgstr ""
+"De volgende menu-opties zijn beschikbaar in het hoofdvenster van OpenShot. "
+"De meeste van deze opties zijn toegankelijk via de hierboven genoemde "
+"sneltoetsen. Op sommige besturingssystemen (zoals macOS) worden enkele van "
+"deze opties hernoemd en/of herschikt."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:236
+msgid "Menu Name"
+msgstr "Menunaam"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:238
+msgid "File"
+msgstr "Bestand"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:240
+msgid ":guilabel:`New Project` Create a blank new project."
+msgstr ":guilabel:`Nieuw Project` Maak een nieuw leeg project aan."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:241
+msgid ":guilabel:`Open Project` Open an existing project."
+msgstr ":guilabel:`Project Openen` Open een bestaand project."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:242
+msgid ":guilabel:`Recent Projects` Access recently opened projects."
+msgstr ":guilabel:`Recente Projecten` Toegang tot recent geopende projecten."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:243
+msgid ""
+":guilabel:`Recovery` Restore a previously saved version of your current "
+"project."
+msgstr ""
+":guilabel:`Herstel` Herstel een eerder opgeslagen versie van je huidige "
+"project."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:244
+msgid ":guilabel:`Save Project` Save the current project."
+msgstr ":guilabel:`Project Opslaan` Sla het huidige project op."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:245
+msgid ":guilabel:`Import Files` Import media files into the project."
+msgstr ""
+":guilabel:`Bestanden Importeren` Importeer mediabestanden in het project."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:246
+msgid ""
+":guilabel:`Choose Profile` Select a project profile (*i.e. 1080p @ 30fps, "
+"720p @ 24fps, ...*)."
+msgstr ""
+":guilabel:`Profiel Kiezen` Selecteer een projectprofiel (*bijv. 1080p @ "
+"30fps, 720p @ 24fps, ...*)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:247
+msgid ""
+":guilabel:`Save Current Frame` Save the current preview video frame as an "
+"image (sometimes represented with a camera icon)."
+msgstr ""
+":guilabel:`Huidige Frame Opslaan` Sla het huidige preview videoframe op als "
+"afbeelding (soms weergegeven met een camera-icoon)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:248
+msgid ""
+":guilabel:`Import Project` Import another project into the current project "
+"(*Adobe and Final Cut Pro formats partially supported*)."
+msgstr ""
+":guilabel:`Project Importeren` Importeer een ander project in het huidige "
+"project (*Adobe- en Final Cut Pro-formaten gedeeltelijk ondersteund*)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:249
+msgid ""
+":guilabel:`Export Project` Export the current project to a specified format "
+"(*EDL, Adobe, and Final Cut Pro formats partially supported*)."
+msgstr ""
+":guilabel:`Project Exporteren` Exporteer het huidige project naar een "
+"opgegeven formaat (*EDL-, Adobe- en Final Cut Pro-formaten gedeeltelijk "
+"ondersteund*)."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:250
+msgid ":guilabel:`Quit` Exit the application."
+msgstr ":guilabel:`Afsluiten` Sluit de applicatie af."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:251
+msgid "Edit"
+msgstr "Bewerken"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:253
+msgid ":guilabel:`Undo` Undo the last action."
+msgstr ":guilabel:`Ongedaan maken` Maak de laatste actie ongedaan."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:254
+msgid ":guilabel:`Redo` Redo the last undone action."
+msgstr ":guilabel:`Opnieuw` Herhaal de laatste ongedaan gemaakte actie."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:255
+msgid ""
+":guilabel:`Clear` Clear the current history or waveform cached data. This "
+"makes the `.osp project` file a much smaller file size."
+msgstr ""
+":guilabel:`Wissen` Wis de huidige geschiedenis of de in het cache opgeslagen"
+" golfvormgegevens. Dit maakt het `.osp project` bestand veel kleiner."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:256
+msgid ""
+":guilabel:`Preferences` Open the preferences dialog to customize settings."
+msgstr ""
+":guilabel:`Voorkeuren` Open het voorkeurenvenster om instellingen aan te "
+"passen."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:259
+msgid ""
+":guilabel:`Title` Add a SVG vector title to the project. See "
+":ref:`text_and_titles_ref`."
+msgstr ""
+":guilabel:`Titel` Voeg een SVG-vector titel toe aan het project. Zie "
+":ref:`text_and_titles_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:260
+msgid ""
+":guilabel:`Animated Title` Add an animated title to the project. See "
+":ref:`animated_titles_ref`."
+msgstr ""
+":guilabel:`Geanimeerde Titel` Voeg een geanimeerde titel toe aan het "
+"project. Zie :ref:`animated_titles_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:261
+msgid "View"
+msgstr "Weergave"
+
+#: ../main_window.rst:263
+msgid ""
+":guilabel:`Simple View` and :guilabel:`Color View` switch or reset the main "
+"window layout."
+msgstr ""
+":guilabel:`Eenvoudige weergave` en :guilabel:`Kleurweergave` schakelen of "
+"resetten de hoofdvensterindeling."
+
+#: ../main_window.rst:264
+msgid ""
+":guilabel:`My Views` Save, load, update, and delete your own named layouts. "
+"See :ref:`my_views_ref`."
+msgstr ""
+":guilabel:`Mijn weergaven` Sla uw eigen benoemde indelingen op, laad ze, "
+"werk ze bij en verwijder ze. Zie :ref:`my_views_ref`."
+
+#: ../main_window.rst:265
+msgid ":guilabel:`Docks` Show or hide various dockable panels."
+msgstr ":guilabel:`Docks` Toon of verberg verschillende aanmeerbare panelen."
+
+#: ../main_window.rst:266
+msgid ""
+":guilabel:`Scopes` Show or hide scope docks, or open all scopes at once."
+msgstr ""
+":guilabel:`Scopes` Toon of verberg scope-docks, of open alle scopes "
+"tegelijk."
+
+#: ../main_window.rst:267
+msgid ""
+":guilabel:`Window` Show or hide the main window toolbar, or toggle "
+"fullscreen mode."
+msgstr ""
+":guilabel:`Venster` Toon of verberg de hoofdvensterwerkbalk, of schakel de "
+"volledige schermmodus in of uit."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:268
+msgid "Help"
+msgstr "Help"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:270
+msgid ":guilabel:`Contents` Open the user guide online."
+msgstr ":guilabel:`Inhoud` Open de online gebruikershandleiding."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:271
+msgid ":guilabel:`Tutorial` Access the built-in tutorial for new users."
+msgstr ""
+":guilabel:`Tutorial` Toegang tot de ingebouwde tutorial voor nieuwe "
+"gebruikers."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:272
+msgid ":guilabel:`Report a Bug` Report a bug or issue."
+msgstr ":guilabel:`Melding van Fout` Meld een bug of probleem."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:273
+msgid ":guilabel:`Ask a Question` Ask a question about the software."
+msgstr ":guilabel:`Stel een Vraag` Stel een vraag over de software."
+
+#: ../main_window.rst:274
+msgid ""
+":guilabel:`Share Feedback` Open a survey about your experience with "
+"OpenShot."
+msgstr ""
+":guilabel:`Feedback delen` Open een enquête over uw ervaring met OpenShot."
+
+#: ../main_window.rst:275
+msgid ""
+":guilabel:`Update Available` Open the download page when a newer version is "
+"available."
+msgstr ""
+":guilabel:`Update beschikbaar` Open de downloadpagina wanneer een nieuwere "
+"versie beschikbaar is."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:276
+msgid ":guilabel:`Translate` Contribute to translations of the software."
+msgstr ":guilabel:`Vertalen` Draag bij aan vertalingen van de software."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:277
+msgid ":guilabel:`Donate` Make a donation to support the project."
+msgstr ""
+":guilabel:`Doneren` Doe een donatie ter ondersteuning van het project."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:278
+msgid ""
+":guilabel:`About` View information about the software (version, "
+"contributors, translators, changelog, and supporters)."
+msgstr ""
+":guilabel:`Over` Bekijk informatie over de software (versie, bijdragers, "
+"vertalers, wijzigingslogboek en supporters)."
+
+#: ../main_window.rst:281
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: ../main_window.rst:283
+msgid ""
+"OpenShot may show a notice near the top of the window when a newer version "
+"is available. Choose :guilabel:`Upgrade` to open the download page, or close"
+" the notice to hide it for that version. You can still open the download "
+"page from :guilabel:`Help → Update Available` or press :kbd:`F9` when an "
+"update is available."
+msgstr ""
+"OpenShot kan een melding bovenaan het venster tonen wanneer een nieuwere "
+"versie beschikbaar is. Kies :guilabel:`Upgrade` om de downloadpagina te "
+"openen, of sluit de melding om deze voor die versie te verbergen. U kunt de "
+"downloadpagina ook openen via :guilabel:`Help → Update beschikbaar` of druk "
+"op :kbd:`F9` wanneer een update beschikbaar is."
+
+#: ../main_window.rst:288
+msgid ""
+"After you have spent some time editing, OpenShot may also invite you to "
+"share feedback. The survey is optional. You can open it from the notice or "
+"dismiss the invitation. At any time, choose :guilabel:`Help → Share "
+"Feedback` or press :kbd:`F8` to share your thoughts."
+msgstr ""
+"Nadat u enige tijd hebt bewerkt, kan OpenShot u ook uitnodigen om feedback "
+"te delen. De enquête is optioneel. U kunt deze openen vanuit de melding of "
+"de uitnodiging negeren. Kies op elk moment :guilabel:`Help → Feedback delen`"
+" of druk op :kbd:`F8` om uw mening te delen."
+
+#: ../main_window.rst:295
+msgid ""
+"Use :guilabel:`Help→About OpenShot` to check your OpenShot version. Click "
+":guilabel:`Copy` next to the version number to copy a short version and "
+"system details report, including how OpenShot was installed. This is a "
+"useful way to share the information when reporting a bug or asking for help."
+msgstr ""
+"Gebruik :guilabel:`Help→Over OpenShot` om uw OpenShot-versie te controleren."
+" Klik op :guilabel:`Kopiëren` naast het versienummer om een korte versie en "
+"systeemdetails te kopiëren, inclusief hoe OpenShot is geïnstalleerd. Dit is "
+"een handige manier om informatie te delen bij het melden van een fout of het"
+" vragen om hulp."
+
+#: ../main_window.rst:300
+msgid "Example output:"
+msgstr "Voorbeelduitvoer:"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:315
+msgid "Views"
+msgstr "Weergaven"
+
+#: ../main_window.rst:317
+msgid ""
+"The OpenShot main window is composed of multiple **docks**. These **docks** "
+"are arranged and snapped together into a grouping that we call a **View**. "
+"OpenShot includes :guilabel:`Simple View`, :guilabel:`Color View`, and "
+":guilabel:`My Views` (user-defined layouts)."
+msgstr ""
+"Het hoofdvenster van OpenShot bestaat uit meerdere **docks**. Deze **docks**"
+" zijn gerangschikt en vastgezet in een groep die we een **Weergave** noemen."
+" OpenShot bevat :guilabel:`Eenvoudige weergave`, :guilabel:`Kleurweergave` "
+"en :guilabel:`Mijn weergaven` (door gebruikers gedefinieerde indelingen)."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:323
+msgid ""
+"This is the **default** view, and is designed to be easy-to-use, especially "
+"for first-time users. It contains :guilabel:`Project Files` on the top left,"
+" :guilabel:`Preview Window` on the top right, and :guilabel:`Timeline` on "
+"the bottom. If you accidentally close or move a dock, you can quickly reset "
+"all the docks back to their default location using the "
+":guilabel:`View->Simple View` menu at the top of the screen."
+msgstr ""
+"Dit is de **standaard** weergave en is ontworpen om gemakkelijk te gebruiken"
+" te zijn, vooral voor nieuwe gebruikers. Het bevat "
+":guilabel:`Projectbestanden` linksboven, :guilabel:`Voorbeeldvenster` "
+"rechtsboven en :guilabel:`Tijdbalk` onderaan. Als u per ongeluk een dock "
+"sluit of verplaatst, kunt u snel alle docks terugzetten naar hun "
+"standaardlocatie via het menu :guilabel:`Weergave->Eenvoudige weergave` "
+"bovenaan het scherm."
+
+#: ../main_window.rst:330
+msgid ""
+"This view is focused on color correction and scopes. It enlarges the video "
+"preview, hides file-management docks, keeps the timeline and properties "
+"visible, places the :guilabel:`Color Wheels` dock on the right, and tabifies"
+" the :guilabel:`Luma Waveform` and :guilabel:`Histogram` docks together "
+"below it."
+msgstr ""
+"Deze weergave richt zich op kleurcorrectie en scopes. Het vergroot de "
+"videovoorvertoning, verbergt docks voor bestandsbeheer, houdt de tijdlijn en"
+" eigenschappen zichtbaar, plaatst het :guilabel:`Kleurwielen`-dock aan de "
+"rechterkant en groepeert de :guilabel:`Luma-golfvorm` en "
+":guilabel:`Histogram` docks samen eronder in tabbladen."
+
+#: ../main_window.rst:335
+msgid "Recording View"
+msgstr "Opnameweergave"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:336
+msgid ""
+"This view is focused on creating new recordings inside OpenShot. It shows "
+":guilabel:`Project Files`, :guilabel:`Video Preview`, :guilabel:`Timeline`, "
+"and the :guilabel:`Recording` dock. The :guilabel:`Properties` dock is "
+"grouped with :guilabel:`Project Files` as a tab, so you can show it from "
+":guilabel:`View->Docks->Properties` without disrupting the recording layout."
+msgstr ""
+"Deze weergave is gericht op het maken van nieuwe opnames binnen OpenShot. "
+"Het toont :guilabel:`Projectbestanden`, :guilabel:`Videovoorvertoning`, "
+":guilabel:`Tijdbalk` en het :guilabel:`Opname`-dock. Het "
+":guilabel:`Eigenschappen`-dock is gegroepeerd met "
+":guilabel:`Projectbestanden` als een tabblad, zodat u het kunt tonen via "
+":guilabel:`Weergave->Docks->Eigenschappen` zonder de opname-indeling te "
+"verstoren."
+
+#: ../main_window.rst:341
+msgid ""
+"The :guilabel:`Recording` dock can record microphone audio, screen capture, "
+"webcam video, or combinations of those sources. When screen and webcam are "
+"recorded together, OpenShot can place the webcam as a corner picture-in-"
+"picture clip. Those corner camera clips use normal clip properties after "
+"they are added to the timeline: :guilabel:`Gravity` chooses the corner, "
+":guilabel:`Scale X` and :guilabel:`Scale Y` set the corner size, "
+":guilabel:`Margin` creates the inset layout area that keeps the camera away "
+"from the screen edge, and :guilabel:`Corner Radius` rounds the camera clip "
+"without adding a separate Mask effect. See :ref:`clip_properties_ref` for "
+"details. See :ref:`recording_ref` for the complete recording workflow and "
+"all source options."
+msgstr ""
+"Het :guilabel:`Opname`-dock kan microfoon-audio, schermopname, webcamvideo "
+"of combinaties van deze bronnen opnemen. Wanneer scherm en webcam samen "
+"worden opgenomen, kan OpenShot de webcam als een hoek-beeld-in-beeld clip "
+"plaatsen. Die hoekcamera-clips gebruiken normale clip-eigenschappen nadat ze"
+" aan de tijdlijn zijn toegevoegd: :guilabel:`Gravitatie` kiest de hoek, "
+":guilabel:`Schaal X` en :guilabel:`Schaal Y` bepalen de hoekgrootte, "
+":guilabel:`Marge` creëert het inset-indelingsgebied dat de camera van de "
+"schermrand houdt, en :guilabel:`Hoekstraal` maakt de cameraklip afgerond "
+"zonder een apart Masker-effect toe te voegen. Zie :ref:`clip_properties_ref`"
+" voor details. Zie :ref:`recording_ref` voor de volledige opnameworkflow en "
+"alle bronopties."
+
+#: ../main_window.rst:352
+msgid "My Views"
+msgstr "Mijn weergaven"
+
+#: ../main_window.rst:353
+msgid ""
+"**My Views** lets you save any dock arrangement as a named layout and recall"
+" it instantly. This is ideal for workflows that require switching between "
+"different editing modes — for example, a detailed audio mix layout and a "
+"focused color grading layout — without manually repositioning docks each "
+"time."
+msgstr ""
+"**Mijn weergaven** stelt u in staat om elke dockindeling op te slaan als een"
+" benoemde lay-out en deze direct op te roepen. Dit is ideaal voor workflows "
+"die schakelen tussen verschillende bewerkingsmodi vereisen — bijvoorbeeld "
+"een gedetailleerde audiomixindeling en een gerichte kleurcorrectie-indeling "
+"— zonder elke keer docks handmatig te verplaatsen."
+
+#: ../main_window.rst:357
+msgid ""
+"Each saved view captures the position, size, and visibility of every dock, "
+"as well as the timeline height. Saved views are stored in your project "
+"settings and persist across sessions."
+msgstr ""
+"Elke opgeslagen weergave legt de positie, grootte en zichtbaarheid van elke "
+"dock vast, evenals de hoogte van de tijdlijn. Opgeslagen weergaven worden "
+"bewaard in uw projectinstellingen en blijven behouden tussen sessies."
+
+#: ../main_window.rst:360
+msgid "**View → My Views** menu options:"
+msgstr "**Weergave → Mijn weergaven** menu-opties:"
+
+#: ../main_window.rst:366
+msgid "Menu Item"
+msgstr "Menu-item"
+
+#: ../main_window.rst:368
+msgid "List of user-defined views"
+msgstr "Lijst van door gebruikers gedefinieerde weergaven"
+
+#: ../main_window.rst:369
+msgid ""
+"Click to restore that layout. The currently active view shows a checkmark."
+msgstr ""
+"Klik om die indeling te herstellen. De momenteel actieve weergave toont een "
+"vinkje."
+
+#: ../main_window.rst:370
+msgid "Update \"*[name]*\""
+msgstr "Werk \"*[name]*\" bij"
+
+#: ../main_window.rst:371
+msgid "Save your current dock arrangement over the active view, replacing it."
+msgstr ""
+"Sla uw huidige dockindeling op over de actieve weergave en vervang deze."
+
+#: ../main_window.rst:372
+msgid "Delete \"*[name]*\""
+msgstr "Verwijder \"*[name]*\""
+
+#: ../main_window.rst:373
+msgid "Remove the active view (asks for confirmation first)."
+msgstr "Verwijder de actieve weergave (vraagt eerst om bevestiging)."
+
+#: ../main_window.rst:374
+msgid "Save Current View As..."
+msgstr "Huidige weergave opslaan als..."
+
+#: ../main_window.rst:375
+msgid "Name and save your current dock arrangement as a new view."
+msgstr ""
+"Geef een naam en sla uw huidige dockindeling op als een nieuwe weergave."
+
+#: ../main_window.rst:377
+msgid "**Typical workflow:**"
+msgstr "**Typische workflow:**"
+
+#: ../main_window.rst:379
+msgid "Arrange your docks exactly how you like them."
+msgstr "Rangschik uw docks precies zoals u ze wilt."
+
+#: ../main_window.rst:380
+msgid ""
+"Open :guilabel:`View → My Views → Save Current View As...` and enter a name "
+"(e.g. *\"Audio Mix\"*)."
+msgstr ""
+"Open :guilabel:`Weergave → Mijn weergaven → Huidige weergave opslaan als...`"
+" en voer een naam in (bijv. *\"Audio Mix\"*)."
+
+#: ../main_window.rst:381
+msgid ""
+"Later, open :guilabel:`View → My Views` and click the view name to restore "
+"that layout instantly."
+msgstr ""
+"Open later :guilabel:`Weergave → Mijn weergaven` en klik op de weergavenaam "
+"om die indeling direct te herstellen."
+
+#: ../main_window.rst:382
+msgid ""
+"If you adjust the layout and want to keep the changes, choose "
+":guilabel:`Update \"Audio Mix\"` to overwrite it."
+msgstr ""
+"Als u de indeling aanpast en de wijzigingen wilt behouden, kies dan "
+":guilabel:`Werk \"Audio Mix\" bij` om deze te overschrijven."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:385
+msgid "Docks"
+msgstr "Docks"
+
+#: ../main_window.rst:386
+msgid ""
+"Each widget on the OpenShot main window is contained in a **dock**. These "
+"docks can be dragged and snapped around the main window, and even grouped "
+"together (into tabs). OpenShot will always save your main window dock layout"
+" when you exit the program. Re-launching OpenShot will restore your custom "
+"dock layout automatically. Scope docks are grouped under "
+":guilabel:`View->Scopes`."
+msgstr ""
+"Elk widget in het hoofdvenster van OpenShot bevindt zich in een **dock**. "
+"Deze docks kunnen worden versleept en vastgezet rond het hoofdvenster, en "
+"zelfs worden gegroepeerd (in tabbladen). OpenShot slaat altijd je dock-"
+"indeling van het hoofdvenster op wanneer je het programma afsluit. Bij het "
+"opnieuw starten van OpenShot wordt je aangepaste dock-indeling automatisch "
+"hersteld. Scope-docks zijn gegroepeerd onder :guilabel:`Beeld->Scopes`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:395
+msgid "Dock Name"
+msgstr "Docknaam"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:397
+msgid "Captions"
+msgstr "Ondertitels"
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:398
+msgid ""
+"Manage and add captions or subtitles to your video project. Allows you to "
+"create, edit, and manage caption data. See :ref:`caption_effect_ref` effect."
+msgstr ""
+"Beheer en voeg ondertitels toe aan uw videoproject. Hiermee kunt u "
+"ondertitelgegevens maken, bewerken en beheren. Zie :ref:`caption_effect_ref`"
+" effect."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:399
+msgid "Effects"
+msgstr "Effecten"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:400
+msgid ""
+"Browse and apply video and audio effects to your video clips. Includes "
+"filters, color adjustments, and special effects. See :ref:`effects_ref`."
+msgstr ""
+"Blader door en pas video- en audio-effecten toe op uw videoclips. Inclusief "
+"filters, kleurcorrecties en speciale effecten. Zie :ref:`effects_ref`."
+
+#: ../main_window.rst:401
+msgid "Color Wheels"
+msgstr "Kleurwielen"
+
+#: ../main_window.rst:402
+msgid ""
+"Edit Color Grade wheel controls for global, shadows, midtones, and "
+"highlights from a dedicated right-side dock."
+msgstr ""
+"Bewerk de kleurgradatie-wielbediening voor globaal, schaduwen, middentonen "
+"en hooglichten vanuit een speciaal dock aan de rechterkant."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:403
+msgid "Emojis"
+msgstr "Emoji's"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:404
+msgid ""
+"Add emoji graphics to your video project. Choose from a variety of emojis to"
+" enhance your video content."
+msgstr ""
+"Voeg emoji-afbeeldingen toe aan uw videoproject. Kies uit verschillende "
+"emoji's om uw videocontent te verbeteren."
+
+#: ../main_window.rst:405
+msgid "Histogram"
+msgstr "Histogram"
+
+#: ../main_window.rst:406
+msgid ""
+"Analyze the tonal and channel distribution of the current preview frame."
+msgstr "Analyseer de toon- en kanaalverdeling van het huidige voorbeeldframe."
+
+#: ../main_window.rst:407
+msgid "Luma Waveform"
+msgstr "Luma-golfvorm"
+
+#: ../main_window.rst:408
+msgid "Analyze brightness distribution across the current preview frame."
+msgstr "Analyseer de helderheidsverdeling over het huidige voorbeeldframe."
+
+# Main-window terminology review, 2026-09-26.
+#: ../main_window.rst:409
+msgid "Audio Levels"
+msgstr "Audioniveaus"
+
+#: ../main_window.rst:410
+msgid "Monitor audio level scope data for the current preview frame."
+msgstr "Bewaken van audiovolume-gegevens voor het huidige voorbeeldframe."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:412
+msgid ""
+"View and manage all the media files imported into your project. Organize, "
+"filter, and tag video, audio, and image files. See :ref:`files_ref`."
+msgstr ""
+"Bekijk en beheer alle mediabestanden die in uw project zijn geïmporteerd. "
+"Organiseer, filter en tag video-, audio- en afbeeldingsbestanden. Zie "
+":ref:`files_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:414
+msgid ""
+"View and edit the properties of a selected effect, transition, or clip. "
+"Adjust settings such as duration, size, position, etc... See "
+":ref:`clip_properties_ref`."
+msgstr ""
+"Bekijk en bewerk de eigenschappen van een geselecteerd effect, overgang of "
+"clip. Pas instellingen aan zoals duur, grootte, positie, enzovoort. Zie "
+":ref:`clip_properties_ref`."
+
+#: ../main_window.rst:415
+msgid "Recording"
+msgstr "Opname"
+
+#: ../main_window.rst:416
+msgid ""
+"Record microphone audio, screen video, webcam video, or combined recordings."
+" See :ref:`recording_ref`."
+msgstr ""
+"Neem microfoonaudio, schermvideo, webcamvideo of gecombineerde opnames op. "
+"Zie :ref:`recording_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:417
+msgid "Transitions"
+msgstr "Overgangen"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:418
+msgid ""
+"Browse and apply transitions between video clips. Choose from a variety of "
+"transition wipes to create smooth changes between scenes. See "
+":ref:`transitions_ref`."
+msgstr ""
+"Blader door en pas overgangen toe tussen videoclips. Kies uit verschillende "
+"overgangseffecten om vloeiende overgangen tussen scènes te creëren. Zie "
+":ref:`transitions_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:419
+msgid "Video Preview"
+msgstr "Videovoorbeeld"
+
+# Translated with gpt-4.1-mini
+#: ../main_window.rst:420
+msgid ""
+"Preview the current state of your video project. Allows you to play back and"
+" review your edits in real-time. See :ref:`playback_ref`."
+msgstr ""
+"Bekijk een voorbeeld van de huidige staat van uw videoproject. Hiermee kunt "
+"u uw bewerkingen in realtime afspelen en beoordelen. Zie "
+":ref:`playback_ref`."
+
+#: ../main_window.rst:422
+msgid ""
+"If you have accidentally closed or moved a dock and can no longer find it, "
+"there are a couple easy solutions. First, you can use the "
+":guilabel:`View->Simple View` menu option at the top of the screen, to "
+"restore the view back to its default. Or you can use the "
+":guilabel:`View->Docks->...` menu to show or hide specific dock widgets on "
+"the main window."
+msgstr ""
+"Als je per ongeluk een dock hebt gesloten of verplaatst en het niet meer "
+"kunt vinden, zijn er een paar eenvoudige oplossingen. Ten eerste kun je de "
+"menuoptie :guilabel:`Beeld->Eenvoudige weergave` bovenaan het scherm "
+"gebruiken om de weergave terug te zetten naar de standaardinstelling. Of je "
+"kunt het menu :guilabel:`Beeld->Docks->...` gebruiken om specifieke dock-"
+"widgets in het hoofdvenster te tonen of te verbergen."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Snapping toggles magnetic alignment. Timing Tool enables retiming by "
+#~ "dragging clip edges. Razor Tool cuts clips at the clicked position."
+#~ msgstr ""
+#~ "Magnetisch schakelt magnetische uitlijning in of uit. Het Timing-gereedschap"
+#~ " maakt her-timing mogelijk door clipranden te slepen. Het Scheermes-"
+#~ "gereedschap knipt clips op de aangeklikte positie."
+
+#~ msgid ""
+#~ "Use :guilabel:`Help→About OpenShot` to check your OpenShot version. Click "
+#~ ":guilabel:`Copy` next to the version number to copy a short version and "
+#~ "system details report, which is the preferred way to share this information "
+#~ "when reporting a bug or asking for help."
+#~ msgstr ""
+#~ "Gebruik :guilabel:`Help→Over OpenShot` om uw OpenShot-versie te controleren."
+#~ " Klik op :guilabel:`Kopiëren` naast het versienummer om een korte versie en "
+#~ "systeemdetails te kopiëren, wat de voorkeursmethode is om deze informatie te"
+#~ " delen bij het melden van een bug of het vragen om hulp."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The ruler shows the time-scale, and the red line is the play-head. The play-"
+#~ "head represents the current playback position. Hold :kbd:`Shift` key while "
+#~ "dragging the playhead to snap to nearby clips."
+#~ msgstr ""
+#~ "De liniaal toont de tijdschaal en de rode lijn is de afspeelkop. De "
+#~ "afspeelkop geeft de huidige afspeelpositie aan. Houd de :kbd:`Shift`-toets "
+#~ "ingedrukt terwijl je de afspeelkop sleept om vast te klikken aan "
+#~ "nabijgelegen clips."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Freeze View"
+#~ msgstr "Beeld Bevriezen"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+F`"
+#~ msgstr ":kbd:`Ctrl+F`"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Show All Docks"
+#~ msgstr "Toon alle docks"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+Shift+D`"
+#~ msgstr ":kbd:`Ctrl+Shift+D`"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Un-Freeze View"
+#~ msgstr "Bevriezen van weergave opheffen"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":kbd:`Ctrl+Shift+F`"
+#~ msgstr ":kbd:`Ctrl+Shift+F`"
+
+# Translated with gpt-4.1-mini
+#~ msgid ":guilabel:`Toolbar` Show or hide the main window toolbar."
+#~ msgstr ""
+#~ ":guilabel:`Werkbalk` Toon of verberg de werkbalk van het hoofdvenster."
+
+# Translated with gpt-4.1-mini
+#~ msgid ":guilabel:`Fullscreen` Toggle fullscreen mode."
+#~ msgstr ""
+#~ ":guilabel:`Volledig Scherm` Schakel de modus voor volledig scherm in of uit."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Views` Switch or reset the main window layout (*Simple, Advanced,"
+#~ " Freeze, Show All*)."
+#~ msgstr ""
+#~ ":guilabel:`Weergaven` Wissel of reset de lay-out van het hoofdvenster "
+#~ "(*Eenvoudig, Geavanceerd, Bevriezen, Alles Tonen*)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ ":guilabel:`Docks` Show or hide various dockable panels (*Captions, Effects, "
+#~ "Emojis, Project Files, Properties, Transitions, Video Preview*)."
+#~ msgstr ""
+#~ ":guilabel:`Docks` Toon of verberg verschillende aan te klemmen panelen "
+#~ "(*Ondertitels, Effecten, Emoji's, Projectbestanden, Eigenschappen, "
+#~ "Overgangen, Videovoorbeeld*)."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "This is the **default** view, and is designed to be easy-to-use, especially "
+#~ "for first-time users. It contains :guilabel:`Project Files` on the top left,"
+#~ " :guilabel:`Preview Window` on the top right, and :guilabel:`Timeline` on "
+#~ "the bottom. If you accidentally close or move a dock, you can quickly reset "
+#~ "all the docks back to their default location using the "
+#~ ":guilabel:`View->Views->Simple View` menu at the top of the screen."
+#~ msgstr ""
+#~ "Dit is de **standaard** weergave, ontworpen om gemakkelijk te gebruiken te "
+#~ "zijn, vooral voor beginnende gebruikers. Het bevat "
+#~ ":guilabel:`Projectbestanden` linksboven, :guilabel:`Voorbeeldvenster` "
+#~ "rechtsboven en :guilabel:`Tijdlijn` onderaan. Als u per ongeluk een dock "
+#~ "sluit of verplaatst, kunt u snel alle docks terugzetten naar hun "
+#~ "standaardlocatie via het menu :guilabel:`Beeld->Weergaven->Eenvoudige "
+#~ "weergave` bovenaan het scherm."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "Each widget on the OpenShot main window is contained in a **dock**. These "
+#~ "docks can be dragged and snapped around the main window, and even grouped "
+#~ "together (into tabs). OpenShot will always save your main window dock layout"
+#~ " when you exit the program. Re-launching OpenShot will restore your custom "
+#~ "dock layout automatically."
+#~ msgstr ""
+#~ "Elke widget in het hoofdvenster van OpenShot bevindt zich in een **dock**. "
+#~ "Deze docks kunnen worden gesleept en vastgezet rond het hoofdvenster, en "
+#~ "zelfs gegroepeerd (in tabbladen). OpenShot slaat altijd uw dockindeling van "
+#~ "het hoofdvenster op bij het afsluiten van het programma. Bij het opnieuw "
+#~ "starten van OpenShot wordt uw aangepaste dockindeling automatisch hersteld."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "If you have accidentally closed or moved a dock and can no longer find it, "
+#~ "there are a couple easy solutions. First, you can use the "
+#~ ":guilabel:`View->Views->Simple View` menu option at the top of the screen, "
+#~ "to restore the view back to its default. Or you can use the "
+#~ ":guilabel:`View->Views->Docks->...` menu to show or hide specific dock "
+#~ "widgets on the main window."
+#~ msgstr ""
+#~ "Als u per ongeluk een dock hebt gesloten of verplaatst en deze niet meer "
+#~ "kunt vinden, zijn er een paar eenvoudige oplossingen. U kunt eerst de menu-"
+#~ "optie :guilabel:`Beeld->Weergaven->Eenvoudige weergave` bovenaan het scherm "
+#~ "gebruiken om de weergave terug te zetten naar de standaardinstelling. Of u "
+#~ "kunt het menu :guilabel:`Beeld->Weergaven->Docks->...` gebruiken om "
+#~ "specifieke dock-widgets in het hoofdvenster te tonen of te verbergen."

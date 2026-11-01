@@ -1,0 +1,121 @@
+name: openshot-qt CI Build
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-22.04, ubuntu-24.04]
+    defaults:
+      run:
+        shell: bash
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v7
+
+    - name: Select dependency branches
+      id: dependencies
+      env:
+        SOURCE_BRANCH: ${{ github.head_ref || github.ref_name }}
+      run: |
+        for repository in libopenshot-audio libopenshot; do
+          ref=develop
+          if git ls-remote --exit-code --heads "https://github.com/OpenShot/$repository.git" "refs/heads/$SOURCE_BRANCH" > /dev/null; then
+            ref="$SOURCE_BRANCH"
+          else
+            status=$?
+            # Exit 2 means the branch is absent; connection errors must fail.
+            if [ "$status" -ne 2 ]; then
+              exit "$status"
+            fi
+          fi
+          echo "$repository=$ref" >> "$GITHUB_OUTPUT"
+          echo "$repository: using $ref" >> "$GITHUB_STEP_SUMMARY"
+        done
+
+    - name: Check out audio dependency
+      uses: actions/checkout@v7
+      with:
+        repository: OpenShot/libopenshot-audio
+        ref: ${{ steps.dependencies.outputs['libopenshot-audio'] }}
+        path: dependencies/audio
+
+    - name: Check out library dependency
+      uses: actions/checkout@v7
+      with:
+        repository: OpenShot/libopenshot
+        ref: ${{ steps.dependencies.outputs.libopenshot }}
+        path: dependencies/libopenshot
+
+    - name: Build OpenShot dependencies
+      run: |
+        sudo apt update
+        sudo apt install -y cmake swig python3-dev libasound2-dev \
+          qtbase5-dev libqt5svg5-dev libavcodec-dev libavdevice-dev \
+          libavformat-dev libavutil-dev libswscale-dev libswresample-dev \
+          libbabl-dev libopencv-dev libprotobuf-dev protobuf-compiler libjsoncpp-dev
+        prefix="$RUNNER_TEMP/openshot-dependencies"
+        cmake -S dependencies/audio -B dependencies/audio/build \
+          -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="$prefix"
+        cmake --build dependencies/audio/build --parallel 2
+        cmake --install dependencies/audio/build
+        cmake -S dependencies/libopenshot -B dependencies/libopenshot/build \
+          -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="$prefix" \
+          -DCMAKE_PREFIX_PATH="$prefix" -DPYTHON_MODULE_PATH=python \
+          -DPYTHON_EXECUTABLE=/usr/bin/python3 -DBUILD_TESTING=OFF \
+          -DENABLE_LIB_DOCS=OFF -DUSE_QT6=OFF
+        cmake --build dependencies/libopenshot/build --parallel 2
+        cmake --install dependencies/libopenshot/build
+        echo "PYTHONPATH=$prefix/python" >> "$GITHUB_ENV"
+        echo "LD_LIBRARY_PATH=$prefix/lib" >> "$GITHUB_ENV"
+
+    - name: Install dependencies
+      run: |
+        sudo apt install qttranslations5-l10n libssl-dev xvfb
+        sudo apt install python3-pyqt5 python3-pyqt5.qtsvg python3-pyqt5.qtopengl python3-xdg
+        pip3 install setuptools wheel sentry-sdk dbus-next==0.2.3
+        pip3 install cx_Freeze==7.0.0 distro defusedxml requests certifi chardet urllib3
+
+    - name: Test
+      env:
+        QT_QPA_PLATFORM: offscreen
+      run: python3 -m unittest discover -s src/tests -t src/tests --quiet
+
+    - name: Test package layout
+      env:
+        QT_QPA_PLATFORM: offscreen
+      run: |
+        python3 setup.py build --build-base build/package-tests
+        cd build/package-tests/lib
+        python3 -m unittest discover --quiet
+
+  portable-title-controls:
+    name: Qt widget and CLI compatibility (${{ matrix.os }}, ${{ matrix.qt }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, windows-latest, macos-latest]
+        qt: [PyQt5, PyQt6, PySide6]
+    steps:
+    - uses: actions/checkout@v7
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    - name: Install Linux Qt runtime dependencies
+      if: runner.os == 'Linux'
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libegl1
+    - name: Install Qt
+      run: python -m pip install ${{ matrix.qt }} defusedxml
+    - name: Configure Windows fonts for offscreen Qt tests
+      if: runner.os == 'Windows'
+      shell: pwsh
+      run: Add-Content -Path $env:GITHUB_ENV -Value "QT_QPA_FONTDIR=$env:WINDIR/Fonts"
+    - name: Test native SVG file watching and shared toggles
+      env:
+        PYTHONPATH: src
+        QT_QPA_PLATFORM: offscreen
+        OPENSHOT_QT_API: ${{ matrix.qt }}
+      run: python -m unittest tests.test_qt_api tests.test_svg_watcher tests.test_preference_switch tests.test_toggle_switch tests.test_cli_entrypoints -v

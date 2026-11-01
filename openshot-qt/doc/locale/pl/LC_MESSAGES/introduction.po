@@ -1,0 +1,469 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:21
+msgid "Introduction"
+msgstr "Wprowadzenie"
+
+#: ../introduction.rst:23
+msgid ""
+"OpenShot Video Editor is an award-winning, open-source video editor, "
+"available on Linux, macOS, Chrome OS, and Windows. OpenShot can create "
+"stunning videos, films, and animations with an easy-to-use interface and "
+"rich feature-set."
+msgstr ""
+"OpenShot Video Editor to nagradzany, otwartoźródłowy edytor wideo, dostępny "
+"na Linux, macOS, Chrome OS i Windows. OpenShot pozwala tworzyć oszałamiające"
+" filmy, animacje i wideo dzięki łatwemu w użyciu interfejsowi i bogatemu "
+"zestawowi funkcji."
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:30
+msgid "Features"
+msgstr "Funkcje"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:31
+msgid "**Free & open-source** (licensed under GPLv3)"
+msgstr "**Darmowy i otwartoźródłowy** (licencja GPLv3)"
+
+#: ../introduction.rst:32
+msgid "**Cross-platform** (Linux, macOS, Chrome OS, and Windows)"
+msgstr "**Wieloplatformowy** (Linux, macOS, Chrome OS i Windows)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:33
+msgid "**Easy-to-use UI** (beginner-friendly, built-in tutorial)"
+msgstr ""
+"**Łatwy w użyciu interfejs** (przyjazny dla początkujących, wbudowany "
+"samouczek)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:34
+msgid "**Supports most formats** (video, audio, images - FFmpeg-based)"
+msgstr ""
+"**Obsługuje większość formatów** (wideo, audio, obrazy - oparty na FFmpeg)"
+
+#: ../introduction.rst:35
+msgid ""
+"**70+ export targets & profiles** (YouTube, TikTok, Reels, Shorts, and more)"
+msgstr ""
+"**Ponad 70 celów eksportu i profili** (YouTube, TikTok, Reels, Shorts i "
+"inne)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:36
+msgid "**Advanced timeline** (drag-drop, scroll, zoom, snap)"
+msgstr ""
+"**Zaawansowana oś czasu** (przeciągnij i upuść, przewijanie, powiększanie, "
+"przyciąganie)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:37
+msgid "**Advanced clips** (trim, alpha, scale, rotate, shear, transform)"
+msgstr ""
+"**Zaawansowane klipy** (przycinanie, alfa, skalowanie, obracanie, ścinanie, "
+"transformacja)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:38
+msgid "**Real-time preview** (multi-threaded, performance-optimized)"
+msgstr ""
+"**Podgląd w czasie rzeczywistym** (wielowątkowy, zoptymalizowany pod kątem "
+"wydajności)"
+
+#: ../introduction.rst:39
+msgid ""
+"**Multiple workspace modes** (Simple and Color views, plus save your own)"
+msgstr ""
+"**Wiele trybów przestrzeni roboczej** (prosty i kolorowy widok, a także "
+"możliwość zapisu własnego)"
+
+#: ../introduction.rst:40
+msgid ""
+"**Keyframe animations & panel** (`linear`, `bézier`, `constant` "
+"interpolation, visual keyframe panel)"
+msgstr ""
+"**Animacje kluczowe i panel** (`linear`, `bézier`, `constant` interpolacja, "
+"wizualny panel klatek kluczowych)"
+
+#: ../introduction.rst:41
+msgid "**One-click presets** (motion, fade, look, camera, color, and more)"
+msgstr ""
+"**Presety jednym kliknięciem** (ruch, zanikanie, wygląd, kamera, kolor i "
+"inne)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:42
+msgid "**Compositing, overlays, watermarks, transparency**"
+msgstr "**Kompozycja, nakładki, znaki wodne, przezroczystość**"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:43
+msgid "**Unlimited tracks / layers** (for complex projects)"
+msgstr "**Nieograniczona liczba ścieżek / warstw** (dla złożonych projektów)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:44
+msgid "**Transitions, masks, wipes** (grayscale images, animated masks)"
+msgstr ""
+"**Przejścia, maski, wycierania** (obrazy w skali szarości, animowane maski)"
+
+#: ../introduction.rst:45
+msgid ""
+"**Video effects** (chroma key, blur, brightness & contrast, film grain, "
+"stabilizer, and more)"
+msgstr ""
+"**Efekty wideo** (chroma key, rozmycie, jasność i kontrast, ziarnistość "
+"filmu, stabilizator i inne)"
+
+#: ../introduction.rst:46
+msgid ""
+"**Audio effects** (compressor, expander, noise removal, echo, and more)"
+msgstr "**Efekty audio** (kompresor, ekspander, usuwanie szumów, echo i inne)"
+
+#: ../introduction.rst:47
+msgid ""
+"**Color grading** (color wheels, RGB curves, LUT support, video scopes & "
+"analysis)"
+msgstr ""
+"**Korekcja kolorów** (koła kolorów, krzywe RGB, obsługa LUT, zakresy i "
+"analiza wideo)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:48
+msgid "**Image sequences & 2D animations**"
+msgstr "**Sekwencje obrazów i animacje 2D**"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:49
+msgid "**Blender 3D integration** (animated 3D title templates)"
+msgstr "**Integracja z Blender 3D** (animowane szablony tytułów 3D)"
+
+#: ../introduction.rst:50
+msgid ""
+"**Vector file support & editing** (SVG for titles, lower thirds, text "
+"overlays)"
+msgstr ""
+"**Obsługa i edycja plików wektorowych** (SVG do tytułów, dolnych trzecich, "
+"nakładek tekstowych)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:51
+msgid "**Audio mixing, waveform, editing**"
+msgstr "**Miksowanie audio, forma fali, edycja**"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:52
+msgid "**Emojis** (open-source stickers & artwork)"
+msgstr "**Emotikony** (otwartoźródłowe naklejki i grafiki)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:53
+msgid "**Frame accuracy** (per-frame navigation)"
+msgstr "**Dokładność klatek** (nawigacja po klatkach)"
+
+#: ../introduction.rst:54
+msgid ""
+"**Time re-mapping & speed changes** (slow motion, repeat, loop, ping-pong, "
+"forward/backward)"
+msgstr ""
+"**Zmiana czasu i prędkości** (zwolnione tempo, powtarzanie, pętla, ping-"
+"pong, do przodu/do tyłu)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:55
+#, fuzzy
+msgid "**Built-in AI** (motion tracking, object detection, stabilization)"
+msgstr ""
+"**Zaawansowana sztuczna inteligencja** (śledzenie ruchu, wykrywanie "
+"obiektów, stabilizacja)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:56
+msgid "**Advanced AI** (see :ref:`ai_ref`)"
+msgstr "**Zaawansowana AI** (zobacz :ref:`ai_ref`)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:58
+msgid ""
+"**Tracking & masks** (object tracking, animated mask generation, auto-blur, "
+"auto-highlight)"
+msgstr ""
+"**Śledzenie i maski** (śledzenie obiektów, generowanie animowanych masek, "
+"automatyczne rozmycie, automatyczne podświetlenie)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:59
+msgid ""
+"**Image & video generation** (text-to-image, image style transfer, "
+"text/image-to-video)"
+msgstr ""
+"**Generowanie obrazów i wideo** (tekst na obraz, transfer stylu obrazu, "
+"tekst/obraz na wideo)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:60
+msgid ""
+"**Quality enhancement** (upscaling, frame interpolation/increase frame rate)"
+msgstr ""
+"**Poprawa jakości** (skalowanie, interpolacja klatek/zwiększanie liczby "
+"klatek na sekundę)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:61
+msgid ""
+"**Analysis & automation** (auto scene splitting, speech "
+"transcription/captions)"
+msgstr ""
+"**Analiza i automatyzacja** (automatyczne dzielenie scen, transkrypcja "
+"mowy/napisy)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:62
+msgid "**Audio generation** (sound and music generation)"
+msgstr "**Generowanie dźwięku** (generowanie dźwięku i muzyki)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:63
+msgid "*Additional workflows can be added with custom ComfyUI templates*"
+msgstr ""
+"*Dodatkowe przepływy pracy można dodać za pomocą niestandardowych szablonów "
+"ComfyUI*"
+
+# Main-window terminology review, 2026-09-26.
+#: ../introduction.rst:64
+msgid "**Credits & captions** (scrolling, animated)"
+msgstr "**Napisy końcowe i napisy** (przewijane, animowane)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:65
+msgid "**Hardware acceleration** (NVIDIA, AMD, Intel, etc.)"
+msgstr "**Przyspieszenie sprzętowe** (NVIDIA, AMD, Intel itd.)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:66
+msgid "**Import & export** (EDL, Final Cut Pro)"
+msgstr "**Import i eksport** (EDL, Final Cut Pro)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:67
+msgid "**Desktop integration** (drag-drop from file managers)"
+msgstr "**Integracja z pulpitem** (przeciągnij i upuść z menedżerów plików)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:68
+msgid ""
+"**JSON project format** (`OpenShot Cloud API "
+"<https://www.openshot.org/cloud-api/>`_ compatible)"
+msgstr ""
+"**Format projektu JSON** (zgodny z `OpenShot Cloud API "
+"<https://www.openshot.org/cloud-api/>`_)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:69
+msgid "**Customizable shortcuts**"
+msgstr "**Konfigurowalne skróty**"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:70
+msgid "**Translations** (100+ languages)"
+msgstr "**Tłumaczenia** (ponad 100 języków)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:71
+msgid "**High DPI** monitor support"
+msgstr "**Obsługa monitorów o wysokim DPI**"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:72
+msgid ""
+"**Community support** (`Visit our forum <https://openshot.org/forum/>`_)"
+msgstr ""
+"**Wsparcie społeczności** (`Odwiedź nasze forum "
+"<https://openshot.org/forum/>`_)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:75
+msgid "Screenshot"
+msgstr "Zrzut ekranu"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:81
+msgid "System Requirements"
+msgstr "Wymagania systemowe"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:82
+msgid ""
+"Video editing benefits from modern, multi-core CPUs with **fast clock "
+"speeds** (GHz), large amounts of memory, and fast hard disk drives. "
+"Basically, you want the best computer you can afford when video editing. "
+"Here are the **minimum system requirements**:"
+msgstr ""
+"Edycja wideo korzysta z nowoczesnych, wielordzeniowych procesorów o "
+"**szybkich częstotliwościach taktowania** (GHz), dużej ilości pamięci oraz "
+"szybkich dysków twardych. W zasadzie potrzebujesz najlepszego komputera, na "
+"jaki Cię stać, do edycji wideo. Oto **minimalne wymagania systemowe**:"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:87
+msgid "TL;DR"
+msgstr "W skrócie"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:88
+msgid "Most computers manufactured after 2017 will run OpenShot"
+msgstr "Większość komputerów wyprodukowanych po 2017 roku uruchomi OpenShot"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:91
+msgid "Minimum Specifications"
+msgstr "Minimalne specyfikacje"
+
+#: ../introduction.rst:92
+msgid "64-bit Operating System (*Linux, macOS, Chrome OS, Windows 7/8/10/11*)"
+msgstr ""
+"System operacyjny 64-bitowy (*Linux, macOS, Chrome OS, Windows 7/8/10/11*)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:95
+msgid "Multi-core processor with 64-bit support"
+msgstr "Wielordzeniowy procesor z obsługą 64-bit"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:94
+msgid "Minimum cores: 2 (*recommended: 6+ cores*)"
+msgstr "Minimalna liczba rdzeni: 2 (*zalecane: 6+ rdzeni*)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:95
+msgid "Minimum threads: 4 (*recommended: 6+ threads*)"
+msgstr "Minimalna liczba wątków: 4 (*zalecane: 6+ wątków*)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:96
+msgid "Minimum turbo clock speed: 2.7 Ghz (*recommended: 3.4+ Ghz*)"
+msgstr "Minimalna prędkość taktowania turbo: 2,7 GHz (*zalecane: 3,4+ GHz*)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:97
+msgid "4GB of RAM (*16+ GB recommended*)"
+msgstr "4 GB RAM (*zalecane 16+ GB*)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:98
+msgid ""
+"1 GB of hard-disk space for installation & usage (*recommended: 50+ GB "
+"available hard-disk space for media, videos, images, and storage*)"
+msgstr ""
+"1 GB miejsca na dysku twardym na instalację i użytkowanie (*zalecane: 50+ GB"
+" dostępnego miejsca na media, filmy, obrazy i przechowywanie*)"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:99
+msgid ""
+"Optional: Solid-state drive (SSD), if utilizing disk-caching add an "
+"additional 10GB of hard-disk space"
+msgstr ""
+"Opcjonalnie: dysk SSD, jeśli używasz buforowania dysku, dodaj dodatkowe 10 "
+"GB miejsca na dysku"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:100
+msgid "For factors related to real-time previews, see :ref:`playback_ref`."
+msgstr ""
+"W kwestii czynników związanych z podglądem w czasie rzeczywistym zobacz "
+":ref:`playback_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:103
+msgid "License"
+msgstr "Licencja"
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:104
+msgid ""
+"OpenShot Video Editor is free software: you can redistribute it and/or "
+"modify it under the terms of the GNU General Public License as published by "
+"the Free Software Foundation, either version 3 of the License, or (at your "
+"option) any later version."
+msgstr ""
+"OpenShot Video Editor to wolne oprogramowanie: możesz je rozpowszechniać "
+"i/lub modyfikować na warunkach Licencji Publicznej GNU, opublikowanej przez "
+"Free Software Foundation, wersji 3 licencji lub (według własnego wyboru) "
+"dowolnej późniejszej wersji."
+
+# Translated with gpt-4.1-mini
+#: ../introduction.rst:109
+msgid ""
+"OpenShot Video Editor is distributed in the hope that it will be useful, but"
+" WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
+" more details."
+msgstr ""
+"OpenShot Video Editor jest rozpowszechniany z nadzieją, że będzie użyteczny,"
+" ale BEZ JAKIEJKOLWIEK GWARANCJI; nawet bez domniemanej gwarancji "
+"PRZYDATNOŚCI HANDLOWEJ lub PRZYDATNOŚCI DO OKREŚLONEGO CELU. Szczegóły "
+"znajdują się w Licencji Publicznej GNU."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "OpenShot Video Editor is an award-winning, open-source video editor, "
+#~ "available on Linux, Mac, and Windows. OpenShot can create stunning videos, "
+#~ "films, and animations with an easy-to-use interface and rich feature-set."
+#~ msgstr ""
+#~ "OpenShot Video Editor to nagradzany, otwartoźródłowy edytor wideo, dostępny "
+#~ "na Linux, Mac i Windows. OpenShot pozwala tworzyć oszałamiające filmy, "
+#~ "animacje i wideo dzięki łatwemu w użyciu interfejsowi i bogatemu zestawowi "
+#~ "funkcji."
+
+# Translated with gpt-4.1-mini
+#~ msgid "**Cross-platform** (Linux, OS X, Chrome OS, and Windows)"
+#~ msgstr "**Wieloplatformowy** (Linux, OS X, Chrome OS i Windows)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "**70+ video profiles & presets** (including YouTube HD)"
+#~ msgstr "**Ponad 70 profili i presetów wideo** (w tym YouTube HD)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "**Keyframe animations** (`linear`, `Bézier`, `constant` interpolation)"
+#~ msgstr ""
+#~ "**Animacje kluczowych klatek** (`linear`, `Bézier`, `constant` interpolacja)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "**Video & audio effects** (brightness, hue, chroma key, and more)"
+#~ msgstr "**Efekty wideo i audio** (jasność, odcień, chroma key i inne)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "**Vector file support & editing** (SVG for titles)"
+#~ msgstr "**Obsługa i edycja plików wektorowych** (SVG dla tytułów)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "**Time re-mapping & speed changes** (slow/fast, forward/backward)"
+#~ msgstr ""
+#~ "**Zmiana mapowania czasu i prędkości** (wolno/szybko, do przodu/do tyłu)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "64-bit Operating System (*Linux, OS X, Chrome OS, Windows 7/8/10/11*)"
+#~ msgstr ""
+#~ "64-bitowy system operacyjny (*Linux, OS X, Chrome OS, Windows 7/8/10/11*)"

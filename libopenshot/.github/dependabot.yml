@@ -1,0 +1,13 @@
+# © OpenShot Studios, LLC
+#
+# SPDX-License-Identifier: LGPL-3.0-or-later
+
+# Set update schedule for GitHub Actions
+
+version: 2
+updates:
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

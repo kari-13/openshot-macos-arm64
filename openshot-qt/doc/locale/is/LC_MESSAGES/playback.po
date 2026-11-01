@@ -1,0 +1,442 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:23
+msgid "Playback"
+msgstr "Spilun"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:24
+msgid ""
+"The preview window is where video & audio playback takes place in OpenShot "
+"Video Editor. The preview window utilizes real-time video rendering, "
+"caching, re-sampling, and image scaling. This is the primary area for "
+"watching back (and listening to) your edits, giving you the feedback needed "
+"to make adjustments. It is also one of the most costly operations to your "
+"CPU, and requires a modern computer and some reasonable assumptions and "
+"factors (listed below)."
+msgstr ""
+"Forskoðunarglugginn er þar sem mynd- og hljóðspilun fer fram í OpenShot "
+"Video Editor. Forskoðunarglugginn notar rauntíma myndvinnslu, skyndiminni, "
+"endursýningu og myndastærðarskiptingu. Þetta er aðal svæðið til að horfa "
+"aftur á (og hlusta á) breytingarnar þínar, sem gefur þér endurgjöf til að "
+"gera breytingar. Þetta er einnig ein af mest krefjandi aðgerðum fyrir "
+"örgjörvann þinn og krefst nútímalegs tölvu og nokkurra skynsamlegra "
+"forsendna og þátta (sem taldir eru upp hér að neðan)."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:30
+msgid "Real-Time Preview"
+msgstr "Rauntíma forskoðun"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:31
+msgid ""
+"Many factors affect how smoothly the **real-time video preview** can "
+"playback on your computer. This requires a fast, modern multi-threaded CPU, "
+"lots of RAM (memory), and a modern GPU. We have listed many of the important "
+"factors below."
+msgstr ""
+"Margir þættir hafa áhrif á hversu hnökralaust **rauntíma myndforskoðun** "
+"spilar á tölvunni þinni. Þetta krefst hraðs, nútímalegs fjölþráða örgjörva, "
+"mikils vinnsluminni (RAM) og nútímalegs skjákorts. Við höfum talið upp marga "
+"mikilvæga þætti hér að neðan."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38
+msgid "Factor"
+msgstr "Þáttur"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38 ../playback.rst:97
+msgid "Description"
+msgstr "Lýsing"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid "CPU"
+msgstr "Örgjörvi"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid ""
+"If your CPU is too slow or has too few cores, you will likely experience a "
+"slow, choppy preview. We recommend installing OpenShot on fairly modern "
+"computer. See :ref:`min_system_req_ref` for more details on the hardware "
+"requirements for OpenShot Video Editor."
+msgstr ""
+"Ef örgjörvinn þinn er of hægur eða hefur of fáa kjarna, muntu líklega "
+"upplifa hæga og brotna forskoðun. Við mælum með að setja OpenShot upp á "
+"tiltölulega nútímalegri tölvu. Sjá :ref:`min_system_req_ref` fyrir frekari "
+"upplýsingar um vélbúnaðar kröfur OpenShot Video Editor."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid "Memory"
+msgstr "Vinnsluminni"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid ""
+"If your available RAM memory is too limited, you will likely see huge drops "
+"in real-time performance, and your entire system will lag. We recommend "
+"installing additional RAM in your computer, if possible. See :ref:"
+"`min_system_req_ref`."
+msgstr ""
+"Ef tiltækt vinnsluminni (RAM) er of takmarkað, muntu líklega sjá miklar "
+"lækkanir í rauntíma frammistöðu og allt kerfið þitt mun dragast. Við mælum "
+"með að bæta við vinnsluminni í tölvuna þína, ef mögulegt er. Sjá :ref:"
+"`min_system_req_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid "Cache"
+msgstr "Skyndiminni"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid ""
+"Your cache settings in the OpenShot Preferences are very important for "
+"determining how many frames to processes in advance. A value too low or too "
+"high can cause lag during the real-time video preview. The cache is also "
+"related to the available RAM. The higher the cache values, the more RAM and "
+"CPU is needed. We recommend experimenting with the Cache Preferences in "
+"OpenShot if you are experiencing issues with smooth playback. This same "
+"caching system also prepares frames ahead of time during export, speeding up "
+"the final render. See :ref:`preferences_cache_ref`."
+msgstr ""
+"Stillingar skyndiminnis í OpenShot valkostum eru mjög mikilvægar til að "
+"ákvarða hversu mörg rammar eru unnin fyrirfram. Of lágt eða of hátt gildi "
+"getur valdið töfum í rauntíma myndforskoðun. Skyndiminnið tengist einnig "
+"tiltæku vinnsluminni. Því hærri sem skyndiminnið er, því meira vinnsluminni "
+"og örgjörvi þarf. Við mælum með að prófa skyndiminni valkostina í OpenShot "
+"ef þú lendir í vandræðum með hnökralausa spilun. Sama skyndiminni kerfið "
+"undirbýr einnig ramma fyrirfram við útflutning, sem hraðar endanlegri "
+"úrvinnslu. Sjá :ref:`preferences_cache_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid "Preview Size"
+msgstr "Stærð forskoðunar"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid ""
+"The height x width of your preview dock (widget) is very important for "
+"smooth real-time previews. The larger the window size, the more pixels must "
+"be rendered per frame, and the more CPU and RAM are required. It is "
+"recommended to keep reducing the preview window size until you achieve "
+"smooth video playback. On a slower computer, the preview window size might "
+"need to be very small for real-time previews (i.e. 320 x 240)."
+msgstr ""
+"Hæð x breidd forskoðunarglugga (viðmótsþáttar) er mjög mikilvæg fyrir "
+"hnökralausa rauntíma forskoðun. Því stærri sem gluggastærðin er, því fleiri "
+"pixlar þurfa að vera unnir á hverjum ramma, og því meira örgjörvi og "
+"vinnsluminni þarf. Mælt er með að minnka stærð forskoðunargluggans þar til "
+"hnökralaus myndspilun næst. Á hægari tölvu gæti þurft að hafa gluggann mjög "
+"lítinn fyrir rauntíma forskoðun (t.d. 320 x 240)."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid "Profile"
+msgstr "Prófíll"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid ""
+"Your project profile determines which size (width x height) and frame rate "
+"(FPS) are used during both playback and exporting. For example, if you are "
+"using a FHD 1920x1080 sized profile, you can also choose a smaller profile "
+"with the same aspect ratio (``16x9`` in this example), to improve the "
+"preview speed on slower computers. See :ref:`profiles_ref` for more "
+"information on available profiles."
+msgstr ""
+"Prófíll verkefnisins ákvarðar hvaða stærð (breidd x hæð) og rammastuðull "
+"(FPS) eru notuð bæði við spilun og útflutning. Til dæmis, ef þú notar FHD "
+"1920x1080 prófíl, getur þú einnig valið minni prófíl með sama hlutfalli "
+"(``16x9`` í þessu dæmi), til að bæta forskoðunartíma á hægari tölvum. Sjá :"
+"ref:`profiles_ref` fyrir frekari upplýsingar um fáanlega prófíla."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid "FPS (Frame Rate)"
+msgstr "FPS (Rammastuðull)"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid ""
+"The FPS of your project is also very important, and a large factor for "
+"smooth video playback. For example, a 60 FPS video must render twice the "
+"number of frames, compared to a 30 FPS video. If you are experiencing slow "
+"downs in real-time performance, it can be helpful to reduce your project's "
+"FPS to a lower value, such as 30 or 24."
+msgstr ""
+"FPS verkefnisins þíns er einnig mjög mikilvægt og stór þáttur fyrir "
+"hnökralausa myndspilun. Til dæmis þarf 60 FPS myndband að vinna tvöfalt "
+"fleiri ramma en 30 FPS myndband. Ef þú lendir í hægagang í rauntíma "
+"frammistöðu getur verið gagnlegt að lækka FPS verkefnisins í lægra gildi, "
+"eins og 30 eða 24."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid "Matching Rates"
+msgstr "Samsvarandi tíðni"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid ""
+"It is very important to match your source assets FPS and Sample Rate with "
+"your Project FPS and Project sample rate. If either rate does not match "
+"exactly, it requires lots of additional CPU and RAM for OpenShot to "
+"normalize the mismatching rates. This can lead to audio pops, mis-"
+"alignments, duplicate frames, and extra lag in the real-time video preview. "
+"You can right-click a file and choose :guilabel:`File Properties`, to "
+"inspect the source asset rates, and ensure they match your Project settings "
+"(shown at the top of OpenShot). See :ref:`file_properties_ref`."
+msgstr ""
+"Það er mjög mikilvægt að samræma FPS og sýnatíðni upprunalegra gagna við FPS "
+"og sýnatíðni verkefnisins. Ef annað hvort gildi passar ekki nákvæmlega, þarf "
+"OpenShot mikla viðbótar örgjörva og vinnsluminni til að samræma ósamræmd "
+"gildi. Þetta getur valdið hljóðtruflunum, röngum samstillingum, tvöföldum "
+"rammum og auknum töfum í rauntíma myndforskoðun. Þú getur hægrismellt á skrá "
+"og valið :guilabel:`Skráareiginleikar` til að skoða tíðni upprunalegra gagna "
+"og tryggja að þau passi við verkefnisstillingarnar þínar (sýndar efst í "
+"OpenShot). Sjá :ref:`file_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid "Source Assets"
+msgstr "Upprunaleg gögn"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid ""
+"For example, if you are editing 4K 60 FPS source assets, this is likely "
+"going to put a strain on your system. A common solution is using another "
+"tool (such as FFmpeg) to create a copy (or proxy) of all your source assets, "
+"at a lower resolution (and maybe even a lower FPS). It is recommended to "
+"keep these proxy video files in their own folder, separate from the original "
+"video files. Once you have completed your video editing with the proxy "
+"files, simply copy/paste your `*.osp` project file back into the original "
+"folder, and export the higher quality, original files."
+msgstr ""
+"Til dæmis, ef þú ert að klippa 4K 60 FPS upprunaleg gögn, mun það líklega "
+"setja mikla álag á kerfið þitt. Algeng lausn er að nota annað tæki (eins og "
+"FFmpeg) til að búa til afrit (eða proxy) af öllum upprunalegum gögnum þínum, "
+"í lægri upplausn (og jafnvel lægri FPS). Mælt er með að halda þessum proxy "
+"myndbands-skrám í sér möppu, aðskildri frá upprunalegu myndbands-skránum. "
+"Þegar þú hefur lokið myndvinnslu með proxy skrám, einfaldlega afritaðu/límdu "
+"`*.osp` verkefnisskrána aftur í upprunalegu möppuna og flytja út hærri "
+"gæðaskrár, upprunalegu skrárnar."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77 ../playback.rst:101
+msgid "Audio Device"
+msgstr "Hljóðtæki"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77
+msgid ""
+"If you are still having issues with audio lag or sync, please verify you are "
+"using the correct :guilabel:`Playback Audio Device` for playback (in the "
+"OpenShot Preferences). See :ref:`preferences_preview_ref`. Verify your "
+"default audio device (on your operating system) is using the same sample "
+"rate and all *Audio Enhancements* are disabled. On certain operating systems "
+"(such as Windows), mismatching sample rates or audio enhancements can cause "
+"severe audio / video sync problems. Lastly, try adjusting the :guilabel:"
+"`Playback Audio Buffer Size` (lower values will playback audio with less "
+"delay, higher values will playback audio with a larger delay). OpenShot "
+"defaults to a buffer size of 512, which is reasonable for most systems, "
+"however on some systems you might need to lower (or raise) this value for "
+"smooth and lag-free audio playback. Be sure to restart OpenShot after "
+"changing the audio playback settings."
+msgstr ""
+"Ef þú ert enn að lenda í vandræðum með hljóðseinkun eða samstillingu, "
+"vinsamlegast staðfestu að þú sért að nota réttan :guilabel:`Playback Audio "
+"Device` fyrir spilun (í OpenShot stillingunum). Sjá :ref:"
+"`preferences_preview_ref`. Staðfestu að sjálfgefna hljóðtækið þitt (á "
+"stýrikerfinu þínu) noti sama sýnatökutíðni og að allar *Hljóðbætur* séu "
+"óvirkar. Á sumum stýrikerfum (eins og Windows) getur ósamræmi í "
+"sýnatökutíðni eða hljóðbótum valdið alvarlegum vandamálum með samstillingu "
+"hljóðs og myndar. Að lokum, reyndu að stilla :guilabel:`Playback Audio "
+"Buffer Size` (lægra gildi spilar hljóð með minni töf, hærra gildi spilar "
+"hljóð með meiri töf). OpenShot notar sjálfgefið buffergildi 512, sem er "
+"viðunandi fyrir flest kerfi, en á sumum kerfum gætir þú þurft að lækka (eða "
+"hækka) þetta gildi til að fá mjúka og tafarlausa hljóðspilun. Gakktu úr "
+"skugga um að endurræsa OpenShot eftir að hafa breytt hljóðstillingum."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:89
+msgid "Audio Troubleshooting"
+msgstr "Hljóðvandamálaleit"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:90
+msgid ""
+"If you are still experiencing audio related issues, and the above real-time "
+"playback factors did not resolve your issue, here are some additional "
+"troubleshooting steps you can take."
+msgstr ""
+"Ef þú ert enn að upplifa hljóðvandamál og ofangreindir þættir í rauntíma "
+"spilun leystu ekki vandamálið, hér eru nokkur viðbótar skref til að leysa "
+"vandamál."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:97
+msgid "Step"
+msgstr "Skref"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid "Latest Daily Build"
+msgstr "Nýjasta daglega útgáfan"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid ""
+"Verify you are running the latest daily build of OpenShot: https://www."
+"openshot.org/download#daily"
+msgstr ""
+"Staðfestu að þú sért að keyra nýjustu daglegu útgáfu OpenShot: https://www."
+"openshot.org/download#daily"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "Clean Install"
+msgstr "Hrein uppsetning"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "See :ref:`preferences_reset_ref` for a clean install"
+msgstr "Sjá :ref:`preferences_reset_ref` fyrir hreina uppsetningu"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:101
+msgid ""
+"Check that the Playback Audio Device is set correctly for your sound output "
+"under Preferences in the Preview tab. Restart OpenShot after changing the "
+"settings. You can also try a different audio device (USB, audio over HDMI "
+"from the video card, headphones, etc.) to rule out other audio issues. "
+"Disable `automatic sound suppression` for voice calls during microphone "
+"activity, and disable `Audio Enhancements` under the advanced settings tab "
+"of your audio device (not all audio devices have these settings). See :ref:"
+"`preferences_preview_ref`."
+msgstr ""
+"Athugaðu að Playback Audio Device sé rétt stillt fyrir hljóðúttak þitt undir "
+"Stillingar í Forskoðunartöflu. Endurræstu OpenShot eftir að hafa breytt "
+"stillingum. Þú getur einnig prófað annað hljóðtæki (USB, hljóð yfir HDMI frá "
+"myndkorti, heyrnartól o.s.frv.) til að útiloka önnur hljóðvandamál. Slökktu "
+"á `automatic sound suppression` fyrir raddsímtöl meðan hljóðnemi er virkur, "
+"og slökktu á `Audio Enhancements` undir háþróuðum stillingum hljóðtækisins "
+"(ekki öll hljóðtæki hafa þessar stillingar). Sjá :ref:"
+"`preferences_preview_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid "Audio Buffer Size"
+msgstr "Stærð hljóðbúnings"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid ""
+"The audio buffer size is the amount of audio samples which must first be "
+"buffered in OpenShot before audio playback can begin. If this value is too "
+"low, you might experience audio break-up / crackle / popping. If this value "
+"is too high, you might experience delays or lag before audio playback "
+"begins. OpenShot defaults this value to 512, which is a reasonable default "
+"for most systems, which should provide smooth audio playback with minimal "
+"noticeable lag or delay. However, on some systems this value might need to "
+"be adjusted up or down, for in-sync and lag-free audio playback. The range "
+"is 128 to 4096."
+msgstr ""
+"Stærð hljóðbúnings er magn hljóðsýna sem þarf að geyma í OpenShot áður en "
+"hljóðspilun getur hafist. Ef þetta gildi er of lágt, gætir þú upplifað "
+"hljóðrof / hvísla / smell. Ef gildi er of hátt, gætir þú upplifað töf eða "
+"seinkun áður en hljóðspilun byrjar. OpenShot notar sjálfgefið gildi 512, sem "
+"er viðunandi fyrir flest kerfi og ætti að tryggja mjúka hljóðspilun með "
+"lítilli eða engri töf. Hins vegar gæti þurft að stilla þetta gildi upp eða "
+"niður á sumum kerfum til að fá samstillta og tafarlausa hljóðspilun. "
+"Gildisbil er 128 til 4096."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid "Sample Rate"
+msgstr "Sýnatökutíðni"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid ""
+"Ensure that the `Default Audio Sample Rate` and `Default Audio Channels` on "
+"the Preview tab of the Preferences window match your hardware. You can also "
+"check these settings in the operating system control panel (i.e. Windows "
+"Sound Control Panel). See :ref:`preferences_preview_ref`."
+msgstr ""
+"Gakktu úr skugga um að `Default Audio Sample Rate` og `Default Audio "
+"Channels` í Forskoðunartöflu Stillingaglugga passi við vélbúnaðinn þinn. Þú "
+"getur einnig athugað þessar stillingar í stjórnborði stýrikerfisins (t.d. "
+"Windows Sound Control Panel). Sjá :ref:`preferences_preview_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid "Volume"
+msgstr "Hljóðstyrkur"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid ""
+"Ensure that the volume does not exceed 100% on overlapping clips (such as an "
+"audio track combined with a video track). Lower the volume on individual "
+"clips if needed. See :ref:`clip_volume_mixing_ref`."
+msgstr ""
+"Gakktu úr skugga um að hljóðstyrkur fari ekki yfir 100% á yfirfallandi "
+"klippum (eins og hljóðrás samsett með myndrás). Lækkaðu hljóðstyrk á "
+"einstökum klippum ef þörf krefur. Sjá :ref:`clip_volume_mixing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid "Headphones"
+msgstr "Heyrnartól"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid ""
+"If you're using headphones, plug them in before starting OpenShot. Launching "
+"OpenShot with no speakers, headphones, or valid audio playback device can "
+"cause OpenShot to freeze during playback."
+msgstr ""
+"Ef þú notar heyrnartól, tengdu þau áður en þú ræstir OpenShot. Að ræsa "
+"OpenShot án hátalara, heyrnartóla eða gilt hljóðspilunartæki getur valdið "
+"því að OpenShot frjósi við spilun."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid "OS Updates"
+msgstr "Uppfærslur stýrikerfis"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid ""
+"Update your operating system and any pending security updates. Some audio "
+"issues, especially audio device specific issues, can be resolved with an "
+"operating system update."
+msgstr ""
+"Uppfærðu stýrikerfið þitt og allar ókláraðar öryggisuppfærslur. Sum "
+"hljóðvandamál, sérstaklega þau sem tengjast tilteknum hljóðtækjum, má leysa "
+"með uppfærslu stýrikerfis."

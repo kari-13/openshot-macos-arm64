@@ -1,0 +1,1840 @@
+[
+  {
+    "title": "Language",
+    "category": "General",
+    "setting": "default-language",
+    "value": "Default",
+    "type": "dropdown",
+    "values": [],
+    "restart": true
+  },
+  {
+    "value": "Cosmic Dusk",
+    "title": "Default Theme",
+    "category": "General",
+    "setting": "theme",
+    "type": "dropdown",
+    "translate_values": true,
+    "values": [],
+    "restart": false
+  },
+  {
+    "value": 1.0,
+    "title": "User Interface Scale",
+    "category": "General",
+    "setting": "ui-scale",
+    "type": "dropdown",
+    "restart": true,
+    "values": [
+      {
+        "value": 0.75,
+        "name": "75%"
+      },
+      {
+        "value": 1.0,
+        "name": "100%"
+      },
+      {
+        "value": 1.25,
+        "name": "125%"
+      },
+      {
+        "value": 1.5,
+        "name": "150%"
+      },
+      {
+        "value": 2.0,
+        "name": "200%"
+      },
+      {
+        "value": 2.5,
+        "name": "250%"
+      },
+      {
+        "value": 3.0,
+        "name": "300%"
+      }
+    ]
+  },
+  {
+    "value": "HD 720p 30 fps",
+    "title": "Default Profile",
+    "category": "General",
+    "setting": "default-profile",
+    "type": "dropdown",
+    "values": [],
+    "restart": true
+  },
+  {
+    "value": "",
+    "title": "",
+    "type": "hidden",
+    "category": "General",
+    "setting": "unique_install_id"
+  },
+  {
+    "value": false,
+    "title": "",
+    "type": "hidden",
+    "category": "General",
+    "setting": "feedback-shown"
+  },
+  {
+    "value": "",
+    "title": "",
+    "type": "hidden",
+    "category": "General",
+    "setting": "feedback-release"
+  },
+  {
+    "value": {},
+    "title": "",
+    "type": "hidden",
+    "category": "General",
+    "setting": "text-last-style"
+  },
+  {
+    "value": false,
+    "title": "",
+    "type": "hidden",
+    "category": "General",
+    "setting": "export-celebrated"
+  },
+  {
+    "value": "",
+    "title": "",
+    "type": "hidden",
+    "category": "General",
+    "setting": "dismissed-update-version"
+  },
+  {
+    "value": true,
+    "title": "",
+    "type": "hidden",
+    "category": "General",
+    "setting": "adjust_scaling_factor"
+  },
+  {
+    "value": "smileys-emotion",
+    "title": "",
+    "type": "hidden",
+    "category": "General",
+    "setting": "emoji_group_filter"
+  },
+  {
+    "value": "default",
+    "title": "Track Size",
+    "type": "dropdown",
+    "restart": false,
+    "category": "Timeline",
+    "setting": "timeline-track-size",
+    "translate_values": true,
+    "values": [
+      {"value": "minimal", "name": "Minimal"},
+      {"value": "compact", "name": "Compact"},
+      {"value": "default", "name": "Default"},
+      {"value": "relaxed", "name": "Relaxed"}
+    ]
+  },
+  {
+    "value": 5,
+    "title": "Default Number of Tracks",
+    "type": "spinner-int",
+    "restart": false,
+    "category": "Timeline",
+    "setting": "default-track-count",
+    "min": 1,
+    "max": 100
+  },
+  {
+    "value": "entire",
+    "title": "Thumbnail Style",
+    "type": "dropdown",
+    "restart": false,
+    "category": "Timeline",
+    "setting": "timeline-thumbnail-style",
+    "translate_values": true,
+    "values": [
+      {
+        "value": "none",
+        "name": "None"
+      },
+      {
+        "value": "start",
+        "name": "Only Start"
+      },
+      {
+        "value": "start-end",
+        "name": "Start and End"
+      },
+      {
+        "value": "entire",
+        "name": "Entire Clip"
+      }
+    ]
+  },
+  {
+    "max": 10000,
+    "title": "Image Length (seconds)",
+    "category": "Timeline",
+    "min": 0,
+    "setting": "default-image-length",
+    "value": 10.0,
+    "type": "spinner"
+  },
+  {
+    "max": 10000,
+    "title": "Transition Length (seconds)",
+    "category": "Timeline",
+    "min": 0,
+    "setting": "default-transition-length",
+    "value": 10.0,
+    "type": "spinner"
+  },
+  {
+    "min": 20,
+    "max": 400,
+    "value": 200,
+    "title": "Waveform Samples (per second)",
+    "category": "Timeline",
+    "setting": "timeline-waveform-samples-per-second",
+    "type": "spinner-int",
+    "restart": false
+  },
+  {
+    "value": "blender",
+    "title": "Blender Command (path)",
+    "type": "browse",
+    "category": "General",
+    "setting": "blender_command"
+  },
+  {
+    "value": "inkscape",
+    "title": "Advanced Title Editor (path)",
+    "type": "browse",
+    "category": "General",
+    "setting": "title_editor"
+  },
+  {
+    "value": "AAAA/wAAAAD9AAAAAwAAAAAAAAEnAAAC3/wCAAAAA/wAAAJeAAAApwAAAAAA////+gAAAAACAAAAAfsAAAAYAGQAbwBjAGsASwBlAHkAZgByAGEAbQBlAAAAAAD/////AAAAAAAAAAD7AAAAHABkAG8AYwBrAFAAcgBvAHAAZQByAHQAaQBlAHMAAAAAJwAAAt8AAAChAP////sAAAAYAGQAbwBjAGsAVAB1AHQAbwByAGkAYQBsAgAABUQAAAF6AAABYAAAANwAAAABAAABHAAAAUD8AgAAAAH7AAAAGABkAG8AYwBrAEsAZQB5AGYAcgBhAG0AZQEAAAFYAAAAFQAAAAAAAAAAAAAAAgAABEYAAALC/AEAAAAC/AAAAAAAAARGAAAA+gD////8AgAAAAL8AAAAPQAAAa4AAACvAP////wBAAAAAvwAAAAAAAABwQAAAJcA////+gAAAAACAAAABPsAAAASAGQAbwBjAGsARgBpAGwAZQBzAQAAAAD/////AAAAkgD////7AAAAHgBkAG8AYwBrAFQAcgBhAG4AcwBpAHQAaQBvAG4AcwEAAAAA/////wAAAJIA////+wAAABYAZABvAGMAawBFAGYAZgBlAGMAdABzAQAAAAD/////AAAAkgD////7AAAAFABkAG8AYwBrAEUAbQBvAGoAaQBzAQAAAAD/////AAAAkgD////7AAAAEgBkAG8AYwBrAFYAaQBkAGUAbwEAAAHHAAACfwAAAEcA////+wAAABgAZABvAGMAawBUAGkAbQBlAGwAaQBuAGUBAAAB8QAAAQ4AAACWAP////sAAAAiAGQAbwBjAGsAQwBhAHAAdABpAG8AbgBFAGQAaQB0AG8AcgAAAANtAAAA2QAAAFgA////AAAERgAAAAEAAAABAAAAAgAAAAEAAAAC/AAAAAEAAAACAAAAAQAAAA4AdABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA",
+    "title": "",
+    "type": "hidden",
+    "category": "Qt",
+    "setting": "window_state_v2"
+  },
+  {
+    "value": "AdnQywADAAAAAAGbAAAAaAAABeAAAAOoAAABmwAAAI0AAAXgAAADqAAAAAAAAAAACJAAAAGbAAAAjQAABeAAAAOo",
+    "title": "",
+    "type": "hidden",
+    "category": "Qt",
+    "setting": "window_geometry_v2"
+  },
+  {
+    "value": 0,
+    "title": "",
+    "type": "hidden",
+    "category": "Qt",
+    "setting": "timeline_height"
+  },
+  {
+    "value": 0,
+    "title": "",
+    "type": "hidden",
+    "category": "Qt",
+    "setting": "video_dock_width"
+  },
+  {
+    "value": [],
+    "title": "",
+    "type": "hidden",
+    "category": "Qt",
+    "setting": "hidden_docks"
+  },
+  {
+    "value": [],
+    "title": "",
+    "type": "hidden",
+    "category": "Qt",
+    "setting": "custom_views"
+  },
+  {
+    "value": "",
+    "title": "",
+    "type": "hidden",
+    "category": "Qt",
+    "setting": "active_custom_view"
+  },
+  {
+    "value": "simple",
+    "title": "",
+    "type": "hidden",
+    "category": "Qt",
+    "setting": "active_builtin_view"
+  },
+  {
+    "value": "thumbnail",
+    "title": "",
+    "type": "hidden",
+    "category": "UI",
+    "setting": "file_view"
+  },
+  {
+    "value": "thumbnail",
+    "title": "",
+    "type": "hidden",
+    "category": "UI",
+    "setting": "transitions_view"
+  },
+  {
+    "value": "thumbnail",
+    "title": "",
+    "type": "hidden",
+    "category": "UI",
+    "setting": "effects_view"
+  },
+  {
+    "value": [],
+    "title": "",
+    "type": "hidden",
+    "category": "UI",
+    "setting": "recent_projects"
+  },
+  {
+    "value": "",
+    "title": "Playback Audio Device",
+    "category": "Preview",
+    "setting": "playback-audio-device",
+    "type": "dropdown",
+    "values": [],
+    "restart": true
+  },
+  {
+    "max": 192000,
+    "title": "Default Audio Sample Rate",
+    "category": "Preview",
+    "min": 22050,
+    "setting": "default-samplerate",
+    "value": 48000,
+    "values": [
+      {
+        "value": 22050,
+        "name": "22050"
+      },
+      {
+        "value": 44100,
+        "name": "44100"
+      },
+      {
+        "value": 48000,
+        "name": "48000"
+      },
+      {
+        "value": 96000,
+        "name": "96000"
+      },
+      {
+        "value": 192000,
+        "name": "192000"
+      }
+    ],
+    "type": "dropdown",
+    "restart": true
+  },
+  {
+    "max": 10,
+    "title": "Default Audio Channels",
+    "category": "Preview",
+    "min": 1,
+    "setting": "default-channellayout",
+    "type": "dropdown",
+    "value": "LAYOUT_STEREO",
+    "translate_values": true,
+    "values": [
+      {
+        "value": "LAYOUT_MONO",
+        "name": "Mono (1 Channel)"
+      },
+      {
+        "value": "LAYOUT_STEREO",
+        "name": "Stereo (2 Channel)"
+      },
+      {
+        "value": "LAYOUT_SURROUND",
+        "name": "Surround (3 Channel)"
+      },
+      {
+        "value": "LAYOUT_5POINT1",
+        "name": "Surround (5.1 Channel)"
+      },
+      {
+        "value": "LAYOUT_7POINT1",
+        "name": "Surround (7.1 Channel)"
+      }
+    ],
+    "restart": true
+  },
+  {
+    "min": 128,
+    "max": 4096,
+    "value": 512,
+    "title": "Playback Audio Buffer Size",
+    "category": "Preview",
+    "setting": "playback-buffer-size",
+    "type": "spinner-int",
+    "restart": true
+  },
+  {
+    "max": 100,
+    "title": "Volume",
+    "category": "Preview",
+    "min": 0,
+    "setting": "volume",
+    "value": 75,
+    "type": "spinner"
+  },
+  {
+    "title": "Auto-Optimize",
+    "category": "Optimize",
+    "setting": "auto-optimize",
+    "type": "dropdown",
+    "value": "ask",
+    "values": [
+      {"value": "ask", "name": "Ask"},
+      {"value": "always", "name": "Always"},
+      {"value": "never", "name": "Never"}
+    ]
+  },
+  {
+    "title": "Auto-Optimize Threshold",
+    "category": "Optimize",
+    "setting": "auto-optimize-threshold",
+    "type": "spinner-int",
+    "min": 1,
+    "max": 10000,
+    "value": 200,
+    "step": 10
+  },
+  {
+    "max": 8,
+    "title": "Concurrent Optimize Jobs",
+    "category": "Optimize",
+    "min": 1,
+    "setting": "optimize-preview-jobs",
+    "value": 2,
+    "type": "spinner-int"
+  },
+  {
+    "title": "Optimized Preview Resolution",
+    "category": "Optimize",
+    "setting": "optimize-preview-max-size",
+    "type": "dropdown",
+    "value": "1280x720",
+    "values": [
+      {
+        "value": "640x360",
+        "name": "360p"
+      },
+      {
+        "value": "960x540",
+        "name": "540p"
+      },
+      {
+        "value": "1280x720",
+        "name": "720p"
+      },
+      {
+        "value": "1920x1080",
+        "name": "1080p"
+      }
+    ]
+  },
+  {
+    "max": 12,
+    "title": "Thumbnail Preload Rate / second",
+    "category": "Optimize",
+    "min": 1,
+    "setting": "optimize-preview-thumbnails",
+    "value": 4,
+    "type": "spinner-int"
+  },
+  {
+    "value": true,
+    "title": "Enable Autosave",
+    "type": "bool",
+    "category": "Autosave",
+    "setting": "enable-auto-save"
+  },
+  {
+    "max": 60.0,
+    "title": "Autosave Interval (minutes)",
+    "category": "Autosave",
+    "min": 1.0,
+    "setting": "autosave-interval",
+    "value": 3.0,
+    "type": "spinner"
+  },
+  {
+    "max": 99,
+    "title": "History Limit (# of undo/redo)",
+    "category": "Autosave",
+    "min": 0,
+    "setting": "history-limit",
+    "value": 15,
+    "type": "spinner-int"
+  },
+  {
+    "max": 99,
+    "title": "Recovery Limit (# of project copies)",
+    "category": "Autosave",
+    "min": 0,
+    "setting": "recovery-limit",
+    "value": 30,
+    "type": "spinner-int"
+  },
+  {
+    "title": "Cache Mode",
+    "category": "Cache",
+    "setting": "cache-mode",
+    "value": "CacheMemory",
+    "translate_values": true,
+    "values": [
+      {
+        "value": "CacheMemory",
+        "name": "Memory"
+      },
+      {
+        "value": "CacheDisk",
+        "name": "Disk"
+      }
+    ],
+    "type": "dropdown"
+  },
+  {
+    "min": 0,
+    "max": 1024,
+    "value": 24,
+    "title": "Cache Pre-roll: Min Frames",
+    "type": "spinner-int",
+    "category": "Cache",
+    "setting": "cache-preroll-min-frames"
+  },
+  {
+    "min": 0,
+    "max": 1024,
+    "value": 48,
+    "title": "Cache Pre-roll: Max Frames",
+    "type": "spinner-int",
+    "category": "Cache",
+    "setting": "cache-preroll-max-frames"
+  },
+  {
+    "min": 0.0,
+    "max": 1.0,
+    "step": 0.1,
+    "value": 0.5,
+    "title": "Cache Ahead (Percent)",
+    "type": "spinner",
+    "category": "Cache",
+    "setting": "cache-ahead-percent"
+  },
+  {
+    "min": 0,
+    "max": 1024,
+    "value": 900,
+    "title": "Cache Max Frames",
+    "type": "spinner-int",
+    "category": "Cache",
+    "setting": "cache-max-frames"
+  },
+  {
+    "min": 0,
+    "max": 9999999,
+    "value": 768,
+    "title": "Cache Limit (MB)",
+    "type": "spinner-int",
+    "category": "Cache",
+    "setting": "cache-limit-mb"
+  },
+  {
+    "title": "Image Format (Disk Only)",
+    "type": "dropdown",
+    "category": "Cache",
+    "setting": "cache-image-format",
+    "value": "PPM",
+    "values": [
+      {
+        "value": "PPM",
+        "name": "PPM"
+      },
+      {
+        "value": "JPG",
+        "name": "JPG"
+      },
+      {
+        "value": "PNG",
+        "name": "PNG"
+      },
+      {
+        "value": "BMP",
+        "name": "BMP"
+      },
+      {
+        "value": "XBM",
+        "name": "XBM"
+      },
+      {
+        "value": "XPM",
+        "name": "XPM"
+      }
+    ]
+  },
+  {
+    "min": 0.05,
+    "max": 1.0,
+    "value": 0.4,
+    "title": "Scale Factor (Disk Only)",
+    "type": "spinner",
+    "category": "Cache",
+    "setting": "cache-scale"
+  },
+  {
+    "min": 0,
+    "max": 100,
+    "value": 100,
+    "title": "Image Quality (Disk Only)",
+    "type": "spinner-int",
+    "category": "Cache",
+    "setting": "cache-quality"
+  },
+  {
+    "value": "http://127.0.0.1:8188",
+    "title": "ComfyUI URL",
+    "type": "text",
+    "restart": false,
+    "category": "Advanced",
+    "setting": "comfy-ui-url"
+  },
+  {
+    "value": false,
+    "title": "User Interface Debug Logging",
+    "type": "bool",
+    "category": "Advanced",
+    "setting": "debug-ui",
+    "restart": false
+  },
+  {
+    "value": false,
+    "title": "Video & Audio Engine Debug Logging",
+    "type": "bool",
+    "category": "Advanced",
+    "setting": "debug-mode",
+    "restart": false
+  },
+  {
+    "value": true,
+    "title": "Send Anonymous Metrics and Errors",
+    "type": "bool",
+    "category": "Advanced",
+    "setting": "send_metrics"
+  },
+  {
+    "value": false,
+    "title": "Show Playback Performance (FPS)",
+    "type": "bool",
+    "category": "Advanced",
+    "setting": "preview-fps",
+    "restart": false
+  },
+  {
+    "value": true,
+    "title": "Show Export Dialog when Finished",
+    "type": "bool",
+    "restart": false,
+    "category": "Advanced",
+    "setting": "show_finished_window"
+  },
+  {
+    "value": "first",
+    "title": "Celebrate Exports",
+    "type": "dropdown",
+    "restart": false,
+    "category": "General",
+    "setting": "export-celebration",
+    "translate_values": true,
+    "values": [
+      {"value": "first", "name": "First Export"},
+      {"value": "all", "name": "Every Export"},
+      {"value": "none", "name": "Never"}
+    ]
+  },
+  {
+    "value": true,
+    "title": "Auto Keyframes on Startup",
+    "type": "bool",
+    "restart": false,
+    "category": "Timeline",
+    "setting": "auto-keyframes-on-startup"
+  },
+  {
+    "value": true,
+    "title": "Auto-Transition (overlap clips)",
+    "type": "bool",
+    "restart": false,
+    "category": "Timeline",
+    "setting": "automatic_transitions"
+  },
+  {
+    "max": 4,
+    "title": "Hardware Decoder Mode",
+    "category": "Performance",
+    "min": 0,
+    "setting": "hw-decoder",
+    "type": "dropdown",
+    "value": "0",
+    "translate_values": true,
+    "values": [
+      {
+        "value": "0",
+        "name": "No acceleration"
+      },
+      {
+        "value": "1",
+        "name": "Linux VA-API"
+      },
+      {
+        "value": "2",
+        "name": "Nvidia NVDEC"
+      },
+      {
+        "value": "3",
+        "name": "Windows D3D9"
+      },
+      {
+        "value": "4",
+        "name": "Windows D3D11"
+      },
+      {
+        "value": "5",
+        "name": "MacOS"
+      },
+      {
+        "value": "6",
+        "name": "Linux VDPAU"
+      },
+      {
+        "value": "7",
+        "name": "Intel QSV"
+      }
+    ],
+    "restart": true
+  },
+  {
+    "max": 2,
+    "title": "Hardware Decoder Graphics Card",
+    "category": "Performance",
+    "min": 0,
+    "setting": "graca_number_de",
+    "type": "dropdown",
+    "value": "0",
+    "translate_values": true,
+    "values": [],
+    "restart": true
+  },
+  {
+    "max": 2,
+    "title": "Hardware Encoder Graphics Card",
+    "category": "Performance",
+    "min": 0,
+    "setting": "graca_number_en",
+    "type": "dropdown",
+    "value": "0",
+    "values": [],
+    "restart": false
+  },
+  {
+    "min": 2,
+    "max": 128,
+    "value": 12,
+    "title": "OMP Threads",
+    "type": "spinner-int",
+    "restart": true,
+    "category": "Performance",
+    "setting": "omp_threads_number"
+  },
+  {
+    "min": 2,
+    "max": 16,
+    "value": 8,
+    "title": "FFmpeg Threads",
+    "type": "spinner-int",
+    "restart": true,
+    "category": "Performance",
+    "setting": "ff_threads_number"
+  },
+  {
+    "min": 0,
+    "max": 16000,
+    "value": 1950,
+    "title": "Hardware Decoder Max Width (0 = Default)",
+    "type": "spinner-int",
+    "restart": true,
+    "category": "Performance",
+    "setting": "decode_hw_max_width"
+  },
+  {
+    "min": 0,
+    "max": 16000,
+    "value": 1100,
+    "title": "Hardware Decoder Max Height (0 = Default)",
+    "type": "spinner-int",
+    "restart": true,
+    "category": "Performance",
+    "setting": "decode_hw_max_height"
+  },
+  {
+    "value": true,
+    "title": "Use Blender GPU rendering for Animated Titles",
+    "type": "bool",
+    "restart": false,
+    "category": "Performance",
+    "setting": "blender_gpu_enabled"
+  },
+  {
+    "value": true,
+    "title": "",
+    "type": "hidden",
+    "category": "Tutorial",
+    "setting": "tutorial_enabled"
+  },
+  {
+    "value": "",
+    "title": "",
+    "type": "hidden",
+    "category": "Tutorial",
+    "setting": "tutorial_ids"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Preferences",
+    "restart": false,
+    "setting": "actionPreferences",
+    "value": "Ctrl+P",
+    "type": "text",
+    "sort": true
+  },
+  {
+    "category": "Keyboard",
+    "title": "Quit",
+    "restart": false,
+    "setting": "actionQuit",
+    "value": "Ctrl+Q",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "About OpenShot",
+    "restart": false,
+    "setting": "actionAbout",
+    "value": "Ctrl+H",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Update Available",
+    "restart": false,
+    "setting": "actionUpdate",
+    "value": "F9",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Share Feedback...",
+    "restart": false,
+    "setting": "actionShareFeedback",
+    "value": "F8",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Report a Bug...",
+    "restart": false,
+    "setting": "actionReportBug",
+    "value": "F3",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Ask a Question...",
+    "restart": false,
+    "setting": "actionAskQuestion",
+    "value": "F4",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Join our Community...",
+    "restart": false,
+    "setting": "actionDiscord",
+    "value": "F5",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Translate this Application...",
+    "restart": false,
+    "setting": "actionTranslate",
+    "value": "F6",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Donate",
+    "restart": false,
+    "setting": "actionDonate",
+    "value": "F7",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Add Marker",
+    "restart": false,
+    "setting": "actionAddMarker",
+    "value": "M",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Razor Toggle",
+    "restart": false,
+    "setting": "actionRazorTool",
+    "value": "C | B | R",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Previous Marker",
+    "restart": false,
+    "setting": "actionPreviousMarker",
+    "value": "Ctrl+Shift+M | Alt+Left",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Next Marker",
+    "restart": false,
+    "setting": "actionNextMarker",
+    "value": "Shift+M | Alt+Right",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Center on Playhead",
+    "restart": false,
+    "setting": "actionCenterOnPlayhead",
+    "value": "Shift+C",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Add to Timeline",
+    "restart": false,
+    "setting": "actionAdd_to_Timeline",
+    "value": "Ctrl+Alt+A",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Animated Title",
+    "restart": false,
+    "setting": "actionAnimatedTitle",
+    "value": "Ctrl+Shift+T",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Choose Profile",
+    "restart": false,
+    "setting": "actionProfile",
+    "value": "Ctrl+Alt+P",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Details View",
+    "restart": false,
+    "setting": "actionDetailsView",
+    "value": "Ctrl+Page Up",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Export Video",
+    "restart": false,
+    "setting": "actionExportVideo",
+    "value": "Ctrl+E | Ctrl+M",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Export Files",
+    "restart": false,
+    "setting": "actionExportFiles",
+    "value": "Ctrl+Shift+E",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "File Properties",
+    "restart": false,
+    "setting": "actionFile_Properties",
+    "value": "Alt+I",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Fullscreen",
+    "restart": false,
+    "setting": "actionFullscreen",
+    "value": "F11",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Import Files...",
+    "restart": false,
+    "setting": "actionImportFiles",
+    "value": "Ctrl+I",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "New Project",
+    "restart": false,
+    "setting": "actionNew",
+    "value": "Ctrl+N",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Open Project...",
+    "restart": false,
+    "setting": "actionOpen",
+    "value": "Ctrl+O",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Redo",
+    "restart": false,
+    "setting": "actionRedo",
+    "value": "Ctrl+Shift+Z",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Save Project",
+    "restart": false,
+    "setting": "actionSave",
+    "value": "Ctrl+S",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Save Project As...",
+    "restart": false,
+    "setting": "actionSaveAs",
+    "value": "Ctrl+Shift+S",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Split File",
+    "restart": false,
+    "setting": "actionSplitFile",
+    "value": "Alt+S",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Thumbnail View",
+    "restart": false,
+    "setting": "actionThumbnailView",
+    "value": "Ctrl+Page Down",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Title",
+    "restart": false,
+    "setting": "actionTitle",
+    "value": "Ctrl+T",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Add Text",
+    "restart": false,
+    "setting": "actionText",
+    "value": "Shift+T",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Undo",
+    "restart": false,
+    "setting": "actionUndo",
+    "value": "Ctrl+Z",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Zoom In",
+    "restart": false,
+    "setting": "actionTimelineZoomIn",
+    "value": "= | Ctrl+=",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Zoom Out",
+    "restart": false,
+    "setting": "actionTimelineZoomOut",
+    "value": "- | Ctrl+-",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Zoom to Timeline",
+    "restart": false,
+    "setting": "actionZoomToTimeline",
+    "value": "\\ | Shift+\\",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Previous Frame",
+    "restart": false,
+    "setting": "seekPreviousFrame",
+    "value": "Left",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Next Frame",
+    "restart": false,
+    "setting": "seekNextFrame",
+    "value": "Right",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Rewind",
+    "restart": false,
+    "setting": "actionRewind",
+    "value": "J",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Fast Forward",
+    "restart": false,
+    "setting": "actionFastForward",
+    "value": "L",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Play/Pause Toggle",
+    "restart": false,
+    "setting": "playToggle",
+    "value": "Space",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Delete Item",
+    "restart": false,
+    "setting": "deleteItem",
+    "value": "Delete | Backspace",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Slice All: Keep Both Sides",
+    "restart": false,
+    "setting": "sliceAllKeepBothSides",
+    "value": "Ctrl+Shift+K",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Slice All: Keep Left Side",
+    "restart": false,
+    "setting": "sliceAllKeepLeftSide",
+    "value": "Ctrl+Shift+J",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Slice All: Keep Right Side",
+    "restart": false,
+    "setting": "sliceAllKeepRightSide",
+    "value": "Ctrl+Shift+L",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Slice Selected: Keep Both Sides",
+    "restart": false,
+    "setting": "sliceSelectedKeepBothSides",
+    "value": "Ctrl+K",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Slice Selected: Keep Left Side",
+    "restart": false,
+    "setting": "sliceSelectedKeepLeftSide",
+    "value": "Ctrl+J",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Slice Selected: Keep Right Side",
+    "restart": false,
+    "setting": "sliceSelectedKeepRightSide",
+    "value": "Ctrl+L",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Copy",
+    "restart": false,
+    "setting": "copyAll",
+    "value": "Ctrl+C",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Cut",
+    "restart": false,
+    "setting": "cutAll",
+    "value": "Ctrl+X",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Paste",
+    "restart": false,
+    "setting": "pasteAll",
+    "value": "Ctrl+V",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Select All",
+    "restart": false,
+    "setting": "selectAll",
+    "value": "Ctrl+A",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Select None",
+    "restart": false,
+    "setting": "selectNone",
+    "value": "Ctrl+Shift+A",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Add Track",
+    "restart": false,
+    "setting": "actionAddTrack",
+    "value": "Ctrl+Y",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Snapping Toggle",
+    "restart": false,
+    "setting": "actionSnappingTool",
+    "value": "S",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Timing Toggle",
+    "restart": false,
+    "setting": "actionTimingTool",
+    "value": "T",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Jump To Start",
+    "restart": false,
+    "setting": "actionJumpStart",
+    "value": "Home",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Jump To End",
+    "restart": false,
+    "setting": "actionJumpEnd",
+    "value": "End",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Properties",
+    "restart": false,
+    "setting": "actionProperties",
+    "value": "U",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Insert Keyframe",
+    "restart": false,
+    "setting": "actionInsertKeyframe",
+    "value": "Alt+Shift+K",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Insert Keyframe (Position)",
+    "restart": false,
+    "setting": "actionInsertKeyframePosition",
+    "value": "Alt+Shift+P",
+    "type": "hidden"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Insert Keyframe (Scale)",
+    "restart": false,
+    "setting": "actionInsertKeyframeScale",
+    "value": "Alt+Shift+S",
+    "type": "hidden"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Insert Keyframe (Rotation)",
+    "restart": false,
+    "setting": "actionInsertKeyframeRotation",
+    "value": "Alt+Shift+R",
+    "type": "hidden"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Insert Keyframe (Alpha)",
+    "restart": false,
+    "setting": "actionInsertKeyframeAlpha",
+    "value": "Alt+Shift+T",
+    "type": "hidden"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Save Current Frame",
+    "restart": false,
+    "setting": "actionSaveFrame",
+    "value": "Shift+E",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Nudge left (1 Frame)",
+    "restart": false,
+    "setting": "nudgeLeft",
+    "value": ",",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Nudge left (5 Frames)",
+    "restart": false,
+    "setting": "nudgeLeftBig",
+    "value": "Shift+,",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Nudge right (1 Frame)",
+    "restart": false,
+    "setting": "nudgeRight",
+    "value": ".",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Nudge right (5 Frames)",
+    "restart": false,
+    "setting": "nudgeRightBig",
+    "value": "Shift+.",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Edit Title",
+    "restart": false,
+    "setting": "actionEditTitle",
+    "value": "Alt+T",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Preview File",
+    "restart": false,
+    "setting": "actionPreview_File",
+    "value": "Shift+2 | Alt+P",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Duplicate",
+    "restart": false,
+    "setting": "actionDuplicate",
+    "value": "Ctrl+Shift+/",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Clear All Cache",
+    "restart": false,
+    "setting": "actionClearAllCache",
+    "value": "Ctrl+Shift+ESC",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Clear History",
+    "restart": false,
+    "setting": "actionClearHistory",
+    "value": "Ctrl+Shift+H",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Clear Waveform Display Data",
+    "restart": false,
+    "setting": "actionClearWaveformData",
+    "value": "Ctrl+Shift+W",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Auto-Optimize",
+    "restart": false,
+    "setting": "actionAutoOptimize",
+    "value": "Ctrl+Alt+O",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Delete Optimized Videos",
+    "restart": false,
+    "setting": "actionClearOptimizedFiles",
+    "value": "Ctrl+Shift+O",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Simple View",
+    "restart": false,
+    "setting": "actionSimple_View",
+    "value": "Alt+Shift+0",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "View Toolbar",
+    "restart": false,
+    "setting": "actionView_Toolbar",
+    "value": "Ctrl+Shift+B",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Launch Tutorial",
+    "restart": false,
+    "setting": "actionTutorial",
+    "value": "F2",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Open Help Contents",
+    "restart": false,
+    "setting": "actionHelpContents",
+    "value": "F1",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Delete Item (Ripple)",
+    "restart": false,
+    "setting": "actionRippleDelete",
+    "value": "Shift+Delete",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Select Item (Ripple)",
+    "restart": false,
+    "setting": "actionRippleSelect",
+    "value": "Alt+A",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Slice Selected: Keep Left (Ripple)",
+    "restart": false,
+    "setting": "actionRippleSliceKeepLeft",
+    "value": "W",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Slice Selected: Keep Right (Ripple)",
+    "restart": false,
+    "setting": "actionRippleSliceKeepRight",
+    "value": "Q",
+    "type": "text"
+  },
+  {
+    "category": "Location",
+    "title": "Unsaved Project Assets Folder",
+    "setting": "unsaved-assets-path",
+    "value": "",
+    "type": "browse-folder",
+    "restart": true
+  },
+  {
+    "category": "Location",
+    "title": "File Import",
+    "setting": "locationImportType",
+    "translate_values": true,
+    "value": 1,
+    "type": "dropdown",
+    "values": [
+      {
+        "value": 1,
+        "name": "Recent Folder"
+      },
+      {
+        "value": 2,
+        "name": "Project Folder"
+      }
+    ],
+    "restart": false
+  },
+  {
+    "category": "Location",
+    "title": "File Import Path",
+    "setting": "locationImportPath",
+    "value": "",
+    "type": "hidden",
+    "restart": false
+  },
+  {
+    "category": "Location",
+    "title": "Save or Open Project",
+    "setting": "locationProjectType",
+    "value": 1,
+    "type": "dropdown",
+    "values": [
+      {
+        "value": 1,
+        "name": "Recent Folder"
+      },
+      {
+        "value": 2,
+        "name": "Project Folder"
+      }
+    ],
+    "restart": false
+  },
+  {
+    "category": "Location",
+    "title": "Save or Open Project Path",
+    "setting": "locationProjectPath",
+    "value": "",
+    "type": "hidden",
+    "restart": false
+  },
+  {
+    "category": "Location",
+    "title": "Video Export",
+    "setting": "locationExportType",
+    "value": 2,
+    "type": "dropdown",
+    "values": [
+      {
+        "value": 1,
+        "name": "Recent Folder"
+      },
+      {
+        "value": 2,
+        "name": "Project Folder"
+      }
+    ],
+    "restart": false
+  },
+  {
+    "category": "Location",
+    "title": "Video Export Path",
+    "setting": "locationExportPath",
+    "value": "",
+    "type": "hidden",
+    "restart": false
+  },
+  {
+    "category": "Scopes",
+    "title": "Waveform Mode",
+    "setting": "scope-waveform-mode",
+    "value": "luma",
+    "type": "hidden",
+    "restart": false
+  },
+  {
+    "category": "Scopes",
+    "title": "Waveform Color",
+    "setting": "scope-waveform-color",
+    "value": "green",
+    "type": "hidden",
+    "restart": false
+  },
+  {
+    "category": "Scopes",
+    "title": "Waveform IRE Lines",
+    "setting": "scope-waveform-ire",
+    "value": true,
+    "type": "hidden",
+    "restart": false
+  },
+  {
+    "category": "Scopes",
+    "title": "Histogram Channel",
+    "setting": "scope-histogram-channel",
+    "value": "rgba",
+    "type": "hidden",
+    "restart": false
+  },
+  {
+    "category": "Scopes",
+    "title": "Histogram Scale",
+    "setting": "scope-histogram-scale",
+    "value": "log",
+    "type": "hidden",
+    "restart": false
+  },
+  {
+    "category": "Scopes",
+    "title": "Vectorscope Display",
+    "setting": "scope-vectorscope-display",
+    "value": "colorized",
+    "type": "hidden",
+    "restart": false
+  },
+  {
+    "category": "Scopes",
+    "title": "Vectorscope Zoom",
+    "setting": "scope-vectorscope-zoom",
+    "value": "100",
+    "type": "hidden",
+    "restart": false
+  },
+  {
+    "category": "Keyboard",
+    "title": "Select Previous Item",
+    "restart": false,
+    "setting": "timelineSelectPrevious",
+    "value": "Ctrl+Left",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Select Next Item",
+    "restart": false,
+    "setting": "timelineSelectNext",
+    "value": "Ctrl+Right",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Select Item Above",
+    "restart": false,
+    "setting": "timelineSelectAbove",
+    "value": "Ctrl+Up",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Select Item Below",
+    "restart": false,
+    "setting": "timelineSelectBelow",
+    "value": "Ctrl+Down",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Extend Selection to Previous Item",
+    "restart": false,
+    "setting": "timelineExtendPrevious",
+    "value": "Ctrl+Shift+Left",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Extend Selection to Next Item",
+    "restart": false,
+    "setting": "timelineExtendNext",
+    "value": "Ctrl+Shift+Right",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Select Item at Playhead",
+    "restart": false,
+    "setting": "timelineSelectAtPlayhead",
+    "value": "D",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Extend Selection at Playhead",
+    "restart": false,
+    "setting": "timelineExtendAtPlayhead",
+    "value": "Ctrl+Shift+D",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Previous Edit Point",
+    "restart": false,
+    "setting": "timelinePreviousEdit",
+    "value": "Up",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Next Edit Point",
+    "restart": false,
+    "setting": "timelineNextEdit",
+    "value": "Down",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Move Selection Up One Track",
+    "restart": false,
+    "setting": "timelineMoveUp",
+    "value": "Alt+Up",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Move Selection Down One Track",
+    "restart": false,
+    "setting": "timelineMoveDown",
+    "value": "Alt+Down",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Select Left Item Edge",
+    "restart": false,
+    "setting": "timelineSelectLeftEdge",
+    "value": "[",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Select Right Item Edge",
+    "restart": false,
+    "setting": "timelineSelectRightEdge",
+    "value": "]",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Focus Timeline",
+    "restart": false,
+    "setting": "focusTimeline",
+    "value": "Shift+3",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Stop Playback",
+    "restart": false,
+    "setting": "playbackStop",
+    "value": "K",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Previous Five Frames",
+    "restart": false,
+    "setting": "timelinePreviousFiveFrames",
+    "value": "Shift+Left",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Next Five Frames",
+    "restart": false,
+    "setting": "timelineNextFiveFrames",
+    "value": "Shift+Right",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Focus Project Files",
+    "restart": false,
+    "setting": "focusProjectFiles",
+    "value": "Shift+1",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Focus Effects",
+    "restart": false,
+    "setting": "focusEffects",
+    "value": "Shift+8",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Focus Transitions",
+    "restart": false,
+    "setting": "focusTransitions",
+    "value": "Shift+7",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Focus Emojis",
+    "restart": false,
+    "setting": "focusEmojis",
+    "value": "Shift+9",
+    "type": "text"
+  },
+  {
+    "category": "Keyboard",
+    "title": "Add or Apply Selected Asset",
+    "restart": false,
+    "setting": "addSelectedAsset",
+    "value": "Ctrl+Return | Ctrl+Enter",
+    "type": "text"
+  },
+  {
+    "category": "General",
+    "title": "Timeline keyboard version",
+    "restart": false,
+    "setting": "timeline-keyboard-version",
+    "value": 4,
+    "type": "hidden"
+  }
+]

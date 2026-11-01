@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE openshot-export-option>
+<export-option>
+	<type translatable="True">Web</type>
+	<title translatable="True">Wikipedia</title>
+	<videoformat>ogg</videoformat>
+	<videocodec>libtheora</videocodec>
+	<audiocodec>libvorbis</audiocodec>
+	<audiochannels>2</audiochannels>
+	<audiochannellayout>3</audiochannellayout>
+	<videobitrate
+	 low="1 Mb/s"
+	 med="3 Mb/s"
+	 high="8 Mb/s"></videobitrate>
+	<audiobitrate
+	 low="96 kb/s"
+	 med="128 kb/s"
+	 high="160 kb/s"></audiobitrate>
+	<samplerate>48000</samplerate>
+	<projectprofile>NTSC SD 1/4 QVGA 240p 29.97 fps</projectprofile>
+</export-option>

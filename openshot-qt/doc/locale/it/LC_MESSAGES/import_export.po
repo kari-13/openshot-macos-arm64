@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:21
+msgid "Import & Export"
+msgstr "Importa & Esporta"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:23
+msgid ""
+"Video editing projects (including tracks, clips, and keyframes) can be "
+"**imported** and **exported** from OpenShot Video Editor in widely supported "
+"formats (**EDL**: Edit Decision Lists, and **XML**: Final Cut Pro format). "
+"For example, if you start editing a video in a different program (Adobe "
+"Premier, Final Cut Pro, etc...), but later need to move all your edits to "
+"OpenShot (or vice versa)."
+msgstr ""
+"I progetti di montaggio video (inclusi tracce, clip e fotogrammi chiave) "
+"possono essere **importati** e **esportati** da OpenShot Video Editor in "
+"formati ampiamente supportati (**EDL**: Edit Decision Lists, e **XML**: "
+"formato Final Cut Pro). Ad esempio, se inizi a montare un video in un "
+"programma diverso (Adobe Premiere, Final Cut Pro, ecc...), ma poi devi "
+"spostare tutte le tue modifiche su OpenShot (o viceversa)."
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:29
+msgid "EDL (Edit Decision Lists)"
+msgstr "EDL (Edit Decision Lists)"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:30
+msgid ""
+"The following features are supported when importing and exporting an EDL "
+"file with OpenShot."
+msgstr ""
+"Le seguenti funzionalità sono supportate durante l'importazione e "
+"l'esportazione di un file EDL con OpenShot."
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:36
+msgid "EDL Option Name"
+msgstr "Nome Opzione EDL"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:36 ../import_export.rst:122
+msgid "Description"
+msgstr "Descrizione"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:38
+msgid "EDL Format"
+msgstr "Formato EDL"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:38
+msgid "CMX-3600 (a very widely supported variation)"
+msgstr "CMX-3600 (una variante molto diffusa)"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:39
+msgid "Single Track"
+msgstr "Traccia Singola"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:39
+msgid ""
+"Only a single track can be imported at a time (this is a limitation of the "
+"EDL format)"
+msgstr ""
+"Può essere importata una sola traccia alla volta (questa è una limitazione "
+"del formato EDL)"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:40
+msgid "Tape Name"
+msgstr "Nome Nastro"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:40
+msgid "Only **AX** and **BL** tape names are currently supported in OpenShot"
+msgstr ""
+"Attualmente in OpenShot sono supportati solo i nomi nastro **AX** e **BL**"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:41
+msgid "Edits (V and A)"
+msgstr "Modifiche (V e A)"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:41
+msgid "Only edits are currently supported (transitions are not yet supported)"
+msgstr ""
+"Attualmente sono supportate solo le modifiche (le transizioni non sono "
+"ancora supportate)"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:42 ../import_export.rst:127
+msgid "Opacity"
+msgstr "Opacità"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:42 ../import_export.rst:127
+msgid "Opacity keyframes are supported"
+msgstr "I fotogrammi chiave dell'opacità sono supportati"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:43 ../import_export.rst:128
+msgid "Audio Levels"
+msgstr "Livelli Audio"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:43 ../import_export.rst:128
+msgid "Volume keyframes are supported"
+msgstr "I fotogrammi chiave del volume sono supportati"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:47
+msgid "Example EDL Output"
+msgstr "Esempio di Output EDL"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:49
+msgid ""
+"OpenShot follows the CMX 3600 layout for event lines and uses comment lines "
+"(`* ...`) to carry keyframes. CMX 3600 does not define units or "
+"interpolation in comments, so our exporter adds readable values and "
+"interpolation names, and our importer is very forgiving: it accepts units "
+"with or without spaces, mixed case, optional interpolation tokens, and "
+"ignores unknown trailing text/reel tags to maximize compatibility."
+msgstr ""
+"OpenShot segue il layout CMX 3600 per le linee evento e usa le linee di "
+"commento (`* ...`) per trasportare i fotogrammi chiave. CMX 3600 non "
+"definisce unità o interpolazioni nei commenti, quindi il nostro esportatore "
+"aggiunge valori leggibili e nomi di interpolazione, e il nostro importatore "
+"è molto tollerante: accetta unità con o senza spazi, maiuscole/minuscole "
+"miste, token di interpolazione opzionali e ignora testo/tracce sconosciute "
+"per massimizzare la compatibilità."
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:109
+msgid "XML (Final Cut Pro format)"
+msgstr "XML (formato Final Cut Pro)"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:110
+msgid ""
+"The following features are supported when importing and exporting an XML "
+"file with OpenShot. This XML format is supported in many video editors (not "
+"just Final Cut Pro). In fact, most commercial video editors have some "
+"support for importing and exporting this same XML format."
+msgstr ""
+"Le seguenti funzionalità sono supportate durante l'importazione e "
+"l'esportazione di un file XML con OpenShot. Questo formato XML è supportato "
+"in molti editor video (non solo Final Cut Pro). Infatti, la maggior parte "
+"degli editor video commerciali supporta in qualche modo l'importazione e "
+"l'esportazione di questo stesso formato XML."
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:114
+msgid ""
+"OpenShot uses the legacy Final Cut Pro XML Interchange Format (**xmeml**) "
+"from Final Cut Pro 7. Our exporter writes `<!DOCTYPE xmeml>` projects that "
+"follow the Final Cut Pro XML DTD v1.0, and is compatible with the v4 and v5 "
+"schema versions of that interchange format (the DTDs shipped with Final Cut "
+"Pro 7)."
+msgstr ""
+"OpenShot utilizza il formato di scambio XML legacy di Final Cut Pro "
+"(**xmeml**) da Final Cut Pro 7. Il nostro esportatore scrive progetti `<!"
+"DOCTYPE xmeml>` che seguono il DTD XML di Final Cut Pro v1.0, ed è "
+"compatibile con le versioni di schema v4 e v5 di quel formato di scambio (i "
+"DTD forniti con Final Cut Pro 7)."
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:122
+msgid "XML Option Name"
+msgstr "Nome Opzione XML"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:124
+msgid "XML Format"
+msgstr "Formato XML"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:124
+msgid ""
+"Final Cut Pro format (but most commercial video editors also support this "
+"format)"
+msgstr ""
+"Formato Final Cut Pro (ma la maggior parte degli editor video commerciali "
+"supporta anche questo formato)"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:125
+msgid "All Tracks"
+msgstr "Tutte le Tracce"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:125
+msgid "All video and audio tracks are supported"
+msgstr "Sono supportate tutte le tracce video e audio"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:126
+msgid "Edits"
+msgstr "Modifiche"
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:126
+msgid ""
+"All clips on all tracks are supported (video, image, and audio files). "
+"Transitions are not yet supported."
+msgstr ""
+"Sono supportate tutte le clip su tutte le tracce (video, immagini e file "
+"audio). Le transizioni non sono ancora supportate."
+
+# Translated with gpt-4.1-mini
+#: ../import_export.rst:132
+msgid "Example XML Output (tree view)"
+msgstr "Esempio di Output XML (vista ad albero)"

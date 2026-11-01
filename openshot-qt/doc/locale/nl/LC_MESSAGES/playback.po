@@ -1,0 +1,452 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 18:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:23
+msgid "Playback"
+msgstr "Weergave"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:24
+msgid ""
+"The preview window is where video & audio playback takes place in OpenShot "
+"Video Editor. The preview window utilizes real-time video rendering, "
+"caching, re-sampling, and image scaling. This is the primary area for "
+"watching back (and listening to) your edits, giving you the feedback needed "
+"to make adjustments. It is also one of the most costly operations to your "
+"CPU, and requires a modern computer and some reasonable assumptions and "
+"factors (listed below)."
+msgstr ""
+"Het voorbeeldvenster is waar video- en audioweergave plaatsvindt in OpenShot "
+"Video Editor. Het voorbeeldvenster maakt gebruik van realtime videoweergave, "
+"caching, hersampling en beeldschaalvergroting. Dit is het belangrijkste "
+"gebied om je bewerkingen terug te kijken (en te beluisteren), zodat je de "
+"feedback krijgt die nodig is om aanpassingen te maken. Het is ook een van de "
+"meest belastende processen voor je CPU en vereist een moderne computer en "
+"enkele redelijke aannames en factoren (hieronder vermeld)."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:30
+msgid "Real-Time Preview"
+msgstr "Realtime Voorbeeld"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:31
+msgid ""
+"Many factors affect how smoothly the **real-time video preview** can "
+"playback on your computer. This requires a fast, modern multi-threaded CPU, "
+"lots of RAM (memory), and a modern GPU. We have listed many of the important "
+"factors below."
+msgstr ""
+"Veel factoren beïnvloeden hoe soepel de **realtime video-voorbeeldweergave** "
+"op je computer kan afspelen. Dit vereist een snelle, moderne multi-threaded "
+"CPU, veel RAM (geheugen) en een moderne GPU. We hebben hieronder veel van de "
+"belangrijke factoren opgesomd."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38
+msgid "Factor"
+msgstr "Factor"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:38 ../playback.rst:97
+msgid "Description"
+msgstr "Beschrijving"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid "CPU"
+msgstr "CPU"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:40
+msgid ""
+"If your CPU is too slow or has too few cores, you will likely experience a "
+"slow, choppy preview. We recommend installing OpenShot on fairly modern "
+"computer. See :ref:`min_system_req_ref` for more details on the hardware "
+"requirements for OpenShot Video Editor."
+msgstr ""
+"Als je CPU te traag is of te weinig cores heeft, zal je waarschijnlijk een "
+"trage, haperende voorbeeldweergave ervaren. We raden aan OpenShot op een "
+"redelijk moderne computer te installeren. Zie :ref:`min_system_req_ref` voor "
+"meer details over de hardwarevereisten voor OpenShot Video Editor."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid "Memory"
+msgstr "Geheugen"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:43
+msgid ""
+"If your available RAM memory is too limited, you will likely see huge drops "
+"in real-time performance, and your entire system will lag. We recommend "
+"installing additional RAM in your computer, if possible. See :ref:"
+"`min_system_req_ref`."
+msgstr ""
+"Als je beschikbare RAM-geheugen te beperkt is, zul je waarschijnlijk grote "
+"dalingen in realtime prestaties zien en zal je hele systeem traag worden. We "
+"raden aan extra RAM in je computer te installeren, indien mogelijk. Zie :ref:"
+"`min_system_req_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid "Cache"
+msgstr "Cache"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:46
+msgid ""
+"Your cache settings in the OpenShot Preferences are very important for "
+"determining how many frames to processes in advance. A value too low or too "
+"high can cause lag during the real-time video preview. The cache is also "
+"related to the available RAM. The higher the cache values, the more RAM and "
+"CPU is needed. We recommend experimenting with the Cache Preferences in "
+"OpenShot if you are experiencing issues with smooth playback. This same "
+"caching system also prepares frames ahead of time during export, speeding up "
+"the final render. See :ref:`preferences_cache_ref`."
+msgstr ""
+"Je cache-instellingen in de OpenShot-voorkeuren zijn erg belangrijk om te "
+"bepalen hoeveel frames vooraf verwerkt worden. Een te lage of te hoge waarde "
+"kan vertraging veroorzaken tijdens de realtime video-voorbeeldweergave. De "
+"cache is ook gerelateerd aan het beschikbare RAM. Hoe hoger de cachewaarden, "
+"hoe meer RAM en CPU nodig is. We raden aan te experimenteren met de cache-"
+"voorkeuren in OpenShot als je problemen hebt met vloeiende weergave. "
+"Ditzelfde cachesysteem bereidt ook frames vooraf voor tijdens het "
+"exporteren, wat de uiteindelijke rendering versnelt. Zie :ref:"
+"`preferences_cache_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid "Preview Size"
+msgstr "Voorbeeldgrootte"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:52
+msgid ""
+"The height x width of your preview dock (widget) is very important for "
+"smooth real-time previews. The larger the window size, the more pixels must "
+"be rendered per frame, and the more CPU and RAM are required. It is "
+"recommended to keep reducing the preview window size until you achieve "
+"smooth video playback. On a slower computer, the preview window size might "
+"need to be very small for real-time previews (i.e. 320 x 240)."
+msgstr ""
+"De hoogte x breedte van je voorbeelddock (widget) is erg belangrijk voor "
+"vloeiende realtime voorbeelden. Hoe groter het venster, hoe meer pixels per "
+"frame gerenderd moeten worden, en hoe meer CPU en RAM nodig zijn. Het wordt "
+"aanbevolen om de grootte van het voorbeeldvenster te blijven verkleinen "
+"totdat je vloeiende videoweergave bereikt. Op een langzamere computer moet "
+"het voorbeeldvenster mogelijk erg klein zijn voor realtime voorbeelden "
+"(bijv. 320 x 240)."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid "Profile"
+msgstr "Profiel"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:57
+msgid ""
+"Your project profile determines which size (width x height) and frame rate "
+"(FPS) are used during both playback and exporting. For example, if you are "
+"using a FHD 1920x1080 sized profile, you can also choose a smaller profile "
+"with the same aspect ratio (``16x9`` in this example), to improve the "
+"preview speed on slower computers. See :ref:`profiles_ref` for more "
+"information on available profiles."
+msgstr ""
+"Je projectprofiel bepaalt welke grootte (breedte x hoogte) en frame rate "
+"(FPS) worden gebruikt tijdens zowel weergave als exporteren. Bijvoorbeeld, "
+"als je een FHD 1920x1080 profiel gebruikt, kun je ook een kleiner profiel "
+"met dezelfde beeldverhouding (``16x9`` in dit voorbeeld) kiezen om de "
+"voorbeeldsnelheid op langzamere computers te verbeteren. Zie :ref:"
+"`profiles_ref` voor meer informatie over beschikbare profielen."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid "FPS (Frame Rate)"
+msgstr "FPS (Framesnelheid)"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:61
+msgid ""
+"The FPS of your project is also very important, and a large factor for "
+"smooth video playback. For example, a 60 FPS video must render twice the "
+"number of frames, compared to a 30 FPS video. If you are experiencing slow "
+"downs in real-time performance, it can be helpful to reduce your project's "
+"FPS to a lower value, such as 30 or 24."
+msgstr ""
+"De FPS van je project is ook erg belangrijk en een grote factor voor "
+"vloeiende videoweergave. Bijvoorbeeld, een 60 FPS-video moet twee keer "
+"zoveel frames renderen vergeleken met een 30 FPS-video. Als je vertragingen "
+"ervaart in realtime prestaties, kan het helpen om de FPS van je project te "
+"verlagen naar een lagere waarde, zoals 30 of 24."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid "Matching Rates"
+msgstr "Overeenkomende Snelheden"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:65
+msgid ""
+"It is very important to match your source assets FPS and Sample Rate with "
+"your Project FPS and Project sample rate. If either rate does not match "
+"exactly, it requires lots of additional CPU and RAM for OpenShot to "
+"normalize the mismatching rates. This can lead to audio pops, mis-"
+"alignments, duplicate frames, and extra lag in the real-time video preview. "
+"You can right-click a file and choose :guilabel:`File Properties`, to "
+"inspect the source asset rates, and ensure they match your Project settings "
+"(shown at the top of OpenShot). See :ref:`file_properties_ref`."
+msgstr ""
+"Het is erg belangrijk om de FPS en samplefrequentie van je bronbestanden te "
+"laten overeenkomen met de FPS en samplefrequentie van je project. Als een "
+"van beide niet exact overeenkomt, vereist OpenShot veel extra CPU en RAM om "
+"de niet-overeenkomende snelheden te normaliseren. Dit kan leiden tot audio-"
+"popgeluiden, verkeerde uitlijningen, dubbele frames en extra vertraging in "
+"de realtime video-voorbeeldweergave. Je kunt met de rechtermuisknop op een "
+"bestand klikken en :guilabel:`Bestandseigenschappen` kiezen om de snelheden "
+"van de bronbestanden te controleren en te zorgen dat ze overeenkomen met je "
+"projectinstellingen (bovenaan OpenShot weergegeven). Zie :ref:"
+"`file_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid "Source Assets"
+msgstr "Bronbestanden"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:71
+msgid ""
+"For example, if you are editing 4K 60 FPS source assets, this is likely "
+"going to put a strain on your system. A common solution is using another "
+"tool (such as FFmpeg) to create a copy (or proxy) of all your source assets, "
+"at a lower resolution (and maybe even a lower FPS). It is recommended to "
+"keep these proxy video files in their own folder, separate from the original "
+"video files. Once you have completed your video editing with the proxy "
+"files, simply copy/paste your `*.osp` project file back into the original "
+"folder, and export the higher quality, original files."
+msgstr ""
+"Als je bijvoorbeeld 4K 60 FPS bronbestanden bewerkt, zal dit waarschijnlijk "
+"een zware belasting voor je systeem zijn. Een veelgebruikte oplossing is het "
+"gebruik van een ander hulpmiddel (zoals FFmpeg) om een kopie (of proxy) van "
+"al je bronbestanden te maken, met een lagere resolutie (en misschien zelfs "
+"een lagere FPS). Het wordt aanbevolen om deze proxy-videobestanden in een "
+"eigen map te bewaren, gescheiden van de originele videobestanden. Zodra je "
+"klaar bent met het bewerken van je video met de proxy-bestanden, kopieer/"
+"plak je eenvoudig je `*.osp` projectbestand terug in de originele map en "
+"exporteer je de hogere kwaliteit, originele bestanden."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77 ../playback.rst:101
+msgid "Audio Device"
+msgstr "Audiapparaat"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:77
+msgid ""
+"If you are still having issues with audio lag or sync, please verify you are "
+"using the correct :guilabel:`Playback Audio Device` for playback (in the "
+"OpenShot Preferences). See :ref:`preferences_preview_ref`. Verify your "
+"default audio device (on your operating system) is using the same sample "
+"rate and all *Audio Enhancements* are disabled. On certain operating systems "
+"(such as Windows), mismatching sample rates or audio enhancements can cause "
+"severe audio / video sync problems. Lastly, try adjusting the :guilabel:"
+"`Playback Audio Buffer Size` (lower values will playback audio with less "
+"delay, higher values will playback audio with a larger delay). OpenShot "
+"defaults to a buffer size of 512, which is reasonable for most systems, "
+"however on some systems you might need to lower (or raise) this value for "
+"smooth and lag-free audio playback. Be sure to restart OpenShot after "
+"changing the audio playback settings."
+msgstr ""
+"Als u nog steeds problemen ondervindt met audiovertraging of synchronisatie, "
+"controleer dan of u het juiste :guilabel:`Playback Audio Device` gebruikt "
+"voor de weergave (in de OpenShot-voorkeuren). Zie :ref:"
+"`preferences_preview_ref`. Controleer of uw standaard audioapparaat (in uw "
+"besturingssysteem) dezelfde samplefrequentie gebruikt en dat alle *Audio "
+"Enhancements* zijn uitgeschakeld. Op bepaalde besturingssystemen (zoals "
+"Windows) kunnen mismatches in samplefrequenties of audioverbeteringen "
+"ernstige audio-/video-synchronisatieproblemen veroorzaken. Probeer ten "
+"slotte de :guilabel:`Playback Audio Buffer Size` aan te passen (lagere "
+"waarden zorgen voor minder vertraging bij audio, hogere waarden voor meer "
+"vertraging). OpenShot gebruikt standaard een buffer van 512, wat redelijk is "
+"voor de meeste systemen, maar op sommige systemen moet u deze waarde "
+"verlagen (of verhogen) voor een soepele en vertragingvrije audio-weergave. "
+"Start OpenShot opnieuw op nadat u de audio-instellingen hebt gewijzigd."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:89
+msgid "Audio Troubleshooting"
+msgstr "Audioproblemen oplossen"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:90
+msgid ""
+"If you are still experiencing audio related issues, and the above real-time "
+"playback factors did not resolve your issue, here are some additional "
+"troubleshooting steps you can take."
+msgstr ""
+"Als u nog steeds audio-gerelateerde problemen ondervindt en de bovenstaande "
+"realtime afspeelfactoren uw probleem niet hebben opgelost, zijn hier enkele "
+"aanvullende stappen voor probleemoplossing die u kunt proberen."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:97
+msgid "Step"
+msgstr "Stap"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid "Latest Daily Build"
+msgstr "Laatste dagelijkse build"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:99
+msgid ""
+"Verify you are running the latest daily build of OpenShot: https://www."
+"openshot.org/download#daily"
+msgstr ""
+"Controleer of u de nieuwste dagelijkse build van OpenShot gebruikt: https://"
+"www.openshot.org/download#daily"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "Clean Install"
+msgstr "Schone installatie"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:100
+msgid "See :ref:`preferences_reset_ref` for a clean install"
+msgstr "Zie :ref:`preferences_reset_ref` voor een schone installatie"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:101
+msgid ""
+"Check that the Playback Audio Device is set correctly for your sound output "
+"under Preferences in the Preview tab. Restart OpenShot after changing the "
+"settings. You can also try a different audio device (USB, audio over HDMI "
+"from the video card, headphones, etc.) to rule out other audio issues. "
+"Disable `automatic sound suppression` for voice calls during microphone "
+"activity, and disable `Audio Enhancements` under the advanced settings tab "
+"of your audio device (not all audio devices have these settings). See :ref:"
+"`preferences_preview_ref`."
+msgstr ""
+"Controleer of het Playback Audio Device correct is ingesteld voor uw "
+"geluidsuitvoer onder Voorkeuren in het tabblad Voorbeeld. Start OpenShot "
+"opnieuw op nadat u de instellingen hebt gewijzigd. U kunt ook een ander "
+"audioapparaat proberen (USB, audio via HDMI van de videokaart, koptelefoon, "
+"enz.) om andere audioproblemen uit te sluiten. Schakel `automatische "
+"geluidsonderdrukking` uit voor spraakoproepen tijdens microfoonactiviteit en "
+"schakel `Audio Enhancements` uit onder het tabblad geavanceerde instellingen "
+"van uw audioapparaat (niet alle audioapparaten hebben deze instellingen). "
+"Zie :ref:`preferences_preview_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid "Audio Buffer Size"
+msgstr "Grootte van de audiobuffer"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:107
+msgid ""
+"The audio buffer size is the amount of audio samples which must first be "
+"buffered in OpenShot before audio playback can begin. If this value is too "
+"low, you might experience audio break-up / crackle / popping. If this value "
+"is too high, you might experience delays or lag before audio playback "
+"begins. OpenShot defaults this value to 512, which is a reasonable default "
+"for most systems, which should provide smooth audio playback with minimal "
+"noticeable lag or delay. However, on some systems this value might need to "
+"be adjusted up or down, for in-sync and lag-free audio playback. The range "
+"is 128 to 4096."
+msgstr ""
+"De grootte van de audiobuffer is het aantal audiosamples dat eerst in "
+"OpenShot moet worden gebufferd voordat de audio kan worden afgespeeld. Als "
+"deze waarde te laag is, kunt u audio-onderbrekingen, gekraak of knallen "
+"ervaren. Als deze waarde te hoog is, kunt u vertragingen of lag ervaren "
+"voordat de audio begint af te spelen. OpenShot stelt deze waarde standaard "
+"in op 512, wat een redelijke standaard is voor de meeste systemen en zorgt "
+"voor soepele audio met minimale merkbare vertraging. Op sommige systemen "
+"moet deze waarde echter omhoog of omlaag worden aangepast voor synchroon en "
+"lag-vrije audio. Het bereik is 128 tot 4096."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid "Sample Rate"
+msgstr "Samplefrequentie"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:113
+msgid ""
+"Ensure that the `Default Audio Sample Rate` and `Default Audio Channels` on "
+"the Preview tab of the Preferences window match your hardware. You can also "
+"check these settings in the operating system control panel (i.e. Windows "
+"Sound Control Panel). See :ref:`preferences_preview_ref`."
+msgstr ""
+"Zorg ervoor dat de `Default Audio Sample Rate` en `Default Audio Channels` "
+"in het tabblad Voorbeeld van het voorkeurenvenster overeenkomen met uw "
+"hardware. U kunt deze instellingen ook controleren in het configuratiescherm "
+"van het besturingssysteem (bijv. Windows Geluidsconfiguratiescherm). Zie :"
+"ref:`preferences_preview_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid "Volume"
+msgstr "Volume"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:116
+msgid ""
+"Ensure that the volume does not exceed 100% on overlapping clips (such as an "
+"audio track combined with a video track). Lower the volume on individual "
+"clips if needed. See :ref:`clip_volume_mixing_ref`."
+msgstr ""
+"Zorg ervoor dat het volume niet boven 100% uitkomt bij overlappende clips "
+"(zoals een audiotrack gecombineerd met een videotrack). Verlaag het volume "
+"van individuele clips indien nodig. Zie :ref:`clip_volume_mixing_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid "Headphones"
+msgstr "Koptelefoon"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:118
+msgid ""
+"If you're using headphones, plug them in before starting OpenShot. Launching "
+"OpenShot with no speakers, headphones, or valid audio playback device can "
+"cause OpenShot to freeze during playback."
+msgstr ""
+"Als u een koptelefoon gebruikt, sluit deze dan aan voordat u OpenShot start. "
+"OpenShot starten zonder luidsprekers, koptelefoon of geldig audioapparaat "
+"kan ervoor zorgen dat OpenShot vastloopt tijdens het afspelen."
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid "OS Updates"
+msgstr "Besturingssysteemupdates"
+
+# Translated with gpt-4.1-mini
+#: ../playback.rst:120
+msgid ""
+"Update your operating system and any pending security updates. Some audio "
+"issues, especially audio device specific issues, can be resolved with an "
+"operating system update."
+msgstr ""
+"Werk uw besturingssysteem en eventuele wachtende beveiligingsupdates bij. "
+"Sommige audio-problemen, vooral apparaat-specifieke, kunnen worden opgelost "
+"met een besturingssysteemupdate."

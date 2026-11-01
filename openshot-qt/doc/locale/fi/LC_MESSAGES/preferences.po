@@ -1,0 +1,1333 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 14:26-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:23
+msgid "Preferences"
+msgstr "Asetukset"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:25
+msgid ""
+"The Preferences window contains many important settings and configuration "
+"options for OpenShot. They can be found in the top menu under "
+":guilabel:`Edit→Preferences`. Many settings will require OpenShot to be "
+"restarted after your changes are applied."
+msgstr ""
+"Asetukset-ikkunassa on monia tärkeitä asetuksia ja konfigurointivaihtoehtoja"
+" OpenShotille. Ne löytyvät ylävalikosta kohdasta "
+":guilabel:`Muokkaa→Asetukset`. Monet asetukset vaativat OpenShotin "
+"uudelleenkäynnistyksen muutosten voimaantulon jälkeen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:29
+msgid ""
+"NOTE: Some features such as `Animated Titles` and `external SVG editing` "
+"require setting the paths for **Blender** and **Inkscape** under the General"
+" tab. And if you notice audio playback issues, such as audio drift, you may "
+"need to adjust the audio settings under the Preview tab."
+msgstr ""
+"HUOM: Jotkin ominaisuudet, kuten `Animoidut otsikot` ja `ulkoisen SVG-"
+"muokkauksen` käyttö, vaativat **Blenderin** ja **Inkscapen** polkujen "
+"määrittämisen Yleiset-välilehdellä. Jos huomaat äänen toistossa ongelmia, "
+"kuten äänen viivettä, sinun kannattaa säätää ääniasetuksia Esikatselu-"
+"välilehdellä."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:36
+msgid "General"
+msgstr "Yleiset"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:40
+msgid ""
+"The General tab of the Preferences window allows you to modify the settings "
+"that apply to OpenShot as a whole."
+msgstr ""
+"Asetukset-ikkunan Yleiset-välilehti antaa sinun muokata asetuksia, jotka "
+"koskevat koko OpenShottia."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:46 ../preferences.rst:109 ../preferences.rst:132
+#: ../preferences.rst:157 ../preferences.rst:204 ../preferences.rst:234
+#: ../preferences.rst:290 ../preferences.rst:329
+msgid "Setting"
+msgstr "Asetus"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:47 ../preferences.rst:50 ../preferences.rst:109
+#: ../preferences.rst:132 ../preferences.rst:134 ../preferences.rst:157
+#: ../preferences.rst:330
+msgid "Default"
+msgstr "Oletus"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:48 ../preferences.rst:109 ../preferences.rst:132
+#: ../preferences.rst:204 ../preferences.rst:235 ../preferences.rst:290
+#: ../preferences.rst:310 ../preferences.rst:331
+msgid "Description"
+msgstr "Kuvaus"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:49
+msgid "Language"
+msgstr "Kieli"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:51
+msgid "Choose your preferred language for OpenShot menus and windows"
+msgstr "Valitse haluamasi kieli OpenShotin valikoille ja ikkunoille"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:52
+msgid "Default Theme"
+msgstr "Oletusteema"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:53
+msgid "Cosmic Dusk"
+msgstr "Kosminen Hämärä"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:54
+#, fuzzy
+msgid "Choose your theme for OpenShot"
+msgstr "Valitse teema OpenShotille: Vaalea, Tumma tai Ei mitään"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:55
+msgid "User Interface Scale"
+msgstr "Käyttöliittymän skaalaus"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:56
+msgid "100%"
+msgstr "100%"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:57
+msgid ""
+"Choose a preset UI scaling factor for larger or smaller interface elements"
+msgstr ""
+"Valitse esiasetettu käyttöliittymän skaalaus suuremmille tai pienemmille "
+"käyttöliittymäelementeille"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:58
+#, fuzzy
+msgid "Default Profile"
+msgstr "Oletusvideoprofiili"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:59
+#, fuzzy
+msgid "HD 720p 30 fps"
+msgstr "HD 720P 30 fps"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:60
+#, fuzzy
+msgid "Select the default profile for new projects and exports"
+msgstr "Valitse profiili esikatselun ja vientiasetusten oletuksiksi"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:61
+msgid "Blender Command (path)"
+msgstr "Blender-komento (polku)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:62
+msgid "blender"
+msgstr "blender"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:63
+msgid "The path to the binary for Blender (version 5.0+)"
+msgstr "Polku Blenderin suoritettavaan tiedostoon (versio 5.0 tai uudempi)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:64
+msgid "Advanced Title Editor (path)"
+msgstr "Laajennettu otsikkotyökalu (polku)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:65
+msgid "inkscape"
+msgstr "inkscape"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:66
+msgid "The path to the binary for Inkscape"
+msgstr "Polku Inkscapen suoritettavaan tiedostoon"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:69
+msgid "Themes"
+msgstr "Teemat"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:70
+msgid ""
+"OpenShot comes with 3 standard themes, which change the look and feel of the"
+" program."
+msgstr ""
+"OpenShot sisältää 3 vakio­teemaa, jotka muuttavat ohjelman ulkoasua ja "
+"käyttökokemusta."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:72
+#, fuzzy
+msgid ""
+"**Cosmic Dusk:** [Default Theme] A bluish theme with a more modern UI "
+"design, enhancing the visual aesthetics of the editor. This theme features "
+"shades of blue and purple, giving the interface a contemporary and dynamic "
+"feel. It combines modern aesthetics with functionality, offering a fresh and"
+" visually appealing workspace for video editing."
+msgstr ""
+"**Cosmic Dusk:** Sinertävä teema, jossa on modernimpi "
+"käyttöliittymäsuunnittelu, parantaen editorin visuaalista estetiikkaa. Tämä "
+"teema sisältää sinisen ja violetin sävyjä, antaen käyttöliittymälle "
+"nykyaikaisen ja dynaamisen ilmeen. Se yhdistää modernin estetiikan ja "
+"toiminnallisuuden, tarjoten raikkaan ja visuaalisesti miellyttävän työtilan "
+"videoeditointiin."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:73
+msgid ""
+"**Humanity Dark:** A dark theme with dark gray tones, providing a modern and"
+" sleek look. This theme is designed for users who prefer working in low-"
+"light conditions or who enjoy a more subdued and professional appearance. "
+"The dark gray background reduces glare and eye strain, making it suitable "
+"for extended editing sessions."
+msgstr ""
+"**Humanity Dark:** Tumma teema, jossa on tummanharmaita sävyjä, tarjoten "
+"modernin ja tyylikkään ilmeen. Tämä teema on suunniteltu käyttäjille, jotka "
+"suosivat työskentelyä hämärässä tai jotka pitävät hillitymmästä ja "
+"ammattimaisemmasta ulkoasusta. Tummanharmaa tausta vähentää häikäisyä ja "
+"silmien rasitusta, tehden siitä sopivan pitkiin editointisessioihin."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:74
+msgid ""
+"**Retro:** A light theme that offers a classic and clean appearance. This "
+"theme uses light gray and white tones, making it ideal for users who prefer "
+"a bright and high-contrast interface. It provides a traditional look that is"
+" easy on the eyes, especially in well-lit environments."
+msgstr ""
+"**Retro:** Vaalea teema, joka tarjoaa klassisen ja selkeän ulkoasun. Tämä "
+"teema käyttää vaaleanharmaita ja valkoisia sävyjä, mikä tekee siitä "
+"ihanteellisen käyttäjille, jotka suosivat kirkasta ja korkean kontrastin "
+"käyttöliittymää. Se tarjoaa perinteisen ulkoasun, joka on silmille "
+"miellyttävä erityisesti hyvin valaistuissa ympäristöissä."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:79
+msgid "Restoring Defaults"
+msgstr "Oletusten palauttaminen"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:80
+msgid ""
+"In OpenShot, each preferences category (or tab) in the Preferences window "
+"has a **Restore Defaults** button that allows you to easily reset the values"
+" for that specific category. This feature is particularly useful if you want"
+" to reset only certain parts of your preferences, like keyboard shortcuts, "
+"without affecting the rest of your custom settings."
+msgstr ""
+"OpenShotissa jokaisella asetuskategoriolla (tai välilehdellä) Asetukset-"
+"ikkunassa on **Palauta oletukset** -painike, jonka avulla voit helposti "
+"palauttaa kyseisen kategorian arvot oletuksiksi. Tämä ominaisuus on "
+"erityisen hyödyllinen, jos haluat palauttaa vain tiettyjä asetuksia, kuten "
+"pikanäppäimiä, vaikuttamatta muihin mukautettuihin asetuksiisi."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:84
+msgid ""
+"**Where to Find the Restore Defaults Button:** Each category or tab in the "
+"Preferences window has a **Restore Defaults** button located in the bottom "
+"left corner of the screen. The name of the button updates based on the "
+"category you’re viewing. For example, if you're in the \"Keyboard\" tab, the"
+" button will say **Restore Defaults: Keyboard**."
+msgstr ""
+"**Missä Palauta oletukset -painike sijaitsee:** Jokaisella kategoriassa tai "
+"välilehdellä Asetukset-ikkunassa on **Palauta oletukset** -painike näytön "
+"vasemmassa alakulmassa. Painikkeen nimi päivittyy sen mukaan, mitä "
+"kategoriaa katsot. Esimerkiksi, jos olet \"Näppäimistö\"-välilehdellä, "
+"painikkeessa lukee **Palauta oletukset: Näppäimistö**."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:89
+msgid ""
+"**How It Works:** Only the settings in the currently selected category will "
+"be restored to their default values. This selective restoration makes it "
+"easy to reset certain preferences without affecting others."
+msgstr ""
+"**Toimintaperiaate:** Vain valitun kategorian asetukset palautetaan "
+"oletusarvoihinsa. Tämä valikoiva palautus helpottaa tiettyjen asetusten "
+"palauttamista vaikuttamatta muihin."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:93
+msgid ""
+"**Tip for Beginners:** - If you're not sure about a change you've made in a "
+"particular category, don’t hesitate to use the **Restore Defaults** button. "
+"It’s a simple way to undo changes and get back to the default settings for "
+"that specific category without affecting your overall setup."
+msgstr ""
+"**Vinkki aloittelijoille:** - Jos et ole varma tekemästäsi muutoksesta "
+"tietyssä kategoriassa, älä epäröi käyttää **Palauta oletukset** -painiketta."
+" Se on helppo tapa perua muutokset ja palata kyseisen kategorian "
+"oletusasetuksiin vaikuttamatta koko asetuksiisi."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:99
+msgid "Timeline"
+msgstr "Aikajana"
+
+#: ../preferences.rst:103
+msgid ""
+"The Timeline tab controls default timeline behavior and clip/transition "
+"insertion defaults."
+msgstr ""
+"Aikajanataulu-välilehti ohjaa oletusaikajanan toimintaa sekä "
+"leikkeiden/siirtymien lisäämisen oletuksia."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:111
+msgid "Thumbnail Style"
+msgstr "Esikatselukuvan tyyli"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:111
+msgid "Entire Clip"
+msgstr "Koko leike"
+
+#: ../preferences.rst:111
+msgid "Thumbnail density for the timeline"
+msgstr "Pikkukuvien tiheys aikajanalla"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:112
+msgid "Image Length (seconds)"
+msgstr "Kuvan kesto (sekunteina)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:112 ../preferences.rst:113
+msgid "10.00"
+msgstr "10.00"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:112
+msgid "Default duration for still images added to the timeline"
+msgstr "Oletuskesto aikajanalle lisätyille staattisille kuville"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:113
+#, fuzzy
+msgid "Transition Length (seconds)"
+msgstr "Kuvan kesto (sekunteina)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:113
+msgid "Default duration for newly added transitions"
+msgstr "Oletuskesto uusille siirtymille"
+
+#: ../preferences.rst:114
+msgid "Waveform Samples (per second)"
+msgstr "Aaltomuotona näytteitä (sekunnissa)"
+
+#: ../preferences.rst:114
+msgid "200"
+msgstr "200"
+
+#: ../preferences.rst:114
+msgid "Detail stored for new peak/RMS timeline waveforms (20–400)"
+msgstr ""
+"Tallennettujen uusien huippu-/RMS-aaltomuotojen yksityiskohdat aikajanalla "
+"(20–400)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:115
+msgid "Auto-Transition (overlap clips)"
+msgstr "Automaattinen siirtymä (leikkeiden päällekkäisyys)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:115 ../preferences.rst:159 ../preferences.rst:342
+#: ../preferences.rst:348
+msgid "Enabled"
+msgstr "Käytössä"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:115
+msgid "Automatically create transitions when clips overlap"
+msgstr "Luo siirtymät automaattisesti, kun leikkeet menevät päällekkäin"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:121
+msgid "Preview"
+msgstr "Esikatselu"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:125
+msgid ""
+"The Preview tab of the Preferences window controls real-time preview audio "
+"behavior, including device selection, sample rate, channels, buffering, "
+"playback volume, and optimized preview behavior."
+msgstr ""
+"Asetukset-ikkunan Esikatselu-välilehti ohjaa reaaliaikaisen esikatselun "
+"äänen toimintaa, mukaan lukien laitteen valinta, näytteenottotaajuus, "
+"kanavat, puskurointi, toistovolyymin ja optimoidun esikatselukäytöksen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:134
+msgid "Playback Audio Device"
+msgstr "Toiston äänilaite"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:134
+msgid "Audio output device used during preview playback"
+msgstr "Äänentoistolaitteisto, jota käytetään esikatselun toistossa"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:135
+msgid "Default Audio Sample Rate"
+msgstr "Oletusääninäytteenottotaajuus"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:135
+#, fuzzy
+msgid "48000"
+msgstr "44100"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:135
+#, fuzzy
+msgid "Default preview sample rate"
+msgstr "Oletusääninäytteenottotaajuus"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:136
+msgid "Default Audio Channels"
+msgstr "Oletusäänikanavat"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:136
+msgid "Stereo (2 Channel)"
+msgstr "Stereo (2 kanavaa)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:136
+msgid "Default preview channel layout"
+msgstr "Oletusesikatselukanavien asettelu"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:137
+msgid "Playback Audio Buffer Size"
+msgstr "Toiston äänipuskurin koko"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:137
+msgid "512"
+msgstr "512"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:137
+msgid "Audio samples buffered before playback begins (128 to 4096)"
+msgstr "Äänenäytteiden puskurointi ennen toiston alkamista (128–4096)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:138
+msgid "Volume"
+msgstr "Äänenvoimakkuus"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:138
+msgid "75"
+msgstr "75"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:138
+msgid "Preview playback volume percentage"
+msgstr "Esikatselun toiston äänenvoimakkuus prosentteina"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:139
+msgid "Concurrent Optimize Jobs"
+msgstr "Samanaikaiset optimointitehtävät"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:139
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:139
+msgid "Number of video files OpenShot can optimize at the same time"
+msgstr "Kuinka monta videotiedostoa OpenShot voi optimoida samanaikaisesti"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:140
+msgid "Optimized Preview Resolution"
+msgstr "Optimoitu esikatselun tarkkuus"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:140
+msgid "1280x720"
+msgstr "1280x720"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:140
+msgid "Maximum resolution used when creating optimized preview files"
+msgstr ""
+"Suurin tarkkuus, jota käytetään optimoitujen esikatselutiedostojen "
+"luomisessa"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:141
+msgid "Thumbnail Preload Rate / second"
+msgstr "Pikkukuvan esilatausnopeus / sekunti"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:141
+msgid "4"
+msgstr "4"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:141
+msgid ""
+"How many thumbnail preview frames per second are pre-generated while "
+"optimizing video"
+msgstr ""
+"Kuinka monta pikkukuvan esikatselun ruutua sekunnissa esigeneroidaan videota"
+" optimoitaessa"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:145
+msgid "Autosave"
+msgstr "Automaattinen tallennus"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:149
+msgid ""
+"Autosave is a feature in OpenShot which automatically saves the current "
+"changes to your project after a specific number of minutes, helping to "
+"reduce the risk or impact of data loss in case of a crash, freeze or user "
+"error."
+msgstr ""
+"Automaattinen tallennus on OpenShotin ominaisuus, joka tallentaa nykyiset "
+"muutokset projektiisi automaattisesti tietyn minuuttimäärän jälkeen, auttaen"
+" vähentämään tietojen menetyksen riskiä tai vaikutusta kaatumisen, "
+"jumiutumisen tai käyttäjävirheen sattuessa."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:159
+msgid "Enable Autosave"
+msgstr "Ota automaattinen tallennus käyttöön"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:160
+msgid "Autosave Interval (minutes)"
+msgstr "Automaattisen tallennuksen väli (minuutteina)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:160
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:161
+msgid "History Limit (# of undo/redo)"
+msgstr "Historia-raja (kumoa/toista -toimintojen määrä)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:161
+msgid "15"
+msgstr "15"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:162
+msgid "Recovery Limit (# of project copies)"
+msgstr "Palautusraja (projektikopioiden määrä)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:162
+msgid "30"
+msgstr "30"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:166
+msgid "Recovery"
+msgstr "Palautus"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:168
+msgid ""
+"**Before each save**, a compressed ``*.zip`` copy of the current project is "
+"saved in the recovery folder, to further reduce the risk of data loss. The "
+"recovery folder is located at ``~/.openshot_qt/recovery/`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\recovery``."
+msgstr ""
+"**Ennen jokaista tallennusta** nykyisestä projektista tallennetaan pakattu "
+"``*.zip``-kopio palautuskansioon, vähentämään entisestään tietojen "
+"menetyksen riskiä. Palautuskansio sijaitsee polussa "
+"``~/.openshot_qt/recovery/`` tai "
+"``C:\\Users\\USERNAME\\.openshot_qt\\recovery``."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:172
+msgid ""
+"To recover a corrupt or broken ``*.osp`` project file, use the "
+":guilabel:`File->Recovery` menu on the main window after opening your "
+"project. If available, a list of matching project versions from the recovery"
+" folder are listed in chronological order (most recent one at the top). This"
+" will automatically rename your current project file to ``{project-"
+"name}-{time}-backup.osp``, and replace it with the recovery project file. "
+"You can repeat this process until you find the correct recovery project. "
+"NOTE: If for some unexpected reason the recovery process fails, you can "
+"always rename the \"-backup.osp\" file to the original project file name to "
+"restore it."
+msgstr ""
+"Korjataksesi vioittuneen tai rikkinäisen ``*.osp``-projektitiedoston, käytä "
+"pääikkunan :guilabel:`Tiedosto->Palautus` -valikkoa projektin avaamisen "
+"jälkeen. Jos saatavilla, palautuskansiosta löytyvät vastaavat "
+"projektiversiot listataan aikajärjestyksessä (uusin ylimpänä). Tämä nimeää "
+"nykyisen projektitiedostosi automaattisesti uudelleen muotoon ``{project-"
+"name}-{time}-backup.osp`` ja korvaa sen palautusprojektitiedostolla. Voit "
+"toistaa tämän prosessin, kunnes löydät oikean palautusprojektin. HUOM: Jos "
+"palautus epäonnistuu odottamattomasta syystä, voit aina nimetä "
+"\"-backup.osp\" -tiedoston alkuperäisellä projektitiedoston nimellä "
+"palauttaaksesi sen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:180
+msgid ""
+"To **manually** recover a corrupt or broken ``*.osp`` project file, please "
+"find the most recent copy in the recovery folder, and copy/paste the file "
+"into your original project folder location (i.e. the folder that contains "
+"your broken project). If the recovery file has been zipped (``*.zip``), you "
+"must first extract the ``*.osp``, and then copy it into your project folder."
+" Recovery files are named ``{time}-{project-name}``. You can also use the "
+"**Date Modified** on the file to select the version you are interested in "
+"recovering."
+msgstr ""
+"Manuaalista palautusta varten vioittuneelle tai rikkinäiselle "
+"``*.osp``-projektitiedostolle, etsi uusin kopio palautuskansiosta ja "
+"kopioi/liitä tiedosto alkuperäiseen projektikansioosi (eli kansioon, joka "
+"sisältää rikkinäisen projektisi). Jos palautustiedosto on pakattu "
+"(``*.zip``), sinun on ensin purettava ``*.osp`` ja sitten kopioitava se "
+"projektikansioosi. Palautustiedostot nimetään muodossa ``{time}-{project-"
+"name}``. Voit myös käyttää tiedoston **Muokattu-päivämäärää** valitaksesi "
+"palautettavan version."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:190
+msgid "Cache"
+msgstr "Välimuisti"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:194
+msgid ""
+"Cache settings can be adjusted to make real-time playback faster or less CPU"
+" intensive. The cache is used to store image and audio data for each frame "
+"of video requested. The more frames that are cached, the smoother the real-"
+"time playback will be. However, the more that needs to be cached requires "
+"more CPU to generate the cache. There is a balance, and the default settings"
+" provide a generally sane set of cache values, which should allow most "
+"computers to playback video and audio smoothly. See :ref:`playback_ref`."
+msgstr ""
+"Välimuistin asetuksia voidaan säätää reaaliaikaisen toiston nopeuttamiseksi "
+"tai vähemmän CPU:ta kuormittavaksi. Välimuistia käytetään tallentamaan kuvan"
+" ja äänen dataa jokaiselle pyydetylle videokehykselle. Mitä enemmän kehyksiä"
+" välimuistiin tallennetaan, sitä sujuvampi reaaliaikainen toisto on. "
+"Kuitenkin enemmän välimuistiin tallennettava vaatii enemmän CPU:ta "
+"välimuistin luomiseen. On löydettävä tasapaino, ja oletusasetukset tarjoavat"
+" yleisesti järkevän välimuistiarvojen sarjan, joka mahdollistaa useimpien "
+"tietokoneiden sujuvan video- ja äänen toiston. Katso :ref:`playback_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:206
+msgid "Cache Mode"
+msgstr "Välimuistin tila"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:206
+msgid ""
+"Choose between Memory or Disk caching (memory caching is preferred). Disk "
+"caching writes image data to the hard disk for later retrieving, and works "
+"best with an SSD."
+msgstr ""
+"Valitse muisti- tai levyvälimuisti (muistivälimuisti on suositeltavaa). "
+"Levyvälimuisti tallentaa kuvatiedot kiintolevylle myöhempää hakua varten, ja"
+" toimii parhaiten SSD-levyillä."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:207
+msgid "Cache Limit (MB)"
+msgstr "Välimuistin raja (Mt)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:207
+msgid ""
+"How many MB are set aside for cache related data. Larger numbers are not "
+"always better, since it takes more CPU to generate more frames to fill the "
+"cache."
+msgstr ""
+"Kuinka monta megatavua on varattu välimuistidatalle. Suuremmat arvot eivät "
+"aina ole parempia, koska välimuistin täyttämiseen tarvitaan enemmän CPU:ta."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:208
+msgid "Image Format (Disk Only)"
+msgstr "Kuvamuoto (vain levyvälimuisti)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:208
+msgid "Image format to store disk cache image data"
+msgstr "Kuvamuoto levyvälimuistissa tallennettaville kuvatiedoille"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:209
+msgid "Scale Factor (Disk Only)"
+msgstr "Mittakaavakerroin (vain levyvälimuisti)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:209
+msgid ""
+"Percentage (0.1 to 1.0) to reduce the size of disk based image files stored "
+"in the disk cache. Smaller numbers make writing and reading cached image "
+"files faster."
+msgstr ""
+"Prosenttiosuus (0,1–1,0) levyvälimuistissa tallennettavien kuvien koon "
+"pienentämiseksi. Pienemmät arvot nopeuttavat välimuistissa olevien kuvien "
+"kirjoittamista ja lukemista."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:210
+msgid "Image Quality (Disk Only)"
+msgstr "Kuvan laatu (vain levyvälimuisti)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:210
+msgid ""
+"Quality of the image files used in disk cache. The higher compression can "
+"cause more slowness, but results in smaller file sizes."
+msgstr ""
+"Levyvälimuistissa käytettävien kuvien laatu. Korkeampi pakkaus voi hidastaa "
+"toimintaa, mutta pienentää tiedostokokoa."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:211
+msgid "Cache Pre-roll: Min Frames:"
+msgstr "Välimuistin esilataus: Minimikehykset:"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:211
+msgid ""
+"Minimum # of frames that must be cached before playback begins. The larger "
+"the #, the larger the wait before playback begins."
+msgstr ""
+"Minimimäärä kehyksiä, jotka on tallennettava välimuistiin ennen toiston "
+"alkamista. Mitä suurempi määrä, sitä pidempi odotusaika ennen toiston "
+"alkamista."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:212
+msgid "Cache Pre-roll: Max Frames:"
+msgstr "Välimuistin esilataus: Maksimikehykset:"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:212
+msgid ""
+"Maximum # of frames that can be cached during playback (in front of the "
+"playhead). The larger the #, the more CPU is required to cache ahead - vs "
+"display the already cached frames."
+msgstr ""
+"Enimmäismäärä kehyksiä, jotka voidaan välimuistittaa toiston aikana "
+"(soittopään edessä). Mitä suurempi määrä, sitä enemmän CPU:ta tarvitaan "
+"välimuistin eteenpäin täyttämiseen verrattuna jo välimuistissa olevien "
+"kehysten näyttämiseen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:213
+msgid "Cache Ahead (Percent):"
+msgstr "Välimuisti eteenpäin (prosenttia):"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:213
+msgid ""
+"Between 0.0 and 1.0. This represents how much % we cache ahead of the "
+"playhead. For example, 0.5 would cache 50% behind and 50% ahead of the "
+"playhead. 0.8 would cache 20% behind and 80% ahead of the playhead."
+msgstr ""
+"Arvo välillä 0.0 ja 1.0. Tämä ilmaisee, kuinka paljon prosentteina "
+"välimuistimme soittopään edessä. Esimerkiksi 0,5 välimuistittaa 50 % "
+"soittopään takana ja 50 % edessä. 0,8 välimuistittaa 20 % takana ja 80 % "
+"edessä."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:214
+msgid "Cache Max Frames:"
+msgstr "Välimuistin enimmäiskehykset:"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:214
+#, fuzzy
+msgid ""
+"This is an override on the total allowed frames that can be cached by our "
+"caching thread. It defaults to 900 frames, but even if you give a huge "
+"amount of RAM to OpenShot's cache size, this will override the max # of "
+"frames cached. The reason is... sometimes when the preview window is very "
+"small, and the cache size is set very high, OpenShot might calculate that we"
+" can cache 30,000 frames, or something silly which will take a huge amount "
+"of CPU, lagging the system. This setting is designed to clamp the upper "
+"limit of the cache to something reasonable... even on systems that give "
+"OpenShot huge amounts of RAM to work with."
+msgstr ""
+"Tämä asetus ohittaa välimuistilangan salliman enimmäiskehysten määrän. "
+"Oletuksena on 600 kehystä, mutta vaikka antaisit OpenShotin välimuistille "
+"suuren määrän RAM-muistia, tämä asetus rajoittaa välimuistissa olevien "
+"kehysten enimmäismäärän. Syynä on se, että joskus, kun esikatseluikkuna on "
+"hyvin pieni ja välimuistin koko on asetettu hyvin suureksi, OpenShot saattaa"
+" laskea, että voimme välimuistittaa 30 000 kehystä tai jotain vastaavaa, "
+"mikä kuluttaa valtavasti CPU:ta ja hidastaa järjestelmää. Tämä asetus "
+"rajoittaa välimuistin ylärajan kohtuulliseksi, jopa järjestelmissä, joissa "
+"OpenShotilla on käytettävissään suuri määrä RAM-muistia."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:217
+msgid ""
+"OpenShot's default cache settings now target a balanced preview experience: "
+"roughly **50% behind / 50% ahead** of the playhead, **768 MB** cache memory,"
+" and **900** max frames. In practice, this improves scrubbing and seek "
+"behavior while reducing stale preview frames on slower systems."
+msgstr ""
+"OpenShotin oletusvälimuistiasetukset on nyt suunniteltu tasapainoiseen "
+"esikatselukokemukseen: noin **50 % taaksepäin / 50 % eteenpäin** "
+"toistopäätä, **768 Mt** välimuistia ja **900** enimmäisruutua. Käytännössä "
+"tämä parantaa raahausta ja etsintää sekä vähentää vanhentuneita "
+"esikatseluruutuja hitaammilla järjestelmillä."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:223
+msgid "Performance"
+msgstr "Suorituskyky"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:226
+msgid ""
+"Please keep in mind that GPU hardware acceleration is experimental at the "
+"moment. OpenShot supports both decoding and encoding acceleration. For more "
+"information take a look at our `Github HW-ACCEL Doc "
+"<https://github.com/OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_. "
+"NOTE: On systems with older graphics cards, hardware acceleration may not "
+"always be faster than CPU encoding."
+msgstr ""
+"Huomioithan, että GPU-laitteistokiihdytys on tällä hetkellä kokeellinen. "
+"OpenShot tukee sekä dekoodauksen että koodauksen kiihdytystä. Lisätietoja "
+"löydät `Github HW-ACCEL Doc "
+"<https://github.com/OpenShot/libopenshot/blob/develop/doc/HW-ACCEL.md>`_. "
+"HUOM: Vanhemmilla näytönohjaimilla laitteistokiihdytys ei välttämättä ole "
+"aina nopeampi kuin CPU-koodaus."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:236
+msgid "Hardware Decoder Mode"
+msgstr "Laitteistodekooderin tila"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:237
+msgid ""
+"Select the hardware decoding backend to use. Use :guilabel:`Test` to verify "
+"the selected decoder mode."
+msgstr ""
+"Valitse käytettävä laitteistodekooderin taustajärjestelmä. Käytä "
+":guilabel:`Test` varmistaaksesi valitun dekooderin tilan."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:238
+msgid "Hardware Decoder Graphics Card"
+msgstr "Laitteistodekooderin näytönohjain"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:239
+msgid "Choose which GPU device is used for hardware decoding."
+msgstr "Valitse, mitä GPU-laitetta käytetään laitteistodekoodaukseen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:240
+msgid "Hardware Encoder Graphics Card"
+msgstr "Laitteistokooderin näytönohjain"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:241
+msgid "Choose which GPU device is used for hardware encoding."
+msgstr "Valitse, mitä GPU-laitetta käytetään laitteistokoodaukseen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:242
+msgid "OMP Threads"
+msgstr "OMP-säikeet"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:243
+msgid ""
+"Number of OpenMP worker threads used by performance-sensitive processing."
+msgstr ""
+"OpenMP-työsäikeiden määrä, jota käytetään suorituskykyä vaativassa "
+"käsittelyssä."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:244
+msgid "FFmpeg Threads"
+msgstr "FFmpeg-säikeet"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:245
+msgid "Number of FFmpeg threads used for decoding/encoding."
+msgstr "FFmpeg-säikeiden määrä, jota käytetään purkuun/koodaukseen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:246
+msgid "Hardware Decoder Max Width (0 = Default)"
+msgstr "Laitteistodekooderin enimmäisleveys (0 = oletus)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:247
+msgid ""
+"Optional maximum width for hardware decoding. Use ``0`` for no explicit "
+"limit."
+msgstr ""
+"Valinnainen enimmäisleveys laitteistodekoodaukselle. Käytä ``0``, jos ei "
+"haluta rajaa."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:248
+msgid "Hardware Decoder Max Height (0 = Default)"
+msgstr "Laitteistodekooderin enimmäiskorkeus (0 = oletus)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:249
+msgid ""
+"Optional maximum height for hardware decoding. Use ``0`` for no explicit "
+"limit."
+msgstr ""
+"Valinnainen enimmäiskorkeus laitteistodekoodaukselle. Käytä ``0``, jos ei "
+"haluta rajaa."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:250
+msgid "Use Blender GPU rendering for Animated Titles"
+msgstr "Käytä Blenderin GPU-renderöintiä animoituihin otsikoihin"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:251
+msgid "Enable GPU rendering for Blender-based animated titles."
+msgstr ""
+"Ota käyttöön GPU-renderöinti Blender-pohjaisille animoiduille otsikoille."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:256
+msgid "Keyboard"
+msgstr "Näppäimistö"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:259
+msgid ""
+"This section allows you to view and customize hotkeys for various actions in"
+" the application. Here, you can assign and manage multiple shortcuts for the"
+" same action and restore default shortcuts if needed."
+msgstr ""
+"Tässä osiossa voit tarkastella ja muokata pikanäppäimiä sovelluksen eri "
+"toiminnoille. Voit määrittää ja hallita useita pikanäppäimiä samalle "
+"toiminnolle sekä palauttaa oletuspikanäppäimet tarvittaessa."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:262
+msgid ""
+"**Assign Multiple Shortcuts**: You can assign multiple keyboard shortcuts to"
+" the same action by separating them with a pipe (``|``) delimiter. This "
+"flexibility allows you to configure as many shortcuts as you need for each "
+"action."
+msgstr ""
+"**Määritä useita pikanäppäimiä**: Voit määrittää useita näppäinyhdistelmiä "
+"samalle toiminnolle erottamalla ne putkipalkeella (``|``). Tämä joustavuus "
+"mahdollistaa haluamiesi pikanäppäinten määrän määrittämisen kullekin "
+"toiminnolle."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:265
+msgid ""
+"**Immediate Application**: No restart is required after adjusting keyboard "
+"shortcuts. Changes are applied immediately, so you can start using your "
+"updated shortcuts right away."
+msgstr ""
+"**Välitön soveltaminen**: Pikanäppäinten muuttamisen jälkeen ei tarvitse "
+"käynnistää sovellusta uudelleen. Muutokset tulevat voimaan heti, joten voit "
+"alkaa käyttää päivitettyjä pikanäppäimiä välittömästi."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:268
+msgid ""
+"**Restore Default Shortcuts**: If needed, you can reset all keyboard "
+"shortcuts to their default settings by clicking on the :guilabel:`Restore "
+"Defaults: Keyboard` button located in the bottom-left corner of the "
+"Preferences screen."
+msgstr ""
+"**Palauta oletuspikanäppäimet**: Tarvittaessa voit palauttaa kaikki "
+"pikanäppäimet oletusasetuksiin napsauttamalla asetusten näytön vasemmassa "
+"alakulmassa olevaa :guilabel:`Palauta oletukset: Näppäimistö` -painiketta."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:271
+msgid ""
+"**Unique Shortcuts**: Each keyboard shortcut must be unique. If there are "
+"any duplicate shortcuts, they will be highlighted in **red** and will not "
+"function until the conflict is resolved."
+msgstr ""
+"**Uniikit pikanäppäimet**: Jokaisen pikanäppäimen on oltava yksilöllinen. "
+"Jos pikanäppäimiä on päällekkäin, ne korostetaan **punaisella** eikä ne "
+"toimi ennen kuin ristiriita on ratkaistu."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:275
+msgid ""
+"For more detailed information on how to use and customize keyboard "
+"shortcuts, see :ref:`keyboard_shortcut_ref`."
+msgstr ""
+"Lisätietoja pikanäppäinten käytöstä ja muokkaamisesta löydät kohdasta "
+":ref:`keyboard_shortcut_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:278
+msgid "Location"
+msgstr "Sijainti"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:282
+msgid ""
+"Default file path locations for saving/opening projects, importing files, "
+"and exporting videos can be configured here. This can save you time by "
+"defaulting the open/save file dialogs to the most appropriate starting "
+"folder (options described below)."
+msgstr ""
+"Täällä voit määrittää oletustiedostopolut projektien "
+"tallentamiseen/avaamiseen, tiedostojen tuontiin ja videoiden vientiin. Tämä "
+"säästää aikaa asettamalla avaus/tallennusikkunat käynnistymään sopivimmasta "
+"kansiosta (vaihtoehdot kuvattu alla)."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:292
+msgid "File Import"
+msgstr "Tiedoston tuonti"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:292
+msgid "Default folder to choose when importing a file"
+msgstr "Oletuskansio tiedoston tuontiin"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:293
+msgid "Save or Open Project"
+msgstr "Projektin tallennus tai avaaminen"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:293
+msgid "Default folder to choose when saving or opening a project file"
+msgstr "Oletuskansio projektitiedoston tallennukseen tai avaamiseen"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:294
+msgid "Video Export"
+msgstr "Videon vienti"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:294
+msgid "Default folder to choose when exporting a video"
+msgstr "Oletuskansio videon vientiin"
+
+#: ../preferences.rst:295
+msgid "Unsaved Project Assets Folder"
+msgstr "Tallentamattomien projektin resurssikansio"
+
+#: ../preferences.rst:295
+msgid "Folder for assets created before a project is saved (restart required)"
+msgstr ""
+"Kansio resursseille, jotka luodaan ennen projektin tallentamista (vaatii "
+"uudelleenkäynnistyksen)"
+
+#: ../preferences.rst:298
+msgid ""
+"On Linux, the unsaved assets folder defaults to ``~/Videos/.openshot-tmp`` "
+"when ``~/Videos`` exists and the hidden child folder is writable. Otherwise,"
+" OpenShot uses ``~/.openshot_qt``, which is also the default on other "
+"platforms. You can choose a different folder in Preferences. Saving a "
+"project relocates its assets into the project's ``<project>_assets`` folder;"
+" subsequent titles and animations use that folder. These assets can include "
+"media needed by an unsaved project or crash recovery, so do not delete the "
+"folder as ordinary disposable cache data."
+msgstr ""
+"Linuxissa tallentamattomien resurssien kansio on oletuksena "
+"``~/Videos/.openshot-tmp``, jos ``~/Videos`` on olemassa ja piilotettu "
+"alikansio on kirjoitettavissa. Muussa tapauksessa OpenShot käyttää "
+"``~/.openshot_qt``-kansiota, joka on myös oletus muilla alustoilla. Voit "
+"valita toisen kansion Asetuksista. Projektin tallentaminen siirtää sen "
+"resurssit projektin ``<project>_assets``-kansioon; myöhemmät otsikot ja "
+"animaatiot käyttävät tätä kansiota. Nämä resurssit voivat sisältää mediaa, "
+"jota tallentamaton projekti tai kaatumisen palautus tarvitsee, joten älä "
+"poista kansiota tavallisena välimuistina."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:310
+msgid "Values"
+msgstr "Arvot"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:312
+msgid "**Recent Folder**"
+msgstr "**Viimeisin kansio**"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:312
+msgid ""
+"The last folder used for this same operation. Project folders, Import "
+"folders, and Export folders are tracked separately."
+msgstr ""
+"Viimeksi käytetty kansio tässä samassa toiminnossa. Projektikansiot, "
+"tuontikansiot ja vientikansiot seurataan erikseen."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:313
+msgid "**Project Folder**"
+msgstr "**Projektikansio**"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:313
+msgid ""
+"The current project folder (or the user's home folder, if the project is not"
+" yet saved)"
+msgstr ""
+"Nykyinen projektikansio (tai käyttäjän kotikansio, jos projektia ei ole "
+"vielä tallennettu)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:319
+msgid "Advanced"
+msgstr "Lisäasetukset"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:323
+msgid "The Advanced tab includes ComfyUI integration and debugging options."
+msgstr ""
+"Lisäasetukset-välilehti sisältää ComfyUI-integraation ja "
+"virheenkorjausvaihtoehdot."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:332
+msgid "Comfy UI URL"
+msgstr "Comfy UI:n URL-osoite"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:333
+msgid "``http://127.0.0.1:8188``"
+msgstr "``http://127.0.0.1:8188``"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:334
+msgid "URL of your local or remote ComfyUI server"
+msgstr "Paikallisen tai etäisen ComfyUI-palvelimesi URL-osoite"
+
+#: ../preferences.rst:335
+msgid "User Interface Debug Logging"
+msgstr "Käyttöliittymän virheenkorjauslokitus"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:336 ../preferences.rst:339 ../preferences.rst:345
+#, fuzzy
+msgid "Disabled"
+msgstr "Käytössä"
+
+#: ../preferences.rst:337
+msgid ""
+"Record interface and project details in ``openshot-qt.log``. The matching "
+"``--debug-ui`` (or ``--debug``) argument enables these details for one "
+"launch, including terminal output. See :ref:`logging_ref`."
+msgstr ""
+"Tallenna käyttöliittymän ja projektin tiedot tiedostoon ``openshot-qt.log``."
+" Vastaava ``--debug-ui`` (tai ``--debug``) -parametri ottaa nämä tiedot "
+"käyttöön yhden käynnistyksen ajaksi, mukaan lukien terminaalin tulostus. "
+"Katso :ref:`logging_ref`."
+
+#: ../preferences.rst:338
+msgid "Video & Audio Engine Debug Logging"
+msgstr "Video- ja ääniytimeen liittyvä virheenkorjauslokitus"
+
+#: ../preferences.rst:340
+msgid ""
+"Record video and audio processing details in ``libopenshot.log``. The "
+"matching ``--debug-engine`` argument enables these details for one launch, "
+"including terminal output. Logs can grow quickly; turn off when finished. "
+"See :ref:`logging_ref`."
+msgstr ""
+"Tallenna video- ja ääniprosessoinnin tiedot tiedostoon ``libopenshot.log``. "
+"Vastaava ``--debug-engine`` -parametri ottaa nämä tiedot käyttöön yhden "
+"käynnistyksen ajaksi, mukaan lukien terminaalin tulostus. Lokit voivat "
+"kasvaa nopeasti; sammuta, kun olet valmis. Katso :ref:`logging_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:341
+msgid "Send Anonymous Metrics and Errors"
+msgstr "Lähetä nimettömiä mittareita ja virheitä"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:343
+msgid "Send anonymous telemetry and error reports"
+msgstr "Lähetä nimettömiä telemetria- ja virheraportteja"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:344
+msgid "Show Playback Performance (FPS)"
+msgstr "Näytä toiston suorituskyky (FPS)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:346
+msgid "Display live FPS in preview playback"
+msgstr "Näytä reaaliaikainen FPS esikatselun toistossa"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:347
+msgid "Show Export Dialog when Finished"
+msgstr "Näytä vienti-ikkuna valmistumisen jälkeen"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:349
+msgid "Display the Export Video window when export completes"
+msgstr "Näytä Vie video -ikkuna viennin valmistuttua"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:351
+msgid ""
+"The ComfyUI **Check** button updates an inline status icon: green checkmark "
+"for success, red icon for failure. If OpenShot cannot reach this server, AI "
+"context menu options are hidden. See :ref:`ai_ref` for setup details, "
+"requirements, and workflow options."
+msgstr ""
+"ComfyUI:n **Tarkista**-painike päivittää tilakuvakkeen: vihreä valintamerkki"
+" onnistumiselle, punainen kuvake epäonnistumiselle. Jos OpenShot ei saa "
+"yhteyttä tähän palvelimeen, AI-kontekstivalikon vaihtoehdot piilotetaan. "
+"Katso :ref:`ai_ref` asennusohjeet, vaatimukset ja työnkulkuvaihtoehdot."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:358
+msgid "Reset (Default Values)"
+msgstr "Palauta (oletusarvot)"
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:360
+msgid ""
+"To reset **all** preferences to their default values, please delete the "
+"``openshot.settings`` file and re-launch OpenShot. The settings file can be "
+"located at this path: ``~/.openshot_qt/openshot.settings`` or "
+"``C:\\Users\\USERNAME\\.openshot_qt\\openshot.settings``. When OpenShot is "
+"re-launched, it will create the missing ``openshot.settings`` file with "
+"default values."
+msgstr ""
+"Jos haluat palauttaa **kaikki** asetukset oletusarvoihin, poista "
+"``openshot.settings`` -tiedosto ja käynnistä OpenShot uudelleen. "
+"Asetustiedosto löytyy polusta: ``~/.openshot_qt/openshot.settings`` tai "
+"``C:\\Users\\KÄYTTÄJÄNIMI\\.openshot_qt\\openshot.settings``. Kun OpenShot "
+"käynnistetään uudelleen, se luo puuttuvan ``openshot.settings`` -tiedoston "
+"oletusarvoilla."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:365
+msgid ""
+"Optionally, you can delete the entire ``.openshot_qt/`` folder and re-launch"
+" OpenShot. However, please make a **backup** of any customized folders: "
+"**emojis, presets, profiles, recovery, title_templates, transitions, or "
+"yolo**. For example, your ``/recovery/`` sub-folder contains backup copies "
+"of all your existing projects (``*.osp`` files)."
+msgstr ""
+"Vaihtoehtoisesti voit poistaa koko ``.openshot_qt/`` -kansion ja käynnistää "
+"OpenShotin uudelleen. Muista kuitenkin tehdä **varmuuskopio** kaikista "
+"muokatuista kansioista: **emojis, presets, profiles, recovery, "
+"title_templates, transitions tai yolo**. Esimerkiksi "
+"``/recovery/``-alikansiosi sisältää varmuuskopiot kaikista olemassa olevista"
+" projekteistasi (``*.osp``-tiedostot)."
+
+# Translated with gpt-4.1-mini
+#: ../preferences.rst:370
+msgid ""
+"Deleting the ``.openshot_qt/`` folder is the quickest method to restore "
+"OpenShot preferences and settings to their Default values (i.e. also called "
+"a `clean install`). When OpenShot is re-launched, it will create any missing"
+" folders (i.e. ``.openshot_qt/``) and settings files. See our `step-by-step "
+"guide <https://github.com/OpenShot/openshot-qt/wiki/Clean-Installation-of-"
+"OpenShot>`_ for more information about **clean installs** of OpenShot."
+msgstr ""
+"``.openshot_qt/``-kansion poistaminen on nopein tapa palauttaa OpenShotin "
+"asetukset oletusarvoihinsa (eli ns. `puhdas asennus`). Kun OpenShot "
+"käynnistetään uudelleen, se luo puuttuvat kansiot (esim. ``.openshot_qt/``) "
+"ja asetustiedostot. Katso vaiheittainen opas `step-by-step guide "
+"<https://github.com/OpenShot/openshot-qt/wiki/Clean-Installation-of-"
+"OpenShot>`_ saadaksesi lisätietoja OpenShotin **puhdistusasennuksista**."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Debug Mode (Port)"
+#~ msgstr "Virheenkorjaustila (portti)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "5556"
+#~ msgstr "5556"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Port used by debug logging features"
+#~ msgstr "Portti, jota käytetään virhelokin ominaisuuksissa"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Debug Mode (Verbose)"
+#~ msgstr "Virheenkorjaustila (yksityiskohtainen)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Enable verbose debugging output"
+#~ msgstr "Ota käyttöön yksityiskohtainen virheenkorjaustulostus"
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "The Timeline tab controls default timeline behavior, clip/transition "
+#~ "insertion defaults, and whether to use the new timeline backend or the "
+#~ "legacy web-based timeline."
+#~ msgstr ""
+#~ "Aikajanan välilehti hallitsee oletusaikajanan toimintaa, "
+#~ "leikkeiden/siirtymien lisäämisen oletuksia sekä sitä, käytetäänkö uutta "
+#~ "aikajanan taustajärjestelmää vai perinteistä web-pohjaista aikajanaa."
+
+# Translated with gpt-4.1-mini
+#~ msgid "Thumbnail density for the new timeline backend"
+#~ msgstr "Esikatselukuvien tiheys uudessa aikajanan taustajärjestelmässä"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Enable Legacy Timeline (web-based)"
+#~ msgstr "Ota käyttöön perinteinen aikajana (web-pohjainen)"
+
+# Translated with gpt-4.1-mini
+#~ msgid "Use the legacy web timeline (WebEngine/WebKit auto-select)"
+#~ msgstr ""
+#~ "Käytä perinteistä web-aikajanaa (WebEngine/WebKit valitaan automaattisesti)"

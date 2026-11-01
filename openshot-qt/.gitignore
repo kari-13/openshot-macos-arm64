@@ -1,0 +1,18 @@
+# Exclude common editor config
+.vscode/
+*.DS_Store
+.idea
+.settings
+idea/*
+# Exclude results of the build process
+doc/_build
+**/__pycache__/
+build
+dist
+openshot_qt.egg-info
+
+protobuf_data/
+openshot_qt/
+/src/images/cache/objectdetection.png
+/src/images/cache/objectdetection@2x.png
+doc/locale/.doctrees/

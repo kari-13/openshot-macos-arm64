@@ -1,0 +1,983 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video
+# Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-02 17:20-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:23
+msgid "Files"
+msgstr "ফাইলসমূহ"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:25
+msgid ""
+"To create a video, we need to make media files available to our project by "
+"importing files into OpenShot. Most media file types are recognized, such as "
+"videos, images, and audio files. Files can be viewed and managed in the "
+"**Project Files** panel."
+msgstr ""
+"একটি ভিডিও তৈরি করতে, আমাদের প্রোজেক্টে মিডিয়া ফাইলগুলি উপলব্ধ করতে OpenShot-এ "
+"ফাইল আমদানি করতে হবে। বেশিরভাগ মিডিয়া ফাইলের ধরন স্বীকৃত, যেমন ভিডিও, ছবি, এবং "
+"অডিও ফাইল। ফাইলগুলি **প্রোজেক্ট ফাইলস** প্যানেলে দেখা এবং পরিচালনা করা যায়।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:29
+msgid ""
+"Note that imported files are not copied anywhere, they remain in the "
+"physical location they were before and are simply being made available to "
+"your video project. So, they must not be deleted, renamed, or moved after "
+"adding them to your project. The \"Show All\", \"Video\", \"Audio\", "
+"\"Image\" filters above the files allows you to only see the file types you "
+"are interested in. You can also toggle the view between :guilabel:`details` "
+"and :guilabel:`thumbnails` view of your files."
+msgstr ""
+"মনে রাখবেন, আমদানি করা ফাইলগুলি কোথাও কপি করা হয় না, তারা পূর্বের শারীরিক "
+"অবস্থানে থাকে এবং কেবল আপনার ভিডিও প্রোজেক্টে উপলব্ধ করা হয়। তাই, প্রোজেক্টে যোগ "
+"করার পর এগুলো মুছে ফেলা, নাম পরিবর্তন বা সরানো যাবে না। ফাইলগুলোর উপরে থাকা "
+"\"Show All\", \"Video\", \"Audio\", \"Image\" ফিল্টারগুলো আপনাকে শুধুমাত্র আপনার "
+"আগ্রহের ফাইল ধরন দেখতে দেয়। আপনি আপনার ফাইলগুলোর ভিউ :guilabel:`details` এবং :"
+"guilabel:`thumbnails` এর মধ্যে টগলও করতে পারেন।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:39
+msgid "Import Files"
+msgstr "ফাইল আমদানি করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:40
+msgid ""
+"There are many different ways to import media files into an OpenShot "
+"project. When a file is imported successfully, it will be automatically "
+"selected and scrolled into view (in the **Project Files** panel). Also, if "
+"the **Project Files** panel is not currently visible, OpenShot will "
+"automatically display the panel."
+msgstr ""
+"OpenShot প্রোজেক্টে মিডিয়া ফাইল আমদানের অনেক ভিন্ন উপায় আছে। যখন একটি ফাইল "
+"সফলভাবে আমদানি হয়, এটি স্বয়ংক্রিয়ভাবে নির্বাচিত হয় এবং **প্রোজেক্ট ফাইলস** "
+"প্যানেলে দৃশ্যমান হয়। এছাড়াও, যদি **প্রোজেক্ট ফাইলস** প্যানেল বর্তমানে দৃশ্যমান না "
+"থাকে, OpenShot স্বয়ংক্রিয়ভাবে প্যানেলটি প্রদর্শন করবে।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:48
+msgid "Import File Method"
+msgstr "ফাইল আমদানের পদ্ধতি"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:48 ../files.rst:85 ../files.rst:142 ../files.rst:182
+#: ../files.rst:216 ../files.rst:240
+msgid "Description"
+msgstr "বর্ণনা"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:50
+msgid "Drag and Drop"
+msgstr "ড্র্যাগ এবং ড্রপ"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:50
+msgid ""
+"Drag and drop the files from your file manager (file explorer, finder, "
+"etc...)."
+msgstr ""
+"আপনার ফাইল ম্যানেজার (ফাইল এক্সপ্লোরার, ফাইন্ডার, ইত্যাদি) থেকে ফাইলগুলো ড্র্যাগ এবং "
+"ড্রপ করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:51
+msgid "Context menu (`File Menu`_)"
+msgstr "কনটেক্সট মেনু (`File Menu`_)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:51
+msgid ""
+"Right click anywhere in the **Project Files** panel and choose :guilabel:"
+"`Import Files`."
+msgstr ""
+"**প্রোজেক্ট ফাইলস** প্যানেলের যেকোনো স্থানে রাইট ক্লিক করুন এবং :guilabel:`Import "
+"Files` নির্বাচন করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:52
+msgid "Main Menu"
+msgstr "মেইন মেনু"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:52
+msgid "In the main menu choose: :guilabel:`File\\→Import Files`."
+msgstr "মেইন মেনু থেকে নির্বাচন করুন: :guilabel:`File\\→Import Files`।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:53
+msgid "Toolbar button"
+msgstr "টুলবার বাটন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:53
+msgid "Click the :guilabel:`+` toolbar button in the main toolbar."
+msgstr "মেইন টুলবারে :guilabel:`+` টুলবার বাটনে ক্লিক করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:54
+msgid "Keyboard shortcut"
+msgstr "কীবোর্ড শর্টকাট"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:54
+msgid "Press :kbd:`Ctrl-F` (:kbd:`Cmd-F` on Mac)."
+msgstr ":kbd:`Ctrl-F` চাপুন (Mac-এ :kbd:`Cmd-F`)।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:55 ../files.rst:63
+msgid "Paste from Clipboard"
+msgstr "ক্লিপবোর্ড থেকে পেস্ট করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:55
+msgid ""
+"Press :kbd:`Ctrl-V` (:kbd:`Cmd-V` on Mac) to paste copied files from your "
+"clipboard. See :ref:`paste_from_clipboard_ref`."
+msgstr ""
+"ক্লিপবোর্ড থেকে কপি করা ফাইল পেস্ট করতে :kbd:`Ctrl-V` চাপুন (Mac-এ :kbd:`Cmd-"
+"V`)। দেখুন :ref:`paste_from_clipboard_ref`।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:64
+msgid ""
+"You can paste files and clipboard media straight into OpenShot. If you "
+"copied one or more files in your file manager, switch to OpenShot and press :"
+"kbd:`Ctrl-V` in the **Project Files** panel to add them, just like importing."
+msgstr ""
+"আপনি সরাসরি OpenShot-এ ফাইল এবং ক্লিপবোর্ড মিডিয়া পেস্ট করতে পারেন। যদি আপনি "
+"আপনার ফাইল ম্যানেজারে এক বা একাধিক ফাইল কপি করে থাকেন, OpenShot-এ যান এবং "
+"**প্রোজেক্ট ফাইলস** প্যানেলে :kbd:`Ctrl-V` চাপুন, ঠিক যেমন আমদানি করা হয়।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:67
+msgid ""
+"If you copied media **data** (for example, **Copy Image** in a web browser, "
+"a pasted frame from another app, or other image/audio/video clipboard data), "
+"press :kbd:`Ctrl-V` in OpenShot to create a file for that clipboard content. "
+"OpenShot saves a copy in a temporary folder: ``.openshot_qt/clipboard/``. "
+"The new file is then added to your project and appears in **Project Files**."
+msgstr ""
+"যদি আপনি মিডিয়া **ডেটা** কপি করেন (যেমন, ওয়েব ব্রাউজারে **Copy Image**, অন্য "
+"অ্যাপ থেকে পেস্ট করা ফ্রেম, বা অন্যান্য ছবি/অডিও/ভিডিও ক্লিপবোর্ড ডেটা), OpenShot-"
+"এ :kbd:`Ctrl-V` চাপুন ক্লিপবোর্ডের সেই কন্টেন্টের জন্য একটি ফাইল তৈরি করতে। "
+"OpenShot একটি কপি সাময়িক ফোল্ডারে সংরক্ষণ করে: ``.openshot_qt/clipboard/``। "
+"নতুন ফাইলটি আপনার প্রোজেক্টে যোগ করা হয় এবং **প্রোজেক্ট ফাইলস**-এ প্রদর্শিত হয়।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:74
+msgid "File Menu"
+msgstr "ফাইল মেনু"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:75
+msgid ""
+"To view the file menu, right click on a file (in the **Project Files** "
+"panel). Here are the actions you can use from the file menu."
+msgstr ""
+"ফাইল মেনু দেখতে, একটি ফাইলে ( **প্রোজেক্ট ফাইলস** প্যানেলে) রাইট ক্লিক করুন। এখানে "
+"ফাইল মেনু থেকে আপনি যে কাজগুলো করতে পারেন তা দেওয়া হলো।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:84
+msgid "File Context Option"
+msgstr "ফাইল কনটেক্সট অপশন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:86
+msgid "Import Files..."
+msgstr "ফাইল আমদানি করুন..."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:87
+msgid "Import files into your project"
+msgstr "আপনার প্রোজেক্টে ফাইল আমদানি করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:88
+msgid "Create with AI / Enhance with AI (Optional)"
+msgstr "এআই দিয়ে তৈরি করুন / এআই দিয়ে উন্নত করুন (ঐচ্ছিক)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:89
+msgid ""
+"AI menu actions for generating or enhancing media files. These options are "
+"shown only when AI is enabled and the selected file type supports the "
+"workflow. See :ref:`ai_ref`."
+msgstr ""
+"মিডিয়া ফাইল তৈরি বা উন্নত করার জন্য এআই মেনু ক্রিয়াকলাপ। এই বিকল্পগুলি শুধুমাত্র তখনই "
+"প্রদর্শিত হয় যখন এআই সক্রিয় থাকে এবং নির্বাচিত ফাইলের ধরন ওয়ার্কফ্লো সমর্থন করে। "
+"দেখুন :ref:`ai_ref`।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:90
+msgid "Details View"
+msgstr "বিস্তারিত দৃশ্য"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:91
+msgid "Switch the Project Files panel to details view"
+msgstr "প্রকল্প ফাইল প্যানেলকে বিস্তারিত দৃশ্যে পরিবর্তন করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:92 ../files.rst:114
+msgid "Preview File"
+msgstr "ফাইল প্রিভিউ করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:93
+msgid "Preview a media file"
+msgstr "একটি মিডিয়া ফাইল প্রিভিউ করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:94 ../files.rst:170
+msgid "Split File"
+msgstr "ফাইল ভাগ করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:95
+msgid ""
+"Split a file into many smaller files. The new trimmed files appear in the "
+"Project Files list."
+msgstr ""
+"একটি ফাইলকে অনেক ছোট ফাইলে ভাগ করুন। নতুন ট্রিম করা ফাইলগুলো প্রোজেক্ট ফাইলস "
+"তালিকায় প্রদর্শিত হবে।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:96 ../files.rst:193
+msgid "Export Files"
+msgstr "ফাইল রপ্তানি করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:97
+msgid "Export selected files (and split segments) to a destination folder"
+msgstr "নির্বাচিত ফাইল (এবং বিভক্ত অংশ) গুলো গন্তব্য ফোল্ডারে রপ্তানি করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:98 ../files.rst:205
+msgid "Add to Timeline"
+msgstr "টাইমলাইন-এ যোগ করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:99
+msgid ""
+"Add many files to the timeline in one step, including transitions or "
+"alternating tracks."
+msgstr ""
+"এক ধাপে অনেক ফাইল টাইমলাইনে যোগ করুন, যার মধ্যে ট্রানজিশন বা পরিবর্তনশীল ট্র্যাক "
+"অন্তর্ভুক্ত।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:100
+msgid "Choose Profile"
+msgstr "প্রোফাইল নির্বাচন করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:101
+msgid ""
+"Change the current project profile to match the selected file. If the file's "
+"profile does not match a known profile, it will give you the option to "
+"create a custom profile."
+msgstr ""
+"নির্বাচিত ফাইলের সাথে মিলিয়ে বর্তমান প্রোজেক্ট প্রোফাইল পরিবর্তন করুন। যদি ফাইলের "
+"প্রোফাইল পরিচিত প্রোফাইলের সাথে মেলে না, তাহলে একটি কাস্টম প্রোফাইল তৈরি করার "
+"বিকল্প দেওয়া হবে।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:102 ../files.rst:242
+msgid "File Properties"
+msgstr "ফাইলের বৈশিষ্ট্য"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:103
+msgid "View the properties of a file, such as frame rate, size, etc..."
+msgstr "একটি ফাইলের বৈশিষ্ট্য দেখুন, যেমন ফ্রেম রেট, আকার, ইত্যাদি..."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:104 ../files.rst:125
+msgid "Optimize"
+msgstr "অপ্টিমাইজ করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:105
+msgid ""
+"Create, link, unlink, or delete optimized preview files for the selected "
+"video files."
+msgstr ""
+"নির্বাচিত ভিডিও ফাইলগুলির জন্য অপ্টিমাইজড প্রিভিউ ফাইল তৈরি, লিঙ্ক, আনলিঙ্ক বা মুছে "
+"ফেলুন।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:106 ../files.rst:250
+msgid "Remove from Project"
+msgstr "প্রোজেক্ট থেকে সরান"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:107
+msgid "Remove a file from the project"
+msgstr "প্রোজেক্ট থেকে একটি ফাইল সরান"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:108
+msgid "Edit Title"
+msgstr "টাইটেল সম্পাদনা করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:109
+msgid "Edit an existing title SVG file (shown when an SVG title is selected)"
+msgstr ""
+"বিদ্যমান শিরোনাম SVG ফাইল সম্পাদনা করুন (যখন একটি SVG শিরোনাম নির্বাচিত থাকে তখন "
+"প্রদর্শিত)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:110
+msgid "Duplicate Title"
+msgstr "টাইটেল নকল করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:111
+#, fuzzy
+msgid ""
+"Make a copy, and then edit the copied title SVG file (shown when an SVG "
+"title is selected)"
+msgstr "একটি কপি তৈরি করুন, তারপর কপি করা টাইটেল SVG ফাইলটি সম্পাদনা করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:115
+msgid ""
+"The :guilabel:`Preview File` action opens the Preview dialog for the "
+"selected file from :guilabel:`Project Files`. Simply double check a file to "
+"open this dialog."
+msgstr ""
+":guilabel:`Preview File` ক্রিয়াটি :guilabel:`Project Files` থেকে নির্বাচিত "
+"ফাইলের জন্য প্রিভিউ ডায়ালগ খুলে। এই ডায়ালগটি খুলতে একটি ফাইল ডাবল ক্লিক করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:118
+msgid "Playback starts automatically."
+msgstr "প্লেব্যাক স্বয়ংক্রিয়ভাবে শুরু হয়।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:119
+msgid "Loop is enabled by default."
+msgstr "ডিফল্টভাবে লুপ সক্রিয় থাকে।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:120
+msgid "Press :kbd:`Space` to toggle play/pause."
+msgstr ":kbd:`Space` চাপুন প্লে/পজ টগল করতে।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:121
+msgid "Use the mouse scroll wheel to zoom in/out."
+msgstr "জুম ইন/আউট করতে মাউস স্ক্রোল হুইল ব্যবহার করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:122
+msgid ""
+"A :guilabel:`Reset Zoom` button appears when zoom is not 100%, and resets to "
+"100%."
+msgstr ""
+"জুম ১০০% না হলে একটি :guilabel:`Reset Zoom` বোতাম প্রদর্শিত হয়, যা ১০০% এ রিসেট "
+"করে।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:126
+msgid ""
+"Optimized preview files are lower-resolution copies of your source video "
+"files (sometimes referred to as proxy files), used to improve editing "
+"responsiveness without changing the original media. They are especially "
+"helpful with large formats such as 4K, high frame rate, or high bitrate "
+"footage."
+msgstr ""
+"অপ্টিমাইজড প্রিভিউ ফাইলগুলি আপনার সোর্স ভিডিও ফাইলের কম রেজোলিউশনের কপি (যাকে "
+"কখনও কখনও প্রক্সি ফাইল বলা হয়), যা মূল মিডিয়া পরিবর্তন না করে সম্পাদনার "
+"প্রতিক্রিয়াশীলতা উন্নত করতে ব্যবহৃত হয়। এগুলি বিশেষত বড় ফরম্যাট যেমন 4K, উচ্চ ফ্রেম "
+"রেট, বা উচ্চ বিটরেট ফুটেজের জন্য সহায়ক।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:130
+msgid ""
+"For video files, the file context menu includes an :guilabel:`Optimize` "
+"submenu. This feature creates or links smaller preview copies of your source "
+"clips, which can improve playback and scrubbing on slower systems or with "
+"high-resolution footage. Optimizing also pre-loads thumbnails to further "
+"improve the editing smoothness when zooming into the timeline."
+msgstr ""
+"ভিডিও ফাইলগুলির জন্য, ফাইল কনটেক্সট মেনুতে একটি :guilabel:`Optimize` সাবমেনু "
+"থাকে। এই ফিচারটি আপনার সোর্স ক্লিপের ছোট প্রিভিউ কপি তৈরি বা লিঙ্ক করে, যা ধীর "
+"সিস্টেম বা উচ্চ রেজোলিউশনের ফুটেজে প্লেব্যাক এবং স্ক্রাবিং উন্নত করতে পারে। "
+"অপ্টিমাইজেশন থাম্বনেইলগুলি প্রি-লোড করে টাইমলাইন জুম করার সময় সম্পাদনার মসৃণতা আরও "
+"বাড়ায়।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:135
+msgid "The :guilabel:`Optimize` submenu contains these actions:"
+msgstr ":guilabel:`Optimize` সাবমেনুটি এই ক্রিয়াগুলি অন্তর্ভুক্ত করে:"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:141
+msgid "Action"
+msgstr "ক্রিয়া"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:143
+msgid "Optimize Video"
+msgstr "ভিডিও অপ্টিমাইজ করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:144
+msgid ""
+"Create an optimized preview file for each selected video file. OpenShot "
+"stores these files in the project's ``optimized`` assets folder."
+msgstr ""
+"প্রতিটি নির্বাচিত ভিডিও ফাইলের জন্য একটি অপ্টিমাইজড প্রিভিউ ফাইল তৈরি করুন। "
+"OpenShot এই ফাইলগুলি প্রকল্পের ``optimized`` অ্যাসেট ফোল্ডারে সংরক্ষণ করে।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:145
+msgid "Link to Existing..."
+msgstr "বিদ্যমানের সাথে লিঙ্ক করুন..."
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:146
+msgid ""
+"Choose a folder containing already-created optimized files and link the best "
+"matching files to the selected source clips. This supports common proxy "
+"naming styles, known proxy suffixes, file ID suffixes, and extension changes."
+msgstr ""
+"আগে থেকে তৈরি করা অপ্টিমাইজড ফাইল ধারণকারী একটি ফোল্ডার নির্বাচন করুন এবং "
+"নির্বাচিত সোর্স ক্লিপগুলির সাথে সেরা মিল থাকা ফাইলগুলি লিঙ্ক করুন। এটি সাধারণ প্রক্সি "
+"নামকরণ শৈলী, পরিচিত প্রক্সি সাফিক্স, ফাইল আইডি সাফিক্স এবং এক্সটেনশন পরিবর্তন "
+"সমর্থন করে।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:147
+msgid "Unlink"
+msgstr "লিঙ্ক সরান"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:148
+msgid ""
+"Remove the optimized preview link from the selected file without deleting "
+"the optimized file from disk."
+msgstr ""
+"ডিস্ক থেকে অপ্টিমাইজড ফাইল মুছে না ফেলে নির্বাচিত ফাইল থেকে অপ্টিমাইজড প্রিভিউ "
+"লিঙ্ক সরান।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:149
+msgid "Delete & Unlink"
+msgstr "মুছে ফেলুন ও লিঙ্ক সরান"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:150
+msgid ""
+"Delete the linked optimized file from disk, then remove the link from the "
+"selected file."
+msgstr ""
+"ডিস্ক থেকে লিঙ্ক করা অপ্টিমাইজড ফাইল মুছে ফেলুন, তারপর নির্বাচিত ফাইল থেকে লিঙ্ক "
+"সরান।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:152
+msgid ""
+"When optimization is in progress, the submenu changes to a single :guilabel:"
+"`Cancel` action for the selected file(s). Optimized preview files are used "
+"only for editing and preview playback. Your final export still uses the "
+"original source files."
+msgstr ""
+"অপ্টিমাইজেশন চলাকালীন, সাবমেনুটি নির্বাচিত ফাইল(গুলি) এর জন্য একটি একক :guilabel:"
+"`Cancel` ক্রিয়ায় পরিবর্তিত হয়। অপ্টিমাইজড প্রিভিউ ফাইলগুলি শুধুমাত্র সম্পাদনা এবং "
+"প্রিভিউ প্লেব্যাকের জন্য ব্যবহৃত হয়। আপনার চূড়ান্ত এক্সপোর্ট এখনও মূল সোর্স ফাইল ব্যবহার "
+"করে।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:155
+msgid ""
+"When you use :guilabel:`Link to Existing...`, OpenShot tries to match each "
+"selected source clip to an existing optimized file in a safe order. It first "
+"looks for the same base filename with a different video extension, then for "
+"common proxy-style names such as ``_proxy``, ``_preview``, ``_optimized``, "
+"``_lowres``, resolution tags such as ``_720p`` or ``_1080p``, and camera/"
+"editor-style variants such as ``_p``. It also supports names that add the "
+"OpenShot file ID after a known proxy suffix, such as ``clip001_proxy_F1."
+"mp4``, and it can still match files named only by file ID, such as ``F1."
+"mp4``."
+msgstr ""
+":guilabel:`Link to Existing...` ব্যবহার করার সময়, OpenShot প্রতিটি নির্বাচিত "
+"সোর্স ক্লিপকে একটি বিদ্যমান অপ্টিমাইজড ফাইলের সাথে নিরাপদ ক্রমে মিলানোর চেষ্টা "
+"করে। এটি প্রথমে একই বেস ফাইলনাম খোঁজে ভিন্ন ভিডিও এক্সটেনশন সহ, তারপর সাধারণ "
+"প্রক্সি-স্টাইল নাম যেমন ``_proxy``, ``_preview``, ``_optimized``, ``_lowres``, "
+"রেজোলিউশন ট্যাগ যেমন ``_720p`` বা ``_1080p``, এবং ক্যামেরা/এডিটর-স্টাইল "
+"ভেরিয়েন্ট যেমন ``_p``। এটি পরিচিত প্রক্সি সাফিক্সের পরে OpenShot ফাইল আইডি যোগ "
+"করা নামও সমর্থন করে, যেমন ``clip001_proxy_F1.mp4``, এবং শুধুমাত্র ফাইল আইডি "
+"দ্বারা নামকৃত ফাইলও মিলাতে পারে, যেমন ``F1.mp4``।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:162
+msgid ""
+"Best practice when bringing your own optimized files is to keep the same "
+"base filename as the source clip and add a clear proxy-style suffix, for "
+"example ``clip001_proxy.mp4`` or ``clip001_proxy.mov``. If you need to avoid "
+"filename collisions, append the OpenShot file ID after the proxy suffix, for "
+"example ``clip001_proxy_F1.mp4``. Avoid unrelated suffixes such as "
+"``_final`` or ``_reviewcopy``, because OpenShot does not treat those as safe "
+"proxy naming patterns."
+msgstr ""
+"নিজের অপ্টিমাইজড ফাইল আনার সময় সেরা অভ্যাস হল সোর্স ক্লিপের মতো একই বেস ফাইলনাম "
+"রাখা এবং একটি স্পষ্ট প্রক্সি-স্টাইল সাফিক্স যোগ করা, যেমন ``clip001_proxy.mp4`` বা "
+"``clip001_proxy.mov``। যদি ফাইলনাম সংঘর্ষ এড়াতে হয়, প্রক্সি সাফিক্সের পরে "
+"OpenShot ফাইল আইডি যোগ করুন, যেমন ``clip001_proxy_F1.mp4``। ``_final`` বা "
+"``_reviewcopy`` এর মতো অপ্রাসঙ্গিক সাফিক্স এড়িয়ে চলুন, কারণ OpenShot সেগুলিকে "
+"নিরাপদ প্রক্সি নামকরণ প্যাটার্ন হিসেবে বিবেচনা করে না।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:171
+msgid ""
+"If you need to cut a large video file into many smaller files before "
+"editing, the **Split File** dialog is built exactly for this purpose. Right "
+"click on a file, and choose :guilabel:`Split File`. Use this dialog to "
+"quickly separate a large file into many smaller segments. For each segment, "
+"you can select the starting and ending frame, and a title. Each segment "
+"appears as a new file in the Project Files dialog."
+msgstr ""
+"আপনি যদি একটি বড় ভিডিও ফাইলকে অনেক ছোট ফাইলে কাটতে চান সম্পাদনার আগে, তাহলে "
+"**Split File** ডায়ালগটি ঠিক এই উদ্দেশ্যে তৈরি। একটি ফাইলে রাইট ক্লিক করুন এবং :"
+"guilabel:`Split File` নির্বাচন করুন। এই ডায়ালগ ব্যবহার করে দ্রুত একটি বড় ফাইলকে "
+"অনেক ছোট অংশে ভাগ করুন। প্রতিটি অংশের জন্য আপনি শুরু এবং শেষ ফ্রেম এবং একটি টাইটেল "
+"নির্বাচন করতে পারবেন। প্রতিটি অংশ প্রোজেক্ট ফাইলস ডায়ালগে একটি নতুন ফাইল হিসেবে "
+"প্রদর্শিত হবে।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:182 ../files.rst:216 ../files.rst:240
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:182 ../files.rst:216 ../files.rst:240
+msgid "Name"
+msgstr "নাম"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:184 ../files.rst:218 ../files.rst:242
+msgid "1"
+msgstr "১"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:184
+msgid "Start of File"
+msgstr "ফাইলের শুরু"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:184
+msgid "Choose the starting frame of your file by clicking this button"
+msgstr "এই বাটনে ক্লিক করে আপনার ফাইলের শুরু ফ্রেম নির্বাচন করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:185 ../files.rst:219 ../files.rst:243
+msgid "2"
+msgstr "২"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:185
+msgid "End of File"
+msgstr "ফাইলের শেষ"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:185
+msgid "Choose the ending frame of your file by clicking this button"
+msgstr "এই বোতামে ক্লিক করে আপনার ফাইলের শেষ ফ্রেম নির্বাচন করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:186 ../files.rst:220
+msgid "3"
+msgstr "৩"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:186
+msgid "Name of File"
+msgstr "ফাইলের নাম"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:186
+msgid "Enter an optional name"
+msgstr "ঐচ্ছিক একটি নাম লিখুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:187 ../files.rst:221
+msgid "4"
+msgstr "৪"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:187
+msgid "Create Button"
+msgstr "বোতাম তৈরি করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:187
+msgid ""
+"Create the file (which resets this dialog, so you can repeat these steps for "
+"each segment)"
+msgstr ""
+"ফাইল তৈরি করুন (যা এই ডায়ালগটি রিসেট করবে, তাই আপনি প্রতিটি অংশের জন্য এই "
+"ধাপগুলি পুনরাবৃত্তি করতে পারবেন)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:190
+msgid ""
+"Please refer to the section :ref:`clips_cutting_slicing_ref` for more ways "
+"to cut and slice clips directly in the timeline."
+msgstr ""
+"টাইমলাইনে ক্লিপ সরাসরি কাটছাঁট করার আরও উপায়ের জন্য দয়া করে :ref:"
+"`clips_cutting_slicing_ref` বিভাগটি দেখুন।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:194
+msgid ""
+"If you want your split file segments available outside of your OpenShot "
+"project, or want to copy all your video assets to one place, you can do this "
+"with the **Export Files** dialog. Simply :kbd:`Ctrl+Click` to select all the "
+"files you like, then :kbd:`Right Click` and choose :guilabel:`Export Files`. "
+"In the dialog that appears, choose a destination folder, and click :guilabel:"
+"`Export`."
+msgstr ""
+"আপনি যদি আপনার OpenShot প্রকল্পের বাইরে বিভক্ত ফাইল অংশগুলি ব্যবহার করতে চান, "
+"অথবা আপনার সমস্ত ভিডিও সম্পদ এক জায়গায় কপি করতে চান, তাহলে আপনি **Export "
+"Files** ডায়ালগ ব্যবহার করতে পারেন। পছন্দসই সব ফাইল নির্বাচন করতে :kbd:"
+"`Ctrl+Click` করুন, তারপর :kbd:`Right Click` করে :guilabel:`Export Files` "
+"নির্বাচন করুন। প্রদর্শিত ডায়ালগে গন্তব্য ফোল্ডার নির্বাচন করুন এবং :guilabel:`Export` "
+"ক্লিক করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:199
+msgid ""
+"NOTE: This will export each file or file segment using its **original video "
+"profile** (width, height, framerate, aspect ratio, etc...). It also supports "
+"any :ref:`split_clip_ref` (described above). For example, if you have split "
+"a long video file into many different segments (and named them), you can now "
+"export all the segments as separate video files (using the original file's "
+"video profile)."
+msgstr ""
+"দ্রষ্টব্য: এটি প্রতিটি ফাইল বা ফাইল অংশকে তার **মূল ভিডিও প্রোফাইল** (প্রস্থ, উচ্চতা, "
+"ফ্রেমরেট, অ্যাসপেক্ট রেশিও ইত্যাদি) ব্যবহার করে রপ্তানি করবে। এটি যেকোনো :ref:"
+"`split_clip_ref` (উপরোক্ত বর্ণিত) সমর্থন করে। উদাহরণস্বরূপ, আপনি যদি একটি দীর্ঘ "
+"ভিডিও ফাইলকে অনেক অংশে ভাগ করে থাকেন (এবং নামকরণ করে থাকেন), তাহলে এখন আপনি "
+"সব অংশ আলাদা ভিডিও ফাইল হিসেবে রপ্তানি করতে পারবেন (মূল ফাইলের ভিডিও প্রোফাইল "
+"ব্যবহার করে)।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:206
+msgid ""
+"In certain cases, you might need to add many files to the timeline at the "
+"same time. For example, a photo slideshow, or a large number of short video "
+"clips. The **Add to Timeline** dialog can automate this task for you. First, "
+"select all files you need to add, right click, and choose Add to Timeline."
+msgstr ""
+"কিছু ক্ষেত্রে, আপনাকে একই সময়ে অনেক ফাইল টাইমলাইনে যোগ করতে হতে পারে। "
+"উদাহরণস্বরূপ, একটি ছবি স্লাইডশো বা অনেক ছোট ভিডিও ক্লিপ। **Add to Timeline** "
+"ডায়ালগটি এই কাজটি স্বয়ংক্রিয় করতে পারে। প্রথমে, যোগ করতে চান এমন সব ফাইল "
+"নির্বাচন করুন, রাইট ক্লিক করুন, এবং Add to Timeline নির্বাচন করুন।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:218
+msgid "Selected Files"
+msgstr "নির্বাচিত ফাইলসমূহ"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:218
+msgid "The list of selected files that need to be added to the timeline"
+msgstr "টাইমলাইনে যোগ করার জন্য নির্বাচিত ফাইলগুলির তালিকা"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:219
+msgid "Order of Files"
+msgstr "ফাইলগুলোর ক্রম"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:219
+msgid ""
+"Use these buttons to reorder the list of files (move up, move down, "
+"randomize, remove)"
+msgstr ""
+"ফাইল তালিকার ক্রম পরিবর্তন করতে এই বোতামগুলো ব্যবহার করুন (উপরে সরান, নিচে সরান, "
+"এলোমেলো করুন, সরান)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:220
+msgid "Timeline Position"
+msgstr "টাইমলাইন অবস্থান"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:220
+msgid ""
+"Choose the starting position and track where these files need to be inserted "
+"on the timeline"
+msgstr "এই ফাইলগুলো টাইমলাইনে কোথায় এবং কোন ট্র্যাকে শুরু হবে তা নির্বাচন করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:221
+msgid "Fade Options"
+msgstr "ফেড বিকল্পসমূহ"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:221
+msgid ""
+"Fade in, fade out, both, or none (only affects the image, and not audio)"
+msgstr ""
+"ফেড ইন, ফেড আউট, উভয়, অথবা কোনোটিই নয় (শুধুমাত্র ছবি প্রভাবিত করে, অডিও নয়)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:222
+msgid "5"
+msgstr "৫"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:222
+msgid "Zoom Options"
+msgstr "জুম বিকল্পসমূহ"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:222
+msgid "Zoom in, zoom out, or none"
+msgstr "জুম ইন, জুম আউট, অথবা কোনোটিই নয়"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:223
+msgid "6"
+msgstr "৬"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:223
+msgid "Transitions"
+msgstr "ট্রানজিশনসমূহ"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:223
+msgid ""
+"Choose a specific transition to use between files, random, or none (only "
+"affects the image, and not the audio)"
+msgstr ""
+"ফাইলগুলোর মধ্যে ব্যবহারের জন্য একটি নির্দিষ্ট ট্রানজিশন নির্বাচন করুন, এলোমেলো, অথবা "
+"কোনোটিই নয় (শুধুমাত্র ছবি প্রভাবিত করে, অডিও নয়)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:229
+msgid "Properties"
+msgstr "গুণাবলী"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:230
+msgid ""
+"To view the properties of any imported file in your video project, right "
+"click on the file, and choose **File Properties**. This will launch the file "
+"properties dialog, which displays information about your media file. For "
+"certain types of images (i.e. image sequences), you can adjust the frame "
+"rate on this dialog also."
+msgstr ""
+"আপনার ভিডিও প্রকল্পে আমদানি করা যেকোনো ফাইলের গুণাবলী দেখতে, ফাইলটির উপর রাইট "
+"ক্লিক করুন এবং **File Properties** নির্বাচন করুন। এটি ফাইল গুণাবলী ডায়ালগ খুলবে, "
+"যা আপনার মিডিয়া ফাইল সম্পর্কে তথ্য প্রদর্শন করে। নির্দিষ্ট ধরনের ছবির জন্য (যেমন "
+"ইমেজ সিকোয়েন্স), আপনি এই ডায়ালগে ফ্রেম রেটও সামঞ্জস্য করতে পারেন।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:242
+msgid ""
+"Select an image sequence in the **Project Files** panel, right click and "
+"choose **File Properties**"
+msgstr ""
+"**Project Files** প্যানেলে একটি ইমেজ সিকোয়েন্স নির্বাচন করুন, রাইট ক্লিক করুন এবং "
+"**File Properties** নির্বাচন করুন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:243
+msgid "Frame Rate"
+msgstr "ফ্রেম রেট"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:243
+msgid ""
+"For image sequences, you can also adjust the frame rate of the animation"
+msgstr "ইমেজ সিকোয়েন্সের জন্য, আপনি অ্যানিমেশনের ফ্রেম রেটও সামঞ্জস্য করতে পারেন"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:252
+msgid ""
+"This will remove a file from the project. It will not delete the underlying "
+"physical file though, so removing a file from the project merely makes it "
+"unavailable for this video project."
+msgstr ""
+"এটি প্রকল্প থেকে একটি ফাইল সরিয়ে দেবে। তবে এটি মূল ফিজিক্যাল ফাইল মুছে ফেলবে না, "
+"তাই প্রকল্প থেকে ফাইল সরানো মানে শুধুমাত্র এই ভিডিও প্রকল্পের জন্য এটি অপ্রাপ্য করা।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:257
+msgid "Project Assets Folder"
+msgstr "প্রকল্প সম্পদ ফোল্ডার"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:258
+msgid ""
+"OpenShot creates and uses a few **temporary working folders** while you "
+"edit. These live under ``.openshot_qt/`` in your user profile and hold "
+"project-specific files that OpenShot generates for you:"
+msgstr ""
+"OpenShot সম্পাদনার সময় কয়েকটি **অস্থায়ী কাজের ফোল্ডার** তৈরি করে এবং ব্যবহার "
+"করে। এগুলো আপনার ব্যবহারকারীর প্রোফাইলে ``.openshot_qt/`` এর অধীনে থাকে এবং "
+"প্রকল্প-নির্দিষ্ট ফাইল ধারণ করে যা OpenShot আপনার জন্য তৈরি করে:"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:261
+msgid ""
+"``.openshot_qt/blender/`` - Blender animation renders created by the "
+"Animated Title dialog"
+msgstr ""
+"``.openshot_qt/blender/`` - Animated Title ডায়ালগ দ্বারা তৈরি Blender "
+"অ্যানিমেশন রেন্ডার"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:262
+msgid "``.openshot_qt/title/`` - SVG title files created by the Title dialog"
+msgstr "``.openshot_qt/title/`` - Title ডায়ালগ দ্বারা তৈরি SVG শিরোনাম ফাইল"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:263
+msgid ""
+"``.openshot_qt/thumbnail/`` - Thumbnails generated for Project Files and "
+"Timeline"
+msgstr ""
+"``.openshot_qt/thumbnail/`` - Project Files এবং Timeline এর জন্য তৈরি থাম্বনেইল"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:264
+msgid ""
+"``.openshot_qt/clipboard/`` - Media created from clipboard pastes (images, "
+"audio, or video that must be saved to disk first)"
+msgstr ""
+"``.openshot_qt/clipboard/`` - ক্লিপবোর্ড থেকে পেস্ট করা মিডিয়া (ছবি, অডিও, বা "
+"ভিডিও যা প্রথমে ডিস্কে সংরক্ষণ করতে হয়)"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:265
+msgid ""
+"``.openshot_qt/optimized/`` - Optimized preview files created for smoother "
+"editing"
+msgstr ""
+"``.openshot_qt/optimized/`` - মসৃণ সম্পাদনার জন্য তৈরি অপ্টিমাইজড প্রিভিউ ফাইল"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:266
+msgid "``.openshot_qt/protobuf_data`` - Tracking and object detection data"
+msgstr "``.openshot_qt/protobuf_data`` - ট্র্যাকিং এবং অবজেক্ট সনাক্তকরণ ডেটা"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:268
+msgid ""
+"When you choose **File→Save As**, OpenShot copies these folders into your "
+"project directory, inside a single folder named ``PROJECTNAME_Assets``. For "
+"example: ``MyProject_Assets/clipboard`` will contain any media you pasted "
+"from the clipboard, and ``MyProject_Assets/optimized`` will contain any "
+"optimized preview files linked to the project."
+msgstr ""
+"আপনি যখন **File→Save As** নির্বাচন করবেন, OpenShot এই ফোল্ডারগুলো আপনার প্রকল্প "
+"ডিরেক্টরিতে একটি একক ফোল্ডার ``PROJECTNAME_Assets`` এর ভিতরে কপি করবে। "
+"উদাহরণস্বরূপ: ``MyProject_Assets/clipboard`` তে ক্লিপবোর্ড থেকে পেস্ট করা মিডিয়া "
+"থাকবে, এবং ``MyProject_Assets/optimized`` তে প্রকল্পের সাথে লিঙ্ক করা অপ্টিমাইজড "
+"প্রিভিউ ফাইল থাকবে।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:272
+#, fuzzy
+msgid ""
+"As part of this process, all paths inside your ``*.osp`` project file are "
+"updated to be **relative** to your project folder."
+msgstr ""
+"এই প্রক্রিয়ার অংশ হিসেবে, আপনার ``*.osp`` প্রকল্প ফাইলের সব পথ আপনার প্রকল্প "
+"ফোল্ডারের প্রতি **আপেক্ষিক** হিসেবে আপডেট করা হয়। এটি সবকিছু স্বয়ংসম্পূর্ণ রাখে এবং "
+"এক ফোল্ডার হিসেবে সহজে স্থানান্তর বা ব্যাকআপ করা যায়।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:275
+msgid "Missing Files"
+msgstr "অনুপস্থিত ফাইলসমূহ"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:277
+msgid ""
+"When you create and save a project in OpenShot, any files imported into the "
+"software (such as videos, audio, and images) must remain accessible "
+"throughout the project's duration. This means that these imported files "
+"should not be renamed, deleted, or moved to different folders. Additionally, "
+"the full path where these files are located should not be renamed either. "
+"This principle applies to other video editing software as well."
+msgstr ""
+"যখন আপনি OpenShot-এ একটি প্রকল্প তৈরি এবং সংরক্ষণ করেন, তখন সফটওয়্যারে আমদানি "
+"করা যেকোনো ফাইল (যেমন ভিডিও, অডিও, এবং ছবি) প্রকল্পের সময়কাল জুড়ে অ্যাক্সেসযোগ্য "
+"থাকতে হবে। এর অর্থ এই যে এই আমদানি করা ফাইলগুলোকে নাম পরিবর্তন করা, মুছে ফেলা বা "
+"ভিন্ন ফোল্ডারে সরানো যাবে না। এছাড়াও, এই ফাইলগুলোর অবস্থান যেখানে, সেই সম্পূর্ণ "
+"পথের নামও পরিবর্তন করা যাবে না। এই নীতি অন্যান্য ভিডিও সম্পাদনা সফটওয়্যারেও "
+"প্রযোজ্য।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:282
+msgid ""
+"For example, users might move or delete folders, unplug their USB devices, "
+"or move or delete their project files. Any of these examples cause a :"
+"guilabel:`Missing File` message, in which OpenShot prompts you to locate the "
+"folder of the missing file(s). Depending on the number of files you added to "
+"your project, OpenShot could prompt you many times to find the missing files."
+msgstr ""
+"উদাহরণস্বরূপ, ব্যবহারকারীরা ফোল্ডার সরাতে বা মুছে ফেলতে পারেন, তাদের USB ডিভাইস "
+"আনপ্লাগ করতে পারেন, অথবা তাদের প্রকল্প ফাইল সরাতে বা মুছে ফেলতে পারেন। এই যেকোনো "
+"উদাহরণে :guilabel:`Missing File` বার্তা প্রদর্শিত হয়, যেখানে OpenShot আপনাকে "
+"অনুরোধ করে হারিয়ে যাওয়া ফাইল(গুলি) এর ফোল্ডার খুঁজে বের করতে। আপনার প্রকল্পে যোগ "
+"করা ফাইলের সংখ্যার উপর নির্ভর করে, OpenShot আপনাকে হারিয়ে যাওয়া ফাইলগুলি খুঁজে "
+"পেতে একাধিকবার অনুরোধ করতে পারে।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:286
+msgid ""
+"When OpenShot saves a project, all file paths are converted to **relative** "
+"file paths. As long as you keep all assets organized in the same parent "
+"folder (including the \\*.osp project file), you will be able to move your "
+"project folder without triggering any missing file(s) prompts. You can even "
+"move a self-contained project folder to another computer without any issues."
+msgstr ""
+"যখন OpenShot একটি প্রকল্প সংরক্ষণ করে, তখন সব ফাইল পাথকে **relative** ফাইল পাথে "
+"রূপান্তরিত করা হয়। যতক্ষণ আপনি সব অ্যাসেট একই প্যারেন্ট ফোল্ডারে সুশৃঙ্খলভাবে রাখেন "
+"(\\*.osp প্রকল্প ফাইলসহ), ততক্ষণ আপনি আপনার প্রকল্প ফোল্ডার সরাতে পারবেন কোনো "
+"missing file(s) বার্তা ছাড়াই। আপনি এমনকি একটি স্বয়ংসম্পূর্ণ প্রকল্প ফোল্ডার অন্য "
+"কম্পিউটারে সরাতেও পারবেন কোনো সমস্যা ছাড়াই।"
+
+# Translated with gpt-4.1-mini
+#: ../files.rst:290
+msgid ""
+"Everyone has their unique way of organizing files, and it's crucial to "
+"remember not to make changes to file paths, rename files, or delete files "
+"when working with video editors, as it can lead to missing file issues. For "
+"a detailed guide on missing file(s), see `The Case of “Missing Files”! "
+"<https://github.com/OpenShot/openshot-qt/wiki/Missing-File-Prompt>`_"
+msgstr ""
+"প্রত্যেকের ফাইল সংগঠনের নিজস্ব পদ্ধতি থাকে, এবং ভিডিও এডিটর ব্যবহার করার সময় ফাইল "
+"পাথ পরিবর্তন করা, ফাইলের নাম পরিবর্তন করা বা ফাইল মুছে ফেলা থেকে বিরত থাকা "
+"অত্যন্ত গুরুত্বপূর্ণ, কারণ এতে missing file সমস্যা হতে পারে। missing file(s) সম্পর্কিত "
+"বিস্তারিত নির্দেশনার জন্য দেখুন `The Case of “Missing Files”! <https://github."
+"com/OpenShot/openshot-qt/wiki/Missing-File-Prompt>`_।"

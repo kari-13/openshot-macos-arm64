@@ -1,0 +1,681 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) OpenShot Studios, LLC
+# This file is distributed under the same license as the OpenShot Video Editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenShot Video Editor 3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 16:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:23
+msgid "Transitions"
+msgstr "Yfirfærslur"
+
+#: ../transitions.rst:25
+msgid ""
+"A transition is used to gradually fade (also called a **cross dissolve** or "
+"**crossfade**) or wipe between two clip images. In OpenShot, transitions are"
+" represented by blue, rounded rectangles on the timeline. They are "
+"automatically created when you overlap two clips, and can be added manually "
+"by dragging one onto the timeline from the **Transitions** panel. A "
+"transition must be placed on top of a clip (overlapping it), with the most "
+"common location being the beginning or end of a clip."
+msgstr ""
+"Færsla er notuð til að smám saman hverfa (einnig kölluð **cross dissolve** "
+"eða **crossfade**) eða þurrka á milli tveggja klippumynda. Í OpenShot eru "
+"færslur táknaðar með bláum, hnöttuðum ferningum á tímalínunni. Þær eru "
+"sjálfkrafa búnar til þegar þú leggur tvær klippur yfir hvor aðra, og hægt er"
+" að bæta þeim handvirkt við með því að draga eina á tímalínuna úr "
+"**Transitions** glugganum. Færsla verður að vera sett ofan á klippu (yfir "
+"hana), þar sem algengasta staðsetningin er í byrjun eða enda klippunnar."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:31
+msgid ""
+"NOTE: Transitions **do not** affect **audio**, so if you are intending to "
+"fade in/out the audio volume of a clip, you must adjust the ``volume`` clip "
+"property. See :ref:`clip_properties_ref`"
+msgstr ""
+"ATH: Yfirfærslur hafa **ekki** áhrif á **hljóð**, svo ef þú ætlar að hverfa "
+"inn/út hljóðstyrk klippu, verður þú að stilla ``volume`` eiginleika "
+"klippunnar. Sjá :ref:`clip_properties_ref`"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:35
+msgid "Overview"
+msgstr "Yfirlit"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:40
+msgid "#"
+msgstr "#"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:40
+msgid "Name"
+msgstr "Nafn"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:40 ../transitions.rst:105
+msgid "Description"
+msgstr "Lýsing"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:42
+msgid "1"
+msgstr "1"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:42
+msgid "Clip 1"
+msgstr "Klippa 1"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:42
+msgid "A video clip"
+msgstr "Myndbandsklippa"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:43
+msgid "2"
+msgstr "2"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:43
+msgid "Transition"
+msgstr "Yfirfærsla"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:43
+msgid ""
+"A gradual fade transition between the 2 clip images, created automatically "
+"by overlapping the clips (does not affect the audio)"
+msgstr ""
+"Smám saman hverfandi yfirfærsla milli tveggja klippumynda, búin til "
+"sjálfkrafa með því að leggja klippurnar yfir hvor aðra (hefur ekki áhrif á "
+"hljóðið)"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:44
+msgid "3"
+msgstr "3"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:44
+msgid "Clip 2"
+msgstr "Klippa 2"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:44
+msgid "An image clip"
+msgstr "Myndaklippa"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:48
+msgid "Direction"
+msgstr "Stefna"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:49
+msgid ""
+"Transitions adjust the alpha/transparency of the overlapping clip image "
+"(i.e. the clip under the transition), and can either fade from opaque to "
+"transparent, or transparent to opaque (does not affect the audio). Right "
+"click and choose :guilabel:`Reverse Transition` to change the direction of "
+"the fade. You can also manually adjust the **Brightness** curve, animating "
+"the visual fade in any way you wish."
+msgstr ""
+"Yfirfærslur stilla alfa/gagnsæi myndklippunnar sem liggur undir "
+"yfirfærslunni, og geta annað hvort hverft úr ógegnsæju í gegnsætt, eða "
+"gagnsæju í ógegnsætt (hefur ekki áhrif á hljóðið). Hægri smelltu og veldu "
+":guilabel:`Reverse Transition` til að breyta stefnu hverfingarinnar. Þú "
+"getur einnig handvirkt stillt **Brightness** ferilinn og búið til hreyfimynd"
+" af sjónrænu hverfi eins og þú vilt."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:56
+msgid "Transparency"
+msgstr "Gagnsæi"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:57
+msgid ""
+"If transitions are used on images or videos that contain transparency (*i.e."
+" alpha channel*) this will result in the original clip disappearing abruptly"
+" (or popping out of existence), since OpenShot's transition system expects "
+"the 2nd clip to fully cover up the first clip. For example, if the 2nd clip "
+"does not fully cover the first clip, a transition might not be the best tool"
+" to use. Instead, you should consider adjusting the ``alpha`` property of "
+"the first clip to make it fade out where needed, see "
+":ref:`clip_properties_ref` or :ref:`clip_presets_ref`. Alternatively, you "
+"can combine a transition and ``alpha`` fade when using transparent clips to "
+"more smoothly fade between then."
+msgstr ""
+"Ef yfirfærslur eru notaðar á myndir eða myndbönd sem innihalda gagnsæi "
+"(*þ.e. alfa rás*), mun það valda því að upprunalega klippan hverfur "
+"skyndilega (eða hverfur úr tilvist), þar sem yfirfærslukerfi OpenShot gerir "
+"ráð fyrir að önnur klippan hylji alveg þá fyrstu. Til dæmis, ef önnur "
+"klippan hylur ekki alveg þá fyrstu, gæti yfirfærsla ekki verið besti "
+"kosturinn. Í staðinn ættir þú að íhuga að stilla ``alpha`` eiginleika fyrstu"
+" klippunnar til að láta hana hverfa þar sem þarf, sjá "
+":ref:`clip_properties_ref` eða :ref:`clip_presets_ref`. Einnig getur þú "
+"sameinað yfirfærslu og ``alpha`` hverfingu þegar þú notar gagnsæjar klippur "
+"til að fá mjúkari hverfingu á milli þeirra."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:65
+msgid "Cutting & Slicing"
+msgstr "Klipping og sneiðing"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:66
+msgid ""
+"OpenShot has many easy ways to adjust the start and end trim positions of a "
+"transition (otherwise known as cutting or trimming). The most common method "
+"is simply grabbing the left (or right) edge of the transition and dragging. "
+"For a complete guide to slicing and all available keyboard shortcuts, see "
+"the :ref:`clips_cutting_slicing_ref` and :ref:`keyboard_shortcut_ref` "
+"sections."
+msgstr ""
+"OpenShot býður upp á margar einfaldar leiðir til að stilla byrjun og enda "
+"klippingar yfirfærslu (einnig kallað klippa eða snyrta). Algengasta aðferðin"
+" er einfaldlega að grípa vinstri (eða hægri) brún yfirfærslunnar og draga. "
+"Fyrir fullkomna leiðbeiningu um sneiðingu og alla lyklaborðsflýtilykla, sjá "
+":ref:`clips_cutting_slicing_ref` og :ref:`keyboard_shortcut_ref` kaflana."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:71
+msgid "Mask"
+msgstr "Gríma"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:72
+msgid ""
+"In video editing, masks are powerful tools that allow you to selectively "
+"display specific areas of a video clip. Similar to masking in image editing,"
+" video masks define a region where changes will be applied while leaving "
+"other parts of the video unaffected."
+msgstr ""
+"Í myndbandsklippingu eru grímur öflug verkfæri sem leyfa þér að sýna valin "
+"svæði myndbandsklippu. Líkt og í myndvinnslu skilgreina myndbandsgrímur "
+"svæði þar sem breytingar verða gerðar á meðan aðrir hlutar myndbandsins "
+"haldast óbreyttir."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:76
+msgid ""
+"A mask can be thought of as a shape or path that outlines the area you want "
+"to target. Commonly used shapes include rectangles, circles, and freeform "
+"paths. The masked area is referred to as the \"masked region.\""
+msgstr ""
+"Gríma má hugsa sem form eða leið sem afmarkar svæðið sem þú vilt beina "
+"athyglinni að. Algeng form eru ferningar, hringir og frjálsar leiðir. Svæðið"
+" sem er grímt kallast „grímt svæði“."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:79
+msgid ""
+"Masks can be animated, allowing you to change the shape or position over "
+"time. This enables dynamic effects like revealing hidden elements or "
+"transitioning between different visual states. In OpenShot, you can convert "
+"a transition to a mask, by customizing the :guilabel:`Brightness` key-frame "
+"curve. Keeping a static (unchanging) value of brightness, will maintain a "
+"fixed mask location. Combine this with custom transition images, or even "
+"custom image sequences, to create animated, complex masks."
+msgstr ""
+"Grímur má hreyfimynda, sem leyfir þér að breyta formi eða staðsetningu með "
+"tímanum. Þetta gerir kleift að búa til kraftmikla áhrif eins og að sýna "
+"falin atriði eða skipta á milli mismunandi sjónrænna ástands. Í OpenShot "
+"getur þú breytt yfirfærslu í grímu með því að sérsníða "
+":guilabel:`Brightness` lykilrammaferilinn. Að halda föstu (óbreyttu) "
+"birtugildi viðheldur föstu staðsetningu grímunnar. Sameinaðu þetta með "
+"sérsniðnum yfirfærslumyndum eða jafnvel sérsniðnum myndaröðum til að búa til"
+" hreyfimyndaðar, flóknar grímur."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:86
+msgid "Custom Transition"
+msgstr "Sérsniðin yfirfærsla"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:87
+msgid ""
+"Any greyscale image can be used as a transition (or mask), by adding it to "
+"your ``~/.openshot_qt/transitions/`` folder. Just be sure to name your file "
+"something that is easily recognizable, and restart OpenShot. Your custom "
+"transition/mask will now show up in the list of transitions."
+msgstr ""
+"Hvaða gráskalalitur mynd sem er má nota sem yfirfærslu (eða grímu) með því "
+"að bæta henni í ``~/.openshot_qt/transitions/`` möppuna þína. Gakktu bara úr"
+" skugga um að skráarnafn sé auðþekkjanlegt og endurræstu OpenShot. Sérsniðna"
+" yfirfærslan/gríman þín mun nú birtast í lista yfir yfirfærslur."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:92
+msgid "Transition Properties"
+msgstr "Eiginleikar yfirfærslu"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:93
+msgid ""
+"Below is a list of transition properties which can be edited, and in most "
+"cases, animated over time. To view a transition's properties, right click "
+"and choose :guilabel:`Properties`. The property editor will appear, where "
+"you can change these properties. NOTE: Pay close attention to where the "
+"play-head (i.e. red playback line) is. Key frames are automatically created "
+"at the current playback position, to help create animations."
+msgstr ""
+"Hér að neðan er listi yfir eiginleika yfirfærslu sem hægt er að breyta og í "
+"flestum tilfellum hreyfimynda yfir tíma. Til að skoða eiginleika yfirfærslu,"
+" hægrismelltu og veldu :guilabel:`Properties`. Eiginleikaritillinn birtist "
+"þar sem þú getur breytt þessum eiginleikum. ATH: Fylgstu vel með hvar "
+"spilunarhausinn (rauða spilunar línan) er staðsettur. Lykilrammar eru "
+"sjálfkrafa búnir til á núverandi spilunarstað til að hjálpa við að búa til "
+"hreyfimyndir."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:98
+msgid ""
+"NOTE: Transitions do not affect audio, so if you are intending to fade "
+"in/out the audio volume of a clip, you must adjust the ``volume`` clip "
+"property. See :ref:`clip_properties_ref`."
+msgstr ""
+"ATH: Yfirfærslur hafa ekki áhrif á hljóð, svo ef þú ætlar að hverfa inn/út "
+"hljóðstyrk klippu, verður þú að stilla ``volume`` eiginleika klippunnar. Sjá"
+" :ref:`clip_properties_ref`."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:105
+msgid "Transition Property Name"
+msgstr "Nafn eiginleika yfirfærslu"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:105
+msgid "Type"
+msgstr "Tegund"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:107
+msgid "Brightness"
+msgstr "Birtustig"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:107 ../transitions.rst:108
+msgid "Key-frame"
+msgstr "Lykilrammi"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:107
+msgid ""
+"Curve representing the brightness of the transition image, which affects the"
+" fade/wipe (-1 to 1)"
+msgstr ""
+"Ferill sem lýsir birtustigi yfirfærslumyndarinnar, sem hefur áhrif á "
+"dofningu/þurrkun (-1 til 1)"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:108
+msgid "Contrast"
+msgstr "Andstæða"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:108
+msgid ""
+"Curve representing the contrast of the transition image, which affects the "
+"softness/hardness of the fade/wipe (0 to 20)"
+msgstr ""
+"Ferill sem lýsir andstæðu yfirfærslumyndarinnar, sem hefur áhrif á "
+"mýkt/harðleika dofningar/þurrkunar (0 til 20)"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:109 ../transitions.rst:124
+msgid "Duration"
+msgstr "Lengd"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:109 ../transitions.rst:110 ../transitions.rst:117
+#: ../transitions.rst:119
+msgid "Float"
+msgstr "Kommutala"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:109
+msgid "The length of the transition (in seconds). Read-only property."
+msgstr ""
+"Lengd yfirfærslunnar (í sekúndum). Eiginleiki sem aðeins er hægt að lesa."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:110 ../transitions.rst:132
+msgid "End"
+msgstr "Endir"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:110
+msgid "The end trimming position of the transition (in seconds)."
+msgstr "Staðsetning endaskurðar yfirfærslunnar (í sekúndum)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:111 ../transitions.rst:140
+msgid "ID"
+msgstr "Auðkenni"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:111 ../transitions.rst:116
+msgid "String"
+msgstr "Strengur"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:111
+msgid ""
+"A randomly generated GUID (globally unique identifier) assigned to each "
+"transition. Read-only property."
+msgstr ""
+"Handahófskennt búið til GUID (alþjóðlegt einstakt auðkenni) úthlutað hverri "
+"yfirfærslu. Eiginleiki sem aðeins er hægt að lesa."
+
+#: ../transitions.rst:112
+msgid "Mask: Invert"
+msgstr "Gríma: Snúa við"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:112 ../transitions.rst:113 ../transitions.rst:118
+msgid "Bool"
+msgstr "Rökgildi"
+
+#: ../transitions.rst:112
+msgid ""
+"Invert the mask source so light areas become dark and dark areas become "
+"light."
+msgstr ""
+"Snúa við grímugjafanum svo ljós svæði verði dökk og dökk svæði verði ljós."
+
+#: ../transitions.rst:113
+msgid "Mask: Loop"
+msgstr "Gríma: Endurtekning"
+
+#: ../transitions.rst:113
+msgid ""
+"Loop an animated mask source when the transition is longer than the source."
+msgstr ""
+"Endurtaka hreyfimyndaðan grímugjafa þegar færsla er lengri en gjafinn."
+
+#: ../transitions.rst:114
+msgid "Mask: Source"
+msgstr "Gríma: Uppspretta"
+
+#: ../transitions.rst:114
+msgid "Reader"
+msgstr "Lesari"
+
+#: ../transitions.rst:114
+msgid ""
+"The image, image sequence, or video used as the transition's grayscale mask "
+"source."
+msgstr ""
+"Myndin, myndaröðin eða myndbandið sem notað er sem gráskalagrímugjafi fyrir "
+"færsluna."
+
+#: ../transitions.rst:115
+msgid "Mask: Time Mode"
+msgstr "Gríma: Tímastilling"
+
+#: ../transitions.rst:115
+msgid "Enum"
+msgstr "Talnasafn"
+
+#: ../transitions.rst:115
+msgid "Controls how OpenShot maps transition time to an animated mask source."
+msgstr ""
+"Stýrir hvernig OpenShot tengir tímann á færslunni við hreyfimyndaðan "
+"grímugjafa."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:116
+msgid "Parent"
+msgstr "Foreldri"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:116
+msgid ""
+"The parent object to this transition, which makes many of these keyframe "
+"values initialize to the parent value."
+msgstr ""
+"Foreldrahlutur yfirfærslunnar, sem veldur því að mörg þessara "
+"lykilrammagilda byrja á gildum foreldrisins."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:117
+msgid "Position"
+msgstr "Staðsetning"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:117
+msgid "The position of the transition on the timeline (in seconds)."
+msgstr "Staðsetning yfirfærslunnar á tímalínunni (í sekúndum)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:118
+msgid "Replace Image"
+msgstr "Skipta um mynd"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:118
+msgid ""
+"For debugging a problem, this property displays the transition image "
+"(instead of becoming a transparency)."
+msgstr ""
+"Til að greina villu sýnir þessi eiginleiki yfirfærslumyndina (í stað þess að"
+" verða gegnsæi)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:119
+msgid "Start"
+msgstr "Byrjun"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:119
+msgid "The start trimming position of the transition (in seconds)."
+msgstr "Staðsetning byrjunar skurðar yfirfærslunnar (í sekúndum)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:120 ../transitions.rst:158
+msgid "Track"
+msgstr "Rás"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:120
+msgid "Int"
+msgstr "Heiltala"
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:120
+msgid ""
+"The layer which holds the transition (higher tracks are rendered on top of "
+"lower tracks)."
+msgstr ""
+"Lagið sem heldur utan um yfirfærsluna (efri rásir eru teiknaðar ofan á neðri"
+" rásir)."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:125
+msgid ""
+"The :guilabel:`Duration` property is a float value indicating the length of "
+"the transition in seconds. This is a Read-only property. This is calculated "
+"by: End - Start. To modify duration, you must edit the :guilabel:`Start` "
+"and/or :guilabel:`End` transition properties."
+msgstr ""
+"Eiginleikinn :guilabel:`Lengd` er kommutala sem sýnir lengd yfirfærslunnar í"
+" sekúndum. Þetta er eiginleiki sem aðeins er hægt að lesa. Hann er reiknaður"
+" sem: Endir - Byrjun. Til að breyta lengdinni verður þú að breyta "
+":guilabel:`Byrjun` og/eða :guilabel:`Endir` eiginleikum yfirfærslunnar."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:128
+msgid ""
+"**Usage Example:** Inspect the duration of a transition to ensure it fits a "
+"specific time slot in the project."
+msgstr ""
+"**Dæmi um notkun:** Skoðaðu lengd yfirfærslu til að tryggja að hún passi í "
+"ákveðinn tíma í verkefninu."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:129
+msgid ""
+"**Tip:** Consider using the \"Duration\" property for transitions that need "
+"to match specific time intervals, such as dialogue or scenes."
+msgstr ""
+"**Ábending:** Íhugaðu að nota eiginleikann „Lengd“ fyrir yfirfærslur sem "
+"þurfa að passa við ákveðin tímabil, eins og samtöl eða senur."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:133
+msgid ""
+"The :guilabel:`End` property defines the trimming point at the end of the "
+"transition in seconds, allowing you to control how much of the transition is"
+" visible in the timeline. Changing this property will impact the "
+":guilabel:`Duration` transition property."
+msgstr ""
+"Eiginleikinn :guilabel:`Endir` skilgreinir skurðpunkt í lok yfirfærslunnar í"
+" sekúndum, sem gerir þér kleift að stjórna hversu mikið af yfirfærslunni "
+"sést á tímalínunni. Breyting á þessum eiginleika hefur áhrif á "
+":guilabel:`Lengd` yfirfærslunnar."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:136
+msgid ""
+"**Usage Example:** Trimming the end of a transition to align with another "
+"clip or trimming off unwanted sections of the transition."
+msgstr ""
+"**Dæmi um notkun:** Klippa endann á yfirfærslu til að samræma við annan "
+"klippu eða fjarlægja óæskilegar hluta yfirfærslunnar."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:137
+msgid ""
+"**Tip:** Combine the \"Start\" and \"End\" properties to precisely control "
+"the visible portion of the transition."
+msgstr ""
+"**Ábending:** Sameinaðu eiginleikana „Byrjun“ og „Endir“ til að stjórna "
+"nákvæmlega sýnilegum hluta yfirfærslunnar."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:141
+msgid ""
+"The :guilabel:`ID` property holds a randomly generated GUID (Globally Unique"
+" Identifier) assigned to each transition, ensuring its uniqueness. This is a"
+" Read-only property, and assigned by OpenShot when a transition is created."
+msgstr ""
+"Eiginleikinn :guilabel:`Auðkenni` inniheldur handahófskennt búið til GUID "
+"(alþjóðlegt einstakt auðkenni) sem úthlutað er hverri yfirfærslu til að "
+"tryggja sérstöðu hennar. Þetta er eiginleiki sem aðeins er hægt að lesa og "
+"er úthlutað af OpenShot þegar yfirfærsla er búin til."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:144
+msgid ""
+"**Usage Example:** Referencing specific transitions within custom scripts or"
+" automation tasks."
+msgstr ""
+"**Dæmi um notkun:** Vísa til ákveðinna yfirfærslna í sérsniðnum skriftum eða"
+" sjálfvirkniverkefnum."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:145
+msgid ""
+"**Tip:** While typically managed behind the scenes, understanding transition"
+" IDs can aid in advanced project customization."
+msgstr ""
+"**Ábending:** Þó að yfirfærsluauðkenni séu venjulega stjórnað í bakgrunni "
+"getur skilningur á þeim hjálpað við flókna sérsniðningu verkefna."
+
+#: ../transitions.rst:148
+msgid "Mask Properties"
+msgstr "Eiginleikar grímu"
+
+#: ../transitions.rst:149
+msgid ""
+"The :guilabel:`Mask: Source`, :guilabel:`Mask: Time Mode`, :guilabel:`Mask: "
+"Loop`, and :guilabel:`Mask: Invert` properties control the grayscale mask "
+"used by a transition. Static masks use a single image. Animated masks can "
+"use video or image sequences, with time mapping and looping options "
+"determining which source frame is used at each point in the transition."
+msgstr ""
+":guilabel:`Gríma: Uppspretta`, :guilabel:`Gríma: Tímastilling`, "
+":guilabel:`Gríma: Endurtekning` og :guilabel:`Gríma: Snúa við` "
+"eiginleikarnir stjórna gráskalagrímunni sem færsla notar. Kyrrstæður grímur "
+"nota eina mynd. Hreyfimyndaðar grímur geta notað myndband eða myndaröð, þar "
+"sem tímamótun og endurtekning ákvarða hvaða ramma úr gjafanum er notaður á "
+"hverjum tímapunkti í færslunni."
+
+#: ../transitions.rst:154
+msgid ""
+"**Usage Example:** Use :guilabel:`Mask: Invert` when the visible and hidden "
+"areas of a custom mask are reversed."
+msgstr ""
+"**Dæmi um notkun:** Notaðu :guilabel:`Gríma: Snúa við` þegar sýnileg og "
+"falin svæði sérsniðinnar grímu eru öfug."
+
+#: ../transitions.rst:155
+msgid ""
+"**Tip:** When using an animated mask, trim the mask source carefully before "
+"enabling loop behavior."
+msgstr ""
+"**Ábending:** Þegar þú notar hreyfimyndaða grímu, skerðu grímugjafann "
+"vandlega áður en þú virkjar endurtekningu."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:159
+msgid ""
+"The :guilabel:`Track` property is an integer indicating the layer on which "
+"the transition is placed. Transitions on higher tracks are rendered above "
+"those on lower tracks."
+msgstr ""
+"Eiginleikinn :guilabel:`Rás` er heiltala sem sýnir lagið sem yfirfærslan er "
+"staðsett á. Yfirfærslur á efri rásum eru teiknaðar ofan á þær á neðri rásum."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:162
+msgid ""
+"**Usage Example:** Arranging transitions in different layers for creating "
+"visual depth and complexity."
+msgstr ""
+"**Dæmi um notkun:** Raða yfirfærslum á mismunandi lög til að skapa sjónræna "
+"dýpt og flækjustig."
+
+# Translated with gpt-4.1-mini
+#: ../transitions.rst:163
+msgid ""
+"**Tip:** Use higher tracks for elements that need to appear above others, "
+"like text overlays or graphics."
+msgstr ""
+"**Ábending:** Notaðu efri rásir fyrir þætti sem þurfa að birtast ofan á "
+"öðrum, eins og textalag eða grafík."
+
+# Translated with gpt-4.1-mini
+#~ msgid ""
+#~ "A transition is used to gradually fade (or wipe) between two clip images. In"
+#~ " OpenShot, transitions are represented by blue, rounded rectangles on the "
+#~ "timeline. They are automatically created when you overlap two clips, and can"
+#~ " be added manually by dragging one onto the timeline from the "
+#~ "**Transitions** panel. A transition must be placed on top of a clip "
+#~ "(overlapping it), with the most common location being the beginning or end "
+#~ "of a clip."
+#~ msgstr ""
+#~ "Yfirfærslur eru notaðar til að hverfa smám saman (eða þurrka) milli tveggja "
+#~ "klippumynda. Í OpenShot eru yfirfærslur táknaðar með bláum, hnöttóttu "
+#~ "rétthyrningum á tímalínunni. Þær eru sjálfkrafa búnar til þegar þú leggur "
+#~ "tvær klippur yfir hvor aðra, og hægt er að bæta þeim við handvirkt með því "
+#~ "að draga eina á tímalínuna úr **Yfirfærslur** spjaldinu. Yfirfærsla verður "
+#~ "að vera sett ofan á klippu (yfirfallandi), algengasta staðsetningin er í "
+#~ "byrjun eða enda klippunnar."
