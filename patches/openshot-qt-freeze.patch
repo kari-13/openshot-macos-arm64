@@ -1,0 +1,51 @@
+diff --git a/freeze.py b/freeze.py
+index 44e12ca38..2bf9f523a 100644
+--- a/freeze.py
++++ b/freeze.py
+@@ -64,7 +64,6 @@ from cx_Freeze import setup, Executable
+ import cx_Freeze
+ import shutil
+ from installer.version_parser import parse_version_info, parse_build_name, write_build_metadata
+-
+ PATH = os.path.dirname(os.path.realpath(__file__))  # Primary openshot folder
+ sys.path.insert(0, os.path.join(PATH, "src"))
+ from qt_api import QLibraryInfo, QT_API
+@@ -118,6 +117,10 @@ python_modules = ["{}.QtNetwork".format(QT_BINDING_PACKAGE),"idna.idnadata",
+                   "sentry_sdk.integrations.threading",
+                   ]
+ 
++import pkgutil
++import sentry_sdk.integrations as _si
++python_modules += ["sentry_sdk.integrations." + m.name for m in pkgutil.iter_modules(_si.__path__)]
++
+ # Look for optional --git-branch arg, and remove it
+ git_branch_name = "develop"
+ for arg in sys.argv:
+@@ -729,14 +732,14 @@ build_options["build_exe"] = build_exe_options
+ exes = [Executable("openshot_qt/launch.py",
+                    base=base,
+                    icon=os.path.join(PATH, "xdg", iconFile),
+-                   shortcutName="%s" % info.PRODUCT_NAME,
+-                   shortcutDir="ProgramMenuFolder",
+-                   targetName=exe_name,
++                   shortcut_name="%s" % info.PRODUCT_NAME,
++                   shortcut_dir="ProgramMenuFolder",
++                   target_name=exe_name,
+                    copyright=info.COPYRIGHT)]
+ 
+ # Agent CLI needs a console entry point, including in GUI-only Windows bundles.
+ exes.append(Executable("openshot_qt/cli.py", base=None,
+-                       targetName="openshot-cli.exe" if sys.platform == "win32" else "openshot-cli",
++                       target_name="openshot-cli.exe" if sys.platform == "win32" else "openshot-cli",
+                        copyright=info.COPYRIGHT))
+ 
+ try:
+@@ -744,7 +747,7 @@ try:
+     exes.append(Executable("openshot_qt/launch.py",
+                 base=extra_exe['base'],
+                 icon=os.path.join(PATH, "xdg", iconFile),
+-                targetName=extra_exe['name'],
++                target_name=extra_exe['name'],
+                 copyright=info.COPYRIGHT))
+ except NameError:
+     pass

@@ -1,0 +1,11 @@
+.venv/
+build/
+install/
+openshot_qt/
+*.egg-info/
+__pycache__/
+*.pyc
+*.app/
+*.dmg
+*.zip
+.DS_Store
